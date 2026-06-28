@@ -41,6 +41,21 @@ Reads `VITE_API_BASE_URL` at build time. If set, uses `HttpContentRepository` + 
 
 Actual lesson IDs come from `src/data/units/unit-01-basics.ts` (e.g. `"lesson-1-greetings"`), not numeric slugs like `u01-l01`.
 
+### `useLessonSession` exercise contract
+
+Exercise components receive `onAnswer` (= `submitAnswer`) and must follow this contract:
+
+- Call `onAnswer(true)` **exactly once**, when the exercise is fully solved — this advances `currentIndex` and ends the lesson on the last exercise.
+- Call `onAnswer(false)` for **every individual wrong attempt** — this deducts a heart and increments `mistakeCount`, but does **not** advance `currentIndex`.
+
+Single-step exercises (multiple-choice, fill-blank, word-bank) call it once either way. Multi-step exercises like `Matching` (`src/components/exercises/Matching.tsx`) call `onAnswer(false)` per mismatched pair attempt and `onAnswer(true)` only once all pairs are matched — a wrong attempt does not reset progress on already-matched pairs.
+
+## Content authoring
+
+Sarnami romanization uses diacritics (ā/ī/ū macrons, ṭ/ḍ/ṇ underdots, ñ/ṅ) that `pdftotext` and similar raw text extraction commonly corrupt or drop (e.g. ā → ä, or the diacritic vanishing entirely). Don't trust extracted text from book-source PDFs directly — verify spellings against rendered page images.
+
+Vocab entries sourced from the book carry `book-pNN` tags for traceability; entries not yet cross-checked against a second source carry `needs-verification` (see `src/data/vocab/greetings.ts`).
+
 ## Design system
 
 Colors derived from the Suriname flag:
