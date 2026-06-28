@@ -33,6 +33,18 @@ jobs:
       - name: Install
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
+      - name: Cache Playwright browsers
+        id: pw-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - name: Install Playwright Chromium
+        if: steps.pw-cache.outputs.cache-hit != 'true'
+        run: npx playwright install chromium --with-deps
+      - name: Install Playwright OS deps
+        if: steps.pw-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps chromium
 
   # ── 1. TypeScript typecheck ─────────────────────────────────────────────────
   typecheck:
@@ -156,7 +168,11 @@ jobs:
         with:
           name: dist
           path: dist/
-      - run: npx playwright install chromium --with-deps
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - run: npx playwright install-deps chromium
       - name: Run test
         id: pw
         run: npx playwright test e2e/home.spec.ts
@@ -199,7 +215,11 @@ jobs:
         with:
           name: dist
           path: dist/
-      - run: npx playwright install chromium --with-deps
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - run: npx playwright install-deps chromium
       - name: Run test
         id: pw
         run: npx playwright test e2e/lesson-node.spec.ts
@@ -242,7 +262,11 @@ jobs:
         with:
           name: dist
           path: dist/
-      - run: npx playwright install chromium --with-deps
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - run: npx playwright install-deps chromium
       - name: Run test
         id: pw
         run: npx playwright test e2e/lesson-summary.spec.ts
@@ -285,7 +309,11 @@ jobs:
         with:
           name: dist
           path: dist/
-      - run: npx playwright install chromium --with-deps
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - run: npx playwright install-deps chromium
       - name: Run test
         id: pw
         run: npx playwright test e2e/nav.spec.ts
@@ -328,7 +356,11 @@ jobs:
         with:
           name: dist
           path: dist/
-      - run: npx playwright install chromium --with-deps
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - run: npx playwright install-deps chromium
       - name: Run test
         id: pw
         run: npx playwright test e2e/profile.spec.ts
