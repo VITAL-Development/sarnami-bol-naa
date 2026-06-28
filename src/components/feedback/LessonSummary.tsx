@@ -1,3 +1,5 @@
+import { faCircleCheck, faHeartCrack } from "@fortawesome/free-solid-svg-icons";
+import { Icon } from "@/components/ui/Icon";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { t } from "@/i18n/t";
@@ -12,12 +14,15 @@ interface LessonSummaryProps {
 export function LessonSummary({ passed, xpEarned, onBackToPath, onRetry }: LessonSummaryProps) {
   return (
     <Card className="text-center">
-      <p className="text-4xl">{passed ? "🎉" : "💔"}</p>
+      <Icon
+        icon={passed ? faCircleCheck : faHeartCrack}
+        className={`text-4xl ${passed ? "text-forest-600" : "text-flame-600"}`}
+      />
       <h2 className="mt-2 text-2xl font-bold">
         {passed ? t("lesson.lessonComplete") : t("lesson.lessonFailed")}
       </h2>
       {passed && (
-        <p className="mt-2 text-lg font-semibold text-sarnami-600">
+        <p className="mt-2 text-lg font-semibold text-forest-600">
           +{xpEarned} {t("lesson.xpEarned")}
         </p>
       )}

@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { faLock, faStar } from "@fortawesome/free-solid-svg-icons";
+import { Icon } from "@/components/ui/Icon";
 
 interface SkillNodeProps {
   title: string;
@@ -16,21 +18,29 @@ export function SkillNode({ title, order, locked, completed, stars, lessonId }: 
         locked
           ? "border-stone-200 bg-stone-50 text-stone-400"
           : completed
-            ? "border-green-400 bg-green-50 text-green-700"
-            : "border-sarnami-400 bg-white text-sarnami-700 shadow-sm hover:bg-sarnami-50"
+            ? "border-forest-400 bg-forest-50 text-forest-700"
+            : "border-forest-400 bg-white text-forest-700 shadow-sm hover:bg-forest-50"
       }`}
     >
       <div
         className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full font-bold ${
-          locked ? "bg-stone-200" : completed ? "bg-green-400 text-white" : "bg-sarnami-500 text-white"
+          locked ? "bg-stone-200 text-stone-400" : completed ? "bg-forest-500 text-white" : "bg-forest-600 text-white"
         }`}
       >
-        {locked ? "🔒" : order}
+        {locked ? <Icon icon={faLock} /> : order}
       </div>
       <div className="flex-1">
         <p className="font-semibold">{title}</p>
         {completed && stars !== undefined && (
-          <p className="text-sm">{"★".repeat(stars)}{"☆".repeat(3 - stars)}</p>
+          <p className="flex gap-0.5 text-sm">
+            {Array.from({ length: 3 }, (_, i) => (
+              <Icon
+                key={i}
+                icon={faStar}
+                className={i < stars ? "text-gold-400" : "text-stone-200"}
+              />
+            ))}
+          </p>
         )}
       </div>
     </div>
