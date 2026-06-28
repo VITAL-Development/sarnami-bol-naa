@@ -9,85 +9,423 @@ permissions:
   contents: read
   pull-requests: write
 
-jobs:
-  test:
-    name: Unit tests
-    runs-on: ubuntu-latest
+# ── Shared step fragments ────────────────────────────────────────────────────
+# Each job restores node_modules from the cache seeded by the install job.
+# The cache key is the package-lock.json hash, so a lockfile change triggers
+# a fresh npm ci in the install job and propagates to all downstream jobs.
 
+jobs:
+  # ── 0. Seed npm cache ───────────────────────────────────────────────────────
+  install:
+    name: Install dependencies
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
-          cache: npm
-
-      - name: Install dependencies
+          node-version: "22"
+      - name: Cache node_modules
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+      - name: Install
+        if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
 
+  # ── 1. TypeScript typecheck ─────────────────────────────────────────────────
+  typecheck:
+    name: "Check 1: TypeScript typecheck"
+    needs: install
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('package-lock.json') }}
       - name: Typecheck
+        id: tc
         run: npm run typecheck
+        continue-on-error: true
+      - name: Write result
+        run: |
+          node -e "
+            const fs = require('fs');
+            fs.writeFileSync('result-typecheck.json', JSON.stringify({
+              job: 'typecheck',
+              label: 'TypeScript typecheck',
+              passed: '${{ steps.tc.outcome }}' === 'success',
+              detail: ''
+            }));
+          "
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: result-typecheck
+          path: result-typecheck.json
+      - if: steps.tc.outcome == 'failure'
+        run: exit 1
 
-      - name: Run tests (JSON output)
-        id: run_tests
+  # ── 2. Unit tests ──────────────────────────────────────────────────────────
+  unit-tests:
+    name: "Check 2: Unit tests"
+    needs: install
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+      - name: Run tests
+        id: tests
         run: npm run test:ci
         continue-on-error: true
-
-      - name: Build test report
-        if: github.event_name == 'pull_request'
-        id: report
+      - name: Write result
         run: |
-          node - <<'EOF'
-          const fs = require("fs");
-          const raw = fs.readFileSync("test-results.json", "utf8");
-          const data = JSON.parse(raw);
-
-          const totalFiles   = data.numTotalTestSuites ?? 0;
-          const passedFiles  = data.numPassedTestSuites ?? 0;
-          const failedFiles  = data.numFailedTestSuites ?? 0;
-          const totalTests   = data.numTotalTests ?? 0;
-          const passedTests  = data.numPassedTests ?? 0;
-          const failedTests  = data.numFailedTests ?? 0;
-          const duration     = ((data.testResults ?? []).reduce((s, f) => s + (f.endTime - f.startTime), 0) / 1000).toFixed(2);
-
-          const icon = failedTests === 0 ? "✅" : "❌";
-          const statusLine = failedTests === 0
-            ? `All **${totalTests}** tests passed.`
-            : `**${failedTests}** of **${totalTests}** tests failed.`;
-
-          // Collect failed test names for the report
-          const failures = [];
-          for (const suite of (data.testResults ?? [])) {
-            for (const t of (suite.testResults ?? [])) {
-              if (t.status === "failed") {
-                failures.push(`- \`${suite.testFilePath.replace(process.cwd() + "/", "")}\` › ${t.ancestorTitles.join(" › ")} › **${t.title}**\n  ${(t.failureMessages ?? []).join("\n  ")}`);
-              }
-            }
-          }
-
-          let body = `## ${icon} Test Report\n\n`;
-          body += `${statusLine}\n\n`;
-          body += `| | Count |\n|---|---|\n`;
-          body += `| Test suites | ${passedFiles} passed, ${failedFiles} failed, ${totalFiles} total |\n`;
-          body += `| Tests | ${passedTests} passed, ${failedTests} failed, ${totalTests} total |\n`;
-          body += `| Duration | ${duration}s |\n`;
-
-          if (failures.length > 0) {
-            body += `\n### Failed tests\n\n${failures.join("\n\n")}\n`;
-          }
-
-          body += `\n<sub>Generated by [CI workflow](${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID})</sub>`;
-
-          fs.writeFileSync("pr-comment.md", body);
-          EOF
-
-      - name: Post test report as PR comment
+          node -e "
+            const fs = require('fs');
+            let detail = '';
+            try {
+              const r = JSON.parse(fs.readFileSync('test-results.json', 'utf8'));
+              detail = r.numPassedTests + '/' + r.numTotalTests + ' tests passed';
+            } catch (_) {}
+            fs.writeFileSync('result-unit-tests.json', JSON.stringify({
+              job: 'unit-tests',
+              label: 'Unit tests (61)',
+              passed: '${{ steps.tests.outcome }}' === 'success',
+              detail
+            }));
+          "
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: result-unit-tests
+          path: |
+            result-unit-tests.json
+            test-results.json
+      - name: Post unit test comment
         if: github.event_name == 'pull_request'
         uses: marocchino/sticky-pull-request-comment@v2
         with:
-          header: test-report
-          path: pr-comment.md
-
-      - name: Fail job if tests failed
-        if: steps.run_tests.outcome == 'failure'
+          header: unit-test-report
+          path: test-results.json
+        continue-on-error: true
+      - if: steps.tests.outcome == 'failure'
         run: exit 1
+
+  # ── Build (gate for visual checks) ─────────────────────────────────────────
+  build:
+    name: Build
+    needs: [typecheck, unit-tests]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+      - run: npm run build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+  # ── Helper: shared Playwright setup steps (referenced inline below) ─────────
+  # Each visual job: restore node_modules + dist, install Chromium, run test
+
+  # ── 3. Visual: Home HUD icons ──────────────────────────────────────────────
+  visual-home:
+    name: "Check 3: Home HUD icons"
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - run: npx playwright install chromium --with-deps
+      - name: Run test
+        id: pw
+        run: npx playwright test e2e/home.spec.ts
+        continue-on-error: true
+      - name: Write result
+        if: always()
+        run: |
+          node -e "
+            const fs = require('fs');
+            fs.writeFileSync('result-visual-home.json', JSON.stringify({
+              job: 'visual-home',
+              label: 'Home: gold XP star, streak fire, red hearts, green lesson nodes',
+              passed: '${{ steps.pw.outcome }}' === 'success',
+              detail: ''
+            }));
+          "
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: result-visual-home
+          path: result-visual-home.json
+      - if: steps.pw.outcome == 'failure'
+        run: exit 1
+
+  # ── 4. Visual: Lesson node states ─────────────────────────────────────────
+  visual-lesson-node:
+    name: "Check 4: Lesson node states"
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - run: npx playwright install chromium --with-deps
+      - name: Run test
+        id: pw
+        run: npx playwright test e2e/lesson-node.spec.ts
+        continue-on-error: true
+      - name: Write result
+        if: always()
+        run: |
+          node -e "
+            const fs = require('fs');
+            fs.writeFileSync('result-visual-lesson-node.json', JSON.stringify({
+              job: 'visual-lesson-node',
+              label: 'Lesson node: FA lock icon (locked), gold stars (completed)',
+              passed: '${{ steps.pw.outcome }}' === 'success',
+              detail: ''
+            }));
+          "
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: result-visual-lesson-node
+          path: result-visual-lesson-node.json
+      - if: steps.pw.outcome == 'failure'
+        run: exit 1
+
+  # ── 5. Visual: Lesson summary ──────────────────────────────────────────────
+  visual-lesson-summary:
+    name: "Check 5: Lesson summary icons"
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - run: npx playwright install chromium --with-deps
+      - name: Run test
+        id: pw
+        run: npx playwright test e2e/lesson-summary.spec.ts
+        continue-on-error: true
+      - name: Write result
+        if: always()
+        run: |
+          node -e "
+            const fs = require('fs');
+            fs.writeFileSync('result-visual-lesson-summary.json', JSON.stringify({
+              job: 'visual-lesson-summary',
+              label: 'Lesson summary: FA circle-check (pass) / heart-crack (fail) — no emoji',
+              passed: '${{ steps.pw.outcome }}' === 'success',
+              detail: ''
+            }));
+          "
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: result-visual-lesson-summary
+          path: result-visual-lesson-summary.json
+      - if: steps.pw.outcome == 'failure'
+        run: exit 1
+
+  # ── 6. Visual: Bottom nav ─────────────────────────────────────────────────
+  visual-nav:
+    name: "Check 6: Bottom nav icons"
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - run: npx playwright install chromium --with-deps
+      - name: Run test
+        id: pw
+        run: npx playwright test e2e/nav.spec.ts
+        continue-on-error: true
+      - name: Write result
+        if: always()
+        run: |
+          node -e "
+            const fs = require('fs');
+            fs.writeFileSync('result-visual-nav.json', JSON.stringify({
+              job: 'visual-nav',
+              label: 'Bottom nav: FA route/rotate/user icons, active link forest-600',
+              passed: '${{ steps.pw.outcome }}' === 'success',
+              detail: ''
+            }));
+          "
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: result-visual-nav
+          path: result-visual-nav.json
+      - if: steps.pw.outcome == 'failure'
+        run: exit 1
+
+  # ── 7. Visual: Profile badges ─────────────────────────────────────────────
+  visual-profile:
+    name: "Check 7: Profile badge icons"
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - run: npx playwright install chromium --with-deps
+      - name: Run test
+        id: pw
+        run: npx playwright test e2e/profile.spec.ts
+        continue-on-error: true
+      - name: Write result
+        if: always()
+        run: |
+          node -e "
+            const fs = require('fs');
+            fs.writeFileSync('result-visual-profile.json', JSON.stringify({
+              job: 'visual-profile',
+              label: 'Profile: FA badge icons, no emoji in main',
+              passed: '${{ steps.pw.outcome }}' === 'success',
+              detail: ''
+            }));
+          "
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: result-visual-profile
+          path: result-visual-profile.json
+      - if: steps.pw.outcome == 'failure'
+        run: exit 1
+
+  # ── Report: aggregate all results ─────────────────────────────────────────
+  report:
+    name: Design test report
+    needs:
+      - typecheck
+      - unit-tests
+      - visual-home
+      - visual-lesson-node
+      - visual-lesson-summary
+      - visual-nav
+      - visual-profile
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: result-*
+          merge-multiple: true
+          path: results/
+      - name: Generate report
+        run: |
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+
+            const ORDER = [
+              'typecheck',
+              'unit-tests',
+              'visual-home',
+              'visual-lesson-node',
+              'visual-lesson-summary',
+              'visual-nav',
+              'visual-profile',
+            ];
+
+            const files = fs.readdirSync('results/').filter(f => f.endsWith('.json') && !f.includes('test-results'));
+            const results = files.map(f => JSON.parse(fs.readFileSync(path.join('results', f), 'utf8')));
+            results.sort((a, b) => ORDER.indexOf(a.job) - ORDER.indexOf(b.job));
+
+            const allPassed = results.every(r => r.passed);
+            const icon = allPassed ? '✅' : '❌';
+
+            let body = '## ' + icon + ' Design Test Report\n\n';
+            body += '| # | Check | Status | Detail |\n';
+            body += '|---|-------|:------:|--------|\n';
+            results.forEach((r, i) => {
+              body += '| ' + (i + 1) + ' | ' + r.label + ' | ' + (r.passed ? '✅' : '❌') + ' | ' + (r.detail || '—') + ' |\n';
+            });
+
+            const runUrl = process.env.GITHUB_SERVER_URL + '/' + process.env.GITHUB_REPOSITORY + '/actions/runs/' + process.env.GITHUB_RUN_ID;
+            body += '\n<sub>Full run: ' + runUrl + '</sub>';
+
+            fs.writeFileSync('pr-report.md', body);
+            console.log(body);
+          "
+      - name: Post report as PR comment
+        if: github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: visual-report
+          path: pr-report.md
+      - name: Fail if any check failed
+        run: |
+          node -e "
+            const fs = require('fs'), path = require('path');
+            const files = fs.readdirSync('results/').filter(f => f.endsWith('.json') && !f.includes('test-results'));
+            const results = files.map(f => JSON.parse(fs.readFileSync(path.join('results', f), 'utf8')));
+            if (results.some(r => !r.passed)) process.exit(1);
+          "
