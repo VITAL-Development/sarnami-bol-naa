@@ -404,20 +404,22 @@ jobs:
             });
 
             // ── Unit test detail table ───────────────────────────────────────
+            // Vitest JSON shape: { testResults: [{ name: '/abs/path', assertionResults: [...] }] }
             const trPath = path.join('results', 'test-results.json');
             if (fs.existsSync(trPath)) {
               const tr = JSON.parse(fs.readFileSync(trPath, 'utf8'));
-              const cwd = (tr.testResults || [])[0]?.testFilePath?.replace(/\/src\/.*/, '') || '';
+              const suites = tr.testResults || [];
+              const cwd = suites[0]?.name?.replace(/\/src\/.*/, '') || '';
               body += '\n### Unit Test Details\n';
-              for (const suite of (tr.testResults || [])) {
-                const rel = suite.testFilePath.replace(cwd + '/', '');
+              for (const suite of suites) {
+                const rel = suite.name.replace(cwd + '/', '');
                 body += '\n#### ' + rel + '\n\n';
                 body += '| Suite | Test | ms | |\n';
                 body += '|-------|------|----|--|\n';
-                for (const t of (suite.testResults || [])) {
+                for (const t of (suite.assertionResults || [])) {
                   const suiteName = (t.ancestorTitles || []).join(' › ') || '—';
                   const status = t.status === 'passed' ? '✅' : '❌';
-                  const dur = t.duration != null ? t.duration : '—';
+                  const dur = t.duration != null ? Math.round(t.duration) : '—';
                   body += '| ' + suiteName + ' | ' + t.title + ' | ' + dur + ' | ' + status + ' |\n';
                 }
               }
