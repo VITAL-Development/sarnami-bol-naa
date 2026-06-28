@@ -53,7 +53,7 @@ async function advanceStep(page: Page): Promise<void> {
 test("Lesson summary: shows FA icon (no emoji) for pass or fail state", async ({ page }) => {
   test.setTimeout(60000);
 
-  await page.goto("/lesson/u01-l01");
+  await page.goto("/lesson/lesson-1-greetings");
 
   // Wait for content to load and first exercise to render
   await expect(page.getByRole("button", { name: "Controleren" })).toBeVisible({ timeout: 10000 });
