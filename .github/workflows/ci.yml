@@ -112,13 +112,6 @@ jobs:
           path: |
             result-unit-tests.json
             test-results.json
-      - name: Post unit test comment
-        if: github.event_name == 'pull_request'
-        uses: marocchino/sticky-pull-request-comment@v2
-        with:
-          header: unit-test-report
-          path: test-results.json
-        continue-on-error: true
       - if: steps.tests.outcome == 'failure'
         run: exit 1
 

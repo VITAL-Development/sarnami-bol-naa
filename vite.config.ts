@@ -49,6 +49,7 @@ export default defineConfig({
     environment: "jsdom",
     globals: true,
     setupFiles: [],
+    exclude: ["node_modules", "e2e/**"],
     coverage: {
       provider: "v8",
       reporter: ["text", "json-summary"],
