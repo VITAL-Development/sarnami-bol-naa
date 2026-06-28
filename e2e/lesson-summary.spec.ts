@@ -16,7 +16,7 @@ async function advanceStep(page: Page): Promise<void> {
 
   if (!isCheckEnabled) {
     // Need to pick something first — click the first non-action enabled button
-    const actionLabels = new Set(["Controleren", "Verder", "Toon antwoord", "Wist ik!", "Wist ik niet"]);
+    const actionLabels = new Set(["Controleren", "Verder", "Toon antwoord", "Wist ik!", "Wist ik niet", "Opnieuw proberen", "Terug naar het pad"]);
     const buttons = page.getByRole("button");
     const count = await buttons.count();
     for (let i = 0; i < count; i++) {
@@ -43,7 +43,7 @@ test("Lesson summary: shows FA icon (no emoji) for pass or fail state", async ({
 
   // Click through up to 15 steps to reach the summary
   for (let i = 0; i < 15; i++) {
-    if (await summaryHeading.isVisible({ timeout: 500 }).catch(() => false)) break;
+    if (await summaryHeading.isVisible({ timeout: 3000 }).catch(() => false)) break;
     await advanceStep(page);
   }
 

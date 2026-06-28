@@ -388,6 +388,7 @@ jobs:
               'visual-profile',
             ];
 
+            // ── Check summary table ──────────────────────────────────────────
             const files = fs.readdirSync('results/').filter(f => f.endsWith('.json') && !f.includes('test-results'));
             const results = files.map(f => JSON.parse(fs.readFileSync(path.join('results', f), 'utf8')));
             results.sort((a, b) => ORDER.indexOf(a.job) - ORDER.indexOf(b.job));
@@ -401,6 +402,26 @@ jobs:
             results.forEach((r, i) => {
               body += '| ' + (i + 1) + ' | ' + r.label + ' | ' + (r.passed ? '✅' : '❌') + ' | ' + (r.detail || '—') + ' |\n';
             });
+
+            // ── Unit test detail table ───────────────────────────────────────
+            const trPath = path.join('results', 'test-results.json');
+            if (fs.existsSync(trPath)) {
+              const tr = JSON.parse(fs.readFileSync(trPath, 'utf8'));
+              const cwd = (tr.testResults || [])[0]?.testFilePath?.replace(/\/src\/.*/, '') || '';
+              body += '\n### Unit Test Details\n';
+              for (const suite of (tr.testResults || [])) {
+                const rel = suite.testFilePath.replace(cwd + '/', '');
+                body += '\n#### ' + rel + '\n\n';
+                body += '| Suite | Test | ms | |\n';
+                body += '|-------|------|----|--|\n';
+                for (const t of (suite.testResults || [])) {
+                  const suiteName = (t.ancestorTitles || []).join(' › ') || '—';
+                  const status = t.status === 'passed' ? '✅' : '❌';
+                  const dur = t.duration != null ? t.duration : '—';
+                  body += '| ' + suiteName + ' | ' + t.title + ' | ' + dur + ' | ' + status + ' |\n';
+                }
+              }
+            }
 
             const runUrl = process.env.GITHUB_SERVER_URL + '/' + process.env.GITHUB_REPOSITORY + '/actions/runs/' + process.env.GITHUB_RUN_ID;
             body += '\n<sub>Full run: ' + runUrl + '</sub>';

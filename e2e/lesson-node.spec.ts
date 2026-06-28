@@ -8,12 +8,12 @@ test("Lesson node: first node active (forest-600 badge), second node locked (sto
   // First node — active: forest-600 badge circle
   const firstNode = nodes.nth(0);
   await expect(firstNode.locator(".bg-forest-600")).toBeVisible();
-  await expect(firstNode.locator(".border-forest-400")).toBeVisible();
+  await expect(firstNode).toHaveClass(/border-forest-400/);
 
   // Second node — locked: stone-200 badge circle with a lock SVG icon
   const secondNode = nodes.nth(1);
   await expect(secondNode.locator(".bg-stone-200")).toBeVisible();
-  await expect(secondNode.locator(".border-stone-200")).toBeVisible();
+  await expect(secondNode).toHaveClass(/border-stone-200/);
   await expect(secondNode.locator("svg")).toBeVisible(); // lock icon (faLock)
 
   // Star ratings: no emoji star characters
