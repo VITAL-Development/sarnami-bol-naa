@@ -54,7 +54,7 @@ export function WordBank({ exercise, onAnswer }: ExerciseComponentProps<WordBank
             type="button"
             disabled={checked}
             onClick={() => toggleToken(usedIndices[i])}
-            className="rounded-xl bg-sarnami-100 px-3 py-1 text-sarnami-700"
+            className="min-h-[44px] rounded-xl bg-sarnami-100 px-3 py-1 text-sarnami-700 active:opacity-75"
           >
             {token}
           </button>
@@ -68,7 +68,7 @@ export function WordBank({ exercise, onAnswer }: ExerciseComponentProps<WordBank
             type="button"
             disabled={checked || usedIndices.includes(index)}
             onClick={() => toggleToken(index)}
-            className="rounded-xl border border-stone-200 px-3 py-1 disabled:opacity-30"
+            className="min-h-[44px] rounded-xl border border-stone-200 px-3 py-1 active:opacity-75 disabled:opacity-30"
           >
             {token}
           </button>

@@ -14,12 +14,12 @@ interface SkillNodeProps {
 export function SkillNode({ title, order, locked, completed, stars, lessonId }: SkillNodeProps) {
   const content = (
     <div
-      className={`flex w-full items-center gap-4 rounded-2xl border-2 px-5 py-4 text-left transition ${
+      className={`flex min-h-[44px] w-full items-center gap-4 rounded-2xl border-2 px-5 py-4 text-left transition ${
         locked
           ? "border-stone-200 bg-stone-50 text-stone-400"
           : completed
             ? "border-forest-400 bg-forest-50 text-forest-700"
-            : "border-forest-400 bg-white text-forest-700 shadow-sm hover:bg-forest-50"
+            : "border-forest-400 bg-white text-forest-700 shadow-sm hover:bg-forest-50 active:bg-forest-50"
       }`}
     >
       <div

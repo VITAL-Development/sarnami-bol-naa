@@ -26,7 +26,7 @@ export function Flashcard({ exercise, vocabById, onAnswer }: ExerciseComponentPr
         type="button"
         onClick={() => setRevealed(true)}
         disabled={revealed}
-        className="flex min-h-[10rem] w-full flex-col items-center justify-center rounded-2xl border-2 border-sarnami-200 bg-sarnami-50 px-4 py-8 text-center"
+        className="flex min-h-[10rem] w-full flex-col items-center justify-center rounded-2xl border-2 border-sarnami-200 bg-sarnami-50 px-4 py-8 text-center active:opacity-75 [touch-action:manipulation]"
       >
         <span className="text-2xl font-semibold text-sarnami-700">{front}</span>
         {revealed && <span className="mt-3 text-lg text-stone-600">{back}</span>}

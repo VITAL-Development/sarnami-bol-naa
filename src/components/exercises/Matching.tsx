@@ -57,7 +57,7 @@ export function Matching({ exercise, onAnswer }: ExerciseComponentProps<Matching
               type="button"
               disabled={matchedLefts.includes(p.left)}
               onClick={() => pickLeft(p.left)}
-              className={`rounded-xl border-2 px-4 py-2 text-left ${
+              className={`min-h-[44px] rounded-xl border-2 px-4 py-2 text-left active:opacity-75 ${
                 matchedLefts.includes(p.left)
                   ? "border-green-400 bg-green-50 text-green-700"
                   : selectedLeft === p.left
@@ -76,7 +76,7 @@ export function Matching({ exercise, onAnswer }: ExerciseComponentProps<Matching
               type="button"
               disabled={isUsedRight(right)}
               onClick={() => pickRight(right)}
-              className={`rounded-xl border-2 px-4 py-2 text-left ${
+              className={`min-h-[44px] rounded-xl border-2 px-4 py-2 text-left active:opacity-75 ${
                 isUsedRight(right)
                   ? "border-green-400 bg-green-50 text-green-700"
                   : wrongRight === right

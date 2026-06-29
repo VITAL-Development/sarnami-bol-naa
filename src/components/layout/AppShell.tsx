@@ -26,7 +26,7 @@ export function AppShell({ children }: { children: ReactNode }) {
             to={item.to}
             end={item.to === "/"}
             className={({ isActive }) =>
-              `flex flex-1 flex-col items-center gap-0.5 py-2 text-sm ${
+              `flex min-h-[44px] flex-1 flex-col items-center justify-center gap-0.5 py-2 text-sm active:opacity-75 ${
                 isActive ? "text-forest-600" : "text-stone-400"
               }`
             }

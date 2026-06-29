@@ -46,7 +46,7 @@ export function MultipleChoice({
               type="button"
               disabled={checked}
               onClick={() => setSelected(index)}
-              className={`rounded-2xl border-2 px-4 py-3 text-left transition ${
+              className={`min-h-[44px] rounded-2xl border-2 px-4 py-3 text-left transition active:opacity-75 ${
                 showState
                   ? isCorrect
                     ? "border-green-500 bg-green-50"
