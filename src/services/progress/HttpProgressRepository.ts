@@ -11,15 +11,21 @@ export class HttpProgressRepository implements ProgressRepository {
 
   async getProgress(): Promise<UserProgress> {
     const res = await fetch(`${this.baseUrl}/progress`);
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+    }
     return res.json();
   }
 
   async saveProgress(progress: UserProgress): Promise<void> {
-    await fetch(`${this.baseUrl}/progress`, {
+    const res = await fetch(`${this.baseUrl}/progress`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(progress),
     });
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+    }
   }
 
   async recordLessonCompletion(result: LessonResult): Promise<UserProgress> {
@@ -28,6 +34,9 @@ export class HttpProgressRepository implements ProgressRepository {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(result),
     });
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+    }
     return res.json();
   }
 
@@ -37,6 +46,9 @@ export class HttpProgressRepository implements ProgressRepository {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ vocabId, correct }),
     });
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+    }
     return res.json();
   }
 }

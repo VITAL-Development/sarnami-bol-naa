@@ -11,6 +11,9 @@ export class HttpContentRepository implements ContentRepository {
 
   async getContentBundle(): Promise<ContentBundle> {
     const res = await fetch(`${this.baseUrl}/content`);
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+    }
     return res.json();
   }
 
