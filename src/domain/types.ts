@@ -164,6 +164,42 @@ export interface ContentBundle {
   lessonContent: LessonContentBundle;
 }
 
+// A shade scale for one brand color role, keyed by the same shade numbers
+// used by the corresponding `--color-{forest,flame,gold,cream}-{shade}`
+// custom property in src/styles/index.css (e.g. `primary["500"]` <->
+// `--color-forest-500`). Values are space-separated RGB triplet strings
+// (e.g. "61 142 67"), not hex, so they can be written to
+// `document.documentElement.style` and consumed by Tailwind's
+// `rgb(var(--color-*) / <alpha-value>)` composition unchanged. Partial
+// because not every role defines every shade (e.g. `danger`/`accent` have no
+// "50"/"200"/"700" entries in the palette).
+export type BrandColorScale = Partial<Record<string, string>>;
+
+// Brand/theme metadata for a learning language, applied at runtime (issue
+// #62) rather than baked into a build — see docs/api-contract.md's
+// `branding` field on `GET /settings?lang=`. `colors` role names map onto
+// this app's existing Suriname-flag-derived token names as follows:
+// primary -> forest, danger -> flame, accent -> gold, background -> cream.
+export interface LanguageBranding {
+  appName: string;
+  colors: {
+    primary: BrandColorScale;
+    danger: BrandColorScale;
+    accent: BrandColorScale;
+    background: BrandColorScale;
+  };
+  // Omitted entirely for languages with no distinct icon set authored yet
+  // (e.g. sranantongo currently reuses Sarnami's icons) — callers must fall
+  // back to the build-time defaults (public/favicon.svg, public/icons/*)
+  // when this is undefined.
+  icons?: {
+    favicon: string;
+    icon192: string;
+    icon512: string;
+    iconMaskable512: string;
+  };
+}
+
 // Metadata *about* a learning language (romanization/diacritic rules,
 // alphabet, script direction, audio config) — distinct from the lesson/vocab
 // content itself. Shape matches `GET /settings?lang=` in
@@ -187,6 +223,12 @@ export interface LanguageSettings {
     format: string;
     voice: string;
   };
+  // Optional because it was added in issue #62, after the rest of this
+  // shape (issue #32/#33) — older/local fallback data or a not-yet-updated
+  // backend could in principle omit it, so callers must handle `undefined`
+  // (falling back to build-time defaults) rather than assuming it's always
+  // present.
+  branding?: LanguageBranding;
 }
 
 export interface Badge {
