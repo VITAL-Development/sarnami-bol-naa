@@ -1,0 +1,58 @@
+[
+  {
+    "id": "pron-ham",
+    "word": "ham",
+    "translations": {
+      "nl": "ik"
+    },
+    "tags": [
+      "pronoun",
+      "book-p68"
+    ]
+  },
+  {
+    "id": "pron-tu",
+    "word": "tū",
+    "translations": {
+      "nl": "jij (informeel)"
+    },
+    "tags": [
+      "pronoun",
+      "book-p69"
+    ]
+  },
+  {
+    "id": "pron-ap",
+    "word": "āp",
+    "translations": {
+      "nl": "u (beleefdheidsvorm)"
+    },
+    "tags": [
+      "pronoun",
+      "book-p69"
+    ]
+  },
+  {
+    "id": "pron-u",
+    "word": "ū",
+    "translations": {
+      "nl": "hij / zij"
+    },
+    "notes": "Sarnami kent geen onderscheid in geslacht bij de 3e persoon (boek p.23).",
+    "tags": [
+      "pronoun",
+      "book-p23"
+    ]
+  },
+  {
+    "id": "pron-hamlog",
+    "word": "ham log",
+    "translations": {
+      "nl": "wij"
+    },
+    "tags": [
+      "pronoun",
+      "book-p68"
+    ]
+  }
+]

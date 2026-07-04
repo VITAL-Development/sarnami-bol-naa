@@ -1,0 +1,222 @@
+[
+  {
+    "lessonId": "lesson-6-adjective-forms",
+    "exampleSentences": [
+      {
+        "id": "ex-6-1",
+        "word": "Mahes ego choṭā ghar kīnis hai.",
+        "translations": { "nl": "Mahes heeft een huisje gekocht." },
+        "vocabRefs": ["adj-chota"]
+      },
+      {
+        "id": "ex-6-2",
+        "word": "Mahes chŏṭkā gharvā kīnis hai.",
+        "translations": { "nl": "Mahes heeft het huisje gekocht." },
+        "vocabRefs": ["adj-chota"]
+      },
+      {
+        "id": "ex-6-3",
+        "word": "Hariyā lāl somth pahine hai.",
+        "translations": { "nl": "Hari draagt een rood overhemd." },
+        "vocabRefs": ["adj-lal"]
+      }
+    ],
+    "grammarNotes": [
+      {
+        "id": "gn-6-1",
+        "title": "Stam, lange en langere vorm",
+        "body": "Bijvoeglijke naamwoorden hebben drie vormen: de stam (onbepaalde betekenis, bv. choṭā 'klein'), de lange vorm met -kā (bepaalde betekenis, bv. chŏṭkā), en de langere vorm met -kavā (sterkere nadruk, bv. chŏṭkāvā). In het district Nickerie wordt in plaats van -kavā vaak -kanā gebruikt (chŏṭkanā).",
+        "relatedVocab": ["adj-chota"]
+      }
+    ],
+    "exercises": {
+      "l6-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent 'choṭā'?",
+        "options": ["klein", "rood", "dun", "lekker"],
+        "correctIndex": 0
+      },
+      "l6-e2": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "choṭā", "right": "klein" },
+          { "left": "lāl", "right": "rood" },
+          { "left": "sojhā", "right": "recht" },
+          { "left": "pātar", "right": "dun" },
+          { "left": "mīṭhā", "right": "lekker" }
+        ]
+      },
+      "l6-e3": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Mahes ego ___ ghar kīnis hai.",
+        "correctAnswer": "choṭā",
+        "options": ["choṭā", "lāl", "pātar", "mīṭhā"],
+        "translations": { "nl": "Mahes heeft een huisje gekocht." }
+      },
+      "l6-e5": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Mahes heeft het huisje gekocht." },
+        "correctTargetTokens": ["Mahes", "chŏṭkā", "gharvā", "kīnis", "hai."],
+        "distractorTokens": ["lalkā", "miṭhkā"]
+      }
+    }
+  },
+  {
+    "lessonId": "lesson-7-adjective-agreement",
+    "exampleSentences": [
+      {
+        "id": "ex-7-1",
+        "word": "Ego barkā per.",
+        "translations": { "nl": "Een grote boom." },
+        "vocabRefs": ["adj-barka"]
+      },
+      {
+        "id": "ex-7-2",
+        "word": "Ū barkāvan pervan.",
+        "translations": { "nl": "Die grote bomen." },
+        "vocabRefs": ["adj-barka"]
+      },
+      {
+        "id": "ex-7-3",
+        "word": "Karikkanī bakariyā.",
+        "translations": { "nl": "De zwarte geit." },
+        "vocabRefs": ["adj-karikka"]
+      }
+    ],
+    "grammarNotes": [
+      {
+        "id": "gn-7-1",
+        "title": "Meervoud en vrouwelijke vorm",
+        "body": "Bijvoeglijke naamwoorden nemen het getal (enkelvoud/meervoud) over van het zelfstandig naamwoord dat ze bepalen: ū barkāvā perva (die grote boom) wordt ū barkāvan pervan (die grote bomen) in het meervoud. Bij vrouwelijke zelfstandige naamwoorden krijgt het bijvoeglijk naamwoord vaak de uitgang -ī: karikkanī bakariyā (de zwarte geit), lalkanī sariyā (de rode sari).",
+        "relatedVocab": ["adj-barka", "adj-karikka"]
+      }
+    ],
+    "exercises": {
+      "l7-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent 'barkā'?",
+        "options": ["groot", "lang", "goed", "zwart"],
+        "correctIndex": 0
+      },
+      "l7-e2": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "barkā", "right": "groot" },
+          { "left": "lammā", "right": "lang" },
+          { "left": "barhimyā", "right": "goed" },
+          { "left": "karikkā", "right": "zwart" }
+        ]
+      },
+      "l7-e3": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Die grote bomen." },
+        "correctTargetTokens": ["Ū", "barkāvan", "pervan."],
+        "distractorTokens": ["chŏṭkā", "lalkā"]
+      },
+      "l7-e4": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "___ bakariyā.",
+        "correctAnswer": "Karikkanī",
+        "options": ["Karikkanī", "Lalkanī", "Chŏṭkanī", "Miṭhkanī"],
+        "translations": { "nl": "De zwarte geit." }
+      }
+    }
+  },
+  {
+    "lessonId": "lesson-8-comparison",
+    "exampleSentences": [
+      {
+        "id": "ex-8-1",
+        "word": "Hamār ghar tor ghar se barkā hai.",
+        "translations": { "nl": "Mijn huis is groter dan jouw huis." },
+        "vocabRefs": ["gram-se", "adj-barka"]
+      },
+      {
+        "id": "ex-8-2",
+        "word": "Hamār gharī tor gharī se aur choṭā hai.",
+        "translations": { "nl": "Mijn horloge is kleiner dan het jouwe." },
+        "vocabRefs": ["gram-aur-compare", "adj-chota"]
+      },
+      {
+        "id": "ex-8-3",
+        "word": "Sarnām mem ī sab se dhanī adamī hai.",
+        "translations": { "nl": "In Suriname is hij de rijkste man." },
+        "vocabRefs": ["gram-sabse"]
+      }
+    ],
+    "grammarNotes": [
+      {
+        "id": "gn-8-1",
+        "title": "Vergrotende en overtreffende trap",
+        "body": "De stellende trap is de neutrale vorm van elk bijvoeglijk naamwoord. De vergrotende trap wordt gevormd met se, aur en/of jādā achter het vergelijkingswoord: ...se barkā hai (is groter dan). De overtreffende trap wordt gevormd met sab se of sab se jādā: sab se dhanī (de rijkste), sab se jādā dhanī (de allerrijkste).",
+        "relatedVocab": ["gram-se", "gram-sabse"]
+      }
+    ],
+    "exercises": {
+      "l8-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Hoe zeg je 'groter dan'?",
+        "options": ["... se barkā", "... barkā se", "sab se barkā", "barkā-barkā"],
+        "correctIndex": 0
+      },
+      "l8-e2": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Hamār ghar tor ghar ___ barkā hai.",
+        "correctAnswer": "se",
+        "options": ["se", "aur", "sab", "jādā"],
+        "translations": { "nl": "Mijn huis is groter dan jouw huis." }
+      },
+      "l8-e3": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "In Suriname is hij de rijkste man." },
+        "correctTargetTokens": ["Sarnām", "mem", "ī", "sab", "se", "dhanī", "adamī", "hai."],
+        "distractorTokens": ["jādā", "aur"]
+      },
+      "l8-e4": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "se", "right": "dan (bij vergelijking)" },
+          { "left": "aur", "right": "nog (meer)" },
+          { "left": "jādā", "right": "meer" },
+          { "left": "sab se", "right": "de meest-" }
+        ]
+      }
+    }
+  },
+  {
+    "lessonId": "lesson-9-adjectives-review",
+    "exampleSentences": [],
+    "grammarNotes": [],
+    "exercises": {
+      "l9-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent 'barkā'?",
+        "options": ["groot", "klein", "dun", "recht"],
+        "correctIndex": 0
+      },
+      "l9-e2": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "choṭā", "right": "klein" },
+          { "left": "lāl", "right": "rood" },
+          { "left": "barkā", "right": "groot" },
+          { "left": "se", "right": "dan (bij vergelijking)" },
+          { "left": "sab se", "right": "de meest-" }
+        ]
+      },
+      "l9-e3": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Mijn huis is groter dan jouw huis." },
+        "correctTargetTokens": ["Hamār", "ghar", "tor", "ghar", "se", "barkā", "hai."],
+        "distractorTokens": ["choṭā", "jādā"]
+      },
+      "l9-e4": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Karikkanī ___.",
+        "correctAnswer": "bakariyā",
+        "options": ["bakariyā", "sariyā", "gaiyā", "chaumriyā"],
+        "translations": { "nl": "De zwarte geit." }
+      }
+    }
+  }
+]
