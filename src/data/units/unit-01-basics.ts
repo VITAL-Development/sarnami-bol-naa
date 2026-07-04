@@ -4,10 +4,15 @@ import type { Unit } from "@/domain/types";
 // grammar-note text are NOT embedded here (issue #31). They're authored in
 // `server/content/sarnami/lessons/unit-01-basics.json` and resolved at
 // render time via `contentRef` (exercises) / `exampleSentenceRefs` /
-// `grammarNoteRefs` (lessons) against `ContentBundle.lessonContent`, built
-// locally for now from `src/data/lessonContent/unit-01-basics.ts` — a synced
-// copy of the same JSON, mirroring how #30 handled vocab (see
-// `src/data/vocab/greetings.ts`'s TODO comment).
+// `grammarNoteRefs` (lessons) against `ContentBundle.lessonContent`.
+//
+// This file itself is the frontend's own local/offline fallback copy of
+// `server/content/sarnami/units/unit-01-basics.json`, used by
+// `LocalJsonContentRepository` when `VITE_API_BASE_URL` isn't set (see
+// `src/services/index.ts`) — not a duplicate kept for backend-bundling
+// purposes (issue #33). Keep the two in sync by hand if this structure
+// changes. The lesson-adjacent text this file's `contentRef`s point to is
+// similarly mirrored locally in `src/data/lessonContent/unit-01-basics.ts`.
 export const unit01Basics: Unit = {
   id: "unit-01-basics",
   title: "Basis",

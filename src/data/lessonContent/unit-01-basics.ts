@@ -1,14 +1,12 @@
 import type { LessonContentFile } from "./types";
 
-// TODO(remove once /server's /content endpoint reads from server/content/
-// directly instead of bundling ../src/data, and the frontend fetches lesson
-// content from the backend instead of its local bundle — issue #33/#34):
-// the source of truth for this data is
-// server/content/sarnami/lessons/unit-01-basics.json (issue #31). This file
-// is a synced copy kept for the local-bundling path (`LocalJsonContentRepository`
-// / `content-entry.ts`), mirroring how #30 handled the analogous vocab
-// situation (see `src/data/vocab/greetings.ts`'s TODO comment). Keep it in
-// sync with the JSON by hand until #33 removes the need for a TS copy.
+// This is the frontend's own local/offline fallback copy, used by
+// `LocalJsonContentRepository` when `VITE_API_BASE_URL` isn't set (see
+// `src/services/index.ts`) — not a duplicate kept for backend-bundling
+// purposes. `/server` now reads its own authored copy directly from
+// `server/content/sarnami/lessons/unit-01-basics.json` (issues #31/#33)
+// instead of bundling this file. Keep the two in sync by hand if this
+// content changes.
 export const unit01BasicsContent: LessonContentFile[] = [
   {
     lessonId: "lesson-1-greetings",

@@ -49,7 +49,11 @@ export default defineConfig({
     environment: "jsdom",
     globals: true,
     setupFiles: [],
-    exclude: ["node_modules", "e2e/**"],
+    // server/** has its own dependency-free `node:test` suite (`cd server
+    // && npm test`) — it's not a Vitest/jsdom project and imports
+    // `node:test`, which Vitest can't bundle for the jsdom environment used
+    // here.
+    exclude: ["node_modules", "e2e/**", "server/**"],
     coverage: {
       provider: "v8",
       reporter: ["text", "json-summary"],

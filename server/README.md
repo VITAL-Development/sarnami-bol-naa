@@ -30,105 +30,99 @@ npm run start        # http://localhost:8787 (override with PORT=xxxx)
 `npm run dev` runs the same thing with `node --watch` for auto-restart on
 file changes.
 
-## Transitional state (issue #29)
+## Testing
 
-This server implements the routes in `../docs/api-contract.md`, but content
-ownership hasn't fully moved into `/server` yet (that's tracked by issues
-#30/#31/#32). Until then:
+```bash
+cd server
+npm test              # node --test, covers each route's happy path + 404 path
+```
 
-- **`GET /content?lang=sarnami`** is real: `build-content.mjs` uses esbuild
-  to bundle `content-entry.ts`, which re-exports the frontend's
-  `../src/data` (units/lessons/vocab) and the pure gamification/Leitner/badge
-  functions from `../src/domain` and `../src/data/badges.ts` — reusing them
-  as-is rather than re-implementing spaced-repetition or XP logic here. The
-  bundle is built once at server startup and cached in memory.
-- **`GET /content?lang=sranantongo`** is a stub: `{ units: [], vocab: [] }`,
-  matching the contract's "stub" status for that learning language.
-- **`GET /languages`** returns a small inline discovery list (`stub-data.mjs`)
-  of learning/UI language codes, display names, and status.
-- **`GET /settings`** and **`GET /ui-strings`** are real (issue #32):
-  `stub-data.mjs` reads JSON files from `./settings` at startup —
-  `settings/{lang}/language-settings.json` per learning language and
-  `settings/ui/{lang}/strings.json` per UI language — rather than serving
-  inline placeholder objects. `sranantongo`'s `language-settings.json` is
-  still a deliberate stub (empty diacritics/alphabet, per the contract's
-  "stub language" note), and `en` is a genuine English translation of the
-  `nl` string table (`src/i18n/strings.nl.ts`'s source of truth), not a
-  placeholder.
+No dependencies (dev or runtime) are required — `/server` is dependency-free
+at every layer, including tests (`node:test` + `node:assert` + the built-in
+`fetch`, all from the Node standard library).
+
+## Content ownership (issues #29-#33)
+
+As of issue #33, `/server` owns and serves all of its content/settings data
+directly from files on disk under `/server` — it no longer reaches into the
+outer repo's `../src` at runtime. This replaced an earlier transitional
+esbuild-bundling trick (`build-content.mjs`/`content-entry.ts`, from issue
+#29) that re-exported the frontend's `../src/data` and `../src/domain`
+modules; both files were deleted once `server/content/**` (issues #30/#31)
+and `server/settings/**` (issue #32) held real, on-disk copies of everything
+`/server` needs:
+
+- **`GET /content?lang={code}`** (`content.mjs`) assembles the full
+  `ContentBundle` (units, vocab, lesson-adjacent content) by reading
+  `server/content/<code>/{vocab,units,lessons}/*.json` at request time. For
+  `sarnami` this was verified equivalent to the old `../src/data`-bundled
+  output (see PR description for issue #33 for how). `sranantongo` has no
+  `units/` or `lessons/` directory yet, so its bundle resolves to
+  `{ units: [], vocab: <stub vocab>, lessonContent: <empty> }` — a real
+  bundle, not a hardcoded special case, matching the "stub" status from
+  `GET /languages`.
+- **`GET /languages`** (`stub-data.mjs`) derives its `learningLanguages` list
+  from the `server/content/*` directory listing (`displayName` comes from
+  that language's own `server/settings/{code}/language-settings.json`;
+  `status` is `"available"` if `content/<code>/units/*.json` exists,
+  `"stub"` otherwise) and its `uiLanguages` list from the
+  `server/settings/ui/*` directory listing.
+- **`GET /settings`** and **`GET /ui-strings`** (`stub-data.mjs`, issue #32)
+  read `server/settings/{lang}/language-settings.json` and
+  `server/settings/ui/{lang}/strings.json` respectively, unchanged from
+  #32's implementation.
 - **Progress (`/progress`, `/progress/lesson-completion`,
-  `/progress/review-result`)** is held in memory for the process's lifetime,
+  `/progress/review-result`)** uses pure gamification/Leitner/badge
+  functions ported to plain JS in `gamification.mjs` (previously re-exported
+  as-is from `../src/domain`/`../src/data/badges.ts` via the esbuild trick;
+  now a small, dependency-free, hand-synced copy — see that file's header
+  comment). Progress itself is held in memory for the process's lifetime,
   single-user, no persistence — matching the contract's documented
   no-auth/single-user scope. A real datastore is out of scope for this
   porting task.
 
-Once content migrates fully into `/server`, `build-content.mjs` and
-`content-entry.ts` (the only files that reach outside this nested repo, into
-the outer repo's `../src`) should be deleted in favor of content authored
-directly here.
+### `server/content/` (issues #30/#31/#33)
 
-### `server/content/` (issue #30)
+- `server/content/<learningLanguage>/vocab/*.json` — authored vocab
+  (`VocabItem[]`), any filename, read in filename order but assembled
+  order-independently (vocab is always looked up by id).
+- `server/content/<learningLanguage>/units/*.json` — one authored `Unit`
+  object per file (id/title/description/order/`bookChapterRef`/lessons,
+  including each lesson's exercises with their `kind` + `contentRef`/
+  `vocabRef`/`promptVocabRef`/`direction` structure). Assembled units are
+  sorted by their `order` field, not filename. A learning language with no
+  `units/` directory is a stub (currently `sranantongo`).
+- `server/content/<learningLanguage>/lessons/<unitId>.json` — authored
+  lesson-adjacent content (issue #31): an array of
+  `{ lessonId, exampleSentences, grammarNotes, exercises }`, where
+  `exercises` is a map keyed by `contentRef`. Each exercise entry also
+  carries a `kind` tag for authors' bookkeeping, which `content.mjs` strips
+  when assembling `lessonContent.exerciseContent` (the `ExerciseContent`
+  type it's resolved against has no `kind` field — that already lives on
+  the matching `LessonExercise` in `units/*.json`).
 
-`server/content/<learningLanguage>/vocab/*.json` is the new authored source
-of truth for vocab content, namespaced per learning language:
-
-- `server/content/sarnami/vocab/*.json` — the full vocab set (greetings,
-  pronouns, nouns, adjectives, grammar, structuurwoorden), migrated
-  verbatim from `../src/data/vocab/*.ts` (each array element matches the
-  `VocabItem` shape from `../src/domain/types.ts` and `../docs/api-contract.md`'s
-  `GET /content` vocab entries 1:1 — same `id`/`sarnami`/`translations`/
-  `tags`/`notes` fields, just JSON instead of a `.ts` literal).
-- `server/content/sranantongo/vocab/*.json` — a minimal stub (two
-  placeholder greetings) proving the per-language namespacing pattern ahead
-  of real Sranan Tongo content authoring.
-
-**Not yet wired up**: `GET /content?lang=sarnami` still serves from the
-`build-content.mjs`/`content-entry.ts` esbuild-bundling trick described
-above, i.e. still reads `../src/data`, not `server/content/`. Rewiring
-`server.mjs` to read `server/content/` directly (and deleting
-`../src/data/vocab/*.ts` + the bundling trick once it does) is follow-on
-work, expected to land alongside issue #33's language-scoped endpoints.
-
-### `server/content/sarnami/lessons/` (issue #31)
-
-`server/content/<learningLanguage>/lessons/<unitId>.json` is the new
-authored source of truth for lesson-adjacent content — exercise prompts/
-options/answers, example sentences, and grammar notes — the counterpart to
-`content/vocab/*.json` (#30) for lesson structure. `../src/data/units/*.ts`
-now holds structure only (`id`/`unitId`/`order`/`title`/`description`/
-`newVocab`/exercise `kind` + ID references); the literal Sarnami/Dutch text
-that used to be embedded directly in exercises/`exampleSentences`/
-`grammarNotes` lives here instead.
-
-Each file is an array of per-lesson objects
-(`{ lessonId, exampleSentences, grammarNotes, exercises }`), where
-`exercises` is a map keyed by `contentRef` (in practice the same string as
-the exercise's `id`). Shapes match `ExampleSentence` / `GrammarNote` /
-`ExerciseContent` (`MultipleChoiceContent` / `WordBankContent` /
-`FillBlankContent` / `MatchingContent`) from `../src/domain/types.ts` and
-`../docs/api-contract.md`'s `GET /content` `lessonContent` field 1:1.
-`flashcard` exercises have no entry here — they carry no literal text (see
-the contract doc).
-
-**Not yet wired up**, same as vocab: `GET /content?lang=sarnami` still reads
-`../src/data`, not `server/content/`. Until `server.mjs` is rewired (#33),
-`../src/data/lessonContent/<unitId>.ts` is a hand-synced TS copy of this
-JSON, used by the frontend's local-bundling path
-(`LocalJsonContentRepository` / `content-entry.ts`) — mirroring how #30 kept
-`../src/data/vocab/*.ts` in place for the same reason. Keep the two in sync
-by hand until #33 removes the need for the TS copy.
+The frontend keeps its own hand-synced local/offline fallback copies of this
+same data (`src/data/vocab/*.ts`, `src/data/units/*.ts`,
+`src/data/lessonContent/*.ts`), used by `LocalJsonContentRepository` when
+`VITE_API_BASE_URL` isn't set (see `src/services/index.ts`) — this is no
+longer a transitional duplicate kept for backend-bundling purposes, just the
+frontend's own local dev/offline path, same as `server/content/**` is
+`/server`'s own copy. Keep the two in sync by hand when content changes.
 
 ## Files
 
 | File | Purpose |
 |---|---|
 | `server.mjs` | HTTP server (routing, CORS, request/response handling) |
-| `build-content.mjs` | esbuild bundler that loads `content-entry.ts` into an importable module |
-| `content-entry.ts` | Re-exports frontend content + gamification/Leitner/badge functions |
-| `stub-data.mjs` | Inline `/languages` discovery list, plus loaders that read `/settings` and `/ui-strings` data from `./settings/**` |
+| `content.mjs` | Reads `server/content/**` and assembles the `ContentBundle` per learning language |
+| `gamification.mjs` | Plain-JS port of the frontend's pure XP/streak/Leitner/badge functions, used by the progress routes |
+| `stub-data.mjs` | `/languages` list derivation (from `content.mjs` + `server/settings/ui/*`) plus loaders for `/settings` and `/ui-strings` data from `./settings/**` |
+| `server.test.mjs` | `node:test` coverage of each route's happy path + 404 path |
 | `settings/{lang}/language-settings.json` | Per-learning-language romanization/alphabet/audio settings (`GET /settings`) |
 | `settings/ui/{lang}/strings.json` | Per-UI-language string table (`GET /ui-strings`) |
-| `content/<lang>/vocab/*.json` | Authored vocab content per learning language (issue #30); not yet read by `server.mjs` — see above |
-| `content/<lang>/lessons/<unitId>.json` | Authored exercise/example-sentence/grammar-note content per learning language, per unit (issue #31); not yet read by `server.mjs` — see above |
+| `content/<lang>/vocab/*.json` | Authored vocab content per learning language (issue #30) |
+| `content/<lang>/units/*.json` | Authored unit/lesson structure per learning language (issue #33) |
+| `content/<lang>/lessons/<unitId>.json` | Authored exercise/example-sentence/grammar-note content per learning language, per unit (issue #31) |
 
 ## CORS
 

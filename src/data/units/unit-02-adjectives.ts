@@ -3,7 +3,10 @@ import type { Unit } from "@/domain/types";
 // Structure only — see `unit-01-basics.ts`'s header comment: literal text
 // lives in `server/content/sarnami/lessons/unit-02-adjectives.json`,
 // resolved via `contentRef` / `exampleSentenceRefs` / `grammarNoteRefs`
-// against `ContentBundle.lessonContent` (issue #31).
+// against `ContentBundle.lessonContent` (issue #31). This file is the
+// frontend's own local/offline fallback copy of
+// `server/content/sarnami/units/unit-02-adjectives.json` (issue #33), not a
+// duplicate kept for backend-bundling purposes.
 export const unit02Adjectives: Unit = {
   id: "unit-02-adjectives",
   title: "Bijvoeglijke naamwoorden",
