@@ -16,15 +16,17 @@ export const nounsVocab: VocabItem[] = [
   },
   {
     id: "noun-maibap",
-    sarnami: "mai-bāp",
+    sarnami: "māī-bāp",
     dutch: "ouders",
+    notes: "Image-verified tegen p.22 (lopende tekst) en p.31 (samenstellingen, 1.5.1): macron op beide klinkers van māī.",
     tags: ["noun", "book-p22"],
   },
   {
     id: "noun-bhai",
-    sarnami: "bhāi",
+    sarnami: "bhāī",
     dutch: "broer",
-    tags: ["noun", "book-p22"],
+    notes: "Image-verified tegen p.31 (samenstelling bhāī-bahin, 1.5.1); de lopende tekst op p.22 schrijft dit woord daarentegen zonder macron (bhai).",
+    tags: ["noun", "book-p31"],
   },
   {
     id: "noun-bahin",
@@ -52,8 +54,9 @@ export const nounsVocab: VocabItem[] = [
   },
   {
     id: "noun-citthi",
-    sarnami: "citthī",
+    sarnami: "ciṭṭhi",
     dutch: "brief",
+    notes: "Image-verified tegen p.22: retroflexe ṭṭh (dot-below op beide t's), slot-i kort (geen macron).",
     tags: ["noun", "book-p22"],
   },
 ];
