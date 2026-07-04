@@ -1,15 +1,17 @@
 # Content/Settings HTTP API Contract
 
-This document is the single source of truth for the HTTP API shared between the
-Sarnami Bol Naa frontend and any backend implementation. It exists so
-frontend PRs (`src/services/content/HttpContentRepository.ts`,
-`src/services/progress/HttpProgressRepository.ts`, a future
-`HttpSettingsRepository` / `HttpUiStringsRepository`) and backend PRs
-(`server.mjs` and successors, now in the separate
-[`rarelang-server`](https://github.com/VITAL-Development/rarelang-server)
-repo — see issue #52) can be built independently against the same shape.
-References to `server/...` paths below describe that repo's layout, not a
-directory in this one.
+This document is the single source of truth for the HTTP API shared between
+the rarelang platform's frontend and backend engines. It exists so frontend
+PRs (`src/services/content/HttpContentRepository.ts`,
+`src/services/progress/HttpProgressRepository.ts`, etc. — now in the
+separate [`rarelang-pwa`](https://github.com/VITAL-Development/rarelang-pwa)
+repo, see issue #63) and backend PRs (`server.mjs` and successors, now in
+the separate [`rarelang-server`](https://github.com/VITAL-Development/rarelang-server)
+repo, see issue #52) can be built independently against the same shape.
+This repo (as of issue #64) contains neither codebase anymore — it's the
+Sarnami content/settings/branding those two generic engines consume.
+References to `src/...`/`server/...` paths below describe those repos'
+layouts, not directories in this one.
 
 Status: **contract only** — no code changes are made by this document. See
 issue #26. A related issue (#27) is generalizing the frontend's hardcoded

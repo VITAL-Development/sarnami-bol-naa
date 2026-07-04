@@ -1,99 +1,73 @@
 # Sarnami Bol Naa — Claude guidance
 
-## Running the project
+## What this repo is
 
-```bash
-source ~/.nvm/nvm.sh   # required — nvm is already installed, Node is not on PATH by default
-npm install
-npm run dev            # http://localhost:5173 (auto-bumps to 5174 if occupied)
+As of issue #64, this repo is **content and branding only** — Sarnami's
+knowledge base (`content/sarnami/`, `settings/sarnami/`) plus branding
+assets (`public/`) — not an app. The generic engine that used to live here
+was extracted to two standalone repos as part of the
+[rarelang rebrand roadmap](https://github.com/VITAL-Development/sarnami-bol-naa/issues/52):
+
+- **[`rarelang-pwa`](https://github.com/VITAL-Development/rarelang-pwa)** — generic frontend engine (React/TS/Vite PWA, no content of its own)
+- **[`rarelang-server`](https://github.com/VITAL-Development/rarelang-server)** — generic backend engine (serves content/settings/progress over HTTP)
+
+**There is no `npm run dev`/`npm run build`/`npm test` app here anymore.**
+The only script is icon regeneration (see "Branding" below). Don't look for
+`src/`, `vite.config.ts`, or a deploy pipeline — they're gone, moved to the
+repos above. `git log <removed-path>` still resolves to that path's
+original history in this repo, if you need it.
+
+## Layout
+
+```
+content/sarnami/{vocab,units,lessons}/*.json   # authored knowledge base
+settings/sarnami/language-settings.json        # romanization/alphabet/audio + branding
+public/{favicon.svg,icons/*.png}               # PWA icon set
+docs/byakaran/*.md                             # grammar reference content was authored from
+docs/api-contract.md                           # HTTP contract rarelang-server implements
+docs/deployment.md                             # current deployment story (see that file)
+scripts/generate-icons.mjs                     # regenerates public/ from a hand-authored SVG
 ```
 
-## Commands
-
-| Command | What it does |
-|---|---|
-| `npm run typecheck` | TSC type-check (no emit) |
-| `npm test` | Vitest unit tests |
-| `npm run test:ci` | Vitest with JSON output → `test-results.json` |
-| `npm run build` | Type-check + Vite production build → `dist/` |
-| `npm run test:e2e` | Playwright E2E visual tests (needs `npm run build` first) |
-
-## Architecture
-
-- **React 18 + TypeScript + Vite** PWA (`vite-plugin-pwa`)
-- **React Router v6** — routes: `/` (Path), `/lesson/:lessonId`, `/review`, `/profile`
-- **Tailwind CSS v3** with custom tokens (see Design system below)
-- **FontAwesome 6 Free Solid** via `@fortawesome/react-fontawesome` — no emoji in UI
-
-### Service layer (`src/services/index.ts`)
-
-Reads `VITE_API_BASE_URL` at build time. If set, uses `HttpContentRepository` + `HttpProgressRepository`; otherwise falls back to `LocalJsonContentRepository` + `LocalStorageProgressRepository`. No code change needed to switch — just set the env var.
-
-### Domain logic
-
-- **Leitner spaced repetition** — 5 boxes, intervals 1/2/4/7/14 days (`src/domain/leitner.ts`)
-- **XP** — base 10 XP, 1.5× multiplier for 0 mistakes (`src/domain/gamification.ts`)
-- **Streaks** — consecutive calendar-day tracking (YYYY-MM-DD strings)
-- **Badges** — 4 milestone badges evaluated on every progress update (`src/data/badges.ts`)
-- **Progress storage key** — `sarnami-progress-v1` in localStorage
-
-### Lesson IDs
-
-Actual lesson IDs come from `src/data/units/unit-01-basics.ts` (e.g. `"lesson-1-greetings"`), not numeric slugs like `u01-l01`.
-
-### `useLessonSession` exercise contract
-
-Exercise components receive `onAnswer` (= `submitAnswer`) and must follow this contract:
-
-- Call `onAnswer(true)` **exactly once**, when the exercise is fully solved — this advances `currentIndex` and ends the lesson on the last exercise.
-- Call `onAnswer(false)` for **every individual wrong attempt** — this deducts a heart and increments `mistakeCount`, but does **not** advance `currentIndex`.
-
-Single-step exercises (multiple-choice, fill-blank, word-bank) call it once either way. Multi-step exercises like `Matching` (`src/components/exercises/Matching.tsx`) call `onAnswer(false)` per mismatched pair attempt and `onAnswer(true)` only once all pairs are matched — a wrong attempt does not reset progress on already-matched pairs.
+The on-disk shape under `content/`/`settings/` is not arbitrary — it
+exactly mirrors what `rarelang-server`'s `content.mjs`/`stub-data.mjs`
+expect when mounted via `CONTENT_DIR`/`SETTINGS_DIR`. Don't rename/restructure
+these directories without checking `rarelang-server`'s expectations first
+(see its README's "Content ownership" section).
 
 ## Content authoring
 
-Sarnami romanization uses diacritics (ā/ī/ū macrons, ṭ/ḍ/ṇ underdots, ñ/ṅ) that `pdftotext` and similar raw text extraction commonly corrupt or drop (e.g. ā → ä, or the diacritic vanishing entirely). Don't trust extracted text from book-source PDFs directly — verify spellings against rendered page images.
+Sarnami romanization uses diacritics (ā/ī/ū macrons, ṭ/ḍ/ṇ underdots, ñ/ṅ)
+that `pdftotext` and similar raw text extraction commonly corrupt or drop
+(e.g. ā → ä, or the diacritic vanishing entirely). Don't trust extracted
+text from book-source PDFs directly — verify spellings against rendered
+page images. See `docs/byakaran/01-sounds.md` for the full sound inventory.
 
-Vocab entries sourced from the book carry `book-pNN` tags for traceability; entries not yet cross-checked against a second source carry `needs-verification` (see `src/data/vocab/greetings.ts`).
+Vocab entries sourced from the book carry `book-pNN` tags for traceability;
+entries not yet cross-checked against a second source carry
+`needs-verification` (see `content/sarnami/vocab/greetings.json`).
 
-## Design system
+`content/sarnami/units/*.json` reference vocab/lesson-content by id
+(`vocabRef`, `contentRef`) rather than embedding literal text — the actual
+prompt/example-sentence/grammar-note text lives in
+`content/sarnami/lessons/*.json`, keyed by `contentRef`.
 
-Colors derived from the Suriname flag:
+## Branding
 
-| Token | Hex | Use |
-|---|---|---|
-| `forest-600` | `#377E3F` | Primary — buttons, active nav, XP text |
-| `flame-600` | `#B40A2D` | Hearts, fail states |
-| `gold-400` | `#ECC81D` | Stars, XP bar, streak fire |
-| `cream-50/100` | `#fdf6ec / #f8e8c8` | Background, card borders |
+Colors are derived from the Suriname flag; the canonical values live in
+`settings/sarnami/language-settings.json`'s `branding.colors` (RGB-triplet
+strings, consumed at runtime by `rarelang-pwa`'s `useBranding.ts` — not
+hardcoded Tailwind config anywhere in this repo, since there's no frontend
+build here). Regenerate the PWA icon set after any design change:
 
-All emoji replaced with FontAwesome icons. See `src/components/ui/Icon.tsx` for the wrapper.
-
-## CI
-
-10-job graph on every PR:
-
-```
-changes ──► install ──► typecheck ──────────────────────────► report
-                    └─► unit-tests (skipped if content-only) ►
-                    └─► build (skipped if non-UI) ─► visual-home ───────►
-                                                  └─► visual-lesson-node ►
-                                                  └─► visual-lesson-summary ►
-                                                  └─► visual-nav ──────►
-                                                  └─► visual-profile ──►
+```bash
+npm install       # one devDependency: sharp, for scripts/generate-icons.mjs
+npm run generate-icons
 ```
 
-- `changes` (via `dorny/paths-filter`) computes two outputs from the PR diff:
-  - `app` — functional app code (`src/**`, minus pure content in `src/data/vocab/**` and `src/data/units/**`) vs. content-only. `unit-tests` is skipped — not failed — when `app` is false; `build` treats a skipped `unit-tests` the same as success so the visual chain isn't blocked by that alone.
-  - `ui` — narrower: only files that can affect rendered output (`src/**/*.tsx`, `src/styles/**`, `tailwind.config.ts`, `index.html`, `public/**`). `build` (and therefore all `visual-*` jobs, which depend on it) is skipped when `ui` is false — a non-UI functional change (e.g. `src/domain/leitner.ts`) still runs `unit-tests` but doesn't pay for a full build + 5 Playwright jobs. The `install` job also skips its Playwright Chromium setup steps when `ui` is false.
-  - Job-level `if:` conditions that reference `needs.<job>.result` must also include `always()` — GitHub silently prepends `success()` to any `if:` lacking a status-check function, which re-triggers skip-propagation through the transitive `needs` graph and defeats the condition.
-- `node_modules` cached by `package-lock.json` hash (`node-modules-*` cache key)
-- Playwright Chromium binary cached by `package-lock.json` hash (`playwright-*` cache key); visual jobs only run `playwright install-deps chromium` (OS libs, ~5s) on a warm cache
-- `dist/` shared as an artifact from `build` to all visual jobs
-- `report` job posts a sticky PR comment with a 7-row summary table + per-file unit test detail table
+## Deployment
 
-## Deploy
-
-Merge to `main` triggers `deploy.yml`: builds with `VITE_API_BASE_URL=${{ secrets.TAILSCALE_BACKEND_URL }}` and deploys `dist/` to Hetzner `/public_html/sarnami_bol/` via FTPS.
-
-Required secrets: `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`, `TAILSCALE_BACKEND_URL`.
+There's no build/deploy pipeline in this repo. See `docs/deployment.md` for
+the current story: `rarelang-pwa` is built/deployed independently, and this
+repo's content reaches `rarelang-server` via a git-sync sidecar (see
+issue #76 and rarelang-server's own docs), not a copy baked into any image.

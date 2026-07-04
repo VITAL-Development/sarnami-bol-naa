@@ -1,75 +1,88 @@
 # Sarnami Bol Naa
 
-A Progressive Web App for learning Sarnami — a Hindi-derived language spoken in Suriname — through gamified, bite-sized lessons.
+Content and branding package for **Sarnami** — a Hindi-derived language
+spoken in Suriname — as taught by the [rarelang](https://github.com/VITAL-Development/rarelang-pwa)
+platform's generic learning engine.
 
-## Features
+## What this repo is (and isn't)
 
-- **Structured lessons** — Unit 1 covers greetings, pronouns, family nouns, and basic sentences
-- **5 exercise types** — multiple choice, word bank, fill-in-the-blank, matching, and flashcards
-- **Spaced repetition** — Leitner system schedules vocab reviews at increasing intervals
-- **Gamification** — XP, streaks, hearts (lives), stars, and milestone badges
-- **PWA** — installable, offline-capable, works on mobile
+This repo used to be the whole app: a React/TypeScript PWA plus its
+content. As of issue #64 (part of the [rarelang rebrand roadmap](https://github.com/VITAL-Development/sarnami-bol-naa/issues/52)),
+the generic engine code has been extracted into two standalone repos:
 
-## Prerequisites
+- **[`rarelang-pwa`](https://github.com/VITAL-Development/rarelang-pwa)** — the generic frontend engine (routing, exercise components, spaced repetition, gamification). No content or branding of its own.
+- **[`rarelang-server`](https://github.com/VITAL-Development/rarelang-server)** — the generic backend engine (serves content/settings/progress over HTTP).
 
-- [Node.js](https://nodejs.org/) v22+ (install via [nvm](https://github.com/nvm-sh/nvm))
+This repo is what's left: the actual Sarnami vocabulary, lessons, and
+per-language settings (`content/`, `settings/`), the app's branding (colors,
+icons, app name — via `settings/sarnami/language-settings.json`'s
+`branding` field), and the grammar-reference material the content was
+authored from (`docs/byakaran/`). There is no build here, no `npm run dev`
+serving an app, and no deploy pipeline — those all now live with the
+generic engines.
 
-## Getting started
+## Layout
+
+```
+content/sarnami/
+├── vocab/*.json      # VocabItem[] — any filename, looked up by id
+├── units/*.json      # Unit objects (id/title/order/lessons/exercises)
+└── lessons/*.json    # Lesson-adjacent content (example sentences, grammar
+                       # notes, exercise prompts/options), keyed by contentRef
+settings/sarnami/
+└── language-settings.json   # Romanization rules, alphabet, audio config,
+                              # and the `branding` object (colors/appName/icons)
+public/
+├── favicon.svg
+└── icons/            # PWA icon set (192/512/maskable-512)
+docs/
+├── byakaran/         # Image-verified transcription of the grammar reference
+│                     # (Sarnami Byäkaran, Marhé 1985) content was authored from
+├── api-contract.md   # HTTP contract rarelang-server implements / rarelang-pwa consumes
+├── deployment.md     # Current deployment story (see below)
+└── sarnamibhasa-vocab.md
+scripts/
+└── generate-icons.mjs   # Regenerates public/favicon.svg + public/icons/*.png
+                          # from a hand-authored SVG design (needs `npm install`
+                          # for its one `sharp` devDependency, then
+                          # `npm run generate-icons`)
+```
+
+The on-disk shape under `content/`/`settings/` exactly mirrors what
+`rarelang-server` expects to mount via its `CONTENT_DIR`/`SETTINGS_DIR` env
+vars — see [rarelang-server's README](https://github.com/VITAL-Development/rarelang-server#content)
+and [issue #76](https://github.com/VITAL-Development/sarnami-bol-naa/issues/76)
+for how this repo gets wired up as a live content source (a git-sync
+sidecar, not a copy baked into the server's Docker image).
+
+## Content authoring
+
+Sarnami romanization uses diacritics (ā/ī/ū macrons, ṭ/ḍ/ṇ underdots, ñ/ṅ)
+that `pdftotext` and similar raw text extraction commonly corrupt or drop
+(e.g. ā → ä, or the diacritic vanishing entirely). Don't trust extracted
+text from book-source PDFs directly — verify spellings against rendered
+page images. See `docs/byakaran/01-sounds.md` for the full sound inventory.
+
+Vocab entries carry `tags` for traceability — e.g. `book-pNN` tags cite the
+page in Marhé's grammar an entry was verified against; `needs-verification`
+marks entries not yet cross-checked against a second source.
+
+## Branding
+
+Colors are derived from the Suriname flag; see `settings/sarnami/language-settings.json`'s
+`branding.colors` for the actual RGB-triplet values consumed at runtime by
+`rarelang-pwa`'s theming (`useBranding.ts`). Regenerate the PWA icon set
+after any design change with:
 
 ```bash
-# Install dependencies
 npm install
-
-# Start the dev server (http://localhost:5173)
-npm run dev
+npm run generate-icons
 ```
 
-## Available scripts
+## History
 
-| Script | Description |
-|---|---|
-| `npm run dev` | Start Vite dev server with hot reload |
-| `npm run build` | Type-check and produce a production build in `dist/` |
-| `npm run preview` | Serve the production build locally |
-| `npm run typecheck` | Run TypeScript type-checking without emitting |
-| `npm test` | Run unit tests (Vitest) |
-| `npm run test:e2e` | Run Playwright end-to-end visual tests (requires a build first) |
-| `npm run lint` | Lint with ESLint |
-
-## Running end-to-end tests
-
-E2E tests use [Playwright](https://playwright.dev/) and need a production build:
-
-```bash
-npm run build
-npx playwright install chromium --with-deps
-npm run test:e2e
-```
-
-## Project structure
-
-```
-src/
-├── components/       # UI components (exercises, HUD, layout, feedback)
-├── data/             # Static content — units, vocab, badge definitions
-├── domain/           # Pure business logic (gamification, Leitner, types)
-├── hooks/            # React hooks for lesson sessions, review queue, content
-├── routes/           # Page-level route components
-├── services/         # Repository interfaces + localStorage / HTTP implementations
-├── state/            # React context for global progress state
-└── i18n/             # Dutch UI strings
-e2e/                  # Playwright visual tests
-```
-
-## Deployment
-
-Merging to `main` triggers a GitHub Actions workflow that builds the app and deploys it to the Hetzner webspace at `/public_html/sarnami_bol/` via FTPS. Required repository secrets: `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`.
-
-## Tech stack
-
-- [React 18](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
-- [Vite](https://vitejs.dev/) + [vite-plugin-pwa](https://vite-pwa-org.netlify.app/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [React Router](https://reactrouter.com/)
-- [FontAwesome 6](https://fontawesome.com/) (free solid icons)
-- [Vitest](https://vitest.dev/) + [Playwright](https://playwright.dev/) for testing
+This repo's git history predates the rebrand — it includes the original
+app's full development (content authoring, the frontend/backend split,
+the `rarelang-pwa`/`rarelang-server` extractions) even though that engine
+code no longer lives here. `git log` on any now-removed path (e.g. `src/`)
+still resolves to its original history.
