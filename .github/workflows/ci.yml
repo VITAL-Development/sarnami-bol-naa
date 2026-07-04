@@ -14,6 +14,20 @@ permissions:
 # The cache key is the package-lock.json hash, so a lockfile change triggers
 # a fresh npm ci in the install job and propagates to all downstream jobs.
 
+# ── Frontend/backend scope ────────────────────────────────────────────────────
+# /server is plainly tracked in this repo (see server/README.md) but is a
+# separate Node package with its own package.json/package-lock.json and no
+# tsconfig of its own. It's already excluded from the frontend's typecheck and
+# unit-test jobs by construction, not by anything in this file:
+#   - `npm run typecheck` runs `tsc -b`, which only builds tsconfig.app.json
+#     (include: ["src"]) and tsconfig.node.json (include: ["vite.config.ts"]) —
+#     server/** is never referenced.
+#   - `npm run test`/`test:ci` run Vitest, whose config (vite.config.ts)
+#     explicitly sets `test.exclude: [..., "server/**"]", since server/**
+#     uses node:test, not Vitest/jsdom.
+# See the server-tests job below for /server's own (optional, path-gated) test
+# run.
+
 jobs:
   # ── Detect functional (app) vs content-only changes ─────────────────────────
   # Content data (vocab/unit text) doesn't affect app behavior, so pure content
@@ -24,6 +38,7 @@ jobs:
     outputs:
       app: ${{ steps.filter-src.outputs.app == 'true' || steps.filter-config.outputs.app == 'true' }}
       ui: ${{ steps.filter-ui.outputs.ui }}
+      server: ${{ steps.filter-server.outputs.server }}
     steps:
       - uses: actions/checkout@v4
       # Two separate filter steps because the negated (!...) exclusions below
@@ -64,6 +79,14 @@ jobs:
               - 'tailwind.config.ts'
               - 'index.html'
               - 'public/**'
+      # Gates the optional server-tests job — /server has its own package.json
+      # and node:test suite, unrelated to the frontend filters above.
+      - uses: dorny/paths-filter@v3
+        id: filter-server
+        with:
+          filters: |
+            server:
+              - 'server/**'
 
   # ── 0. Seed npm cache ───────────────────────────────────────────────────────
   install:
@@ -182,6 +205,31 @@ jobs:
             test-results.json
       - if: steps.tests.outcome == 'failure'
         run: exit 1
+
+  # ── Optional: Backend unit tests ────────────────────────────────────────────
+  # /server (see server/README.md) is a separate Node package with its own
+  # package.json/package-lock.json and a dependency-free node:test suite
+  # (server/server.test.mjs, added in #33) — unrelated to the frontend's
+  # Vitest suite above. Path-gated the same way as the 'ui'/'app' filters:
+  # only runs when a PR actually touches server/**, so unrelated frontend PRs
+  # don't pay for a second npm install.
+  server-tests:
+    name: "Check: Backend unit tests (/server)"
+    needs: changes
+    if: needs.changes.outputs.server == 'true'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: server
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: server/package-lock.json
+      - run: npm ci
+      - run: npm test
 
   # ── Build (gate for visual checks) ─────────────────────────────────────────
   build:
