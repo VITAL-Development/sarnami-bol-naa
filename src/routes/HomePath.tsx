@@ -1,9 +1,12 @@
+import { faSeedling } from "@fortawesome/free-solid-svg-icons";
 import { useContent } from "@/hooks/useContent";
 import { useProgress } from "@/state/ProgressContext";
 import { SkillNode } from "@/components/path/SkillNode";
 import { HeartsBar } from "@/components/hud/HeartsBar";
 import { XPBar } from "@/components/hud/XPBar";
 import { StreakBadge } from "@/components/hud/StreakBadge";
+import { Card } from "@/components/ui/Card";
+import { Icon } from "@/components/ui/Icon";
 import { t } from "@/i18n/t";
 
 export function HomePath() {
@@ -15,6 +18,16 @@ export function HomePath() {
   }
 
   const allLessons = bundle.units.flatMap((unit) => unit.lessons);
+
+  if (bundle.units.length === 0) {
+    return (
+      <Card className="text-center">
+        <Icon icon={faSeedling} className="text-3xl text-forest-600" aria-hidden />
+        <h2 className="mt-3 text-xl font-bold text-stone-800">{t("path.title")}</h2>
+        <p className="mt-2 text-stone-500">{t("path.noLessonsYet")}</p>
+      </Card>
+    );
+  }
 
   return (
     <div>

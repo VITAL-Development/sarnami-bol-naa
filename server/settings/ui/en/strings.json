@@ -8,7 +8,8 @@
   "path": {
     "title": "Your learning path",
     "lessonLocked": "Complete the previous lesson to unlock this one.",
-    "startLesson": "Start lesson"
+    "startLesson": "Start lesson",
+    "noLessonsYet": "No lessons for this language yet — check back soon!"
   },
   "lesson": {
     "checkAnswer": "Check",
