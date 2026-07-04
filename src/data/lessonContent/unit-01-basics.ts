@@ -13,13 +13,13 @@ export const unit01BasicsContent: LessonContentFile[] = [
     exampleSentences: [
       {
         id: "ex-1-1",
-        sarnami: "Rām Rām, kaise hai?",
+        word: "Rām Rām, kaise hai?",
         translations: { nl: "Hallo, hoe gaat het?" },
         vocabRefs: ["greet-ram-ram", "greet-kaise-hai"],
       },
       {
         id: "ex-1-2",
-        sarnami: "Moi jā hai, dhanbād.",
+        word: "Moi jā hai, dhanbād.",
         translations: { nl: "Het gaat goed, bedankt." },
         vocabRefs: ["greet-moi-jahe", "greet-dhanyavad"],
       },
@@ -33,7 +33,7 @@ export const unit01BasicsContent: LessonContentFile[] = [
       },
       "l1-e4": {
         promptTranslations: { nl: "Hoe gaat het?" },
-        correctSarnamiTokens: ["Kaise", "hai?"],
+        correctTargetTokens: ["Kaise", "hai?"],
         distractorTokens: ["Dhanbād", "Rām"],
       },
       "l1-e5": {
@@ -49,13 +49,13 @@ export const unit01BasicsContent: LessonContentFile[] = [
     exampleSentences: [
       {
         id: "ex-2-1",
-        sarnami: "Ham Sarnāmi bol-nā sikhe hai.",
+        word: "Ham Sarnāmi bol-nā sikhe hai.",
         translations: { nl: "Ik leer Sarnami spreken." },
         vocabRefs: ["pron-ham"],
       },
       {
         id: "ex-2-2",
-        sarnami: "Tū kaise hai?",
+        word: "Tū kaise hai?",
         translations: { nl: "Hoe gaat het met jou?" },
         vocabRefs: ["pron-tu"],
       },
@@ -78,7 +78,7 @@ export const unit01BasicsContent: LessonContentFile[] = [
       },
       "l2-e4": {
         promptTranslations: { nl: "Hoe gaat het met jou?" },
-        correctSarnamiTokens: ["Tū", "kaise", "hai?"],
+        correctTargetTokens: ["Tū", "kaise", "hai?"],
         distractorTokens: ["ham", "āp"],
       },
       "l2-e5": {
@@ -94,19 +94,19 @@ export const unit01BasicsContent: LessonContentFile[] = [
     exampleSentences: [
       {
         id: "ex-3-1",
-        sarnami: "Ī hamar ghar hai.",
+        word: "Ī hamar ghar hai.",
         translations: { nl: "Dit is mijn huis." },
         vocabRefs: ["noun-ghar"],
       },
       {
         id: "ex-3-2",
-        sarnami: "Bappā kām kare hai.",
+        word: "Bappā kām kare hai.",
         translations: { nl: "Vader werkt." },
         vocabRefs: ["noun-bappa"],
       },
       {
         id: "ex-3-3",
-        sarnami: "Maiyā bajār se saudā kin lāve hai.",
+        word: "Maiyā bajār se saudā kin lāve hai.",
         translations: { nl: "Moeder haalt boodschappen van de markt." },
         vocabRefs: ["noun-maiya"],
       },
@@ -129,7 +129,7 @@ export const unit01BasicsContent: LessonContentFile[] = [
       },
       "l3-e3": {
         promptTranslations: { nl: "Dit is mijn huis." },
-        correctSarnamiTokens: ["Ī", "hamar", "ghar", "hai."],
+        correctTargetTokens: ["Ī", "hamar", "ghar", "hai."],
         distractorTokens: ["tor", "bahin"],
       },
     },
@@ -139,25 +139,25 @@ export const unit01BasicsContent: LessonContentFile[] = [
     exampleSentences: [
       {
         id: "ex-4-1",
-        sarnami: "Ham hai. Tū hai. Ī/ū hai.",
+        word: "Ham hai. Tū hai. Ī/ū hai.",
         translations: { nl: "Ik ben. Jij bent. Hij/zij is." },
         vocabRefs: ["gram-hai", "pron-ham", "pron-tu", "pron-u"],
       },
       {
         id: "ex-4-2",
-        sarnami: "Ham log haim. Tū log hai. Āp ho.",
+        word: "Ham log haim. Tū log hai. Āp ho.",
         translations: { nl: "Wij zijn. Jullie zijn. U bent." },
         vocabRefs: ["gram-hai", "pron-hamlog", "pron-ap"],
       },
       {
         id: "ex-4-3",
-        sarnami: "Ū kahām hai?",
+        word: "Ū kahām hai?",
         translations: { nl: "Waar is hij/zij?" },
         vocabRefs: ["gram-kaham", "pron-u"],
       },
       {
         id: "ex-4-4",
-        sarnami: "Hamār bāp nā hai ghare.",
+        word: "Hamār bāp nā hai ghare.",
         translations: { nl: "Mijn vader is niet thuis." },
         vocabRefs: ["gram-na", "noun-bappa"],
       },
@@ -185,7 +185,7 @@ export const unit01BasicsContent: LessonContentFile[] = [
       },
       "l4-e3": {
         promptTranslations: { nl: "Waar is hij/zij?" },
-        correctSarnamiTokens: ["Ū", "kahām", "hai?"],
+        correctTargetTokens: ["Ū", "kahām", "hai?"],
         distractorTokens: ["nā", "ham"],
       },
       "l4-e4": {
@@ -218,7 +218,7 @@ export const unit01BasicsContent: LessonContentFile[] = [
       },
       "l5-e3": {
         promptTranslations: { nl: "Dit is mijn huis." },
-        correctSarnamiTokens: ["Ī", "hamar", "ghar", "hai."],
+        correctTargetTokens: ["Ī", "hamar", "ghar", "hai."],
         distractorTokens: ["kahām", "nā"],
       },
       "l5-e4": {

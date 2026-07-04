@@ -9,19 +9,19 @@ export const unit02AdjectivesContent: LessonContentFile[] = [
     exampleSentences: [
       {
         id: "ex-6-1",
-        sarnami: "Mahes ego choṭā ghar kīnis hai.",
+        word: "Mahes ego choṭā ghar kīnis hai.",
         translations: { nl: "Mahes heeft een huisje gekocht." },
         vocabRefs: ["adj-chota"],
       },
       {
         id: "ex-6-2",
-        sarnami: "Mahes chŏṭkā gharvā kīnis hai.",
+        word: "Mahes chŏṭkā gharvā kīnis hai.",
         translations: { nl: "Mahes heeft het huisje gekocht." },
         vocabRefs: ["adj-chota"],
       },
       {
         id: "ex-6-3",
-        sarnami: "Hariyā lāl somth pahine hai.",
+        word: "Hariyā lāl somth pahine hai.",
         translations: { nl: "Hari draagt een rood overhemd." },
         vocabRefs: ["adj-lal"],
       },
@@ -58,7 +58,7 @@ export const unit02AdjectivesContent: LessonContentFile[] = [
       },
       "l6-e5": {
         promptTranslations: { nl: "Mahes heeft het huisje gekocht." },
-        correctSarnamiTokens: ["Mahes", "chŏṭkā", "gharvā", "kīnis", "hai."],
+        correctTargetTokens: ["Mahes", "chŏṭkā", "gharvā", "kīnis", "hai."],
         distractorTokens: ["lalkā", "miṭhkā"],
       },
     },
@@ -68,19 +68,19 @@ export const unit02AdjectivesContent: LessonContentFile[] = [
     exampleSentences: [
       {
         id: "ex-7-1",
-        sarnami: "Ego barkā per.",
+        word: "Ego barkā per.",
         translations: { nl: "Een grote boom." },
         vocabRefs: ["adj-barka"],
       },
       {
         id: "ex-7-2",
-        sarnami: "Ū barkāvan pervan.",
+        word: "Ū barkāvan pervan.",
         translations: { nl: "Die grote bomen." },
         vocabRefs: ["adj-barka"],
       },
       {
         id: "ex-7-3",
-        sarnami: "Karikkanī bakariyā.",
+        word: "Karikkanī bakariyā.",
         translations: { nl: "De zwarte geit." },
         vocabRefs: ["adj-karikka"],
       },
@@ -110,7 +110,7 @@ export const unit02AdjectivesContent: LessonContentFile[] = [
       },
       "l7-e3": {
         promptTranslations: { nl: "Die grote bomen." },
-        correctSarnamiTokens: ["Ū", "barkāvan", "pervan."],
+        correctTargetTokens: ["Ū", "barkāvan", "pervan."],
         distractorTokens: ["chŏṭkā", "lalkā"],
       },
       "l7-e4": {
@@ -126,19 +126,19 @@ export const unit02AdjectivesContent: LessonContentFile[] = [
     exampleSentences: [
       {
         id: "ex-8-1",
-        sarnami: "Hamār ghar tor ghar se barkā hai.",
+        word: "Hamār ghar tor ghar se barkā hai.",
         translations: { nl: "Mijn huis is groter dan jouw huis." },
         vocabRefs: ["gram-se", "adj-barka"],
       },
       {
         id: "ex-8-2",
-        sarnami: "Hamār gharī tor gharī se aur choṭā hai.",
+        word: "Hamār gharī tor gharī se aur choṭā hai.",
         translations: { nl: "Mijn horloge is kleiner dan het jouwe." },
         vocabRefs: ["gram-aur-compare", "adj-chota"],
       },
       {
         id: "ex-8-3",
-        sarnami: "Sarnām mem ī sab se dhanī adamī hai.",
+        word: "Sarnām mem ī sab se dhanī adamī hai.",
         translations: { nl: "In Suriname is hij de rijkste man." },
         vocabRefs: ["gram-sabse"],
       },
@@ -166,7 +166,7 @@ export const unit02AdjectivesContent: LessonContentFile[] = [
       },
       "l8-e3": {
         promptTranslations: { nl: "In Suriname is hij de rijkste man." },
-        correctSarnamiTokens: ["Sarnām", "mem", "ī", "sab", "se", "dhanī", "adamī", "hai."],
+        correctTargetTokens: ["Sarnām", "mem", "ī", "sab", "se", "dhanī", "adamī", "hai."],
         distractorTokens: ["jādā", "aur"],
       },
       "l8-e4": {
@@ -200,7 +200,7 @@ export const unit02AdjectivesContent: LessonContentFile[] = [
       },
       "l9-e3": {
         promptTranslations: { nl: "Mijn huis is groter dan jouw huis." },
-        correctSarnamiTokens: ["Hamār", "ghar", "tor", "ghar", "se", "barkā", "hai."],
+        correctTargetTokens: ["Hamār", "ghar", "tor", "ghar", "se", "barkā", "hai."],
         distractorTokens: ["choṭā", "jādā"],
       },
       "l9-e4": {

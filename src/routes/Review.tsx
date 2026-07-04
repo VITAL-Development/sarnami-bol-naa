@@ -44,7 +44,7 @@ export function Review() {
       <h2 className="mb-4 text-xl font-bold">{t("review.title")}</h2>
       <Flashcard
         key={item.id}
-        exercise={{ id: item.id, kind: "flashcard", vocabRef: item.id, direction: "sarnami-to-dutch" }}
+        exercise={{ id: item.id, kind: "flashcard", vocabRef: item.id, direction: "target-to-native" }}
         vocabById={vocabById}
         contentById={EMPTY_CONTENT_MAP}
         onAnswer={handleAnswer}

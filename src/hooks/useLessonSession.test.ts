@@ -15,7 +15,7 @@ function makeLesson(exerciseCount: number): Lesson {
       id: `ex-${i}`,
       kind: "flashcard" as const,
       vocabRef: `v-${i}`,
-      direction: "sarnami-to-dutch" as const,
+      direction: "target-to-native" as const,
     })),
     xpReward: 10,
   };

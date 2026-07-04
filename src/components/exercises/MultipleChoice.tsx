@@ -39,7 +39,7 @@ export function MultipleChoice({
       <p className="mb-1 text-sm text-stone-500">Meerkeuze</p>
       <h2 className="mb-4 text-xl font-semibold">
         {content.prompt}
-        {promptVocab && <span className="ml-2 text-sarnami-600">{promptVocab.sarnami}</span>}
+        {promptVocab && <span className="ml-2 text-sarnami-600">{promptVocab.word}</span>}
       </h2>
       <div className="grid gap-3">
         {content.options.map((option, index) => {

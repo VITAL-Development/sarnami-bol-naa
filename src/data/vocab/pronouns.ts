@@ -10,32 +10,32 @@ import type { VocabItem } from "@/domain/types";
 export const pronounsVocab: VocabItem[] = [
   {
     id: "pron-ham",
-    sarnami: "ham",
+    word: "ham",
     translations: { nl: "ik" },
     tags: ["pronoun", "book-p68"],
   },
   {
     id: "pron-tu",
-    sarnami: "tū",
+    word: "tū",
     translations: { nl: "jij (informeel)" },
     tags: ["pronoun", "book-p69"],
   },
   {
     id: "pron-ap",
-    sarnami: "āp",
+    word: "āp",
     translations: { nl: "u (beleefdheidsvorm)" },
     tags: ["pronoun", "book-p69"],
   },
   {
     id: "pron-u",
-    sarnami: "ū",
+    word: "ū",
     translations: { nl: "hij / zij" },
     notes: "Sarnami kent geen onderscheid in geslacht bij de 3e persoon (boek p.23).",
     tags: ["pronoun", "book-p23"],
   },
   {
     id: "pron-hamlog",
-    sarnami: "ham log",
+    word: "ham log",
     translations: { nl: "wij" },
     tags: ["pronoun", "book-p68"],
   },

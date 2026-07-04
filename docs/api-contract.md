@@ -158,7 +158,7 @@ language, `en` optional until backfilled):
   "vocab": [
     {
       "id": "vocab-ram-ram",
-      "sarnami": "Rām Rām",
+      "word": "Rām Rām",
       "translations": { "nl": "gegroet (formeel/religieus)", "en": "greetings (formal/religious)" },
       "audioUrl": "/audio/sarnami/ram-ram.mp3",
       "tags": ["greetings", "book-p12"],
@@ -169,7 +169,7 @@ language, `en` optional until backfilled):
     "exampleSentences": [
       {
         "id": "ex-greet-1",
-        "sarnami": "Rām Rām, kaise ho?",
+        "word": "Rām Rām, kaise ho?",
         "translations": { "nl": "Gegroet, hoe gaat het?", "en": "Greetings, how are you?" },
         "vocabRefs": ["vocab-ram-ram"]
       }
@@ -212,10 +212,13 @@ Notes on exercise kinds carried through unchanged from `LessonExercise` in
     `WordBankExercise.promptDutch`)
   - `FillBlankContent.translations: { nl, en? }` (was
     `FillBlankExercise.dutchTranslation`)
-  - `FlashcardExercise.direction`: still `"sarnami-to-dutch" |
-    "dutch-to-sarnami"` as of this writing — renaming it to
-    `"sarnami-to-ui" | "ui-to-sarnami"` is out of scope for #31 (no literal
-    text to extract there) and remains open follow-on work.
+  - `FlashcardExercise.direction`: `"target-to-native" | "native-to-target"`
+    (renamed from the language-specific `"sarnami-to-dutch" |
+    "dutch-to-sarnami"` in issue #60, alongside the `VocabItem`/
+    `ExampleSentence` `sarnami` → `word` field and
+    `WordBankContent.correctSarnamiTokens` → `correctTargetTokens` renames,
+    to keep the domain schema language-agnostic ahead of the `rarelang`
+    engine split).
 
 **Errors:**
 - `404 { "error": "Unknown learning language: <code>" }` if `lang` isn't one

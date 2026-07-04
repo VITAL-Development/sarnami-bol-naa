@@ -30,13 +30,13 @@
           "id": "srn-l1-e2",
           "kind": "flashcard",
           "vocabRef": "srn-greet-tangi",
-          "direction": "sarnami-to-dutch"
+          "direction": "target-to-native"
         },
         {
           "id": "srn-l1-e3",
           "kind": "flashcard",
           "vocabRef": "srn-greet-grantangi",
-          "direction": "dutch-to-sarnami"
+          "direction": "native-to-target"
         },
         {
           "id": "srn-l1-e4",

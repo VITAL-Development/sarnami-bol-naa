@@ -1,7 +1,7 @@
 [
   {
     "id": "adj-chota",
-    "sarnami": "choṭā",
+    "word": "choṭā",
     "translations": {
       "nl": "klein"
     },
@@ -13,7 +13,7 @@
   },
   {
     "id": "adj-lal",
-    "sarnami": "lāl",
+    "word": "lāl",
     "translations": {
       "nl": "rood"
     },
@@ -25,7 +25,7 @@
   },
   {
     "id": "adj-sojha",
-    "sarnami": "sojhā",
+    "word": "sojhā",
     "translations": {
       "nl": "recht"
     },
@@ -37,7 +37,7 @@
   },
   {
     "id": "adj-patar",
-    "sarnami": "pātar",
+    "word": "pātar",
     "translations": {
       "nl": "dun"
     },
@@ -49,7 +49,7 @@
   },
   {
     "id": "adj-mitha",
-    "sarnami": "mīṭhā",
+    "word": "mīṭhā",
     "translations": {
       "nl": "lekker"
     },
@@ -61,7 +61,7 @@
   },
   {
     "id": "adj-barka",
-    "sarnami": "barkā",
+    "word": "barkā",
     "translations": {
       "nl": "groot"
     },
@@ -73,7 +73,7 @@
   },
   {
     "id": "adj-lamma",
-    "sarnami": "lammā",
+    "word": "lammā",
     "translations": {
       "nl": "lang"
     },
@@ -85,7 +85,7 @@
   },
   {
     "id": "adj-barhimya",
-    "sarnami": "barhimyā",
+    "word": "barhimyā",
     "translations": {
       "nl": "goed"
     },
@@ -97,7 +97,7 @@
   },
   {
     "id": "adj-karikka",
-    "sarnami": "karikkā",
+    "word": "karikkā",
     "translations": {
       "nl": "zwart"
     },

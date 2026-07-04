@@ -1,7 +1,7 @@
 [
   {
     "id": "gram-hai",
-    "sarnami": "hai",
+    "word": "hai",
     "translations": {
       "nl": "is / ben / bent (koppelwerkwoord 'zijn')"
     },
@@ -14,7 +14,7 @@
   },
   {
     "id": "gram-na",
-    "sarnami": "nā",
+    "word": "nā",
     "translations": {
       "nl": "niet"
     },
@@ -26,7 +26,7 @@
   },
   {
     "id": "gram-kaham",
-    "sarnami": "kahām",
+    "word": "kahām",
     "translations": {
       "nl": "waar"
     },
@@ -38,7 +38,7 @@
   },
   {
     "id": "gram-se",
-    "sarnami": "se",
+    "word": "se",
     "translations": {
       "nl": "dan (bij vergelijking)"
     },
@@ -51,7 +51,7 @@
   },
   {
     "id": "gram-aur-compare",
-    "sarnami": "aur",
+    "word": "aur",
     "translations": {
       "nl": "nog (meer)"
     },
@@ -64,7 +64,7 @@
   },
   {
     "id": "gram-jada",
-    "sarnami": "jādā",
+    "word": "jādā",
     "translations": {
       "nl": "meer"
     },
@@ -77,7 +77,7 @@
   },
   {
     "id": "gram-sabse",
-    "sarnami": "sab se",
+    "word": "sab se",
     "translations": {
       "nl": "de meest-"
     },

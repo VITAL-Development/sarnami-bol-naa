@@ -29,7 +29,7 @@ function hasActiveState(el: HTMLElement) {
 }
 
 const VOCAB_MAP = new Map<string, VocabItem>([
-  ["v1", { id: "v1", sarnami: "aap", translations: { nl: "aap" } }],
+  ["v1", { id: "v1", word: "aap", translations: { nl: "aap" } }],
 ]);
 
 const CONTENT_MAP = new Map<string, ExerciseContent>([
@@ -38,7 +38,7 @@ const CONTENT_MAP = new Map<string, ExerciseContent>([
     "wb1",
     {
       promptTranslations: { nl: "Bouw de zin" },
-      correctSarnamiTokens: ["mi", "jaa"],
+      correctTargetTokens: ["mi", "jaa"],
       distractorTokens: ["naa"],
     },
   ],
@@ -261,7 +261,7 @@ describe("Flashcard – touch friendliness", () => {
     id: "fc1",
     kind: "flashcard" as const,
     vocabRef: "v1",
-    direction: "sarnami-to-dutch" as const,
+    direction: "target-to-native" as const,
   };
 
   it("the card reveal button has an active: state", () => {

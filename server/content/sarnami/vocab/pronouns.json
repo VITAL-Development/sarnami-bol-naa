@@ -1,7 +1,7 @@
 [
   {
     "id": "pron-ham",
-    "sarnami": "ham",
+    "word": "ham",
     "translations": {
       "nl": "ik"
     },
@@ -12,7 +12,7 @@
   },
   {
     "id": "pron-tu",
-    "sarnami": "tū",
+    "word": "tū",
     "translations": {
       "nl": "jij (informeel)"
     },
@@ -23,7 +23,7 @@
   },
   {
     "id": "pron-ap",
-    "sarnami": "āp",
+    "word": "āp",
     "translations": {
       "nl": "u (beleefdheidsvorm)"
     },
@@ -34,7 +34,7 @@
   },
   {
     "id": "pron-u",
-    "sarnami": "ū",
+    "word": "ū",
     "translations": {
       "nl": "hij / zij"
     },
@@ -46,7 +46,7 @@
   },
   {
     "id": "pron-hamlog",
-    "sarnami": "ham log",
+    "word": "ham log",
     "translations": {
       "nl": "wij"
     },
