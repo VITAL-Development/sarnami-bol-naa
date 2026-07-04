@@ -1,6 +1,10 @@
 // UI/translation language codes supported by the app. English support is
-// being added alongside the existing Dutch content (see issue #27).
-export type UiLanguageCode = "nl" | "en";
+// being added alongside the existing Dutch content (see issue #27). Defined
+// as a const array (rather than a bare string-literal union) so a future
+// third language is one addition here, not a hunt through every place the
+// union was spelled out — same pattern as `LearningLanguageCode` below.
+export const UI_LANGUAGE_CODES = ["nl", "en"] as const;
+export type UiLanguageCode = (typeof UI_LANGUAGE_CODES)[number];
 
 // Not every entry has an English translation yet (translations are added
 // incrementally as content is authored/reviewed), so this is a partial map
