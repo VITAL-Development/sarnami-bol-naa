@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import type { Lesson as LessonType, VocabItem } from "@/domain/types";
+import type { ExerciseContent, Lesson as LessonType, VocabItem } from "@/domain/types";
 import { useContent } from "@/hooks/useContent";
 import { useProgress } from "@/state/ProgressContext";
 import { useLessonSession } from "@/hooks/useLessonSession";
@@ -26,21 +26,32 @@ export function Lesson() {
     return <p className="text-center text-stone-500">Les niet gevonden.</p>;
   }
 
-  return <LessonRunner key={lesson.id} lesson={lesson} vocab={bundle.vocab} onExit={() => navigate("/")} />;
+  return (
+    <LessonRunner
+      key={lesson.id}
+      lesson={lesson}
+      vocab={bundle.vocab}
+      exerciseContent={bundle.lessonContent.exerciseContent}
+      onExit={() => navigate("/")}
+    />
+  );
 }
 
 function LessonRunner({
   lesson,
   vocab,
+  exerciseContent,
   onExit,
 }: {
   lesson: LessonType;
   vocab: VocabItem[];
+  exerciseContent: Record<string, ExerciseContent>;
   onExit: () => void;
 }) {
   const session = useLessonSession(lesson);
   const { completeLesson } = useProgress();
   const vocabById = useMemo(() => new Map(vocab.map((v) => [v.id, v])), [vocab]);
+  const contentById = useMemo(() => new Map(Object.entries(exerciseContent)), [exerciseContent]);
 
   if (session.status !== "in-progress") {
     const passed = session.status === "passed";
@@ -90,6 +101,7 @@ function LessonRunner({
         key={session.currentIndex}
         exercise={session.currentExercise}
         vocabById={vocabById}
+        contentById={contentById}
         onAnswer={session.submitAnswer}
       />
     </div>

@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import type { WordBankExercise } from "@/domain/types";
+import type { WordBankContent, WordBankExercise } from "@/domain/types";
 import type { ExerciseComponentProps } from "./types";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
@@ -14,16 +14,17 @@ function shuffle<T>(items: T[]): T[] {
   return copy;
 }
 
-export function WordBank({ exercise, onAnswer }: ExerciseComponentProps<WordBankExercise>) {
+export function WordBank({ exercise, contentById, onAnswer }: ExerciseComponentProps<WordBankExercise>) {
+  const content = contentById.get(exercise.contentRef) as WordBankContent | undefined;
   const bank = useMemo(
-    () => shuffle([...exercise.correctSarnamiTokens, ...(exercise.distractorTokens ?? [])]),
-    [exercise],
+    () => (content ? shuffle([...content.correctSarnamiTokens, ...(content.distractorTokens ?? [])]) : []),
+    [content],
   );
   const [usedIndices, setUsedIndices] = useState<number[]>([]);
   const [checked, setChecked] = useState(false);
 
   const selectedTokens = usedIndices.map((i) => bank[i]);
-  const isCorrect = selectedTokens.join(" ") === exercise.correctSarnamiTokens.join(" ");
+  const isCorrect = content !== undefined && selectedTokens.join(" ") === content.correctSarnamiTokens.join(" ");
 
   function toggleToken(index: number) {
     if (checked) return;
@@ -42,11 +43,13 @@ export function WordBank({ exercise, onAnswer }: ExerciseComponentProps<WordBank
     setChecked(false);
   }
 
+  if (!content) return null;
+
   return (
     <Card>
       <p className="mb-1 text-sm text-stone-500">Zinnen bouwen</p>
       {/* Defaults to Dutch (`nl`) for now; UI-language switching is tracked in #36. */}
-      <h2 className="mb-4 text-xl font-semibold">{exercise.promptTranslations.nl}</h2>
+      <h2 className="mb-4 text-xl font-semibold">{content.promptTranslations.nl}</h2>
 
       <div className="mb-4 flex min-h-[3rem] flex-wrap gap-2 rounded-2xl border-2 border-dashed border-stone-200 p-3">
         {selectedTokens.map((token, i) => (
@@ -89,7 +92,7 @@ export function WordBank({ exercise, onAnswer }: ExerciseComponentProps<WordBank
         <p className={`mt-3 font-medium ${isCorrect ? "text-green-600" : "text-red-600"}`}>
           {isCorrect
             ? t("lesson.correct")
-            : `${t("lesson.incorrect")} (${exercise.correctSarnamiTokens.join(" ")})`}
+            : `${t("lesson.incorrect")} (${content.correctSarnamiTokens.join(" ")})`}
         </p>
       )}
     </Card>

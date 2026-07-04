@@ -22,6 +22,7 @@ const mockBundle: ContentBundle = {
       translations: { nl: "nee" },
     },
   ],
+  lessonContent: { exampleSentences: [], grammarNotes: [], exerciseContent: {} },
 };
 
 function makeResponse(status: number, body: unknown, statusText = ""): Response {

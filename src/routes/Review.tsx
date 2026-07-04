@@ -5,6 +5,11 @@ import { useReviewQueue } from "@/hooks/useReviewQueue";
 import { Flashcard } from "@/components/exercises/Flashcard";
 import { Card } from "@/components/ui/Card";
 import { t } from "@/i18n/t";
+import type { ExerciseContent } from "@/domain/types";
+
+// Review's Flashcard exercises are synthesized (not from lesson data) and
+// have no contentRef, so there's nothing to resolve here — see issue #31.
+const EMPTY_CONTENT_MAP = new Map<string, ExerciseContent>();
 
 export function Review() {
   const { bundle, isLoading } = useContent();
@@ -40,6 +45,7 @@ export function Review() {
         key={item.id}
         exercise={{ id: item.id, kind: "flashcard", vocabRef: item.id, direction: "sarnami-to-dutch" }}
         vocabById={vocabById}
+        contentById={EMPTY_CONTENT_MAP}
         onAnswer={handleAnswer}
       />
     </div>

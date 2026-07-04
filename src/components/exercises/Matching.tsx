@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import type { MatchingExercise } from "@/domain/types";
+import type { MatchingContent, MatchingExercise } from "@/domain/types";
 import type { ExerciseComponentProps } from "./types";
 import { Card } from "@/components/ui/Card";
 
@@ -12,8 +12,10 @@ function shuffle<T>(items: T[]): T[] {
   return copy;
 }
 
-export function Matching({ exercise, onAnswer }: ExerciseComponentProps<MatchingExercise>) {
-  const rightShuffled = useMemo(() => shuffle(exercise.pairs.map((p) => p.right)), [exercise]);
+export function Matching({ exercise, contentById, onAnswer }: ExerciseComponentProps<MatchingExercise>) {
+  const content = contentById.get(exercise.contentRef) as MatchingContent | undefined;
+  const pairs = useMemo(() => content?.pairs ?? [], [content]);
+  const rightShuffled = useMemo(() => shuffle(pairs.map((p) => p.right)), [pairs]);
   const [matchedLefts, setMatchedLefts] = useState<string[]>([]);
   const [selectedLeft, setSelectedLeft] = useState<string | null>(null);
   const [wrongRight, setWrongRight] = useState<string | null>(null);
@@ -26,12 +28,12 @@ export function Matching({ exercise, onAnswer }: ExerciseComponentProps<Matching
 
   function pickRight(right: string) {
     if (!selectedLeft) return;
-    const pair = exercise.pairs.find((p) => p.left === selectedLeft);
+    const pair = pairs.find((p) => p.left === selectedLeft);
     if (pair?.right === right) {
       const nextMatched = [...matchedLefts, selectedLeft];
       setMatchedLefts(nextMatched);
       setSelectedLeft(null);
-      if (nextMatched.length === exercise.pairs.length) {
+      if (nextMatched.length === pairs.length) {
         onAnswer(true);
       }
     } else {
@@ -42,16 +44,18 @@ export function Matching({ exercise, onAnswer }: ExerciseComponentProps<Matching
   }
 
   const isUsedRight = (right: string) => {
-    const pair = exercise.pairs.find((p) => p.right === right);
+    const pair = pairs.find((p) => p.right === right);
     return pair ? matchedLefts.includes(pair.left) : false;
   };
+
+  if (!content) return null;
 
   return (
     <Card>
       <p className="mb-4 text-sm text-stone-500">Sleep de juiste paren bij elkaar (tik om te koppelen)</p>
       <div className="grid grid-cols-2 gap-4">
         <div className="flex flex-col gap-2">
-          {exercise.pairs.map((p) => (
+          {pairs.map((p) => (
             <button
               key={p.left}
               type="button"
