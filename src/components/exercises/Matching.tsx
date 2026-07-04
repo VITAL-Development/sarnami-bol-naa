@@ -65,7 +65,7 @@ export function Matching({ exercise, contentById, onAnswer }: ExerciseComponentP
                 matchedLefts.includes(p.left)
                   ? "border-green-400 bg-green-50 text-green-700"
                   : selectedLeft === p.left
-                    ? "border-sarnami-500 bg-sarnami-50"
+                    ? "border-forest-500 bg-forest-50"
                     : "border-stone-200"
               }`}
             >
