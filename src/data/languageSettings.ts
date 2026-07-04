@@ -38,6 +38,48 @@ const sarnamiLanguageSettings: LanguageSettings = {
     format: "mp3",
     voice: "single-speaker-tts",
   },
+  // Mirrors rarelang-server PR #3's branding data for `sarnami` (see
+  // https://github.com/VITAL-Development/rarelang-server/pull/3) — the same
+  // Suriname-flag palette already expressed as `--color-forest/flame/gold/
+  // cream-*` custom properties in src/styles/index.css, carried over the
+  // wire instead of baked into that file (issue #62).
+  branding: {
+    appName: "Sarnami Bol Naa",
+    colors: {
+      primary: {
+        "50": "240 247 241",
+        "100": "212 235 213",
+        "200": "170 213 172",
+        "400": "90 173 96",
+        "500": "61 142 67",
+        "600": "55 126 63",
+        "700": "42 97 49",
+      },
+      danger: {
+        "400": "224 80 112",
+        "500": "200 16 46",
+        "600": "180 10 45",
+        "700": "143 7 31",
+      },
+      accent: {
+        "100": "253 245 194",
+        "300": "245 220 106",
+        "400": "236 200 29",
+        "500": "212 176 25",
+        "600": "184 146 0",
+      },
+      background: {
+        "50": "253 246 236",
+        "100": "248 232 200",
+      },
+    },
+    icons: {
+      favicon: "/favicon.svg",
+      icon192: "/icons/icon-192.png",
+      icon512: "/icons/icon-512.png",
+      iconMaskable512: "/icons/icon-maskable-512.png",
+    },
+  },
 };
 
 // Sranan Tongo has no lesson content bundled in src/data (local/offline mode
@@ -64,6 +106,44 @@ const sranantongoLanguageSettings: LanguageSettings = {
     baseUrl: "/audio/sranantongo/",
     format: "mp3",
     voice: "single-speaker-tts",
+  },
+  // Mirrors rarelang-server PR #3's branding data for `sranantongo`
+  // (confirmed against that repo's issue-62-branding-metadata branch) —
+  // same color values as Sarnami's for now (no distinct Sranan Tongo
+  // palette has been authored yet), and `icons` is omitted entirely rather
+  // than pointing at placeholder assets, since no distinct icon set exists
+  // yet either (see issue #62's task description). Callers must treat a
+  // missing `icons` key as "use the build-time defaults", not as an error.
+  branding: {
+    appName: "Sranan Tongo",
+    colors: {
+      primary: {
+        "50": "240 247 241",
+        "100": "212 235 213",
+        "200": "170 213 172",
+        "400": "90 173 96",
+        "500": "61 142 67",
+        "600": "55 126 63",
+        "700": "42 97 49",
+      },
+      danger: {
+        "400": "224 80 112",
+        "500": "200 16 46",
+        "600": "180 10 45",
+        "700": "143 7 31",
+      },
+      accent: {
+        "100": "253 245 194",
+        "300": "245 220 106",
+        "400": "236 200 29",
+        "500": "212 176 25",
+        "600": "184 146 0",
+      },
+      background: {
+        "50": "253 246 236",
+        "100": "248 232 200",
+      },
+    },
   },
 };
 

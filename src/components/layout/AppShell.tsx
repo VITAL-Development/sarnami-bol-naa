@@ -5,6 +5,7 @@ import type { IconProp } from "@fortawesome/fontawesome-svg-core";
 import { Icon } from "@/components/ui/Icon";
 import { LanguagePicker } from "@/components/layout/LanguagePicker";
 import { useContent } from "@/hooks/useContent";
+import { useBranding } from "@/hooks/useBranding";
 import { t, useUiStrings } from "@/i18n/t";
 
 export function AppShell({ children }: { children: ReactNode }) {
@@ -15,6 +16,14 @@ export function AppShell({ children }: { children: ReactNode }) {
   // content bundle used to render each route is fetched independently by
   // that route's own `useContent()` call (no shared cache layer yet).
   const { isLoading } = useContent();
+
+  // Fetches the active learning language's `branding` (colors/app name/
+  // favicon, issue #62) and applies it to `document` as a side effect — see
+  // src/hooks/useBranding.ts for why this is a separate hook/effect from
+  // useContent above. Renders nothing; called here purely for its effect,
+  // high enough in the tree to run once per learning-language change
+  // regardless of which route is active.
+  useBranding();
 
   // Built inside the component (not at module scope, as it was before #36) so
   // the labels re-render when the active UI language changes.
