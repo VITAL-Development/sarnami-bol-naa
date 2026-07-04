@@ -11,8 +11,11 @@ export type Translations = Partial<Record<UiLanguageCode, string>>;
 
 // The language whose vocabulary/grammar is being taught. Distinct from
 // `UiLanguageCode`, which is the language the interface/translations are
-// shown in (see issue #28).
-export type LearningLanguageCode = "sarnami" | "sranantongo";
+// shown in (see issue #28). Defined as a const array (rather than a bare
+// string-literal union) so a future third language is one addition here,
+// not a hunt through every place the union was spelled out.
+export const LEARNING_LANGUAGE_CODES = ["sarnami", "sranantongo"] as const;
+export type LearningLanguageCode = (typeof LEARNING_LANGUAGE_CODES)[number];
 
 export interface VocabItem {
   id: string;
