@@ -71,18 +71,22 @@ All emoji replaced with FontAwesome icons. See `src/components/ui/Icon.tsx` for 
 
 ## CI
 
-9-job graph on every PR:
+10-job graph on every PR:
 
 ```
-install ──► typecheck ──────────────────────────────────────► report
-        └─► unit-tests ──────────────────────────────────────►
-        └─► build ──► visual-home ──────────────────────────►
-                  └─► visual-lesson-node ──────────────────►
-                  └─► visual-lesson-summary ──────────────►
-                  └─► visual-nav ────────────────────────►
-                  └─► visual-profile ──────────────────►
+changes ──► install ──► typecheck ──────────────────────────► report
+                    └─► unit-tests (skipped if content-only) ►
+                    └─► build (skipped if non-UI) ─► visual-home ───────►
+                                                  └─► visual-lesson-node ►
+                                                  └─► visual-lesson-summary ►
+                                                  └─► visual-nav ──────►
+                                                  └─► visual-profile ──►
 ```
 
+- `changes` (via `dorny/paths-filter`) computes two outputs from the PR diff:
+  - `app` — functional app code (`src/**`, minus pure content in `src/data/vocab/**` and `src/data/units/**`) vs. content-only. `unit-tests` is skipped — not failed — when `app` is false; `build` treats a skipped `unit-tests` the same as success so the visual chain isn't blocked by that alone.
+  - `ui` — narrower: only files that can affect rendered output (`src/**/*.tsx`, `src/styles/**`, `tailwind.config.ts`, `index.html`, `public/**`). `build` (and therefore all `visual-*` jobs, which depend on it) is skipped when `ui` is false — a non-UI functional change (e.g. `src/domain/leitner.ts`) still runs `unit-tests` but doesn't pay for a full build + 5 Playwright jobs. The `install` job also skips its Playwright Chromium setup steps when `ui` is false.
+  - Job-level `if:` conditions that reference `needs.<job>.result` must also include `always()` — GitHub silently prepends `success()` to any `if:` lacking a status-check function, which re-triggers skip-propagation through the transitive `needs` graph and defeats the condition.
 - `node_modules` cached by `package-lock.json` hash (`node-modules-*` cache key)
 - Playwright Chromium binary cached by `package-lock.json` hash (`playwright-*` cache key); visual jobs only run `playwright install-deps chromium` (OS libs, ~5s) on a warm cache
 - `dist/` shared as an artifact from `build` to all visual jobs
