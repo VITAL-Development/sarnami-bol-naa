@@ -2,7 +2,7 @@ import { faCircleCheck, faHeartCrack } from "@fortawesome/free-solid-svg-icons";
 import { Icon } from "@/components/ui/Icon";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
-import { t } from "@/i18n/t";
+import { t, useUiStrings } from "@/i18n/t";
 
 interface LessonSummaryProps {
   passed: boolean;
@@ -12,6 +12,7 @@ interface LessonSummaryProps {
 }
 
 export function LessonSummary({ passed, xpEarned, onBackToPath, onRetry }: LessonSummaryProps) {
+  useUiStrings(); // subscribes this component to UI-language changes; see t.ts
   return (
     <Card className="text-center">
       <Icon

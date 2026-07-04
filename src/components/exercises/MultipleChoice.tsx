@@ -3,7 +3,7 @@ import type { MultipleChoiceContent, MultipleChoiceExercise } from "@/domain/typ
 import type { ExerciseComponentProps } from "./types";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
-import { t } from "@/i18n/t";
+import { t, useUiStrings } from "@/i18n/t";
 
 export function MultipleChoice({
   exercise,
@@ -11,6 +11,7 @@ export function MultipleChoice({
   contentById,
   onAnswer,
 }: ExerciseComponentProps<MultipleChoiceExercise>) {
+  useUiStrings(); // subscribes this component to UI-language changes; see t.ts
   const [selected, setSelected] = useState<number | null>(null);
   const [checked, setChecked] = useState(false);
 

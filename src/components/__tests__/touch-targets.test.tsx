@@ -7,6 +7,7 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
+import { LanguageSettingsProvider } from "@/state/LanguageSettingsContext";
 import { Button } from "@/components/ui/Button";
 import { AppShell } from "@/components/layout/AppShell";
 import { LanguageSettingsProvider } from "@/state/LanguageSettingsContext";
@@ -163,7 +164,9 @@ describe("MultipleChoice – touch friendliness", () => {
 
   it("answer buttons have min-h-[44px] tap target", () => {
     render(
-      <MultipleChoice exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />,
+      <LanguageSettingsProvider>
+        <MultipleChoice exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />
+      </LanguageSettingsProvider>,
     );
     const buttons = screen.getAllByRole("button").filter((b) => options.includes(b.textContent ?? ""));
     expect(buttons.length).toBeGreaterThan(0);
@@ -174,7 +177,9 @@ describe("MultipleChoice – touch friendliness", () => {
 
   it("answer buttons have active: state for touch feedback", () => {
     render(
-      <MultipleChoice exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />,
+      <LanguageSettingsProvider>
+        <MultipleChoice exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />
+      </LanguageSettingsProvider>,
     );
     const buttons = screen.getAllByRole("button").filter((b) => options.includes(b.textContent ?? ""));
     buttons.forEach((btn) => {
@@ -193,7 +198,11 @@ describe("WordBank – touch friendliness", () => {
   };
 
   it("bank token buttons have min-h-[44px] tap target", () => {
-    render(<WordBank exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />);
+    render(
+      <LanguageSettingsProvider>
+        <WordBank exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />
+      </LanguageSettingsProvider>,
+    );
     // All non-submit buttons are token buttons
     const buttons = screen
       .getAllByRole("button")
@@ -205,7 +214,11 @@ describe("WordBank – touch friendliness", () => {
   });
 
   it("bank token buttons have active: state for touch feedback", () => {
-    render(<WordBank exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />);
+    render(
+      <LanguageSettingsProvider>
+        <WordBank exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />
+      </LanguageSettingsProvider>,
+    );
     const buttons = screen
       .getAllByRole("button")
       .filter((b) => !["Controleer", "Volgende", "Verdergaan"].some((t) => b.textContent?.includes(t)));
@@ -253,7 +266,11 @@ describe("Flashcard – touch friendliness", () => {
   };
 
   it("the card reveal button has an active: state", () => {
-    render(<Flashcard exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />);
+    render(
+      <LanguageSettingsProvider>
+        <Flashcard exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />
+      </LanguageSettingsProvider>,
+    );
     // The large card button (not the labelled action button)
     const buttons = screen.getAllByRole("button");
     const revealBtn = buttons.find((b) => b.className.includes("min-h-[10rem]")) as HTMLElement | undefined;
@@ -262,7 +279,11 @@ describe("Flashcard – touch friendliness", () => {
   });
 
   it("action buttons (Show Answer) have min-h-[44px] tap target", () => {
-    render(<Flashcard exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />);
+    render(
+      <LanguageSettingsProvider>
+        <Flashcard exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />
+      </LanguageSettingsProvider>,
+    );
     const actionBtns = screen.getAllByRole("button").filter((b) => b.textContent !== "");
     // The Button component wraps these; all should have min-h-[44px]
     const showAnswerBtn = actionBtns.find((b) =>

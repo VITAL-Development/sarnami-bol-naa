@@ -4,6 +4,7 @@ export const strings = {
     path: "Pad",
     review: "Oefenen",
     profile: "Profiel",
+    settings: "Instellingen",
   },
   path: {
     title: "Jouw leerpad",
@@ -36,5 +37,9 @@ export const strings = {
     streak: "dagen op rij",
     badges: "Badges",
     noBadgesYet: "Nog geen badges verdiend — ga aan de slag!",
+  },
+  settings: {
+    title: "Instellingen",
+    uiLanguageLabel: "Taal van de interface",
   },
 } as const;
