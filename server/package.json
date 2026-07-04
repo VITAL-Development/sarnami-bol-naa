@@ -1,0 +1,18 @@
+{
+  "name": "sarnami-bol-naa-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backend for Sarnami Bol Naa. Standalone nested git repo — see README.md.",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "esbuild": "^0.24.0"
+  }
+}

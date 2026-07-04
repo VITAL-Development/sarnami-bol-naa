@@ -9,7 +9,7 @@ e2e/test-results/
 test-results.json
 .claude/
 
-# Nested standalone git repo (see server/README.md) — not a submodule,
-# fully ignored here so the outer repo doesn't track its contents or
-# walk into its own .git.
-server/
+# /server is tracked directly in this repo (see issue #52 for the plan to
+# split it into its own repo once other /server work has landed).
+server/node_modules
+server/dist
