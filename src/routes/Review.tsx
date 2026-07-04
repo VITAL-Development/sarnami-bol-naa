@@ -4,7 +4,7 @@ import { useProgress } from "@/state/ProgressContext";
 import { useReviewQueue } from "@/hooks/useReviewQueue";
 import { Flashcard } from "@/components/exercises/Flashcard";
 import { Card } from "@/components/ui/Card";
-import { t } from "@/i18n/t";
+import { t, useUiStrings } from "@/i18n/t";
 import type { ExerciseContent } from "@/domain/types";
 
 // Review's Flashcard exercises are synthesized (not from lesson data) and
@@ -12,6 +12,7 @@ import type { ExerciseContent } from "@/domain/types";
 const EMPTY_CONTENT_MAP = new Map<string, ExerciseContent>();
 
 export function Review() {
+  useUiStrings(); // subscribes this component to UI-language changes; see t.ts
   const { bundle, isLoading } = useContent();
   const { progress, reviewVocab } = useProgress();
   const queue = useReviewQueue(bundle, progress);

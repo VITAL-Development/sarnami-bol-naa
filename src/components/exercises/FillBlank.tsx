@@ -3,9 +3,10 @@ import type { FillBlankContent, FillBlankExercise } from "@/domain/types";
 import type { ExerciseComponentProps } from "./types";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
-import { t } from "@/i18n/t";
+import { t, useUiStrings } from "@/i18n/t";
 
 export function FillBlank({ exercise, contentById, onAnswer }: ExerciseComponentProps<FillBlankExercise>) {
+  useUiStrings(); // subscribes this component to UI-language changes; see t.ts
   const [selected, setSelected] = useState<string | null>(null);
   const [checked, setChecked] = useState(false);
 

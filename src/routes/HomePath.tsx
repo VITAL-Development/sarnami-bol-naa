@@ -7,9 +7,10 @@ import { XPBar } from "@/components/hud/XPBar";
 import { StreakBadge } from "@/components/hud/StreakBadge";
 import { Card } from "@/components/ui/Card";
 import { Icon } from "@/components/ui/Icon";
-import { t } from "@/i18n/t";
+import { t, useUiStrings } from "@/i18n/t";
 
 export function HomePath() {
+  useUiStrings(); // subscribes this component to UI-language changes; see t.ts
   const { bundle, isLoading } = useContent();
   const { progress } = useProgress();
 

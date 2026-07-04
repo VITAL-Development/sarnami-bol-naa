@@ -3,7 +3,8 @@
   "nav": {
     "path": "Path",
     "review": "Review",
-    "profile": "Profile"
+    "profile": "Profile",
+    "settings": "Settings"
   },
   "path": {
     "title": "Your learning path",
@@ -36,5 +37,9 @@
     "streak": "day streak",
     "badges": "Badges",
     "noBadgesYet": "No badges yet — get started!"
+  },
+  "settings": {
+    "title": "Settings",
+    "uiLanguageLabel": "Interface language"
   }
 }

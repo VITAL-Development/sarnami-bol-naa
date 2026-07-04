@@ -4,7 +4,7 @@ import { useProgress } from "@/state/ProgressContext";
 import { getAllBadgeDefinitions } from "@/data/badges";
 import { Card } from "@/components/ui/Card";
 import { Icon } from "@/components/ui/Icon";
-import { t } from "@/i18n/t";
+import { t, useUiStrings } from "@/i18n/t";
 
 const badgeIconMap: Record<string, IconProp> = {
   seedling: faSeedling,
@@ -14,6 +14,7 @@ const badgeIconMap: Record<string, IconProp> = {
 };
 
 export function Profile() {
+  useUiStrings(); // subscribes this component to UI-language changes; see t.ts
   const { progress } = useProgress();
   const badges = getAllBadgeDefinitions();
 

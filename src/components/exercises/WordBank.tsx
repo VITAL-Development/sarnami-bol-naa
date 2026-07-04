@@ -3,7 +3,7 @@ import type { WordBankContent, WordBankExercise } from "@/domain/types";
 import type { ExerciseComponentProps } from "./types";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
-import { t } from "@/i18n/t";
+import { t, useUiStrings } from "@/i18n/t";
 
 function shuffle<T>(items: T[]): T[] {
   const copy = [...items];
@@ -15,6 +15,7 @@ function shuffle<T>(items: T[]): T[] {
 }
 
 export function WordBank({ exercise, contentById, onAnswer }: ExerciseComponentProps<WordBankExercise>) {
+  useUiStrings(); // subscribes this component to UI-language changes; see t.ts
   const content = contentById.get(exercise.contentRef) as WordBankContent | undefined;
   const bank = useMemo(
     () => (content ? shuffle([...content.correctSarnamiTokens, ...(content.distractorTokens ?? [])]) : []),
