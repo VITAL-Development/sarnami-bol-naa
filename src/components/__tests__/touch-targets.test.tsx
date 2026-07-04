@@ -9,6 +9,7 @@ import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { Button } from "@/components/ui/Button";
 import { AppShell } from "@/components/layout/AppShell";
+import { LanguageSettingsProvider } from "@/state/LanguageSettingsContext";
 import { SkillNode } from "@/components/path/SkillNode";
 import { MultipleChoice } from "@/components/exercises/MultipleChoice";
 import { WordBank } from "@/components/exercises/WordBank";
@@ -91,11 +92,13 @@ describe("Button – touch friendliness", () => {
 describe("AppShell nav items – touch friendliness", () => {
   it("nav links have min-h-[44px] tap target", () => {
     render(
-      <MemoryRouter>
-        <AppShell>
-          <div />
-        </AppShell>
-      </MemoryRouter>,
+      <LanguageSettingsProvider>
+        <MemoryRouter>
+          <AppShell>
+            <div />
+          </AppShell>
+        </MemoryRouter>
+      </LanguageSettingsProvider>,
     );
     const links = screen.getAllByRole("link");
     expect(links.length).toBeGreaterThanOrEqual(1);
@@ -106,11 +109,13 @@ describe("AppShell nav items – touch friendliness", () => {
 
   it("nav links have active: state for touch feedback", () => {
     render(
-      <MemoryRouter>
-        <AppShell>
-          <div />
-        </AppShell>
-      </MemoryRouter>,
+      <LanguageSettingsProvider>
+        <MemoryRouter>
+          <AppShell>
+            <div />
+          </AppShell>
+        </MemoryRouter>
+      </LanguageSettingsProvider>,
     );
     const links = screen.getAllByRole("link");
     links.forEach((link) => {

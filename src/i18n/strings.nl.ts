@@ -9,6 +9,7 @@ export const strings = {
     title: "Jouw leerpad",
     lessonLocked: "Voltooi de vorige les om deze te ontgrendelen.",
     startLesson: "Start les",
+    noLessonsYet: "Nog geen lessen voor deze taal — kom binnenkort terug!",
   },
   lesson: {
     checkAnswer: "Controleren",
