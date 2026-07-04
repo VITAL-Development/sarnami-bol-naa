@@ -14,7 +14,7 @@ export const greetingsVocab: VocabItem[] = [
   {
     id: "greet-ram-ram",
     sarnami: "Rām Rām",
-    dutch: "hallo / gegroet",
+    translations: { nl: "hallo / gegroet" },
     tags: ["greeting", "native-speaker"],
     notes:
       "Traditionele Hindostaanse groet, gebruikt onder gelijken — casual/alledaags, in tegenstelling tot het formelere Pranām. Bevestigd als gangbaar in het Sarnami door een moedertaalspreker (PR #42).",
@@ -22,7 +22,7 @@ export const greetingsVocab: VocabItem[] = [
   {
     id: "greet-pranam",
     sarnami: "Pranām",
-    dutch: "eerbiedige groet (tegen ouderen)",
+    translations: { nl: "eerbiedige groet (tegen ouderen)" },
     tags: ["greeting", "native-speaker"],
     notes:
       "Eerbiedige/formele groet, vooral richting ouderen of gerespecteerde personen — formeler dan Rām Rām. Bevestigd als gangbaar in het Sarnami door een moedertaalspreker (PR #42).",
@@ -30,14 +30,14 @@ export const greetingsVocab: VocabItem[] = [
   {
     id: "greet-kaise-hai",
     sarnami: "Kaise hai?",
-    dutch: "Hoe gaat het?",
+    translations: { nl: "Hoe gaat het?" },
     tags: ["greeting", "baatsiekh"],
     notes: "Bevestigd door baatsiekh.nl's Uitspraken-soundboard: 'hoe gaat het?' -> kaise.",
   },
   {
     id: "greet-moi-jahe",
     sarnami: "Moi jā hai",
-    dutch: "Het gaat goed",
+    translations: { nl: "Het gaat goed" },
     tags: ["greeting", "baatsiekh", "book"],
     notes:
       "Vervangt de eerdere ongeverifieerde gok 'Ham ṭhīk hai'. baatsiekh.nl geeft 'moi djahe' voor 'het gaat goed' (dj staat hier voor de j-klank); jā hai is de bevestigde vervoeging van jāi (gaan), zie docs/byakaran/08-the-verb.md ('tū jā hai', 'ū jā hai'). Ontkennende vorm: 'Nā moi jā hai' (het gaat niet goed).",
@@ -45,7 +45,7 @@ export const greetingsVocab: VocabItem[] = [
   {
     id: "greet-dhanyavad",
     sarnami: "Dhanbād",
-    dutch: "bedankt / dank u",
+    translations: { nl: "bedankt / dank u" },
     tags: ["greeting", "baatsiekh"],
     notes:
       "baatsiekh.nl geeft 'dhanbaad' voor 'bedankt' (dubbele klinker -> macron, zoals elders in het boek). Waarschijnlijk een ingekorte, informele uitspraak van het meer formele Hindi-achtige Dhanyavād (niet zelf in het boek geattesteerd, maar wel breed gebruikelijk).",
@@ -53,14 +53,14 @@ export const greetingsVocab: VocabItem[] = [
   {
     id: "greet-ja",
     sarnami: "hāṁ",
-    dutch: "ja",
+    translations: { nl: "ja" },
     tags: ["greeting", "baatsiekh", "book"],
     notes: "Bevestigd in docs/byakaran/07-interjections.md ('hāṁ! = ja!') en baatsiekh.nl's Uitspraken-soundboard.",
   },
   {
     id: "greet-nee",
     sarnami: "nā",
-    dutch: "nee",
+    translations: { nl: "nee" },
     tags: ["greeting", "baatsiekh", "book"],
     notes: "Bevestigd in docs/byakaran/07-interjections.md ('nā! = nee!') en baatsiekh.nl's Uitspraken-soundboard.",
   },

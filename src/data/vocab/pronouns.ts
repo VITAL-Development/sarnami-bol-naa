@@ -5,32 +5,32 @@ export const pronounsVocab: VocabItem[] = [
   {
     id: "pron-ham",
     sarnami: "ham",
-    dutch: "ik",
+    translations: { nl: "ik" },
     tags: ["pronoun", "book-p68"],
   },
   {
     id: "pron-tu",
     sarnami: "tū",
-    dutch: "jij (informeel)",
+    translations: { nl: "jij (informeel)" },
     tags: ["pronoun", "book-p69"],
   },
   {
     id: "pron-ap",
     sarnami: "āp",
-    dutch: "u (beleefdheidsvorm)",
+    translations: { nl: "u (beleefdheidsvorm)" },
     tags: ["pronoun", "book-p69"],
   },
   {
     id: "pron-u",
     sarnami: "ū",
-    dutch: "hij / zij",
+    translations: { nl: "hij / zij" },
     notes: "Sarnami kent geen onderscheid in geslacht bij de 3e persoon (boek p.23).",
     tags: ["pronoun", "book-p23"],
   },
   {
     id: "pron-hamlog",
     sarnami: "ham log",
-    dutch: "wij",
+    translations: { nl: "wij" },
     tags: ["pronoun", "book-p68"],
   },
 ];

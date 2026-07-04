@@ -19,7 +19,7 @@ const mockBundle: ContentBundle = {
     {
       id: "v01",
       sarnami: "naan",
-      dutch: "nee",
+      translations: { nl: "nee" },
     },
   ],
 };
