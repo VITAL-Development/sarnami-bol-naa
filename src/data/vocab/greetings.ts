@@ -1,5 +1,11 @@
 import type { VocabItem } from "@/domain/types";
 
+// TODO(remove once /server's /content endpoint reads from server/content/
+// directly instead of bundling ../src/data): the source of truth for this
+// data is now server/content/sarnami/vocab/greetings.json (issue #30). This
+// file stays in place until server.mjs's content-serving logic is rewired
+// (issue #33) and the frontend's LocalJsonContentRepository offline fallback
+// is reconsidered.
 /**
  * Verified where possible against baatsiekh.nl's "Uitspraken" soundboard
  * (site spelling uses Dutch-style double vowels for length, e.g. aa/oo,

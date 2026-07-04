@@ -1,5 +1,11 @@
 import type { VocabItem } from "@/domain/types";
 
+// TODO(remove once /server's /content endpoint reads from server/content/
+// directly instead of bundling ../src/data): the source of truth for this
+// data is now server/content/sarnami/vocab/pronouns.json (issue #30). This
+// file stays in place until server.mjs's content-serving logic is rewired
+// (issue #33) and the frontend's LocalJsonContentRepository offline fallback
+// is reconsidered.
 /** Verified against Sarnami Byäkaran (Marhé, 1985), p.68-70 and p.97-98. */
 export const pronounsVocab: VocabItem[] = [
   {

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "srn-greet-odi",
+    "sarnami": "Odi",
+    "translations": { "nl": "hallo" },
+    "tags": ["greeting", "stub"],
+    "notes": "Placeholder entry proving the sranantongo content namespace — not yet verified against a source. Full Sranan Tongo vocabulary authoring is out of scope for issue #30."
+  },
+  {
+    "id": "srn-greet-fa-waka",
+    "sarnami": "Fa waka?",
+    "translations": { "nl": "hoe gaat het?" },
+    "tags": ["greeting", "stub"],
+    "notes": "Placeholder entry proving the sranantongo content namespace — not yet verified against a source. Full Sranan Tongo vocabulary authoring is out of scope for issue #30."
+  }
+]
