@@ -66,6 +66,28 @@ Once content migrates fully into `/server`, `build-content.mjs` and
 the outer repo's `../src`) should be deleted in favor of content authored
 directly here.
 
+### `server/content/` (issue #30)
+
+`server/content/<learningLanguage>/vocab/*.json` is the new authored source
+of truth for vocab content, namespaced per learning language:
+
+- `server/content/sarnami/vocab/*.json` — the full vocab set (greetings,
+  pronouns, nouns, adjectives, grammar, structuurwoorden), migrated
+  verbatim from `../src/data/vocab/*.ts` (each array element matches the
+  `VocabItem` shape from `../src/domain/types.ts` and `../docs/api-contract.md`'s
+  `GET /content` vocab entries 1:1 — same `id`/`sarnami`/`translations`/
+  `tags`/`notes` fields, just JSON instead of a `.ts` literal).
+- `server/content/sranantongo/vocab/*.json` — a minimal stub (two
+  placeholder greetings) proving the per-language namespacing pattern ahead
+  of real Sranan Tongo content authoring.
+
+**Not yet wired up**: `GET /content?lang=sarnami` still serves from the
+`build-content.mjs`/`content-entry.ts` esbuild-bundling trick described
+above, i.e. still reads `../src/data`, not `server/content/`. Rewiring
+`server.mjs` to read `server/content/` directly (and deleting
+`../src/data/vocab/*.ts` + the bundling trick once it does) is follow-on
+work, expected to land alongside issue #33's language-scoped endpoints.
+
 ## Files
 
 | File | Purpose |
@@ -76,6 +98,7 @@ directly here.
 | `stub-data.mjs` | Inline `/languages` discovery list, plus loaders that read `/settings` and `/ui-strings` data from `./settings/**` |
 | `settings/{lang}/language-settings.json` | Per-learning-language romanization/alphabet/audio settings (`GET /settings`) |
 | `settings/ui/{lang}/strings.json` | Per-UI-language string table (`GET /ui-strings`) |
+| `content/<lang>/vocab/*.json` | Authored vocab content per learning language (issue #30); not yet read by `server.mjs` — see above |
 
 ## CORS
 

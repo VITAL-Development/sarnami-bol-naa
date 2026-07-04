@@ -1,5 +1,11 @@
 import type { VocabItem } from "@/domain/types";
 
+// TODO(remove once /server's /content endpoint reads from server/content/
+// directly instead of bundling ../src/data): the source of truth for this
+// data is now server/content/sarnami/vocab/structuurwoorden.json (issue
+// #30). This file stays in place until server.mjs's content-serving logic
+// is rewired (issue #33) and the frontend's LocalJsonContentRepository
+// offline fallback is reconsidered.
 /**
  * Structuurwoorden (function words) sourced from sarnamibhasa.nl's
  * "Vocabulaire" pages (see docs/sarnamibhasa-vocab.md for the full

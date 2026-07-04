@@ -1,5 +1,11 @@
 import type { VocabItem } from "@/domain/types";
 
+// TODO(remove once /server's /content endpoint reads from server/content/
+// directly instead of bundling ../src/data): the source of truth for this
+// data is now server/content/sarnami/vocab/grammar.json (issue #30). This
+// file stays in place until server.mjs's content-serving logic is rewired
+// (issue #33) and the frontend's LocalJsonContentRepository offline fallback
+// is reconsidered.
 /** Verified against Sarnami Byākaran (Marhé, 1985), p.16, p.40, p.53, p.60, p.97-98. */
 export const grammarVocab: VocabItem[] = [
   {
