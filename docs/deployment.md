@@ -1,7 +1,8 @@
 # Deployment
 
-This document describes how the frontend and backend (`/server`) actually
-get deployed today. See issue #38 for the history of this doc.
+This document describes how the frontend and backend actually get deployed
+today. See issue #38 for the history of this doc, and issue #52 for the
+backend's extraction into its own repo.
 
 ## Frontend
 
@@ -24,45 +25,30 @@ The frontend is a static PWA built by Vite (`npm run build` → `dist/`).
 There is no staging environment — every merge to `main` is a production
 deploy.
 
-## Backend (`/server`)
+## Backend
 
-**There is no automated backend deploy.** This is intentional, not an
-oversight: `/server` is still under active development (issues #29–#34 and
-follow-ons) and, per issue #52, is planned to be extracted into its own
-standalone repository once it stabilizes. Building real deploy automation
-for a codebase that's about to move — and whose packaging story isn't
-decided yet — would mostly be thrown away.
+The backend now lives in its own repo, **[`VITAL-Development/rarelang-server`](https://github.com/VITAL-Development/rarelang-server)**
+(extracted from this repo's `/server` via `git subtree split`, preserving
+history — issue #52). This repo no longer contains any backend code.
 
-Today, running the backend means:
+**There is still no automated backend deploy.** Running the backend means:
 
 ```bash
-cd server
+git clone git@github.com:VITAL-Development/rarelang-server.git
+cd rarelang-server
 npm install
 npm start        # http://localhost:8787 (override with PORT=xxxx)
 ```
 
 on any host reachable from the frontend over Tailscale. Someone (currently
 the repo owner) runs this manually and keeps the process alive themselves —
-there's no process supervisor, container, or restart-on-crash story yet.
-`server/README.md` documents the day-to-day of running it locally; this
-section is only about how it reaches its deployed home.
+there's no process supervisor, container, or restart-on-crash story yet, and
+the Docker image built by issue #49 has not yet been repointed at the new
+repo's own CI (that image was previously published from this repo's
+`.github/workflows/server-image.yml`, which was removed as part of #52 —
+`rarelang-server` needs its own equivalent workflow as a follow-up).
+`rarelang-server`'s own README documents the day-to-day of running it
+locally; this section is only about how it reaches its deployed home.
 
-### Path to automation
-
-- **Issue #49** — package `/server` as a Docker image (published to a
-  registry such as `ghcr.io`) so the Tailscale host can `docker pull` +
-  `docker run` a known tag instead of manually managing a bare Node
-  process. This is the next concrete step toward automated backend
-  deployment, and a natural place to add a CI job that builds/pushes the
-  image on changes to `server/**`.
-- **Issue #52** — once the backend is functional and its in-flight issues
-  have landed, extract `/server`'s history into its own standalone repo
-  (`git subtree split` / `git filter-repo`, preserving history). At that
-  point `/server` gets its own independent CI/deploy pipeline, and this
-  document should be updated to reflect whatever replaces the in-repo
-  `server/**` path (a git submodule, a separate deploy step referencing the
-  new repo, or nothing at all if the outer repo no longer needs to know
-  about it).
-
-Until #49 lands, do not add real deploy automation for `/server` to
-`deploy.yml` — see issue #38.
+Until that follow-up lands, do not add real deploy automation for the
+backend to `deploy.yml` — see issue #38.

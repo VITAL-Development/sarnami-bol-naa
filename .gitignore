@@ -9,8 +9,3 @@ e2e/test-results/
 test-results/
 test-results.json
 .claude/
-
-# /server is tracked directly in this repo (see issue #52 for the plan to
-# split it into its own repo once other /server work has landed).
-server/node_modules
-server/dist

@@ -1,9 +1,0 @@
-node_modules/
-dist/
-.env
-.env.*
-*.log
-
-# Runtime state (issue #69) — the persisted progress store, not
-# authored/committed content. See progress-store.mjs and README.md.
-data/
