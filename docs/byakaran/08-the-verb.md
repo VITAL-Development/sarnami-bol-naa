@@ -1,1784 +1,1398 @@
-# The verb
+# HET WERKWOORD (The verb)
 
-_Pages 51-68 of Sarnami Byākaran (Marhé, 1985). Raw OCR extraction. Sarnami has no umlauts/diaeresis — an ä/ë/ï/ö/ü in a Sarnami word has been normalized to its macron equivalent (ā/ē/ī/ō/ū); legitimate Dutch diaereses (beïnvloeden, Caraïbisch, etc.) were left untouched. Other OCR noise (dropped/substituted letters, breve vs. macron confusion, spacing) is NOT fixed here — verify against page images before use, as done for `adjective-verified.md`._
+_Chapter: The verb. Source: Sarnami Byākaran (R.M. Marhé, 1985), PDF pages 51–69 (each a two-page spread). **Image-verified transcription** cross-checked against page renders: macron (ā ī ū ē ō), dot-below retroflex (ṭ ḍ ṛ ṇ ṣ) and breve (ŏ ĕ ă) diacritics restored; umlauts normalized to macrons (Sarnami has no diaeresis) while genuine Dutch diaereses (beïnvloeden, Caraïbisch, …) are preserved. Section numbers, tables and example lists reconstructed from the book layout._
 
+## 9.
 
---- page 51 ---
+**9.1.** Werkwoorden zeggen ons iets over een handeling, een werking, een gebeuren of een toestand in heden, verleden of toekomst.
 
-HET WERKWOORD 
-9.1. Werkwoorden zeggen ons iets over een handeling, een wer- 
-king, een gebeuren of een toestand in heden, verleden of toe- 
-komst. 
-Zoals reeds in de inleiding vermeld, zijn in het Sarnami 
-bij dit woordsoort duidelijker dan bij de overige woord- 
-soorten aan de uitgangen Bhojpuri en Avadhi kenmerken 
-te onderscheiden. Dit is te zien aan de vele variante uitbrei- 
-dingen van het werkwoord die vaak naast elkaar worden 
-gebruikt. 
-Het onderscheid tussen de twee variante vormen van het 
-Sarnami, de Nickeriaanse en die van de rest van Suriname, 
-komt hier het duidelijkst tot uiting. Voor ~ickerie geldt 
-dat Avadhi invloeden iets meer aan te wijzen zijn dan in de 
-rest van Suriname. Bovendien hebben Bhojpuri en Avahi 
-kenmerken in beide streken zich soms op een Andere ma- 
-nier gehandhaafd. 
-9.2. In dit stadium van onderzoek kan de vraag waarom het 
-distrikt Nickerie kiest voor een Bhojpuri uitgang waar een 
-Avadhi vorm te verwachten zou zijn, niet bevredigend beant- 
-woord worden. Hetzelfde geldt ook voor de rest van Suri- 
-name. Het antwoord op de volgende vragen zal in de toekomst 
-verheldering kunnen bieden in deze onduidelijkheid: 
-1. Hoe was de percentuele en kwantitatieve bevolkings- 
-samenstelling van de immigranten naar moedertaal ten 
-tijde van hun spreiding over beide gebieden? 
-2. Wat was de rol en invloed van de taal van de orale en ge- 
-schreven literatuur m.n. in volksverhalen en religieuze 
-werken als het Ramayana? 
-9.2.1. Twee voorbeelden zullen dit verduidelijken: 
-(Opmerking: bij het schema hieronder en hierna te volgen 
-schema's worden de meest voorkomende vormen het eerst 
-vermeld. De minder gebruikte vormen worden tussen haak- 
-jes geplaatst). 
-9.2.1 .l. De Bhojpuri vormen b;{< bate, bā(-y) (ben, bent, is) zijn 
-in Nickerie vreemd. Deze worden alleen in de rest van Su- 
-riname gebruikt. Nickerie heeft hiefgekozen voor vormen 
-van het werkwoord hove (zijn): hui (-li), hui(-Ze), hui. 
-(Zie voor de verdere vervoeging van deze werkwoorden par. 
-9.6.1. e.v.) 
-9.2.1.2. De vervoeging van bijvoorbeeld het werkwoord kare (doen) in 
-de o.v.t. ziet er in beide gebieden als volgt uit: i
-De rest van 
-Nickerie 
-Suriname 
-enkv. 2e p. 
-m.v. 
-l e p . 
-3e p. 
-tū karle 
-tū karle 
-Ū karis (karil) 
-hamlog karin (karlx-lin) ham log ka& 
-tŪ lon karle 
-- 
-- 
-tū log karle 
-ap karlo 
-- 
-ap karlo 
-- 
-u sab(-h) karin 
-u sab(-h) karlem 
-(karle) 
-De onderstreepte vormen bij de Ni-gkeriaanse vervoeging 
-vertonen bij de primaire vormen een kontrast met de ver- 
-voeging van de rest van Suriname, zij het met hier en daar 
-een licht verschil in nog moeilijk te meten gebruiksfrequentie. 
-De overige vormen komen overeen. 
-9.3. Werkwoorden hebben in het Sarnami in hun onvervoegde 
-vorm (de onbepaalde wijs of infinitief) 4 uitgangen t.w.: 
--ve, -e, -ye en T De stam van het werkwoord vindt men 
-door weglating van deze uitgangen. Achter de stam van het 
-werkwoord volgen bij de vervoeging de persoons- en tijds- 
-uitgangen. Het voorkomen van een bepaalde infinitiefuit- 
-gang bij een werkwoord is afhankelijk van de eindklank 
-van de stam van het werkwoord: 
-A.Werkwoordsstammen die eindigen op een klinker krijgen 
-de volgende uitgangen: 
-1. Stammen eindigend op de klinkers -o, -e, Ū hebben de 
--ve-uitgang: rave, dhove (stam: dho, ro; wassen, huilen); 
-leve, deve (stam: Ie, de; nemen, geven); chūve (stam: 
-chū, aanraken). 
-2. Stammen eindigend op de klinker -7hebben de -ye- 
-uitgang: s-ie, pFe (stam: s< pz naaien, drinken). 
+Zoals reeds in de inleiding vermeld, zijn in het Sarnami bij dit woordsoort duidelijker dan bij de overige woordsoorten aan de uitgangen Bhojpuri en Avadhi kenmerken te onderscheiden. Dit is te zien aan de vele variante uitbreidingen van het werkwoord die vaak naast elkaar worden gebruikt.
 
+Het onderscheid tussen de twee variante vormen van het Sarnami, de Nickeriaanse en die van de rest van Suriname, komt hier het duidelijkst tot uiting. Voor Nickerie geldt dat Avadhi invloeden iets meer aan te wijzen zijn dan in de rest van Suriname. Bovendien hebben Bhojpuri en Avahi kenmerken in beide streken zich soms op een andere manier gehandhaafd.
 
---- page 52 ---
+**9.2.** In dit stadium van onderzoek kan de vraag waarom het distrikt Nickerie kiest voor een Bhojpuri uitgang waar een Avadhi vorm te verwachten zou zijn, niet bevredigend beantwoord worden. Hetzelfde geldt ook voor de rest van Suriname. Het antwoord op de volgende vragen zal in de toekomst verheldering kunnen bieden in deze onduidelijkheid:
 
-3. Stammen eindigend op de klinker -Z hebben de -?uitgang: 
-khā: jāT(stam : khZ jE eten, gaan). 
-' 
-B. Werkwoordsstammen die eindigen op een medeklinker 
-hebben de -e-uitgang. 
-Hiertoe behoren de meeste werkwoorden: sūte, krne 
-(stam: sūt, k7n; slapen, kopen). 
-Tussen de werkwoordsstammen eindigend op -ā en de ove- 
-rige bestaat verschil in vervoeging (zie par. 9.7.1.1 .). 
-9.3.1 . Opmerking: 
-Vermeldenswaard is dat het Bhojpuri en het Avadhi uitgaan 
-van andere infinitief-uitgangen n.l. uitgangen op -al en -ab. 
-In het Oud-Avadhi: -ai of vai. 
-' 
-H& Hindi en het Urdu hebben hier voor alle werkwoorden 
-een uitgang op -n;: 
-dhonā, ronā - wassen, huilen. 
-Wanneer oudere Sarnami sprekers de infinitief gebruiken 
-als zelfstandig naamwoord, kunnen ook de Bhojpuri en de 
-Avadhi infinitief op -al en -ab voorkomen. 
-Dus: 
-Voorbeelden: 
-Bhojpuri 
-: dhoval, roval - wassen, huilen 
-Avadhi 
-: sūtab, kTnab 
-- slapen, kopen 
-Oud-Avadhi : sahai, calāvai - leren, rijden 
-Samami 
-: &he, calāve - leren, rijden 
-1. Hamār māral ke ope koTasar na paye hai - 
-Mijn slaan heeft op hem geen invloed. 
-2. Okar Tbāt samjhab bahut kafhin hai - 
-Het begrijpen hiervan is voor hem erg moeilijk. 
-(Letterlijk: Zijn deze woorden begrijpen erg moeilijk is). 
-9.4. Bij de vervoeging van het werkwoord maakt het Sarnami 
-gebruik van werkwoorduitgangen enlof hulpwerkwoorden. 
-Hier wordt onderscheid gemaakt tussen 3 wijzen: de aan- 
-tonende wijs (indicatief), de aanvoegende wijs (subjonctief) 
-en de gebiedende wijs (imperatief). De eerste drukt iets 
-werkelijks uit, de tweede een mogelijkheid en de derde een 
-noodzaak of verzoek. 
-In deze vormen zijn de personen in enkelvoud en meervoud 
-en de tijd herkenbaar. 
-De persoons- en tijdsuitgangen worden in de regel achter 
-de stam van het werkwoord gevoegd. Alleen wanneer een 
-werkwoord wordt samengesteld met hove, wordt de onbe- 
-paalde wijs van het werkwoord gebruikt. 
-9.4.1. Om het tijdsaspect uit te drukken gebruikt het Sarnami 
-de volgende uitgangen of delen van uitgangen: 
-I 
--at 
-(tegenwoordig deelwoord) - bolat - zeggend 
--al 
-(voltooid deelwoord) - bolal - gezegd 
--ab 
-- bolab - zal zeggen 
--iy- of 
-- bbliye, bólihe - 
--ih- 
-(toekomende tijd) 
-zal zeggen 
--i- of 
-- bolT, bofgā - 
--Tg; 
-) 
-zal zeggen 
-9.4.1.1. Opmerking: De -h-vormen zijn oudere vormen en kunnen 
-zonder betekenisverschil door de -y-vormen vervangen wor- 
-den. 
-. 9.4.2. In de vervoeging wordt tevens van de volgende hulp-werk- 
-woorden 
-gemaakt: 
-hove 
-- zijn (in het algemeen) 
-bāfe 
-- zijn (concreet en slechts in de 
-tegenwoordige tijd) 
-rahe 
-- blijven, zijn (duidt het voortduren van 
-de handeling aan, benadrukt de alge- 
-meenheid van. de handeling of in de 
-vorm van het voltooid deelwoord het 
-verleden). 
-9.4.2.1. Deze werkwoorden worden ook zelfstandig gebruikt. Alle 
-drie dienen ook om de betekenis: hebben, bezitten, in het 
-bezit zijn van te omschrijven. Voor deze betekenis heeft 
-het Sarnarni geen eigen werkwoord. 
-Voorbeelden: 
-1. Hamār lage t k buk hai/bā - 
-Ik heb drie boeken. 
-2. Hamkelhamār lage das rupiyā rahā - 
-Ik had (bezat) tien gulden. 
+1. Hoe was de percentuele en kwantitatieve bevolkingssamenstelling van de immigranten naar moedertaal ten tijde van hun spreiding over beide gebieden?
+2. Wat was de rol en invloed van de taal van de orale en geschreven literatuur m.n. in volksverhalen en religieuze werken als het Ramayana?
 
+**9.2.1.** Twee voorbeelden zullen dit verduidelijken:
 
---- page 53 ---
+(Opmerking: bij het schema hieronder en hierna te volgen schema's worden de meest voorkomende vormen het eerst vermeld. De minder gebruikte vormen worden tussen haakjes geplaatst).
 
-9.4.2.2. Het werkwoord hove heeft ook de betekenis: worden: 
-DhTredh5-e der hove hai - Het wordt zoetjesaan laat. . 
-9.5. Opmerking l: 
-In onbenadrukte positie, wanneer duidelijk is wie of .wat als 
-onderwerp in de zin bedoeld wordt, kunnen de persoonlijke 
-voornaamwoorden weggelaten worden: 
-1. TG g h a ~ ā 
-mem kā kare hai? 
-- Wat doe je in 
-het huis? 
-Parh ilā? 
-- Ik lees! 
-2. Premvā dukaniyā mem kā khis hui? - Wat heeft Prem 
-in de winkel 
-gekocht? 
-ĀIŪ ki'nis hai. 
-- Hij heeft aard- 
-appelen gekocht. 
-Opmerking 2: 
-Duidelijk wordt dat de verschillende werkwoorden hier el- 
-kaar in hun betekenis aanvullen of uitsluiten. Vergelijk in 
-dit verband het gebruik van de verschillende vormen van het 
-Nederlandse werkwoord zijn : ben, is, was. 
-Deze gaan historisch terug op 3 verschillende werkwoorden. 
-9.6. De werkwoorden kan men voorts onderverdelen in: over- 
-gankelijke 
-(transitief) 
-en onvergankelijke 
-(intransitief) 
-werkwoorden, zogenaamde enkele- en dubbele causatieven 
-en bedrijvende en lijdende vormen. 
-Eerst wordt de aantonende wijs in de bedrijvende vorm 
-behandeld. 
-9.6.1 . De vervoeging van bat- 
-o. t. t. 
-Voorbeeld: 
-enkv. 
-meerv. 
-Hamlog āj ghanem bāG(-m) (zelfstandig gebruikt) - 
-Wij zijn vandaag thuis (gebleven). 
-9.6.2. De vervoeging van hove en rahe als hulpwerkwoorden én 
-als zelfstandige werkwoorden. 
-Ie p. 
-.. 2e p. 
-3e p. 
-l e p. 
-2e p. 
-3e p. 
-ham bat7 
-- ik ben 
-tŪ bate 
--- - 
-- jij bent 
-i,u,ba(-y) 
-- hij/zij is 
-hamlog bag(-m) 
-- wij zijn 
-tŪ log bate 
-- jullie zijn 
-ap bāto, tŪ bāto 
-- u bent 
-T, Ū sab (-h) bātem - zij zijn 
-enkv. 
-:-m 
-hai (hail7N) 
-z :;zt 
-1 
-tŪ hai (haile N) 
-i, u hai 
-hijlzij is 
-lep. 
-2e p. 
-3e p. 
-meerv. 
-ham log hakb 
-- wij zijn 
-(haG N) 
-tŪ 
-- log hai (haile N) - jullie zijn 
-ap - ho (hailo N) 
-- u bent 
-i, u sab (-h) hauii - zij zijn 
-(hailem N) 
-l e p . 
-2e p. 
-3e p. 
-Voorbeeld: 
-, 
-Ū sab(h)i sait kaham haim (hailem) (zelfstandig gebruikt) - 
-Waar zijn zij nu? 
-9.6.2.2. O. v. t. Ik was etc. 1
-ham rahlT(rahin; typerend voor N) 
-tŪ rahle (rahe) 
-Ū rahā (rahal) 
-ham log rahlT (rahin; ook: typerend voor N) 
-tū log rahle (rahe) 
-ap rahlo (raho) 
-Ū sab(-h) rahlem, rahem (rahin); ook: 
-typerend voor N) 
-Voorbeelden: 
-1. Jab ham toke bglāvat rahl?, tab tŪ kahām rahle? - 
-Waar was je toen ik je nep? 
-2. Brisvā gharvem rahājab tŪ oke khoje gai rahe - 
-Bris was wel thuis toen je hem ging zoeken. 
-9 8 
+**9.2.1.1.** De Bhojpuri vormen *bāṭī, bāṭe, bā(-y)* (ben, bent, is) zijn in Nickerie vreemd. Deze worden alleen in de rest van Suriname gebruikt. Nickerie heeft hier gekozen voor vormen van het werkwoord *hove* (zijn): *hai (-lī), hai(-le), hai.*
+(Zie voor de verdere vervoeging van deze werkwoorden par. 9.6.1. e.v.)
 
+**9.2.1.2.** De vervoeging van bijvoorbeeld het werkwoord *kare* (doen) in de o.v.t. ziet er in beide gebieden als volgt uit:
 
---- page 54 ---
+|  |  | Nickerie | De rest van Suriname |
+|---|---|---|---|
+| enkv. | 1e p. | ham *karin* (karlī(-lin)) | ham karlī |
+|  | 2e p. | tū karle | tū karle |
+|  | 3e p. | ū karis (karil) | ū karis (karil) |
+| m.v. | 1e p. | hamlog *karin* (karlī(-lin)) | ham log karlī |
+|  | 2e p. | tū loṅ karle | tū log karle |
+|  | p. | āp karlo | āp karlo |
+|  | 3e p. | ū sab(-h) *karin* | ū sab(-h) karleṁ (karle) |
 
-9.6.2.3. O. t. t. t. Ik zal zijn (worden) 
-ham hob(-e), hòibe 
-tū h6iy e 
-Ū hoT (-ga) 
-of: rahab, rahbe, rahibe 
-rahiye 
-rahT (-ga) 
-. 
-ham log hob(-e), h0ibe 
-rahab, rahbe 
-tŪ log hóihe, hōiye 
-rahiy e 
-ap. hòiho, hóiy o 
-rahiy o 
-u sab hóihem, hóiyem 
-rahiyem i 
-Voorbeelden. 
-1. TG bihān jab t k baje aiye, tab ham gharvem hobe (rahbe) - 
-Wanneer je morgen om drie uur komt, zal ik thuis zijn. 
-2. Hamār sanghatiyā Hansū ke mañjhā hoi(-g3 - 
-Mijn vriend zal bestuurs-opzichter van Meerzorg zijn 
-De toevoeging -jŪ in de eerste en tweede persoon meer- 
-voud benadrukt het aspect van gezamenlijkheid. 
-(worden). 
-- 
-9.6.2.4. O.V. t. t. Ik zou zijn (worden) 
-Voorbeelden: 
-ham hōit? 
-tū hōite 
-Ū hovat (hot) 
-ham log hōitT (-ja) 
-tŪ log h0ite (-ja) 
-ap h6ito 
-- 
-u sab hōitem 
-1. Āp hamse kalhiyām bole raho, ki āp gharvem hóito 
-(rahto) - 
-U had me gisteren gezegd dat u thuis zou zijn. 
-2. Balramvā payhle hovat (rahat), tab ab le baykā adamTrahat 
-(hovat) - 
-Had Balram gestudeerd, dan zou hij nu al een belangrijk 
-man zijn. 
-of: raht; 
-rahte 
-rahat 
-raht: 
-rahte 
-rahto 
-rahtem 
-9.6.2.5. Volledigheidshalve volgt hier de vervoeging van hove in de 
-betekenis van worden (gebeuren). Deze vormen worden 
-slechts zelfstandig of als tweede lid van samengestelde werk- 
-woorden gebruikt: 
-Opmerking: 
-o. t. t. Ik word etc. 
-met nadruk op het proces: 
-ham hoilā 
-tŪ hove hai 
-Ū hove hai 
-ham log hoi6 
-tū log hove hai 
-- 
-ap hove ho 
-Ū sab hove haim 
-of: hovat 
-hovat bate 
-bat7 
-hovat b;(-y) 
-hovat b$(-m) 
-hovat bate 
-hovat bāto 
-hovat bātem 
-o. v. t. Ik werd etc. 
-ham bhaiK (bhain N) 
-tū bhaile 
-Ū bhail (bhai) (bhe) 
-ham log bhai17 (bhain N) 
-tū log bhaile 
-- 
-ap bhailo 
-- 
-u sab bhailer;? (bhain N) 
-9.7. De vervoeging van de zelfstandige werkwoorden 
-Het Sarnami kent in de onvoltooide tijden telkens paren van 
-vervoegingen. De eerste vorm wordt in algemene zin gebruikt, 
-terwijl de tweede benadrukt dat een handeling op een be- 
-paald moment in heden, verleden of toekomst aan de gang 
-is, was of zal zijn. Het verschil in betekenis is als dat tussen 
-de Engelse vormen: I go en I urn going. Als voorbeeld kiezen 
-we het werkwoord payhe (stam: parh-) - lezen. 
-9.7.1. O. t. t. I lees etc. 
-ham payhilā (payhT hai N) 
-tū payhe hai 
-u pa*e hai 
+De onderstreepte vormen bij de Nickeriaanse vervoeging vertonen bij de primaire vormen een kontrast met de vervoeging van de rest van Suriname, zij het met hier en daar een licht verschil in nog moeilijk te meten gebruiksfrequentie. De overige vormen komen overeen.
 
+**9.3.** Werkwoorden hebben in het Sarnami in hun onvervoegde vorm (de onbepaalde wijs of infinitief) 4 uitgangen t.w.: *-ve, -e, -ye* en *ī.* De stam van het werkwoord vindt men door weglating van deze uitgangen. Achter de stam van het werkwoord volgen bij de vervoeging de persoons- en tijdsuitgangen. Het voorkomen van een bepaalde infinitiefuitgang bij een werkwoord is afhankelijk van de eindklank van de stam van het werkwoord:
 
---- page 55 ---
+A. Werkwoordsstammen die eindigen op een klinker krijgen de volgende uitgangen:
 
-ham log pqhilā 
-tū log pa.e 
-hai 
-āp payhe ho, payho hai 
-- 
-u log pqhe haim 
-P 1 
-Ik ben lezende (vgl. Eng. 
-I am reading) etc. 
-ham pafiat bā%(hai, haim, hailTN) 
-tŪ pqhat bate (hai, haile N) 
-Ū parhat bā(-y) (hai) 
-ham log pafiat bi@-m) (hairh) (hailin N) 
-tū log pafiat bāfe (hai, haile N) 
-- 
-ap payhat bāto (ho, hailo N) 
-Ū log pqhat bāfem (haim) 
-Naast ham pafiat bāft etc. kan een andere vorm gebruikt 
-worden. 
-Deze benadrukt het voortduren van de handeling 
-sterkere wijze: 
-ham parh rahal bāfT(hai, hailTN) 
-tŪ parh rahal bate (hai, haile N) 
-Ū parh rahal bā(-y) (hai) 
-ham log pa. 
-rahal bāfx-m) (haim) (hailin N) 
-tū log payh rahal bite (hai, haile N) 
-āp payh rahal bāto (ho, hailo N) 
-- 
-u sab payh rahal bātēm (haim) 
-op een 
-Voorbeelden. 
-1. Panditvā Rāmāyan ke dohā-caupāisamjhāve hui - 
-De pandit legt doha's en caupā?s uit het Ramayan uit. 
-(Doha's en caupāi's zijn bepaalde versvormen met strenge 
-regels van metrum, ritme en rijm) 
-2. Panditvā Rāmāyan ke dohā-caupZsamjhāvat bā - 
-De pandit legt nu dohā's en caupzs uit het Ramayan uit. 
-3. Panditvā Rāmāyan ke dohā-caupZsamjhā rahal bā (hui) - 
-De pandit is op dit moment bezig dohā's en caupā7s uit 
-het Ramayan uit te leggen. 
-9.7.1.1. De vervoeging van werkwoorden 
--- -- 
-waarvan de stam eindigt 
-op een Ū bijvoorbeeld khai, jai (eten, gaan) is als volgt: 
-O. t. t. Ik eet etc. 
-ham khāilā 
-tŪ khā hai 
-Ū khā hai 
-ham log khāilā 
-tŪ log khā hai 
-- 
-ap khāo ho 
-ū log khāhaim 
-Ik ben etende (vgl. Eng. 
-I am eating) etc. 
-ham khāt bit? 
-tū khāt bate 
-ū khāt bi(-y) 
-ham log khāt big(-in) 
-tŪ log khāt bate 
-ap khāt bāto 
-- 
-u log khāt bātem 
-(hai, haim, haili N) 
-(hai, haile N) 
-(hai) 
-(haim) (hailin N) 
-(hai, haile N) 
-(ho, hailo N) 
-( h a k ) 
-9.7.2. O. t.t. Ik las etc. 
-~ 
-ham payhly(payhlin N., payhin N) 
-tū payhle 
-Ū pafiis (payhil, typerend voor N) 
-ham log pqhG (payhlin N., pafiin N) 
-tū log parhle 
-ap pa.10 
-Ū sab pafilem (payhin N) 
+1. Stammen eindigend op de klinkers *-o, -e, ū* hebben de *-ve*-uitgang: *rove, dhove* (stam: *dho, ro*; wassen, huilen); *leve, deve* (stam: *le, de*; nemen, geven); *chūve* (stam: *chū,* aanraken).
+2. Stammen eindigend op de klinker *-ī* hebben de *-ye*-uitgang: *sīye, pīye* (stam: *sī, pī*; naaien, drinken).
+3. Stammen eindigend op de klinker *-ā* hebben de *-ī*-uitgang: *khaī, jaī* (stam: *khā, jā*; eten, gaan).
 
+B. Werkwoordsstammen die eindigen op een medeklinker hebben de *-e*-uitgang.
+Hiertoe behoren de meeste werkwoorden: *sūte, kīne* (stam: *sūt, kīn*; slapen, kopen).
 
---- page 56 ---
+Tussen de werkwoordsstammen eindigend op *-ā* en de overige bestaat verschil in vervoeging (zie par. 9.7.1.1.).
 
-Ik was lezende (I was reading) etc. 
-, 
-pa*at rahE (rah;; rahin, typerend voor N; rahlin N) 
-payhat rahle 
-pafiat rahā 
-payhat rahE(rah7; rahin, ook typerend voor N; rahlin N) 
-parhat rahle 
-pqhat rahlo 
-pqhat rahlem (rahin N) 
-Voorbeelden: 
-1. Ham log āpan-;pan kapa. 
-apane dh8ilT- 
-Wij wasten elk onze kleren zelf. 
-2. Jab maus7 bhittar āillāis (N), tab lqkiyan pakāvat 
-rahlemlrahin 
-Toen tante binnenkwam, waren de meisjes bezig te koken. 
-9.7.3. 0.t.t.t. Ikzal lezen etc. 
-ham parhab, payhbe 
-tŪ pafiiye 
-u pa.i 
-(-ga) 
-ham log pafiab, payhbe 
-tŪ log pa*iye 
-- 
-ap pafiiyo 
-- 
-u sab parhiyein 
-Ik zal lezende zijn 
-(I shall be reading) etc. 
-ham payhat rahab (rahbe, rahibe) 
-tŪ pa.at 
-rahiye 
-- 
-LI payhat rahT (-ga) 
-ham log parhat rahab (rahbe, rahibe) 
-tū log paeat rahiye 
-- 
-ap pafiat rahiyo 
-- 
-u sab pa.at 
-rahiyein 
-Voorbeelden: 
-1. TG Ū mahināi sabhz mem jarūr jaiye - 
-Je zal de volgende maand zeker naar deze vergadering 
-gaan. 
-2. Jab tŪ rit ke ghare aiye, tab ham sūtat rahab - 
-Wanneer je 's nachts thuis komt, zal ik al slapen. 
-9.7.4. V. t. t. Ik heb gelezen 
-ham pa.E 
-hai 
-(ook: h& N) 
-tū pa*le hai 
-(ook: ha N) 
-Ū pafiis (pqhil) hai 
-(ook: ha N) 
-ham log pa&lT haim 
-tū log payhle hai 
-- 
-ap parhle ho 
-Ū sab pafile hairi 
-of: pqhle bāti 
-parhle bāie 
-payhie bā 
-pafile b;<(-m) 
-parhle bate 
-parhle bāto 
-pqhle bātem 
-Tussen deze twee vormen bestaat enig verschil. Bij een zin 
-als: Ham bhāt khailT hui (Ik heb rijst gegeten) hoeft zich 
-de rijst niet meer in de maag van de spreker te bevinden. 
-Bij: Ham bhāt khaile bŪ[x ligt de nadruk op het feit dat het 
-resultaat van het eten nog navoelbaar is. 
-9.7 S. V, v. t. Ik had gelezen: 
-I 
-I 
-ham pa.le 
-(parhg) 
-rahg (rahi) 
-tū payhle rahle (rahe) 
-Ū pa*le ( p ~ h i s , 
-palhil) 
-rahā 
-of: payhe rahT (rahin, 
-typerend voor N.) 
-pa&e rahe 
-payhe/pams rahā 
-ham log pafile rahli 
-I 
-t i log pa&le rahle 
-- 
-ap parhle rahlo 
-- 
-u sab payhle rahlerh 
-parhe 
-typerend 
-rah? voor 
- ahin in, 
-N.) 
-parhe rahe 
-payhe raho 
-parhe rahe 
+**9.3.1.** *Opmerking:*
 
+Vermeldenswaard is dat het Bhojpuri en het Avadhi uitgaan van andere infinitief-uitgangen n.l. uitgangen op *-al* en *-ab.* In het Oud-Avadhi: *-ai* of *vai.*
 
---- page 57 ---
+Dus:
 
-Het enige verschil tussen beide groepen is, dat de eerste 
-Bhojpuri-vormen zijn en de tweede Avadhi. 
-Voorbeelden: 
-1. Ham toke saharyā mem dekhle rahK(dekhe rahy) - 
-Ik had je in de stad gezien. 
-2. Sardhvā toke n; samajhle rahā (sarnjhe rahā) - 
-Sardha had jou niet begrepen. 
-9.7.6. V. t. t. t. Ik zal gelezen hebben 
-ham payhle rahab (rahibe) 
-t i pafile rahiye 
-Ū payhle rah7 (-g@ 
-ham log payhle rahab (-ja) 
-tŪ log payhle rahiye (-ja) 
-ap payhle rahiyo 
-Ū gab payhle rah; (-ga) 
-Voorbeelden. 
-1. TŪ bihān jab aiye, tab ham kamvā karle rahab - 
-Wanneer je morgen komt, zal ik het werk al gedaan 
-hebben. 
-2. Nāghabayā, Ū tor baiskilyā jarūr banaile rahi- 
-Wees maar niet bang, hij zal je fiets zeker gemaakt heb- 
-ben. 
-9.7.7. Opmerking: Het werkwoord jāi (gaan) heeft in de verleden 
-tijd een onregelmatige vorm op gail-: 
-Dus: 
-o. t. t. ik ga etc. 
-O. v. t. ik ging etc. 
-ham jāilā (jat hai) 
-tŪ jā hai 
-Ū jā hai 
-9.8. De aanvoegende wijs 
-ham gaili(gain N) 
-tū gaile 
-Ū gail (gai) (ge) (gais N) 
-ham log jāilā 
-tŪ log jā hai 
-ap jā ho 
-Ū sab jā haim 
-Deze dmkt zowel wens als aansporing, twijfel, onzekerheid 
-of ook ontkenning van de werkelijkheid, onvervulbare 
-voorwaarde uit. 
-ham log gaili (gain N) (gailin N) 
-tŪ log gaile 
-- 
-āp gailo 
-u sab gailem (gain N) 
-9.8.1. Dat ik lees: 7 
-ham pqh? 
-tū pqh(-e) 
-Ū pqhe 
-ham log payh7 (ja) 
-tū log payhe 
-- 
-ap payho 
-u sab pa&e(ril) 
-Voorbeelden. 
-1. Ka, tŪ mānge hai ki ham log h& j&? 
-Wil je soms dat wij verliezen? 
-2. Maiyā māiige hai ki laeavan khele - 
-Moeder wil dat de kinderen spelen. 
-9.8.2. Dat ik zou lezen 
-ham payht: 
-tr7i pqhte 
-ū pafhat 
-ham log payhfi (-ja) 
-tū log parhte (-j;) 
-- 
-ap payhto 
-Ū sab payhte(-m) 
-Voorbeelden: 
-1. TŪ to bolat rahe ki tŪ gayiyā kinte - 
-Je zei immers dat je de wagen zou kopen. 
-2. Ham khelvā dekhe jaitTmān, baki kartve na milal - 
-Ik zou het spel gaan zien joh, maar ik kon geen kaart 
-krijgen. 
+| | | | |
+|---|---|---|---|
+| Bhojpuri | : | dhoval, roval | — wassen, huilen |
+| Avadhi | : | sūtab, kīnab | — slapen, kopen |
+| Oud-Avadhi | : | sīkhai, calāvai | — leren, rijden |
+| Sarnami | : | sīkhe, calāve | — leren, rijden |
 
+Het Hindi en het Urdu hebben hier voor alle werkwoorden een uitgang op *-nā: dhonā, ronā* — wassen, huilen.
+Wanneer oudere Sarnami sprekers de infinitief gebruiken als zelfstandig naamwoord, kunnen ook de Bhojpuri en de Avadhi infinitief op *-al* en *-ab* voorkomen.
 
---- page 58 ---
+*Voorbeelden:*
 
-9.8.3. Dat ik zou lezende zijn 
-ham pafiat raht7 
-tū pqhat rahte 
-Ū pqhte rahat 
-ham log pafiat rahtT 
-tū log pa&at rahte 
-- 
-ap payhat rahto 
-Ū sab parhat rahte(m) 
-Voorbeelden: 
-1. Ham sac-muc bolle rah'iki ham pafiat rahtTjab Ū :vat - 
-Ik had inderdaad gezegd dat ik zou lezen wanneer hij 
-kwam. 
-2. Ham oke nā jagaitT, ta Ū sutate rahat - 
-Als ik hem niet gewekt had, zou hij blijven doorslapen. 
-9.8.4. Ik zou gelezen hebben: 
-1 !am 
-pqhle rahtT 
-lof: 
-tŪ pqhle rahte 
-u pa*le rahat 
-ham log pa@le rahtT 
-tŪ log pafile rahte 
-ap payhle rahto 
-- 
-u sab pa&le rahte(m) 
-ham payhle hóit7 
-tŪ payhle hóite 
-Ū pa.le 
-hovat(hot) 
-ham log pafile h&tT 
-tŪ log parhle hóite 
-ap parhle hòito 
-- 
-u sab payhle h6ite(rn), (hovat) 
-Tussen deze twee vormen bestaat geen verschil. De eerste 
-wordt iets vaker gebruikt dan de tweede. 
-Voorbeeld: 
-TŪ hamse bitlle rahle ki t i kapa. 
-pahinle rahte, baki abh: 
-talak tŪ aisahirii ghūmat bite (ghūme hai) - 
-Je had me gezegd dat je je al aangekleed zou hebben, maar 
-je loopt nog steeds zo rond. 
-9.8.5. Ik zal lezende zijn: 
-ham pqhat hob(-e), h6ibe 
-tū pqhat h6iye 
-Ū pqhat hoT-ga) 
-ham log pa&at hob(-e), hijibe 
-tū log pafiat hóiye 
-- 
-ap paaat hijiyo 
-Ū sab parhat h6iyem 
-Voorbeelden. 
-1. TŪ jab ghare aiye, tab ham sūtat hòibe - 
-Wanneer je thuis komt, zal ik misschien al slapen. 
-2. Ī sait hamār bhzghare &at ho7- 
-Mijn broer zal nu op weg naar huis zijn. 
-9.9. De gebiedende wijs 
-Met de gebiedende wijs geeft de spreker uiting aan zijn wil, 
-voor zover hij invloed wil uitoefenen op het gedrag van de 
-toegesprokene. De zuiverste vormen van een bevel of gebod 
-zijn die met de tweede persoon enkelvoud of meervoud 
-(tū, tū log, ZP). Hierbij kunnen schakeringen optreden van 
-streng bevel tot nederig verzoek. De persoonlijke voornaam- 
-woorden worden weggelaten als duidelijk is tegen wie ge- 
-sproken wordt. 
-9.9.1. Voor kinderen, minderen en gelijken wordt de stam van het 
-werkwoord gebruikt: 
-u 
-(tū) pa*! 
-- lees! 
-dekh! 
-- kijk! 
-sun! 
-- luister! 
-ja! 
-- ga! 
-cup ! 
-- stil! 
+1. *Hamār māral ke ope koī asar na paṛe hai* — Mijn *slaan* heeft op hem geen invloed.
+2. *Okar ī bāt samjhab bahut kaṭhin hai* — Het *begrijpen* hiervan is voor hem erg moeilijk.
+   (Letterlijk: Zijn deze woorden *begrijpen* erg moeilijk is).
 
+**9.4.** Bij de vervoeging van het werkwoord maakt het Sarnami gebruik van werkwoorduitgangen en/of hulpwerkwoorden. Hier wordt onderscheid gemaakt tussen *3 wijzen*: de aantonende wijs (indicatief), de aanvoegende wijs (subjonctief) en de gebiedende wijs (imperatief). De eerste drukt iets werkelijks uit, de tweede een mogelijkheid en de derde een noodzaak of verzoek.
+In deze vormen zijn de personen in enkelvoud en meervoud en de tijd herkenbaar.
 
---- page 59 ---
+De persoons- en tijdsuitgangen worden in de regel achter de stam van het werkwoord gevoegd. Alleen wanneer een werkwoord wordt samengesteld met *hove,* wordt de onbepaalde wijs van het werkwoord gebruikt.
 
-9.9.2. Beleefde vormen zijn: 
-vertel eens! 
-dekhā! 
-kijk eens! 
-9.9.3. Voor ouderen, meerderen of als beleefdheidsvorm kunnen 
-worden gebruikt: 
-(t; log, c) pqho! - leest u! lezen jullie! 
-dekho! - kijkt u! kijken jullie! 
-avo! 
-- komt u! komen jullie! 
-10 
-- alstublieft! 
-do 
-- geeft u! 
-(ap) dihe 
-- geeft u! 
-(āp) pqhiye! 
-- leest u! 
-(āp) caliye! 
-- gaat u mee! 
-(āp) likhiye! 
-- schrijft u! 
-of: als meest beleefde vorm: 
-(;p) 
-pa-ihe! 
-- leest u! 
-(āp) calihe! 
-gaat u! 
-(āp) likhihe! 
-- schrijft u! 
-(ZP) dyho! 
-- geeft u! 
-9.9.4 Naast deze treden vormen op die een voorstel, besluit, 
-verzoek, toestemming, belofte of wens uitdrukken. 
-Hiervan enkele voorbeelden: 
-bóliye! 
-bolTjā? 
-parhat ja! 
-calal jāi! 
-- 
-calak ho;? (= cale ke ho??) - 
-dekhiyā 
-- 
-rahan de 
-- 
-kare de! of: karan de! 
-- 
-je moet zeggen! 
-zullen we zeggen? 
-blijven jullie lezen! 
-lezen jullie! 
-laat ons gaan! 
-zullen we gaan? 
-je moet zien! 
-laat het staan! 
-laat hem het doen! 
-9.9.5. In een aantal gevallen kan evenals in het Nederlands ook de 
-onbepaalde wijs als een gebod gebruikt worden: 
-sūte! 
-- slapen!, naar bed! 
-pa*e! 
-- lezen! 
-9.1 0 Overgankelijk en onovergankelijk 
-9.10.1. Werkwoorden kunnen overgankelijk (transitief) of onover- 
-gankelijk (intransitief) zijn. Het verschil tussen beide is niet 
-aan hun uiterlijke vorm te zien. Overgankelijk noemt men die 
-werkwoorden die een lijdend voorwerp bij zich kunnen 
-hebben. Hiervan enkele voorbeelden: 
-bhāt khāi 
-- rijst eten 
-khet jote 
-- de grond omploegen 
-lakaff 
-- - - 
-kate 
-- hout hakken 
-pani piye 
-- water drinken 
-dūdh dūhe 
-- melken 
-9.10.2. Onovergankelijk zin die werkwoorden 
-voorwerp bij zich kunnen hebben: 
-die geen lijdend 
-rove 
-- huilen 
-kate 
-- gesneden worden 
-baithe 
-- zitten 
-nāce 
-- dansen 
-hamse 
-- lachen 
-9.10.3. Alle onovergankelijke werkwoorden kunnen overgankelijk 
-worden gemaakt door: 
-a) verlenging van de stamklinker, in bepaalde gevallen ge- 
-paard gaande met een verandering van de stemloze slot- 
-medeklinker van de stam in een stemhebbende mede- 
-klinker: I
-chute 
-- los raken 
-choye 
-- los laten 
-phafe 
-- barsten 
-p hare 
-- (doen) barsten 
-c 
+**9.4.1.** Om het tijdsaspect uit te drukken gebruikt het Sarnami de volgende uitgangen of delen van uitgangen:
 
+| Uitgang | | Vorm | Betekenis |
+|---|---|---|---|
+| -at | (tegenwoordig deelwoord) | bolat | zeggend |
+| -al | (voltooid deelwoord) | bolal | gezegd |
+| -ab | | bolab | zal zeggen |
+| -iy- of / -ih- | (toekomende tijd) | bŏliye, bŏlihe | zal zeggen |
+| -ī- of / -igā | (toekomende tijd) | bolī, bolīgā | zal zeggen |
 
---- page 60 ---
+**9.4.1.1.** *Opmerking:* De *-h-vormen* zijn oudere vormen en kunnen zonder betekenisverschil door de *-y-vormen* vervangen worden.
 
-tūte 
-- kapot gaan 
-tŪre 
-- kapot maken 
-1 
-kate 
-- gesneden worden 
-kāfe 
-- snijden 
-I 
-Een voorbeeldzin met kā(e: 
-Nankā Ū katlisiyā se nariyar ka-!at 
-rahā - 
-Nanka kapte met die houwer cocosnoten open. 
-b) 
-toevoeging van -G- aan de stam: 
-l 
-rove 
-- huilen 
-r0vāve 
-- doen huilen 
-baifhe 
-- zitten 
-baithave 
-- doen zitten 
-nāce 
-- dansen 
-nacāve 
-- doen dansen 
-Een voorbeeld met baithe: 
-Sipahiyā hamlogan ke din-bhar bai@āis rahā - 
-De politie-agent had ons de hele dag laten zitten. 
-9.10.4. Enkele en dubbele causatieven 
-9.10.4.1. Aan de hand van 3 voorbeelden (kare, karāve en kawāve) 
-maken wij duidelijk wat hiermee bedoeld wordt: 
-1. Ham kamvā karilā - Ik doe het werk 
-2. Ham kamvā karāilā - Ik laat het werk doen (enkele 
-causatief) 
-3. Ham kamvā karvāilā - Ik laat het werk doen (dubbele 
-causatief) 
-Kare (l) betekent: doen; bij karāve (2) laat iemand een ander 
-het werk doen; bij kawūve Q) geeft iemand aan een ander 
-de opdracht om het werk te laten doen. Hier zijn dus res- 
-pectievelijk één, twee of drie personen bij de handeling 
-betrokken. 
-9.10.4.2. Een aantal onovergankelijke werkwoorden zijn onregelmatig 
-in vorm en hebben soms zelfs 4 variaties. 
-Enkele voorbeelden: 
-111 
-a) mare 
-- sterven 
-mare 
-- doden, slaan 
-marāve 
-- doen.slaan, doden 
-marvāve 
-- door een derde doen doden of slaan 
-b) chūf e 
-- los raken 
-chole 
-- los laten 
-ch6.u.e 
-- los maken, verlossen 
-chówve 
-- doen losmaken, doen verlossen 
-c) kafe 
-- snijden, gesneden worden 
-kāf e 
-- snijden 
-katāve 
-- doen snijden 
-kagāve 
-- door een 3e doen snijden 
-9.10.4.3. De overgankelijke werkwoorden 
-- 
-vormen hun causatieven 
-door toevoeging van: -av- of -va- aan de stam van het werk- 
-woord. 
-Een enkele is onregelmatig: 
-khā7 
-- khiyāve - khavZve = eten, doen 
-eten 
-dekhe - ddkhāve - ddkhvāve = doen, laten 
-doen 
-pa@e 
-- payhāve - payhvāve = lezen, doen 
-lezen 
-kare 
-- karāve 
-- karvāve 
-= doen, laten 
-doen 
-Voorbeelden met pa.-: 
-Ham Sarnami payhilā 
-- Ik lees (leer) Sarnami 
-Ham Sarnami payhāilā - Ik onderwijs Sarnami 
-Ham Sarnami parhvāilā - Ik laat Sarnami onderwijzen 
-9.10.4.4. Causatieven kunnen ook samengesteld zijn met de hulpwerk- 
-woorden leve (nemen) en deve (geven). (Zie voor een verdere 
-uitleg van het karakter van deze twee werkwoorden par. 
-9.1 1.2.2.). 
+**9.4.2.** In de vervoeging wordt tevens van de volgende hulpwerkwoorden gebruik gemaakt:
 
+| Vorm | Betekenis |
+|---|---|
+| hove | zijn (in het algemeen) |
+| bāṭe | zijn (concreet en slechts in de tegenwoordige tijd) |
+| rahe | blijven, zijn (duidt het voortduren van de handeling aan, benadrukt de algemeenheid van de handeling of in de vorm van het voltooid deelwoord het verleden). |
 
---- page 61 ---
+**9.4.2.1.** Deze werkwoorden worden ook zelfstandig gebruikt. Alle drie dienen ook om de betekenis: *hebben, bezitten, in het bezit zijn van* te omschrijven. Voor deze betekenis heeft het Sarnami geen eigen werkwoord.
 
-Voorbeelden: 
-met leve 
-cikh(v)āve 
-- cikhā/cikhvā leve - doen proeven 
-d&kh(v)ave - d&hā/dekhvā leve - doen zien 
-khbjvāve 
-- khbjvā leve 
-- doenzoeken 
-kar(v)āve 
-- karālkarvā leve 
-- laten doen 
-man(v)āve 
-- manālmanvā leve - doen troosten 
-met deve 
-r0vāve 
-- rōvā deve 
-- doen huilen 
-mar(v)āve 
-- marālmarvā deve - laten slaanldoden 
-laut(v)āve 
-- laufā/lautvā deve - doen terugsturen 
-nikarvāve 
-- nikarvā deve 
-- doen uithalen 
-cal(v)āve 
-- calvā deve 
-- doen lopen 
-9.10.5. De lijdende vorm wordt op verschillende manieren verkregen. 
-9.10.5.1. De eerste manier is het voltooid deelwoord van het werk- 
-woord te doen volgen door het hulpwerkwoord jāi (worden). 
-"Degene7' die de handeling uitvoert, wordt met het achter- 
-zetsel se aangeduid. Dus: 
-genaaid worden 
-khāval jāi 
-gegeten worden 
-gekocht worden 
-Voorbeelden: 
-1. Mash se kapa. 
-dhoval jāhai - 
-De kleren worden met een machine gewassen. 
-2. TarkārTbajār mem bhTkTna1 jāhai - 
-Groenten worden ook op de markt gekocht. 
-9.10.5.2. De tweede manier verkrijgt men door de uitgang Z a c h t e r 
-de stam van de bedrijvende vorm van het werkwoord te voe- 
-gen. 
-Dus: 
-bedrijvend 
-p.he 
-dekhe 
-sTy e 
-dhove 
-khal 
-stam 
-P@ 
-dekh 
-- 
-si 
-dho 
-khā 
-lijdend 
-payhāT 
-dGkhāT 
--- 
-siyai 
-dh6vār 
-khavār 
-gelezen worden 
-gezien worden 
-genaaid worden 
-gewassen worden 
-gegeten worden 
-Voorbeelden: 
-1. Boekvan la&avan se payhā hai - 
-De boeken worden door de kinderen gelezen. 
-2. Kapapan abbe siyāt rahlem - 
-De kleren werden nog genaaid. 
-9.10.5.2.1. De voltooide betekenis van deze vormen vertoont zonder 
-betekenisverschil twee uitgangen. De -l-vormen zijn Bhojpuri- 
-vormen, de -ān-vormen Avadhi: 
-1. Filmvā dikhāilld6khān rahā - 
-De film was vertoond (geworden). 
-2. Kapapan siyāil/siyān haim - 
-De kleren zijn genaaid (geworden). 
-3. Tarkariyā dh6vāil/dhÒvān hoi- 
-De groenten zullen wel gewassen zijn. 
-9.10.6. De hulpwerkwoorden hove (rahe, bā-), cāhe en paye leveren 
-in een bepaalde constructie de betekenis moeten in diverse 
-betekenissen op. 
-De constructie is als volgt: 
-De handelende persoon + ke + de onbepaalde wijs van het 
-hoofdwerkwoord + ke + een vervoegde vorm van hove 
-(rahe, bā-), cāhe of paye. 
-Voorbeelden: 
-9.10.6.1. Met hove, rahe en bā-. Moeten heeft hier de betekenis van 
-een innerlijk gevoelde verplichting: 
-1. Ham ke humvā jaike hoi - 
-Ik zal daar moeten gaan (lett. door mij zal daar gegaan 
-moeten worden). 
+*Voorbeelden:*
 
+1. *Hamār lage tīn buk hai/bā* — Ik heb drie boeken.
+2. *Hamke/hamār lage das rupiyā rahā* — Ik had (bezat) tien gulden.
 
---- page 62 ---
+**9.4.2.2.** Het werkwoord *hove* heeft ook de betekenis: *worden:*
+*Dhīre-dhīre der hove hai* — Het *wordt* zoetjesaan laat.
 
-2. Rabin ke bhāsan deve ke rak7 - 
-Rabin zal een lezing moeten geven. 
-3. Oke abbe bahut kām kare ke bā - 
-Hij heeft nog veel werk te doen. 
-9.10.6.2. Met cāhe. Moeten heeft hier de betekenis van behoren te. .: 
-1. Toke jhiith nā bole ke cāh7m - 
-Je zou niet moeten liegen. 
-2. Ū juni toke jāg jZke cāhat rahā - 
-Je had tegen die tijd al wakker moeten zijn. 
-9.10.6.3. Met paye. Moeten houdt hier in een dwingende verplichting: 
-1 . Bisram ke kas ke belasting bhare ke par7 - 
-Bisram zal flink belasting moeten betalen. 
-2. Toke b0jhvādhove ke papt, tab bujhZt - 
-Als jij de last had moeten dragen, dan zou je het wel 
-merken. 
-9.1 1 . Karakteristieke eigenschappen 
-Tot dusverre is het Sarnami werkwoord behandeld aan de 
-hand van de traditioneel-schoolse grammatica. 
-Uit deze behandeling blijkt ten eerste het kontrast tussen 
-het gebruik van de tegenwoordige en voltooide deelwoorden. 
-Het lijkt dat dit kontrast van groter belang is dan de kwestie 
-van de aanduiding van de tijd. Voorts is gebleken dat in het 
-Sarnami een samenstelling van werkwoorden optreedt waarin 
-het hulpwerkwoord een bepaalde betekenisnuance van de 
-door het hoofdwerkwoord uitgedrukte handeling of het ge- 
-beuren expliciet maakt (zie bijvoorbeeld 9.7.). 
-In het volgende wordt het samengestelde werkwoord vanuit 
-twee gezichtspunten nader beschouwd: 
-a. de kwestie van het aspect: het begin, de duur en de doelge- 
-richtheid van de handeling of het gebeuren 
-b. de vraag in hoeverre de handeling of het gebeuren op het 
-onderwerp zelf of op een ander dan het onderwerp gericht 
-is. 
-9.1 1 .l Wat betreft het aspect is het opvallend dat dit voornamelijk 
-wordt uitgedrukt door de vorm van het tegenwoordig deel- 
-woord van het hoofdwerkwoord als kern van de samenstel- 
-ling te gebruiken. Dit kan verklaard worden uit het feit 
-dat het juist deze vorm van het werkwoord is die het proces 
-van de handeling of het gebeuren uitdrukt. 
-Aangezien het voltooid deelwoord uitdrukt dat het proces 
-afgesloten is, speelt in die vorm het aspect een veel geringere 
-rol. Daarom kan hier worden volstaan met een bespreking 
-van het gebruik van het hulpwerkwoord in zijn samenstelling 
-met de onvoltooide vorm van het hoofdwerkwoord. 
-9.1 1.1.1. De meest voorkomende hulpwerkwoorden die wij bedoelen 
-zijn: 
-Infinitief 
-1 
-hove 
-- zijn, worden 
-bāf - 
-- 
-- 
-zij n 
-ave 
-- komen 
-rahe 
-- zijn, blijven 
-jāi 
-- gaan 
-9.11.1.2. Al deze werkwoorden kunnen ook zelfstandig gebruikt 
-worden. 
-Wanneer hove en rahe zelfstandig gebruikt worden, ligt er 
-een verschil in nadruk op de bepaaldheid van het gebeuren 
-of de toestand. 
-Terwijl hove een bepaaldheid uitdrukt, drukt rahe een al- 
-gemeenheid uit. 
-Dit kan worden geillustreerd aan de hand van de volgende 
-zinnen: 
-1. Kauno-kauno ām sayal hai; en 
-2. Kauno-kauno ;m safal rahe hai 
-betekenen beide in het Nederlands: 
-Sommige manjes zijn rot. 
-Het verschil in betekenis tussen beide zinnen kan als volgt 
-omschreven worden: 
-In de eerste zin gaat het om een aantal rotte manjes uit een 
-bepaalde partij (van één oogst bijvoorbeeld). De tweede zin 
-is in een algemene betekenis gebruikt en drukt uit dat onder 
-alle manjes ter wereld zich altijd ook rotte bevinden. 
+**9.5.** *Opmerking 1:*
 
+In onbenadrukte positie, wanneer duidelijk is wie of wat als onderwerp in de zin bedoeld wordt, kunnen de persoonlijke voornaamwoorden weggelaten worden:
 
---- page 63 ---
+1. *Tū gharvā meṁ kā kare hai?* — Wat *doe* je in het huis?
+   *Parhilā!* — *Ik lees!*
+2. *Premvā dukaniyā meṁ kā kīnis hai?* — Wat *heeft* Prem in de winkel *gekocht?*
+   *Ālū kīnis hai.* — *Hij heeft* aardappelen *gekocht.*
 
-9.1 1 .l .3. Om de kwestie van aspect te verduidelijken, gebruiken wij 
-in de hierna te volgen uitleg de volgende zin in de o.t.t. 
-met een concrete situatie als grondslag: 
-Ū tor badmāzdekhe hui - 
-Hij ziet jouw kattekwaad (hij heeft jouw kattekwaad in de 
-gaten). 
-Hiervan leiden wij ons voorbeeldzinnetje af: 
-Ū tor badmāsi dekhat bālhai - 
-*Hij is bezig jouw kattekwaad te zien. 
-Uit de vergelijking van Ū dekhe hui (hij ziet) en Ū dekhat 
-bālhai (hij is bezig te zien) (zie ook par. 9.7.1 .) blijkt dat de 
-eerste zin de handeling in zijn algemeenheid uitdrukt, terwijl 
-de tweede zin aangeeft dat het proces van .de handeling 
-op een bepaald moment aan de gang is. 
-9.1 1.1.3.1. Voorbeelden met ave. Al deze voorbeeldzinnen moeten 
-in het Nederlands worden vertaald met: Hij ziet al geruime 
-tijd. 
-a) Ū dekhat ave hai. 
-De vorm ave verduidelijkt de aanvang van het proces. 
-b) Ū dekhat āvat bālhai. 
-De onvoltooide vorm āvat verduidelijkt de bewuste voort- 
-zetting van het aangevangen proces. 
-c) Ū dēkhte ave hai. 
-Als in a), maar met een gelijktijdige nadruk op de han- 
-deling van het zien zelf. 
-d) Ū dēkhte-dēkhte &e hai. 
-Als in c), maar de herhaling van de vorm dēkhte ver- 
-sterkt de nadruk op de handeling van het zien zelf. 
-e) Ū dēkhte-dékhte āvat bālhai. 
-" 
-De onvoltooide vorm āvat verduidelijkt de bewuste voort- 
-zetting van het aangevangen proces als in b), terwijl er te- 
-vens een sterke nadruk op de handeling van het zien zelf 
-wordt gelegd als in d). 
-9.1 1 .l .3.2. Voorbeelden met rake. Deze betekenen alle in het Neder- 
-lands: Hij blijft zien. 
-a) U dekhat rahe hai. 
-De vorm rahe verduidelijkt de duur van het proces. 
-b) Ū dekhte rahe hai. 
-Als in a), maar de vorm dēkhte legt een gelijktijdige na- 
-druk op de handeling van het zien zelf. 
-c) Ū dēkhte rahat bālhai. 
-De onvoltooide vorm rahat verduidelijkt de blijvende in- 
-zet van de handelende persoon in het proces. 
-9.1 1.1.3.3. Voorbeelden met jār De zinnen betekenen hier: Hij gaat 
-d o c met te zien. 
-a) U dekhat ja hai. 
-De vorm jā verduidelijkt de doelgerichtheid van de hande- 
-knde persoon in het proces. 
-b) U dekhat jat bālhai. 
-De onvoltooide vorm jāt verduidelijkt de bewuste voort- 
-zetting van ket proces naar het gestelde doel. 
-c) Ū dēkhte jat bālhai. 
-Als in b), maar de vorm dēkhte legt een gelijktijdige na- 
-druk op de handeling van het zien zelf. 
-d) Ū dikhte-dgkhte jat bālhai. 
-Als in b), maar de herhaling van de vorm dēkhte legt een 
-versterkte nadruk op de handeling zelf als in c). 
-9.1 1.1.3.4. Opmerking I. 
-Behalve de genoemde hulpwerkwoorden komen in het 
-Sarnami nog drie andere voor die een aspect van de handeling 
-uitdrukken. Het zijn de werkwoorden: 
-zich hechten aan, raken 
-klaar zijn met, af hebben 
-zijn, worden, af hebben 
-Deze werkwoorden worden met een andere vorm van het 
-hoofdwerkwoord samengesteld dan de bovengenoemde drie. 
-9.1 1.1.3.4.1. Lage drukt het aspect van begin van de handeling uit. Dit 
-hulpwerkwoord wordt met de onbepaalde wijs van het 
-hoofdwerkwoord (de infinitief) samengesteld. 
-9.11.1.3.4.1.1. Voorbeelden: 
-1. Sila kāheke aise kare lage hai? - 
-Waarom begint Sila zo te handelen? 
-2. Binā kuch bole Ū paisavā bhare lagal - 
-Zonder een woord te zeggen begon hij het geld te betalen. 
-3. TŪ tem par nā aite, tab ham log cale lagtT- 
-Wanneer je niet op tijd zou komen, zouden wij al begin- 
-nen te gaan. 
-9.1 1.1.3.4.2. De hulpwerkwoorden cuke en hove drukken beide de afslui- 
-ting (of voltooiing) van de handeling uit. Alle vormen van 
+*Opmerking 2:*
 
+Duidelijk wordt dat de verschillende werkwoorden hier elkaar in hun betekenis aanvullen of uitsluiten. Vergelijk in dit verband het gebruik van de verschillende vormen van het Nederlandse werkwoord *zijn: ben, is, was.*
+Deze gaan historisch terug op 3 verschillende werkwoorden.
 
---- page 64 ---
+**9.6.** De werkwoorden kan men voorts onderverdelen in: *overgankelijke* (transitief) en *onovergankelijke* (intransitief) werkwoorden, zogenaamde *enkele-* en *dubbele causatieven* en *bedrijvende* en *lijdende* vormen.
+Eerst wordt de aantonende wijs in de bedrijvende vorm behandeld.
 
-cuke worden veelvuldiger gebruikt dan de meeste van hove. 
-Een uitzondering vormt de voltooid verleden tijdsvorm 
-van hove: bhaiIJbhai, die even vaak als cukalJcukavoorkomt. 
-Beide werkwoorden worden met de stam van het hoofd- 
-werkwoord samengesteld. Een uitzondering lijken de werk- 
-woorden met een &uitgang als infinitief te vormen. Bij deze 
-kunnen zowel de stam als de infinitief als hoofdwerkwoord 
-voorkomen. Deze &uitgang moet hier als overgangsklank 
-gezien worden. 
-9.1 1.1.3.4.3. Voorbeelden: 
-1. Mahinā don hove se pahile ham āpan karjā bhar cukilāl 
-hoilā - 
-Vóór het einde van elke maand betaal ik al mijn reke- 
-ningen. 
-2. TŪ nāhŪJnahā~cukaleJbhaile? - Heb je al gebaad? 
-3. Ū sahar se jab lauc, tab ham kamvā kar cukal ho(i)be - 
-Wanneer hij van de stad terugkomt, zal ik het werk al 
-gedaan hebben. 
-Voor de zelfstandige betekenis: beginnen en (be-)eindigen 
-bestaan er ook werkwoordsvormen. Deze vallen niet onder 
-de behandeling van dit onderdeel. Volledigheidshalve ver- 
-melden wij hier die werkwoordsvormen. 
-a) De werkwoordsgroepen sun7 kare (overgankelijk) en 
-suri hove (onovergankelijk) betekenen beide: beginnen. 
-b) De volgende werkwoordsgroepen betekenen: eindigen 
-of beēindigen: 
-Overgankelijk 
-Onovergankelijk 
-samāpat kare 
-samāpat hove 
-khatam kare 
-khatam hove 
-9.1 1.2. De volgende als hulpwerkwoorden optredende werkwoorden 
-worden met de stamvorm vav het hoofdwerkwoord samen- 
-gesteld om uit te drukken of de handeling op het onderwerp 
-zelf of op een ander dan het onderwerp gericht is. 
-(N.B.: -- 
-bij -- 
-werkwoordstammen op 
-Ū en Ō zijn deze vormen 
-ook -ai, ui en -oc dus b.v. khār chG7en dhoF(eten, aanraken 
-en wassen). Opvallend is dat deze werkwoorden een richting 
-n*-A.,;An* 
-Het gaat hierbij om de werkwoorden: 
-sake 
-- kunnen 
-pāve 
-- kunnen, vinden 
-leve 
-- nemen 
-deve 
-geven 
-dhāre (dāre) - neerwerpen 
-- 
-ave 
-- komen 
-cale 
--- 
-- lopen, bewegen 
-j ai 
-- gaan 
-ufhe 
-- opstaan 
-baif he 
-- zitten 
-PaF 
-- vallen, moeten 
-Het gebruik van deze werkwoorden is uiteraard bepaald 
-door de betekenis van het hoofwerkwoord. 
-Sake en pāve 
-De hulpwerkwoorden sake en pāve drukken de betekenis 
-kunnen uit, met dien verstande dat sake het vermogen uit- 
-drukt dat eigen is aan het onderwerp, terwijl pāve de nadruk 
-legt op de uiterlijke omstandigheden die het onderwerp 
-in staat stellen om de handeling te verrichten. 
-In de zin: 
-1. Ham rkamvā jarŪr kar sakab - 
-Ik zal dit werk zeker kunnen doen, 
-geeft de spreker te kennen dat het in zijn vermogen ligt 
-om het werk te kunnen doen. 
-In de zin: 
-- - 
-2. Ham ?kamva jarur km paibe - 
-Ik zal dit werk zeker kunnen doen, 
-geeft hij te kennen dat het weliswaar in zijn vermogen ligt 
-om het werk te doen, maar dat het vooral van omstandig- 
-heden buiten hem afhangt of hij het werk kan doen. 
-Het spreekt vanzelf dat beide hulpwerkwoorden ook in 
-ontkennende zin kunnen worden gebruikt. 
+**9.6.1.** *De vervoeging van bāt-  o.t.t.*
 
+|  |  | Vorm | Betekenis |
+|---|---|---|---|
+| enkv. | 1e p. | ham bāṭī | ik ben |
+|  | 2e p. | tū bāṭe | jij bent |
+|  | 3e p. | ī, u, bā(-y) | hij/zij is |
+| meerv. | 1e p. | hamlog bāṭī(-ṁ) | wij zijn |
+|  | 2e p. | tū log bāṭe | jullie zijn |
+|  |  | āp bāṭo, tū bāṭo | u bent |
+|  | 3e p. | ī, ū sab (-h) bāṭeṁ | zij zijn |
 
---- page 65 ---
+*Voorbeeld:*
 
-9.1 1.2.1.1. Nog enkele samenstellingen: 
-(nj) dekhā sake/pāve - (niet) kunnen tonen 
-(na) chŪ(7) sakelpāve - (niet) kunnen aanraken 
-(na) ho(<) sakelpāve - (niet) kunnen gebeuren, worden 
-(na) cal sake/pāve 
-- (niet) kunnen lopen 
-1 1.2.2. Leve, deve en Oāre 
-Het hulpwerkwoord leve dmkt uit dat het onderwerp de 
-handeling ten behoeve van zichzelf verricht. Deve daaren- 
-tegen, drukt uit dat het onderwerp de handeling ten behoeve 
-van een ander verricht. Dhāre versterkt in hoge mate de be- 
-tekenis van deve en drukt uit het voltooien van een moeilijke 
-handeling, met overwinnen van weerstanden. 
-9.1 1.2.2.1. Voorbeelden: 
-1. Lqkavā āpan khaikā jaldT se khā ( k h d leis rahā - 
-Het kind had zijn eten gauw opgegeten. 
-2. Ū laykavā āpan bahin ke bhāt khiyā fkhiyāil deis hai - 
-Dat kind heeft zijn zusje rijst te eten gegeven. 
-3. Ū badmasvā āpan dusman ke mār dhāris hai - 
-Die misdadiger heeft zijn vijand gedood. 
-. 9.1 1.2.2.2. Nog enkele samenstellingen: 
-met leve 
-sun leve 
-- horen 
-dekh leve 
-- zien 
-bòlā leve 
-- naar zich toe roepen 
-kamā leve 
-- voor zich laten doen 
-bhamā leve - voor zich laten betalen 
-met deve 
-sunā deve 
-- laten horen 
-dekh deve 
-- voor een ander zien 
-dèkhā deve - laten zien, tonen 
-bòlā deve 
-- voor een ander roepen 
-karvā deve 
-- voor een ander laten doen 
-met dhāre 
-ban; dhāre 
-raiig dhāre 
-pa. 
-dhāre 
-tūr dhāre 
-c% dhāre 
-jarZ .hare 
-pTs dhāre 
-kacar dhāre 
-afmaken 
-inkleuren 
-uitlezen 
-kapot maken 
-verscheuren 
-verbranden 
-vergruizen 
-vertrappen 
-9.11.2.3. Ave, cale en 
-Het hulpwerkwoord āve drukt uit dat het proces van de 
-handeling zich in de richting van het onderwerp beweegt. 
-Cale drukt het proces van de handeling uit zonder dat de 
-richting van de handeling nader bepaald wordt. Dit hulp- 
-werkwoord komt in het Sarnami erg weinig voor. 
-Bij jaiaidoen zich twee mogelijkheden voor: 
-a) Bij hoofdwerkwoorden die onovergankelijk zijn, drukt 
-het het proces van de overgang in een toestand uit. 
-b) Bij hoofdwerkwoorden die overgankelijk zijn, drukt het 
-uit dat het onderwerp door het proces is heengegaan en 
-dit vervolgens achter zich laat. 
-9.1 1.2.3.1. Voorbeelden metāve: 
-1. Tū maiigiye to aur jaldiye laut aiye - 
-Als je dat wenst, moet je veel eerder terugkomen. 
-2. Partapvā lenikaral jaliyā kabbe n5 d?(del āil hai - 
-Partap heeft het geleende visnet al lang terugbezorgd - 
-(lett.: Partap is het visnet gaan teruggeven en is weer 
-teruggekomen). 
-9.1 1.2.3.1.1. Nog enkele samenstellingen: 
-choy āve 
-- gaan loslaten (en terugkomen) 
-dekh āve 
-- gaan zien (en terugkomen) 
-calā āve 
-- ergens naar toe komen 
-le ave 
-- terugbrengen 
-pūch ave 
-- gaan vragen (en terugkomen) 
+*Hamlog āj gharveṁ bāṭī(-ṁ)* (zelfstandig gebruikt) — Wij zijn vandaag thuis (gebleven).
 
+**9.6.2.** *De vervoeging van hove en rahe als hulpwerkwoorden én als zelfstandige werkwoorden.*
 
---- page 66 ---
+**9.6.2.1.** *O.t.t.*
 
-9.1 1.2.3.2. Voorbeelden met cale: 
-1. Piyakkarvā d ā u ke bo.1 
-sāthesāth lei(le) calat rahā - 
-De dronkaard had overal waar hij ging een fles alcohol 
-bij zich. 
-2. Bhāg cal, nahim abbe Ū toke dekh le'l- 
-Ga gauw weg, anders ziet hij je zo nog. 
-3. Bilariyā āpan baccavan ke chor calal - 
-De poes liet haar jongen in de steek. 
-9.1 1.2.3.3. Voorbeelden met jz 
-Onovergankelijk 
-1. JaldTkar, ab bahut der ho(2gail hai - 
-Haast je, want het is nu erg laat geworden. 
-2. Panditvā b611e rahā ki ū das baje pahuriic jāt - 
-De pandit had gezegd dat hij er al om tien uur zou zijn. 
-Overgankelijk 
-1. Ī batiyā to ham kabbe nā bhulaig gaile rahT - 
-Deze kwestie was ik al lang vergeten. 
-2. Tū hamse cāhe na bataite, okar bhed ham tabbo jan 
-jaitr- 
-Al had je mij het niet verteld, ik zou toch achter zijn 
-geheimen gekomen zijn. 
-9.1 1.2.3.3.1 .. Nog enkele samenstellingen: 
-Onovergankelijk 
--- 
-a jai 
-- aankomen 
-cala jāT 
-- weggaan 
-ban jār 
-- gemaakt worden 
-gir j X 
-- neervallen 
-tūt j Z 
-- kapot gaan 
-Overgankelijk 
-bacan de ja? 
-- beloven, zijn woord geven 
-c k h jāT 
-- herkennen 
-samajh j a r 
-- begrijpen 
-pa. 
-j i i 
-- doorlezen 
-diik h jāT 
-- leren 
-Het verschil in betekenis tussen deze drie hulpwerkwoorden 
-demonstreren wij hierna, telkens na de uitleg van hun aard, 
-met voorbeelden met hetzelfde hoofdwerkwoord. In dit 
-geval bole (zeggen). 
-Het hulpwerkwoord uthe drukt uit dat de handeling als 
-een spontane reactie bij het onderwerp opkomt: 
-1. Siyarvā ke kZyZrta dèkhte hi ahirvi bol uthal. . . - 
-Zodra de koeherder de lafheid van de vos doorkreeg, 
-zei hij . . . 
-Baithe drukt een doelbewuste handeling van het onderwerp 
-uit. In een aantal gevallen drukt het uit dat het onderwerp 
-zich een bepaalde toestand of gebeurtenis bewust wordt. 
-Zo drukt in het geval van hoofdwerkwoorden die een verlies 
-inhouden dit hulpwerkwoord een betreuren van dit verlies 
-uit. 
-2. Parósiniyā ke ;pan 
-larkan par ber-ber orahar~ā nā sun 
-raliais aur kharrāse bol baifhal . . . - 
-De buurvrouw kon de voortdurende klachten over haar 
-3 
-kinderen niet langer verdragen en zei geërgerd . . . 
-Het hulpwerkwoord pare drukt uit dat het onderwerp door 
-de omstandigheden genoodzaakt wordt de handeling te 
-verrichten. 
-3. Markahā bulva ke khār aur tej? dekh ke Rarnvā bol papzl: 
-"Bhāg humvā se!" - 
-Toen Ram de woede en de vaart van de valse stier zag, 
-riep hij uit: "Ga weg van daar!" 
-9.1 1.2.4.1. Nog enkele samenstellingen: 
-met u &he 
-kāri~p uthe 
-- beven 
-camak uthe 
-- oplichten 
-gūñj uthe 
-- weerklinken 
-ghabayā uthe 
-- wanhopen 
-khūn khaul ufhe 
-- koken van woede 
-bhayak uthe 
-- opvlammen 
-cauriik uthe 
-- opschrikken 
+|  |  | Vorm | Betekenis |
+|---|---|---|---|
+| enkv. | 1e p. | ham hai (hailī N) | ik ben |
+|  | 2e p. | tū hai (haile N) | jij bent |
+|  | 3e p. | ī, ū hai | hij/zij is |
+| meerv. | 1e p. | ham log haiṁ (hailī N) | wij zijn |
+|  | 2e p. | tū log hai (haile N) | jullie zijn |
+|  |  | āp ho (hailo N) | u bent |
+|  | 3e p. | ī, ū sab (-h) haiṁ (haileṁ N) | zij zijn |
 
+*Voorbeeld:*
 
---- page 67 ---
+*Ū sab(h) ī sait kahāṁ haiṁ (haileṁ)* (zelfstandig gebruikt) — Waar zijn zij nu?
 
-I 
-met baithe 
-pūch baithe 
-himmat hār baithe 
-gamvā baithe 
-mang baithe 
-ca. 
-baifhe 
-ghums baithe 
-con'kar baithe 
-ufh baithe 
-vragen 
-de moed verliezen 
-verkwanselen 
-opeisen 
-bestijgen 
-binnendringen 
-wegroven 
-overeind gaan zitten 
-met pare 
-phāf paye 
-gir paye 
-lay paye 
-chūf: paye 
-jān paye 
-cauxiìk paye 
-kūd paye 
-b hzg paye 
-zich storten op 
-vallen 
-de strijd aanbinden 
-losraken 
-schijnen, voorkomen 
-opschrikken 
-moeten springen 
-vluchten 
-9.12. Diversen 
-9.12.1. Een groot aantal samengestelde werkwoorden met als basis 
-een zelfstandig of een bijvoegelijk naamwoord kan gevormd 
-worden met de hulpwerkwoorden kare (doen) en hove 
-(zijn, worden). De eerste groep is overgankelijk, de tweede 
-onovergankelijk. 
-Voorbeelden: 
-Met zelfstandige naamwoorden: I 
-I 
-Overgankelijk 
-bicar kare 
-- overwegen 
-apmān kare 
-- beledigen 
-nindā kare 
-- roddelen 
-nās kare 
-- vernietigen 
-parmān kare 
-- bewijzen 
-bisvās kare 
-icchā kare 
-asar kare 
-chamā kare 
-gujārz kare 
-b halārkare 
-dayā kare 
-bhojan kare 
-geloven 
-wensen 
-invloed hebben 
-vergeven 
-een bestaan vinden 
-goed doen 
-medelijden tonen 
-eten 
-I 
-Onovergankelijk 
-bicār hove 
-apmān hove 
-nindā hove 
-nās hove 
-parmān hove 
-bisvās hove 
-icchā hove 
-asar hove 
-charni hove 
-g u j z hove 
-b halāchove 
-dayā hove 
-bhojan hove 
-overwogen worden 
-beledigd worden 
-geroddeld worden 
-vernietigd worden 
-bewezen worden 
-geloofd worden 
-gewenst worden 
-beïnvloeden 
-vergeven worden 
-bestaan 
-goed ontmoeten 
-medelijden ontvangen 
-gegeten worden 
-Met bijvoegelijke naamwoorden 
-Overgankelijk 
-baykā kare 
-- groot maken 
-lambā kare 
-- verlengen 
-sojhā kare 
-- recht maken 
-naram kare 
-- zacht maken 
-sast; kare 
-- goedkoop maken 
-I 
-Onovergankelijk 
-I 
-baykā hove 
-- groot wordenlzijn 
-lambi hove 
-- lang wordenlzijn 
-sojhā hove 
-- recht wordenlzijn 
-naram hove 
-- zacht wordenlzijn 
-sast: hove 
-- goedkoop wordenlzijn 
+**9.6.2.2.** *O.v.t. Ik was etc.*
 
+> ham rahlī (rahin; typerend voor N)
+> tū rahle (rahe)
+> ū rahā (rahal)
 
---- page 68 ---
+> ham log rahlī (rahin; ook: typerend voor N)
+> tū log rahle (rahe)
+> āp rahlo (raho)
+> ū sab(-h) rahleṁ, raheṁ (rahin); ook: typerend voor N
 
-9.12.2. Een aantal zelfstandige naamwoorden wordt met een spe- 
-ciaal werkwoord tot een samenstelling gevormd: 
-dhyān dhare 
-hik17 tiahumcāve 
-ghūs khāi 
-mār khāT 
-kalaiyā khāf 
-dhokhā khāT 
-havā khār 
-thokay khār 
-kasam khāT 
-dubukk; mare 
-thafthā mare 
-har jote 
-dhyān deve 
-dhyan rakkhe 
-bit calāve 
-mumh calāve 
-patā lagāve 
-sāms bhare 
-dam leve 
-badhāTdeve 
-jar pakare 
-aandacht schenken 
-benadelen 
-smeergeld ontvangen 
-slaag incasseren 
-een salto maken 
-benadeeld worden 
-een luchtje scheppen 
-z'n hoofd stoten (fig.) 
-zweren 
-duiken 
-uitlachen, schaterlachen 
-ploegen 
-aandacht schenken 
-onthouden 
-voorspraak doen (bij huwelijk) 
-brutaal zijn 
-opsporen 
-inademen 
-uitrusten 
-feliciteren 
-wortel schieten 
-9.12.3. Om de betekenis van een werkwoord te benadrukken en 
-tevens de daarbij behorende al dan niet noodzakelijke hande- 
-lingen uit te drukken, bestaan in het Sarnami drie mogelijk- 
-heden. Vergelijk ook het zelfstandig naamwoord par. 1 .S. 
-9.12.3.1. In het eerste geval wordt het hoofdwerkwoord samengesteld 
-met een ander werkwoord dat een min of meer overeen- 
-komstige betekenis uitdrukt: 
-Kpe-pote 
-- insmeren 
--- - 
-(lett. smeren en strijken) 
-khai-piye 
-- eten en drinken 
-dole-dauvār 
-zwerven 
-rove-gave 
-- dreinen (lett.huilen en zingen) 
-kŪde-p hāne 
-- dartelen 
-bole-batiyār 
-- praten 
-9.12.3.2. In het tweede geval verkrijgt men hetzelfde effect door het 
-127 
-hoofdwerkwoord te verdubbelen met een betekenisloos 
-rijmwoord met klinker-wisseling in de stam: 
-- 
-cire-care 
-- 
-sūte-sāte 
-pele-pāle 
-- 
-lare-lure 
-' 
-- 
-lahe-l&he 
-- 
-$te-pāte 
-- 
-dhove-dhāve 
-- 
-bhomke-bhāmke 
-- 
-spliten e.d. 
-slapen etc. 
-schrokken 
-vechten etc. 
-schrijven 
-afranselen 
-wassen etc. 
-prikken en steken 
-9.12.3.3. In het derde geval wordt het hoofdwerkwoord gevolgd door 
-een zogenaámd echo-woord. Dit wordt gevormd door weg- 
-lating van de begin-(mede-)klinker van het hoofdwerkwoord. 
-waarna al dan niet een vervorming van de beginklank tot een 
-o- of v-optreedt: 
-i%he-vahe 
-dhove-ove 
-kūde-ūde 
-bhomke-omke 
-lare-ore 
-orhe-v0.e 
-drinken etc. 
-eten etc. 
-schrijven etc. 
-,, 
-wassen etc. 
-springen etc. 
-steken etc. 
-vechten etc. 
-zich toedekken etc. 
-9.12.4. Werkwoorden die een klanknabootsing uitdrukken, worden 
-gevormd door een verdubbeling in de stam weer te geven: 
-b ayb a@T 
-j hañjhanār 
-kha.harāi 
-b haybhaci 
-tufulāi 
-khafkhatii 
--- 
-ganganai 
-hanhanar 
-phaypharz 
-chatpafir 
-babbelen 
-rinkelen 
-ritselen, kraken 
-donderen 
-brabbelen 
-kloppen 
-kippevel krijgen 
-razen 
-trillen 
-spartelen 
+*Voorbeelden:*
+
+1. *Jab ham toke bŏlāvat rahlī, tab tū kahāṁ rahle?* — Waar *was* je toen ik je riep?
+2. *Brisvā gharveṁ rahā jab tū oke khoje gai rahe* — Bris *was* wel thuis toen je hem ging zoeken.
+
+**9.6.2.3.** *O.t.t.t. Ik zal zijn (worden)*
+
+| Vorm | of |
+|---|---|
+| ham hob(-e), hŏibe | of: rahab, rahbe, rahibe |
+| tū hŏiye | rahiye |
+| ū hoī (-gā) | rahī (-gā) |
+| ham log hob(-e), hŏibe | rahab, rahbe |
+| tū log hŏihe, hŏiye | rahiye |
+| āp hŏiho, hŏiyo | rahiyo |
+| ū sab hŏiheṁ, hŏiyeṁ | rahiyeṁ |
+
+*Voorbeelden:*
+
+1. *Tū bihān jab tīn baje aiye, tab ham gharveṁ hobe (rahbe)* — Wanneer je morgen om drie uur komt, zal ik thuis *zijn.*
+2. *Hamār saṅghatiyā Hansū ke mañjhā hoī (-gā)* — Mijn vriend *zal* bestuurs-opzichter van Meerzorg *zijn (worden).*
+
+**9.6.2.4.** *O.v.t.t. Ik zou zijn (worden)*
+
+| Vorm | of |
+|---|---|
+| ham hŏitī | of: rahtī |
+| tū hŏite | rahte |
+| ū hovat (hot) | rahat |
+| ham log hŏitī (-jā) | rahtī |
+| tū log hŏite (-jā) | rahte |
+| āp hŏito | rahto |
+| ū sab hŏiteṁ | rahteṁ |
+
+*Opmerking:*
+
+De toevoeging *-jā* in de eerste en tweede persoon meervoud benadrukt het aspect van gezamenlijkheid.
+
+*Voorbeelden:*
+
+1. *Āp hamse kalhiyāṁ bole raho, ki āp gharveṁ hŏito (rahto)* — U had me gisteren gezegd dat u thúis zou *zijn.*
+2. *Balramvā paṛhle hovat (rahat), tab ab le baṛkā adamī rahat (hovat)* — Had Balram gestudeerd, dan *zou* hij nu al een belangrijk man *zijn.*
+
+**9.6.2.5.** Volledigheidshalve volgt hier de vervoeging van *hove* in de betekenis van worden (gebeuren). Deze vormen worden slechts zelfstandig of als tweede lid van samengestelde werkwoorden gebruikt:
+
+*o.t.t. Ik word etc.*     met nadruk op het proces:
+
+| Vorm | of |
+|---|---|
+| ham hoilā | of: hovat bāṭī |
+| tū hove hai | hovat bāṭe |
+| ū hove hai | hovat bā(-y) |
+| ham log hoilā | hovat bāṭī(-ṁ) |
+| tū log hove hai | hovat bāṭe |
+| āp hove ho | hovat bāṭo |
+| ū sab hove haiṁ | hovat bāṭeṁ |
+
+*o.v.t. Ik werd etc.*
+
+> ham bhailī (bhain N)
+> tū bhaile
+> ū bhail (bhai) (bhe)
+
+> ham log bhailī (bhain N)
+> tū log bhaile
+> āp bhailo
+> ū sab bhaileṁ (bhain N)
+
+**9.7. De vervoeging van de zelfstandige werkwoorden**
+
+Het Sarnami kent in de onvoltooide tijden telkens paren van vervoegingen. De eerste vorm wordt in algemene zin gebruikt, terwijl de tweede benadrukt dat een handeling op een bepaald moment in heden, verleden of toekomst aan de gang is, was of zal zijn. Het verschil in betekenis is als dat tussen de Engelse vormen: *I go* en *I am going.* Als voorbeeld kiezen we het werkwoord *paṛhe* (stam: *paṛh-*) — lezen.
+
+**9.7.1.** *O.t.t. I lees etc.*
+
+> ham paṛhilā (paṛhī hai N)
+> tū paṛhe hai
+> ū paṛhe hai
+> ham log paṛhilā
+> tū log paṛhe hai
+> āp paṛhe ho, paṛho hai
+> ū log paṛhe haiṁ
+
+*Ik ben lezende (vgl. Eng. I am reading) etc.*
+
+> ham paṛhat bāṭī (hai, haiṁ, hailī N)
+> tū paṛhat bāṭe (hai, haile N)
+> ū paṛhat bā(-y) (hai)
+>
+> ham log paṛhat bāṭī(-ṁ) (haiṁ) (hailin N)
+> tū log paṛhat bāṭe (hai, haile N)
+> āp paṛhat bāṭo (ho, hailo N)
+> ū log paṛhat bāṭem (haiṁ)
+
+Naast *ham paṛhat bāṭī* etc. kan een andere vorm gebruikt worden.
+Deze benadrukt het voortduren van de handeling op een sterkere wijze:
+
+> ham paṛh rahal bāṭī (hai, hailī N)
+> tū paṛh rahal bāṭe (hai, haile N)
+> ū paṛh rahal bā(-y) (hai)
+>
+> ham log paṛh rahal bāṭī(-ṁ) (haiṁ) (hailin N)
+> tū log paṛh rahal bāṭe (hai, haile N)
+> āp paṛh rahal bāṭo (ho, hailo N)
+> ū sab paṛh rahal bāṭēm (haiṁ)
+
+*Voorbeelden:*
+
+1. *Paṇḍitvā Rāmāyan ke dohā-caupāī samjhāve hai* — De pandit *legt* dohā's en caupāī's uit het Ramayan *uit*. (Dohā's en caupāī's zijn bepaalde versvormen met strenge regels van metrum, ritme en rijm)
+2. *Paṇḍitvā Rāmāyan ke dohā-caupāī samjhāvat bā* — De pandit *legt nu* dohā's en caupāī's uit het Ramayan *uit*.
+3. *Paṇḍitvā Rāmāyan ke dohā-caupāī samjhā rahal bā (hai)* — De pandit *is op dit moment bezig* dohā's en caupāī's uit het Ramayan *uit te leggen*.
+
+### 9.7.1.1.
+
+De vervoeging van werkwoorden waarvan de stam eindigt op een ā bijvoorbeeld *khāī, jāī* (eten, gaan) is als volgt:
+
+*O.t.t. Ik eet etc.*
+
+> ham khāilā
+> tū *khā* hai
+> ū *khā* hai
+>
+> ham log khāilā
+> tū log *khā* hai
+> āp *khāo* ho
+> ū log *khā* haiṁ
+
+*Ik ben etende (vgl. Eng. I am eating) etc.*
+
+> ham khāt bāṭī (hai, haiṁ, haili N)
+> tū khāt bāṭe (hai, haile N)
+> ū khāt bā(-y) (hai)
+>
+> ham log khāt bāṭī(-ṁ) (haiṁ) (hailin N)
+> tū log khāt bāṭe (hai, haile N)
+> āp khāt bāṭo (ho, hailo N)
+> ū log khāt bāṭem (haiṁ)
+
+### 9.7.2. *O.t.t. Ik las etc.*
+
+> ham paṛhlī (paṛhlin N., paṛhin N)
+> tū paṛhle
+> ū paṛhis (paṛhil, typerend voor N)
+>
+> ham log paṛhlī (paṛhlin N., paṛhin N)
+> tū log paṛhle
+> āp paṛhlo
+> ū sab paṛhlem (paṛhin N)
+
+*Ik was lezende (I was reading) etc.*
+
+> paṛhat rahlī (rahī; rahin, typerend voor N; rahlin N)
+> paṛhat rahle
+> paṛhat rahā
+>
+> paṛhat rahlī (rahī; rahin, ook typerend voor N; rahlin N)
+> paṛhat rahle
+> paṛhat rahlo
+> paṛhat rahleṁ (rahin N)
+
+*Voorbeelden:*
+
+1. *Ham log āpan-āpan kapaṛā apane dhŏilī* — Wij *wasten* elk onze kleren zelf.
+2. *Jab mausī bhittar āil/āis (N), tab laṛkiyan pakāvat rahleṁ/rahin* — Toen tante *binnenkwam, waren* de meisjes *bezig te koken*.
+
+### 9.7.3. *O.t.t.t. Ik zal lezen etc.*
+
+> ham paṛhab, paṛhbe
+> tū paṛhiye
+> ū paṛhī (-gā)
+>
+> ham log paṛhab, paṛhbe
+> tū log paṛhiye
+> āp paṛhiyo
+> ū sab paṛhiyeṁ
+
+*Ik zal lezende zijn (I shall be reading) etc.*
+
+> ham paṛhat rahab (rahbe, rahibe)
+> tū paṛhat rahiye
+> ū paṛhat rahī (-gā)
+>
+> ham log paṛhat rahab (rahbe, rahibe)
+> tū log paṛhat rahiye
+> āp paṛhat rahiyo
+> ū sab paṛhat rahiyeṁ
+
+*Voorbeelden:*
+
+1. *Tū ū mahinā i sabhā meṁ jarūr jaiye* — Je *zal* de volgende maand zeker naar deze vergadering *gaan*.
+2. *Jab tū rāt ke ghare aiye, tab ham sūtat rahab* — Wanneer je 's nachts thuis komt, *zal* ik al *slapen*.
+
+### 9.7.4. *V.t.t. Ik heb gelezen*
+
+| | of: |
+|---|---|
+| ham paṛhlī hai (ook: hă N) | paṛhle bāṭi |
+| tū paṛhle hai (ook: hă N) | paṛhle bāṭe |
+| ū paṛhis (paṛhil) hai (ook: hă N) | paṛhle bā |
+| ham log paṛhlī haiṁ | paṛhle bāṭi(-ṁ) |
+| tū log paṛhle hai | paṛhle bāṭe |
+| āp paṛhle ho | paṛhle bāṭo |
+| ū sab paṛhle haiṁ | paṛhle bāṭeṁ |
+
+Tussen deze twee vormen bestaat enig verschil. Bij een zin als: *Ham bhāt khāilī hai* (Ik heb rijst gegeten) hoeft zich de rijst niet meer in de maag van de spreker te bevinden. Bij: *Ham bhāt khaile bāṭī*, ligt de nadruk op het feit dat het resultaat van het eten nog navoelbaar is.
+
+### 9.7.5. *V.v.t. Ik had gelezen:*
+
+| | of: |
+|---|---|
+| ham paṛhle (paṛhlī) rahlī (rahī) | paṛhe rahī (rahin, typerend voor N.) |
+| tū paṛhle rahle (rahe) | paṛhe rahe |
+| ū paṛhle (paṛhis, paṛhil) rahā | paṛhe/paṛhis rahā |
+| ham log paṛhle rahlī | paṛhe rahī (rahin, typerend voor N.) |
+| tū log paṛhle rahle | paṛhe rahe |
+| āp paṛhle rahlo | paṛhe raho |
+| ū sab paṛhle rahleṁ | paṛhe rahe |
+
+Het enige verschil tussen beide groepen is, dat de eerste Bhojpuri-vormen zijn en de tweede Avadhi.
+
+*Voorbeelden:*
+
+1. *Ham toke saharyā meṁ dekhle rahī (dekhe rahī)* — Ik *had* je in de stad *gezien*.
+2. *Sardhvā toke nā samajhle rahā (samjhe rahā)* — Sardha *had* jou niet *begrepen*.
+
+### 9.7.6. *V.t.t.t. Ik zal gelezen hebben*
+
+> ham paṛhle rahab (rahibe)
+> tū paṛhle rahiye
+> ū paṛhle rahī (-gā)
+>
+> ham log paṛhle rahab (-jā)
+> tū log paṛhle rahiye (-jā)
+> āp paṛhle rahiyo
+> ū sab paṛhle rahī (-gā)
+
+*Voorbeelden:*
+
+1. *Tū bihān jab aiye, tab ham kamvā karle rahab* — Wanneer je morgen komt, *zal* ik het werk al *gedaan hebben*.
+2. *Nā ghabarā, ū tor baiskilyā jarūr banaile rahī* — Wees maar niet bang, hij *zal* je fiets zeker *gemaakt hebben*.
+
+### 9.7.7.
+
+*Opmerking:* Het werkwoord *jāi* (gaan) heeft in de verleden tijd een onregelmatige vorm op *gail—*:
+
+Dus:
+
+| *o.t.t. ik ga etc.* | *o.v.t. ik ging etc.* |
+|---|---|
+| ham jāilā (jāt hai) | ham gailī (gain N) |
+| tū jā hai | tū gaile |
+| ū jā hai | ū gail (gai) (ge) (gais N) |
+| ham log jāilā | ham log gailī (gain N) (gailin N) |
+| tū log jā hai | tū log gaile |
+| āp jā ho | āp gailo |
+| ū sab jā haiṁ | ū sab gaileṁ (gain N) |
+
+## 9.8. De aanvoegende wijs
+
+Deze drukt zowel wens als aansporing, twijfel, onzekerheid of ook ontkenning van de werkelijkheid, onvervulbare voorwaarde uit.
+
+### 9.8.1. *Dat ik lees:*
+
+> ham paṛhī
+> tū paṛh(-e)
+> ū paṛhe
+>
+> ham log paṛhī (jā)
+> tū log paṛhe
+> āp paṛho
+> u sab paṛhe(ṁ)
+
+*Voorbeelden:*
+
+1. *Kā, tū māṅge hai ki ham log hār jāi?* — Wil je soms dat wij *verliezen*?
+2. *Maiyā māṅge hai ki laṛkavan khele* — Moeder wil dat de kinderen *spelen*.
+
+### 9.8.2. *Dat ik zou lezen*
+
+> ham paṛhtī
+> tū paṛhte
+> ū paṛhat
+>
+> ham log paṛhtī (-jā)
+> tū log paṛhte (-jā)
+> āp paṛhto
+> ū sab paṛhte(-ṁ)
+
+*Voorbeelden:*
+
+1. *Tū to bolat rahe ki tū gariyā kinte* — Je zei immers dat je de wagen *zou kopen*.
+2. *Ham khelvā dekhe jaitī man, baki kartve na milal* — Ik *zou* het spel *gaan zien* joh, maar ik kon geen kaart krijgen.
+
+### 9.8.3. *Dat ik zou lezende zijn*
+
+> ham paṛhat rahtī
+> tū paṛhat rahte
+> ū paṛhte rahat
+>
+> ham log paṛhat rahtī
+> tū log paṛhat rahte
+> āp paṛhat rahto
+> ū sab paṛhat rahte(ṁ)
+
+*Voorbeelden:*
+
+1. *Ham sac-muc bolle rahī ki ham paṛhat rahtī jab ū āvat* — Ik had inderdaad gezegd dat ik *zou lezen* wanneer hij kwam.
+2. *Ham oke nā jagaitī, ta ū sutate rahat* — Als ik hem niet gewekt had, *zou* hij *blijven doorslapen*.
+
+### 9.8.4. *Ik zou gelezen hebben:*
+
+| | of: |
+|---|---|
+| ham paṛhle rahtī | ham paṛhle hŏitī |
+| tū paṛhle rahte | tū paṛhle hŏite |
+| ū paṛhle rahat | ū paṛhle hovat(hot) |
+| ham log paṛhle rahtī | ham log paṛhle hŏitī |
+| tū log paṛhle rahte | tū log paṛhle hŏite |
+| āp paṛhle rahto | āp paṛhle hŏito |
+| ū sab paṛhle rahte(ṁ) | ū sab paṛhle hŏite(ṁ), (hovat) |
+
+Tussen deze twee vormen bestaat geen verschil. De eerste wordt iets vaker gebruikt dan de tweede.
+
+*Voorbeeld:*
+
+*Tū hamse bŏlle rahle ki tū kapaṛā pahinle rahte, baki abhī talak tū aisahiṁ ghūmat bāṭe (ghūme hai)* — Je had me gezegd dat *je je al aangekleed zou hebben*, maar je loopt nog steeds zo rond.
+
+### 9.8.5. *Ik zal lezende zijn:*
+
+> ham paṛhat hob(-e), hŏibe
+> tū paṛhat hŏiye
+> ū paṛhat hoī(-gā)
+>
+> ham log paṛhat hob(-e), hŏibe
+> tū log paṛhat hŏiye
+> āp paṛhat hŏiyo
+> ū sab paṛhat hŏiyem
+
+*Voorbeelden:*
+
+1. *Tū jab ghare aiye, tab ham sūtat hŏibe* — Wanneer je thuis komt, *zal* ik misschien al *slapen*.
+2. *Ī sait hamār bhāī ghare āvat hoī* — Mijn broer *zal* nu op weg naar huis *zijn*.
+
+## 9.9. De gebiedende wijs
+
+Met de gebiedende wijs geeft de spreker uiting aan zijn wil, voor zover hij invloed wil uitoefenen op het gedrag van de toegesprokene. De zuiverste vormen van een bevel of gebod zijn die met de tweede persoon enkelvoud of meervoud (*tū, tū log, āp*). Hierbij kunnen schakeringen optreden van streng bevel tot nederig verzoek. De persoonlijke voornaamwoorden worden weggelaten als duidelijk is tegen wie gesproken wordt.
+
+### 9.9.1.
+
+Voor kinderen, minderen en gelijken wordt de stam van het werkwoord gebruikt:
+
+| (tū) | |
+|---|---|
+| paṛh! | — lees! |
+| dekh! | — kijk! |
+| sun! | — luister! |
+| jā! | — ga! |
+| cup! | — stil! |
+
+### 9.9.2.
+
+Beleefde vormen zijn:
+
+| Sarnami | | Nederlands |
+|---|---|---|
+| paṛhă! | – | lees eens! |
+| bolă! | – | vertel eens! |
+| dekhă! | – | kijk eens! |
+
+### 9.9.3.
+
+Voor ouderen, meerderen of als beleefdheidsvorm kunnen worden gebruikt:
+
+| Sarnami | | Nederlands |
+|---|---|---|
+| (tū log, āp) paṛho! | – | leest u! lezen jullie! |
+| dekho! | – | kijkt u! kijken jullie! |
+| āvo! | – | komt u! komen jullie! |
+| lo | – | alstublieft! |
+| do | – | geeft u! |
+| (āp) dīhe | – | geeft u! |
+| (āp) paṛhiye! | – | leest u! |
+| (āp) caliye! | – | gaat u mee! |
+| (āp) likhiye! | – | schrijft u! |
+
+of: als meest beleefde vorm:
+
+| Sarnami | | Nederlands |
+|---|---|---|
+| (āp) paṛhihe! | – | leest u! |
+| (āp) calihe! | – | gaat u! |
+| (āp) likhihe! | – | schrijft u! |
+| (āp) dīho! | – | geeft u! |
+
+### 9.9.4.
+
+Naast deze treden vormen op die een voorstel, besluit, verzoek, toestemming, belofte of wens uitdrukken. Hiervan enkele voorbeelden:
+
+| Sarnami | | Nederlands |
+|---|---|---|
+| bŏliye! | – | je moet zeggen! |
+| bolī jā? | – | zullen we zeggen? |
+| paṛhat jā! | – | blijven jullie lezen! lezen jullie! |
+| calal jāi! | – | laat ons gaan! |
+| calak hoī? (= cale ke hoī?) | – | zullen we gaan? |
+| dekhiyā | – | je moet zien! |
+| rahan de | – | laat het staan! |
+| kare de! of: karan de! | – | laat hem het doen! |
+
+### 9.9.5.
+
+In een aantal gevallen kan evenals in het Nederlands ook de onbepaalde wijs als een gebod gebruikt worden:
+
+| Sarnami | | Nederlands |
+|---|---|---|
+| sūte! | – | slapen!, naar bed! |
+| paṛhe! | – | lezen! |
+
+## 9.10. Overgankelijk en onovergankelijk
+
+### 9.10.1.
+
+Werkwoorden kunnen overgankelijk (transitief) of onovergankelijk (intransitief) zijn. Het verschil tussen beide is niet aan hun uiterlijke vorm te zien. Overgankelijk noemt men die werkwoorden die een lijdend voorwerp bij zich kunnen hebben. Hiervan enkele voorbeelden:
+
+| Sarnami | | Nederlands |
+|---|---|---|
+| bhāt *khāī* | – | rijst *eten* |
+| khet *jote* | – | de grond *omploegen* |
+| lakaṛī *kāṭe* | – | hout *hakken* |
+| pānī *pīye* | – | water *drinken* |
+| dūdh *dūhe* | – | melken |
+
+### 9.10.2.
+
+Onovergankelijk zijn die werkwoorden die geen lijdend voorwerp bij zich kunnen hebben:
+
+| Sarnami | | Nederlands |
+|---|---|---|
+| rove | – | huilen |
+| kaṭe | – | gesneden worden |
+| baiṭhe | – | zitten |
+| nāce | – | dansen |
+| haṁse | – | lachen |
+
+### 9.10.3.
+
+Alle onovergankelijke werkwoorden kunnen overgankelijk worden gemaakt door:
+
+a) verlenging van de stamklinker, in bepaalde gevallen gepaard gaande met een verandering van de stemloze slotmedeklinker van de stam in een stemhebbende medeklinker:
+
+| Sarnami | | Nederlands |
+|---|---|---|
+| chūṭe | – | los raken |
+| choṛe | – | los laten |
+| phaṭe | – | barsten |
+| phāṛe | – | (doen) barsten |
+| ṭūṭe | – | kapot gaan |
+| ṭūṛe | – | kapot maken |
+| kaṭe | – | gesneden worden |
+| kāṭe | – | snijden |
+
+Een voorbeeldzin met *kāṭe*:
+
+*Nankā ū kaṭlisiyā se nariyar kāṭat rahā* — Nanka kapte met die houwer cocosnoten open.
+
+b) toevoeging van -āv- aan de stam:
+
+| Sarnami | | Nederlands |
+|---|---|---|
+| rove | – | huilen |
+| rŏvāve | – | doen huilen |
+| baiṭhe | – | zitten |
+| baiṭhave | – | doen zitten |
+| nāce | – | dansen |
+| nacāve | – | doen dansen |
+
+Een voorbeeld met *baiṭhe*:
+
+*Sipahiyā hamlogan ke din-bhar baiṭhāis rahā* — De politie-agent had ons de hele dag laten zitten.
+
+### 9.10.4. Enkele en dubbele causatieven
+
+#### 9.10.4.1.
+
+Aan de hand van 3 voorbeelden (*kare*, *karāve* en *karvāve*) maken wij duidelijk wat hiermee bedoeld wordt:
+
+1. *Ham kamvā karilā* – Ik doe het werk
+2. *Ham kamvā karāilā* – Ik laat het werk doen (enkele causatief)
+3. *Ham kamvā karvāilā* – Ik laat het werk doen (dubbele causatief)
+
+*Kare* (1) betekent: doen; bij *karāve* (2) laat iemand een ander het werk doen; bij *karvāve* (3) geeft iemand aan een ander de opdracht om het werk te laten doen. Hier zijn dus respectievelijk *één*, *twee* of *drie* personen bij de handeling betrokken.
+
+#### 9.10.4.2.
+
+Een aantal onovergankelijke werkwoorden zijn onregelmatig in vorm en hebben soms zelfs 4 variaties. Enkele voorbeelden:
+
+| | Sarnami | | Nederlands |
+|---|---|---|---|
+| a) | mare | – | sterven |
+| | māre | – | doden, slaan |
+| | marāve | – | doen slaan, doden |
+| | marvāve | – | door een derde doen doden of slaan |
+| b) | chūṭe | – | los raken |
+| | choṛe | – | los laten |
+| | chŏṛāve | – | los maken, verlossen |
+| | chŏṛvāve | – | doen losmaken, doen verlossen |
+| c) | kaṭe | – | snijden, gesneden worden |
+| | kāṭe | – | snijden |
+| | kaṭāve | – | doen snijden |
+| | kaṭvāve | – | door een 3e doen snijden |
+
+#### 9.10.4.3.
+
+De overgankelijke werkwoorden vormen hun causatieven door toevoeging van: -āv- of -vā- aan de stam van het werkwoord. Een enkele is onregelmatig:
+
+| | | | | | | |
+|---|---|---|---|---|---|---|
+| khāī | – | khiyāve | – | khavāve | = | eten, doen eten |
+| dekhe | – | dĕkhāve | – | dĕkhvāve | = | doen, laten doen |
+| paṛhe | – | paṛhāve | – | paṛhvāve | = | lezen, doen lezen |
+| kare | – | karāve | – | karvāve | = | doen, laten doen |
+
+Voorbeelden met *paṛh-*:
+
+*Ham Sarnami paṛhilā* — Ik lees (leer) Sarnami
+*Ham Sarnami paṛhāilā* — Ik onderwijs Sarnami
+*Ham Sarnami paṛhvāilā* — Ik laat Sarnami onderwijzen
+
+#### 9.10.4.4.
+
+Causatieven kunnen ook samengesteld zijn met de hulpwerkwoorden *leve* (nemen) en *deve* (geven). (Zie voor een verdere uitleg van het karakter van deze twee werkwoorden par. 9.11.2.2.).
+
+Voorbeelden:
+
+met *leve*
+
+| | | | | Nederlands |
+|---|---|---|---|---|
+| cikh(v)āve | – | cikhā/cikhvā leve | – | doen proeven |
+| dĕkh(v)ave | – | dĕkhā/dekhvā leve | – | doen zien |
+| khŏjvāve | – | khŏjvā leve | – | doen zoeken |
+| kar(v)āve | – | karā/karvā leve | – | laten doen |
+| man(v)āve | – | manā/manvā leve | – | doen troosten |
+
+met *deve*
+
+| | | | | Nederlands |
+|---|---|---|---|---|
+| rŏvāve | – | rōvā deve | – | doen huilen |
+| mar(v)āve | – | marā/marvā deve | – | laten slaan/doden |
+| lauṭ(v)āve | – | lauṭā/lauṭvā deve | – | doen terugsturen |
+| nikarvāve | – | nikarvā deve | – | doen uithalen |
+| cal(v)āve | – | calvā deve | – | doen lopen |
+
+### 9.10.5.
+
+De *lijdende vorm* wordt op verschillende manieren verkregen.
+
+#### 9.10.5.1.
+
+De eerste manier is het voltooid deelwoord van het werkwoord te doen volgen door het hulpwerkwoord *jāi* (worden). "Degene" die de handeling uitvoert, wordt met het achterzetsel *se* aangeduid. Dus:
+
+| Sarnami | | Nederlands |
+|---|---|---|
+| dhoval jāi | – | gewassen worden |
+| sīyal jāi | – | genaaid worden |
+| khāval jāi | – | gegeten worden |
+| kīnal jāi | – | gekocht worden |
+
+Voorbeelden:
+
+1. *Masīn se kapaṛā dhoval jā hai* — De kleren worden met een machine gewassen.
+2. *Tarkārī bajār meṁ bhī kīnal jā hai* — Groenten worden ook op de markt gekocht.
+
+#### 9.10.5.2.
+
+De tweede manier verkrijgt men door de uitgang -āī achter de stam van de bedrijvende vorm van het werkwoord te voegen. Dus:
+
+| bedrijvend | stam | lijdend | |
+|---|---|---|---|
+| paṛhe | paṛh | paṛhāī | gelezen worden |
+| dekhe | dekh | dĕkhāī | gezien worden |
+| sīye | sī | siyāī | genaaid worden |
+| dhove | dho | dhŏvāī | gewassen worden |
+| khāī | khā | khavāī | gegeten worden |
+
+Voorbeelden:
+
+1. *Boekvan laṛkavan se paṛhā hai* — De boeken worden door de kinderen gelezen.
+2. *Kapaṛvan abbe siyāt rahleṁ* — De kleren werden nog genaaid.
+
+#### 9.10.5.2.1.
+
+De voltooide betekenis van deze vormen vertoont zonder betekenisverschil twee uitgangen. De -l-vormen zijn Bhojpuri-vormen, de -ān-vormen Avadhi:
+
+1. *Filmvā dĕkhāil/dĕkhān rahā* — De film was vertoond (geworden).
+2. *Kapaṛvan siyāil/siyān haiṁ* — De kleren zijn genaaid (geworden).
+3. *Tarkariyā dhŏvāil/dhŏvān hoī* — De groenten zullen wel gewassen zijn.
+
+### 9.10.6.
+
+De hulpwerkwoorden *hove* (*rahe*, *bā-*), *cāhe* en *paṛe* leveren in een bepaalde constructie de betekenis *moeten* in diverse betekenissen op.
+
+De constructie is als volgt:
+
+De handelende persoon + *ke* + de onbepaalde wijs van het hoofdwerkwoord + *ke* + een vervoegde vorm van *hove* (*rahe*, *bā-*), *cāhe* of *paṛe*.
+
+Voorbeelden:
+
+#### 9.10.6.1.
+
+Met *hove*, *rahe* en *bā-*. *Moeten* heeft hier de betekenis van *een innerlijk gevoelde verplichting*:
+
+1. *Hamke humvā jāike hoī* — Ik *zal* daar *moeten gaan* (lett. door mij zal daar gegaan moeten worden).
+2. *Rabin ke bhāsan deve ke rahī* — Rabin *zal* een lezing *moeten geven*.
+3. *Oke abbe bahut kām kare ke bā* — Hij *heeft* nog veel werk *te doen*.
+
+#### 9.10.6.2.
+
+Met *cāhe*. *Moeten* heeft hier de betekenis van *behoren te. .*:
+
+1. *Toke jhūth nā bole ke cāhīṁ* — Je *zou* niet *moeten liegen*.
+2. *Ū juni toke jāg jāike cāhat rahā* — Je *had* tegen die tijd *al wakker moeten zijn*.
+
+#### 9.10.6.3.
+
+Met *paṛe*. *Moeten* houdt hier in *een dwingende verplichting*:
+
+1. *Bisram ke kas ke belasting bhare ke paṛī* — Bisram *zal* flink belasting *moeten betalen*.
+2. *Toke bŏjhvā dhove ke paṛat, tab bujhāt* — Als jij de last *had moeten dragen*, dan zou je het wel merken.
+
+## 9.11. Karakteristieke eigenschappen
+
+Tot dusverre is het Sarnami werkwoord behandeld aan de hand van de traditioneel-schoolse grammatica.
+
+Uit deze behandeling blijkt ten eerste het kontrast tussen het gebruik van de tegenwoordige en voltooide deelwoorden. Het lijkt dat dit kontrast van groter belang is dan de kwestie van de aanduiding van de tijd. Voorts is gebleken dat in het Sarnami een samenstelling van werkwoorden optreedt waarin het hulpwerkwoord een bepaalde betekenisnuance van de door het hoofdwerkwoord uitgedrukte handeling of het gebeuren expliciet maakt (zie bijvoorbeeld 9.7.).
+
+In het volgende wordt het samengestelde werkwoord vanuit twee gezichtspunten nader beschouwd:
+
+a. de kwestie van het aspect: het begin, de duur en de doelgerichtheid van de handeling of het gebeuren
+
+b. de vraag in hoeverre de handeling of het gebeuren op het onderwerp zelf of op een ander dan het onderwerp gericht is.
+
+### 9.11.1
+
+Wat betreft het aspect is het opvallend dat dit voornamelijk wordt uitgedrukt door de vorm van het tegenwoordig deelwoord van het hoofdwerkwoord als kern van de samenstelling te gebruiken. Dit kan verklaard worden uit het feit dat het juist deze vorm van het werkwoord is die het proces van de handeling of het gebeuren uitdrukt.
+
+Aangezien het voltooid deelwoord uitdrukt dat het proces afgesloten is, speelt in die vorm het aspect een veel geringere rol. Daarom kan hier worden volstaan met een bespreking van het gebruik van het hulpwerkwoord in zijn samenstelling met de onvoltooide vorm van het hoofdwerkwoord.
+
+#### 9.11.1.1.
+
+De meest voorkomende hulpwerkwoorden die wij bedoelen zijn:
+
+| Infinitief | | |
+|---|---|---|
+| hove | – | zijn, worden |
+| bāṭ- | – | zijn |
+| āve | – | komen |
+| rahe | – | zijn, blijven |
+| jāi | – | gaan |
+
+#### 9.11.1.2.
+
+Al deze werkwoorden kunnen ook zelfstandig gebruikt worden.
+
+Wanneer *hove* en *rahe* zelfstandig gebruikt worden, ligt er een verschil in nadruk op de bepaaldheid van het gebeuren of de toestand.
+
+Terwijl *hove* een bepaaldheid uitdrukt, drukt *rahe* een algemeenheid uit.
+
+Dit kan worden geïllustreerd aan de hand van de volgende zinnen:
+
+1. *Kauno-kauno ām saṛal hai;* en
+2. *Kauno-kauno ām saṛal rahe hai*
+
+betekenen beide in het Nederlands:
+
+Sommige manjes zijn rot.
+
+Het verschil in betekenis tussen beide zinnen kan als volgt omschreven worden:
+
+In de eerste zin gaat het om een aantal rotte manjes uit een *bepaalde* partij (van één oogst bijvoorbeeld). De tweede zin is in een algemene betekenis gebruikt en drukt uit dat onder alle manjes ter wereld zich altijd ook rotte bevinden.
+
+### 9.11.1.3.
+
+Om de kwestie van aspect te verduidelijken, gebruiken wij in de hierna te volgen uitleg de volgende zin in de o.t.t. met een concrete situatie als grondslag:
+
+*Ū tor badmāsi dekhe hui* —
+Hij ziet jouw kattekwaad (hij heeft jouw kattekwaad in de gaten).
+
+Hiervan leiden wij ons voorbeeldzinnetje af:
+
+*Ū tor badmāsi dekhat bā/hai* —
+\*Hij is bezig jouw kattekwaad te zien.
+
+Uit de vergelijking van *ū dekhe hui* (hij ziet) en *ū dekhat bā/hai* (hij is bezig te zien) (zie ook par. 9.7.1.) blijkt dat de eerste zin de handeling in zijn algemeenheid uitdrukt, terwijl de tweede zin aangeeft dat het proces van de handeling op een bepaald moment aan de gang is.
+
+### 9.11.1.3.1. Voorbeelden met āve.
+
+Al deze voorbeeldzinnen moeten in het Nederlands worden vertaald met: Hij ziet al geruime tijd.
+
+a) *Ū dekhat āve hai.*
+De vorm *āve* verduidelijkt de aanvang van het proces.
+
+b) *Ū dekhat āvat bā/hai.*
+De onvoltooide vorm *āvat* verduidelijkt *de bewuste voortzetting van het aangevangen proces*.
+
+c) *Ū dĕkhte āve hai.*
+Als in a), maar met een gelijktijdige nadruk op de handeling van het zien zelf.
+
+d) *Ū dĕkhte-dĕkhte āve hai.*
+Als in c), maar de herhaling van de vorm *dĕkhte* versterkt de nadruk op de handeling van het zien zelf.
+
+e) *Ū dĕkhte-dĕkhte āvat bā/hai.*
+De onvoltooide vorm *āvat* verduidelijkt de bewuste voortzetting van het aangevangen proces als in b), terwijl er tevens een sterke nadruk op de handeling van het zien zelf wordt gelegd als in d).
+
+### 9.11.1.3.2. Voorbeelden met rahe.
+
+Deze betekenen alle in het Nederlands: Hij blijft zien.
+
+a) *Ū dekhat rahe hai.*
+De vorm *rahe* verduidelijkt de duur van het proces.
+
+b) *Ū dĕkhte rahe hai.*
+Als in a), maar de vorm *dĕkhte* legt een gelijktijdige nadruk op de handeling van het zien zelf.
+
+c) *Ū dĕkhte rahat bā/hai.*
+De onvoltooide vorm *rahat* verduidelijkt *de blijvende inzet van de handelende persoon in het proces*.
+
+### 9.11.1.3.3. Voorbeelden met jāi.
+
+De zinnen betekenen hier: Hij gaat door met te zien.
+
+a) *Ū dekhat jā hai.*
+De vorm *jā* verduidelijkt *de doelgerichtheid van de handelende persoon in het proces*.
+
+b) *Ū dekhat jāt bā/hai.*
+De onvoltooide vorm *jāt* verduidelijkt *de bewuste voortzetting van het proces naar het gestelde doel*.
+
+c) *Ū dĕkhte jāt bā/hai.*
+Als in b), maar de vorm *dĕkhte* legt *een gelijktijdige nadruk op de handeling* van het zien zelf.
+
+d) *Ū dĕkhte-dĕkhte jāt bā/hai.*
+Als in b), maar de herhaling van de vorm *dĕkhte* legt *een versterkte nadruk op de handeling zelf* als in c).
+
+### 9.11.1.3.4. Opmerking 1.
+
+Behalve de genoemde hulpwerkwoorden komen in het Sarnami nog drie andere voor *die een aspect van de handeling uitdrukken*. Het zijn de werkwoorden:
+
+| | |
+|---|---|
+| lage | zich hechten aan, raken |
+| cuke | klaar zijn met, af hebben |
+| hove | zijn, worden, af hebben |
+
+Deze werkwoorden worden met een andere vorm van het hoofdwerkwoord samengesteld dan de bovengenoemde drie.
+
+### 9.11.1.3.4.1.
+
+*Lage* drukt het aspect van *begin van de handeling* uit. Dit hulpwerkwoord wordt met de onbepaalde wijs van het hoofdwerkwoord (de infinitief) samengesteld.
+
+### 9.11.1.3.4.1.1. Voorbeelden:
+
+1. *Sila kāheke aise kare lage hai?* —
+   Waarom begint Sila zo te handelen?
+2. *Binā kuch bole ū paisavā bhare lagal* —
+   Zonder een woord te zeggen *begon* hij het geld *te betalen*.
+3. *Tū ṭem par nā aite, tab ham log cale lagtī* —
+   Wanneer je niet op tijd zou komen, *zouden* wij al *beginnen te gaan*.
+
+### 9.11.1.3.4.2.
+
+De hulpwerkwoorden *cuke* en *hove* drukken beide *de afsluiting (of voltooiing) van de handeling* uit. Alle vormen van *cuke* worden veelvuldiger gebruikt dan de meeste van *hove*. Een uitzondering vormt de voltooid verleden tijdsvorm van *hove: bhail/bhai*, die even vaak als *cukal/cukā* voorkomt. Beide werkwoorden worden met de stam van het hoofdwerkwoord samengesteld. Een uitzondering lijken de werkwoorden met een *i*-uitgang als infinitief te vormen. Bij deze kunnen zowel de stam als de infinitief als hoofdwerkwoord voorkomen. Deze *i*-uitgang moet hier als overgangsklank gezien worden.
+
+### 9.11.1.3.4.3. Voorbeelden:
+
+1. *Mahinā don hove se pahile ham āpan karjā bhar cukilā/hoilā* —
+   Vóór het einde van elke maand *betaal ik al* mijn rekeningen.
+2. *Tū nahā/nahāi cukale/bhaile?* — Heb je al gebaad?
+3. *Ū sahar se jab lauṭī, tab ham kamvā kar cukal ho(i)be* —
+   Wanneer hij van de stad terugkomt, zal ik het werk al gedaan hebben.
+
+### 9.11.1.3.5. Opmerking 2.
+
+Voor de zelfstandige betekenis: *beginnen* en *(be-)eindigen* bestaan er ook werkwoordsvormen. Deze vallen niet onder de behandeling van dit onderdeel. Volledigheidshalve vermelden wij hier die werkwoordsvormen.
+
+a) De werkwoordsgroepen *surū kare* (overgankelijk) en *surū hove* (onovergankelijk) betekenen beide: *beginnen*.
+
+b) De volgende werkwoordsgroepen betekenen: *eindigen* of *beëindigen*:
+
+| Overgankelijk | Onovergankelijk |
+|---|---|
+| don kare | don hove |
+| samāpat kare | samāpat hove |
+| khatam kare | khatam hove |
+
+### 9.11.2.
+
+De volgende als hulpwerkwoorden optredende werkwoorden worden met de stamvorm van het hoofdwerkwoord samengesteld om uit te drukken of de handeling op het onderwerp zelf of op een ander dan het onderwerp gericht is.
+
+(N.B.: bij werkwoordstammen op ā, ū en ō zijn deze vormen ook -ai, -ui en -oi, dus b.v. khāi, chūi en dhoi (eten, aanraken en wassen). Opvallend is dat deze werkwoorden een richting aanduiden.)
+
+Het gaat hierbij om de werkwoorden:
+
+| | |
+|---|---|
+| sake | kunnen |
+| pāve | kunnen, vinden |
+| leve | nemen |
+| deve | geven |
+| ḍhāre (ḍāre) | neerwerpen |
+| āve | komen |
+| cale | lopen, bewegen |
+| jāi | gaan |
+| uṭhe | opstaan |
+| baiṭhe | zitten |
+| paṛe | vallen, moeten |
+
+Het gebruik van deze werkwoorden is uiteraard bepaald door de betekenis van het hoofdwerkwoord.
+
+### 9.11.2.1. Sake en pāve
+
+De hulpwerkwoorden *sake* en *pāve* drukken de betekenis *kunnen* uit, met dien verstande *dat sake het vermogen uitdrukt dat eigen is aan het onderwerp*, terwijl *pāve de nadruk legt op de uiterlijke omstandigheden die het onderwerp in staat stellen om de handeling te verrichten*.
+
+In de zin:
+1. *Ham ī kamvā jarūr kar sakab* —
+   Ik zal dit werk zeker kunnen doen,
+
+geeft de spreker te kennen *dat het in zijn vermogen ligt* om het werk te kunnen doen.
+
+In de zin:
+2. *Ham ī kamvā jarūr kar paibe* —
+   Ik zal dit werk zeker kunnen doen,
+
+geeft hij te kennen dat het weliswaar in zijn vermogen ligt om het werk te doen, maar *dat het vooral van omstandigheden buiten hem afhangt* of hij het werk kan doen.
+
+Het spreekt vanzelf dat beide hulpwerkwoorden ook in ontkennende zin kunnen worden gebruikt.
+
+### 9.11.2.1.1. Nog enkele samenstellingen:
+
+| | |
+|---|---|
+| (nā) dekhā sake/pāve | (niet) kunnen tonen |
+| (nā) chū(ī) sake/pāve | (niet) kunnen aanraken |
+| (nā) ho(-ī) sake/pāve | (niet) kunnen gebeuren, worden |
+| (nā) cal sake/pāve | (niet) kunnen lopen |
+
+### 9.11.2.2. Leve, deve en ḍhāre
+
+Het hulpwerkwoord *leve* drukt uit dat het onderwerp de handeling ten behoeve van zichzelf verricht. *Deve* daarentegen, drukt uit dat het onderwerp de handeling ten behoeve van een ander verricht. *Dhāre* versterkt in hoge mate de betekenis van *deve* en drukt uit het voltooien van een moeilijke handeling, met overwinnen van weerstanden.
+
+### 9.11.2.2.1. Voorbeelden:
+
+1. *Laṛkavā āpan khaikā jaldī se khā (khāi) leis rahā* —
+   Het kind *had* zijn eten gauw *opgegeten*.
+2. *Ū laṛkavā āpan bahin ke bhāt khiyā (khiyāi) deis hai* —
+   Dat kind *heeft* zijn zusje rijst *te eten gegeven*.
+3. *Ū badmasvā āpan dusman ke mār ḍhāris hai* —
+   Die misdadiger *heeft* zijn vijand *gedood*.
+
+### 9.11.2.2.2. Nog enkele samenstellingen:
+
+**met leve**
+
+| | |
+|---|---|
+| sun leve | horen |
+| dekh leve | zien |
+| bŏlā leve | naar zich toe roepen |
+| karvā leve | voor zich laten doen |
+| bharvā leve | voor zich laten betalen |
+
+**met deve**
+
+| | |
+|---|---|
+| sunā deve | laten horen |
+| dekh deve | voor een ander zien |
+| dĕkhā deve | laten zien, tonen |
+| bŏlā deve | voor een ander roepen |
+| karvā deve | voor een ander laten doen |
+
+**met ḍhāre**
+
+| | |
+|---|---|
+| banā ḍhāre | afmaken |
+| raṅg ḍhāre | inkleuren |
+| paṛh ḍhāre | uitlezen |
+| tūṛ ḍhāre | kapot maken |
+| cīr ḍhāre | verscheuren |
+| jarā ḍhāre | verbranden |
+| pīs ḍhāre | vergruizen |
+| kacar ḍhāre | vertrappen |
+
+### 9.11.2.3. Āve, cale en jāi
+
+Het hulpwerkwoord *āve* drukt uit *dat het proces van de handeling zich in de richting van het onderwerp beweegt*.
+
+*Cale* drukt het proces van de handeling uit zonder dat de richting van de handeling nader bepaald wordt. Dit hulpwerkwoord komt in het Sarnami erg weinig voor.
+
+Bij *jāi* doen zich twee mogelijkheden voor:
+
+a) Bij hoofdwerkwoorden die onovergankelijk zijn, *drukt het het proces van de overgang in een toestand uit*.
+
+b) Bij hoofdwerkwoorden die overgankelijk zijn, *drukt het uit dat het onderwerp door het proces is heengegaan en dit vervolgens achter zich laat*.
+
+### 9.11.2.3.1. Voorbeelden met āve:
+
+1. *Tū maṅgiye to aur jaldiye lauṭ aiye* —
+   Als je dat wenst, *moet je* veel eerder *terugkomen*.
+2. *Partapvā lenī karal jaliyā kabbe nā dī (de) āil hai* —
+   Partap *heeft* het geleende visnet al lang *terugbezorgd* —
+   (lett.: Partap is het visnet gaan teruggeven en is weer teruggekomen).
+
+### 9.11.2.3.1.1. Nog enkele samenstellingen:
+
+| | |
+|---|---|
+| choṛ āve | gaan loslaten (en terugkomen) |
+| dekh āve | gaan zien (en terugkomen) |
+| calā āve | ergens naar toe komen |
+| le āve | terugbrengen |
+| pūch āve | gaan vragen (en terugkomen) |
+
+### 9.11.2.3.2. Voorbeelden met cale:
+
+1. *Piyakkarvā dārū ke boṭal sāthesāth leī (le) calat rahā* —
+   De dronkaard *had overal waar hij ging een fles alcohol bij zich*.
+2. *Bhāg cal, nahīṁ abbe ū toke dekh leī* —
+   *Ga gauw weg*, anders ziet hij je zo nog.
+3. *Bilariyā āpan baccavan ke chor calal* —
+   De poes *liet* haar jongen *in de steek*.
+
+### 9.11.2.3.3. Voorbeelden met jāi:
+
+**Onovergankelijk**
+
+1. *Jaldī kar, ab bahut der ho(ī)gail hai* —
+   Haast je, want het is nu erg laat geworden.
+2. *Panditvā bŏlle rahā ki ū das baje pahuṁc jāt* —
+   De pandit had gezegd dat hij er al om tien uur zou zijn.
+
+**Overgankelijk**
+
+1. *Ī batiyā to ham kabbe nā bhulā(ī) gaile rahī* —
+   Deze kwestie was ik al lang vergeten.
+2. *Tū hamse cāhe na bataite, okar bhed ham tabbo jān jaitī* —
+   Al had je mij het niet verteld, ik *zou* toch *achter zijn geheimen gekomen zijn*.
+
+### 9.11.2.3.3.1. Nog enkele samenstellingen:
+
+**Onovergankelijk**
+
+| | |
+|---|---|
+| ā jāi | aankomen |
+| calā jāi | weggaan |
+| ban jāi | gemaakt worden |
+| gir jāi | neervallen |
+| ṭūṭ jāi | kapot gaan |
+
+**Overgankelijk**
+
+| | |
+|---|---|
+| bacan de jāi | beloven, zijn woord geven |
+| cīnh jāi | herkennen |
+| samajh jāi | begrijpen |
+| paṛh jāi | doorlezen |
+| sīkh jāi | leren |
+
+### 9.11.2.4. Uṭhe, baiṭhe en paṛe
+
+Het verschil in betekenis tussen deze drie hulpwerkwoorden demonstreren wij hierna, telkens na de uitleg van hun aard, met voorbeelden met hetzelfde hoofdwerkwoord. In dit geval *bole* (zeggen).
+
+Het hulpwerkwoord *uṭhe* drukt uit dat de handeling als *een spontane reactie* bij het onderwerp opkomt:
+
+1. *Siyarvā ke kāyārta dĕkhte hi ahirvā bol uṭhal ...* —
+   Zodra de koeherder de lafheid van de vos doorkreeg, *zei* hij ...
+
+*Baithe* drukt *een doelbewuste handeling* van het onderwerp uit. In een aantal gevallen drukt het uit dat het onderwerp zich een bepaalde toestand of gebeurtenis bewust wordt. Zo drukt in het geval van hoofdwerkwoorden die een verlies inhouden dit hulpwerkwoord een betreuren van dit verlies uit.
+
+2. *Parŏsiniyā ke āpan laṛkan par ber-ber orahanā nā sun rahais aur kharrāi ke bol baiṭhal ...* —
+   De buurvrouw kon de voortdurende klachten over haar kinderen niet langer verdragen en *zei* geërgerd ...
+
+Het hulpwerkwoord *paṛe* drukt uit dat het onderwerp *door de omstandigheden genoodzaakt* wordt de handeling te verrichten.
+
+3. *Markahā bulvā ke khār aur tejī dekh ke Ramvā bol paṛal:* "Bhāg humvā se!" —
+   Toen Ram de woede en de vaart van de valse stier zag, riep hij uit: "Ga weg van daar!"
+
+### 9.11.2.4.1. Nog enkele samenstellingen:
+
+**met uṭhe**
+
+| | |
+|---|---|
+| kāṁp uṭhe | beven |
+| camak uṭhe | oplichten |
+| gūñj uṭhe | weerklinken |
+| ghabaṛā uṭhe | wanhopen |
+| khūn khaul uṭhe | koken van woede |
+| bhaṛak uṭhe | opvlammen |
+| cauṁk uṭhe | opschrikken |
+
+*met baiṭhe*
+
+| | |
+|---|---|
+| pūch baiṭhe | — vragen |
+| himmat hār baiṭhe | — de moed verliezen |
+| gaṃvā baiṭhe | — verkwanselen |
+| maṅg baiṭhe | — opeisen |
+| caṛh baiṭhe | — bestijgen |
+| ghuṃs baiṭhe | — binnendringen |
+| corī kar baiṭhe | — wegroven |
+| uṭh baiṭhe | — overeind gaan zitten |
+
+*met paṛe*
+
+| | |
+|---|---|
+| phāṭ paṛe | — zich storten op |
+| gir paṛe | — vallen |
+| lāṛ paṛe | — de strijd aanbinden |
+| chūṭ paṛe | — losraken |
+| jān paṛe | — schijnen, voorkomen |
+| cauṃk paṛe | — opschrikken |
+| kūd paṛe | — moeten springen |
+| bhāg paṛe | — vluchten |
+
+## 9.12. Diversen
+
+**9.12.1.** Een groot aantal samengestelde werkwoorden met als basis een zelfstandig of een bijvoegelijk naamwoord kan gevormd worden met de hulpwerkwoorden *kare* (doen) en *hove* (zijn, worden). De eerste groep is overgankelijk, de tweede onovergankelijk.
+
+*Voorbeelden:*
+
+*Met zelfstandige naamwoorden:*
+
+*Overgankelijk*
+
+| | |
+|---|---|
+| bicār kare | — overwegen |
+| apmān kare | — beledigen |
+| nindā kare | — roddelen |
+| nās kare | — vernietigen |
+| parmān kare | — bewijzen |
+| bisvās kare | — geloven |
+| icchā kare | — wensen |
+| asar kare | — invloed hebben |
+| chamā kare | — vergeven |
+| gujārā kare | — een bestaan vinden |
+| bhalāī kare | — goed doen |
+| dayā kare | — medelijden tonen |
+| bhojan kare | — eten |
+
+*Onovergankelijk*
+
+| | |
+|---|---|
+| bicār hove | — overwogen worden |
+| apmān hove | — beledigd worden |
+| nindā hove | — geroddeld worden |
+| nās hove | — vernietigd worden |
+| parmān hove | — bewezen worden |
+| bisvās hove | — geloofd worden |
+| icchā hove | — gewenst worden |
+| asar hove | — beïnvloeden |
+| chamā hove | — vergeven worden |
+| gujārā hove | — bestaan |
+| bhalāī hove | — goed ontmoeten |
+| dayā hove | — medelijden ontvangen |
+| bhojan hove | — gegeten worden |
+
+*Met bijvoegelijke naamwoorden:*
+
+*Overgankelijk*
+
+| | |
+|---|---|
+| baṛkā kare | — groot maken |
+| lambā kare | — verlengen |
+| sojhā kare | — recht maken |
+| narām kare | — zacht maken |
+| sastā kare | — goedkoop maken |
+
+*Onovergankelijk*
+
+| | |
+|---|---|
+| baṛkā hove | — groot worden/zijn |
+| lambā hove | — lang worden/zijn |
+| sojhā hove | — recht worden/zijn |
+| narām hove | — zacht worden/zijn |
+| sastā hove | — goedkoop worden/zijn |
+
+**9.12.2.** Een aantal zelfstandige naamwoorden wordt met een speciaal werkwoord tot een samenstelling gevormd:
+
+| | |
+|---|---|
+| dhyān dhare | — aandacht schenken |
+| hānī pahuṃcāve | — benadelen |
+| ghūs khāī | — smeergeld ontvangen |
+| mār khāī | — slaag incasseren |
+| kalaiyā khāī | — een salto maken |
+| dhokhā khāī | — benadeeld worden |
+| havā khāī | — een luchtje scheppen |
+| thokaṛ khāī | — z'n hoofd stoten (fig.) |
+| kasam khāī | — zweren |
+| ḍubukkī māre | — duiken |
+| ṭhaṭṭhā māre | — uitlachen, schaterlachen |
+| har jote | — ploegen |
+| dhyān deve | — aandacht schenken |
+| dhyan rakkhe | — onthouden |
+| bāt calāve | — voorspraak doen (bij huwelijk) |
+| muṃh calāve | — brutaal zijn |
+| patā lagāve | — opsporen |
+| sāṃs bhare | — inademen |
+| dam leve | — uitrusten |
+| badhāī deve | — feliciteren |
+| jaṛ pakaṛe | — wortel schieten |
+
+**9.12.3.** Om de betekenis van een werkwoord te benadrukken en tevens de daarbij behorende al dan niet noodzakelijke handelingen uit te drukken, bestaan in het Sarnami drie mogelijkheden. Vergelijk ook het zelfstandig naamwoord par. 1.5.
+
+**9.12.3.1.** In het eerste geval wordt het hoofdwerkwoord samengesteld met een ander werkwoord dat een min of meer overeenkomstige betekenis uitdrukt:
+
+| | |
+|---|---|
+| lipe-pote | — insmeren (lett. smeren en strijken) |
+| khāī-pīye | — eten en drinken |
+| ḍole-ḍauvāī | — zwerven |
+| rove-gāve | — dreinen (lett. huilen en zingen) |
+| kūde-phāne | — dartelen |
+| bole-batiyāī | — praten |
+
+**9.12.3.2.** In het tweede geval verkrijgt men hetzelfde effect door het hoofdwerkwoord te verdubbelen met een betekenisloos rijmwoord met klinker-wisseling in de stam:
+
+| | |
+|---|---|
+| cīre-cāre | — splijten e.d. |
+| sūte-sāte | — slapen etc. |
+| pele-pāle | — schrokken |
+| laṛe-luṛe | — vechten etc. |
+| līkhe-lākhe | — schrijven |
+| pīṭe-pāṭe | — afranselen |
+| dhove-dhāve | — wassen etc. |
+| bhoṃke-bhāṃke | — prikken en steken |
+
+**9.12.3.3.** In het derde geval wordt het hoofdwerkwoord gevolgd door een zogenaamd echo-woord. Dit wordt gevormd door weglating van de begin-(mede-)klinker van het hoofdwerkwoord, waarna al dan niet een vervorming van de beginklank tot een *o*- of *v*-optreedt:
+
+| | |
+|---|---|
+| pīye-vīye | — drinken etc. |
+| khāī-oī | — eten etc. |
+| līkhe-vīkhe | — schrijven etc. |
+| ḍhove-ove | — wassen etc. |
+| kūde-ūde | — springen etc. |
+| bhoṃke-oṃke | — steken etc. |
+| laṛe-oṛe | — vechten etc. |
+| oṛhe-voṛhe | — zich toedekken etc. |
+
+**9.12.4.** Werkwoorden die een klanknabootsing uitdrukken, worden gevormd door een verdubbeling in de stam weer te geven:
+
+| | |
+|---|---|
+| baṛbaṛāī | — babbelen |
+| jhañjhanāī | — rinkelen |
+| khaṛkhaṛāī | — ritselen, kraken |
+| bhaṛbhaṛāī | — donderen |
+| ṭuṭulāī | — brabbelen |
+| khaṭkhaṭāī | — kloppen |
+| ganganāī | — kippevel krijgen |
+| hanhanāī | — razen |
+| phaṛphaṛāī | — trillen |
+| caṭpaṭāī | — spartelen |
+
+**9.12.5.** De zogenaamde frequentatieven of werkwoorden van herhaling gaan uit op *-iyāve*. Zij worden afgeleid van werkwoorden.
+
+| | |
+|---|---|
+| coṃke | — prikken |
+| bhoṃke | — steken |
+| khode | — graven |
+| | |
+| cŏṃkiyāve | — voortdurend prikken |
+| bhŏṃkiyāve | — telkens steken |
+| khŏdiyāve | — voortdurend graven |
+
+## 9.13. Uitbreidingen met -hi en -hu
+
+**9.13.1.** Het werkwoord kan benadrukt worden door toevoeging van de nadrukachtervoegsels *-hi* en *-hu* en hun respectievelijk varianten *-e* en *-o*. De nadruk is het sterkst wanneer *-hi* en *-hu* onveranderd voorkomen.
+
+Ter wille van het gemak van de uitspraak bestaat echter een voorkeur voor het gebruik van de varianten *-e* en *-o*. De uitbreiding met deze nadrukachtervoegsels is niet bij alle werkwoordsvormen mogelijk. Ze worden in de regel achter de stam en de *-ab-* en *-at-* uitgangen van het werkwoord geplaatst.
+
+**9.13.1.1.** *Voorbeelden met -hi:*
+
+1. *Ham ose kagajvā pūche nā pailī* — Ik kon hem het papier niet eens vragen.
+2. *Ham ose puchahi nā pailī* — Ik heb hem het helemaal niet kunnen vragen.
+3. *Ham tose batiyā puchte rah gailī* — Ik bleef je daarover tevergeefs vragen.
+4. *Paisavā dĕkhte hi orā gail* — Het geld raakte in een oogwenk op.
+5. *Okar lage pahuṃcke ham paisavā puchbe karab* — Bij hem aangekomen, zal ik hem het geld terstond vragen.
+6. *Ū adamiyā haiye hai* — Dat is inderdaad de man zelf.
+
+**9.13.1.2.** *Voorbeelden met -hu:*
+
+1. *Ham ose kagajvā pūcho nā pailī* — Ik kon hem het papier ook niet vragen.
+2. *Indra ose puchahu nā pāis* — Indra kon het hem ook niet eens vragen.
+3. *Ramvā puchto karat, tab koī bāt rahat* — Had Ram het ook gevraagd, dan was dat al heel wat.
+4. *Ham ose kagajvā puchbo nā pailī* — Ik kon hem het papier ook niet eens vragen.
+5. *Kā, tū puchbo se gaile* — Kan je ook niet eens vrágen?
+6. *Ū adamiyā kamkartvan meṃ se ek haiyo hai* — Die man is inderdaad ook een van de arbeiders.
+
+## 9.14. Leenwoorden en nieuwvormingen
+
+Ook bij werkwoorden is de invloed van de omringende talen merkbaar in de vorm van ontleningen. In een aantal gevallen zijn deze ontleningen zodanig ingeburgerd dat zij de oorspronkelijke Sarnami-woorden geheel vervangen hebben. In een paar gevallen zijn zij haast niet meer te herkennen als leenwoorden aangezien zij zich volledig hebben aangepast aan de Sarnami werkwoordstructuurregels. Met de hulpwerkwoorden *kare* (doen) en *hove* (zijn/worden) kunnen ook in dit geval (vgl. par. 9.12.1.) telkens weer nieuwe samenstellingen met hier als basis een werkwoord, een zelfstandig naamwoord of een bijvoegelijk naamwoord gevormd worden.
+
+**9.14.1.** *Volledig ingeburgerde ontleningen en nieuwvormingen:*
+
+| | |
+|---|---|
+| lĕsiyāī | — luieren (van het Eng. *lazy* via het Sranan Tongo *lesi*) |
+| sĕtiyāve | — ordenen (van het Eng. *to set* via het Sranan Tongo *seti*) |
+| capuāve | — omspitten (van het Sranan Tongo *chapu* — tjap) |
+| kapuāve | — telkens kappen (van het Sranan Tongo *kapkapu*) |
+| cĕpiyāve | — telkens inkepen (van het Sranan Tongo *chepchepi*) |
+| bakaryāī | — vernederlandsen (van het Sranan Tongo *bakra* — Nederlander) |
+| kaphaṛyāī | — vernegeren (van het Sarnami *kaphar* — neger) |
+| girmiṭ kāṭe | — een ellendige tijd doormaken (lett. een kontrakttijd uitdienen) (van het Eng. *agreement* — overeenkomst) |
+| būṭū bhare | — een boete betalen (uit het Ned. *boete* via het Sranan Tongo butu) |
