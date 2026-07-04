@@ -2,9 +2,13 @@
 // docs/api-contract.md (outer repo, issue #26/#46). See README.md for how
 // content/settings are sourced (issues #29-#33).
 //
-// No auth: progress is a single user's state, held in memory for this
-// process's lifetime (see README.md — this is carried over from the
-// prototype's documented scope, not a new design decision).
+// No auth: progress is a single user's state. It's held in memory while the
+// process is running (for speed — every route reads/mutates the in-memory
+// `progress` object, never disk directly), but every mutation is also
+// persisted to a JSON file on disk (see progress-store.mjs, issue #69) so a
+// process restart (crash, deploy, host reboot) doesn't silently wipe it —
+// this was the one gap left by the prototype's documented no-auth/
+// single-user scope (issue #29), not a new design decision otherwise.
 import http from "node:http";
 import { URL } from "node:url";
 import {
@@ -23,16 +27,35 @@ import {
   reviewLeitnerCard,
   evaluateBadges,
 } from "./gamification.mjs";
+import { loadProgress, saveProgress } from "./progress-store.mjs";
 
 const PORT = process.env.PORT ? Number(process.env.PORT) : 8787;
 
 const LEARNING_LANGUAGE_CODES = new Set(LEARNING_LANGUAGES.map((l) => l.code));
 const UI_LANGUAGE_CODES = new Set(UI_LANGUAGES.map((l) => l.code));
 
-// In-memory single-user progress store. Not persisted across restarts —
-// acceptable per the contract's "no authentication in this contract's
-// scope" note; a real datastore is out of scope for this porting task.
+// In-memory single-user progress store, backed by progress-store.mjs on
+// disk. `progress` is `null` until `ensureProgressLoaded()` has resolved
+// once (see below); every route that touches progress is only reached after
+// the main request handler awaits that.
 let progress = null;
+let progressReadyPromise = null;
+
+/**
+ * Loads persisted progress from disk exactly once per process lifetime (the
+ * promise is cached so concurrent/later requests just await the same
+ * in-flight or settled load rather than re-reading the file). Falls back to
+ * a fresh `createInitialProgress()` if there's no file yet (first run) or it
+ * couldn't be read (see progress-store.mjs's `loadProgress`).
+ */
+function ensureProgressLoaded() {
+  if (!progressReadyPromise) {
+    progressReadyPromise = loadProgress().then((loaded) => {
+      progress = loaded ?? createInitialProgress();
+    });
+  }
+  return progressReadyPromise;
+}
 
 function sendJson(res, status, body) {
   const payload = JSON.stringify(body);
@@ -119,6 +142,7 @@ function handleGetProgress(res) {
 async function handlePutProgress(req, res) {
   const body = await readJsonBody(req);
   progress = body;
+  await saveProgress(progress);
   sendNoContent(res);
 }
 
@@ -176,6 +200,7 @@ async function handleLessonCompletion(req, res) {
   };
   next.earnedBadges = evaluateBadges(next);
   progress = next;
+  await saveProgress(progress);
   sendJson(res, 200, next);
 }
 
@@ -194,11 +219,14 @@ async function handleReviewResult(req, res) {
   };
   next.earnedBadges = evaluateBadges(next);
   progress = next;
+  await saveProgress(progress);
   sendJson(res, 200, next);
 }
 
 const server = http.createServer(async (req, res) => {
   try {
+    await ensureProgressLoaded();
+
     if (req.method === "OPTIONS") {
       res.writeHead(204, {
         "Access-Control-Allow-Origin": "*",
