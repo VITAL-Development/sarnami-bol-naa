@@ -196,7 +196,7 @@ jobs:
   visual-home:
     name: "Check 3: Home HUD icons"
     needs: build
-    if: needs.build.result == 'success'
+    if: always() && needs.build.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -244,7 +244,7 @@ jobs:
   visual-lesson-node:
     name: "Check 4: Lesson node states"
     needs: build
-    if: needs.build.result == 'success'
+    if: always() && needs.build.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -292,7 +292,7 @@ jobs:
   visual-lesson-summary:
     name: "Check 5: Lesson summary icons"
     needs: build
-    if: needs.build.result == 'success'
+    if: always() && needs.build.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -340,7 +340,7 @@ jobs:
   visual-nav:
     name: "Check 6: Bottom nav icons"
     needs: build
-    if: needs.build.result == 'success'
+    if: always() && needs.build.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -388,7 +388,7 @@ jobs:
   visual-profile:
     name: "Check 7: Profile badge icons"
     needs: build
-    if: needs.build.result == 'success'
+    if: always() && needs.build.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
