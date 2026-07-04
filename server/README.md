@@ -30,6 +30,60 @@ npm run start        # http://localhost:8787 (override with PORT=xxxx)
 `npm run dev` runs the same thing with `node --watch` for auto-restart on
 file changes.
 
+## Docker (issue #49)
+
+`/server` is dependency-free, so its image is a straightforward single-stage
+build (`server/Dockerfile`) on `node:22-slim` — no `npm ci`/`node_modules`
+step, no other build stage. Only `server.mjs`, `content.mjs`,
+`gamification.mjs`, `stub-data.mjs`, `content/`, `settings/`, `package.json`
+and `package-lock.json` are copied into the image (`server/.dockerignore`
+excludes `server.test.mjs`, the Dockerfile itself, etc).
+
+**Exposed port:** `8787` (matches the `PORT` default in `server.mjs`).
+
+**Env vars:**
+
+| Var | Default | Notes |
+|---|---|---|
+| `PORT` | `8787` | Override to change the port the process listens on inside the container — remember to update the `-p`/`EXPOSE` mapping to match. |
+
+There's no CORS-origin override — the server always responds with
+`Access-Control-Allow-Origin: *` (see "CORS" below), so no env var is
+needed for that.
+
+### Building locally
+
+```bash
+docker build -t sarnami-bol-naa-server ./server
+docker run --rm -p 8787:8787 sarnami-bol-naa-server
+curl http://localhost:8787/languages
+```
+
+### Published image
+
+On every push to `main` that touches `server/**`,
+`.github/workflows/server-image.yml` builds and pushes the image to GitHub
+Container Registry as `ghcr.io/vital-development/sarnami-bol-naa-server`,
+tagged with both the short commit SHA and `latest`. Pull a specific SHA to
+pin a known-good build, or `latest` to track `main`.
+
+### Running on a Tailscale-network host
+
+```bash
+docker pull ghcr.io/vital-development/sarnami-bol-naa-server:latest
+docker run -d \
+  --name sarnami-bol-naa-server \
+  --restart unless-stopped \
+  -p 8787:8787 \
+  ghcr.io/vital-development/sarnami-bol-naa-server:latest
+```
+
+The host's Tailscale IP/hostname on port `8787` is then the value to set as
+`TAILSCALE_BACKEND_URL` (the frontend's `VITE_API_BASE_URL` at build time —
+see the outer repo's `deploy.yml`). Auto-restart/process supervision beyond
+Docker's own `--restart` flag (systemd units, orchestration, etc.) is out of
+scope for this image — see issue #49.
+
 ## Testing
 
 ```bash
