@@ -132,10 +132,65 @@ and `server/settings/**` (issue #32) held real, on-disk copies of everything
   functions ported to plain JS in `gamification.mjs` (previously re-exported
   as-is from `../src/domain`/`../src/data/badges.ts` via the esbuild trick;
   now a small, dependency-free, hand-synced copy — see that file's header
-  comment). Progress itself is held in memory for the process's lifetime,
-  single-user, no persistence — matching the contract's documented
-  no-auth/single-user scope. A real datastore is out of scope for this
-  porting task.
+  comment). Progress is held in memory for the process's lifetime for fast
+  reads/writes, and persisted to disk on every mutation (see "Progress
+  persistence" below, issue #69) so a process restart doesn't lose it —
+  still single-user/no-auth, matching the contract's documented scope; a
+  real datastore (SQLite, an external DB) remains out of scope for now.
+
+## Progress persistence (issue #69)
+
+Progress (`GET/PUT /progress`, `POST /progress/lesson-completion`, `POST
+/progress/review-result`) is backed by a single JSON file on disk,
+`server/data/progress.json`, written by `progress-store.mjs`. This replaces
+the original prototype's in-memory-only store (issue #29), which lost all
+progress on every restart.
+
+**Mechanism:**
+
+- **Load on startup**: the first request the server handles after starting
+  triggers a one-time read of `data/progress.json`. If the file exists, its
+  contents become the initial in-memory `progress` state; if it doesn't
+  exist (first run) or fails to parse (corrupt file), the server falls back
+  to the same empty default (`createInitialProgress()`) it always used
+  pre-#69, and logs a warning in the corrupt-file case rather than crashing.
+- **Save on every mutation**: `PUT /progress`, `POST
+  /progress/lesson-completion`, and `POST /progress/review-result` each
+  write the *entire* updated progress object back to `data/progress.json`
+  before responding. There's no partial-write/diffing logic — the whole
+  file is rewritten every time, which is simple and correct for a
+  single-user store of this size.
+- **Atomic writes**: each save writes to a temp file
+  (`data/progress.json.<pid>.<timestamp>.tmp`) in the same directory, then
+  `rename()`s it over `data/progress.json`. `rename` is atomic on POSIX
+  filesystems, so a crash mid-write leaves the *previous* `progress.json`
+  intact rather than a half-written/corrupt one — you lose at most the
+  in-flight mutation, never the whole file.
+- **Directory creation**: `data/` is created (`mkdir -p` equivalent) on the
+  first save if it doesn't exist yet — no manual setup needed before first
+  run.
+- **Gitignored**: `server/.gitignore` excludes `data/` — this is runtime
+  user state, not authored/committed content.
+
+**Guarantees, stated plainly:**
+
+- Survives a graceful restart (`npm run dev`'s `--watch` reload, a deploy,
+  `docker restart`, a host reboot) — the next startup reads back whatever
+  was last saved.
+- Survives a crash *after* a save has completed — the atomic rename means
+  the on-disk file is never left in a state older than "last completed
+  write", and never a torn/partial write.
+- Does **not** protect against: disk corruption/hardware failure, concurrent
+  writers (this server assumes a single process instance — running two
+  instances against the same `data/` directory has no locking and will race
+  each other), or losing an in-flight mutation that was interrupted before
+  its `rename()` completed (the previous save is retained instead, so at
+  worst you lose the most recent single request's update, not the whole
+  history).
+- This is still a plain-file, single-user store, not a real datastore with
+  transactions/concurrency control — matching `docs/api-contract.md`'s
+  documented no-auth/single-user scope. SQLite or an external DB remain
+  options if that scope changes.
 
 ### `server/content/` (issues #30/#31/#33)
 
@@ -173,6 +228,7 @@ frontend's own local dev/offline path, same as `server/content/**` is
 | `server.mjs` | HTTP server (routing, CORS, request/response handling) |
 | `content.mjs` | Reads `server/content/**` and assembles the `ContentBundle` per learning language |
 | `gamification.mjs` | Plain-JS port of the frontend's pure XP/streak/Leitner/badge functions, used by the progress routes |
+| `progress-store.mjs` | JSON-file load/save for the progress store, with atomic (temp-file + rename) writes (issue #69) |
 | `stub-data.mjs` | `/languages` list derivation (from `content.mjs` + `server/settings/ui/*`) plus loaders for `/settings` and `/ui-strings` data from `./settings/**` |
 | `server.test.mjs` | `node:test` coverage of each route's happy path + 404 path |
 | `settings/{lang}/language-settings.json` | Per-learning-language romanization/alphabet/audio settings (`GET /settings`) |
@@ -180,6 +236,7 @@ frontend's own local dev/offline path, same as `server/content/**` is
 | `content/<lang>/vocab/*.json` | Authored vocab content per learning language (issue #30) |
 | `content/<lang>/units/*.json` | Authored unit/lesson structure per learning language (issue #33) |
 | `content/<lang>/lessons/<unitId>.json` | Authored exercise/example-sentence/grammar-note content per learning language, per unit (issue #31) |
+| `data/progress.json` | Persisted progress store (issue #69) — gitignored runtime state, not authored content; created on first save |
 
 ## CORS
 
