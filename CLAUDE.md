@@ -71,9 +71,10 @@ All emoji replaced with FontAwesome icons. See `src/components/ui/Icon.tsx` for 
 
 ## CI
 
-9-job graph on every PR:
+10-job graph on every PR:
 
 ```
+changes ──► unit-tests (skipped if content-only) ────────────► report
 install ──► typecheck ──────────────────────────────────────► report
         └─► unit-tests ──────────────────────────────────────►
         └─► build ──► visual-home ──────────────────────────►
@@ -83,6 +84,7 @@ install ──► typecheck ─────────────────�
                   └─► visual-profile ──────────────────►
 ```
 
+- `changes` (via `dorny/paths-filter`) detects whether a PR touches functional app code (`src/**`, minus pure content in `src/data/vocab/**` and `src/data/units/**`) vs. content-only. `unit-tests` is skipped — not failed — on content-only PRs; `build` treats a skipped `unit-tests` the same as success so the visual chain isn't blocked.
 - `node_modules` cached by `package-lock.json` hash (`node-modules-*` cache key)
 - Playwright Chromium binary cached by `package-lock.json` hash (`playwright-*` cache key); visual jobs only run `playwright install-deps chromium` (OS libs, ~5s) on a warm cache
 - `dist/` shared as an artifact from `build` to all visual jobs
