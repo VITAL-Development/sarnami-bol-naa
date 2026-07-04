@@ -5,8 +5,11 @@ Sarnami Bol Naa frontend and any backend implementation. It exists so
 frontend PRs (`src/services/content/HttpContentRepository.ts`,
 `src/services/progress/HttpProgressRepository.ts`, a future
 `HttpSettingsRepository` / `HttpUiStringsRepository`) and backend PRs
-(`server/server.mjs` and successors) can be built independently against the
-same shape.
+(`server.mjs` and successors, now in the separate
+[`rarelang-server`](https://github.com/VITAL-Development/rarelang-server)
+repo — see issue #52) can be built independently against the same shape.
+References to `server/...` paths below describe that repo's layout, not a
+directory in this one.
 
 Status: **contract only** — no code changes are made by this document. See
 issue #26. A related issue (#27) is generalizing the frontend's hardcoded
