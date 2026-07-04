@@ -10,7 +10,6 @@ import { MemoryRouter } from "react-router-dom";
 import { LanguageSettingsProvider } from "@/state/LanguageSettingsContext";
 import { Button } from "@/components/ui/Button";
 import { AppShell } from "@/components/layout/AppShell";
-import { LanguageSettingsProvider } from "@/state/LanguageSettingsContext";
 import { SkillNode } from "@/components/path/SkillNode";
 import { MultipleChoice } from "@/components/exercises/MultipleChoice";
 import { WordBank } from "@/components/exercises/WordBank";
