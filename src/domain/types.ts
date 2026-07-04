@@ -9,6 +9,11 @@ export type UiLanguageCode = "nl" | "en";
 // content, but that isn't enforced by the type itself.
 export type Translations = Partial<Record<UiLanguageCode, string>>;
 
+// The language whose vocabulary/grammar is being taught. Distinct from
+// `UiLanguageCode`, which is the language the interface/translations are
+// shown in (see issue #28).
+export type LearningLanguageCode = "sarnami" | "sranantongo";
+
 export interface VocabItem {
   id: string;
   sarnami: string;
