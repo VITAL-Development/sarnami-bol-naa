@@ -14,7 +14,7 @@ export function HomePath() {
     return <p className="text-center text-stone-400">Laden...</p>;
   }
 
-  const unit = bundle.units[0];
+  const allLessons = bundle.units.flatMap((unit) => unit.lessons);
 
   return (
     <div>
@@ -24,25 +24,30 @@ export function HomePath() {
         <HeartsBar hearts={progress.hearts.current} maxHearts={progress.hearts.max} />
       </div>
       <h2 className="mb-4 text-xl font-bold text-stone-800">{t("path.title")}</h2>
-      <p className="mb-4 text-sm text-stone-500">{unit.title}</p>
-      <div className="flex flex-col gap-3">
-        {unit.lessons.map((lesson, index) => {
-          const previousLesson = unit.lessons[index - 1];
-          const locked = index > 0 && !progress.completedLessons[previousLesson.id];
-          const completedEntry = progress.completedLessons[lesson.id];
-          return (
-            <SkillNode
-              key={lesson.id}
-              title={lesson.title}
-              order={index + 1}
-              locked={locked}
-              completed={Boolean(completedEntry)}
-              stars={completedEntry?.stars}
-              lessonId={lesson.id}
-            />
-          );
-        })}
-      </div>
+      {bundle.units.map((unit) => (
+        <div key={unit.id} className="mb-6">
+          <p className="mb-4 text-sm text-stone-500">{unit.title}</p>
+          <div className="flex flex-col gap-3">
+            {unit.lessons.map((lesson) => {
+              const globalIndex = allLessons.findIndex((l) => l.id === lesson.id);
+              const previousLesson = allLessons[globalIndex - 1];
+              const locked = globalIndex > 0 && !progress.completedLessons[previousLesson.id];
+              const completedEntry = progress.completedLessons[lesson.id];
+              return (
+                <SkillNode
+                  key={lesson.id}
+                  title={lesson.title}
+                  order={lesson.order}
+                  locked={locked}
+                  completed={Boolean(completedEntry)}
+                  stars={completedEntry?.stars}
+                  lessonId={lesson.id}
+                />
+              );
+            })}
+          </div>
+        </div>
+      ))}
     </div>
   );
 }
