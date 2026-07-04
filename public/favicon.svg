@@ -1,4 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <circle cx="32" cy="32" r="30" fill="#b45309" />
-  <text x="32" y="42" font-size="28" font-family="sans-serif" font-weight="700" fill="#fdf6ec" text-anchor="middle">S</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 512 512">
+      <rect x="0" y="0" width="512" height="512" rx="0" fill="#377E3F" />
+      
+    <g transform="translate(256 256) scale(1) translate(-256 -256)">
+      <!-- macron (the "ā" accent mark) -->
+      <rect x="176" y="88" width="140" height="34" rx="17" fill="#ECC81D" />
+      <!-- bowl: closed ring -->
+      <circle cx="234" cy="298" r="88" fill="none" stroke="#fdf6ec" stroke-width="46" />
+      <!-- stem: flush with the bowl's top (no ascender) so it reads as a
+           single-story "a", not a "d" -->
+      <rect x="270" y="192" width="46" height="154" rx="23" fill="#fdf6ec" />
+      <!-- accent dot: third flag color, echoes a spoken-word / chat dot -->
+      <circle cx="352" cy="366" r="20" fill="#B40A2D" />
+    </g>
+  
+    </svg>
