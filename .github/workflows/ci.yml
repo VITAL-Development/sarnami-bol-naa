@@ -22,17 +22,29 @@ jobs:
     name: Detect changed files
     runs-on: ubuntu-latest
     outputs:
-      app: ${{ steps.filter.outputs.app }}
+      app: ${{ steps.filter-src.outputs.app == 'true' || steps.filter-config.outputs.app == 'true' }}
     steps:
       - uses: actions/checkout@v4
+      # Two separate filter steps because the negated (!...) exclusions below
+      # need predicate-quantifier: every (a file must match src/** AND not
+      # match either excluded dir) — mixing that with the unrelated root
+      # config patterns in one 'every' rule would mean no single file could
+      # ever satisfy all of them at once, so root config changes must live in
+      # their own default ('some' = OR) filter instead.
       - uses: dorny/paths-filter@v3
-        id: filter
+        id: filter-src
         with:
+          predicate-quantifier: every
           filters: |
             app:
               - 'src/**'
               - '!src/data/vocab/**'
               - '!src/data/units/**'
+      - uses: dorny/paths-filter@v3
+        id: filter-config
+        with:
+          filters: |
+            app:
               - 'package.json'
               - 'package-lock.json'
               - 'vite.config.ts'
