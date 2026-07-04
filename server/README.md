@@ -44,11 +44,17 @@ ownership hasn't fully moved into `/server` yet (that's tracked by issues
   bundle is built once at server startup and cached in memory.
 - **`GET /content?lang=sranantongo`** is a stub: `{ units: [], vocab: [] }`,
   matching the contract's "stub" status for that learning language.
-- **`GET /languages`, `GET /settings`, `GET /ui-strings`** are stubbed with
-  placeholder data in `stub-data.mjs` (`sarnami` settings are the real
-  romanization/alphabet data from the contract doc; `sranantongo` settings
-  and the `en` UI-strings table are minimal placeholders, since the frontend
-  has no `strings.en.ts` yet).
+- **`GET /languages`** returns a small inline discovery list (`stub-data.mjs`)
+  of learning/UI language codes, display names, and status.
+- **`GET /settings`** and **`GET /ui-strings`** are real (issue #32):
+  `stub-data.mjs` reads JSON files from `./settings` at startup —
+  `settings/{lang}/language-settings.json` per learning language and
+  `settings/ui/{lang}/strings.json` per UI language — rather than serving
+  inline placeholder objects. `sranantongo`'s `language-settings.json` is
+  still a deliberate stub (empty diacritics/alphabet, per the contract's
+  "stub language" note), and `en` is a genuine English translation of the
+  `nl` string table (`src/i18n/strings.nl.ts`'s source of truth), not a
+  placeholder.
 - **Progress (`/progress`, `/progress/lesson-completion`,
   `/progress/review-result`)** is held in memory for the process's lifetime,
   single-user, no persistence — matching the contract's documented
@@ -67,7 +73,9 @@ directly here.
 | `server.mjs` | HTTP server (routing, CORS, request/response handling) |
 | `build-content.mjs` | esbuild bundler that loads `content-entry.ts` into an importable module |
 | `content-entry.ts` | Re-exports frontend content + gamification/Leitner/badge functions |
-| `stub-data.mjs` | Placeholder data for `/languages`, `/settings`, `/ui-strings` |
+| `stub-data.mjs` | Inline `/languages` discovery list, plus loaders that read `/settings` and `/ui-strings` data from `./settings/**` |
+| `settings/{lang}/language-settings.json` | Per-learning-language romanization/alphabet/audio settings (`GET /settings`) |
+| `settings/ui/{lang}/strings.json` | Per-UI-language string table (`GET /ui-strings`) |
 
 ## CORS
 

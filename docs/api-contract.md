@@ -196,8 +196,13 @@ are renamed to be translation-map-based for consistency with #27:
 ## `GET /settings?lang={learningLanguage}`
 
 Language-specific settings for a learning language: romanization/diacritic
-rules, alphabet, and audio configuration. This is metadata *about* the
-language, distinct from the lesson/vocab content itself.
+rules, alphabet, script direction, and audio configuration. This is metadata
+*about* the language, distinct from the lesson/vocab content itself.
+
+On disk, each learning language's settings are authored as their own file:
+`server/settings/{learningLanguage}/language-settings.json` (e.g.
+`server/settings/sarnami/language-settings.json`). The server reads these at
+startup and serves them verbatim from `GET /settings`.
 
 **Request:** `?lang=sarnami` (required). Example: `GET /settings?lang=sarnami`
 
@@ -207,6 +212,7 @@ language, distinct from the lesson/vocab content itself.
 {
   "code": "sarnami",
   "displayName": "Sarnami Hindoestani",
+  "scriptDirection": "ltr",
   "romanization": {
     "scheme": "IAST-derived",
     "diacritics": [
@@ -236,6 +242,11 @@ language, distinct from the lesson/vocab content itself.
 For a stub language (`sranantongo`), the same shape is returned with
 placeholder/minimal values (e.g. empty `diacritics` array) rather than a 404
 — the language is "registered" per `GET /languages`, just not content-complete.
+`scriptDirection` is still populated (`"ltr"`) even for a stub, since script
+direction is a known fact about the language regardless of content
+completeness; Sranan Tongo's `romanization.notes` explicitly calls out that
+it does **not** use Sarnami's macron/underdot diacritics — it's written in
+plain Dutch-derived Latin orthography, per the grammar docs.
 
 **Errors:**
 - `404 { "error": "Unknown learning language: <code>" }` if `lang` isn't a
@@ -253,6 +264,12 @@ rebuild. The nested shape mirrors the existing `strings.nl.ts` object
 structure exactly (`nav.*`, `path.*`, `lesson.*`, `review.*`, `profile.*`)
 so the dot-path lookup in `t.ts` (`DotPaths<Strings>`) continues to work
 unchanged against the fetched object.
+
+On disk, each UI language's string table is authored as its own file:
+`server/settings/ui/{uiLanguage}/strings.json` (e.g.
+`server/settings/ui/nl/strings.json`, `server/settings/ui/en/strings.json`).
+The server reads these at startup and serves them verbatim from
+`GET /ui-strings`.
 
 **Request:** `?lang=nl` (required). Example: `GET /ui-strings?lang=nl`
 
