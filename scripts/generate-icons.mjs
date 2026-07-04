@@ -25,24 +25,28 @@ const COLORS = {
 };
 
 /**
- * Builds the "ā" glyph (bowl + stem + macron + accent dot) as a group of
- * primitives, centered on (256, 256) in a 512-unit design grid, then
- * scaled/translated by `scale` around the center. scale=1 gives a bold,
- * full-bleed treatment (used for icon-192 / icon-512 / favicon); a smaller
- * scale keeps everything inside the ~80% maskable safe-zone circle.
+ * Builds the "ā" glyph (bowl + stem + macron) as a group of primitives,
+ * centered on (256, 256) in a 512-unit design grid, then scaled/translated
+ * by `scale` around the center. scale=1 gives a bold, full-bleed treatment
+ * (used for icon-192 / icon-512 / favicon); a smaller scale keeps everything
+ * inside the ~80% maskable safe-zone circle.
  */
 function glyphGroup(scale) {
   return `
     <g transform="translate(256 256) scale(${scale}) translate(-256 -256)">
-      <!-- macron (the "ā" accent mark) -->
-      <rect x="176" y="88" width="140" height="34" rx="17" fill="${COLORS.gold}" />
       <!-- bowl: closed ring -->
       <circle cx="234" cy="298" r="88" fill="none" stroke="${COLORS.cream}" stroke-width="46" />
-      <!-- stem: flush with the bowl's top (no ascender) so it reads as a
-           single-story "a", not a "d" -->
-      <rect x="270" y="192" width="46" height="154" rx="23" fill="${COLORS.cream}" />
-      <!-- accent dot: third flag color, echoes a spoken-word / chat dot -->
-      <circle cx="352" cy="366" r="20" fill="${COLORS.flame}" />
+      <!-- stem: a pill whose bottom cap is a circle centered exactly on the
+           ring's centerline at the tangent point (322, 298) with a radius
+           (22) chosen so that whole cap circle sits inside the ring's band
+           (65-111 from center) — a circle fully nested in the band merges
+           with no seam, unlike a straight-edged rect. The pill's top stays
+           below the ring's own topmost point (187) so it reads as a short
+           single-story "a" stem, not a "d" ascender. -->
+      <rect x="300" y="210" width="44" height="110" rx="22" fill="${COLORS.cream}" />
+      <!-- macron (the "ā" accent mark), floating above the bowl the way a
+           macron sits above any vowel -->
+      <rect x="167" y="126" width="150" height="34" rx="17" fill="${COLORS.gold}" />
     </g>
   `;
 }
@@ -68,9 +72,9 @@ async function main() {
   const icon512 = iconSvg({ size: 512, scale: 1, rounded: false });
 
   // icon-maskable-512: background must fill the entire canvas edge-to-edge,
-  // but the glyph is scaled down (~0.85x) so its farthest point (the macron
-  // corner, radius ~186 at scale 1) stays comfortably inside the 80% safe
-  // zone circle (radius 204.8 of a 512 canvas) after OS masks crop the art.
+  // but the glyph is scaled down (~0.85x) so its farthest point (the bowl's
+  // outer edge, radius ~158 at scale 1) stays comfortably inside the 80%
+  // safe zone circle (radius 204.8 of a 512 canvas) after OS masks crop the art.
   const iconMaskable512 = iconSvg({ size: 512, scale: 0.85, rounded: false });
 
   const targets = [

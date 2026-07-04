@@ -2,15 +2,19 @@
       <rect x="0" y="0" width="512" height="512" rx="0" fill="#377E3F" />
       
     <g transform="translate(256 256) scale(1) translate(-256 -256)">
-      <!-- macron (the "ā" accent mark) -->
-      <rect x="176" y="88" width="140" height="34" rx="17" fill="#ECC81D" />
       <!-- bowl: closed ring -->
       <circle cx="234" cy="298" r="88" fill="none" stroke="#fdf6ec" stroke-width="46" />
-      <!-- stem: flush with the bowl's top (no ascender) so it reads as a
-           single-story "a", not a "d" -->
-      <rect x="270" y="192" width="46" height="154" rx="23" fill="#fdf6ec" />
-      <!-- accent dot: third flag color, echoes a spoken-word / chat dot -->
-      <circle cx="352" cy="366" r="20" fill="#B40A2D" />
+      <!-- stem: a pill whose bottom cap is a circle centered exactly on the
+           ring's centerline at the tangent point (322, 298) with a radius
+           (22) chosen so that whole cap circle sits inside the ring's band
+           (65-111 from center) — a circle fully nested in the band merges
+           with no seam, unlike a straight-edged rect. The pill's top stays
+           below the ring's own topmost point (187) so it reads as a short
+           single-story "a" stem, not a "d" ascender. -->
+      <rect x="300" y="210" width="44" height="110" rx="22" fill="#fdf6ec" />
+      <!-- macron (the "ā" accent mark), floating above the bowl the way a
+           macron sits above any vowel -->
+      <rect x="167" y="126" width="150" height="34" rx="17" fill="#ECC81D" />
     </g>
   
     </svg>
