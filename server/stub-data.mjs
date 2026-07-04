@@ -11,8 +11,11 @@
 //     `server/settings/{code}/language-settings.json` (loaded below) rather
 //     than being duplicated here. `status` is `"available"` if the language
 //     has authored unit/lesson structure (`content/<code>/units/*.json`),
-//     `"stub"` otherwise (e.g. `sranantongo`, which only has stub vocab so
-//     far).
+//     `"stub"` otherwise — every learning language currently registered
+//     under `content/` has real unit/lesson structure (`sranantongo` gained
+//     its first real unit in issue #37), but a future learning language
+//     added with vocab only, ahead of its lessons, would show up here as
+//     `"stub"`.
 //   - UI languages: directory names under `server/settings/ui/*`.
 //     `displayName` has no other on-disk source (the string tables
 //     themselves don't carry one), so it's a small manifest here.

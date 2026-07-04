@@ -110,11 +110,13 @@ and `server/settings/**` (issue #32) held real, on-disk copies of everything
   `ContentBundle` (units, vocab, lesson-adjacent content) by reading
   `server/content/<code>/{vocab,units,lessons}/*.json` at request time. For
   `sarnami` this was verified equivalent to the old `../src/data`-bundled
-  output (see PR description for issue #33 for how). `sranantongo` has no
-  `units/` or `lessons/` directory yet, so its bundle resolves to
-  `{ units: [], vocab: <stub vocab>, lessonContent: <empty> }` — a real
-  bundle, not a hardcoded special case, matching the "stub" status from
-  `GET /languages`.
+  output (see PR description for issue #33 for how). A learning language
+  with no `units/`/`lessons/` directory resolves to `{ units: [], vocab:
+  <its vocab>, lessonContent: <empty> }` — a real bundle, not a hardcoded
+  special case, matching the "stub" status from `GET /languages`.
+  `sranantongo` was this shape until issue #37 added its first real
+  greetings unit as an end-to-end smoke test of the whole language-split
+  architecture; it now reports `"available"` too.
 - **`GET /languages`** (`stub-data.mjs`) derives its `learningLanguages` list
   from the `server/content/*` directory listing (`displayName` comes from
   that language's own `server/settings/{code}/language-settings.json`;
@@ -145,7 +147,8 @@ and `server/settings/**` (issue #32) held real, on-disk copies of everything
   including each lesson's exercises with their `kind` + `contentRef`/
   `vocabRef`/`promptVocabRef`/`direction` structure). Assembled units are
   sorted by their `order` field, not filename. A learning language with no
-  `units/` directory is a stub (currently `sranantongo`).
+  `units/` directory is a stub — none currently are; `sranantongo` gained
+  its first real unit in issue #37.
 - `server/content/<learningLanguage>/lessons/<unitId>.json` — authored
   lesson-adjacent content (issue #31): an array of
   `{ lessonId, exampleSentences, grammarNotes, exercises }`, where

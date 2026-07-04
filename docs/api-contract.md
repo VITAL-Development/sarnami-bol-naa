@@ -24,7 +24,7 @@ The app has two independent language axes:
   | Code | Display name | Status |
   |---|---|---|
   | `sarnami` | Sarnami Hindoestani | fully implemented |
-  | `sranantongo` | Sranan Tongo | stub — route exists, content bundle may be minimal/empty |
+  | `sranantongo` | Sranan Tongo | minimal real content (one greetings unit, issue #37) — proves the language-split architecture works for a second language, not a full curriculum |
 
 - **UI language** — the language of interface chrome (buttons, labels, nav).
   Query parameter: `lang`. Valid values:
@@ -81,7 +81,7 @@ never has to hardcode the axis lists from the "Language axes" section above.
 {
   "learningLanguages": [
     { "code": "sarnami", "displayName": "Sarnami Hindoestani", "status": "available" },
-    { "code": "sranantongo", "displayName": "Sranan Tongo", "status": "stub" }
+    { "code": "sranantongo", "displayName": "Sranan Tongo", "status": "available" }
   ],
   "uiLanguages": [
     { "code": "nl", "displayName": "Nederlands" },
@@ -90,8 +90,10 @@ never has to hardcode the axis lists from the "Language axes" section above.
 }
 ```
 
-`status` on a learning language is `"available"` (has real content) or
-`"stub"` (route resolves but content bundle is minimal/placeholder). This
+`status` on a learning language is `"available"` (has real unit/lesson
+content — both `sarnami` and, since issue #37, `sranantongo` qualify) or
+`"stub"` (route resolves but content bundle is minimal/placeholder, e.g. a
+learning language registered with vocab only, ahead of its lessons). This
 lets the frontend grey out or badge not-yet-real languages in a language
 picker without a separate capability check.
 
@@ -269,14 +271,18 @@ startup and serves them verbatim from `GET /settings`.
 }
 ```
 
-For a stub language (`sranantongo`), the same shape is returned with
-placeholder/minimal values (e.g. empty `diacritics` array) rather than a 404
-— the language is "registered" per `GET /languages`, just not content-complete.
-`scriptDirection` is still populated (`"ltr"`) even for a stub, since script
-direction is a known fact about the language regardless of content
-completeness; Sranan Tongo's `romanization.notes` explicitly calls out that
-it does **not** use Sarnami's macron/underdot diacritics — it's written in
-plain Dutch-derived Latin orthography, per the grammar docs.
+For a stub language (a hypothetical future one with settings but no
+lessons yet), the same shape would be returned with placeholder/minimal
+values rather than a 404 — the language is "registered" per `GET
+/languages`, just not content-complete. Sranan Tongo (`sranantongo`) is not
+a stub in this sense despite having its own row above — its
+`romanization.diacritics` is a genuinely empty array (a confirmed fact, not
+a placeholder): it does **not** use Sarnami's macron/underdot diacritics,
+being written in plain Dutch-derived Latin orthography, per the grammar
+docs (`docs/byakaran/00-introduction.md`, `docs/byakaran/09-loan-words-and-neologisms.md`).
+`scriptDirection` is still populated (`"ltr"`) regardless, since script
+direction is a known fact about the language independent of content
+completeness.
 
 **Errors:**
 - `404 { "error": "Unknown learning language: <code>" }` if `lang` isn't a

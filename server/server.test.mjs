@@ -34,8 +34,11 @@ test("GET /languages returns learning and UI language lists", async () => {
   const sarnami = body.learningLanguages.find((l) => l.code === "sarnami");
   assert.deepStrictEqual(sarnami, { code: "sarnami", displayName: "Sarnami Hindoestani", status: "available" });
 
+  // Sranantongo gained real unit/lesson structure in issue #37 (the
+  // language-split architecture's end-to-end smoke test), so it now reports
+  // "available" just like sarnami, rather than "stub".
   const sranantongo = body.learningLanguages.find((l) => l.code === "sranantongo");
-  assert.equal(sranantongo.status, "stub");
+  assert.deepStrictEqual(sranantongo, { code: "sranantongo", displayName: "Sranan Tongo", status: "available" });
 
   const nl = body.uiLanguages.find((l) => l.code === "nl");
   assert.deepStrictEqual(nl, { code: "nl", displayName: "Nederlands" });
@@ -57,12 +60,20 @@ test("GET /content?lang=sarnami returns the real content bundle", async () => {
   assert.ok(vocabItem, "a Rām Rām vocab entry should be present");
 });
 
-test("GET /content?lang=sranantongo returns a stub bundle", async () => {
+test("GET /content?lang=sranantongo returns a real bundle (issue #37)", async () => {
   const { status, body } = await get("/content?lang=sranantongo");
   assert.equal(status, 200);
-  assert.deepStrictEqual(body.units, []);
-  assert.ok(body.vocab.length > 0, "stub vocab should still be present");
-  assert.deepStrictEqual(body.lessonContent, { exampleSentences: [], grammarNotes: [], exerciseContent: {} });
+  assert.ok(body.units.length > 0, "expected non-empty units");
+  assert.ok(body.vocab.length > 0, "expected non-empty vocab");
+  assert.ok(Object.keys(body.lessonContent.exerciseContent).length > 0, "expected exercise content");
+
+  const unit = body.units.find((u) => u.id === "unit-01-srn-greetings");
+  assert.ok(unit, "unit-01-srn-greetings should be present");
+  const lesson = unit.lessons.find((l) => l.id === "lesson-1-srn-greetings");
+  assert.ok(lesson, "lesson-1-srn-greetings should be present");
+
+  const vocabItem = body.vocab.find((v) => v.id === "srn-greet-odi");
+  assert.ok(vocabItem, "the Odi vocab entry should be present");
 });
 
 test("GET /content?lang=bogus returns 404", async () => {
@@ -85,10 +96,13 @@ test("GET /settings?lang=sarnami returns real settings", async () => {
   assert.ok(body.romanization.diacritics.length > 0);
 });
 
-test("GET /settings?lang=sranantongo returns stub settings, not 404", async () => {
+test("GET /settings?lang=sranantongo returns real settings with no diacritics", async () => {
   const { status, body } = await get("/settings?lang=sranantongo");
   assert.equal(status, 200);
   assert.equal(body.code, "sranantongo");
+  // Sranan Tongo genuinely has no macron/underdot diacritics (plain
+  // Dutch-derived Latin orthography) — an empty list here is a confirmed
+  // fact about the language, not a stub awaiting authoring (issue #37).
   assert.deepStrictEqual(body.romanization.diacritics, []);
 });
 
