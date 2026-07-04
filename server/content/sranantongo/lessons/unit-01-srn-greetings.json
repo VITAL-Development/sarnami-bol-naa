@@ -4,13 +4,13 @@
     "exampleSentences": [
       {
         "id": "srn-ex-1-1",
-        "sarnami": "Odi! Fa waka?",
+        "word": "Odi! Fa waka?",
         "translations": { "nl": "Hallo! Hoe gaat het?" },
         "vocabRefs": ["srn-greet-odi", "srn-greet-fa-waka"]
       },
       {
         "id": "srn-ex-1-2",
-        "sarnami": "Mi bun, gran tangi.",
+        "word": "Mi bun, gran tangi.",
         "translations": { "nl": "Het gaat goed, hartelijk dank." },
         "vocabRefs": ["srn-greet-mi-bun", "srn-greet-grantangi"]
       }
@@ -26,7 +26,7 @@
       "srn-l1-e4": {
         "kind": "word-bank",
         "promptTranslations": { "nl": "Hoe gaat het met jou?" },
-        "correctSarnamiTokens": ["Fa", "yu", "tan?"],
+        "correctTargetTokens": ["Fa", "yu", "tan?"],
         "distractorTokens": ["Gran", "tangi"]
       },
       "srn-l1-e5": {

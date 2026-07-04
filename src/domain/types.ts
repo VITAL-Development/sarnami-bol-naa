@@ -23,7 +23,7 @@ export type LearningLanguageCode = (typeof LEARNING_LANGUAGE_CODES)[number];
 
 export interface VocabItem {
   id: string;
-  sarnami: string;
+  word: string;
   translations: Translations;
   audioUrl?: string;
   tags?: string[];
@@ -32,7 +32,7 @@ export interface VocabItem {
 
 export interface ExampleSentence {
   id: string;
-  sarnami: string;
+  word: string;
   translations: Translations;
   vocabRefs: string[];
 }
@@ -75,7 +75,7 @@ export interface MatchingExercise extends ExerciseBase {
 export interface FlashcardExercise extends ExerciseBase {
   kind: "flashcard";
   vocabRef: string;
-  direction: "sarnami-to-dutch" | "dutch-to-sarnami";
+  direction: "target-to-native" | "native-to-target";
 }
 
 export type LessonExercise =
@@ -96,7 +96,7 @@ export interface MultipleChoiceContent {
 
 export interface WordBankContent {
   promptTranslations: Translations;
-  correctSarnamiTokens: string[];
+  correctTargetTokens: string[];
   distractorTokens?: string[];
 }
 

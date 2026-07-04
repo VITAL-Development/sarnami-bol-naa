@@ -1,7 +1,7 @@
 [
   {
     "id": "greet-ram-ram",
-    "sarnami": "Rām Rām",
+    "word": "Rām Rām",
     "translations": {
       "nl": "hallo / gegroet"
     },
@@ -13,7 +13,7 @@
   },
   {
     "id": "greet-pranam",
-    "sarnami": "Pranām",
+    "word": "Pranām",
     "translations": {
       "nl": "eerbiedige groet (tegen ouderen)"
     },
@@ -25,7 +25,7 @@
   },
   {
     "id": "greet-kaise-hai",
-    "sarnami": "Kaise hai?",
+    "word": "Kaise hai?",
     "translations": {
       "nl": "Hoe gaat het?"
     },
@@ -37,7 +37,7 @@
   },
   {
     "id": "greet-moi-jahe",
-    "sarnami": "Moi jā hai",
+    "word": "Moi jā hai",
     "translations": {
       "nl": "Het gaat goed"
     },
@@ -50,7 +50,7 @@
   },
   {
     "id": "greet-dhanyavad",
-    "sarnami": "Dhanbād",
+    "word": "Dhanbād",
     "translations": {
       "nl": "bedankt / dank u"
     },
@@ -62,7 +62,7 @@
   },
   {
     "id": "greet-ja",
-    "sarnami": "hāṁ",
+    "word": "hāṁ",
     "translations": {
       "nl": "ja"
     },
@@ -75,7 +75,7 @@
   },
   {
     "id": "greet-nee",
-    "sarnami": "nā",
+    "word": "nā",
     "translations": {
       "nl": "nee"
     },

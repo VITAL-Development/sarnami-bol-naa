@@ -1,7 +1,7 @@
 [
   {
     "id": "struct-en",
-    "sarnami": "aur",
+    "word": "aur",
     "translations": {
       "nl": "en"
     },
@@ -14,7 +14,7 @@
   },
   {
     "id": "struct-maar",
-    "sarnami": "baki",
+    "word": "baki",
     "translations": {
       "nl": "maar"
     },
@@ -27,7 +27,7 @@
   },
   {
     "id": "struct-of",
-    "sarnami": "yā",
+    "word": "yā",
     "translations": {
       "nl": "of"
     },
@@ -40,7 +40,7 @@
   },
   {
     "id": "struct-dat",
-    "sarnami": "ki",
+    "word": "ki",
     "translations": {
       "nl": "dat (voegwoord)"
     },
@@ -53,7 +53,7 @@
   },
   {
     "id": "struct-als",
-    "sarnami": "jo",
+    "word": "jo",
     "translations": {
       "nl": "als, indien"
     },
@@ -66,7 +66,7 @@
   },
   {
     "id": "struct-dan",
-    "sarnami": "tab",
+    "word": "tab",
     "translations": {
       "nl": "dan (gevolg)"
     },
@@ -79,7 +79,7 @@
   },
   {
     "id": "struct-omdat",
-    "sarnami": "kāhe se",
+    "word": "kāhe se",
     "translations": {
       "nl": "omdat, want"
     },
@@ -92,7 +92,7 @@
   },
   {
     "id": "struct-anders",
-    "sarnami": "nahīm to",
+    "word": "nahīm to",
     "translations": {
       "nl": "anders"
     },
@@ -104,7 +104,7 @@
   },
   {
     "id": "struct-sinds",
-    "sarnami": "jab se",
+    "word": "jab se",
     "translations": {
       "nl": "sinds, sedert"
     },
@@ -116,7 +116,7 @@
   },
   {
     "id": "struct-toch",
-    "sarnami": "tabbo",
+    "word": "tabbo",
     "translations": {
       "nl": "toch"
     },
@@ -128,7 +128,7 @@
   },
   {
     "id": "struct-altijd",
-    "sarnami": "hardam",
+    "word": "hardam",
     "translations": {
       "nl": "altijd"
     },
@@ -141,7 +141,7 @@
   },
   {
     "id": "struct-nooit",
-    "sarnami": "kabhī nā",
+    "word": "kabhī nā",
     "translations": {
       "nl": "nooit"
     },
@@ -153,7 +153,7 @@
   },
   {
     "id": "struct-weer",
-    "sarnami": "phir",
+    "word": "phir",
     "translations": {
       "nl": "weer, opnieuw"
     },
@@ -166,7 +166,7 @@
   },
   {
     "id": "struct-eerst",
-    "sarnami": "pahile",
+    "word": "pahile",
     "translations": {
       "nl": "eerst"
     },
@@ -178,7 +178,7 @@
   },
   {
     "id": "struct-dichtbij",
-    "sarnami": "nagicce",
+    "word": "nagicce",
     "translations": {
       "nl": "dichtbij"
     },
@@ -190,7 +190,7 @@
   },
   {
     "id": "struct-ver",
-    "sarnami": "dūr",
+    "word": "dūr",
     "translations": {
       "nl": "ver"
     },
@@ -202,7 +202,7 @@
   },
   {
     "id": "struct-ongeveer",
-    "sarnami": "lagbhag",
+    "word": "lagbhag",
     "translations": {
       "nl": "ongeveer"
     },
@@ -214,7 +214,7 @@
   },
   {
     "id": "struct-misschien",
-    "sarnami": "sait",
+    "word": "sait",
     "translations": {
       "nl": "misschien"
     },
@@ -227,7 +227,7 @@
   },
   {
     "id": "struct-in",
-    "sarnami": "mem",
+    "word": "mem",
     "translations": {
       "nl": "in"
     },
@@ -240,7 +240,7 @@
   },
   {
     "id": "struct-op",
-    "sarnami": "par",
+    "word": "par",
     "translations": {
       "nl": "op"
     },
@@ -253,7 +253,7 @@
   },
   {
     "id": "struct-van-aan",
-    "sarnami": "ke",
+    "word": "ke",
     "translations": {
       "nl": "van, aan"
     },
@@ -266,7 +266,7 @@
   },
   {
     "id": "struct-zonder",
-    "sarnami": "ke binā",
+    "word": "ke binā",
     "translations": {
       "nl": "zonder"
     },

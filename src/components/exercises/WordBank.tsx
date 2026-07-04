@@ -18,14 +18,14 @@ export function WordBank({ exercise, contentById, onAnswer }: ExerciseComponentP
   useUiStrings(); // subscribes this component to UI-language changes; see t.ts
   const content = contentById.get(exercise.contentRef) as WordBankContent | undefined;
   const bank = useMemo(
-    () => (content ? shuffle([...content.correctSarnamiTokens, ...(content.distractorTokens ?? [])]) : []),
+    () => (content ? shuffle([...content.correctTargetTokens, ...(content.distractorTokens ?? [])]) : []),
     [content],
   );
   const [usedIndices, setUsedIndices] = useState<number[]>([]);
   const [checked, setChecked] = useState(false);
 
   const selectedTokens = usedIndices.map((i) => bank[i]);
-  const isCorrect = content !== undefined && selectedTokens.join(" ") === content.correctSarnamiTokens.join(" ");
+  const isCorrect = content !== undefined && selectedTokens.join(" ") === content.correctTargetTokens.join(" ");
 
   function toggleToken(index: number) {
     if (checked) return;
@@ -93,7 +93,7 @@ export function WordBank({ exercise, contentById, onAnswer }: ExerciseComponentP
         <p className={`mt-3 font-medium ${isCorrect ? "text-green-600" : "text-red-600"}`}>
           {isCorrect
             ? t("lesson.correct")
-            : `${t("lesson.incorrect")} (${content.correctSarnamiTokens.join(" ")})`}
+            : `${t("lesson.incorrect")} (${content.correctTargetTokens.join(" ")})`}
         </p>
       )}
     </Card>

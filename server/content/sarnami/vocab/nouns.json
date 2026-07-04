@@ -1,7 +1,7 @@
 [
   {
     "id": "noun-ghar",
-    "sarnami": "ghar",
+    "word": "ghar",
     "translations": {
       "nl": "huis"
     },
@@ -12,7 +12,7 @@
   },
   {
     "id": "noun-ghari",
-    "sarnami": "ghaṛī",
+    "word": "ghaṛī",
     "translations": {
       "nl": "klok"
     },
@@ -23,7 +23,7 @@
   },
   {
     "id": "noun-maibap",
-    "sarnami": "māī-bāp",
+    "word": "māī-bāp",
     "translations": {
       "nl": "ouders"
     },
@@ -35,7 +35,7 @@
   },
   {
     "id": "noun-bhai",
-    "sarnami": "bhāī",
+    "word": "bhāī",
     "translations": {
       "nl": "broer"
     },
@@ -47,7 +47,7 @@
   },
   {
     "id": "noun-bahin",
-    "sarnami": "bahin",
+    "word": "bahin",
     "translations": {
       "nl": "zus"
     },
@@ -58,7 +58,7 @@
   },
   {
     "id": "noun-maiya",
-    "sarnami": "maiyā",
+    "word": "maiyā",
     "translations": {
       "nl": "moeder"
     },
@@ -69,7 +69,7 @@
   },
   {
     "id": "noun-bappa",
-    "sarnami": "bappā",
+    "word": "bappā",
     "translations": {
       "nl": "vader"
     },
@@ -80,7 +80,7 @@
   },
   {
     "id": "noun-beti",
-    "sarnami": "beṭī",
+    "word": "beṭī",
     "translations": {
       "nl": "dochter"
     },
@@ -91,7 +91,7 @@
   },
   {
     "id": "noun-citthi",
-    "sarnami": "ciṭṭhi",
+    "word": "ciṭṭhi",
     "translations": {
       "nl": "brief"
     },

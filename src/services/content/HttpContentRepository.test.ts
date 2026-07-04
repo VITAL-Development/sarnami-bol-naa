@@ -29,7 +29,7 @@ const mockBundle: ContentBundle = {
   vocab: [
     {
       id: "v01",
-      sarnami: "naan",
+      word: "naan",
       translations: { nl: "nee" },
     },
   ],

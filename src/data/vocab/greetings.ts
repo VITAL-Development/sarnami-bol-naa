@@ -19,7 +19,7 @@ import type { VocabItem } from "@/domain/types";
 export const greetingsVocab: VocabItem[] = [
   {
     id: "greet-ram-ram",
-    sarnami: "Rām Rām",
+    word: "Rām Rām",
     translations: { nl: "hallo / gegroet" },
     tags: ["greeting", "native-speaker"],
     notes:
@@ -27,7 +27,7 @@ export const greetingsVocab: VocabItem[] = [
   },
   {
     id: "greet-pranam",
-    sarnami: "Pranām",
+    word: "Pranām",
     translations: { nl: "eerbiedige groet (tegen ouderen)" },
     tags: ["greeting", "native-speaker"],
     notes:
@@ -35,14 +35,14 @@ export const greetingsVocab: VocabItem[] = [
   },
   {
     id: "greet-kaise-hai",
-    sarnami: "Kaise hai?",
+    word: "Kaise hai?",
     translations: { nl: "Hoe gaat het?" },
     tags: ["greeting", "baatsiekh"],
     notes: "Bevestigd door baatsiekh.nl's Uitspraken-soundboard: 'hoe gaat het?' -> kaise.",
   },
   {
     id: "greet-moi-jahe",
-    sarnami: "Moi jā hai",
+    word: "Moi jā hai",
     translations: { nl: "Het gaat goed" },
     tags: ["greeting", "baatsiekh", "book"],
     notes:
@@ -50,7 +50,7 @@ export const greetingsVocab: VocabItem[] = [
   },
   {
     id: "greet-dhanyavad",
-    sarnami: "Dhanbād",
+    word: "Dhanbād",
     translations: { nl: "bedankt / dank u" },
     tags: ["greeting", "baatsiekh"],
     notes:
@@ -58,14 +58,14 @@ export const greetingsVocab: VocabItem[] = [
   },
   {
     id: "greet-ja",
-    sarnami: "hāṁ",
+    word: "hāṁ",
     translations: { nl: "ja" },
     tags: ["greeting", "baatsiekh", "book"],
     notes: "Bevestigd in docs/byakaran/07-interjections.md ('hāṁ! = ja!') en baatsiekh.nl's Uitspraken-soundboard.",
   },
   {
     id: "greet-nee",
-    sarnami: "nā",
+    word: "nā",
     translations: { nl: "nee" },
     tags: ["greeting", "baatsiekh", "book"],
     notes: "Bevestigd in docs/byakaran/07-interjections.md ('nā! = nee!') en baatsiekh.nl's Uitspraken-soundboard.",

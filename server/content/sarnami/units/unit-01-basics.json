@@ -32,13 +32,13 @@
           "id": "l1-e2",
           "kind": "flashcard",
           "vocabRef": "greet-pranam",
-          "direction": "sarnami-to-dutch"
+          "direction": "target-to-native"
         },
         {
           "id": "l1-e3",
           "kind": "flashcard",
           "vocabRef": "greet-dhanyavad",
-          "direction": "dutch-to-sarnami"
+          "direction": "native-to-target"
         },
         {
           "id": "l1-e4",
@@ -85,7 +85,7 @@
           "id": "l2-e3",
           "kind": "flashcard",
           "vocabRef": "pron-u",
-          "direction": "sarnami-to-dutch"
+          "direction": "target-to-native"
         },
         {
           "id": "l2-e4",
@@ -141,13 +141,13 @@
           "id": "l3-e4",
           "kind": "flashcard",
           "vocabRef": "noun-bappa",
-          "direction": "sarnami-to-dutch"
+          "direction": "target-to-native"
         },
         {
           "id": "l3-e5",
           "kind": "flashcard",
           "vocabRef": "noun-maiya",
-          "direction": "dutch-to-sarnami"
+          "direction": "native-to-target"
         }
       ],
       "xpReward": 10
@@ -197,7 +197,7 @@
           "id": "l4-e5",
           "kind": "flashcard",
           "vocabRef": "gram-kaham",
-          "direction": "sarnami-to-dutch"
+          "direction": "target-to-native"
         }
       ],
       "xpReward": 12
@@ -234,13 +234,13 @@
           "id": "l5-e5",
           "kind": "flashcard",
           "vocabRef": "noun-maiya",
-          "direction": "sarnami-to-dutch"
+          "direction": "target-to-native"
         },
         {
           "id": "l5-e6",
           "kind": "flashcard",
           "vocabRef": "pron-hamlog",
-          "direction": "dutch-to-sarnami"
+          "direction": "native-to-target"
         }
       ],
       "xpReward": 15
