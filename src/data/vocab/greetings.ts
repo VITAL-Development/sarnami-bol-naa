@@ -6,22 +6,26 @@ import type { VocabItem } from "@/domain/types";
  * which map to Marhé's macron system; "dj" for the /j/ sound maps to plain
  * j). Rām Rām and Pranām are not covered by that soundboard and are not
  * attested in Sarnami Byäkaran (Marhé, 1985) either — it is a grammar, not
- * a phrasebook — so they remain `needs-verification` traditional greetings
- * used in the Surinamese-Hindustani community.
+ * a phrasebook — but both are confirmed as used in Sarnami by a native
+ * speaker on the team (PR #42), consistent with their common use across
+ * the Bhojpuri/Hindi dialect continuum Sarnami descends from.
  */
 export const greetingsVocab: VocabItem[] = [
   {
     id: "greet-ram-ram",
     sarnami: "Rām Rām",
     dutch: "hallo / gegroet",
-    tags: ["greeting", "needs-verification"],
-    notes: "Traditionele Hindostaanse groet, gebruikt onder gelijken.",
+    tags: ["greeting", "native-speaker"],
+    notes:
+      "Traditionele Hindostaanse groet, gebruikt onder gelijken — casual/alledaags, in tegenstelling tot het formelere Pranām. Bevestigd als gangbaar in het Sarnami door een moedertaalspreker (PR #42).",
   },
   {
     id: "greet-pranam",
     sarnami: "Pranām",
     dutch: "eerbiedige groet (tegen ouderen)",
-    tags: ["greeting", "needs-verification"],
+    tags: ["greeting", "native-speaker"],
+    notes:
+      "Eerbiedige/formele groet, vooral richting ouderen of gerespecteerde personen — formeler dan Rām Rām. Bevestigd als gangbaar in het Sarnami door een moedertaalspreker (PR #42).",
   },
   {
     id: "greet-kaise-hai",
