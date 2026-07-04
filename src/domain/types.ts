@@ -1,7 +1,18 @@
+// UI/translation language codes supported by the app. English support is
+// being added alongside the existing Dutch content (see issue #27).
+export type UiLanguageCode = "nl" | "en";
+
+// Not every entry has an English translation yet (translations are added
+// incrementally as content is authored/reviewed), so this is a partial map
+// rather than requiring all `UiLanguageCode`s up front. `nl` is expected to
+// always be present in practice since it's the source language for existing
+// content, but that isn't enforced by the type itself.
+export type Translations = Partial<Record<UiLanguageCode, string>>;
+
 export interface VocabItem {
   id: string;
   sarnami: string;
-  dutch: string;
+  translations: Translations;
   audioUrl?: string;
   tags?: string[];
   notes?: string;
@@ -10,7 +21,7 @@ export interface VocabItem {
 export interface ExampleSentence {
   id: string;
   sarnami: string;
-  dutch: string;
+  translations: Translations;
   vocabRefs: string[];
 }
 
@@ -28,7 +39,7 @@ export interface MultipleChoiceExercise extends ExerciseBase {
 
 export interface WordBankExercise extends ExerciseBase {
   kind: "word-bank";
-  promptDutch: string;
+  promptTranslations: Translations;
   correctSarnamiTokens: string[];
   distractorTokens?: string[];
 }
@@ -38,7 +49,7 @@ export interface FillBlankExercise extends ExerciseBase {
   sentenceTemplate: string;
   correctAnswer: string;
   options: string[];
-  dutchTranslation: string;
+  translations: Translations;
 }
 
 export interface MatchingExercise extends ExerciseBase {

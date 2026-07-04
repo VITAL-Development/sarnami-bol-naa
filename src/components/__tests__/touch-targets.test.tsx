@@ -28,7 +28,7 @@ function hasActiveState(el: HTMLElement) {
 }
 
 const VOCAB_MAP = new Map<string, VocabItem>([
-  ["v1", { id: "v1", sarnami: "aap", dutch: "aap" }],
+  ["v1", { id: "v1", sarnami: "aap", translations: { nl: "aap" } }],
 ]);
 
 // ─── Button ─────────────────────────────────────────────────────────────────
@@ -168,7 +168,7 @@ describe("WordBank – touch friendliness", () => {
   const exercise = {
     id: "wb1",
     kind: "word-bank" as const,
-    promptDutch: "Bouw de zin",
+    promptTranslations: { nl: "Bouw de zin" },
     correctSarnamiTokens: ["mi", "jaa"],
     distractorTokens: ["naa"],
   };

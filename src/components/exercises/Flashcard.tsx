@@ -16,8 +16,10 @@ export function Flashcard({ exercise, vocabById, onAnswer }: ExerciseComponentPr
 
   if (!vocab) return null;
 
-  const front = exercise.direction === "sarnami-to-dutch" ? vocab.sarnami : vocab.dutch;
-  const back = exercise.direction === "sarnami-to-dutch" ? vocab.dutch : vocab.sarnami;
+  // Defaults to Dutch (`nl`) for now; UI-language switching is tracked in #36.
+  const dutch = vocab.translations.nl;
+  const front = exercise.direction === "sarnami-to-dutch" ? vocab.sarnami : dutch;
+  const back = exercise.direction === "sarnami-to-dutch" ? dutch : vocab.sarnami;
 
   return (
     <Card>

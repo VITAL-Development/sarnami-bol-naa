@@ -45,7 +45,8 @@ export function WordBank({ exercise, onAnswer }: ExerciseComponentProps<WordBank
   return (
     <Card>
       <p className="mb-1 text-sm text-stone-500">Zinnen bouwen</p>
-      <h2 className="mb-4 text-xl font-semibold">{exercise.promptDutch}</h2>
+      {/* Defaults to Dutch (`nl`) for now; UI-language switching is tracked in #36. */}
+      <h2 className="mb-4 text-xl font-semibold">{exercise.promptTranslations.nl}</h2>
 
       <div className="mb-4 flex min-h-[3rem] flex-wrap gap-2 rounded-2xl border-2 border-dashed border-stone-200 p-3">
         {selectedTokens.map((token, i) => (

@@ -27,7 +27,8 @@ export function FillBlank({ exercise, onAnswer }: ExerciseComponentProps<FillBla
   return (
     <Card>
       <p className="mb-1 text-sm text-stone-500">Vul aan</p>
-      <p className="mb-1 text-sm text-stone-500">{exercise.dutchTranslation}</p>
+      {/* Defaults to Dutch (`nl`) for now; UI-language switching is tracked in #36. */}
+      <p className="mb-1 text-sm text-stone-500">{exercise.translations.nl}</p>
       <h2 className="mb-4 text-xl font-semibold">
         {before}
         <span className="mx-1 rounded bg-sarnami-50 px-3 py-1 text-sarnami-700">
