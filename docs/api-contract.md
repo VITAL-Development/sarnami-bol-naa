@@ -99,19 +99,27 @@ picker without a separate capability check.
 
 ## `GET /content?lang={learningLanguage}`
 
-Full content bundle for one learning language: units, their lessons, and the
-shared vocab pool. Fully self-contained — no lesson/exercise/vocab text lives
-in the frontend bundle anymore; everything referenced by id
-(`newVocab`, `vocabRefs`, `promptVocabRef`, `vocabRef`) is resolvable within
-the same response's `vocab` array.
+Full content bundle for one learning language: units, their lessons, the
+shared vocab pool, and (per issue #31) the lesson-adjacent content pool
+(`lessonContent`). Fully self-contained — no lesson/exercise/vocab text lives
+in the frontend bundle anymore; everything referenced by id is resolvable
+within the same response:
+
+- `newVocab`, `vocabRefs`, `promptVocabRef`, `vocabRef` → resolved against
+  the top-level `vocab` array (unchanged since #30).
+- `Lesson.exampleSentenceRefs` / `Lesson.grammarNoteRefs` → resolved against
+  `lessonContent.exampleSentences` / `lessonContent.grammarNotes`.
+- `LessonExercise.contentRef` (on `multiple-choice`, `word-bank`,
+  `fill-blank`, `matching` — `flashcard` has none, see below) → resolved
+  against `lessonContent.exerciseContent`, a map keyed by that same id.
 
 **Request:** `?lang=sarnami` (required). Example: `GET /content?lang=sarnami`
 
 **Response `200`** — shape generalizes `ContentBundle` / `Unit` / `Lesson` /
-`VocabItem` from `src/domain/types.ts`, with the `dutch` field replaced by a
-`translations` map (per issue #27's direction: `{ nl: string; en?: string }`,
-`nl` required since it's the currently-authored language, `en` optional until
-backfilled):
+`VocabItem` / `LessonContentBundle` from `src/domain/types.ts`, with the
+`dutch` field replaced by a `translations` map (per issue #27's direction:
+`{ nl: string; en?: string }`, `nl` required since it's the currently-authored
+language, `en` optional until backfilled):
 
 ```json
 {
@@ -130,30 +138,14 @@ backfilled):
           "title": "Begroetingen",
           "description": "Leer de belangrijkste groeten.",
           "newVocab": ["vocab-ram-ram"],
-          "exampleSentences": [
-            {
-              "id": "ex-greet-1",
-              "sarnami": "Rām Rām, kaise ho?",
-              "translations": { "nl": "Gegroet, hoe gaat het?", "en": "Greetings, how are you?" },
-              "vocabRefs": ["vocab-ram-ram"]
-            }
-          ],
-          "grammarNotes": [
-            {
-              "id": "gram-greet-register",
-              "title": "Formeel vs. informeel",
-              "body": "Rām Rām is een formele/religieuze groet; Pranām wordt gebruikt richting ouderen.",
-              "relatedVocab": ["vocab-ram-ram"]
-            }
-          ],
+          "exampleSentenceRefs": ["ex-greet-1"],
+          "grammarNoteRefs": ["gram-greet-register"],
           "exercises": [
             {
               "id": "ex1",
               "kind": "multiple-choice",
-              "prompt": "Wat betekent 'Rām Rām'?",
-              "promptVocabRef": "vocab-ram-ram",
-              "options": ["Hallo/gegroet", "Tot ziens", "Dank je wel", "Alsjeblieft"],
-              "correctIndex": 0
+              "contentRef": "ex1",
+              "promptVocabRef": "vocab-ram-ram"
             }
           ],
           "xpReward": 10
@@ -170,20 +162,58 @@ backfilled):
       "tags": ["greetings", "book-p12"],
       "notes": "Gebruikt bij het begroeten van ouderen of in religieuze context."
     }
-  ]
+  ],
+  "lessonContent": {
+    "exampleSentences": [
+      {
+        "id": "ex-greet-1",
+        "sarnami": "Rām Rām, kaise ho?",
+        "translations": { "nl": "Gegroet, hoe gaat het?", "en": "Greetings, how are you?" },
+        "vocabRefs": ["vocab-ram-ram"]
+      }
+    ],
+    "grammarNotes": [
+      {
+        "id": "gram-greet-register",
+        "title": "Formeel vs. informeel",
+        "body": "Rām Rām is een formele/religieuze groet; Pranām wordt gebruikt richting ouderen.",
+        "relatedVocab": ["vocab-ram-ram"]
+      }
+    ],
+    "exerciseContent": {
+      "ex1": {
+        "prompt": "Wat betekent 'Rām Rām'?",
+        "options": ["Hallo/gegroet", "Tot ziens", "Dank je wel", "Alsjeblieft"],
+        "correctIndex": 0
+      }
+    }
+  }
 }
 ```
 
 Notes on exercise kinds carried through unchanged from `LessonExercise` in
 `src/domain/types.ts` (`multiple-choice`, `word-bank`, `fill-blank`,
-`matching`, `flashcard`), except fields with a hardcoded `Dutch`/`dutch` name
-are renamed to be translation-map-based for consistency with #27:
+`matching`, `flashcard`):
 
-- `WordBankExercise.promptDutch` → `promptTranslations: { nl, en? }`
-- `FillBlankExercise.dutchTranslation` → `translations: { nl, en? }`
-- `FlashcardExercise.direction`: `"sarnami-to-dutch" | "dutch-to-sarnami"` →
-  `"sarnami-to-ui" | "ui-to-sarnami"` (direction is now relative to whichever
-  UI language is active, not hardcoded to Dutch)
+- As of issue #31, `multiple-choice`/`word-bank`/`fill-blank`/`matching`
+  exercises carry no literal text at all — only `id`, `kind`, `contentRef`,
+  and (for `multiple-choice`) an optional `promptVocabRef`. Their prompt/
+  options/answer text lives in `lessonContent.exerciseContent[contentRef]`,
+  shaped as `MultipleChoiceContent` / `WordBankContent` / `FillBlankContent`
+  / `MatchingContent` respectively (see `src/domain/types.ts`).
+- `flashcard` has no `contentRef` — its front/back text is resolved from
+  `vocabRef` against `vocab`, not from `lessonContent`.
+- Fields with a hardcoded `Dutch`/`dutch` name are renamed to be
+  translation-map-based for consistency with #27, now living on the content
+  shapes above rather than the exercise itself:
+  - `WordBankContent.promptTranslations: { nl, en? }` (was
+    `WordBankExercise.promptDutch`)
+  - `FillBlankContent.translations: { nl, en? }` (was
+    `FillBlankExercise.dutchTranslation`)
+  - `FlashcardExercise.direction`: still `"sarnami-to-dutch" |
+    "dutch-to-sarnami"` as of this writing — renaming it to
+    `"sarnami-to-ui" | "ui-to-sarnami"` is out of scope for #31 (no literal
+    text to extract there) and remains open follow-on work.
 
 **Errors:**
 - `404 { "error": "Unknown learning language: <code>" }` if `lang` isn't one

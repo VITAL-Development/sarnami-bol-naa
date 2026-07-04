@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { MultipleChoiceExercise } from "@/domain/types";
+import type { MultipleChoiceContent, MultipleChoiceExercise } from "@/domain/types";
 import type { ExerciseComponentProps } from "./types";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
@@ -8,11 +8,13 @@ import { t } from "@/i18n/t";
 export function MultipleChoice({
   exercise,
   vocabById,
+  contentById,
   onAnswer,
 }: ExerciseComponentProps<MultipleChoiceExercise>) {
   const [selected, setSelected] = useState<number | null>(null);
   const [checked, setChecked] = useState(false);
 
+  const content = contentById.get(exercise.contentRef) as MultipleChoiceContent | undefined;
   const promptVocab = exercise.promptVocabRef ? vocabById.get(exercise.promptVocabRef) : undefined;
 
   function check() {
@@ -21,23 +23,25 @@ export function MultipleChoice({
   }
 
   function next() {
-    if (selected === null) return;
-    onAnswer(selected === exercise.correctIndex);
+    if (selected === null || !content) return;
+    onAnswer(selected === content.correctIndex);
     setSelected(null);
     setChecked(false);
   }
 
-  const isCorrect = selected === exercise.correctIndex;
+  if (!content) return null;
+
+  const isCorrect = selected === content.correctIndex;
 
   return (
     <Card>
       <p className="mb-1 text-sm text-stone-500">Meerkeuze</p>
       <h2 className="mb-4 text-xl font-semibold">
-        {exercise.prompt}
+        {content.prompt}
         {promptVocab && <span className="ml-2 text-sarnami-600">{promptVocab.sarnami}</span>}
       </h2>
       <div className="grid gap-3">
-        {exercise.options.map((option, index) => {
+        {content.options.map((option, index) => {
           const isSelected = selected === index;
           const showState = checked && isSelected;
           return (

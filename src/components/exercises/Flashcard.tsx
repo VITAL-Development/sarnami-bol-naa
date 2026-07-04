@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { t } from "@/i18n/t";
 
+// `contentById` is accepted (unused) to satisfy the shared ExerciseComponentProps
+// shape — Flashcard has no contentRef; its text is resolved from vocabRef.
 export function Flashcard({ exercise, vocabById, onAnswer }: ExerciseComponentProps<FlashcardExercise>) {
   const [revealed, setRevealed] = useState(false);
   const vocab = vocabById.get(exercise.vocabRef);

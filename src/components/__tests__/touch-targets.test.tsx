@@ -14,7 +14,7 @@ import { MultipleChoice } from "@/components/exercises/MultipleChoice";
 import { WordBank } from "@/components/exercises/WordBank";
 import { Matching } from "@/components/exercises/Matching";
 import { Flashcard } from "@/components/exercises/Flashcard";
-import type { VocabItem } from "@/domain/types";
+import type { ExerciseContent, VocabItem } from "@/domain/types";
 
 // ─── helpers ────────────────────────────────────────────────────────────────
 
@@ -29,6 +29,27 @@ function hasActiveState(el: HTMLElement) {
 
 const VOCAB_MAP = new Map<string, VocabItem>([
   ["v1", { id: "v1", sarnami: "aap", translations: { nl: "aap" } }],
+]);
+
+const CONTENT_MAP = new Map<string, ExerciseContent>([
+  ["mc1", { prompt: "Wat betekent 'aap'?", options: ["aap", "kat", "hond"], correctIndex: 0 }],
+  [
+    "wb1",
+    {
+      promptTranslations: { nl: "Bouw de zin" },
+      correctSarnamiTokens: ["mi", "jaa"],
+      distractorTokens: ["naa"],
+    },
+  ],
+  [
+    "m1",
+    {
+      pairs: [
+        { left: "aap", right: "aap" },
+        { left: "kat", right: "kat" },
+      ],
+    },
+  ],
 ]);
 
 // ─── Button ─────────────────────────────────────────────────────────────────
@@ -130,19 +151,16 @@ describe("MultipleChoice – touch friendliness", () => {
   const exercise = {
     id: "mc1",
     kind: "multiple-choice" as const,
-    prompt: "Wat betekent 'aap'?",
-    options: ["aap", "kat", "hond"],
-    correctIndex: 0,
+    contentRef: "mc1",
     promptVocabRef: undefined,
   };
+  const options = ["aap", "kat", "hond"];
 
   it("answer buttons have min-h-[44px] tap target", () => {
     render(
-      <MultipleChoice exercise={exercise} vocabById={VOCAB_MAP} onAnswer={() => {}} />,
+      <MultipleChoice exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />,
     );
-    const buttons = screen
-      .getAllByRole("button")
-      .filter((b) => exercise.options.includes(b.textContent ?? ""));
+    const buttons = screen.getAllByRole("button").filter((b) => options.includes(b.textContent ?? ""));
     expect(buttons.length).toBeGreaterThan(0);
     buttons.forEach((btn) => {
       expect(hasMinTouchTarget(btn as HTMLElement)).toBe(true);
@@ -151,11 +169,9 @@ describe("MultipleChoice – touch friendliness", () => {
 
   it("answer buttons have active: state for touch feedback", () => {
     render(
-      <MultipleChoice exercise={exercise} vocabById={VOCAB_MAP} onAnswer={() => {}} />,
+      <MultipleChoice exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />,
     );
-    const buttons = screen
-      .getAllByRole("button")
-      .filter((b) => exercise.options.includes(b.textContent ?? ""));
+    const buttons = screen.getAllByRole("button").filter((b) => options.includes(b.textContent ?? ""));
     buttons.forEach((btn) => {
       expect(hasActiveState(btn as HTMLElement)).toBe(true);
     });
@@ -168,13 +184,11 @@ describe("WordBank – touch friendliness", () => {
   const exercise = {
     id: "wb1",
     kind: "word-bank" as const,
-    promptTranslations: { nl: "Bouw de zin" },
-    correctSarnamiTokens: ["mi", "jaa"],
-    distractorTokens: ["naa"],
+    contentRef: "wb1",
   };
 
   it("bank token buttons have min-h-[44px] tap target", () => {
-    render(<WordBank exercise={exercise} vocabById={VOCAB_MAP} onAnswer={() => {}} />);
+    render(<WordBank exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />);
     // All non-submit buttons are token buttons
     const buttons = screen
       .getAllByRole("button")
@@ -186,7 +200,7 @@ describe("WordBank – touch friendliness", () => {
   });
 
   it("bank token buttons have active: state for touch feedback", () => {
-    render(<WordBank exercise={exercise} vocabById={VOCAB_MAP} onAnswer={() => {}} />);
+    render(<WordBank exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />);
     const buttons = screen
       .getAllByRole("button")
       .filter((b) => !["Controleer", "Volgende", "Verdergaan"].some((t) => b.textContent?.includes(t)));
@@ -202,14 +216,11 @@ describe("Matching – touch friendliness", () => {
   const exercise = {
     id: "m1",
     kind: "matching" as const,
-    pairs: [
-      { left: "aap", right: "aap" },
-      { left: "kat", right: "kat" },
-    ],
+    contentRef: "m1",
   };
 
   it("matching buttons have min-h-[44px] tap target", () => {
-    render(<Matching exercise={exercise} vocabById={VOCAB_MAP} onAnswer={() => {}} />);
+    render(<Matching exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />);
     const buttons = screen.getAllByRole("button");
     expect(buttons.length).toBeGreaterThan(0);
     buttons.forEach((btn) => {
@@ -218,7 +229,7 @@ describe("Matching – touch friendliness", () => {
   });
 
   it("matching buttons have active: state for touch feedback", () => {
-    render(<Matching exercise={exercise} vocabById={VOCAB_MAP} onAnswer={() => {}} />);
+    render(<Matching exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />);
     const buttons = screen.getAllByRole("button");
     buttons.forEach((btn) => {
       expect(hasActiveState(btn as HTMLElement)).toBe(true);
@@ -237,7 +248,7 @@ describe("Flashcard – touch friendliness", () => {
   };
 
   it("the card reveal button has an active: state", () => {
-    render(<Flashcard exercise={exercise} vocabById={VOCAB_MAP} onAnswer={() => {}} />);
+    render(<Flashcard exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />);
     // The large card button (not the labelled action button)
     const buttons = screen.getAllByRole("button");
     const revealBtn = buttons.find((b) => b.className.includes("min-h-[10rem]")) as HTMLElement | undefined;
@@ -246,7 +257,7 @@ describe("Flashcard – touch friendliness", () => {
   });
 
   it("action buttons (Show Answer) have min-h-[44px] tap target", () => {
-    render(<Flashcard exercise={exercise} vocabById={VOCAB_MAP} onAnswer={() => {}} />);
+    render(<Flashcard exercise={exercise} vocabById={VOCAB_MAP} contentById={CONTENT_MAP} onAnswer={() => {}} />);
     const actionBtns = screen.getAllByRole("button").filter((b) => b.textContent !== "");
     // The Button component wraps these; all should have min-h-[44px]
     const showAnswerBtn = actionBtns.find((b) =>

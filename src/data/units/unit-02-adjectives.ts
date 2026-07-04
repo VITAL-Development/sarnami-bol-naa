@@ -1,5 +1,9 @@
 import type { Unit } from "@/domain/types";
 
+// Structure only — see `unit-01-basics.ts`'s header comment: literal text
+// lives in `server/content/sarnami/lessons/unit-02-adjectives.json`,
+// resolved via `contentRef` / `exampleSentenceRefs` / `grammarNoteRefs`
+// against `ContentBundle.lessonContent` (issue #31).
 export const unit02Adjectives: Unit = {
   id: "unit-02-adjectives",
   title: "Bijvoeglijke naamwoorden",
@@ -14,62 +18,24 @@ export const unit02Adjectives: Unit = {
       title: "Stam, lang en langer",
       description: "De drie vormen van het bijvoeglijk naamwoord.",
       newVocab: ["adj-chota", "adj-lal", "adj-sojha", "adj-patar", "adj-mitha"],
-      exampleSentences: [
-        {
-          id: "ex-6-1",
-          sarnami: "Mahes ego choṭā ghar kīnis hai.",
-          translations: { nl: "Mahes heeft een huisje gekocht." },
-          vocabRefs: ["adj-chota"],
-        },
-        {
-          id: "ex-6-2",
-          sarnami: "Mahes chŏṭkā gharvā kīnis hai.",
-          translations: { nl: "Mahes heeft het huisje gekocht." },
-          vocabRefs: ["adj-chota"],
-        },
-        {
-          id: "ex-6-3",
-          sarnami: "Hariyā lāl somth pahine hai.",
-          translations: { nl: "Hari draagt een rood overhemd." },
-          vocabRefs: ["adj-lal"],
-        },
-      ],
-      grammarNotes: [
-        {
-          id: "gn-6-1",
-          title: "Stam, lange en langere vorm",
-          body:
-            "Bijvoeglijke naamwoorden hebben drie vormen: de stam (onbepaalde betekenis, bv. choṭā 'klein'), de lange vorm met -kā (bepaalde betekenis, bv. chŏṭkā), en de langere vorm met -kavā (sterkere nadruk, bv. chŏṭkāvā). In het district Nickerie wordt in plaats van -kavā vaak -kanā gebruikt (chŏṭkanā).",
-          relatedVocab: ["adj-chota"],
-        },
-      ],
+      exampleSentenceRefs: ["ex-6-1", "ex-6-2", "ex-6-3"],
+      grammarNoteRefs: ["gn-6-1"],
       exercises: [
         {
           id: "l6-e1",
           kind: "multiple-choice",
-          prompt: "Wat betekent 'choṭā'?",
+          contentRef: "l6-e1",
           promptVocabRef: "adj-chota",
-          options: ["klein", "rood", "dun", "lekker"],
-          correctIndex: 0,
         },
         {
           id: "l6-e2",
           kind: "matching",
-          pairs: [
-            { left: "choṭā", right: "klein" },
-            { left: "lāl", right: "rood" },
-            { left: "sojhā", right: "recht" },
-            { left: "pātar", right: "dun" },
-            { left: "mīṭhā", right: "lekker" },
-          ],
+          contentRef: "l6-e2",
         },
         {
           id: "l6-e3",
           kind: "fill-blank",
-          sentenceTemplate: "Mahes ego ___ ghar kīnis hai.",
-          correctAnswer: "choṭā",
-          options: ["choṭā", "lāl", "pātar", "mīṭhā"],
-          translations: { nl: "Mahes heeft een huisje gekocht." },
+          contentRef: "l6-e3",
         },
         {
           id: "l6-e4",
@@ -80,9 +46,7 @@ export const unit02Adjectives: Unit = {
         {
           id: "l6-e5",
           kind: "word-bank",
-          promptTranslations: { nl: "Mahes heeft het huisje gekocht." },
-          correctSarnamiTokens: ["Mahes", "chŏṭkā", "gharvā", "kīnis", "hai."],
-          distractorTokens: ["lalkā", "miṭhkā"],
+          contentRef: "l6-e5",
         },
       ],
       xpReward: 10,
@@ -94,68 +58,29 @@ export const unit02Adjectives: Unit = {
       title: "Geslacht en getal",
       description: "Hoe het bijvoeglijk naamwoord meegaat met het zelfstandig naamwoord.",
       newVocab: ["adj-barka", "adj-lamma", "adj-barhimya", "adj-karikka"],
-      exampleSentences: [
-        {
-          id: "ex-7-1",
-          sarnami: "Ego barkā per.",
-          translations: { nl: "Een grote boom." },
-          vocabRefs: ["adj-barka"],
-        },
-        {
-          id: "ex-7-2",
-          sarnami: "Ū barkāvan pervan.",
-          translations: { nl: "Die grote bomen." },
-          vocabRefs: ["adj-barka"],
-        },
-        {
-          id: "ex-7-3",
-          sarnami: "Karikkanī bakariyā.",
-          translations: { nl: "De zwarte geit." },
-          vocabRefs: ["adj-karikka"],
-        },
-      ],
-      grammarNotes: [
-        {
-          id: "gn-7-1",
-          title: "Meervoud en vrouwelijke vorm",
-          body:
-            "Bijvoeglijke naamwoorden nemen het getal (enkelvoud/meervoud) over van het zelfstandig naamwoord dat ze bepalen: ū barkāvā perva (die grote boom) wordt ū barkāvan pervan (die grote bomen) in het meervoud. Bij vrouwelijke zelfstandige naamwoorden krijgt het bijvoeglijk naamwoord vaak de uitgang -ī: karikkanī bakariyā (de zwarte geit), lalkanī sariyā (de rode sari).",
-          relatedVocab: ["adj-barka", "adj-karikka"],
-        },
-      ],
+      exampleSentenceRefs: ["ex-7-1", "ex-7-2", "ex-7-3"],
+      grammarNoteRefs: ["gn-7-1"],
       exercises: [
         {
           id: "l7-e1",
           kind: "multiple-choice",
-          prompt: "Wat betekent 'barkā'?",
+          contentRef: "l7-e1",
           promptVocabRef: "adj-barka",
-          options: ["groot", "lang", "goed", "zwart"],
-          correctIndex: 0,
         },
         {
           id: "l7-e2",
           kind: "matching",
-          pairs: [
-            { left: "barkā", right: "groot" },
-            { left: "lammā", right: "lang" },
-            { left: "barhimyā", right: "goed" },
-            { left: "karikkā", right: "zwart" },
-          ],
+          contentRef: "l7-e2",
         },
         {
           id: "l7-e3",
           kind: "word-bank",
-          promptTranslations: { nl: "Die grote bomen." },
-          correctSarnamiTokens: ["Ū", "barkāvan", "pervan."],
-          distractorTokens: ["chŏṭkā", "lalkā"],
+          contentRef: "l7-e3",
         },
         {
           id: "l7-e4",
           kind: "fill-blank",
-          sentenceTemplate: "___ bakariyā.",
-          correctAnswer: "Karikkanī",
-          options: ["Karikkanī", "Lalkanī", "Chŏṭkanī", "Miṭhkanī"],
-          translations: { nl: "De zwarte geit." },
+          contentRef: "l7-e4",
         },
         {
           id: "l7-e5",
@@ -173,67 +98,28 @@ export const unit02Adjectives: Unit = {
       title: "Trappen van vergelijking",
       description: "Vergrotende en overtreffende trap in het Sarnami.",
       newVocab: ["gram-se", "gram-aur-compare", "gram-jada", "gram-sabse"],
-      exampleSentences: [
-        {
-          id: "ex-8-1",
-          sarnami: "Hamār ghar tor ghar se barkā hai.",
-          translations: { nl: "Mijn huis is groter dan jouw huis." },
-          vocabRefs: ["gram-se", "adj-barka"],
-        },
-        {
-          id: "ex-8-2",
-          sarnami: "Hamār gharī tor gharī se aur choṭā hai.",
-          translations: { nl: "Mijn horloge is kleiner dan het jouwe." },
-          vocabRefs: ["gram-aur-compare", "adj-chota"],
-        },
-        {
-          id: "ex-8-3",
-          sarnami: "Sarnām mem ī sab se dhanī adamī hai.",
-          translations: { nl: "In Suriname is hij de rijkste man." },
-          vocabRefs: ["gram-sabse"],
-        },
-      ],
-      grammarNotes: [
-        {
-          id: "gn-8-1",
-          title: "Vergrotende en overtreffende trap",
-          body:
-            "De stellende trap is de neutrale vorm van elk bijvoeglijk naamwoord. De vergrotende trap wordt gevormd met se, aur en/of jādā achter het vergelijkingswoord: ...se barkā hai (is groter dan). De overtreffende trap wordt gevormd met sab se of sab se jādā: sab se dhanī (de rijkste), sab se jādā dhanī (de allerrijkste).",
-          relatedVocab: ["gram-se", "gram-sabse"],
-        },
-      ],
+      exampleSentenceRefs: ["ex-8-1", "ex-8-2", "ex-8-3"],
+      grammarNoteRefs: ["gn-8-1"],
       exercises: [
         {
           id: "l8-e1",
           kind: "multiple-choice",
-          prompt: "Hoe zeg je 'groter dan'?",
-          options: ["... se barkā", "... barkā se", "sab se barkā", "barkā-barkā"],
-          correctIndex: 0,
+          contentRef: "l8-e1",
         },
         {
           id: "l8-e2",
           kind: "fill-blank",
-          sentenceTemplate: "Hamār ghar tor ghar ___ barkā hai.",
-          correctAnswer: "se",
-          options: ["se", "aur", "sab", "jādā"],
-          translations: { nl: "Mijn huis is groter dan jouw huis." },
+          contentRef: "l8-e2",
         },
         {
           id: "l8-e3",
           kind: "word-bank",
-          promptTranslations: { nl: "In Suriname is hij de rijkste man." },
-          correctSarnamiTokens: ["Sarnām", "mem", "ī", "sab", "se", "dhanī", "adamī", "hai."],
-          distractorTokens: ["jādā", "aur"],
+          contentRef: "l8-e3",
         },
         {
           id: "l8-e4",
           kind: "matching",
-          pairs: [
-            { left: "se", right: "dan (bij vergelijking)" },
-            { left: "aur", right: "nog (meer)" },
-            { left: "jādā", right: "meer" },
-            { left: "sab se", right: "de meest-" },
-          ],
+          contentRef: "l8-e4",
         },
         {
           id: "l8-e5",
@@ -255,35 +141,22 @@ export const unit02Adjectives: Unit = {
         {
           id: "l9-e1",
           kind: "multiple-choice",
-          prompt: "Wat betekent 'barkā'?",
-          options: ["groot", "klein", "dun", "recht"],
-          correctIndex: 0,
+          contentRef: "l9-e1",
         },
         {
           id: "l9-e2",
           kind: "matching",
-          pairs: [
-            { left: "choṭā", right: "klein" },
-            { left: "lāl", right: "rood" },
-            { left: "barkā", right: "groot" },
-            { left: "se", right: "dan (bij vergelijking)" },
-            { left: "sab se", right: "de meest-" },
-          ],
+          contentRef: "l9-e2",
         },
         {
           id: "l9-e3",
           kind: "word-bank",
-          promptTranslations: { nl: "Mijn huis is groter dan jouw huis." },
-          correctSarnamiTokens: ["Hamār", "ghar", "tor", "ghar", "se", "barkā", "hai."],
-          distractorTokens: ["choṭā", "jādā"],
+          contentRef: "l9-e3",
         },
         {
           id: "l9-e4",
           kind: "fill-blank",
-          sentenceTemplate: "Karikkanī ___.",
-          correctAnswer: "bakariyā",
-          options: ["bakariyā", "sariyā", "gaiyā", "chaumriyā"],
-          translations: { nl: "De zwarte geit." },
+          contentRef: "l9-e4",
         },
         {
           id: "l9-e5",

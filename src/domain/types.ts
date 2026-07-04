@@ -41,34 +41,37 @@ interface ExerciseBase {
   id: string;
 }
 
+// Exercise kinds that embed prompt/option/answer text no longer carry that
+// text inline (see issue #31) — they instead carry a `contentRef` id that's
+// resolved against `ContentBundle.lessonContent.exerciseContent` (keyed by
+// that same id) at render time. This keeps `src/data/units/*.ts` free of
+// literal Sarnami/Dutch strings; the actual authored text lives in
+// `server/content/sarnami/lessons/*.json`.
 export interface MultipleChoiceExercise extends ExerciseBase {
   kind: "multiple-choice";
-  prompt: string;
+  contentRef: string;
   promptVocabRef?: string;
-  options: string[];
-  correctIndex: number;
 }
 
 export interface WordBankExercise extends ExerciseBase {
   kind: "word-bank";
-  promptTranslations: Translations;
-  correctSarnamiTokens: string[];
-  distractorTokens?: string[];
+  contentRef: string;
 }
 
 export interface FillBlankExercise extends ExerciseBase {
   kind: "fill-blank";
-  sentenceTemplate: string;
-  correctAnswer: string;
-  options: string[];
-  translations: Translations;
+  contentRef: string;
 }
 
 export interface MatchingExercise extends ExerciseBase {
   kind: "matching";
-  pairs: { left: string; right: string }[];
+  contentRef: string;
 }
 
+// Flashcard carries no literal text of its own — `direction` is a structural
+// enum, not translatable content, and the front/back text is resolved from
+// `vocabRef` against the vocab pool (unchanged since issue #30). No
+// `contentRef` is needed here.
 export interface FlashcardExercise extends ExerciseBase {
   kind: "flashcard";
   vocabRef: string;
@@ -81,6 +84,38 @@ export type LessonExercise =
   | FillBlankExercise
   | MatchingExercise
   | FlashcardExercise;
+
+// Content shapes below mirror the fields that used to live inline on the
+// exercise types above. Keyed by the exercise's `contentRef` (== its `id` in
+// all current content) in `LessonContentBundle.exerciseContent`.
+export interface MultipleChoiceContent {
+  prompt: string;
+  options: string[];
+  correctIndex: number;
+}
+
+export interface WordBankContent {
+  promptTranslations: Translations;
+  correctSarnamiTokens: string[];
+  distractorTokens?: string[];
+}
+
+export interface FillBlankContent {
+  sentenceTemplate: string;
+  correctAnswer: string;
+  options: string[];
+  translations: Translations;
+}
+
+export interface MatchingContent {
+  pairs: { left: string; right: string }[];
+}
+
+export type ExerciseContent =
+  | MultipleChoiceContent
+  | WordBankContent
+  | FillBlankContent
+  | MatchingContent;
 
 export interface GrammarNote {
   id: string;
@@ -96,8 +131,10 @@ export interface Lesson {
   title: string;
   description: string;
   newVocab: string[];
-  exampleSentences?: ExampleSentence[];
-  grammarNotes?: GrammarNote[];
+  // Full ExampleSentence/GrammarNote objects are resolved from
+  // ContentBundle.lessonContent by these ids (see issue #31).
+  exampleSentenceRefs?: string[];
+  grammarNoteRefs?: string[];
   exercises: LessonExercise[];
   xpReward: number;
 }
@@ -111,9 +148,20 @@ export interface Unit {
   lessons: Lesson[];
 }
 
+// Lesson-adjacent authored text (exercise prompts/options/answers, example
+// sentences, grammar notes) resolved by id — the knowledge-base counterpart
+// to `vocab` for lesson structure (issue #31). `exerciseContent` is keyed by
+// `contentRef`.
+export interface LessonContentBundle {
+  exampleSentences: ExampleSentence[];
+  grammarNotes: GrammarNote[];
+  exerciseContent: Record<string, ExerciseContent>;
+}
+
 export interface ContentBundle {
   units: Unit[];
   vocab: VocabItem[];
+  lessonContent: LessonContentBundle;
 }
 
 export interface Badge {

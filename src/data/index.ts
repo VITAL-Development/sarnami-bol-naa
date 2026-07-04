@@ -7,6 +7,7 @@ import { adjectivesVocab } from "./vocab/adjectives";
 import { structuurwoordenVocab } from "./vocab/structuurwoorden";
 import { unit01Basics } from "./units/unit-01-basics";
 import { unit02Adjectives } from "./units/unit-02-adjectives";
+import { lessonContentBundle } from "./lessonContent";
 
 export const contentBundle: ContentBundle = {
   units: [unit01Basics, unit02Adjectives],
@@ -18,4 +19,5 @@ export const contentBundle: ContentBundle = {
     ...adjectivesVocab,
     ...structuurwoordenVocab,
   ],
+  lessonContent: lessonContentBundle,
 };

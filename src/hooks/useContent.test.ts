@@ -27,6 +27,7 @@ const mockBundle: ContentBundle = {
     },
   ],
   vocab: [],
+  lessonContent: { exampleSentences: [], grammarNotes: [], exerciseContent: {} },
 };
 
 afterEach(() => {

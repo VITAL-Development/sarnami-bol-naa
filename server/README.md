@@ -88,6 +88,35 @@ above, i.e. still reads `../src/data`, not `server/content/`. Rewiring
 `../src/data/vocab/*.ts` + the bundling trick once it does) is follow-on
 work, expected to land alongside issue #33's language-scoped endpoints.
 
+### `server/content/sarnami/lessons/` (issue #31)
+
+`server/content/<learningLanguage>/lessons/<unitId>.json` is the new
+authored source of truth for lesson-adjacent content — exercise prompts/
+options/answers, example sentences, and grammar notes — the counterpart to
+`content/vocab/*.json` (#30) for lesson structure. `../src/data/units/*.ts`
+now holds structure only (`id`/`unitId`/`order`/`title`/`description`/
+`newVocab`/exercise `kind` + ID references); the literal Sarnami/Dutch text
+that used to be embedded directly in exercises/`exampleSentences`/
+`grammarNotes` lives here instead.
+
+Each file is an array of per-lesson objects
+(`{ lessonId, exampleSentences, grammarNotes, exercises }`), where
+`exercises` is a map keyed by `contentRef` (in practice the same string as
+the exercise's `id`). Shapes match `ExampleSentence` / `GrammarNote` /
+`ExerciseContent` (`MultipleChoiceContent` / `WordBankContent` /
+`FillBlankContent` / `MatchingContent`) from `../src/domain/types.ts` and
+`../docs/api-contract.md`'s `GET /content` `lessonContent` field 1:1.
+`flashcard` exercises have no entry here — they carry no literal text (see
+the contract doc).
+
+**Not yet wired up**, same as vocab: `GET /content?lang=sarnami` still reads
+`../src/data`, not `server/content/`. Until `server.mjs` is rewired (#33),
+`../src/data/lessonContent/<unitId>.ts` is a hand-synced TS copy of this
+JSON, used by the frontend's local-bundling path
+(`LocalJsonContentRepository` / `content-entry.ts`) — mirroring how #30 kept
+`../src/data/vocab/*.ts` in place for the same reason. Keep the two in sync
+by hand until #33 removes the need for the TS copy.
+
 ## Files
 
 | File | Purpose |
@@ -99,6 +128,7 @@ work, expected to land alongside issue #33's language-scoped endpoints.
 | `settings/{lang}/language-settings.json` | Per-learning-language romanization/alphabet/audio settings (`GET /settings`) |
 | `settings/ui/{lang}/strings.json` | Per-UI-language string table (`GET /ui-strings`) |
 | `content/<lang>/vocab/*.json` | Authored vocab content per learning language (issue #30); not yet read by `server.mjs` — see above |
+| `content/<lang>/lessons/<unitId>.json` | Authored exercise/example-sentence/grammar-note content per learning language, per unit (issue #31); not yet read by `server.mjs` — see above |
 
 ## CORS
 
