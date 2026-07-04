@@ -1,8 +1,8 @@
 import type { LessonContentFile } from "./types";
 
-// Synced copy of server/content/sarnami/lessons/unit-02-adjectives.json —
-// see unit-01-basics.ts's header comment for why this TS copy exists
-// (issue #31, transitional local-bundling path).
+// The frontend's own local/offline fallback copy of
+// server/content/sarnami/lessons/unit-02-adjectives.json — see
+// unit-01-basics.ts's header comment for why this TS copy exists.
 export const unit02AdjectivesContent: LessonContentFile[] = [
   {
     lessonId: "lesson-6-adjective-forms",

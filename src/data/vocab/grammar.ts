@@ -1,11 +1,11 @@
 import type { VocabItem } from "@/domain/types";
 
-// TODO(remove once /server's /content endpoint reads from server/content/
-// directly instead of bundling ../src/data): the source of truth for this
-// data is now server/content/sarnami/vocab/grammar.json (issue #30). This
-// file stays in place until server.mjs's content-serving logic is rewired
-// (issue #33) and the frontend's LocalJsonContentRepository offline fallback
-// is reconsidered.
+// This is the frontend's own local/offline fallback copy, used by
+// `LocalJsonContentRepository` when `VITE_API_BASE_URL` isn't set (see
+// `src/services/index.ts`) — not a duplicate kept for backend-bundling
+// purposes. `/server` now reads its own authored copy directly from
+// `server/content/sarnami/vocab/grammar.json` (issues #30/#33) instead of
+// bundling this file. Keep the two in sync by hand if this content changes.
 /** Verified against Sarnami Byākaran (Marhé, 1985), p.16, p.40, p.53, p.60, p.97-98. */
 export const grammarVocab: VocabItem[] = [
   {

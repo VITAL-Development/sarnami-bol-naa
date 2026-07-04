@@ -1,7 +1,6 @@
-// Dependency-free (at the HTTP layer) Node server implementing the routes
-// documented in docs/api-contract.md (outer repo, issue #26/#46). See
-// README.md for the transitional state this server is in re: content
-// sourcing, and issue #29 for the porting task this file was written for.
+// Dependency-free Node server implementing the routes documented in
+// docs/api-contract.md (outer repo, issue #26/#46). See README.md for how
+// content/settings are sourced (issues #29-#33).
 //
 // No auth: progress is a single user's state, held in memory for this
 // process's lifetime (see README.md — this is carried over from the
@@ -14,7 +13,16 @@ import {
   SETTINGS_BY_LANGUAGE,
   UI_STRINGS_BY_LANGUAGE,
 } from "./stub-data.mjs";
-import { loadContentModule } from "./build-content.mjs";
+import { getContentBundle } from "./content.mjs";
+import {
+  createInitialProgress,
+  computeXpReward,
+  updateStreak,
+  todayDateString,
+  createLeitnerCard,
+  reviewLeitnerCard,
+  evaluateBadges,
+} from "./gamification.mjs";
 
 const PORT = process.env.PORT ? Number(process.env.PORT) : 8787;
 
@@ -64,19 +72,16 @@ function requireLangParam(url, res, validCodes, unknownLabel) {
   return lang;
 }
 
-async function handleContent(url, res) {
+function handleContent(url, res) {
   const lang = requireLangParam(url, res, LEARNING_LANGUAGE_CODES, "learning language");
   if (!lang) return;
 
-  if (lang === "sranantongo") {
-    // Stub learning language: route resolves, bundle is empty (see contract's
-    // "status": "stub" note on GET /languages).
-    sendJson(res, 200, { units: [], vocab: [] });
-    return;
-  }
-
-  const { contentBundle } = await loadContentModule();
-  sendJson(res, 200, contentBundle);
+  // getContentBundle always resolves here since `lang` was just validated
+  // against the same server/content/ directory listing it reads from — a
+  // stub learning language (e.g. sranantongo, no units/ or lessons/ authored
+  // yet) still gets a real bundle back, just with empty units/lessonContent
+  // (see contract's "status": "stub" note on GET /languages).
+  sendJson(res, 200, getContentBundle(lang));
 }
 
 function handleSettings(url, res) {
@@ -98,16 +103,15 @@ function handleLanguages(res) {
   });
 }
 
-async function getOrInitProgress() {
+function getOrInitProgress() {
   if (!progress) {
-    const { createInitialProgress } = await loadContentModule();
     progress = createInitialProgress();
   }
   return progress;
 }
 
-async function handleGetProgress(res) {
-  sendJson(res, 200, await getOrInitProgress());
+function handleGetProgress(res) {
+  sendJson(res, 200, getOrInitProgress());
 }
 
 async function handlePutProgress(req, res) {
@@ -127,9 +131,13 @@ function findLessonXpReward(contentBundle, lessonId) {
 
 async function handleLessonCompletion(req, res) {
   const result = await readJsonBody(req);
-  const current = await getOrInitProgress();
-  const { contentBundle, computeXpReward, updateStreak, todayDateString, createLeitnerCard, evaluateBadges } =
-    await loadContentModule();
+  const current = getOrInitProgress();
+  // Progress isn't lang-scoped (see api-contract.md's "Progress routes"
+  // section), and xpReward lookups have only ever needed the sarnami bundle
+  // in practice (the only learning language with real lesson structure so
+  // far) — matches the prior behavior of always resolving against the one
+  // bundle `loadContentModule()` used to produce.
+  const contentBundle = getContentBundle("sarnami");
 
   if (!result.passed) {
     sendJson(res, 200, current);
@@ -167,8 +175,7 @@ async function handleLessonCompletion(req, res) {
 
 async function handleReviewResult(req, res) {
   const { vocabId, correct } = await readJsonBody(req);
-  const current = await getOrInitProgress();
-  const { todayDateString, createLeitnerCard, reviewLeitnerCard, evaluateBadges } = await loadContentModule();
+  const current = getOrInitProgress();
 
   const today = todayDateString();
   const existing = current.leitnerBoxes[vocabId] ?? createLeitnerCard(today);
@@ -201,13 +208,13 @@ const server = http.createServer(async (req, res) => {
     if (req.method === "GET" && url.pathname === "/languages") {
       handleLanguages(res);
     } else if (req.method === "GET" && url.pathname === "/content") {
-      await handleContent(url, res);
+      handleContent(url, res);
     } else if (req.method === "GET" && url.pathname === "/settings") {
       handleSettings(url, res);
     } else if (req.method === "GET" && url.pathname === "/ui-strings") {
       handleUiStrings(url, res);
     } else if (req.method === "GET" && url.pathname === "/progress") {
-      await handleGetProgress(res);
+      handleGetProgress(res);
     } else if (req.method === "PUT" && url.pathname === "/progress") {
       await handlePutProgress(req, res);
     } else if (req.method === "POST" && url.pathname === "/progress/lesson-completion") {
@@ -223,6 +230,13 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, () => {
-  console.log(`Sarnami Bol Naa backend listening on http://localhost:${PORT}`);
-});
+// Only auto-listen when run directly (`node server.mjs` / `npm start`), not
+// when imported by the test suite (`server.test.mjs`), which starts its own
+// listener on an ephemeral port per test file.
+if (import.meta.url === `file://${process.argv[1]}`) {
+  server.listen(PORT, () => {
+    console.log(`Sarnami Bol Naa backend listening on http://localhost:${PORT}`);
+  });
+}
+
+export { server };

@@ -1,11 +1,11 @@
 import type { VocabItem } from "@/domain/types";
 
-// TODO(remove once /server's /content endpoint reads from server/content/
-// directly instead of bundling ../src/data): the source of truth for this
-// data is now server/content/sarnami/vocab/greetings.json (issue #30). This
-// file stays in place until server.mjs's content-serving logic is rewired
-// (issue #33) and the frontend's LocalJsonContentRepository offline fallback
-// is reconsidered.
+// This is the frontend's own local/offline fallback copy, used by
+// `LocalJsonContentRepository` when `VITE_API_BASE_URL` isn't set (see
+// `src/services/index.ts`) — not a duplicate kept for backend-bundling
+// purposes. `/server` now reads its own authored copy directly from
+// `server/content/sarnami/vocab/greetings.json` (issues #30/#33) instead of
+// bundling this file. Keep the two in sync by hand if this content changes.
 /**
  * Verified where possible against baatsiekh.nl's "Uitspraken" soundboard
  * (site spelling uses Dutch-style double vowels for length, e.g. aa/oo,
