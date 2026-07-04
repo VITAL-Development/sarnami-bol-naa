@@ -15,9 +15,60 @@ permissions:
 # a fresh npm ci in the install job and propagates to all downstream jobs.
 
 jobs:
+  # ── Detect functional (app) vs content-only changes ─────────────────────────
+  # Content data (vocab/unit text) doesn't affect app behavior, so pure content
+  # PRs skip unit-tests entirely rather than paying for a full test run.
+  changes:
+    name: Detect changed files
+    runs-on: ubuntu-latest
+    outputs:
+      app: ${{ steps.filter-src.outputs.app == 'true' || steps.filter-config.outputs.app == 'true' }}
+      ui: ${{ steps.filter-ui.outputs.ui }}
+    steps:
+      - uses: actions/checkout@v4
+      # Two separate filter steps because the negated (!...) exclusions below
+      # need predicate-quantifier: every (a file must match src/** AND not
+      # match either excluded dir) — mixing that with the unrelated root
+      # config patterns in one 'every' rule would mean no single file could
+      # ever satisfy all of them at once, so root config changes must live in
+      # their own default ('some' = OR) filter instead.
+      - uses: dorny/paths-filter@v3
+        id: filter-src
+        with:
+          predicate-quantifier: every
+          filters: |
+            app:
+              - 'src/**'
+              - '!src/data/vocab/**'
+              - '!src/data/units/**'
+      - uses: dorny/paths-filter@v3
+        id: filter-config
+        with:
+          filters: |
+            app:
+              - 'package.json'
+              - 'package-lock.json'
+              - 'vite.config.ts'
+              - 'tsconfig*.json'
+      # Narrower than 'app': only files that can actually move a pixel.
+      # A non-UI functional change (e.g. src/domain/leitner.ts) still runs
+      # unit-tests via the 'app' filter above but shouldn't pay for a full
+      # build + 5 Playwright visual jobs.
+      - uses: dorny/paths-filter@v3
+        id: filter-ui
+        with:
+          filters: |
+            ui:
+              - 'src/**/*.tsx'
+              - 'src/styles/**'
+              - 'tailwind.config.ts'
+              - 'index.html'
+              - 'public/**'
+
   # ── 0. Seed npm cache ───────────────────────────────────────────────────────
   install:
     name: Install dependencies
+    needs: changes
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -33,17 +84,21 @@ jobs:
       - name: Install
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
+      # Only needed by the visual-* jobs (gated on the 'ui' filter), so skip
+      # entirely on non-UI changes rather than paying for the Chromium
+      # install/OS deps setup every run.
       - name: Cache Playwright browsers
         id: pw-cache
+        if: needs.changes.outputs.ui == 'true'
         uses: actions/cache@v4
         with:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
       - name: Install Playwright Chromium
-        if: steps.pw-cache.outputs.cache-hit != 'true'
+        if: needs.changes.outputs.ui == 'true' && steps.pw-cache.outputs.cache-hit != 'true'
         run: npx playwright install chromium --with-deps
       - name: Install Playwright OS deps
-        if: steps.pw-cache.outputs.cache-hit == 'true'
+        if: needs.changes.outputs.ui == 'true' && steps.pw-cache.outputs.cache-hit == 'true'
         run: npx playwright install-deps chromium
 
   # ── 1. TypeScript typecheck ─────────────────────────────────────────────────
@@ -86,7 +141,8 @@ jobs:
   # ── 2. Unit tests ──────────────────────────────────────────────────────────
   unit-tests:
     name: "Check 2: Unit tests"
-    needs: install
+    needs: [install, changes]
+    if: needs.changes.outputs.app == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -130,7 +186,16 @@ jobs:
   # ── Build (gate for visual checks) ─────────────────────────────────────────
   build:
     name: Build
-    needs: [typecheck, unit-tests]
+    needs: [typecheck, unit-tests, changes]
+    # unit-tests is skipped (not failed) on content-only changes; treat that
+    # the same as success so the visual chain still runs. build itself only
+    # exists to feed the visual-* jobs, so skip it entirely when nothing
+    # UI-affecting changed (see the 'ui' filter in the changes job above).
+    if: |
+      always() &&
+      needs.typecheck.result == 'success' &&
+      (needs.unit-tests.result == 'success' || needs.unit-tests.result == 'skipped') &&
+      needs.changes.outputs.ui == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -154,6 +219,7 @@ jobs:
   visual-home:
     name: "Check 3: Home HUD icons"
     needs: build
+    if: always() && needs.build.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -201,6 +267,7 @@ jobs:
   visual-lesson-node:
     name: "Check 4: Lesson node states"
     needs: build
+    if: always() && needs.build.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -248,6 +315,7 @@ jobs:
   visual-lesson-summary:
     name: "Check 5: Lesson summary icons"
     needs: build
+    if: always() && needs.build.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -295,6 +363,7 @@ jobs:
   visual-nav:
     name: "Check 6: Bottom nav icons"
     needs: build
+    if: always() && needs.build.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -342,6 +411,7 @@ jobs:
   visual-profile:
     name: "Check 7: Profile badge icons"
     needs: build
+    if: always() && needs.build.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
