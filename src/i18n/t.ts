@@ -1,6 +1,10 @@
 import { strings } from "./strings.nl";
 
-type Strings = typeof strings;
+// Exported so the runtime UI-strings fetch (`UiStringsRepository`, see
+// src/services/uiStrings/) can be typed against the same shape as this
+// compile-time table — `GET /ui-strings?lang=` mirrors `strings.nl.ts`'s
+// structure exactly (see docs/api-contract.md).
+export type Strings = typeof strings;
 
 type DotPaths<T> = T extends object
   ? {

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import type { ContentBundle } from "@/domain/types";
 import { contentRepository } from "@/services";
+import { useLanguageSettings } from "@/state/LanguageSettingsContext";
 
 interface UseContentResult {
   bundle: ContentBundle | null;
@@ -9,14 +10,16 @@ interface UseContentResult {
 }
 
 export function useContent(): UseContentResult {
+  const { learningLanguage } = useLanguageSettings();
   const [bundle, setBundle] = useState<ContentBundle | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<Error | null>(null);
 
   useEffect(() => {
     let cancelled = false;
+    setIsLoading(true);
     contentRepository
-      .getContentBundle()
+      .getContentBundle(learningLanguage)
       .then((b) => {
         if (!cancelled) {
           setBundle(b);
@@ -32,7 +35,7 @@ export function useContent(): UseContentResult {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [learningLanguage]);
 
   return { bundle, isLoading, error };
 }

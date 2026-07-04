@@ -164,6 +164,31 @@ export interface ContentBundle {
   lessonContent: LessonContentBundle;
 }
 
+// Metadata *about* a learning language (romanization/diacritic rules,
+// alphabet, script direction, audio config) — distinct from the lesson/vocab
+// content itself. Shape matches `GET /settings?lang=` in
+// docs/api-contract.md exactly, since the server serves its on-disk
+// `language-settings.json` files verbatim.
+export interface LanguageSettings {
+  code: LearningLanguageCode;
+  displayName: string;
+  scriptDirection: "ltr" | "rtl";
+  romanization: {
+    scheme: string;
+    diacritics: { char: string; description: string }[];
+    notes: string;
+  };
+  alphabet: {
+    vowels: string[];
+    consonants: string[];
+  };
+  audio: {
+    baseUrl: string;
+    format: string;
+    voice: string;
+  };
+}
+
 export interface Badge {
   id: string;
   title: string;
