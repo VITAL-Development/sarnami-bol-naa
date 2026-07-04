@@ -3,14 +3,42 @@
     "id": "srn-greet-odi",
     "sarnami": "Odi",
     "translations": { "nl": "hallo" },
-    "tags": ["greeting", "stub"],
-    "notes": "Placeholder entry proving the sranantongo content namespace — not yet verified against a source. Full Sranan Tongo vocabulary authoring is out of scope for issue #30."
+    "tags": ["greeting", "web-verified"],
+    "notes": "Common informal greeting, borrowed from English 'howdy'. Confirmed across multiple independent phrasebook sources (Wikivoyage's Sranan phrasebook, Wikitravel's Sranan phrasebook, kaikki.org's Sranan Tongo dictionary) as 'greetings / good day', used on its own or extended as 'Odi, mastra/misi'."
   },
   {
     "id": "srn-greet-fa-waka",
     "sarnami": "Fa waka?",
     "translations": { "nl": "hoe gaat het?" },
-    "tags": ["greeting", "stub"],
-    "notes": "Placeholder entry proving the sranantongo content namespace — not yet verified against a source. Full Sranan Tongo vocabulary authoring is out of scope for issue #30."
+    "tags": ["greeting", "web-verified"],
+    "notes": "Literally 'how('s your) walk?' — a very common casual way of asking how someone is doing. Confirmed in Wikivoyage's and Wikitravel's Sranan phrasebooks."
+  },
+  {
+    "id": "srn-greet-fa-yu-tan",
+    "sarnami": "Fa yu tan?",
+    "translations": { "nl": "hoe gaat het (met jou)?" },
+    "tags": ["greeting", "web-verified"],
+    "notes": "Literally 'how do you stay/be?' — a more neutral, slightly less colloquial way of asking how someone is doing than 'Fa waka?', the two being roughly interchangeable register variants. Confirmed in Wikivoyage's Sranan phrasebook and the Peace Corps Sranan Tongo pre-departure training materials."
+  },
+  {
+    "id": "srn-greet-mi-bun",
+    "sarnami": "Mi bun",
+    "translations": { "nl": "het gaat goed / ik ben goed" },
+    "tags": ["greeting", "web-verified"],
+    "notes": "Standard reply to 'Fa waka?' / 'Fa yu tan?'. Confirmed in Wikitravel's and Wikivoyage's Sranan phrasebooks; a fuller variant 'Mi de bun' ('I am well') is also attested with the same meaning."
+  },
+  {
+    "id": "srn-greet-tangi",
+    "sarnami": "Tangi",
+    "translations": { "nl": "dank je / bedankt" },
+    "tags": ["greeting", "web-verified"],
+    "notes": "Everyday, informal 'thanks'. Confirmed via the Glosbe Sranan Tongo–English dictionary entry ('tangi' = gratitude / thank / thanks) and the Wikitravel/Wikivoyage phrasebooks, which list the fuller 'Gran tangi' as the more formal counterpart."
+  },
+  {
+    "id": "srn-greet-grantangi",
+    "sarnami": "Gran tangi",
+    "translations": { "nl": "hartelijk dank" },
+    "tags": ["greeting", "web-verified"],
+    "notes": "Literally 'big thanks' — the more formal/emphatic counterpart to plain 'Tangi', used the way Sarnami distinguishes the casual 'Rām Rām' from the more formal 'Pranām'. Confirmed in both the Wikitravel and Wikivoyage Sranan phrasebooks."
   }
 ]

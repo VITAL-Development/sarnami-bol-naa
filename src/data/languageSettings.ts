@@ -40,20 +40,26 @@ const sarnamiLanguageSettings: LanguageSettings = {
   },
 };
 
-// Sranan Tongo is a stub learning language locally too (no lesson content
-// bundled in src/data), matching the server's stub `/settings` response —
-// see docs/api-contract.md.
+// Sranan Tongo has no lesson content bundled in src/data (local/offline mode
+// only ever falls back to the Sarnami content bundle — see
+// LocalJsonContentRepository's warnIfUnsupported); real Sranan Tongo lesson
+// content lives server-side only, under server/content/sranantongo/ (issue
+// #37). These settings are kept in sync by hand with
+// server/settings/sranantongo/language-settings.json.
 const sranantongoLanguageSettings: LanguageSettings = {
   code: "sranantongo",
   displayName: "Sranan Tongo",
   scriptDirection: "ltr",
   romanization: {
-    scheme: "",
+    scheme: "Plain Dutch-derived Latin orthography",
     diacritics: [],
     notes:
-      "Stub — Sranan Tongo settings have not been fully authored yet. Unlike Sarnami, Sranan Tongo does NOT use macron (ā/ī/ū) or underdot (ṭ/ḍ/ṇ) diacritics; it is written in plain Dutch-derived Latin orthography.",
+      "Unlike Sarnami, Sranan Tongo does NOT use macron (ā/ī/ū) or underdot (ṭ/ḍ/ṇ) diacritics; it is written with the plain, unaccented Latin alphabet (confirmed by every loanword the Sarnami grammar attributes to Sranan Tongo — see docs/byakaran/00-introduction.md and docs/byakaran/09-loan-words-and-neologisms.md), so this list is intentionally empty rather than mirroring Sarnami's.",
   },
-  alphabet: { vowels: [], consonants: [] },
+  alphabet: {
+    vowels: ["a", "e", "i", "o", "u"],
+    consonants: ["b", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "v", "w", "y"],
+  },
   audio: {
     baseUrl: "/audio/sranantongo/",
     format: "mp3",

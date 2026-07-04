@@ -13,7 +13,7 @@ import {
   SETTINGS_BY_LANGUAGE,
   UI_STRINGS_BY_LANGUAGE,
 } from "./stub-data.mjs";
-import { getContentBundle } from "./content.mjs";
+import { getContentBundle, listLearningLanguageCodes } from "./content.mjs";
 import {
   createInitialProgress,
   computeXpReward,
@@ -78,9 +78,11 @@ function handleContent(url, res) {
 
   // getContentBundle always resolves here since `lang` was just validated
   // against the same server/content/ directory listing it reads from — a
-  // stub learning language (e.g. sranantongo, no units/ or lessons/ authored
-  // yet) still gets a real bundle back, just with empty units/lessonContent
-  // (see contract's "status": "stub" note on GET /languages).
+  // stub learning language (no units/ or lessons/ authored yet) still gets
+  // a real bundle back, just with empty units/lessonContent (see contract's
+  // "status": "stub" note on GET /languages). Every currently-registered
+  // learning language has real content (sranantongo since issue #37), but
+  // this path stays generic for whatever's added next.
   sendJson(res, 200, getContentBundle(lang));
 }
 
@@ -120,11 +122,21 @@ async function handlePutProgress(req, res) {
   sendNoContent(res);
 }
 
-/** Finds a lesson's xpReward across all units in the real content bundle, if any. */
-function findLessonXpReward(contentBundle, lessonId) {
-  for (const unit of contentBundle.units) {
-    const lesson = unit.lessons.find((l) => l.id === lessonId);
-    if (lesson) return lesson.xpReward;
+/**
+ * Finds a lesson's xpReward by id across every learning language's content
+ * bundle. Progress isn't lang-scoped (see api-contract.md's "Progress
+ * routes" section) and `LessonResult` carries no learning-language code, so
+ * this can't just resolve against a single hardcoded bundle now that more
+ * than one learning language has real lesson structure (issue #37 added
+ * Sranantongo's) — lesson ids are expected to be unique across languages.
+ */
+function findLessonXpReward(lessonId) {
+  for (const langCode of listLearningLanguageCodes()) {
+    const contentBundle = getContentBundle(langCode);
+    for (const unit of contentBundle.units) {
+      const lesson = unit.lessons.find((l) => l.id === lessonId);
+      if (lesson) return lesson.xpReward;
+    }
   }
   return undefined;
 }
@@ -132,12 +144,6 @@ function findLessonXpReward(contentBundle, lessonId) {
 async function handleLessonCompletion(req, res) {
   const result = await readJsonBody(req);
   const current = getOrInitProgress();
-  // Progress isn't lang-scoped (see api-contract.md's "Progress routes"
-  // section), and xpReward lookups have only ever needed the sarnami bundle
-  // in practice (the only learning language with real lesson structure so
-  // far) — matches the prior behavior of always resolving against the one
-  // bundle `loadContentModule()` used to produce.
-  const contentBundle = getContentBundle("sarnami");
 
   if (!result.passed) {
     sendJson(res, 200, current);
@@ -145,7 +151,7 @@ async function handleLessonCompletion(req, res) {
   }
 
   const today = todayDateString();
-  const baseXp = findLessonXpReward(contentBundle, result.lessonId) ?? 10;
+  const baseXp = findLessonXpReward(result.lessonId) ?? 10;
   const xpEarned = computeXpReward(baseXp, result.mistakeCount);
 
   const leitnerBoxes = { ...current.leitnerBoxes };

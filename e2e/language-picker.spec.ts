@@ -5,11 +5,13 @@ import { test, expect } from "@playwright/test";
 // playwright.config.ts's `vite preview`), so it exercises
 // LocalJsonContentRepository — which always serves the bundled Sarnami
 // content regardless of the selected learning language (see
-// src/services/index.ts / LocalJsonContentRepository.ts). That means this
+// src/services/index.ts / LocalJsonContentRepository.ts), since Sranan
+// Tongo's real content (added in issue #37) lives server-side only and
+// isn't bundled into the frontend's local/offline fallback. That means this
 // suite can't assert a visible *content* change end-to-end (that's verified
 // manually against a real backend, see PR description) — it asserts the
-// picker itself is visible/functional and that switching to the
-// currently-stub Sranantongo language doesn't crash the app.
+// picker itself is visible/functional and that switching to Sranantongo
+// doesn't crash the app.
 test("Language picker: visible in header, lists both learning languages, switching doesn't crash", async ({
   page,
 }) => {

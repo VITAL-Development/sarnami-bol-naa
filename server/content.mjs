@@ -22,9 +22,13 @@
 //                    `kind` field — `kind` already lives on the matching
 //                    `LessonExercise` in `units/*.json`.
 //
-// A learning language with no `units/` directory (currently `sranantongo`)
-// is a documented stub: its bundle is `{ units: [], vocab: <its own vocab>,
-// lessonContent: <empty> }`, matching the contract's "stub" status.
+// A learning language with no `units/` directory would be a documented stub:
+// its bundle is `{ units: [], vocab: <its own vocab>, lessonContent: <empty>
+// }`, matching the contract's "stub" status. `sranantongo` was this shape
+// until issue #37 added its first real unit/lesson (the language-split
+// architecture's end-to-end smoke test) — every registered learning
+// language currently has real content, but the stub shape is still
+// supported for whatever the next one is.
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
