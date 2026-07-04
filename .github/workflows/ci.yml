@@ -442,18 +442,43 @@ jobs:
               const tr = JSON.parse(fs.readFileSync(trPath, 'utf8'));
               const suites = tr.testResults || [];
               const cwd = suites[0]?.name?.replace(/\/src\/.*/, '') || '';
-              body += '\n### Unit Test Details\n';
-              for (const suite of suites) {
+
+              const rows = suites.map(suite => {
                 const rel = suite.name.replace(cwd + '/', '');
-                body += '\n#### ' + rel + '\n\n';
-                body += '| Suite | Test | ms | |\n';
-                body += '|-------|------|----|--|\n';
-                for (const t of (suite.assertionResults || [])) {
+                const assertions = suite.assertionResults || [];
+                const passed = assertions.filter(t => t.status === 'passed').length;
+                const failed = assertions.filter(t => t.status !== 'passed').length;
+                const duration = assertions.reduce((sum, t) => sum + (t.duration || 0), 0);
+                const failing = assertions.filter(t => t.status !== 'passed');
+                return { rel, passed, failed, total: assertions.length, duration, failing };
+              });
+
+              const totals = rows.reduce((acc, r) => ({
+                passed: acc.passed + r.passed,
+                failed: acc.failed + r.failed,
+                total: acc.total + r.total,
+                duration: acc.duration + r.duration,
+              }), { passed: 0, failed: 0, total: 0, duration: 0 });
+
+              body += '\n### Unit Test Details\n\n';
+              body += '| Suite | Passed | Failed | Tests | Duration |\n';
+              body += '|-------|-------:|-------:|------:|---------:|\n';
+              for (const r of rows) {
+                body += '| ' + r.rel + ' | ' + r.passed + ' | ' + r.failed + ' | ' + r.total + ' | ' + Math.round(r.duration) + ' ms |\n';
+              }
+              body += '| **Total** | **' + totals.passed + '** | **' + totals.failed + '** | **' + totals.total + '** | **' + Math.round(totals.duration) + ' ms** |\n';
+
+              for (const r of rows) {
+                if (r.failing.length === 0) continue;
+                body += '\n<details>\n<summary>❌ ' + r.rel + ' — ' + r.failing.length + ' failing test(s)</summary>\n\n';
+                for (const t of r.failing) {
                   const suiteName = (t.ancestorTitles || []).join(' › ') || '—';
-                  const status = t.status === 'passed' ? '✅' : '❌';
-                  const dur = t.duration != null ? Math.round(t.duration) : '—';
-                  body += '| ' + suiteName + ' | ' + t.title + ' | ' + dur + ' | ' + status + ' |\n';
+                  body += '- **' + suiteName + ' › ' + t.title + '**\n';
+                  for (const msg of (t.failureMessages || [])) {
+                    body += '  ```\n  ' + msg.split('\n').join('\n  ') + '\n  ```\n';
+                  }
                 }
+                body += '\n</details>\n';
               }
             }
 
