@@ -22,18 +22,37 @@ which:
 - supports mounting per-language content/settings via `CONTENT_DIR`/
   `SETTINGS_DIR` env vars, reading fresh per-request rather than caching at
   process start (`rarelang-server` issue #5), and
-- is meant to source **this repo's** `content/sarnami/`/`settings/sarnami/`
-  live via a git-sync sidecar + named Docker volume — no copy baked into
-  the server's image, no host-level cron (`rarelang-server` issue #7,
-  closed) — with this repo's side of that wiring tracked in issue #76.
+- sources **this repo's** `content/sarnami/`/`settings/sarnami/` live via a
+  git-sync sidecar + named Docker volume, defined in
+  [`rarelang-server`'s `docker-compose.yml`](https://github.com/VITAL-Development/rarelang-server/blob/main/docker-compose.yml) —
+  no copy baked into the server's image, no host-level cron/systemd unit
+  anywhere (`rarelang-server` issue #7). See that repo's README section
+  [Volume-mount content/settings](https://github.com/VITAL-Development/rarelang-server#volume-mount-contentsettings-issue-5)
+  for the full mechanism and both supported approaches (the recommended
+  git-sync sidecar, and a plain host bind-mount alternative).
 
-See `rarelang-server`'s own README for the current, authoritative
-`docker run`/`docker compose` instructions.
+This repo's `content/sarnami/`/`settings/sarnami/` layout (repo root, per
+issue #64) is confirmed compatible with that compose setup with **zero
+path translation**: `docker-compose.yml`'s `GITSYNC_LINK: repo` plus
+`CONTENT_DIR: /data/repo/content`/`SETTINGS_DIR: /data/repo/settings`
+resolve directly to this repo's own `content/`/`settings/` once git-sync
+clones `main` into the shared volume — no repo-specific renaming or
+directory shuffling needed on either side (issue #76). This was verified
+end-to-end with a real `docker compose` run (git-sync sidecar syncing a
+local checkout of this repo's current `main` into a named volume,
+`rarelang-server` reading from it read-only): `GET /languages` and
+`GET /content?lang=sarnami` returned this repo's real unit/vocab data, and
+a follow-up commit synced by the sidecar (container restart only, not
+`rarelang-server`) was reflected on the next request with no
+`rarelang-server` restart.
 
 ## What this repo still owns
 
-Just making sure content changes here (`content/sarnami/`, `settings/sarnami/`)
-actually reach a running `rarelang-server` instance — that's issue #76,
-still open. Until it lands, picking up a content change in this repo
-requires manually re-syncing/restarting whatever `rarelang-server`
-deployment you're running against.
+Nothing beyond being a normal, publicly syncable git repo with the right
+on-disk shape (`content/sarnami/`, `settings/sarnami/`) — the sync
+mechanism itself (git-sync sidecar, named volume, compose config) lives
+entirely in `rarelang-server` (issue #76, closed). A content change here
+reaches a running `rarelang-server` instance automatically on the sidecar's
+sync interval (`GITSYNC_PERIOD`, 5 minutes in the reference compose file)
+once `main` is updated — no manual re-sync, no `rarelang-server` rebuild or
+restart.
