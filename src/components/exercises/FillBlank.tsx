@@ -35,7 +35,7 @@ export function FillBlank({ exercise, contentById, onAnswer }: ExerciseComponent
       <p className="mb-1 text-sm text-stone-500">{content.translations.nl}</p>
       <h2 className="mb-4 text-xl font-semibold">
         {before}
-        <span className="mx-1 rounded bg-sarnami-50 px-3 py-1 text-sarnami-700">
+        <span className="mx-1 rounded bg-forest-50 px-3 py-1 text-forest-700">
           {selected ?? "___"}
         </span>
         {after}
@@ -48,7 +48,7 @@ export function FillBlank({ exercise, contentById, onAnswer }: ExerciseComponent
             disabled={checked}
             onClick={() => setSelected(option)}
             className={`rounded-xl border-2 px-4 py-2 ${
-              selected === option ? "border-sarnami-500 bg-sarnami-50" : "border-stone-200"
+              selected === option ? "border-forest-500 bg-forest-50" : "border-stone-200"
             }`}
           >
             {option}

@@ -89,7 +89,7 @@ function LessonRunner({
       <div className="mb-4 flex items-center justify-between">
         <div className="h-2 flex-1 overflow-hidden rounded-full bg-stone-100">
           <div
-            className="h-full bg-sarnami-500 transition-all"
+            className="h-full bg-forest-500 transition-all"
             style={{ width: `${session.progressFraction * 100}%` }}
           />
         </div>

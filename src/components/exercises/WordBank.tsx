@@ -59,7 +59,7 @@ export function WordBank({ exercise, contentById, onAnswer }: ExerciseComponentP
             type="button"
             disabled={checked}
             onClick={() => toggleToken(usedIndices[i])}
-            className="min-h-[44px] rounded-xl bg-sarnami-100 px-3 py-1 text-sarnami-700 active:opacity-75"
+            className="min-h-[44px] rounded-xl bg-forest-100 px-3 py-1 text-forest-700 active:opacity-75"
           >
             {token}
           </button>

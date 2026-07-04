@@ -1,37 +1,50 @@
 import type { Config } from "tailwindcss";
 
+// Builds a Tailwind color entry that reads its RGB triplet from a CSS custom
+// property (defined in src/styles/index.css) instead of a hardcoded hex
+// value. The `rgb(var(...) / <alpha-value>)` form preserves support for
+// Tailwind's opacity modifiers (e.g. `bg-forest-500/50`).
+//
+// This is prep for #62: a future runtime-branding mechanism can override the
+// `--color-*` custom properties per learning-language/brand without a
+// rebuild — the config itself no longer needs to change.
+function themeColor(name: string): string {
+  return `rgb(var(--color-${name}) / <alpha-value>)`;
+}
+
 export default {
   content: ["./index.html", "./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
       colors: {
-        // Suriname flag colours
+        // Suriname flag colours — values defined as CSS custom properties
+        // in src/styles/index.css
         forest: {
-          50: "#f0f7f1",
-          100: "#d4ebd5",
-          200: "#aad5ac",
-          400: "#5aad60",
-          500: "#3d8e43",
-          600: "#377E3F", // flag green (primary interactive)
-          700: "#2a6131",
+          50: themeColor("forest-50"),
+          100: themeColor("forest-100"),
+          200: themeColor("forest-200"),
+          400: themeColor("forest-400"),
+          500: themeColor("forest-500"),
+          600: themeColor("forest-600"), // flag green (primary interactive)
+          700: themeColor("forest-700"),
         },
         flame: {
-          400: "#e05070",
-          500: "#c8102e",
-          600: "#B40A2D", // flag red (hearts / danger)
-          700: "#8f071f",
+          400: themeColor("flame-400"),
+          500: themeColor("flame-500"),
+          600: themeColor("flame-600"), // flag red (hearts / danger)
+          700: themeColor("flame-700"),
         },
         gold: {
-          100: "#fdf5c2",
-          300: "#f5dc6a",
-          400: "#ECC81D", // flag yellow (XP / streaks / stars)
-          500: "#d4b019",
-          600: "#b89200",
+          100: themeColor("gold-100"),
+          300: themeColor("gold-300"),
+          400: themeColor("gold-400"), // flag yellow (XP / streaks / stars)
+          500: themeColor("gold-500"),
+          600: themeColor("gold-600"),
         },
         // Warm cream — retained from original design
         cream: {
-          50: "#fdf6ec",
-          100: "#f8e8c8",
+          50: themeColor("cream-50"),
+          100: themeColor("cream-100"),
         },
       },
     },
