@@ -1,0 +1,19 @@
+{
+  "code": "sranantongo",
+  "displayName": "Sranan Tongo",
+  "scriptDirection": "ltr",
+  "romanization": {
+    "scheme": "",
+    "diacritics": [],
+    "notes": "Stub — Sranan Tongo settings have not been fully authored yet. Unlike Sarnami, Sranan Tongo does NOT use macron (ā/ī/ū) or underdot (ṭ/ḍ/ṇ) diacritics; it is written in plain Dutch-derived Latin orthography, so its romanization/diacritic set is expected to stay empty rather than mirror Sarnami's."
+  },
+  "alphabet": {
+    "vowels": [],
+    "consonants": []
+  },
+  "audio": {
+    "baseUrl": "/audio/sranantongo/",
+    "format": "mp3",
+    "voice": "single-speaker-tts"
+  }
+}
