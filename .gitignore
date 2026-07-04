@@ -8,3 +8,8 @@ playwright-report/
 e2e/test-results/
 test-results.json
 .claude/
+
+# Nested standalone git repo (see server/README.md) — not a submodule,
+# fully ignored here so the outer repo doesn't track its contents or
+# walk into its own .git.
+server/
