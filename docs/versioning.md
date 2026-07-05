@@ -1,7 +1,7 @@
 # Versioning policy
 
 This repo publishes Sarnami's content and settings (`content/sarnami/`,
-`settings/sarnami/`) as a live source for `rarelang-server`, which syncs it
+`settings/sarnami/`) as a live source for the consuming server, which syncs it
 via a git-sync sidecar (see [issue #76](https://github.com/VITAL-Development/sarnami-bol-naa/issues/76)
 and `docs/deployment.md`). Because a running server reads these files
 directly, a change to their **shape** can break a deployment that expects
@@ -17,8 +17,8 @@ Releases are marked with **annotated, SemVer git tags** of the form
 **The git tag is the single source of truth for "what version is this?"**
 There is deliberately no `VERSION` file and no `package.json` version field:
 
-- This repo has no `package.json` anymore — the app was extracted to
-  `rarelang-pwa`/`rarelang-server` in issue #64, so there is nothing that
+- This repo has no `package.json` anymore — the app was extracted into
+  separate engine repos in issue #64, so there is nothing that
   reads a `version` field. A `VERSION` file would be a second thing to keep
   in sync with the tag and would inevitably drift.
 - git-sync (the consumer's sync mechanism) already speaks refs natively — it
@@ -32,12 +32,12 @@ a stable target for a production deployment.
 ### What each part means
 
 Given `content/sarnami/**` and `settings/sarnami/language-settings.json`,
-and the fact that `rarelang-server`'s `content.mjs`/`stub-data.mjs` parse
-these files and serve them over the HTTP contract in `docs/api-contract.md`:
+and the fact that the consuming server parses
+these files and serves them over its HTTP content contract:
 
 | Bump | When | Consumer impact |
 |---|---|---|
-| **MAJOR** (`1.x.x` → `2.0.0`) | A **breaking** schema/shape change (see below). | A server on the old version may fail to parse or serve content. Requires a coordinated `rarelang-server` upgrade. |
+| **MAJOR** (`1.x.x` → `2.0.0`) | A **breaking** schema/shape change (see below). | A server on the old version may fail to parse or serve content. Requires a coordinated server upgrade. |
 | **MINOR** (`1.3.x` → `1.4.0`) | **Additive** content or schema — new vocab/units/lessons, or a new *optional* field. | Safe. Old consumers ignore what they don't read; new content simply appears. |
 | **PATCH** (`1.4.0` → `1.4.1`) | **Content fixes** that don't change shape — spelling/diacritic corrections, translation fixes, fixing a dangling `*Ref`, note edits. | Safe. Same shape, corrected values. |
 
@@ -46,14 +46,14 @@ bump as the "may break" signal until the first `v1.0.0` is cut.
 
 ## BREAKING vs NON-BREAKING — precise definitions
 
-"Breaking" is defined **relative to what `rarelang-server` reads**, not to
-any internal convenience. The authoritative shape is the HTTP contract in
-`docs/api-contract.md` (`GET /content`, `GET /settings`); the on-disk files
+"Breaking" is defined **relative to what the consuming server reads**, not to
+any internal convenience. The authoritative shape is the server's HTTP
+content contract (`GET /content`, `GET /settings`); the on-disk files
 below are the source those responses are built from.
 
 ### BREAKING (MAJOR)
 
-A change is breaking if a `rarelang-server` build that predates it could
+A change is breaking if a server build that predates it could
 fail to parse the files, serve malformed responses, or violate the
 referential integrity the frontend relies on. Concretely:
 
@@ -80,8 +80,8 @@ referential integrity the frontend relies on. Concretely:
 - **Changing the on-disk layout** — renaming/moving `content/sarnami/` or
   `settings/sarnami/`, changing the `{vocab,units,lessons}` subdirectory
   names, or changing the language code segment (`sarnami`). These are wired
-  to `rarelang-server`'s `CONTENT_DIR`/`SETTINGS_DIR` mounts (see
-  `docs/deployment.md`); moving them silently empties a deployment.
+  to the server's `CONTENT_DIR`/`SETTINGS_DIR` mounts (see the deployment
+  section below); moving them silently empties a deployment.
 
 ### NON-BREAKING — additive (MINOR)
 
@@ -120,18 +120,18 @@ When a single release mixes levels, take the **highest** applicable bump
    git tag -a vX.Y.Z -m "vX.Y.Z — <one-line summary>"
    git push origin vX.Y.Z
    ```
-4. A MAJOR release should be coordinated with `rarelang-server` (open/link an
-   issue there) before any deployment repins to it.
+4. A MAJOR release should be coordinated with the consuming server (open/link
+   an issue there) before any deployment repins to it.
 
 ## How a git-sync deployment pins and upgrades
 
-> Out of scope for this repo: `rarelang-server`'s git-sync implementation
+> Out of scope for this repo: the server's git-sync implementation
 > itself. This section documents how an *operator deploying it* pins to a
 > version — a deployment-config choice, no code change required.
 
-The reference `docker-compose.yml` in `rarelang-server` (issue #76) runs a
+The reference `docker-compose.yml` for the server (issue #76) runs a
 git-sync sidecar that clones this repo into a shared volume, which
-`rarelang-server` mounts read-only via `CONTENT_DIR`/`SETTINGS_DIR`. By
+the server mounts read-only via `CONTENT_DIR`/`SETTINGS_DIR`. By
 default the sidecar tracks the `main` branch — so it picks up every commit,
 including a breaking one, on its next sync interval.
 
@@ -150,8 +150,8 @@ instead of `main`:**
    the target tag; note any MAJOR bump.
 2. For a MINOR/PATCH upgrade, bump `GITSYNC_REF` to the new tag and let the
    sidecar re-sync (restart the sidecar, or wait for `GITSYNC_PERIOD`). No
-   `rarelang-server` restart needed — it reads fresh per request.
-3. For a MAJOR upgrade, first confirm the running `rarelang-server` build
+   server restart needed — it reads fresh per request.
+3. For a MAJOR upgrade, first confirm the running server build
    understands the new shape (per the coordinated release above), then repin.
 
 A deployment that deliberately wants continuous delivery of Sarnami content

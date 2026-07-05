@@ -1,25 +1,9 @@
 # Sarnami Bol Naa
 
 Content and branding package for **Sarnami** — a Bhojpuri-derived language
-spoken in Suriname — as taught by the [rarelang](https://github.com/VITAL-Development/rarelang-pwa)
-platform's generic learning engine.
-
-## What this repo is (and isn't)
-
-This repo used to be the whole app: a React/TypeScript PWA plus its
-content. As of issue #64 (part of the [rarelang rebrand roadmap](https://github.com/VITAL-Development/sarnami-bol-naa/issues/52)),
-the generic engine code has been extracted into two standalone repos:
-
-- **[`rarelang-pwa`](https://github.com/VITAL-Development/rarelang-pwa)** — the generic frontend engine (routing, exercise components, spaced repetition, gamification). No content or branding of its own.
-- **[`rarelang-server`](https://github.com/VITAL-Development/rarelang-server)** — the generic backend engine (serves content/settings/progress over HTTP).
-
-This repo is what's left: the actual Sarnami vocabulary, lessons, and
-per-language settings (`content/`, `settings/`), the app's branding (colors,
-icons, app name — via `settings/sarnami/language-settings.json`'s
-`branding` field), and the grammar-reference material the content was
-authored from (`authored_docs/byakaran/`). There is no build here, no `npm run dev`
-serving an app, and no deploy pipeline — those all now live with the
-generic engines.
+spoken in Suriname — as taught by a generic language-learning engine. This
+repo holds only the Sarnami content, per-language settings, and branding; the
+application code and build pipeline live elsewhere.
 
 ## Layout
 
@@ -46,10 +30,9 @@ scripts/
                           # `npm run generate-icons`)
 ```
 
-The on-disk shape under `content/`/`settings/` exactly mirrors what
-`rarelang-server` expects to mount via its `CONTENT_DIR`/`SETTINGS_DIR` env
-vars — see [rarelang-server's README](https://github.com/VITAL-Development/rarelang-server#content)
-and [issue #76](https://github.com/VITAL-Development/sarnami-bol-naa/issues/76)
+The on-disk shape under `content/`/`settings/` exactly mirrors what the
+consuming server expects to mount via its `CONTENT_DIR`/`SETTINGS_DIR` env
+vars — see [issue #76](https://github.com/VITAL-Development/sarnami-bol-naa/issues/76)
 for how this repo gets wired up as a live content source (a git-sync
 sidecar, not a copy baked into the server's Docker image).
 
@@ -69,7 +52,7 @@ marks entries not yet cross-checked against a second source.
 
 Colors are derived from the Suriname flag; see `settings/sarnami/language-settings.json`'s
 `branding.colors` for the actual RGB-triplet values consumed at runtime by
-`rarelang-pwa`'s theming (`useBranding.ts`). Regenerate the PWA icon set
+the frontend app's theming. Regenerate the PWA icon set
 after any design change with:
 
 ```bash
@@ -83,7 +66,7 @@ Releases are marked with SemVer git tags (`vX.Y.Z`) cut on `main`; the tag —
 not any file — is the source of truth for "what version is this". See
 [`docs/versioning.md`](docs/versioning.md) for the scheme, the precise
 definition of a **breaking** vs additive content/schema change, and how a
-`rarelang-server` git-sync deployment pins to a tag instead of tracking
+git-sync deployment pins to a tag instead of tracking
 `main`. Content/schema changes per release are recorded in
 [`CHANGELOG.md`](CHANGELOG.md).
 
@@ -91,6 +74,6 @@ definition of a **breaking** vs additive content/schema change, and how a
 
 This repo's git history predates the rebrand — it includes the original
 app's full development (content authoring, the frontend/backend split,
-the `rarelang-pwa`/`rarelang-server` extractions) even though that engine
-code no longer lives here. `git log` on any now-removed path (e.g. `src/`)
-still resolves to its original history.
+and the extraction of the generic engine into separate repos) even though
+that engine code no longer lives here. `git log` on any now-removed path
+(e.g. `src/`) still resolves to its original history.

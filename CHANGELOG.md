@@ -9,7 +9,7 @@ precise definition of what counts as a **breaking** (MAJOR) vs additive
 (MINOR) vs fix (PATCH) change.
 
 This log tracks **content and schema-relevant** changes — anything a
-`rarelang-server` consumer syncing this repo would care about (new/changed
+consuming server syncing this repo would care about (new/changed
 vocab, units, lessons, or `language-settings.json` shape). Pure grammar-doc
 or tooling edits that don't affect served content need not appear.
 
@@ -24,7 +24,7 @@ which point they move under a dated `## [X.Y.Z]` heading.
 ### Added
 
 - Grammar content (`content/sarnami/grammar/grammar.json`) for
-  rarelang-server's `GET /grammar` endpoint (rarelang-server#14/#17).
+  the consuming server's `GET /grammar` endpoint.
 - Versioning policy (`docs/versioning.md`): SemVer via annotated git tags as
   the source of truth, breaking/non-breaking definitions tied to the on-disk
   content/settings schema, and how a git-sync deployment (issue #76) pins to
