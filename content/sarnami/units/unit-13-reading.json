@@ -1,0 +1,49 @@
+{
+  "id": "unit-13-reading",
+  "title": "Lezen: teksten & fabels",
+  "description": "Gegradeerd leesbegrip over de fabels en teksten uit de bijlagen.",
+  "order": 14,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/11-texts.md",
+  "lessons": [
+    {
+      "id": "unit-13-reading-text-1",
+      "unitId": "unit-13-reading",
+      "order": 1,
+      "title": "Tekst 1",
+      "description": "Eerste leestekst met begripsvragen.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-13-reading-text-2",
+      "unitId": "unit-13-reading",
+      "order": 2,
+      "title": "Tekst 2",
+      "description": "Tweede leestekst met begripsvragen.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-13-reading-text-3",
+      "unitId": "unit-13-reading",
+      "order": 3,
+      "title": "Tekst 3",
+      "description": "Derde leestekst met begripsvragen.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-13-reading-review",
+      "unitId": "unit-13-reading",
+      "order": 4,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 15
+    }
+  ]
+}
