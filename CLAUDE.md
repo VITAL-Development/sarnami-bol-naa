@@ -25,12 +25,14 @@ repo, if you need it.
 ```
 content/sarnami/{vocab,units,lessons}/*.json   # authored knowledge base
 settings/sarnami/language-settings.json        # romanization/alphabet/audio + branding
-docs/byakaran/*.md                             # grammar reference content was authored from
-docs/api-contract.md                           # HTTP contract rarelang-server implements
-docs/deployment.md                             # current deployment story (see that file)
+authored_docs/byakaran/*.md                    # grammar reference content was authored from
 docs/versioning.md                             # release/versioning policy (see below)
 CHANGELOG.md                                   # content/schema changes per release
 ```
+
+The HTTP API contract and deployment topology are **not** in this public
+content repo — they're integration internals of the private rarelang stack,
+maintained in `rarelang-server` (issue #83).
 
 ## Versioning
 
@@ -54,7 +56,7 @@ Sarnami romanization uses diacritics (ā/ī/ū macrons, ṭ/ḍ/ṇ underdots, �
 that `pdftotext` and similar raw text extraction commonly corrupt or drop
 (e.g. ā → ä, or the diacritic vanishing entirely). Don't trust extracted
 text from book-source PDFs directly — verify spellings against rendered
-page images. See `docs/byakaran/01-sounds.md` for the full sound inventory.
+page images. See `authored_docs/byakaran/01-sounds.md` for the full sound inventory.
 
 Vocab entries sourced from the book carry `book-pNN` tags for traceability;
 entries not yet cross-checked against a second source carry
@@ -77,7 +79,8 @@ this repo in issue #81) — regenerate/redesign it there, not here.
 
 ## Deployment
 
-There's no build/deploy pipeline in this repo. See `docs/deployment.md` for
-the current story: `rarelang-pwa` is built/deployed independently, and this
-repo's content reaches `rarelang-server` via a git-sync sidecar (see
-issue #76 and rarelang-server's own docs), not a copy baked into any image.
+There's no build/deploy pipeline in this repo. `rarelang-pwa` is
+built/deployed independently, and this repo's content reaches
+`rarelang-server` via a git-sync sidecar (see issue #76 and
+`rarelang-server`'s own docs), not a copy baked into any image. The full
+deployment topology lives in `rarelang-server` (issue #83), not here.

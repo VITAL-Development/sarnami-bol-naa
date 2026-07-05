@@ -17,7 +17,7 @@ This repo is what's left: the actual Sarnami vocabulary, lessons, and
 per-language settings (`content/`, `settings/`), the app's branding (colors,
 icons, app name — via `settings/sarnami/language-settings.json`'s
 `branding` field), and the grammar-reference material the content was
-authored from (`docs/byakaran/`). There is no build here, no `npm run dev`
+authored from (`authored_docs/byakaran/`). There is no build here, no `npm run dev`
 serving an app, and no deploy pipeline — those all now live with the
 generic engines.
 
@@ -35,11 +35,9 @@ settings/sarnami/
 public/
 ├── favicon.svg
 └── icons/            # PWA icon set (192/512/maskable-512)
-docs/
+authored_docs/
 ├── byakaran/         # Image-verified transcription of the grammar reference
 │                     # (Sarnami Byäkaran, Marhé 1985) content was authored from
-├── api-contract.md   # HTTP contract rarelang-server implements / rarelang-pwa consumes
-├── deployment.md     # Current deployment story (see below)
 └── sarnamibhasa-vocab.md
 scripts/
 └── generate-icons.mjs   # Regenerates public/favicon.svg + public/icons/*.png
@@ -61,7 +59,7 @@ Sarnami romanization uses diacritics (ā/ī/ū macrons, ṭ/ḍ/ṇ underdots, �
 that `pdftotext` and similar raw text extraction commonly corrupt or drop
 (e.g. ā → ä, or the diacritic vanishing entirely). Don't trust extracted
 text from book-source PDFs directly — verify spellings against rendered
-page images. See `docs/byakaran/01-sounds.md` for the full sound inventory.
+page images. See `authored_docs/byakaran/01-sounds.md` for the full sound inventory.
 
 Vocab entries carry `tags` for traceability — e.g. `book-pNN` tags cite the
 page in Marhé's grammar an entry was verified against; `needs-verification`

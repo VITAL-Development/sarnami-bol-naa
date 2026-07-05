@@ -14,7 +14,7 @@
       { "char": "ñ", "description": "palatal nasal" },
       { "char": "ṅ", "description": "velar nasal" }
     ],
-    "notes": "Raw text extraction from book-source PDFs commonly corrupts or drops these diacritics (e.g. ā → ä, or vanishing entirely); content must be verified against rendered page images, not trusted from pdftotext output. See docs/byakaran/01-sounds.md for the full sound inventory this is derived from."
+    "notes": "Raw text extraction from book-source PDFs commonly corrupts or drops these diacritics (e.g. ā → ä, or vanishing entirely); content must be verified against rendered page images, not trusted from pdftotext output. See authored_docs/byakaran/01-sounds.md for the full sound inventory this is derived from."
   },
   "alphabet": {
     "vowels": ["a", "ā", "i", "ī", "u", "ū", "e", "o"],
