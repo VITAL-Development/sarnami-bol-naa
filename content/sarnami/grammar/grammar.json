@@ -1,0 +1,18 @@
+[
+  {
+    "id": "nouns",
+    "title": "Zelfstandige naamwoorden",
+    "summary": "Geslacht en getal van naamwoorden in het Sarnami.",
+    "order": 1,
+    "body": "# Zelfstandige naamwoorden\n\nSarnami-naamwoorden hebben een mannelijk of vrouwelijk geslacht. Het geslacht is niet altijd af te leiden uit de vorm, dus leer het per woord.\n\nHet meervoud wordt meestal gevormd door verbuiging van de uitgang; sommige naamwoorden blijven onveranderd en krijgen hun getal uit de context.\n\n> Placeholder-inhoud voor de scaffold. De echte tekst wordt gestructureerd overgenomen uit de byakaran-hoofdstukken van de leertaal-repo (`docs/byakaran/*.md`).",
+    "relatedVocab": []
+  },
+  {
+    "id": "verb-to-be",
+    "title": "Het koppelwerkwoord 'zijn' (hai)",
+    "summary": "Vervoeging van hai in de tegenwoordige tijd.",
+    "order": 2,
+    "body": "# Het koppelwerkwoord 'zijn' (hai)\n\nHet werkwoord *hai* betekent 'is/ben/bent'. De tegenwoordige tijd:\n\n- ham hai — ik ben\n- tū hai — jij bent\n- ī/ū hai — hij/zij is\n- ham log haim — wij zijn\n- tū log hai — jullie zijn\n- āp ho — u bent (beleefd)\n- ī/ū sab haim — zij zijn\n\nDe ontkenning gebruikt *nā* ('niet').\n\n> Placeholder-inhoud voor de scaffold, ontleend aan de bestaande grammatica-vocabulaire (zie `content/sarnami/vocab/grammar.json`).",
+    "relatedVocab": ["gram-hai", "gram-na"]
+  }
+]
