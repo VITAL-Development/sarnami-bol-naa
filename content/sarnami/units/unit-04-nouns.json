@@ -1,0 +1,59 @@
+{
+  "id": "unit-04-nouns",
+  "title": "Zelfstandige naamwoorden",
+  "description": "Geslacht, getal, naamval en telwoorden.",
+  "order": 4,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/02-the-noun.md",
+  "lessons": [
+    {
+      "id": "unit-04-nouns-gender",
+      "unitId": "unit-04-nouns",
+      "order": 1,
+      "title": "Geslacht",
+      "description": "Het geslacht van zelfstandige naamwoorden.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-04-nouns-number",
+      "unitId": "unit-04-nouns",
+      "order": 2,
+      "title": "Getal & meervoud",
+      "description": "Enkelvoud en meervoud.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-04-nouns-cases",
+      "unitId": "unit-04-nouns",
+      "order": 3,
+      "title": "Naamvallen",
+      "description": "Naamvalsgedrag van zelfstandige naamwoorden.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-04-nouns-numerals",
+      "unitId": "unit-04-nouns",
+      "order": 4,
+      "title": "Telwoorden",
+      "description": "De telwoorden uit dit hoofdstuk.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-04-nouns-review",
+      "unitId": "unit-04-nouns",
+      "order": 5,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 15
+    }
+  ]
+}
