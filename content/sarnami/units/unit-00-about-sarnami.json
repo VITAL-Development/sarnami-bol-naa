@@ -1,0 +1,39 @@
+{
+  "id": "unit-00-about-sarnami",
+  "title": "Over het Sarnami",
+  "description": "Achtergrond: wat Sarnami is, waar de naam vandaan komt en de immigratiegeschiedenis.",
+  "order": 1,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/00-introduction.md",
+  "lessons": [
+    {
+      "id": "unit-00-about-sarnami-what",
+      "unitId": "unit-00-about-sarnami",
+      "order": 1,
+      "title": "Wat is Sarnami?",
+      "description": "Wat Sarnami is en waar de naam vandaan komt.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-00-about-sarnami-history",
+      "unitId": "unit-00-about-sarnami",
+      "order": 2,
+      "title": "Geschiedenis",
+      "description": "De Brits-Indische immigratiegeschiedenis in het kort.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-00-about-sarnami-review",
+      "unitId": "unit-00-about-sarnami",
+      "order": 3,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 15
+    }
+  ]
+}
