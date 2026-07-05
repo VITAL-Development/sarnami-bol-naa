@@ -4,17 +4,14 @@
 
 As of issue #64, this repo is **content and branding only** — Sarnami's
 knowledge base (`content/sarnami/`, `settings/sarnami/`) — not an app. The
-generic engine that used to live here was extracted to two standalone
-repos as part of the
-[rarelang rebrand roadmap](https://github.com/VITAL-Development/sarnami-bol-naa/issues/52):
-
-- **[`rarelang-pwa`](https://github.com/VITAL-Development/rarelang-pwa)** — generic frontend engine (React/TS/Vite PWA, no content of its own)
-- **[`rarelang-server`](https://github.com/VITAL-Development/rarelang-server)** — generic backend engine (serves content/settings/progress over HTTP)
+generic engine that used to live here was extracted into separate standalone
+repos (a frontend app and a backend server) as part of the
+[rebrand roadmap](https://github.com/VITAL-Development/sarnami-bol-naa/issues/52).
 
 **There is no `npm run dev`/`npm run build`/`npm test`/`package.json` here
 anymore.** Don't look for `src/`, `vite.config.ts`, or a deploy pipeline —
-they're gone, moved to the repos above. PWA icon generation moved to
-`rarelang-pwa` too (issue #81) — `branding.icons` paths returned by
+they're gone, moved to those repos. PWA icon generation moved to
+the frontend app too (issue #81) — `branding.icons` paths returned by
 `GET /settings` are relative and resolve against that app's own origin, so
 the generated files need to live in its `public/`, not here. `git log
 <removed-path>` still resolves to that path's original history in this
@@ -32,8 +29,8 @@ CHANGELOG.md                                   # content/schema changes per rele
 ```
 
 The HTTP API contract and deployment topology are **not** in this public
-content repo — they're integration internals of the private rarelang stack,
-maintained in `rarelang-server` (issue #83).
+content repo — they're integration internals of the private stack,
+maintained with the backend server (issue #83).
 
 ## Versioning
 
@@ -46,10 +43,9 @@ consumer (issue #76) pins to a tag instead of tracking `main`. Record
 content/schema-relevant changes under `## [Unreleased]` in `CHANGELOG.md`.
 
 The on-disk shape under `content/`/`settings/` is not arbitrary — it
-exactly mirrors what `rarelang-server`'s `content.mjs`/`stub-data.mjs`
-expect when mounted via `CONTENT_DIR`/`SETTINGS_DIR`. Don't rename/restructure
-these directories without checking `rarelang-server`'s expectations first
-(see its README's "Content ownership" section).
+exactly mirrors what the consuming server's content loader expects when
+mounted via `CONTENT_DIR`/`SETTINGS_DIR`. Don't rename/restructure
+these directories without checking the server's expectations first.
 
 ## Content authoring
 
@@ -76,16 +72,16 @@ prompt/example-sentence/grammar-note text lives in
 
 Colors are derived from the Suriname flag; the canonical values live in
 `settings/sarnami/language-settings.json`'s `branding.colors` (RGB-triplet
-strings, consumed at runtime by `rarelang-pwa`'s `useBranding.ts` — not
+strings, consumed at runtime by the frontend app's theming — not
 hardcoded Tailwind config anywhere in this repo, since there's no frontend
 build here). The PWA icon set (favicon + `icons/*.png`) is generated and
-owned by `rarelang-pwa` (`scripts/generate-icons.mjs` there, migrated from
+owned by the frontend app (migrated from
 this repo in issue #81) — regenerate/redesign it there, not here.
 
 ## Deployment
 
-There's no build/deploy pipeline in this repo. `rarelang-pwa` is
+There's no build/deploy pipeline in this repo. The frontend app is
 built/deployed independently, and this repo's content reaches
-`rarelang-server` via a git-sync sidecar (see issue #76 and
-`rarelang-server`'s own docs), not a copy baked into any image. The full
-deployment topology lives in `rarelang-server` (issue #83), not here.
+the backend server via a git-sync sidecar (see issue #76), not a copy baked
+into any image. The full deployment topology lives with the backend server
+(issue #83), not here.
