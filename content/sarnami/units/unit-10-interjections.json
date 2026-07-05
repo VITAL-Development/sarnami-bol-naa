@@ -1,0 +1,29 @@
+{
+  "id": "unit-10-interjections",
+  "title": "Tussenwerpsels",
+  "description": "Veelgebruikte uitroepen en gesprekspartikels.",
+  "order": 11,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/07-interjections.md",
+  "lessons": [
+    {
+      "id": "unit-10-interjections-interjections",
+      "unitId": "unit-10-interjections",
+      "order": 1,
+      "title": "Tussenwerpsels",
+      "description": "Veelgebruikte uitroepen en partikels.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-10-interjections-review",
+      "unitId": "unit-10-interjections",
+      "order": 2,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 15
+    }
+  ]
+}
