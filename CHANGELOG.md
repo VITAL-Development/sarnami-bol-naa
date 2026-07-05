@@ -19,6 +19,8 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-07-05
+
 ### Added
 
 - Grammar content (`content/sarnami/grammar/grammar.json`) for
