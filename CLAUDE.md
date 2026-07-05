@@ -26,6 +26,7 @@ repo, if you need it.
 content/sarnami/{vocab,units,lessons}/*.json   # authored knowledge base
 settings/sarnami/language-settings.json        # romanization/alphabet/audio + branding
 authored_docs/byakaran/*.md                    # grammar reference content was authored from
+authored_docs/sarnamibhasa-vocab.md            # sarnamibhasa.nl second-source vocab (cross-check)
 docs/versioning.md                             # release/versioning policy (see below)
 CHANGELOG.md                                   # content/schema changes per release
 ```
@@ -60,7 +61,11 @@ page images. See `authored_docs/byakaran/01-sounds.md` for the full sound invent
 
 Vocab entries sourced from the book carry `book-pNN` tags for traceability;
 entries not yet cross-checked against a second source carry
-`needs-verification` (see `content/sarnami/vocab/greetings.json`).
+`needs-verification` (see `content/sarnami/vocab/greetings.json`). The
+canonical second source for clearing `needs-verification` is
+`authored_docs/sarnamibhasa-vocab.md` — a Dutch→Sarnami function-word list
+extracted from sarnamibhasa.nl (issue #20); where its spelling disagrees
+with the book, prefer the book's diacritic-correct form.
 
 `content/sarnami/units/*.json` reference vocab/lesson-content by id
 (`vocabRef`, `contentRef`) rather than embedding literal text — the actual
