@@ -19,6 +19,12 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Changed
+
+- `content/sarnami/vocab/greetings.json`: reworded two `notes` strings to drop
+  an internal PR citation (same-shape notes-string edit; no schema or
+  served-field change).
+
 ## [0.1.0] - 2026-07-05
 
 ### Added
@@ -27,5 +33,5 @@ which point they move under a dated `## [X.Y.Z]` heading.
   the consuming server's `GET /grammar` endpoint.
 - Versioning policy (`docs/versioning.md`): SemVer via annotated git tags as
   the source of truth, breaking/non-breaking definitions tied to the on-disk
-  content/settings schema, and how a git-sync deployment (issue #76) pins to
-  a tag instead of tracking `main`. Also this `CHANGELOG.md`. (issue #79)
+  content/settings schema, and how a git-sync deployment pins to
+  a tag instead of tracking `main`. Also this `CHANGELOG.md`.
