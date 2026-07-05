@@ -21,6 +21,8 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ### Added
 
+- Grammar content (`content/sarnami/grammar/grammar.json`) for
+  rarelang-server's `GET /grammar` endpoint (rarelang-server#14/#17).
 - Versioning policy (`docs/versioning.md`): SemVer via annotated git tags as
   the source of truth, breaking/non-breaking definitions tied to the on-disk
   content/settings schema, and how a git-sync deployment (issue #76) pins to
