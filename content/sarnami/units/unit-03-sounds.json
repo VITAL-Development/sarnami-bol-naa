@@ -1,0 +1,49 @@
+{
+  "id": "unit-03-sounds",
+  "title": "Klanken & uitspraak",
+  "description": "Klinkers, medeklinkers en de diacritische tekens van de Sarnami-romanisatie.",
+  "order": 2,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/01-sounds.md",
+  "lessons": [
+    {
+      "id": "unit-03-sounds-vowels",
+      "unitId": "unit-03-sounds",
+      "order": 1,
+      "title": "Klinkers & macrons",
+      "description": "Klinkers en de lange klinkers (ā/ī/ū).",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-03-sounds-consonants",
+      "unitId": "unit-03-sounds",
+      "order": 2,
+      "title": "Medeklinkers",
+      "description": "De medeklinkers van het Sarnami.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-03-sounds-diacritics",
+      "unitId": "unit-03-sounds",
+      "order": 3,
+      "title": "Bijzondere tekens",
+      "description": "De onderpunt- en tilde-tekens (ṭ/ḍ/ṇ, ñ/ṅ).",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-03-sounds-review",
+      "unitId": "unit-03-sounds",
+      "order": 4,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 15
+    }
+  ]
+}
