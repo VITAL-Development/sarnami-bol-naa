@@ -1,6 +1,6 @@
 # Sarnami Bol Naa
 
-Content and branding package for **Sarnami** — a Hindi-derived language
+Content and branding package for **Sarnami** — a Bhojpuri-derived language
 spoken in Suriname — as taught by the [rarelang](https://github.com/VITAL-Development/rarelang-pwa)
 platform's generic learning engine.
 
