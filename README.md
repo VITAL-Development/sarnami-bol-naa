@@ -79,6 +79,16 @@ npm install
 npm run generate-icons
 ```
 
+## Versioning
+
+Releases are marked with SemVer git tags (`vX.Y.Z`) cut on `main`; the tag —
+not any file — is the source of truth for "what version is this". See
+[`docs/versioning.md`](docs/versioning.md) for the scheme, the precise
+definition of a **breaking** vs additive content/schema change, and how a
+`rarelang-server` git-sync deployment pins to a tag instead of tracking
+`main`. Content/schema changes per release are recorded in
+[`CHANGELOG.md`](CHANGELOG.md).
+
 ## History
 
 This repo's git history predates the rebrand — it includes the original
