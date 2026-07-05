@@ -1,0 +1,49 @@
+{
+  "id": "unit-05-pronouns",
+  "title": "Voornaamwoorden",
+  "description": "Bezittelijke, aanwijzende, vragende en betrekkelijke voornaamwoorden.",
+  "order": 5,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/03-pronouns.md",
+  "lessons": [
+    {
+      "id": "unit-05-pronouns-possessive",
+      "unitId": "unit-05-pronouns",
+      "order": 1,
+      "title": "Bezittelijke voornaamwoorden",
+      "description": "Bezittelijke voornaamwoorden in het Sarnami.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-05-pronouns-demonstrative",
+      "unitId": "unit-05-pronouns",
+      "order": 2,
+      "title": "Aanwijzende voornaamwoorden",
+      "description": "Aanwijzende voornaamwoorden.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-05-pronouns-interrogative-relative",
+      "unitId": "unit-05-pronouns",
+      "order": 3,
+      "title": "Vragende & betrekkelijke voornaamwoorden",
+      "description": "Vragende en betrekkelijke voornaamwoorden.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-05-pronouns-review",
+      "unitId": "unit-05-pronouns",
+      "order": 4,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 15
+    }
+  ]
+}
