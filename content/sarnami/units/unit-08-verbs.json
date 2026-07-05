@@ -1,0 +1,69 @@
+{
+  "id": "unit-08-verbs",
+  "title": "Werkwoorden",
+  "description": "Vervoeging in tijden en wijzen, inclusief de aanvoegende wijs.",
+  "order": 9,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/08-the-verb.md",
+  "lessons": [
+    {
+      "id": "unit-08-verbs-present",
+      "unitId": "unit-08-verbs",
+      "order": 1,
+      "title": "Tegenwoordige tijd",
+      "description": "Vervoeging in de tegenwoordige tijd.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-08-verbs-past",
+      "unitId": "unit-08-verbs",
+      "order": 2,
+      "title": "Verleden tijd",
+      "description": "Vervoeging in de verleden tijd.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-08-verbs-future",
+      "unitId": "unit-08-verbs",
+      "order": 3,
+      "title": "Toekomende tijd",
+      "description": "Vervoeging in de toekomende tijd.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-08-verbs-imperative",
+      "unitId": "unit-08-verbs",
+      "order": 4,
+      "title": "Gebiedende wijs",
+      "description": "De gebiedende wijs.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-08-verbs-subjunctive",
+      "unitId": "unit-08-verbs",
+      "order": 5,
+      "title": "Aanvoegende wijs",
+      "description": "De aanvoegende wijs.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-08-verbs-review",
+      "unitId": "unit-08-verbs",
+      "order": 6,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 15
+    }
+  ]
+}
