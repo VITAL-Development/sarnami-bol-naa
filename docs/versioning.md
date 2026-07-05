@@ -2,8 +2,7 @@
 
 This repo publishes Sarnami's content and settings (`content/sarnami/`,
 `settings/sarnami/`) as a live source for the consuming server, which syncs it
-via a git-sync sidecar (see [issue #76](https://github.com/VITAL-Development/sarnami-bol-naa/issues/76)
-and `docs/deployment.md`). Because a running server reads these files
+via a git-sync sidecar. Because a running server reads these files
 directly, a change to their **shape** can break a deployment that expects
 the old shape. This document defines how we version releases so consumers
 can pin to a known-good point and upgrade deliberately, instead of always
@@ -18,7 +17,7 @@ Releases are marked with **annotated, SemVer git tags** of the form
 There is deliberately no `VERSION` file and no `package.json` version field:
 
 - This repo has no `package.json` anymore — the app was extracted into
-  separate engine repos in issue #64, so there is nothing that
+  separate engine repos, so there is nothing that
   reads a `version` field. A `VERSION` file would be a second thing to keep
   in sync with the tag and would inevitably drift.
 - git-sync (the consumer's sync mechanism) already speaks refs natively — it
@@ -129,7 +128,7 @@ When a single release mixes levels, take the **highest** applicable bump
 > itself. This section documents how an *operator deploying it* pins to a
 > version — a deployment-config choice, no code change required.
 
-The reference `docker-compose.yml` for the server (issue #76) runs a
+The reference `docker-compose.yml` for the server runs a
 git-sync sidecar that clones this repo into a shared volume, which
 the server mounts read-only via `CONTENT_DIR`/`SETTINGS_DIR`. By
 default the sidecar tracks the `main` branch — so it picks up every commit,

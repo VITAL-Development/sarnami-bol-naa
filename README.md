@@ -32,8 +32,7 @@ scripts/
 
 The on-disk shape under `content/`/`settings/` exactly mirrors what the
 consuming server expects to mount via its `CONTENT_DIR`/`SETTINGS_DIR` env
-vars — see [issue #76](https://github.com/VITAL-Development/sarnami-bol-naa/issues/76)
-for how this repo gets wired up as a live content source (a git-sync
+vars, so this repo can be wired up as a live content source (a git-sync
 sidecar, not a copy baked into the server's Docker image).
 
 ## Content authoring
