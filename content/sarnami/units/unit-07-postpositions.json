@@ -1,0 +1,39 @@
+{
+  "id": "unit-07-postpositions",
+  "title": "Achterzetsels",
+  "description": "De gangbare achterzetsels en hoe ze aan naam- en voornaamwoorden vastzitten.",
+  "order": 8,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/05-postpositions.md",
+  "lessons": [
+    {
+      "id": "unit-07-postpositions-common",
+      "unitId": "unit-07-postpositions",
+      "order": 1,
+      "title": "Gangbare achterzetsels",
+      "description": "De meest voorkomende achterzetsels.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-07-postpositions-attachment",
+      "unitId": "unit-07-postpositions",
+      "order": 2,
+      "title": "Vastzitten aan woorden",
+      "description": "Hoe achterzetsels aan naam- en voornaamwoorden vastzitten.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-07-postpositions-review",
+      "unitId": "unit-07-postpositions",
+      "order": 3,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 15
+    }
+  ]
+}
