@@ -28,7 +28,19 @@ settings/sarnami/language-settings.json        # romanization/alphabet/audio + b
 docs/byakaran/*.md                             # grammar reference content was authored from
 docs/api-contract.md                           # HTTP contract rarelang-server implements
 docs/deployment.md                             # current deployment story (see that file)
+docs/versioning.md                             # release/versioning policy (see below)
+CHANGELOG.md                                   # content/schema changes per release
 ```
+
+## Versioning
+
+Releases are SemVer git tags (`vX.Y.Z`) cut on `main`; the git tag is the
+source of truth (there is no `package.json`/`VERSION` file to bump). Before
+making a schema/shape change to `content/`/`settings/`, read
+`docs/versioning.md` — it defines what counts as a **breaking** (MAJOR)
+change vs additive content (MINOR) vs a fix (PATCH), and how a git-sync
+consumer (issue #76) pins to a tag instead of tracking `main`. Record
+content/schema-relevant changes under `## [Unreleased]` in `CHANGELOG.md`.
 
 The on-disk shape under `content/`/`settings/` is not arbitrary — it
 exactly mirrors what `rarelang-server`'s `content.mjs`/`stub-data.mjs`
