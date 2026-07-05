@@ -1,0 +1,39 @@
+{
+  "id": "unit-11-loanwords",
+  "title": "Leenwoorden & nieuwvormingen",
+  "description": "Leenwoorden uit het Nederlands, Sranantongo e.a., en nieuwvormingen.",
+  "order": 12,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/09-loan-words-and-neologisms.md",
+  "lessons": [
+    {
+      "id": "unit-11-loanwords-dutch",
+      "unitId": "unit-11-loanwords",
+      "order": 1,
+      "title": "Nederlandse leenwoorden",
+      "description": "Leenwoorden uit het Nederlands.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-11-loanwords-other",
+      "unitId": "unit-11-loanwords",
+      "order": 2,
+      "title": "Sranantongo & overige leenwoorden",
+      "description": "Leenwoorden uit het Sranantongo en andere talen, en nieuwvormingen.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-11-loanwords-review",
+      "unitId": "unit-11-loanwords",
+      "order": 3,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 15
+    }
+  ]
+}
