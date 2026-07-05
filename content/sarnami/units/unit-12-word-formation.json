@@ -1,0 +1,39 @@
+{
+  "id": "unit-12-word-formation",
+  "title": "Woordvorming",
+  "description": "Afleidingssuffixen en hoe woorden gevormd worden.",
+  "order": 13,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/10-word-formation.md",
+  "lessons": [
+    {
+      "id": "unit-12-word-formation-suffixes",
+      "unitId": "unit-12-word-formation",
+      "order": 1,
+      "title": "Afleidingssuffixen",
+      "description": "Afleidingssuffixen en hoe woorden gebouwd worden.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-12-word-formation-arabic-persian",
+      "unitId": "unit-12-word-formation",
+      "order": 2,
+      "title": "Arabisch-Perzische suffixen",
+      "description": "Suffixen van Arabisch-Perzische oorsprong.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-12-word-formation-review",
+      "unitId": "unit-12-word-formation",
+      "order": 3,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [],
+      "xpReward": 15
+    }
+  ]
+}
