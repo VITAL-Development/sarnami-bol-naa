@@ -1,0 +1,231 @@
+[
+  {
+    "lessonId": "unit-05-pronouns-possessive",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-poss-1",
+        "title": "Bezittelijke voornaamwoorden",
+        "body": "De bezittelijke voornaamwoorden staan in nauw verband met de persoonlijke voornaamwoorden: ze zijn terug te brengen op een combinatie van het persoonlijk voornaamwoord met kar of ke ('van'). Bij ham (ik) hoort hamār (mijn), bij tū (jij) hoort tor (jouw), en bij de 3e persoon ekar (zijn/haar, dichtbij de spreker) en okar (zijn/haar, van de spreker verwijderd). Voorbeeld: 'Hamār ghar hiṁyā se dūr nā hai' — Mijn huis is niet ver van hier.",
+        "relatedVocab": ["pron-hamar", "pron-tor", "pron-ekar", "pron-okar"]
+      },
+      {
+        "id": "gn-poss-2",
+        "title": "Beleefde vormen: tŏṁhār en āpke",
+        "body": "Om beleefdheid uit te drukken bij de 2e persoon gebruikt het Sarnami de bezittelijke vormen tŏṁhār en āpke (uw). Let bij tŏṁhār op de breve boven de o (ŏ) en de nasale ṁ. Vergelijk: tor ghar (jouw huis, vertrouwelijk) tegenover tŏṁhār/āpke ghar (uw huis, beleefd).",
+        "relatedVocab": ["pron-tomhar", "pron-apke"]
+      },
+      {
+        "id": "gn-poss-3",
+        "title": "Uitbreiding met -e vóór een achterzetsel",
+        "body": "Wordt het door een bezittelijk voornaamwoord bepaalde zelfstandig naamwoord gevolgd door een achterzetsel (meṁ, se, ke, par ...), dan kunnen alle bezittelijke voornaamwoorden zonder betekenisverschil worden uitgebreid met -e: hamār wordt dan hamāre/hamare, tor wordt tore, ekar wordt ĕkare en okar wordt ŏkare. Voorbeeld: 'Ū hamāre ghar meṁ rahat rahā' — Hij/zij woonde in mijn huis.",
+        "relatedVocab": ["pron-hamar", "pron-tor"]
+      }
+    ],
+    "exercises": {
+      "poss-e1": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "hamār", "right": "mijn" },
+          { "left": "tor", "right": "jouw" },
+          { "left": "tŏṁhār", "right": "uw (beleefd)" },
+          { "left": "ekar", "right": "zijn/haar (dichtbij)" },
+          { "left": "okar", "right": "zijn/haar (veraf)" }
+        ]
+      },
+      "poss-e2": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent 'hamār'?",
+        "options": ["mijn", "jouw", "zijn/haar", "uw"],
+        "correctIndex": 0
+      },
+      "poss-e3": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "___ ghar hiṁyā se dūr nā hai.",
+        "correctAnswer": "Hamār",
+        "options": ["Hamār", "Tor", "Ekar", "Okar"],
+        "translations": { "nl": "Mijn huis is niet ver van hier." }
+      },
+      "poss-e4": {
+        "kind": "flashcard",
+        "vocabRef": "pron-apke",
+        "direction": "target-to-native"
+      },
+      "poss-e5": {
+        "kind": "flashcard",
+        "vocabRef": "pron-okar",
+        "direction": "native-to-target"
+      }
+    }
+  },
+  {
+    "lessonId": "unit-05-pronouns-demonstrative",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-dem-1",
+        "title": "Aanwijzend: ī (dit) en ū (dat)",
+        "body": "Voor de 3e persoon gebruikt het Sarnami de aanwijzende voornaamwoorden ī (dit, deze) en ū (dat, die). Het verschil geeft afstand tot de spreker aan: ī staat voor iets dichtbij de spreker, ū voor iets dat van de spreker verwijderd is. Dezelfde woorden betekenen ook 'hij/zij/het'. In het enkelvoud kunnen ī en ū versterkt worden met vāl(-ā): ī vālā — deze!",
+        "relatedVocab": ["pron-i", "pron-u"]
+      },
+      {
+        "id": "gn-dem-2",
+        "title": "Verbogen vormen: eke en oke",
+        "body": "Als meewerkend of lijdend voorwerp krijgen de aanwijzende voornaamwoorden een verbogen vorm: eke (hem/haar, dichtbij) bij ī, en oke (hem/haar, veraf) bij ū. Voorbeeld: 'Oke tū etnā bisvās na karal kariye' — Je moet hem/haar niet zoveel vertrouwen.",
+        "relatedVocab": ["pron-eke", "pron-oke"]
+      },
+      {
+        "id": "gn-dem-3",
+        "title": "Beleefdheid en meervoud: inhan en unhan",
+        "body": "In de beleefdheidsvorm en het meervoud gebruikt men inhan (zij, dichtbij) en unhan (zij, veraf). In het gewone meervoud kan aan ī en ū ook sab(han), log(an) of loṅ worden toegevoegd (bv. ī sab — zij).",
+        "relatedVocab": ["pron-inhan", "pron-unhan"]
+      }
+    ],
+    "exercises": {
+      "dem-e1": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "ī", "right": "dit / deze (dichtbij)" },
+          { "left": "ū", "right": "dat / die (veraf)" },
+          { "left": "eke", "right": "hem/haar (dichtbij)" },
+          { "left": "oke", "right": "hem/haar (veraf)" },
+          { "left": "inhan", "right": "zij (beleefd/meervoud)" }
+        ]
+      },
+      "dem-e2": {
+        "kind": "multiple-choice",
+        "prompt": "Welk aanwijzend voornaamwoord gebruik je voor iets dat dichtbij de spreker is?",
+        "options": ["ī", "ū", "oke", "unhan"],
+        "correctIndex": 0
+      },
+      "dem-e3": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "___ ghar dūr nā hai.",
+        "correctAnswer": "Ī",
+        "options": ["Ī", "Ū", "Eke", "Oke"],
+        "translations": { "nl": "Dit huis is niet ver." }
+      },
+      "dem-e4": {
+        "kind": "flashcard",
+        "vocabRef": "pron-unhan",
+        "direction": "target-to-native"
+      },
+      "dem-e5": {
+        "kind": "flashcard",
+        "vocabRef": "pron-eke",
+        "direction": "native-to-target"
+      }
+    }
+  },
+  {
+    "lessonId": "unit-05-pronouns-interrogative-relative",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-int-1",
+        "title": "Vragend: ke, kaun en kā",
+        "body": "Vragende voornaamwoorden vragen naar personen en zaken. Naar personen: ke (wie) wordt zelfstandig gebruikt bij een vertrouwde band met de spreker, terwijl kaun (wie, welke) zowel zelfstandig als bijvoegelijk gebruikt wordt en afstandelijkheid — ook deftigheid — uitdrukt. Naar zaken vraagt men met kā (wat), zelfstandig en neutraal gebruikt. Voorbeeld: 'Ke āil hai?' — Wie is er gekomen? / 'Kā lāis hai?' — Wat heeft hij meegebracht?",
+        "relatedVocab": ["pron-ke", "pron-kaun", "pron-ka"]
+      },
+      {
+        "id": "gn-int-2",
+        "title": "kaunci en kekar",
+        "body": "Naast kā bestaat kaunci (wat), een samenkoppeling van kaun + cīj ('wat voor een ding?'). Bijvoegelijk gebruikt vraagt kekar naar bezit: 'Tū kekar jūtā pahinle bāṭe?' — Wiens schoenen heb je aan? Het meervoud ontstaat door verdubbeling: ke-ke, kaune-kaune, kekar-kekar.",
+        "relatedVocab": ["pron-kaunci", "pron-kekar"]
+      },
+      {
+        "id": "gn-rel-1",
+        "title": "Betrekkelijk: jaun, je en jekar",
+        "body": "Betrekkelijke voornaamwoorden verwijzen terug naar iets dat genoemd is. jaun (die, welke) wordt gebruikt voor personen én niet-personen; je (die, wie) wordt als onderwerp of lijdend voorwerp uitsluitend voor personen gebruikt, met de bezittelijke vorm jekar (van wie, wiens). Voorbeeld: 'Ū adamiyā jaun humvā cale hai hamār māmā hai' — De man die daar loopt, is mijn oom.",
+        "relatedVocab": ["pron-jaun", "pron-je", "pron-jekar"]
+      }
+    ],
+    "exercises": {
+      "ir-e1": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "ke", "right": "wie (vertrouwelijk)" },
+          { "left": "kaun", "right": "wie / welke (afstandelijk)" },
+          { "left": "kā", "right": "wat" },
+          { "left": "jaun", "right": "die / welke" },
+          { "left": "je", "right": "die / wie (personen)" }
+        ]
+      },
+      "ir-e2": {
+        "kind": "multiple-choice",
+        "prompt": "Welk vragend voornaamwoord gebruik je zelfstandig en neutraal om naar een zaak te vragen?",
+        "options": ["kā", "ke", "kaun", "jaun"],
+        "correctIndex": 0
+      },
+      "ir-e3": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "___ āil hai?",
+        "correctAnswer": "Ke",
+        "options": ["Ke", "Kā", "Jaun", "Jekar"],
+        "translations": { "nl": "Wie is er gekomen?" }
+      },
+      "ir-e4": {
+        "kind": "flashcard",
+        "vocabRef": "pron-jekar",
+        "direction": "target-to-native"
+      },
+      "ir-e5": {
+        "kind": "flashcard",
+        "vocabRef": "pron-kekar",
+        "direction": "native-to-target"
+      }
+    }
+  },
+  {
+    "lessonId": "unit-05-pronouns-review",
+    "exampleSentences": [],
+    "grammarNotes": [],
+    "exercises": {
+      "rev-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Welk voornaamwoord betekent 'jouw'?",
+        "options": ["tor", "hamār", "ekar", "okar"],
+        "correctIndex": 0
+      },
+      "rev-e2": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "hamār", "right": "mijn" },
+          { "left": "ī", "right": "dit / deze" },
+          { "left": "ke", "right": "wie" },
+          { "left": "jaun", "right": "die / welke" },
+          { "left": "okar", "right": "zijn/haar (veraf)" }
+        ]
+      },
+      "rev-e3": {
+        "kind": "flashcard",
+        "vocabRef": "pron-kaunci",
+        "direction": "target-to-native"
+      },
+      "rev-e4": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Mijn huis is niet ver van hier." },
+        "correctTargetTokens": ["Hamār", "ghar", "hiṁyā", "se", "dūr", "nā", "hai."],
+        "distractorTokens": ["tor", "okar"]
+      },
+      "rev-e5": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Ū ___ ghar meṁ rahat rahā.",
+        "correctAnswer": "tor",
+        "options": ["tor", "ke", "kā", "jaun"],
+        "translations": { "nl": "Hij/zij woonde in jouw huis." }
+      },
+      "rev-e6": {
+        "kind": "flashcard",
+        "vocabRef": "pron-jaun",
+        "direction": "native-to-target"
+      },
+      "rev-e7": {
+        "kind": "multiple-choice",
+        "prompt": "Welk betrekkelijk voornaamwoord wordt uitsluitend voor personen gebruikt?",
+        "options": ["je", "jaun", "kā", "ī"],
+        "correctIndex": 0
+      }
+    }
+  }
+]
