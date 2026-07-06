@@ -21,6 +21,26 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ### Added
 
+- Content for `unit-08-verbs` ("Werkwoorden"), the curriculum's largest chapter,
+  authored on top of the merged structure scaffold (#116, follow-up to #100).
+  Source chapter: `authored_docs/byakaran/08-the-verb.md`. Adds 30 verbs taught
+  as stems in the new `content/sarnami/vocab/verbs.json` (paṛhe, kare, bole,
+  dekhe, sune, khāī, jāī, āve, kīne, sūte, likhe, khele, leve, deve, pīye, pūche,
+  khoje, samjhe, cale, baiṭhe, uṭhe, dhove, rove, sīye, pahine, nāce, haṁse,
+  māre, mare, kāṭe — image-verified diacritics, tagged `book-pNN` +
+  `needs-verification`), lesson content in
+  `content/sarnami/lessons/unit-08-verbs.json` (grammar notes carrying the full
+  present/past/future/imperative/subjunctive paradigms of the model verb paṛhe,
+  the irregular jāī → gail-, the continuous/perfect and causative forms, plus
+  example sentences and exercises), and wires up the scaffold's six lessons
+  (present → past → future → imperative → subjunctive → review) with `newVocab`,
+  `exampleSentenceRefs`, `grammarNoteRefs` and `exercises`. Generalises the
+  fixed forms `gram-hai`/`gram-na`/`gram-kaham` from `unit-01-basics` into the
+  full conjugation paradigm (reused by id, not duplicated). Exercise mix per the
+  issue: `fill-blank` (conjugated form) and `word-bank` (build the clause)
+  dominate the five content lessons, alongside `matching` (person ↔ ending),
+  `multiple-choice` (which tense/mood) and `flashcard` (stems); the review
+  lesson mixes all five exercise kinds and carries a higher `xpReward` (15 vs 10).
 - Content for `unit-03-sounds` ("Klanken & uitspraak"), authored on top of the
   merged structure scaffold (#109, follow-up to #93). Source chapter:
   `authored_docs/byakaran/01-sounds.md`. Adds 19 sound-example words in the new
