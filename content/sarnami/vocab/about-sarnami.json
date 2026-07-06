@@ -95,5 +95,19 @@
       "needs-verification"
     ],
     "notes": "Uit §B: het eerste (zeil)schip dat op 5 juni 1873 de eerste 398 Brits-Indische contractarbeiders naar Suriname bracht — herdacht als de Immigratiedag. Scheepsnaam in Latijnse spelling zoals in de bron (LALLA ROOKH). Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "about-devanagari",
+    "word": "devanāgarī",
+    "translations": {
+      "nl": "het devanagari-schrift; het lettergrepenschrift waarmee het Sarnami van oudsher geschreven wordt"
+    },
+    "tags": [
+      "about-sarnami",
+      "proper-noun",
+      "book-p29",
+      "needs-verification"
+    ],
+    "notes": "Uit §G ('Sarnami spraakklanken'): het devanagari-schrift (देवनागरी) is een oud lettergrepenschrift waarop de volgorde van de klankinventaris berust en dat geschikt is om het Sarnami weer te geven. Naast dit schrift gebruikt de grammatica een wetenschappelijke romanisatie met diacritische tekens. Pagina bij benadering; needs-verification."
   }
 ]
