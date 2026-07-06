@@ -37,8 +37,9 @@ which point they move under a dated `## [X.Y.Z]` heading.
   up the scaffold's four lessons (possessive / demonstrative /
   interrogative & relative / review) with `newVocab`, `grammarNoteRefs` and
   `exercises`. Exercise mix per the issue: `matching` (form↔meaning),
-  `multiple-choice`, `fill-blank` and `flashcard` in the three content lessons
-  (no `word-bank`), and a review lesson mixing all five kinds.
+  `multiple-choice`, `fill-blank`, `flashcard` and `word-bank` (building a short
+  possessive/demonstrative sentence from scrambled tokens) across the content
+  lessons, and a review lesson mixing all five kinds.
 - Content for `unit-03-sounds` ("Klanken & uitspraak"), authored on top of the
   merged structure scaffold (#109, follow-up to #93). Source chapter:
   `authored_docs/byakaran/01-sounds.md`. Adds 19 sound-example words in the new

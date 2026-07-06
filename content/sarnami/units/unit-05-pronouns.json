@@ -51,6 +51,11 @@
           "kind": "flashcard",
           "vocabRef": "pron-okar",
           "direction": "native-to-target"
+        },
+        {
+          "id": "poss-e6",
+          "kind": "word-bank",
+          "contentRef": "poss-e6"
         }
       ],
       "xpReward": 10
@@ -100,6 +105,11 @@
           "kind": "flashcard",
           "vocabRef": "pron-eke",
           "direction": "native-to-target"
+        },
+        {
+          "id": "dem-e6",
+          "kind": "word-bank",
+          "contentRef": "dem-e6"
         }
       ],
       "xpReward": 10

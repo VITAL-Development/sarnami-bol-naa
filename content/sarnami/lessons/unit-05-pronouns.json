@@ -55,6 +55,12 @@
         "kind": "flashcard",
         "vocabRef": "pron-okar",
         "direction": "native-to-target"
+      },
+      "poss-e6": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Hij/zij woonde in jouw huis." },
+        "correctTargetTokens": ["Ū", "tor", "ghar", "meṁ", "rahat", "rahā."],
+        "distractorTokens": ["hamār", "okar"]
       }
     }
   },
@@ -114,6 +120,12 @@
         "kind": "flashcard",
         "vocabRef": "pron-eke",
         "direction": "native-to-target"
+      },
+      "dem-e6": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Dit huis is van mij." },
+        "correctTargetTokens": ["Ī", "ghar", "hamār", "hai."],
+        "distractorTokens": ["Ū", "tor"]
       }
     }
   },
