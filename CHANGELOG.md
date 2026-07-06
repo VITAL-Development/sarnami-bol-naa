@@ -32,9 +32,22 @@ which point they move under a dated `## [X.Y.Z]` heading.
   `newVocab`, `grammarNoteRefs` and `exercises`: heavy `multiple-choice`
   comprehension plus a few `flashcard`s in the reading lessons, and a review
   lesson mixing all five exercise kinds.
+- A writing/romanization teaser lesson `unit-00-about-sarnami-writing`
+  ("Schrift & romanisatie") in `content/sarnami/units/unit-00-about-sarnami.json`
+  and `content/sarnami/lessons/unit-00-about-sarnami.json`: an at-a-glance look
+  at the devanagari script and the scientific romanization (macrons, retroflex
+  dots, nasalization, aspirated consonants) as a teaser for `unit-03-sounds`,
+  plus a new key term `about-devanagari` (devanāgarī) in
+  `content/sarnami/vocab/about-sarnami.json` (tagged `book-p29` +
+  `needs-verification`) and a matching review exercise (closes #92).
 
 ### Changed
 
+- Reassigned unit `order` values to fit the `authored_docs/lesson-plan.md`
+  sequence as new units land: `unit-01-basics` 1 → 3 and `unit-02-adjectives`
+  2 → 6 (`unit-00-about-sarnami` = 1 and `unit-03-sounds` = 2 unchanged). Unit
+  **ids** are stable; `order` is only a sort key, so this is an
+  additive/non-breaking change (see `docs/versioning.md`).
 - `content/sarnami/vocab/greetings.json`: reworded two `notes` strings to drop
   an internal PR citation (same-shape notes-string edit; no schema or
   served-field change).

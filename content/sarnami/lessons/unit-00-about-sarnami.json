@@ -112,6 +112,76 @@
     }
   },
   {
+    "lessonId": "unit-00-about-sarnami-writing",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-write-1",
+        "title": "Devanagari en romanisatie",
+        "body": "Het Sarnami wordt van oudsher geschreven met het devanagari-schrift (देवनागरी), een oud lettergrepenschrift dat goed geschikt is om de taal weer te geven. In lesmateriaal zoals dit wordt de taal echter in het Latijnse schrift geschreven met een wetenschappelijke romanisatie. Daarnaast bestaat een populaire, vereenvoudigde spelling (SCS) die de diacritische tekens weglaat (bijvoorbeeld ām → am).",
+        "relatedVocab": ["about-devanagari"]
+      },
+      {
+        "id": "gn-write-2",
+        "title": "Diacritische tekens",
+        "body": "De romanisatie gebruikt tekens die de uitspraak preciezer maken: een streepje boven de klinker (macron) voor lange klinkers (ā ī ū ē ō), een puntje eronder voor retroflexe medeklinkers (ṭ ḍ ṛ ṇ ṣ) en een ṁ voor genasaleerde klinkers. Anders dan in het Nederlands maakt het verschil tussen een korte en een lange klinker in het Sarnami betekenisverschil.",
+        "relatedVocab": []
+      },
+      {
+        "id": "gn-write-3",
+        "title": "Geaspireerde medeklinkers",
+        "body": "Net als het Hindi en het Urdu — en anders dan het Nederlands — kent het Sarnami naast gewone ('ploffende') medeklinkers ook geaspireerde vormen, uitgesproken met een lichte h-naslag: naast ka, ga, ta, pa bestaan dus ook kha, gha, tha, pha. Dit is slechts een voorproefje; de volledige klankinventaris komt aan bod in de eenheid 'Klanken & uitspraak'.",
+        "relatedVocab": []
+      }
+    ],
+    "exercises": {
+      "write-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Met welk schrift wordt het Sarnami van oudsher geschreven?",
+        "options": [
+          "het devanagari-schrift",
+          "het Latijnse schrift",
+          "het Arabische schrift",
+          "het Cyrillische schrift"
+        ],
+        "correctIndex": 0
+      },
+      "write-e2": {
+        "kind": "multiple-choice",
+        "prompt": "Waarvoor staat een streepje boven een klinker (bijvoorbeeld ā) in de romanisatie?",
+        "options": [
+          "voor een lange klinker",
+          "voor een beklemtoonde lettergreep",
+          "voor een stille letter",
+          "voor een genasaleerde medeklinker"
+        ],
+        "correctIndex": 0
+      },
+      "write-e3": {
+        "kind": "multiple-choice",
+        "prompt": "Wat geeft een puntje onder een medeklinker (bijvoorbeeld ṭ) aan?",
+        "options": [
+          "een retroflexe uitspraak",
+          "een lange medeklinker",
+          "een stemloze medeklinker",
+          "een klemtoon"
+        ],
+        "correctIndex": 0
+      },
+      "write-e4": {
+        "kind": "multiple-choice",
+        "prompt": "Welk kenmerk heeft het Sarnami net als het Hindi en Urdu, maar niet het Nederlands?",
+        "options": [
+          "geaspireerde medeklinkers (kha, gha, tha, pha)",
+          "lidwoorden 'de' en 'het'",
+          "een vaste klemtoon op de eerste lettergreep",
+          "hoofdletters aan het begin van een zin"
+        ],
+        "correctIndex": 0
+      }
+    }
+  },
+  {
     "lessonId": "unit-00-about-sarnami-review",
     "exampleSentences": [],
     "grammarNotes": [],
@@ -149,6 +219,17 @@
         "correctAnswer": "Lalla Rookh",
         "options": ["Lalla Rookh", "Sarnām", "Bhojpuri", "Avadhi"],
         "translations": { "nl": "Het eerste immigrantenschip heette de Lalla Rookh." }
+      },
+      "rev-e7": {
+        "kind": "multiple-choice",
+        "prompt": "Met welk schrift wordt het Sarnami van oudsher geschreven?",
+        "options": [
+          "het devanagari-schrift",
+          "het Latijnse schrift met diacritische tekens",
+          "het Sranan Tongo-schrift",
+          "het Arabische schrift"
+        ],
+        "correctIndex": 0
       }
     }
   }

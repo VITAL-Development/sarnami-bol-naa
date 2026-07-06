@@ -100,9 +100,53 @@
       "xpReward": 10
     },
     {
-      "id": "unit-00-about-sarnami-review",
+      "id": "unit-00-about-sarnami-writing",
       "unitId": "unit-00-about-sarnami",
       "order": 3,
+      "title": "Schrift & romanisatie",
+      "description": "Een eerste blik op hoe het Sarnami geschreven wordt — een teaser voor de eenheid 'Klanken & uitspraak'.",
+      "newVocab": [
+        "about-devanagari"
+      ],
+      "grammarNoteRefs": [
+        "gn-write-1",
+        "gn-write-2",
+        "gn-write-3"
+      ],
+      "exercises": [
+        {
+          "id": "write-e1",
+          "kind": "multiple-choice",
+          "contentRef": "write-e1"
+        },
+        {
+          "id": "write-e2",
+          "kind": "multiple-choice",
+          "contentRef": "write-e2"
+        },
+        {
+          "id": "write-e3",
+          "kind": "multiple-choice",
+          "contentRef": "write-e3"
+        },
+        {
+          "id": "write-e4",
+          "kind": "multiple-choice",
+          "contentRef": "write-e4"
+        },
+        {
+          "id": "write-e5",
+          "kind": "flashcard",
+          "vocabRef": "about-devanagari",
+          "direction": "target-to-native"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-00-about-sarnami-review",
+      "unitId": "unit-00-about-sarnami",
+      "order": 4,
       "title": "Herhaling",
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
@@ -138,6 +182,11 @@
           "kind": "flashcard",
           "vocabRef": "about-lalla-rookh",
           "direction": "native-to-target"
+        },
+        {
+          "id": "rev-e7",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e7"
         }
       ],
       "xpReward": 15
