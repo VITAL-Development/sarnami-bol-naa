@@ -1,0 +1,164 @@
+{
+  "id": "unit-11-loanwords",
+  "title": "Leenwoorden & nieuwvormingen",
+  "description": "Leenwoorden uit het Nederlands, Sranantongo e.a., en nieuwvormingen.",
+  "order": 12,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/09-loan-words-and-neologisms.md",
+  "lessons": [
+    {
+      "id": "unit-11-loanwords-dutch",
+      "unitId": "unit-11-loanwords",
+      "order": 1,
+      "title": "Nederlandse leenwoorden",
+      "description": "Leenwoorden uit het Nederlands.",
+      "newVocab": [
+        "loan-bel",
+        "loan-klop",
+        "loan-uitleg",
+        "loan-beledig",
+        "loan-bekeur",
+        "loan-wachti",
+        "loan-help",
+        "loan-mooi",
+        "loan-luru",
+        "loan-butu"
+      ],
+      "grammarNoteRefs": [
+        "gn-loan-dutch-1",
+        "gn-loan-dutch-2"
+      ],
+      "exercises": [
+        {
+          "id": "dutch-e1",
+          "kind": "multiple-choice",
+          "contentRef": "dutch-e1"
+        },
+        {
+          "id": "dutch-e2",
+          "kind": "multiple-choice",
+          "contentRef": "dutch-e2"
+        },
+        {
+          "id": "dutch-e3",
+          "kind": "matching",
+          "contentRef": "dutch-e3"
+        },
+        {
+          "id": "dutch-e4",
+          "kind": "flashcard",
+          "vocabRef": "loan-luru",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "dutch-e5",
+          "kind": "flashcard",
+          "vocabRef": "loan-butu",
+          "direction": "target-to-native"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-11-loanwords-other",
+      "unitId": "unit-11-loanwords",
+      "order": 2,
+      "title": "Sranantongo & overige leenwoorden",
+      "description": "Leenwoorden uit het Sranantongo en andere talen, en nieuwvormingen.",
+      "newVocab": [
+        "loan-don",
+        "loan-las",
+        "loan-hambog",
+        "loan-pharyam",
+        "loan-riwors",
+        "loan-boro",
+        "loan-triki",
+        "loan-yuru",
+        "loan-morsu",
+        "loan-lesiyai",
+        "loan-setiyave"
+      ],
+      "grammarNoteRefs": [
+        "gn-loan-other-1",
+        "gn-loan-other-2"
+      ],
+      "exercises": [
+        {
+          "id": "other-e1",
+          "kind": "multiple-choice",
+          "contentRef": "other-e1"
+        },
+        {
+          "id": "other-e2",
+          "kind": "multiple-choice",
+          "contentRef": "other-e2"
+        },
+        {
+          "id": "other-e3",
+          "kind": "matching",
+          "contentRef": "other-e3"
+        },
+        {
+          "id": "other-e4",
+          "kind": "flashcard",
+          "vocabRef": "loan-don",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "other-e5",
+          "kind": "flashcard",
+          "vocabRef": "loan-morsu",
+          "direction": "target-to-native"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-11-loanwords-review",
+      "unitId": "unit-11-loanwords",
+      "order": 3,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [
+        {
+          "id": "rev-e1",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e1"
+        },
+        {
+          "id": "rev-e2",
+          "kind": "matching",
+          "contentRef": "rev-e2"
+        },
+        {
+          "id": "rev-e3",
+          "kind": "flashcard",
+          "vocabRef": "loan-triki",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "rev-e4",
+          "kind": "word-bank",
+          "contentRef": "rev-e4"
+        },
+        {
+          "id": "rev-e5",
+          "kind": "fill-blank",
+          "contentRef": "rev-e5"
+        },
+        {
+          "id": "rev-e6",
+          "kind": "flashcard",
+          "vocabRef": "loan-help",
+          "direction": "native-to-target"
+        },
+        {
+          "id": "rev-e7",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e7"
+        }
+      ],
+      "xpReward": 15
+    }
+  ]
+}
