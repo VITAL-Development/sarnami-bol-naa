@@ -1,0 +1,88 @@
+[
+  {
+    "id": "conj-ofwel",
+    "word": "yā to",
+    "translations": {
+      "nl": "of wel"
+    },
+    "notes": "Nevenschikkend voegwoord. Variant van yā ('of'). sarnamibhasa.nl bevestigt yáto (ook kito) voor 'ofwel'.",
+    "tags": [
+      "conjunction",
+      "coordinating",
+      "sarnamibhasa",
+      "book-p49"
+    ]
+  },
+  {
+    "id": "conj-zowel-als",
+    "word": "kā … kā …",
+    "translations": {
+      "nl": "zowel … als …"
+    },
+    "notes": "Nevenschikkend, correlatief paar: kā voor elk van de nevengeschikte delen. sarnamibhasa.nl bevestigt ká voor 'zowel'.",
+    "tags": [
+      "conjunction",
+      "coordinating",
+      "correlative",
+      "sarnamibhasa",
+      "book-p49"
+    ]
+  },
+  {
+    "id": "conj-noch-noch",
+    "word": "nā … nā …",
+    "translations": {
+      "nl": "noch … noch …"
+    },
+    "notes": "Nevenschikkend, correlatief paar. sarnamibhasa.nl bevestigt ná voor 'noch'.",
+    "tags": [
+      "conjunction",
+      "coordinating",
+      "correlative",
+      "sarnamibhasa",
+      "book-p49"
+    ]
+  },
+  {
+    "id": "conj-zodat",
+    "word": "jaune",
+    "translations": {
+      "nl": "opdat, zodat"
+    },
+    "notes": "Onderschikkend voegwoord. Ook: jame, jeme. sarnamibhasa.nl bevestigt jaune (ook jaise ki) voor 'opdat'.",
+    "tags": [
+      "conjunction",
+      "subordinating",
+      "sarnamibhasa",
+      "book-p49"
+    ]
+  },
+  {
+    "id": "conj-ookal",
+    "word": "cāhe",
+    "translations": {
+      "nl": "ook al, hoewel"
+    },
+    "notes": "Onderschikkend voegwoord. sarnamibhasa.nl geeft cáhen voor 'ook al' en 'hoewel'.",
+    "tags": [
+      "conjunction",
+      "subordinating",
+      "sarnamibhasa",
+      "book-p50"
+    ]
+  },
+  {
+    "id": "conj-zolang",
+    "word": "jab talak",
+    "translations": {
+      "nl": "zolang"
+    },
+    "notes": "Onderschikkend voegwoord van tijd. Ook: jab tak. sarnamibhasa.nl bevestigt jab talak / jab tak voor 'zolang'.",
+    "tags": [
+      "conjunction",
+      "subordinating",
+      "sarnamibhasa",
+      "book-p50"
+    ]
+  }
+]

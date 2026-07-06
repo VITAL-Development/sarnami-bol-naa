@@ -21,6 +21,25 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ### Added
 
+- Content for `unit-09-conjunctions` ("Voegwoorden"), authored on top of the
+  merged structure scaffold (#114, follow-up to #98). Source chapter:
+  `authored_docs/byakaran/06-conjunctions.md`. Adds 6 new conjunctions in the new
+  `content/sarnami/vocab/conjunctions.json` — coordinating yā to (of wel),
+  kā … kā … (zowel … als …), nā … nā … (noch … noch …) and subordinating jaune
+  (opdat, zodat), cāhe (ook al, hoewel), jab talak (zolang); image-verified
+  diacritics, tagged `book-p49`/`book-p50` (all confirmed against
+  `authored_docs/sarnamibhasa-vocab.md`, so no `needs-verification`). Reuses the
+  10 conjunctions already in `content/sarnami/vocab/structuurwoorden.json`
+  (struct-en/maar/of/dat/als/dan/omdat/anders/sinds/toch) by id without
+  duplicating them. Adds the lesson content in
+  `content/sarnami/lessons/unit-09-conjunctions.json` (grammar notes on
+  coordinating vs subordinating conjunctions and correlative pairs + example
+  sentences reusing existing noun/pronoun/adjective vocab) and wires up the
+  scaffold's three lessons (coordinating / subordinating / review) with
+  `newVocab`, `exampleSentenceRefs`, `grammarNoteRefs` and `exercises`. Exercise
+  mix per the issue: `matching`, `fill-blank` (choose the conjunction),
+  `word-bank` (join clauses) and `multiple-choice` in the two content lessons,
+  and a review lesson mixing all five exercise kinds with a higher `xpReward`.
 - Content for `unit-03-sounds` ("Klanken & uitspraak"), authored on top of the
   merged structure scaffold (#109, follow-up to #93). Source chapter:
   `authored_docs/byakaran/01-sounds.md`. Adds 19 sound-example words in the new
