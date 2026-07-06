@@ -51,6 +51,12 @@
         "correctAnswer": "Āj",
         "options": ["Āj", "Bihān", "Dūr", "Uppar"],
         "translations": { "nl": "Ik heb vandaag te veel gegeten." }
+      },
+      "tp-e9": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "De geit graast buiten." },
+        "correctTargetTokens": ["Bakariyā", "bāhar", "ghāms", "care", "hai."],
+        "distractorTokens": ["uppar", "roj"]
       }
     }
   },
@@ -112,6 +118,12 @@
         "correctAnswer": "bahut",
         "options": ["bahut", "thorā se", "nagicce", "sait"],
         "translations": { "nl": "Ramlal praat vandaag veel." }
+      },
+      "md-e9": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Balram liegt echt." },
+        "correctTargetTokens": ["Balram", "sacce", "jhūṭh", "bole", "hai."],
+        "distractorTokens": ["dhīre", "bilkul"]
       }
     }
   },
@@ -146,7 +158,7 @@
       "rev-e4": {
         "kind": "word-bank",
         "promptTranslations": { "nl": "Ik heb vandaag te veel gegeten." },
-        "correctTargetTokens": ["Āj", "ham", "jādā", "khāi", "lelī", "hai"],
+        "correctTargetTokens": ["Āj", "ham", "jādā", "khāi", "lelī", "hai."],
         "distractorTokens": ["bihān", "nagicce"]
       },
       "rev-e5": {

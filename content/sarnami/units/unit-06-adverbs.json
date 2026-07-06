@@ -54,6 +54,11 @@
           "contentRef": "tp-e5"
         },
         {
+          "id": "tp-e9",
+          "kind": "word-bank",
+          "contentRef": "tp-e9"
+        },
+        {
           "id": "tp-e6",
           "kind": "flashcard",
           "vocabRef": "adv-aaj",
@@ -122,6 +127,11 @@
           "id": "md-e5",
           "kind": "fill-blank",
           "contentRef": "md-e5"
+        },
+        {
+          "id": "md-e9",
+          "kind": "word-bank",
+          "contentRef": "md-e9"
         },
         {
           "id": "md-e6",

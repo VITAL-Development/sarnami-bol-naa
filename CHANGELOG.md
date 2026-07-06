@@ -35,9 +35,10 @@ which point they move under a dated `## [X.Y.Z]` heading.
   reduplication, and loanwords, plus exercises) and wires up the scaffold's three
   lessons (tijd & plaats / wijze & graad / review) with `newVocab`,
   `grammarNoteRefs` and `exercises`. Exercise mix per the issue: `flashcard`,
-  `matching` (adverb↔category/meaning), `multiple-choice` and `fill-blank`
-  (placement) in the two content lessons (no `word-bank`), and a review lesson
-  mixing all five kinds.
+  `matching` (adverb↔category/meaning), `multiple-choice`, `fill-blank` and
+  `word-bank` (adverb-placement — building a short sentence from scrambled
+  tokens) across the two content lessons, and a review lesson mixing all five
+  kinds.
 - Content for `unit-03-sounds` ("Klanken & uitspraak"), authored on top of the
   merged structure scaffold (#109, follow-up to #93). Source chapter:
   `authored_docs/byakaran/01-sounds.md`. Adds 19 sound-example words in the new
