@@ -1,0 +1,155 @@
+[
+  {
+    "lessonId": "unit-00-about-sarnami-what",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-what-1",
+        "title": "Wat is het Sarnami?",
+        "body": "Het Sarnami is de taal die als moedertaal wordt gesproken door Surinamers van Hindostaanse afkomst, in Suriname en in Nederland. De naam raakte vanaf de beginjaren 70 ingeburgerd, mede dankzij taalemancipatorische activiteiten van Surinaamse intellectuelen in Nederland. Sprekers noemen hun taal ook Hindustani of Sarnami-Hindustani.",
+        "relatedVocab": ["about-sarnami", "about-hindustani"]
+      },
+      {
+        "id": "gn-what-2",
+        "title": "Waar komt de naam vandaan?",
+        "body": "De naam Sarnami betekent 'Surinaams' en is afgeleid van Sarnām — zoals Hindostaanse Surinamers van oudsher hun vaderland noemen. De voor de Brits-Indische contractarbeiders moeilijk uit te spreken naam 'Suriname' werd al gauw als Sarnām uitgesproken. Aardig detail: in het Hindi, Urdu, Bhojpuri en Avadhi betekenen Sarnām en Sarnāmī ook 'de beroemde (naam)'.",
+        "relatedVocab": ["about-sarnami", "about-sarnam"]
+      }
+    ],
+    "exercises": {
+      "what-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Wie spreken het Sarnami als moedertaal?",
+        "options": [
+          "Surinamers van Hindostaanse afkomst",
+          "alle inwoners van India",
+          "alleen mensen in Nederland",
+          "de oorspronkelijke bevolking van Suriname"
+        ],
+        "correctIndex": 0
+      },
+      "what-e2": {
+        "kind": "multiple-choice",
+        "prompt": "Waar is de naam 'Sarnami' van afgeleid?",
+        "options": [
+          "van Sarnām, de naam voor het vaderland Suriname",
+          "van een Nederlands woord voor 'zuiden'",
+          "van de naam van een rivier in India",
+          "van het Engelse woord 'surname'"
+        ],
+        "correctIndex": 0
+      },
+      "what-e3": {
+        "kind": "multiple-choice",
+        "prompt": "Welke andere naam gebruiken sprekers zelf ook voor hun taal?",
+        "options": [
+          "(Sarnami-)Hindustani",
+          "Sranan Tongo",
+          "Devanagari",
+          "Bhojpuri-Nederlands"
+        ],
+        "correctIndex": 0
+      }
+    }
+  },
+  {
+    "lessonId": "unit-00-about-sarnami-history",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-hist-1",
+        "title": "De Brits-Indische immigratie",
+        "body": "Nadat Nederland op 1 juli 1863 de slavernij in Suriname afschafte, ontstond een schrijnend arbeidstekort op de plantages. Nederland wierf daarom contractarbeiders in Brits-Indië volgens het 'indentured labour system'. Het eerste schip, de Lalla Rookh, bracht op 5 juni 1873 de eerste 398 mannen, vrouwen en kinderen naar Suriname — nog steeds herdacht als de Immigratiedag. Tussen 1873 en 1916 kwamen 34.304 immigranten; ongeveer tweederde (66%) bleef in Suriname.",
+        "relatedVocab": ["about-lalla-rookh", "about-girmit"]
+      },
+      {
+        "id": "gn-hist-2",
+        "title": "Herkomst en talen",
+        "body": "De meeste immigranten (circa 80%) kwamen uit de streek die nu Uttar Pradesh heet, met daarnaast Bihar — in Noord-India. Hun streektalen Bhojpuri en Avadhi vormen samen de basis van het Sarnami, met het Bhojpuri als dominante factor. Vanaf de jaren 60 en rond de onafhankelijkheid van Suriname (25 november 1975) emigreerden duizenden Surinamers naar Nederland, waar 's-Gravenhage (Den Haag) uitgroeide tot een bolwerk van het Sarnami.",
+        "relatedVocab": ["about-bhojpuri", "about-avadhi"]
+      },
+      {
+        "id": "gn-hist-3",
+        "title": "Girmit",
+        "body": "Het woord girmiṭ is een voorbeeld van volksetymologie: het komt van het Engelse 'agreement' (overeenkomst). De uitdrukking girmiṭ kāṭe betekent 'een ellendige tijd doormaken' en verwijst in het bijzonder naar het vijfjarige contract dat de immigranten als zwaar en vernederend hebben ervaren.",
+        "relatedVocab": ["about-girmit"]
+      }
+    ],
+    "exercises": {
+      "hist-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Waarom wierf Nederland contractarbeiders in Brits-Indië?",
+        "options": [
+          "door een arbeidstekort na de afschaffing van de slavernij",
+          "omdat er te veel arbeiders in Suriname waren",
+          "om de Nederlandse taal te verspreiden",
+          "vanwege een oorlog in India"
+        ],
+        "correctIndex": 0
+      },
+      "hist-e2": {
+        "kind": "multiple-choice",
+        "prompt": "Hoe heette het eerste immigrantenschip dat op 5 juni 1873 aankwam?",
+        "options": [
+          "de Lalla Rookh",
+          "de Sarnām",
+          "de Immigratiedag",
+          "de Commewijne"
+        ],
+        "correctIndex": 0
+      },
+      "hist-e3": {
+        "kind": "multiple-choice",
+        "prompt": "Welke twee Indiase streektalen vormen samen de basis van het Sarnami?",
+        "options": [
+          "Bhojpuri en Avadhi",
+          "Hindi en Urdu",
+          "Sanskrit en Arabisch",
+          "Bengali en Oriya"
+        ],
+        "correctIndex": 0
+      }
+    }
+  },
+  {
+    "lessonId": "unit-00-about-sarnami-review",
+    "exampleSentences": [],
+    "grammarNotes": [],
+    "exercises": {
+      "rev-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Op welke datum wordt de Immigratiedag herdacht?",
+        "options": [
+          "5 juni 1873",
+          "1 juli 1863",
+          "25 november 1975",
+          "1 juli 1873"
+        ],
+        "correctIndex": 0
+      },
+      "rev-e2": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "Sarnām", "right": "Suriname / de beroemde naam" },
+          { "left": "Bhojpuri", "right": "Indiase brontaal van het Sarnami" },
+          { "left": "girmiṭ", "right": "het vijfjarig arbeidscontract" },
+          { "left": "Lalla Rookh", "right": "het eerste immigrantenschip" },
+          { "left": "Hindustani", "right": "andere naam voor het Sarnami" }
+        ]
+      },
+      "rev-e4": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Noem de twee streektalen die samen de basis van het Sarnami vormen." },
+        "correctTargetTokens": ["Bhojpuri", "Avadhi"],
+        "distractorTokens": ["Hindi", "Urdu"]
+      },
+      "rev-e5": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Het eerste immigrantenschip heette de ___ .",
+        "correctAnswer": "Lalla Rookh",
+        "options": ["Lalla Rookh", "Sarnām", "Bhojpuri", "Avadhi"],
+        "translations": { "nl": "Het eerste immigrantenschip heette de Lalla Rookh." }
+      }
+    }
+  }
+]

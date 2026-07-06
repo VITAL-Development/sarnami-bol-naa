@@ -1,0 +1,99 @@
+[
+  {
+    "id": "about-sarnami",
+    "word": "Sarnāmī",
+    "translations": {
+      "nl": "Sarnami; de Surinaamse moedertaal van Hindostanen"
+    },
+    "tags": [
+      "about-sarnami",
+      "proper-noun",
+      "book-p7",
+      "needs-verification"
+    ],
+    "notes": "Kernterm uit de inleiding (§A 'De naam Sarnami'). Betekent 'Surinaams / Surinaamse taal' en is afgeleid van Sarnām. Proper noun uit de beeldgeverifieerde transcriptie van authored_docs/byakaran/00-introduction.md; nog niet tegen een tweede bron gekruist, vandaar needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "about-sarnam",
+    "word": "Sarnām",
+    "translations": {
+      "nl": "Suriname (zoals de immigranten het uitspraken); ook 'de beroemde (naam)'"
+    },
+    "tags": [
+      "about-sarnami",
+      "proper-noun",
+      "book-p7",
+      "needs-verification"
+    ],
+    "notes": "Uit §A: de voor de Brits-Indische contractarbeiders moeilijk uitspreekbare naam 'Suriname' werd als Sarnām uitgesproken; in Hindi/Urdu/Bhojpuri/Avadhi betekent Sarnām/Sarnāmī 'de beroemde (naam)'. Waarvan het bijvoeglijk naamwoord Sarnami is afgeleid. Pagina bij benadering; needs-verification tot kruiscontrole."
+  },
+  {
+    "id": "about-hindustani",
+    "word": "Hindustani",
+    "translations": {
+      "nl": "andere naam die Sarnami-sprekers voor hun taal gebruiken (Sarnami-Hindustani)"
+    },
+    "tags": [
+      "about-sarnami",
+      "proper-noun",
+      "book-p7",
+      "needs-verification"
+    ],
+    "notes": "Uit §A: sprekers noemen hun taal ook Hindustani of Sarnami-Hindustani; hiermee bedoelen Surinamers een andere taal dan Indiërs (voor wie Hindustani de op Hindi/Urdu gebaseerde omgangstaal van Noord-India is). Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "about-bhojpuri",
+    "word": "Bhojpurī",
+    "translations": {
+      "nl": "een Noord-Indiase streektaal; samen met het Avadhi de basis van het Sarnami (dominante factor)"
+    },
+    "tags": [
+      "about-sarnami",
+      "proper-noun",
+      "book-p13",
+      "needs-verification"
+    ],
+    "notes": "Uit §C: de basis van het Sarnami wordt gevormd door het Bhojpuri en het Avadhi, met het Bhojpuri als dominante factor. Diacritisch correcte vorm (Bhojpurī) uit het historische schema (Fig. 2); lopende tekst schrijft ook 'Bhojpuri'. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "about-avadhi",
+    "word": "Avadhī",
+    "translations": {
+      "nl": "een Noord-Indiase streektaal; samen met het Bhojpuri de basis van het Sarnami"
+    },
+    "tags": [
+      "about-sarnami",
+      "proper-noun",
+      "book-p13",
+      "needs-verification"
+    ],
+    "notes": "Uit §C: naast het Bhojpuri de tweede brontaal van het Sarnami; taal van o.a. het populaire Ramayana van Tulsidas. Diacritisch correcte vorm (Avadhī) uit het historische schema (Fig. 2); lopende tekst schrijft ook 'Avadhi'. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "about-girmit",
+    "word": "girmiṭ",
+    "translations": {
+      "nl": "het vijfjarig arbeidscontract; een ellendige tijd (van Engels 'agreement')"
+    },
+    "tags": [
+      "about-sarnami",
+      "book-p26",
+      "needs-verification"
+    ],
+    "notes": "Voorbeeld van volksetymologie (§E.8.c): van het Engelse 'agreement'; girmiṭ kāṭe = 'een ellendige tijd doormaken', in het bijzonder het als vernederend ervaren vijfjarig contract. Retroflexe ṭ per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "about-lalla-rookh",
+    "word": "Lalla Rookh",
+    "translations": {
+      "nl": "het eerste immigrantenschip (aankomst 5 juni 1873)"
+    },
+    "tags": [
+      "about-sarnami",
+      "proper-noun",
+      "book-p10",
+      "needs-verification"
+    ],
+    "notes": "Uit §B: het eerste (zeil)schip dat op 5 juni 1873 de eerste 398 Brits-Indische contractarbeiders naar Suriname bracht — herdacht als de Immigratiedag. Scheepsnaam in Latijnse spelling zoals in de bron (LALLA ROOKH). Pagina bij benadering; needs-verification."
+  }
+]
