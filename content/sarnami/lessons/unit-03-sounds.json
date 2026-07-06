@@ -1,0 +1,212 @@
+[
+  {
+    "lessonId": "unit-03-sounds-vowels",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-vowels-1",
+        "title": "Korte en lange klinkers",
+        "body": "Het Sarnami onderscheidt korte en lange klinkers. Een streepje boven de letter — de macron — geeft aan dat de klinker lang wordt uitgesproken: a is kort (zoals in 'ab', nu), ā is lang (zoals in 'ām', een manje). Zo staan ook i tegenover ī en u tegenover ū. Het verschil is betekenisonderscheidend, dus de macron is geen versiering maar hoort bij de spelling.",
+        "relatedVocab": ["sound-am", "sound-insan", "sound-ulta"]
+      },
+      {
+        "id": "gn-vowels-2",
+        "title": "Tweeklanken en overige klinkers",
+        "body": "Naast de enkele klinkers kent het Sarnami tweeklanken: ai (zoals in 'ainā', een spiegel) en au (zoals in 'aurat', een vrouw). De klinkers volgen de volgorde van het devanagari-schrift, waarop de romanisatie is gebaseerd. In deze eenheid leer je de klinkers herkennen aan hun teken; de nasale (door de neus uitgesproken) varianten komen later aan bod.",
+        "relatedVocab": ["sound-aina", "sound-aurat"]
+      }
+    ],
+    "exercises": {
+      "vow-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Welk teken op een klinker geeft aan dat hij lang wordt uitgesproken?",
+        "options": [
+          "de macron (het streepje): ā",
+          "de punt eronder: ṭ",
+          "de tilde: ñ",
+          "het accent aigu: á"
+        ],
+        "correctIndex": 0
+      },
+      "vow-e2": {
+        "kind": "multiple-choice",
+        "prompt": "In welk woord hoor je de lange ā?",
+        "options": [
+          "ām (een manje)",
+          "ab (nu)",
+          "ek (één)",
+          "os (dauw)"
+        ],
+        "correctIndex": 0
+      },
+      "vow-e3": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "ā", "right": "ām (een manje)" },
+          { "left": "ai", "right": "ainā (een spiegel)" },
+          { "left": "au", "right": "aurat (een vrouw)" },
+          { "left": "u", "right": "ultā (omgekeerd)" }
+        ]
+      }
+    }
+  },
+  {
+    "lessonId": "unit-03-sounds-consonants",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-cons-1",
+        "title": "Geaspireerde en niet-geaspireerde medeklinkers",
+        "body": "Veel Sarnami-medeklinkers komen in twee vormen voor: zonder en met een luchtstootje (aspiratie). De 'h' na de letter geeft die aspiratie aan. Vergelijk k in 'kaun' (wie) met kh in 'khet' (een akker), of c in 'cor' (een dief) met ch in 'chūrī' (een mes). Hetzelfde geldt voor g/gh, t/th, p/ph, b/bh en d/dh. Het verschil is betekenisonderscheidend, dus spreek de aspiratie duidelijk uit.",
+        "relatedVocab": ["sound-kaun", "sound-khet", "sound-cor", "sound-churi"]
+      },
+      {
+        "id": "gn-cons-2",
+        "title": "De v en de w",
+        "body": "Voor de klank van de letter व gebruikt Marhé consequent de v en niet de w. In woorden van culturele en religieuze aard levert de v een vertrouwd woordbeeld op — denk aan Veda, deva en Bhagavān. Dat wijkt bewust af van het voorstel van de Spellingscommissie Sarnami (SCS), die in sommige gevallen de w aanbeveelt. In deze cursus volgen we de spelling van het boek.",
+        "relatedVocab": ["sound-garib", "sound-phul"]
+      }
+    ],
+    "exercises": {
+      "con-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent de 'h' in een medeklinker als 'kh' of 'ph'?",
+        "options": [
+          "dat de klank geaspireerd (met een luchtstootje) wordt uitgesproken",
+          "dat de klank lang is",
+          "dat het een klinker is",
+          "dat je de letter niet uitspreekt"
+        ],
+        "correctIndex": 0
+      },
+      "con-e2": {
+        "kind": "multiple-choice",
+        "prompt": "Welk woord begint met een geaspireerde medeklinker?",
+        "options": [
+          "khet (een akker)",
+          "kaun (wie)",
+          "cor (een dief)",
+          "garīb (arm)"
+        ],
+        "correctIndex": 0
+      },
+      "con-e3": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "kh", "right": "khet (een akker)" },
+          { "left": "ph", "right": "phul (een bloem)" },
+          { "left": "ch", "right": "chūrī (een mes)" },
+          { "left": "g", "right": "garīb (arm)" }
+        ]
+      }
+    }
+  },
+  {
+    "lessonId": "unit-03-sounds-diacritics",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-dia-1",
+        "title": "De onderpunt: retroflexe klanken",
+        "body": "Een punt onder een medeklinker (ṭ, ḍ, ṇ, ṛ, ṣ) markeert een retroflexe klank: je krult de tong omhoog naar het gehemelte. Zo staat de retroflexe ṭ in 'roṭī' (een roti) tegenover de gewone, dentale t in 'tarkārī' (groente). Andere voorbeelden zijn ḍ in 'ḍar' (vrees) en de flap ṛ in 'laṛkā' (een kind). Deze punt is essentieel — hij bepaalt welke klank en welk woord je bedoelt.",
+        "relatedVocab": ["sound-roti", "sound-dar", "sound-larka"]
+      },
+      {
+        "id": "gn-dia-2",
+        "title": "De tilde: nasale klanken",
+        "body": "Nasale (door de neus uitgesproken) medeklinkers krijgen een tilde of punt boven de letter. De palatale ñ hoor je in 'kaiñcī' (een schaar), de velaire ṅ in 'Laṅkā' (Sri Lanka) en de retroflexe nasaal ṇ in 'jhaṇḍā' (een vlag). Ook klinkers kunnen genasaleerd worden met de anusvāra (ṁ), zoals in 'kahāṁ' (waar).",
+        "relatedVocab": ["sound-kainci", "sound-lanka", "sound-jhanda"]
+      },
+      {
+        "id": "gn-dia-3",
+        "title": "De sisklanken ś en ṣ",
+        "body": "Het Sarnami kent naast de gewone s twee sisklanken met een eigen teken: de palatale ś (met accent), zoals in 'śānti' (vrede), en de retroflexe ṣ (met onderpunt), zoals in 'bhāṣā' (taal). In de populaire spelling worden ze vaak 'sh' geschreven (shanti, bhasha). De ṣ wisselt in sommige woorden af met 'kh', zoals in barkhā (regen).",
+        "relatedVocab": ["sound-shanti", "sound-bhasa"]
+      }
+    ],
+    "exercises": {
+      "dia-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Wat geeft een punt onder een medeklinker (zoals ṭ of ḍ) aan?",
+        "options": [
+          "een retroflexe klank: de tong krult naar het gehemelte",
+          "een lange klinker",
+          "een geaspireerde klank",
+          "dat je de letter niet uitspreekt"
+        ],
+        "correctIndex": 0
+      },
+      "dia-e2": {
+        "kind": "multiple-choice",
+        "prompt": "In welk woord staat de retroflexe ṭ (met punt eronder)?",
+        "options": [
+          "roṭī (een roti)",
+          "tarkārī (groente)",
+          "har (een ploeg)",
+          "ek (één)"
+        ],
+        "correctIndex": 0
+      },
+      "dia-e3": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "ṭ", "right": "roṭī (een roti)" },
+          { "left": "ñ", "right": "kaiñcī (een schaar)" },
+          { "left": "ṅ", "right": "Laṅkā (Sri Lanka)" },
+          { "left": "ṇ", "right": "jhaṇḍā (een vlag)" }
+        ]
+      },
+      "dia-e4": {
+        "kind": "multiple-choice",
+        "prompt": "Welk teken gebruikt het Sarnami voor nasale (neus)klanken zoals ñ en ṅ?",
+        "options": [
+          "de tilde / punt boven de letter",
+          "de macron (het streepje)",
+          "de punt onder de letter",
+          "het accent aigu"
+        ],
+        "correctIndex": 0
+      }
+    }
+  },
+  {
+    "lessonId": "unit-03-sounds-review",
+    "exampleSentences": [],
+    "grammarNotes": [],
+    "exercises": {
+      "rev-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Waar dient de macron (ā, ī, ū) voor?",
+        "options": [
+          "hij geeft aan dat de klinker lang wordt uitgesproken",
+          "hij geeft een retroflexe klank aan",
+          "hij geeft een nasale klank aan",
+          "hij geeft aspiratie aan"
+        ],
+        "correctIndex": 0
+      },
+      "rev-e2": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "ā", "right": "lange klinker" },
+          { "left": "ṭ", "right": "retroflexe klank (punt eronder)" },
+          { "left": "ñ", "right": "nasale klank (tilde)" },
+          { "left": "kh", "right": "geaspireerde klank" }
+        ]
+      },
+      "rev-e4": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Zet de tekens in de juiste volgorde tot het woord voor 'een roti' (let op de retroflexe ṭ)." },
+        "correctTargetTokens": ["r", "o", "ṭ", "ī"],
+        "distractorTokens": ["t", "i"]
+      },
+      "rev-e5": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Een punt onder een medeklinker, zoals in roṭī, geeft een ___ klank aan.",
+        "correctAnswer": "retroflexe",
+        "options": ["retroflexe", "lange", "nasale", "geaspireerde"],
+        "translations": { "nl": "Een punt onder een medeklinker, zoals in roṭī, geeft een retroflexe klank aan." }
+      }
+    }
+  }
+]

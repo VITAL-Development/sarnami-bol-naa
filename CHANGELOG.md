@@ -21,6 +21,20 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ### Added
 
+- Content for `unit-03-sounds` ("Klanken & uitspraak"), authored on top of the
+  merged structure scaffold (#109, follow-up to #93). Source chapter:
+  `authored_docs/byakaran/01-sounds.md`. Adds 19 sound-example words in the new
+  `content/sarnami/vocab/sounds.json` — vowel/consonant/diacritic examples drawn
+  from the book's klinker/medeklinker tables (ām, insān, ultā, ainā, aurat,
+  kaun, khet, cor, chūrī, phul, garīb, roṭī, ḍar, laṛkā, jhaṇḍā, kaiñcī, Laṅkā,
+  bhāṣā, śānti — image-verified diacritics, tagged `book-pNN` +
+  `needs-verification`), the lesson content in
+  `content/sarnami/lessons/unit-03-sounds.json` (grammar notes on macrons,
+  aspiration, retroflex onderpunt and nasale tilde + exercises), and wires up
+  the scaffold's four lessons (vowels / consonants / diacritics / review) with
+  `newVocab`, `grammarNoteRefs` and `exercises`. Exercise mix per the issue:
+  `matching` (symbol↔sound), `multiple-choice` and `flashcard` in the three
+  content lessons (no `word-bank`), and a review lesson mixing all five kinds.
 - Content for `unit-00-about-sarnami` ("Over het Sarnami"), authored on top of
   the merged structure scaffold (#108, follow-up to #92): reading-led
   orientation notes and exercises in

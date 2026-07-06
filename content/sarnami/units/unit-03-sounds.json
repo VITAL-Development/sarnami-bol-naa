@@ -11,8 +11,46 @@
       "order": 1,
       "title": "Klinkers & macrons",
       "description": "Klinkers en de lange klinkers (ā/ī/ū).",
-      "newVocab": [],
-      "exercises": [],
+      "newVocab": [
+        "sound-am",
+        "sound-insan",
+        "sound-ulta",
+        "sound-aina",
+        "sound-aurat"
+      ],
+      "grammarNoteRefs": [
+        "gn-vowels-1",
+        "gn-vowels-2"
+      ],
+      "exercises": [
+        {
+          "id": "vow-e1",
+          "kind": "multiple-choice",
+          "contentRef": "vow-e1"
+        },
+        {
+          "id": "vow-e2",
+          "kind": "multiple-choice",
+          "contentRef": "vow-e2"
+        },
+        {
+          "id": "vow-e3",
+          "kind": "matching",
+          "contentRef": "vow-e3"
+        },
+        {
+          "id": "vow-e4",
+          "kind": "flashcard",
+          "vocabRef": "sound-am",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "vow-e5",
+          "kind": "flashcard",
+          "vocabRef": "sound-aina",
+          "direction": "target-to-native"
+        }
+      ],
       "xpReward": 10
     },
     {
@@ -21,8 +59,47 @@
       "order": 2,
       "title": "Medeklinkers",
       "description": "De medeklinkers van het Sarnami.",
-      "newVocab": [],
-      "exercises": [],
+      "newVocab": [
+        "sound-kaun",
+        "sound-khet",
+        "sound-cor",
+        "sound-churi",
+        "sound-phul",
+        "sound-garib"
+      ],
+      "grammarNoteRefs": [
+        "gn-cons-1",
+        "gn-cons-2"
+      ],
+      "exercises": [
+        {
+          "id": "con-e1",
+          "kind": "multiple-choice",
+          "contentRef": "con-e1"
+        },
+        {
+          "id": "con-e2",
+          "kind": "multiple-choice",
+          "contentRef": "con-e2"
+        },
+        {
+          "id": "con-e3",
+          "kind": "matching",
+          "contentRef": "con-e3"
+        },
+        {
+          "id": "con-e4",
+          "kind": "flashcard",
+          "vocabRef": "sound-khet",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "con-e5",
+          "kind": "flashcard",
+          "vocabRef": "sound-churi",
+          "direction": "target-to-native"
+        }
+      ],
       "xpReward": 10
     },
     {
@@ -31,8 +108,55 @@
       "order": 3,
       "title": "Bijzondere tekens",
       "description": "De onderpunt- en tilde-tekens (ṭ/ḍ/ṇ, ñ/ṅ).",
-      "newVocab": [],
-      "exercises": [],
+      "newVocab": [
+        "sound-roti",
+        "sound-dar",
+        "sound-larka",
+        "sound-jhanda",
+        "sound-kainci",
+        "sound-lanka",
+        "sound-bhasa",
+        "sound-shanti"
+      ],
+      "grammarNoteRefs": [
+        "gn-dia-1",
+        "gn-dia-2",
+        "gn-dia-3"
+      ],
+      "exercises": [
+        {
+          "id": "dia-e1",
+          "kind": "multiple-choice",
+          "contentRef": "dia-e1"
+        },
+        {
+          "id": "dia-e2",
+          "kind": "multiple-choice",
+          "contentRef": "dia-e2"
+        },
+        {
+          "id": "dia-e3",
+          "kind": "matching",
+          "contentRef": "dia-e3"
+        },
+        {
+          "id": "dia-e4",
+          "kind": "multiple-choice",
+          "contentRef": "dia-e4"
+        },
+        {
+          "id": "dia-e5",
+          "kind": "flashcard",
+          "vocabRef": "sound-roti",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "dia-e6",
+          "kind": "flashcard",
+          "vocabRef": "sound-jhanda",
+          "direction": "target-to-native"
+        }
+      ],
       "xpReward": 10
     },
     {
@@ -42,7 +166,40 @@
       "title": "Herhaling",
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
-      "exercises": [],
+      "exercises": [
+        {
+          "id": "rev-e1",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e1"
+        },
+        {
+          "id": "rev-e2",
+          "kind": "matching",
+          "contentRef": "rev-e2"
+        },
+        {
+          "id": "rev-e3",
+          "kind": "flashcard",
+          "vocabRef": "sound-larka",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "rev-e4",
+          "kind": "word-bank",
+          "contentRef": "rev-e4"
+        },
+        {
+          "id": "rev-e5",
+          "kind": "fill-blank",
+          "contentRef": "rev-e5"
+        },
+        {
+          "id": "rev-e6",
+          "kind": "flashcard",
+          "vocabRef": "sound-kainci",
+          "direction": "native-to-target"
+        }
+      ],
       "xpReward": 15
     }
   ]
