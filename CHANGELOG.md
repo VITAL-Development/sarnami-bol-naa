@@ -19,6 +19,20 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Added
+
+- Content for `unit-00-about-sarnami` ("Over het Sarnami"), authored on top of
+  the merged structure scaffold (#108, follow-up to #92): reading-led
+  orientation notes and exercises in
+  `content/sarnami/lessons/unit-00-about-sarnami.json`, and a small set of key
+  terms / proper nouns in the new
+  `content/sarnami/vocab/about-sarnami.json` (Sarnāmī, Sarnām, Hindustani,
+  Bhojpurī, Avadhī, girmiṭ, Lalla Rookh — tagged `book-pNN` +
+  `needs-verification`). The scaffold's three lessons are wired up with
+  `newVocab`, `grammarNoteRefs` and `exercises`: heavy `multiple-choice`
+  comprehension plus a few `flashcard`s in the reading lessons, and a review
+  lesson mixing all five exercise kinds.
+
 ### Changed
 
 - `content/sarnami/vocab/greetings.json`: reworded two `notes` strings to drop

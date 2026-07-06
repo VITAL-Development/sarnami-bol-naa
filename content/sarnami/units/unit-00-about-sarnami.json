@@ -11,8 +11,44 @@
       "order": 1,
       "title": "Wat is Sarnami?",
       "description": "Wat Sarnami is en waar de naam vandaan komt.",
-      "newVocab": [],
-      "exercises": [],
+      "newVocab": [
+        "about-sarnami",
+        "about-sarnam",
+        "about-hindustani"
+      ],
+      "grammarNoteRefs": [
+        "gn-what-1",
+        "gn-what-2"
+      ],
+      "exercises": [
+        {
+          "id": "what-e1",
+          "kind": "multiple-choice",
+          "contentRef": "what-e1"
+        },
+        {
+          "id": "what-e2",
+          "kind": "multiple-choice",
+          "contentRef": "what-e2"
+        },
+        {
+          "id": "what-e3",
+          "kind": "multiple-choice",
+          "contentRef": "what-e3"
+        },
+        {
+          "id": "what-e4",
+          "kind": "flashcard",
+          "vocabRef": "about-sarnam",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "what-e5",
+          "kind": "flashcard",
+          "vocabRef": "about-hindustani",
+          "direction": "target-to-native"
+        }
+      ],
       "xpReward": 10
     },
     {
@@ -21,8 +57,46 @@
       "order": 2,
       "title": "Geschiedenis",
       "description": "De Brits-Indische immigratiegeschiedenis in het kort.",
-      "newVocab": [],
-      "exercises": [],
+      "newVocab": [
+        "about-lalla-rookh",
+        "about-bhojpuri",
+        "about-avadhi",
+        "about-girmit"
+      ],
+      "grammarNoteRefs": [
+        "gn-hist-1",
+        "gn-hist-2",
+        "gn-hist-3"
+      ],
+      "exercises": [
+        {
+          "id": "hist-e1",
+          "kind": "multiple-choice",
+          "contentRef": "hist-e1"
+        },
+        {
+          "id": "hist-e2",
+          "kind": "multiple-choice",
+          "contentRef": "hist-e2"
+        },
+        {
+          "id": "hist-e3",
+          "kind": "multiple-choice",
+          "contentRef": "hist-e3"
+        },
+        {
+          "id": "hist-e4",
+          "kind": "flashcard",
+          "vocabRef": "about-bhojpuri",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "hist-e5",
+          "kind": "flashcard",
+          "vocabRef": "about-girmit",
+          "direction": "target-to-native"
+        }
+      ],
       "xpReward": 10
     },
     {
@@ -32,7 +106,40 @@
       "title": "Herhaling",
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
-      "exercises": [],
+      "exercises": [
+        {
+          "id": "rev-e1",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e1"
+        },
+        {
+          "id": "rev-e2",
+          "kind": "matching",
+          "contentRef": "rev-e2"
+        },
+        {
+          "id": "rev-e3",
+          "kind": "flashcard",
+          "vocabRef": "about-avadhi",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "rev-e4",
+          "kind": "word-bank",
+          "contentRef": "rev-e4"
+        },
+        {
+          "id": "rev-e5",
+          "kind": "fill-blank",
+          "contentRef": "rev-e5"
+        },
+        {
+          "id": "rev-e6",
+          "kind": "flashcard",
+          "vocabRef": "about-lalla-rookh",
+          "direction": "native-to-target"
+        }
+      ],
       "xpReward": 15
     }
   ]
