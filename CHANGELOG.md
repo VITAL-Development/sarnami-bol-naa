@@ -21,6 +21,26 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ### Added
 
+- Content for `unit-04-nouns` ("Zelfstandige naamwoorden"), authored on top of
+  the merged structure scaffold (#110, follow-up to #94). Source chapter:
+  `authored_docs/byakaran/02-the-noun.md`. Extends
+  `content/sarnami/vocab/nouns.json` with 13 new nouns (kuttā, ghoṛā, peṛ, ām,
+  gāī, gadahā, gadahī, laundā, chaumṛī, nānā, nanī, nāk, chūrī — image-verified
+  diacritics, tagged `book-pNN` + `needs-verification`) and adopts the two
+  previously-unowned entries `noun-beti` (beṭī) and `noun-citthi` (ciṭṭhi) into
+  this unit; the basics nouns (`noun-ghar`/`noun-bhai`/`noun-maiya` …) are
+  reused by id in examples without duplication. Adds the new
+  `content/sarnami/vocab/numerals.json` with the 12 cardinal numerals
+  0–10 + 100 (sunnā, ek, dūi, tīn, cār, pāṃc, chau, sāt, āṭh, nau, das, sau).
+  Lesson content in `content/sarnami/lessons/unit-04-nouns.json` (grammar notes
+  on gender, korte/lange vorm + meervoud, achterzetsels/naamvallen and the
+  cardinals, plus example sentences and exercises), and wires up the scaffold's
+  five lessons (geslacht / getal & meervoud / naamvallen / telwoorden / review)
+  with `newVocab`, `exampleSentenceRefs`, `grammarNoteRefs` and `exercises`.
+  Exercise mix per the issue: full mix leaning on `fill-blank` (case/number),
+  `matching` (noun↔gender, cijfer↔telwoord) and `word-bank` (noun phrases) in
+  the content lessons, with a review lesson mixing all five kinds and a higher
+  `xpReward`.
 - Content for `unit-03-sounds` ("Klanken & uitspraak"), authored on top of the
   merged structure scaffold (#109, follow-up to #93). Source chapter:
   `authored_docs/byakaran/01-sounds.md`. Adds 19 sound-example words in the new

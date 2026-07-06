@@ -1,0 +1,271 @@
+{
+  "id": "unit-04-nouns",
+  "title": "Zelfstandige naamwoorden",
+  "description": "Geslacht, getal, naamval en telwoorden.",
+  "order": 4,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/02-the-noun.md",
+  "lessons": [
+    {
+      "id": "unit-04-nouns-gender",
+      "unitId": "unit-04-nouns",
+      "order": 1,
+      "title": "Geslacht",
+      "description": "Het geslacht van zelfstandige naamwoorden.",
+      "newVocab": [
+        "noun-gadaha",
+        "noun-gadahi",
+        "noun-launda",
+        "noun-chaumri",
+        "noun-nana",
+        "noun-nani"
+      ],
+      "exampleSentenceRefs": [
+        "ex-04-gender-1",
+        "ex-04-gender-2"
+      ],
+      "grammarNoteRefs": [
+        "gn-04-gender-1",
+        "gn-04-gender-2"
+      ],
+      "exercises": [
+        {
+          "id": "gender-e1",
+          "kind": "multiple-choice",
+          "contentRef": "gender-e1"
+        },
+        {
+          "id": "gender-e2",
+          "kind": "matching",
+          "contentRef": "gender-e2"
+        },
+        {
+          "id": "gender-e3",
+          "kind": "fill-blank",
+          "contentRef": "gender-e3"
+        },
+        {
+          "id": "gender-e4",
+          "kind": "flashcard",
+          "vocabRef": "noun-launda",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "gender-e5",
+          "kind": "flashcard",
+          "vocabRef": "noun-nani",
+          "direction": "native-to-target"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-04-nouns-number",
+      "unitId": "unit-04-nouns",
+      "order": 2,
+      "title": "Getal & meervoud",
+      "description": "Enkelvoud en meervoud, plus de korte en lange vorm.",
+      "newVocab": [
+        "noun-ghora",
+        "noun-per",
+        "noun-am",
+        "noun-kutta",
+        "noun-nak"
+      ],
+      "exampleSentenceRefs": [
+        "ex-04-number-1",
+        "ex-04-number-2",
+        "ex-04-number-3"
+      ],
+      "grammarNoteRefs": [
+        "gn-04-number-1",
+        "gn-04-number-2"
+      ],
+      "exercises": [
+        {
+          "id": "number-e1",
+          "kind": "multiple-choice",
+          "contentRef": "number-e1"
+        },
+        {
+          "id": "number-e2",
+          "kind": "fill-blank",
+          "contentRef": "number-e2"
+        },
+        {
+          "id": "number-e3",
+          "kind": "matching",
+          "contentRef": "number-e3"
+        },
+        {
+          "id": "number-e4",
+          "kind": "word-bank",
+          "contentRef": "number-e4"
+        },
+        {
+          "id": "number-e5",
+          "kind": "flashcard",
+          "vocabRef": "noun-kutta",
+          "direction": "target-to-native"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-04-nouns-cases",
+      "unitId": "unit-04-nouns",
+      "order": 3,
+      "title": "Naamvallen",
+      "description": "Naamvalsgedrag van zelfstandige naamwoorden met achterzetsels.",
+      "newVocab": [
+        "noun-churi",
+        "noun-gai",
+        "noun-beti",
+        "noun-citthi"
+      ],
+      "exampleSentenceRefs": [
+        "ex-04-cases-1",
+        "ex-04-cases-2",
+        "ex-04-cases-3"
+      ],
+      "grammarNoteRefs": [
+        "gn-04-cases-1",
+        "gn-04-cases-2"
+      ],
+      "exercises": [
+        {
+          "id": "cases-e1",
+          "kind": "multiple-choice",
+          "contentRef": "cases-e1"
+        },
+        {
+          "id": "cases-e2",
+          "kind": "fill-blank",
+          "contentRef": "cases-e2"
+        },
+        {
+          "id": "cases-e3",
+          "kind": "matching",
+          "contentRef": "cases-e3"
+        },
+        {
+          "id": "cases-e4",
+          "kind": "word-bank",
+          "contentRef": "cases-e4"
+        },
+        {
+          "id": "cases-e5",
+          "kind": "flashcard",
+          "vocabRef": "noun-beti",
+          "direction": "target-to-native"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-04-nouns-numerals",
+      "unitId": "unit-04-nouns",
+      "order": 4,
+      "title": "Telwoorden",
+      "description": "De hoofdtelwoorden uit dit hoofdstuk.",
+      "newVocab": [
+        "num-sunna",
+        "num-ek",
+        "num-dui",
+        "num-tin",
+        "num-car",
+        "num-panc",
+        "num-chau",
+        "num-sat",
+        "num-ath",
+        "num-nau",
+        "num-das",
+        "num-sau"
+      ],
+      "exampleSentenceRefs": [
+        "ex-04-num-1",
+        "ex-04-num-2"
+      ],
+      "grammarNoteRefs": [
+        "gn-04-num-1",
+        "gn-04-num-2"
+      ],
+      "exercises": [
+        {
+          "id": "num-e1",
+          "kind": "multiple-choice",
+          "contentRef": "num-e1"
+        },
+        {
+          "id": "num-e2",
+          "kind": "matching",
+          "contentRef": "num-e2"
+        },
+        {
+          "id": "num-e3",
+          "kind": "fill-blank",
+          "contentRef": "num-e3"
+        },
+        {
+          "id": "num-e4",
+          "kind": "word-bank",
+          "contentRef": "num-e4"
+        },
+        {
+          "id": "num-e5",
+          "kind": "flashcard",
+          "vocabRef": "num-sat",
+          "direction": "native-to-target"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-04-nouns-review",
+      "unitId": "unit-04-nouns",
+      "order": 5,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [
+        {
+          "id": "rev-e1",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e1"
+        },
+        {
+          "id": "rev-e2",
+          "kind": "matching",
+          "contentRef": "rev-e2"
+        },
+        {
+          "id": "rev-e3",
+          "kind": "flashcard",
+          "vocabRef": "noun-ghora",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "rev-e4",
+          "kind": "word-bank",
+          "contentRef": "rev-e4"
+        },
+        {
+          "id": "rev-e5",
+          "kind": "fill-blank",
+          "contentRef": "rev-e5"
+        },
+        {
+          "id": "rev-e6",
+          "kind": "flashcard",
+          "vocabRef": "noun-chaumri",
+          "direction": "native-to-target"
+        },
+        {
+          "id": "rev-e7",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e7"
+        }
+      ],
+      "xpReward": 15
+    }
+  ]
+}
