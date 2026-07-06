@@ -21,6 +21,23 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ### Added
 
+- Content for `unit-10-interjections` ("Tussenwerpsels"), authored on top of the
+  merged structure scaffold (#115, follow-up to #99). Source chapter:
+  `authored_docs/byakaran/07-interjections.md`. Adds 15 high-frequency
+  interjections/discourse particles in the new
+  `content/sarnami/vocab/interjections.json` (acchā, he, ho, cup, ayā, bacāo,
+  bhalā, bāp-re-bāp, sābās, vāh-vāh, albat, cor-cor, hāy-hāy, oho, to —
+  image-verified diacritics, tagged `book-p50`; `acchā` and `to` confirmed
+  against `authored_docs/sarnamibhasa-vocab.md`, the rest carry
+  `needs-verification`), the lesson content in
+  `content/sarnami/lessons/unit-10-interjections.json` (grammar notes on what
+  interjections express, the he/ho attention-callers, and particles/loanwords +
+  exercises), and wires up the scaffold's two lessons (interjections / review)
+  with `newVocab`, `grammarNoteRefs` and `exercises`. Reuses `hāṁ` (`greet-ja`)
+  and `nā` (`greet-nee`) from `vocab/greetings.json` in the review. Exercise mix
+  per the issue: `flashcard` + `matching` (interjection↔situation/meaning) +
+  light `multiple-choice` in the content lesson (no `word-bank`/`fill-blank`),
+  and a review lesson mixing all five kinds with a higher `xpReward`.
 - Content for `unit-03-sounds` ("Klanken & uitspraak"), authored on top of the
   merged structure scaffold (#109, follow-up to #93). Source chapter:
   `authored_docs/byakaran/01-sounds.md`. Adds 19 sound-example words in the new
