@@ -165,6 +165,28 @@
       "title": "Herhaling",
       "description": "Alles uit Eenheid 2 nog eens herhalen.",
       "newVocab": [],
+      "generatedSpec": {
+        "vocabRefs": [
+          "adj-chota",
+          "adj-lal",
+          "adj-sojha",
+          "adj-patar",
+          "adj-mitha",
+          "adj-barka",
+          "adj-lamma",
+          "adj-barhimya",
+          "adj-karikka",
+          "gram-se",
+          "gram-aur-compare",
+          "gram-jada",
+          "gram-sabse"
+        ],
+        "grammarRefs": [],
+        "topics": ["adjective", "comparison", "degree"],
+        "kinds": ["multiple-choice", "matching", "word-bank", "fill-blank", "flashcard"],
+        "count": 6,
+        "distractorScope": "topic"
+      },
       "exercises": [
         {
           "id": "l9-e1",

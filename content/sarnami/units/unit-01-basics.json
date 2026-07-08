@@ -209,6 +209,35 @@
       "title": "Herhaling",
       "description": "Alles uit Eenheid 1 nog eens herhalen.",
       "newVocab": [],
+      "generatedSpec": {
+        "vocabRefs": [
+          "greet-ram-ram",
+          "greet-pranam",
+          "greet-kaise-hai",
+          "greet-moi-jahe",
+          "greet-dhanyavad",
+          "pron-ham",
+          "pron-tu",
+          "pron-ap",
+          "pron-u",
+          "pron-hamlog",
+          "noun-ghar",
+          "noun-ghari",
+          "noun-maibap",
+          "noun-bhai",
+          "noun-bahin",
+          "noun-maiya",
+          "noun-bappa",
+          "gram-hai",
+          "gram-na",
+          "gram-kaham"
+        ],
+        "grammarRefs": [],
+        "topics": ["greeting", "pronoun", "noun", "negation"],
+        "kinds": ["multiple-choice", "matching", "word-bank", "fill-blank", "flashcard"],
+        "count": 6,
+        "distractorScope": "topic"
+      },
       "exercises": [
         {
           "id": "l5-e1",
