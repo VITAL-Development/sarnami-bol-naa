@@ -21,6 +21,21 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ### Added
 
+- Content for `unit-12-word-formation` ("Woordvorming"), authored on top of the
+  merged structure scaffold (#118, follow-up to #102; supersedes scaffold #131).
+  Source chapter: `authored_docs/byakaran/10-word-formation.md`. Adds 16
+  derived-form vocab entries in the new `content/sarnami/vocab/word-formation.json`
+  — native derivational suffixes (ghumakkaṛ, piyakkaṛ, lŏhār, sŏnār, paṛhāī,
+  safāī, ṭopī-vālā, macharī-vālā) and Arabic-Persian suffixes/prefixes (imāndār,
+  dukāndār, jādūgar, kārīgar, davā-khānā, chapkhānā, becain, nā-lāyak) — with
+  image-verified diacritics, tagged `book-pNN` + `needs-verification`. Adds the
+  lesson content (grammar notes on the suffix/prefix families + exercises) in
+  `content/sarnami/lessons/unit-12-word-formation.json`, and wires up the
+  scaffold's three lessons (native suffixes / Arabic-Persian suffixes+prefixes /
+  review) with `newVocab`, `grammarNoteRefs` and `exercises`. Exercise mix per
+  the issue: `matching` (suffix↔meaning), `multiple-choice` (which derived form)
+  and `fill-blank` (build the derived word) in the two content lessons; the
+  review lesson mixes all five exercise kinds and carries a higher `xpReward`.
 - Content for `unit-11-loanwords` ("Leenwoorden & nieuwvormingen"), authored on
   top of the merged structure scaffold (#117, follow-up to #101). Source chapter:
   `authored_docs/byakaran/09-loan-words-and-neologisms.md`. Adds 21 loanwords in

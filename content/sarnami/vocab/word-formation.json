@@ -1,0 +1,234 @@
+[
+  {
+    "id": "wf-ghumakkar",
+    "word": "ghumakkaṛ",
+    "translations": {
+      "nl": "een zwerver"
+    },
+    "tags": [
+      "word-formation",
+      "suffix-akkar",
+      "book-p72",
+      "needs-verification"
+    ],
+    "notes": "Afleiding met het achtervoegsel -akkaṛ (gewoontedoener), gevormd van de stam ghum- ('rondtrekken'). Beeldgeverifieerde transcriptie uit authored_docs/byakaran/10-word-formation.md (§Achtervoegsels 1). Pagina bij benadering; niet bevestigd door de tweede bron, vandaar needs-verification."
+  },
+  {
+    "id": "wf-piyakkar",
+    "word": "piyakkaṛ",
+    "translations": {
+      "nl": "een dronkaard"
+    },
+    "tags": [
+      "word-formation",
+      "suffix-akkar",
+      "book-p72",
+      "needs-verification"
+    ],
+    "notes": "Afleiding met -akkaṛ (gewoontedoener), van piy- ('drinken'). Uit §Achtervoegsels 1. Retroflexe ṛ per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "wf-lohar",
+    "word": "lŏhār",
+    "translations": {
+      "nl": "een smid"
+    },
+    "tags": [
+      "word-formation",
+      "suffix-ar",
+      "book-p72",
+      "needs-verification"
+    ],
+    "notes": "Beroepsnaam met het achtervoegsel -ār, van lŏhā ('ijzer'). Uit §Achtervoegsels 13. Breve ŏ per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "wf-sonar",
+    "word": "sŏnār",
+    "translations": {
+      "nl": "een goudsmid"
+    },
+    "tags": [
+      "word-formation",
+      "suffix-ar",
+      "book-p72",
+      "needs-verification"
+    ],
+    "notes": "Beroepsnaam met -ār, van sŏnā ('goud'). Uit §Achtervoegsels 13. Breve ŏ per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "wf-parhai",
+    "word": "paṛhāī",
+    "translations": {
+      "nl": "studie; het studeren"
+    },
+    "tags": [
+      "word-formation",
+      "suffix-ai",
+      "book-p72",
+      "needs-verification"
+    ],
+    "notes": "Abstract zelfstandig naamwoord met het achtervoegsel -āī, van paṛh- ('lezen, studeren'). Uit §Achtervoegsels 11. Retroflexe ṛ en macron-ī per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "wf-safai",
+    "word": "safāī",
+    "translations": {
+      "nl": "netheid; het schoonmaken"
+    },
+    "tags": [
+      "word-formation",
+      "suffix-ai",
+      "book-p72",
+      "needs-verification"
+    ],
+    "notes": "Abstract zelfstandig naamwoord met -āī, van sāf ('schoon'). Uit §Achtervoegsels 11. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "wf-topivala",
+    "word": "ṭopī-vālā",
+    "translations": {
+      "nl": "de man met de hoed"
+    },
+    "tags": [
+      "word-formation",
+      "suffix-vala",
+      "book-p72",
+      "needs-verification"
+    ],
+    "notes": "Vorming met het achtervoegsel -vāl(-ā) ('degene met/van X'), van ṭopī ('hoed'). Uit §Achtervoegsels 34. Retroflexe ṭ per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "wf-macharivala",
+    "word": "macharī-vālā",
+    "translations": {
+      "nl": "de visboer"
+    },
+    "tags": [
+      "word-formation",
+      "suffix-vala",
+      "book-p72",
+      "needs-verification"
+    ],
+    "notes": "Vorming met -vāl(-ā), van macharī ('vis'). Uit §Achtervoegsels 34. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "wf-imandar",
+    "word": "imāndār",
+    "translations": {
+      "nl": "eerlijk"
+    },
+    "tags": [
+      "word-formation",
+      "arabic-persian",
+      "suffix-dar",
+      "book-p74",
+      "needs-verification"
+    ],
+    "notes": "Afleiding met het Arabisch-Perzische achtervoegsel -dār ('bezittend, houder van'), van imān ('eer, geloof'). Uit §Achtervoegsels van Arabisch-Perzische oorsprong 6. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "wf-dukandar",
+    "word": "dukāndār",
+    "translations": {
+      "nl": "een winkelier"
+    },
+    "tags": [
+      "word-formation",
+      "arabic-persian",
+      "suffix-dar",
+      "book-p74",
+      "needs-verification"
+    ],
+    "notes": "Afleiding met -dār ('houder van'), van dukān ('winkel'). Uit §Achtervoegsels van Arabisch-Perzische oorsprong 6. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "wf-jadugar",
+    "word": "jādūgar",
+    "translations": {
+      "nl": "een goochelaar, een tovenaar"
+    },
+    "tags": [
+      "word-formation",
+      "arabic-persian",
+      "suffix-gar",
+      "book-p74",
+      "needs-verification"
+    ],
+    "notes": "Afleiding met het achtervoegsel -gar ('maker, doener'), van jādū ('toverkunst'). Uit §Achtervoegsels van Arabisch-Perzische oorsprong 4. Macron-ū per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "wf-karigar",
+    "word": "kārīgar",
+    "translations": {
+      "nl": "een vakman, een kunstenaar"
+    },
+    "tags": [
+      "word-formation",
+      "arabic-persian",
+      "suffix-gar",
+      "book-p74",
+      "needs-verification"
+    ],
+    "notes": "Afleiding met -gar ('maker, doener'), van kār ('werk'). Uit §Achtervoegsels van Arabisch-Perzische oorsprong 4. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "wf-davakhana",
+    "word": "davā-khānā",
+    "translations": {
+      "nl": "een apotheek"
+    },
+    "tags": [
+      "word-formation",
+      "arabic-persian",
+      "suffix-khana",
+      "book-p74",
+      "needs-verification"
+    ],
+    "notes": "Samenstelling met het achtervoegsel -khānā ('huis, plaats'), van davā ('medicijn'). Uit §Achtervoegsels van Arabisch-Perzische oorsprong 2. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "wf-chapkhana",
+    "word": "chapkhānā",
+    "translations": {
+      "nl": "een drukkerij"
+    },
+    "tags": [
+      "word-formation",
+      "arabic-persian",
+      "suffix-khana",
+      "book-p74",
+      "needs-verification"
+    ],
+    "notes": "Samenstelling met -khānā ('huis, plaats'), van chap ('druk'). Uit §Achtervoegsels van Arabisch-Perzische oorsprong 2. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "wf-becain",
+    "word": "becain",
+    "translations": {
+      "nl": "radeloos, onrustig"
+    },
+    "tags": [
+      "word-formation",
+      "arabic-persian",
+      "prefix-be",
+      "book-p74",
+      "needs-verification"
+    ],
+    "notes": "Afleiding met het Arabisch-Perzische voorvoegsel be- ('zonder, -loos'), van cain ('rust'). Uit §Voorvoegsels van Arabisch-Perzische oorsprong 5. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "wf-nalayak",
+    "word": "nā-lāyak",
+    "translations": {
+      "nl": "ongeschikt"
+    },
+    "tags": [
+      "word-formation",
+      "arabic-persian",
+      "prefix-na",
+      "book-p74",
+      "needs-verification"
+    ],
+    "notes": "Afleiding met het ontkennende voorvoegsel nā- ('on-, niet'), van lāyak ('geschikt, bekwaam'). Uit §Voorvoegsels van Arabisch-Perzische oorsprong 3. Pagina bij benadering; needs-verification."
+  }
+]
