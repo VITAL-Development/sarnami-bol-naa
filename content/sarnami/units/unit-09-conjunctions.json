@@ -1,0 +1,161 @@
+{
+  "id": "unit-09-conjunctions",
+  "title": "Voegwoorden",
+  "description": "Nevenschikkende en onderschikkende voegwoorden.",
+  "order": 10,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/06-conjunctions.md",
+  "lessons": [
+    {
+      "id": "unit-09-conjunctions-coordinating",
+      "unitId": "unit-09-conjunctions",
+      "order": 1,
+      "title": "Nevenschikkende voegwoorden",
+      "description": "Voegwoorden die zinsdelen nevenschikken.",
+      "newVocab": [
+        "struct-en",
+        "struct-maar",
+        "struct-of",
+        "conj-ofwel",
+        "conj-zowel-als",
+        "conj-noch-noch"
+      ],
+      "exampleSentenceRefs": [
+        "ex-09-1",
+        "ex-09-2",
+        "ex-09-3"
+      ],
+      "grammarNoteRefs": [
+        "gn-09-1"
+      ],
+      "exercises": [
+        {
+          "id": "c1-e1",
+          "kind": "matching",
+          "contentRef": "c1-e1"
+        },
+        {
+          "id": "c1-e2",
+          "kind": "fill-blank",
+          "contentRef": "c1-e2"
+        },
+        {
+          "id": "c1-e3",
+          "kind": "word-bank",
+          "contentRef": "c1-e3"
+        },
+        {
+          "id": "c1-e4",
+          "kind": "multiple-choice",
+          "contentRef": "c1-e4"
+        },
+        {
+          "id": "c1-e5",
+          "kind": "flashcard",
+          "vocabRef": "conj-zowel-als",
+          "direction": "target-to-native"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-09-conjunctions-subordinating",
+      "unitId": "unit-09-conjunctions",
+      "order": 2,
+      "title": "Onderschikkende voegwoorden",
+      "description": "Voegwoorden die bijzinnen inleiden.",
+      "newVocab": [
+        "struct-dat",
+        "struct-als",
+        "struct-dan",
+        "struct-omdat",
+        "struct-anders",
+        "struct-sinds",
+        "struct-toch",
+        "conj-zodat",
+        "conj-ookal",
+        "conj-zolang"
+      ],
+      "exampleSentenceRefs": [
+        "ex-09-4",
+        "ex-09-5",
+        "ex-09-6"
+      ],
+      "grammarNoteRefs": [
+        "gn-09-2",
+        "gn-09-3"
+      ],
+      "exercises": [
+        {
+          "id": "c2-e1",
+          "kind": "matching",
+          "contentRef": "c2-e1"
+        },
+        {
+          "id": "c2-e2",
+          "kind": "fill-blank",
+          "contentRef": "c2-e2"
+        },
+        {
+          "id": "c2-e3",
+          "kind": "word-bank",
+          "contentRef": "c2-e3"
+        },
+        {
+          "id": "c2-e4",
+          "kind": "multiple-choice",
+          "contentRef": "c2-e4"
+        },
+        {
+          "id": "c2-e5",
+          "kind": "flashcard",
+          "vocabRef": "conj-zodat",
+          "direction": "target-to-native"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-09-conjunctions-review",
+      "unitId": "unit-09-conjunctions",
+      "order": 3,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [
+        {
+          "id": "rev-e1",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e1"
+        },
+        {
+          "id": "rev-e2",
+          "kind": "matching",
+          "contentRef": "rev-e2"
+        },
+        {
+          "id": "rev-e3",
+          "kind": "word-bank",
+          "contentRef": "rev-e3"
+        },
+        {
+          "id": "rev-e4",
+          "kind": "fill-blank",
+          "contentRef": "rev-e4"
+        },
+        {
+          "id": "rev-e5",
+          "kind": "flashcard",
+          "vocabRef": "struct-omdat",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "rev-e6",
+          "kind": "flashcard",
+          "vocabRef": "struct-toch",
+          "direction": "native-to-target"
+        }
+      ],
+      "xpReward": 15
+    }
+  ]
+}
