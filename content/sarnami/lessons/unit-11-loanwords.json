@@ -1,0 +1,158 @@
+[
+  {
+    "lessonId": "unit-11-loanwords-dutch",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-loan-dutch-1",
+        "title": "Leenwoorden met kare en hove",
+        "body": "Het Sarnami leent volop werkwoorden uit de omringende talen. Nederlandse werkwoorden worden ingepast met twee hulpwerkwoorden: kare (doen) voor de bedrijvende vorm en hove (worden/zijn) voor de lijdende vorm. Zo wordt van de stam 'bel' → bel kare (opbellen) en bel hove (opgebeld worden), en van 'help' → help kare (helpen) en help hove (geholpen worden). Op dezelfde manier: klop kare, uitleg kare, beledig kare, bekeur kare, wachti kare.",
+        "relatedVocab": ["loan-bel", "loan-help", "loan-klop"]
+      },
+      {
+        "id": "gn-loan-dutch-2",
+        "title": "Niet alleen werkwoorden",
+        "body": "De basis hoeft geen werkwoord te zijn. Bij mooi kare (mooi maken) / mooi hove (mooi worden) is de basis een bijvoeglijk naamwoord. Sommige ontleningen zijn zo ingeburgerd dat ze het oorspronkelijke Sarnami-woord volledig hebben vervangen. Een enkele keer wordt een ander hulpwerkwoord gebruikt: būṭū bhare betekent 'een boete betalen' (būṭū uit het Nederlandse 'boete' via het Sranantongo butu, met bhare = betalen).",
+        "relatedVocab": ["loan-mooi", "loan-butu"]
+      }
+    ],
+    "exercises": {
+      "dutch-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent 'bel kare'?",
+        "options": [
+          "opbellen",
+          "kloppen",
+          "helpen",
+          "wachten"
+        ],
+        "correctIndex": 0
+      },
+      "dutch-e2": {
+        "kind": "multiple-choice",
+        "prompt": "Met welk hulpwerkwoord maak je van een leenwoord de lijdende vorm (bv. 'geholpen worden')?",
+        "options": [
+          "hove",
+          "kare",
+          "bhare",
+          "don"
+        ],
+        "correctIndex": 0
+      },
+      "dutch-e3": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "klop kare", "right": "kloppen" },
+          { "left": "uitleg kare", "right": "uitleggen" },
+          { "left": "help kare", "right": "helpen" },
+          { "left": "wachti kare", "right": "wachten" },
+          { "left": "mooi kare", "right": "mooi maken" }
+        ]
+      }
+    }
+  },
+  {
+    "lessonId": "unit-11-loanwords-other",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-loan-other-1",
+        "title": "Uit het Engels en het Sranantongo",
+        "body": "Ook uit het Engels en het Sranantongo zijn werkwoorden geleend, weer met kare en hove: don kare (afmaken, van 'done'), lās kare (verliezen, van 'lost'), boro kare (boren), trīkī kare (strijken), yūrū kare (huren), morsū kare (vuil maken). Opvallend: veel Sranantongo-woorden gaan zelf terug op het Nederlands — boro < boren, yūrū < huren, morsū < morsen — en bereikten het Sarnami dus via een omweg.",
+        "relatedVocab": ["loan-don", "loan-boro", "loan-yuru"]
+      },
+      {
+        "id": "gn-loan-other-2",
+        "title": "Nieuwvormingen en volksetymologie",
+        "body": "Sommige ontleningen zijn zo volledig aangepast aan de Sarnami-werkwoordstructuur dat ze nauwelijks nog als leenwoord herkenbaar zijn en geen kare/hove meer nodig hebben: lĕsiyāī (luieren, van het Eng. 'lazy' via het Sranan lesi) en sĕtiyāve (ordenen, van het Eng. 'to set' via seti). Verwant is girmiṭ (van 'agreement'), een bekend voorbeeld van volksetymologie.",
+        "relatedVocab": ["loan-lesiyai", "loan-setiyave"]
+      }
+    ],
+    "exercises": {
+      "other-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Van welk Engels woord komt 'don kare' (afmaken)?",
+        "options": [
+          "done",
+          "down",
+          "dawn",
+          "don't"
+        ],
+        "correctIndex": 0
+      },
+      "other-e2": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent de nieuwvorming 'lĕsiyāī'?",
+        "options": [
+          "luieren",
+          "ordenen",
+          "strijken",
+          "huren"
+        ],
+        "correctIndex": 0
+      },
+      "other-e3": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "lās kare", "right": "verliezen" },
+          { "left": "boro kare", "right": "boren" },
+          { "left": "yūrū kare", "right": "huren" },
+          { "left": "trīkī kare", "right": "strijken" },
+          { "left": "sĕtiyāve", "right": "ordenen" }
+        ]
+      }
+    }
+  },
+  {
+    "lessonId": "unit-11-loanwords-review",
+    "exampleSentences": [],
+    "grammarNotes": [],
+    "exercises": {
+      "rev-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Met welke twee hulpwerkwoorden worden leenwoorden tot Sarnami-werkwoorden gemaakt?",
+        "options": [
+          "kare en hove",
+          "hai en bā",
+          "kā en ke",
+          "se en me"
+        ],
+        "correctIndex": 0
+      },
+      "rev-e2": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "bel kare", "right": "opbellen" },
+          { "left": "boro kare", "right": "boren" },
+          { "left": "don kare", "right": "afmaken" },
+          { "left": "lĕsiyāī", "right": "luieren" },
+          { "left": "būṭū bhare", "right": "een boete betalen" }
+        ]
+      },
+      "rev-e4": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Hoe zeg je 'kloppen' (leenwoord met het hulpwerkwoord voor de bedrijvende vorm)?" },
+        "correctTargetTokens": ["klop", "kare"],
+        "distractorTokens": ["hove", "bel"]
+      },
+      "rev-e5": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "'Huren' heet in het Sarnami ___ kare.",
+        "correctAnswer": "yūrū",
+        "options": ["yūrū", "boro", "trīkī", "morsū"],
+        "translations": { "nl": "'Huren' heet in het Sarnami yūrū kare." }
+      },
+      "rev-e7": {
+        "kind": "multiple-choice",
+        "prompt": "De nieuwvorming 'lĕsiyāī' (luieren) gaat terug op welk Engels woord?",
+        "options": [
+          "lazy",
+          "lousy",
+          "leisure",
+          "lesson"
+        ],
+        "correctIndex": 0
+      }
+    }
+  }
+]

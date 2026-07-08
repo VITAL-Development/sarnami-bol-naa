@@ -21,6 +21,25 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ### Added
 
+- Content for `unit-11-loanwords` ("Leenwoorden & nieuwvormingen"), authored on
+  top of the merged structure scaffold (#117, follow-up to #101). Source chapter:
+  `authored_docs/byakaran/09-loan-words-and-neologisms.md`. Adds 21 loanwords in
+  the new `content/sarnami/vocab/unit-11-loanwords.json` — Dutch, English and
+  Sranantongo verb borrowings formed with the auxiliaries kare/hove (bel kare,
+  klop kare, uitleg kare, beledig kare, bekeur kare, wachti kare, help kare,
+  mooi kare, lūrū kare, būṭū bhare, don kare, lās kare, hambog kare, pharyam
+  kare, riwŏrs kare, boro kare, trīkī kare, yūrū kare, morsū kare) plus two fully
+  assimilated neologisms (lĕsiyāī, sĕtiyāve) — image-verified diacritics, tagged
+  `book-pNN` + source-language + `needs-verification` (only `don` is confirmed by
+  the second source `sarnamibhasa-vocab.md` and drops `needs-verification`), the
+  lesson content in `content/sarnami/lessons/unit-11-loanwords.json` (grammar
+  notes on the kare/hove pattern, Sranantongo-via-Dutch routing and
+  volksetymologie + exercises), and wires up the scaffold's three lessons (Dutch
+  / Sranantongo & other / review) with `newVocab`, `grammarNoteRefs` and
+  `exercises`. Exercise mix per the issue: `flashcard`, `matching`
+  (loanword↔origin/meaning) and `multiple-choice` in the two content lessons (no
+  `word-bank`), and a review lesson mixing all five kinds with a higher
+  `xpReward`.
 - Content for `unit-08-verbs` ("Werkwoorden"), the curriculum's largest chapter,
   authored on top of the merged structure scaffold (#116, follow-up to #100).
   Source chapter: `authored_docs/byakaran/08-the-verb.md`. Adds 30 verbs taught

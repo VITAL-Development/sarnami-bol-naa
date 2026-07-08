@@ -1,0 +1,297 @@
+[
+  {
+    "id": "loan-bel",
+    "word": "bel kare",
+    "translations": {
+      "nl": "opbellen (met hove: opgebeld worden)"
+    },
+    "tags": [
+      "loanword",
+      "loan-dutch",
+      "book-p70",
+      "needs-verification"
+    ],
+    "notes": "Nederlands leenwoord (§9.14.2.2). De Nederlandse werkwoordstam 'bel' wordt met het hulpwerkwoord kare (doen, actief) of hove (worden, passief) tot een Sarnami-werkwoord gemaakt: bel kare = opbellen, bel hove = opgebeld worden. Uit de beeldgeverifieerde transcriptie van authored_docs/byakaran/09-loan-words-and-neologisms.md. Pagina bij benadering; needs-verification tot kruiscontrole tegen een tweede bron."
+  },
+  {
+    "id": "loan-klop",
+    "word": "klop kare",
+    "translations": {
+      "nl": "kloppen (met hove: geklopt worden)"
+    },
+    "tags": [
+      "loanword",
+      "loan-dutch",
+      "book-p70",
+      "needs-verification"
+    ],
+    "notes": "Nederlands leenwoord (§9.14.2.2). Stam 'klop' + kare/hove: klop kare = kloppen, klop hove = geklopt worden. Beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-uitleg",
+    "word": "uitleg kare",
+    "translations": {
+      "nl": "uitleggen (met hove: uitgelegd worden)"
+    },
+    "tags": [
+      "loanword",
+      "loan-dutch",
+      "book-p70",
+      "needs-verification"
+    ],
+    "notes": "Nederlands leenwoord (§9.14.2.2). Stam 'uitleg' + kare/hove: uitleg kare = uitleggen, uitleg hove = uitgelegd worden. Beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-beledig",
+    "word": "beledig kare",
+    "translations": {
+      "nl": "beledigen (met hove: beledigd worden)"
+    },
+    "tags": [
+      "loanword",
+      "loan-dutch",
+      "book-p70",
+      "needs-verification"
+    ],
+    "notes": "Nederlands leenwoord (§9.14.2.2). Stam 'beledig' + kare/hove: beledig kare = beledigen, beledig hove = beledigd worden. Beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-bekeur",
+    "word": "bekeur kare",
+    "translations": {
+      "nl": "bekeuren (met hove: bekeurd worden)"
+    },
+    "tags": [
+      "loanword",
+      "loan-dutch",
+      "book-p70",
+      "needs-verification"
+    ],
+    "notes": "Nederlands leenwoord (§9.14.2.2). Stam 'bekeur' + kare/hove: bekeur kare = bekeuren, bekeur hove = bekeurd worden. Beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-wachti",
+    "word": "wachti kare",
+    "translations": {
+      "nl": "wachten; opwachten (met hove: opgewacht worden)"
+    },
+    "tags": [
+      "loanword",
+      "loan-dutch",
+      "book-p70",
+      "needs-verification"
+    ],
+    "notes": "Nederlands leenwoord (§9.14.2.2). Stam 'wachti' (van Ned. 'wachten') + kare/hove: wachti kare = wachten/opwachten, wachti hove = opgewacht worden. De -i is aangepast aan de Sarnami-structuur. Beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-help",
+    "word": "help kare",
+    "translations": {
+      "nl": "helpen (met hove: geholpen worden)"
+    },
+    "tags": [
+      "loanword",
+      "loan-dutch",
+      "book-p70",
+      "needs-verification"
+    ],
+    "notes": "Nederlands leenwoord (§9.14.2.2). Stam 'help' + kare/hove: help kare = helpen, help hove = geholpen worden. Beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-mooi",
+    "word": "mooi kare",
+    "translations": {
+      "nl": "mooi maken (met hove: mooi worden)"
+    },
+    "tags": [
+      "loanword",
+      "loan-dutch",
+      "book-p70",
+      "needs-verification"
+    ],
+    "notes": "Nederlands leenwoord (§9.14.2.2). Hier is de basis een bijvoeglijk naamwoord ('mooi') + kare/hove: mooi kare = mooi maken, mooi hove = mooi worden. Beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-luru",
+    "word": "lūrū kare",
+    "translations": {
+      "nl": "loeren (met hove: beloerd worden)"
+    },
+    "tags": [
+      "loanword",
+      "loan-dutch",
+      "book-p70",
+      "needs-verification"
+    ],
+    "notes": "Nederlands leenwoord (§9.14.2.2), van Ned. 'loeren'. lūrū kare = loeren, lūrū hove = beloerd worden. Macrons (lūrū) per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-butu",
+    "word": "būṭū bhare",
+    "translations": {
+      "nl": "een boete betalen"
+    },
+    "tags": [
+      "loanword",
+      "loan-dutch",
+      "book-p69",
+      "needs-verification"
+    ],
+    "notes": "Volledig ingeburgerde ontlening (§9.14.1): būṭū (uit Ned. 'boete' via het Sranantongo 'butu') + bhare (betalen/vullen) = een boete betalen. Macrons en retroflexe ṭ per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-don",
+    "word": "don kare",
+    "translations": {
+      "nl": "afmaken; klaar zijn/maken (met hove: klaar zijn)"
+    },
+    "tags": [
+      "loanword",
+      "loan-english",
+      "book-p69"
+    ],
+    "notes": "Engels leenwoord (§9.14.2.1), van 'done' (gedaan). don kare = afmaken, don hove = klaar zijn/raken. Bevestigd door een tweede bron: authored_docs/sarnamibhasa-vocab.md geeft 'klaar' → don, vandaar geen needs-verification. Beeldgeverifieerde transcriptie. Pagina bij benadering."
+  },
+  {
+    "id": "loan-las",
+    "word": "lās kare",
+    "translations": {
+      "nl": "verliezen (met hove: verloren raken)"
+    },
+    "tags": [
+      "loanword",
+      "loan-english",
+      "book-p69",
+      "needs-verification"
+    ],
+    "notes": "Engels leenwoord (§9.14.2.1), van 'lost' (verloren). lās kare = verliezen, lās hove = verloren raken. Macron (lās) per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-hambog",
+    "word": "hambog kare",
+    "translations": {
+      "nl": "hinderen (met hove: verhinderd worden)"
+    },
+    "tags": [
+      "loanword",
+      "loan-english",
+      "book-p69",
+      "needs-verification"
+    ],
+    "notes": "Engels leenwoord (§9.14.2.1), van 'humbug' (hinder). hambog kare = hinderen, hambog hove = verhinderd worden. In de bron gemarkeerd met (N) — Nickerie-vorm. Beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-pharyam",
+    "word": "pharyam kare",
+    "translations": {
+      "nl": "braden (met hove: gebraden worden)"
+    },
+    "tags": [
+      "loanword",
+      "loan-english",
+      "book-p69",
+      "needs-verification"
+    ],
+    "notes": "Engels leenwoord (§9.14.2.1), van 'to fry' (braden). pharyam kare = braden, pharyam hove = gebraden worden. In de bron gemarkeerd met (N) — Nickerie-vorm. Geaspireerde ph per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-riwors",
+    "word": "riwŏrs kare",
+    "translations": {
+      "nl": "achteruit rijden (met hove: achteruit gereden worden)"
+    },
+    "tags": [
+      "loanword",
+      "loan-english",
+      "book-p69",
+      "needs-verification"
+    ],
+    "notes": "Engels leenwoord (§9.14.2.1), van 'to reverse' (achteruit rijden). riwŏrs kare = achteruit rijden, riwŏrs hove = achteruit gereden worden. Breve ŏ per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-boro",
+    "word": "boro kare",
+    "translations": {
+      "nl": "boren (met hove: geboord worden)"
+    },
+    "tags": [
+      "loanword",
+      "loan-sranan",
+      "book-p70",
+      "needs-verification"
+    ],
+    "notes": "Sranantongo leenwoord (§9.14.2.3), van 'boro' (uit Ned. boren/boor). boro kare = boren, boro hove = geboord worden. Beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-triki",
+    "word": "trīkī kare",
+    "translations": {
+      "nl": "strijken (met hove: gestreken worden)"
+    },
+    "tags": [
+      "loanword",
+      "loan-sranan",
+      "book-p70",
+      "needs-verification"
+    ],
+    "notes": "Sranantongo leenwoord (§9.14.2.3), van 'triki' (uit Ned. strijken). trīkī kare = strijken, trīkī hove = gestreken worden. Macrons per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-yuru",
+    "word": "yūrū kare",
+    "translations": {
+      "nl": "huren (met hove: verhuurd worden)"
+    },
+    "tags": [
+      "loanword",
+      "loan-sranan",
+      "book-p70",
+      "needs-verification"
+    ],
+    "notes": "Sranantongo leenwoord (§9.14.2.3), van 'yuru' (uit Ned. huren/huur). yūrū kare = huren, yūrū hove = verhuurd worden. Macrons per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-morsu",
+    "word": "morsū kare",
+    "translations": {
+      "nl": "vuil maken (met hove: vervuild raken)"
+    },
+    "tags": [
+      "loanword",
+      "loan-sranan",
+      "book-p70",
+      "needs-verification"
+    ],
+    "notes": "Sranantongo leenwoord (§9.14.2.3), van 'morsu' (vuil, uit Ned. morsen). morsū kare = vuil maken, morsū hove = vervuild raken. Macron ū per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-lesiyai",
+    "word": "lĕsiyāī",
+    "translations": {
+      "nl": "luieren"
+    },
+    "tags": [
+      "loanword",
+      "neologism",
+      "loan-english",
+      "book-p69",
+      "needs-verification"
+    ],
+    "notes": "Volledig ingeburgerde nieuwvorming (§9.14.1): van het Eng. 'lazy' via het Sranantongo 'lesi'. Volledig aangepast aan de Sarnami-werkwoordstructuur (geen kare/hove meer nodig). Breve ĕ en macrons per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  },
+  {
+    "id": "loan-setiyave",
+    "word": "sĕtiyāve",
+    "translations": {
+      "nl": "ordenen; op orde brengen"
+    },
+    "tags": [
+      "loanword",
+      "neologism",
+      "loan-english",
+      "book-p69",
+      "needs-verification"
+    ],
+    "notes": "Volledig ingeburgerde nieuwvorming (§9.14.1): van het Eng. 'to set' via het Sranantongo 'seti'. Volledig aangepast aan de Sarnami-werkwoordstructuur. Breve ĕ en macron ā per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+  }
+]
