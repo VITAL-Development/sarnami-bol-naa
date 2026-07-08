@@ -21,6 +21,23 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ### Added
 
+- Content for `unit-07-postpositions` ("Achterzetsels"), authored on top of the
+  merged structure scaffold (#113, follow-up to #97). Source chapter:
+  `authored_docs/byakaran/05-postpositions.md`. Adds 13 postpositions in the new
+  `content/sarnami/vocab/postpositions.json` — the four primary achterzetsels
+  (mem, se, par, ke) plus nine samengestelde ke-vormen (ke uppar, ke nicce,
+  ke bhittar, ke bāhar, ke sāth, ke binā, ke lage, ke āge, ke piche) — image-verified
+  diacritics, tagged `book-pNN` (+ `needs-verification` where not confirmed against
+  the second source `authored_docs/sarnamibhasa-vocab.md`). Lesson content in
+  `content/sarnami/lessons/unit-07-postpositions.json` (grammar notes on the
+  post-nominal position, the primary vs ke-compound split, the pronoun rule where
+  ke drops and the pronoun goes possessive — hamār binā — and the optional -e
+  ending, plus exercises), and wires up the scaffold's three lessons
+  (common / attachment / review) with `newVocab`, `exampleSentenceRefs`,
+  `grammarNoteRefs` and `exercises`. Exercise mix per the issue: `word-bank`
+  (word order + attachment) as the workhorse plus `fill-blank`, `matching` and
+  `flashcard` in the two content lessons, and a review lesson mixing all five
+  kinds. Example sentences reuse existing `noun-ghar` / `pron-*` ids.
 - Content for `unit-05-pronouns` ("Voornaamwoorden"), authored on top of the
   merged structure scaffold (#111, follow-up to #95). Source chapter:
   `authored_docs/byakaran/03-pronouns.md`. Extends
