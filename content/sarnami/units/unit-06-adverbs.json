@@ -1,0 +1,206 @@
+{
+  "id": "unit-06-adverbs",
+  "title": "Bijwoorden",
+  "description": "Bijwoorden van tijd, plaats, wijze en graad.",
+  "order": 7,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/04-the-adverb.md",
+  "lessons": [
+    {
+      "id": "unit-06-adverbs-time-place",
+      "unitId": "unit-06-adverbs",
+      "order": 1,
+      "title": "Tijd & plaats",
+      "description": "Bijwoorden van tijd en plaats.",
+      "newVocab": [
+        "adv-aaj",
+        "adv-bihaan",
+        "adv-kaal",
+        "adv-roj",
+        "adv-hardam",
+        "adv-uppar",
+        "adv-nicce",
+        "adv-dur",
+        "adv-nagicce",
+        "adv-baahar"
+      ],
+      "grammarNoteRefs": [
+        "gn-adv-time",
+        "gn-adv-place"
+      ],
+      "exercises": [
+        {
+          "id": "tp-e1",
+          "kind": "multiple-choice",
+          "contentRef": "tp-e1"
+        },
+        {
+          "id": "tp-e2",
+          "kind": "multiple-choice",
+          "contentRef": "tp-e2"
+        },
+        {
+          "id": "tp-e3",
+          "kind": "multiple-choice",
+          "contentRef": "tp-e3"
+        },
+        {
+          "id": "tp-e4",
+          "kind": "matching",
+          "contentRef": "tp-e4"
+        },
+        {
+          "id": "tp-e5",
+          "kind": "fill-blank",
+          "contentRef": "tp-e5"
+        },
+        {
+          "id": "tp-e9",
+          "kind": "word-bank",
+          "contentRef": "tp-e9"
+        },
+        {
+          "id": "tp-e6",
+          "kind": "flashcard",
+          "vocabRef": "adv-aaj",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "tp-e7",
+          "kind": "flashcard",
+          "vocabRef": "adv-nagicce",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "tp-e8",
+          "kind": "flashcard",
+          "vocabRef": "adv-baahar",
+          "direction": "native-to-target"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-06-adverbs-manner-degree",
+      "unitId": "unit-06-adverbs",
+      "order": 2,
+      "title": "Wijze & graad",
+      "description": "Bijwoorden van wijze en graad, incl. leenwoorden.",
+      "newVocab": [
+        "adv-dhire",
+        "adv-dhire-dhire",
+        "adv-sacce",
+        "adv-sait",
+        "adv-bahut",
+        "adv-thora-se",
+        "adv-bilkul",
+        "adv-habara",
+        "adv-kanti",
+        "adv-parsis"
+      ],
+      "grammarNoteRefs": [
+        "gn-adv-manner",
+        "gn-adv-degree",
+        "gn-adv-loan"
+      ],
+      "exercises": [
+        {
+          "id": "md-e1",
+          "kind": "multiple-choice",
+          "contentRef": "md-e1"
+        },
+        {
+          "id": "md-e2",
+          "kind": "multiple-choice",
+          "contentRef": "md-e2"
+        },
+        {
+          "id": "md-e3",
+          "kind": "multiple-choice",
+          "contentRef": "md-e3"
+        },
+        {
+          "id": "md-e4",
+          "kind": "matching",
+          "contentRef": "md-e4"
+        },
+        {
+          "id": "md-e5",
+          "kind": "fill-blank",
+          "contentRef": "md-e5"
+        },
+        {
+          "id": "md-e9",
+          "kind": "word-bank",
+          "contentRef": "md-e9"
+        },
+        {
+          "id": "md-e6",
+          "kind": "flashcard",
+          "vocabRef": "adv-dhire",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "md-e7",
+          "kind": "flashcard",
+          "vocabRef": "adv-bahut",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "md-e8",
+          "kind": "flashcard",
+          "vocabRef": "adv-habara",
+          "direction": "native-to-target"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-06-adverbs-review",
+      "unitId": "unit-06-adverbs",
+      "order": 3,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [
+        {
+          "id": "rev-e1",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e1"
+        },
+        {
+          "id": "rev-e2",
+          "kind": "matching",
+          "contentRef": "rev-e2"
+        },
+        {
+          "id": "rev-e3",
+          "kind": "fill-blank",
+          "contentRef": "rev-e3"
+        },
+        {
+          "id": "rev-e4",
+          "kind": "word-bank",
+          "contentRef": "rev-e4"
+        },
+        {
+          "id": "rev-e5",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e5"
+        },
+        {
+          "id": "rev-e6",
+          "kind": "flashcard",
+          "vocabRef": "adv-sait",
+          "direction": "native-to-target"
+        },
+        {
+          "id": "rev-e7",
+          "kind": "flashcard",
+          "vocabRef": "adv-kanti",
+          "direction": "target-to-native"
+        }
+      ],
+      "xpReward": 15
+    }
+  ]
+}

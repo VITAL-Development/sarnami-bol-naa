@@ -38,6 +38,43 @@ which point they move under a dated `## [X.Y.Z]` heading.
   (word order + attachment) as the workhorse plus `fill-blank`, `matching` and
   `flashcard` in the two content lessons, and a review lesson mixing all five
   kinds. Example sentences reuse existing `noun-ghar` / `pron-*` ids.
+- Content for `unit-05-pronouns` ("Voornaamwoorden"), authored on top of the
+  merged structure scaffold (#111, follow-up to #95). Source chapter:
+  `authored_docs/byakaran/03-pronouns.md`. Extends
+  `content/sarnami/vocab/pronouns.json` with 19 new pronoun forms (possessive
+  hamār, tor, tŏṁhār, āpke, ekar, okar; demonstrative ī, eke, oke, inhan,
+  unhan; interrogative ke, kaun, kā, kaunci, kekar; relative jaun, je, jekar —
+  image-verified diacritics, tagged `book-pNN`, with `needs-verification` on the
+  forms not yet cross-checked against `authored_docs/sarnamibhasa-vocab.md`). The
+  five core personal pronouns (`pron-ham`/`tu`/`ap`/`u`/`hamlog`) are *not*
+  re-introduced — basics owns them, and `ū` is reused by id in the demonstrative
+  lesson. Adds the lesson content in
+  `content/sarnami/lessons/unit-05-pronouns.json` (grammar notes on the
+  possessive/demonstrative/interrogative/relative systems + exercises) and wires
+  up the scaffold's four lessons (possessive / demonstrative /
+  interrogative & relative / review) with `newVocab`, `grammarNoteRefs` and
+  `exercises`. Exercise mix per the issue: `matching` (form↔meaning),
+  `multiple-choice`, `fill-blank`, `flashcard` and `word-bank` (building a short
+  possessive/demonstrative sentence from scrambled tokens) across the content
+  lessons, and a review lesson mixing all five kinds.
+- Content for `unit-06-adverbs` ("Bijwoorden"), authored on top of the merged
+  structure scaffold (#112, follow-up to #96). Source chapter:
+  `authored_docs/byakaran/04-the-adverb.md`. Adds 20 adverbs in the new
+  `content/sarnami/vocab/adverbs.json` across time/place/manner/degree
+  categories (āj, bihān, kāl, roj, hardam, uppar, nicce, dūr, nagicce, bāhar,
+  dhīre, dhīre-dhīre, sacce, sait, bahut, thorā se, bilkul), including the
+  chapter's loanword adverbs (habarā, kantī from Sranan Tongo; parsīs from
+  Dutch) — image-verified diacritics, tagged `book-pNN` plus `needs-verification`
+  where not yet confirmed against the sarnamibhasa.nl second source. Adds the
+  lesson content in `content/sarnami/lessons/unit-06-adverbs.json` (grammar notes
+  on the four adverb categories, nasalization → directional place adverbs,
+  reduplication, and loanwords, plus exercises) and wires up the scaffold's three
+  lessons (tijd & plaats / wijze & graad / review) with `newVocab`,
+  `grammarNoteRefs` and `exercises`. Exercise mix per the issue: `flashcard`,
+  `matching` (adverb↔category/meaning), `multiple-choice`, `fill-blank` and
+  `word-bank` (adverb-placement — building a short sentence from scrambled
+  tokens) across the two content lessons, and a review lesson mixing all five
+  kinds.
 - Content for `unit-03-sounds` ("Klanken & uitspraak"), authored on top of the
   merged structure scaffold (#109, follow-up to #93). Source chapter:
   `authored_docs/byakaran/01-sounds.md`. Adds 19 sound-example words in the new
