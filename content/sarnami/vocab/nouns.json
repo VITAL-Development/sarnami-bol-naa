@@ -84,6 +84,7 @@
     "translations": {
       "nl": "dochter"
     },
+    "notes": "Image-verified tegen p.25 (1.2.3.2, beṭī → biṭiyā): retroflexe ṭ (onderpunt), slot-ī lang. Lange (bepaalde) vorm biṭiyā. Eigendom van unit-04-nouns.",
     "tags": [
       "noun",
       "book-p25"
@@ -95,10 +96,179 @@
     "translations": {
       "nl": "brief"
     },
-    "notes": "Image-verified tegen p.22: retroflexe ṭṭh (dot-below op beide t's), slot-i kort (geen macron).",
+    "notes": "Image-verified tegen p.22: retroflexe ṭṭh (dot-below op beide t's), slot-i kort (geen macron). Eigendom van unit-04-nouns.",
     "tags": [
       "noun",
       "book-p22"
+    ]
+  },
+  {
+    "id": "noun-kutta",
+    "word": "kuttā",
+    "translations": {
+      "nl": "hond"
+    },
+    "notes": "Image-verified p.22 (korte-vormtabel: kuttā 'een hond') en p.28/35 (lange vormen kutauvā/kutaunā). Dentale tt, slot-macron ā. Pagina bij benadering; needs-verification tot kruiscontrole.",
+    "tags": [
+      "noun",
+      "book-p22",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "noun-ghora",
+    "word": "ghoṛā",
+    "translations": {
+      "nl": "paard"
+    },
+    "notes": "Image-verified p.24 (1.2.3.2) en de naamval-voorbeelden 1.4.1–1.4.6: retroflexe ṛ (onderpunt), slot-macron ā. Lange vorm ghŏṛvā, meervoud ghoṛan/ghŏṛvan. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "noun",
+      "book-p24",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "noun-per",
+    "word": "peṛ",
+    "translations": {
+      "nl": "boom"
+    },
+    "notes": "Image-verified p.22 (korte-vormtabel: peṛ 'een boom') en p.24 (pĕṛavā): retroflexe ṛ (onderpunt). Pagina bij benadering; needs-verification.",
+    "tags": [
+      "noun",
+      "book-p22",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "noun-am",
+    "word": "ām",
+    "translations": {
+      "nl": "manje (mango)"
+    },
+    "notes": "Image-verified p.28 (naamval-voorbeelden 1.4.2: ām/amvā): macron ā. Lange vorm amvā, meervoud amvan. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "noun",
+      "book-p28",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "noun-gai",
+    "word": "gāī",
+    "translations": {
+      "nl": "koe"
+    },
+    "notes": "Image-verified p.28 (1.4.4: gāī/gaiyā ke): macron op ā en ī. Lange vorm gaiyā. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "noun",
+      "book-p28",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "noun-gadaha",
+    "word": "gadahā",
+    "translations": {
+      "nl": "ezel"
+    },
+    "notes": "Image-verified p.26 (1.3.1: gadahā 'een ezel') en p.24 (gadăhvā, met breve op -dăh-). Slot-macron ā. Vrouwelijke vorm gadahī. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "noun",
+      "book-p26",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "noun-gadahi",
+    "word": "gadahī",
+    "translations": {
+      "nl": "ezelin"
+    },
+    "notes": "Image-verified p.26 (1.3.1/1.3.3.1: gadahā → gadahī 'een ezelin'): slot-ī lang. Vrouwelijke vorm van gadahā. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "noun",
+      "book-p26",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "noun-launda",
+    "word": "laundā",
+    "translations": {
+      "nl": "jongen"
+    },
+    "notes": "Image-verified p.26 (1.3.1: laundā 'een jongen'): au-tweeklank, slot-macron ā. Let op: laundī (met -ī) betekent níet 'meisje' maar 'hoertje' (1.3.3.1.1). Pagina bij benadering; needs-verification.",
+    "tags": [
+      "noun",
+      "book-p26",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "noun-chaumri",
+    "word": "chaumṛī",
+    "translations": {
+      "nl": "meisje"
+    },
+    "notes": "Image-verified p.26 (1.3.1/1.3.3.1.1: chaumṛī 'een meisje'): au-tweeklank, retroflexe ṛ (onderpunt), slot-ī lang. De -ā-vorm chaumṛā betekent 'vlegel'. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "noun",
+      "book-p26",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "noun-nana",
+    "word": "nānā",
+    "translations": {
+      "nl": "grootvader (moeders vader)"
+    },
+    "notes": "Image-verified p.26 (1.3.1: nānā 'een grootvader'): macron op beide a's. Vrouwelijke vorm nanī. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "noun",
+      "book-p26",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "noun-nani",
+    "word": "nanī",
+    "translations": {
+      "nl": "grootmoeder (moeders moeder)"
+    },
+    "notes": "Image-verified p.26 (1.3.1: nanī 'een grootmoeder'): eerste a kort, slot-ī lang (dus níet nānī). Vrouwelijke tegenhanger van nānā. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "noun",
+      "book-p26",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "noun-nak",
+    "word": "nāk",
+    "translations": {
+      "nl": "neus"
+    },
+    "notes": "Image-verified p.22 (medeklinker-slottabel: nāk 'een neus') en p.28 (lange vorm nakiyā): macron ā. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "noun",
+      "book-p22",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "noun-churi",
+    "word": "chūrī",
+    "translations": {
+      "nl": "mes"
+    },
+    "notes": "Image-verified p.28 (1.4.3: chūrī/churiya se): macron op ū en ī. Lange vorm churiyā. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "noun",
+      "book-p28",
+      "needs-verification"
     ]
   }
 ]

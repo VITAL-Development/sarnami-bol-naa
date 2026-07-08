@@ -1,0 +1,195 @@
+[
+  {
+    "id": "int-accha",
+    "word": "acchā",
+    "translations": {
+      "nl": "goed!, oké!"
+    },
+    "tags": [
+      "interjection",
+      "book-p50"
+    ],
+    "notes": "Uit §8.1 van authored_docs/byakaran/07-interjections.md ('acchā! = goed, o.k.!'). Bevestigende uitroep. Diacritisch correcte vorm (macron ā) per de beeldgeverifieerde transcriptie. Bevestigd door de tweede bron authored_docs/sarnamibhasa-vocab.md ('goed | acchá'), daarom geen needs-verification."
+  },
+  {
+    "id": "int-he",
+    "word": "he",
+    "translations": {
+      "nl": "hé! (om aandacht te trekken)"
+    },
+    "tags": [
+      "interjection",
+      "book-p50",
+      "needs-verification"
+    ],
+    "notes": "Uit §8.1 ('he! = he!'). Roep om iemand dichtbij aan te spreken of de aandacht te trekken; vergelijk de afleiding hĕdde (= he dekh! 'zie hier!'). Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "int-ho",
+    "word": "ho",
+    "translations": {
+      "nl": "hé! (iemand van veraf roepen)"
+    },
+    "tags": [
+      "interjection",
+      "book-p50",
+      "needs-verification"
+    ],
+    "notes": "Uit §8.1 ('ho! = he!'). Roep om iemand op afstand aan te spreken; vergelijk de afleiding hŏdde (= ho dekh! 'zie daar!'). Staat naast he (dichtbij). Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "int-cup",
+    "word": "cup",
+    "translations": {
+      "nl": "stil!"
+    },
+    "tags": [
+      "interjection",
+      "book-p50",
+      "needs-verification"
+    ],
+    "notes": "Uit §8.1 ('cup! = stil!'). Bevel om te zwijgen. De tweede bron geeft voor 'stil' shánt/shánti/astil (een andere stam), dus cup is niet bevestigd; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "int-aya",
+    "word": "ayā",
+    "translations": {
+      "nl": "au! (bij pijn)"
+    },
+    "tags": [
+      "interjection",
+      "book-p50",
+      "needs-verification"
+    ],
+    "notes": "Uit §8.1 ('ayā! = au!'). Uitroep van pijn of schrik. Diacritisch correcte vorm (macron ā) per de beeldgeverifieerde transcriptie. Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "int-bacao",
+    "word": "bacāo",
+    "translations": {
+      "nl": "help!"
+    },
+    "tags": [
+      "interjection",
+      "book-p50",
+      "needs-verification"
+    ],
+    "notes": "Uit §8.1 ('bacāo! = help!'). Noodkreet. Diacritisch correcte vorm (macron ā) per de beeldgeverifieerde transcriptie. Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "int-bhala",
+    "word": "bhalā",
+    "translations": {
+      "nl": "zeg!, kijk aan!"
+    },
+    "tags": [
+      "interjection",
+      "book-p50",
+      "needs-verification"
+    ],
+    "notes": "Uit §8.1 ('bhalā! = zeg!'). Uitroep van verrassing of om de aandacht te richten. Diacritisch correcte vorm (macron ā). Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "int-bap-re-bap",
+    "word": "bāp-re-bāp",
+    "translations": {
+      "nl": "lieve hemel!"
+    },
+    "tags": [
+      "interjection",
+      "book-p50",
+      "needs-verification"
+    ],
+    "notes": "Uit §8.1 ('bāp-re-bāp! = lieve hemel!'). Uitroep van verbazing of ontzetting (letterlijk 'vader-toch-vader'). Diacritisch correcte vorm (macrons ā) per de beeldgeverifieerde transcriptie. Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "int-sabas",
+    "word": "sābās",
+    "translations": {
+      "nl": "bravo!"
+    },
+    "tags": [
+      "interjection",
+      "book-p50",
+      "needs-verification"
+    ],
+    "notes": "Uit §8.1 ('sābās! = bravo!'). Uitroep van lof of aanmoediging. Diacritisch correcte vorm (macrons ā) per de beeldgeverifieerde transcriptie. Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "int-vah-vah",
+    "word": "vāh-vāh",
+    "translations": {
+      "nl": "bravo!, prachtig!"
+    },
+    "tags": [
+      "interjection",
+      "book-p50",
+      "needs-verification"
+    ],
+    "notes": "Uit §8.1 ('vāh-vāh! = bravo!'). Uitroep van bewondering. Diacritisch correcte vorm (macrons ā) per de beeldgeverifieerde transcriptie. Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "int-albat",
+    "word": "albat",
+    "translations": {
+      "nl": "warempel, inderdaad"
+    },
+    "tags": [
+      "interjection",
+      "book-p50",
+      "needs-verification"
+    ],
+    "notes": "Uit §8.1 ('albat! = warempel, inderdaad'). Bevestigend partikel. Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "int-cor-cor",
+    "word": "cor-cor",
+    "translations": {
+      "nl": "houd de dief!"
+    },
+    "tags": [
+      "interjection",
+      "book-p50",
+      "needs-verification"
+    ],
+    "notes": "Uit §8.1 ('cor-cor! = houdt de dief!'). Alarmkreet bij diefstal (van cor 'dief'). Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "int-hay-hay",
+    "word": "hāy-hāy",
+    "translations": {
+      "nl": "ach! (bij verdriet)"
+    },
+    "tags": [
+      "interjection",
+      "book-p50",
+      "needs-verification"
+    ],
+    "notes": "Uit §8.1 ('hāy-hāy! = ach!'). Uitroep van verdriet of weeklacht; vergelijk hāy re ('jammer!'). Diacritisch correcte vorm (macrons ā) per de beeldgeverifieerde transcriptie. Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "int-oho",
+    "word": "oho",
+    "translations": {
+      "nl": "och-och! (medeleven)"
+    },
+    "tags": [
+      "interjection",
+      "book-p50",
+      "needs-verification"
+    ],
+    "notes": "Uit §8.1 ('oho! = och-och!'). Uitroep van medeleven of milde verbazing. Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "int-to",
+    "word": "to",
+    "translations": {
+      "nl": "toch?, nietwaar?"
+    },
+    "tags": [
+      "interjection",
+      "book-p50"
+    ],
+    "notes": "Uit §8.1 ('to, ta? = toch?'); ook onder de Nederlandse leenwoorden in §8.2 ('tò, toch?'). Nadrukgevend/aansporend gesprekspartikel. Bevestigd door de tweede bron authored_docs/sarnamibhasa-vocab.md ('evengoed; toch | to, to bhi, tabbo'), daarom geen needs-verification. Pagina bij benadering."
+  }
+]
