@@ -54,5 +54,260 @@
       "pronoun",
       "book-p68"
     ]
+  },
+  {
+    "id": "pron-hamar",
+    "word": "hamār",
+    "translations": {
+      "nl": "mijn / van mij"
+    },
+    "notes": "Bezittelijk voornaamwoord bij ham (§4.2.1). Verbogen vorm hamār/hamare, en vóór een achterzetsel uitgebreid tot hamāre (opm. 5). Beeldgeverifieerde vorm; tweede bron bevestigt hamár (sarnamibhasa-vocab.md, 'mij/mijn'). Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "possessive",
+      "book-p68"
+    ]
+  },
+  {
+    "id": "pron-tor",
+    "word": "tor",
+    "translations": {
+      "nl": "jouw / van jou"
+    },
+    "notes": "Bezittelijk voornaamwoord bij tū (§4.2.2). Vóór een achterzetsel wordt het tor/tore. Beeldgeverifieerde vorm; tweede bron bevestigt tor (sarnamibhasa-vocab.md, 'jou/jouw'). Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "possessive",
+      "book-p69"
+    ]
+  },
+  {
+    "id": "pron-tomhar",
+    "word": "tŏṁhār",
+    "translations": {
+      "nl": "uw / van u (beleefdheidsvorm)"
+    },
+    "notes": "Beleefde bezittelijke vorm bij de 2e persoon (§4.2.2, beleefdheidsvorm). Verbogen tŏṁhār/tŏṁhare; let op de breve ŏ en de nasale ṁ. Tweede bron heeft de variant tohár (sarnamibhasa-vocab.md, beleefdheidsvorm); boekvorm met diacritische tekens aangehouden, vandaar needs-verification. Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "possessive",
+      "book-p69",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "pron-apke",
+    "word": "āpke",
+    "translations": {
+      "nl": "uw / van u (beleefdheidsvorm)"
+    },
+    "notes": "Beleefde bezittelijke vorm bij āp (§4.2.2, beleefdheidsvorm): āpke. Nog niet tegen een tweede bron gekruist, vandaar needs-verification. Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "possessive",
+      "book-p69",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "pron-ekar",
+    "word": "ekar",
+    "translations": {
+      "nl": "zijn / haar (dichtbij de spreker)"
+    },
+    "notes": "Bezittelijk voornaamwoord bij ī (3e persoon, dichtbij; §4.2.3.1). Verbogen ekar/ĕkare. Tweede bron bevestigt ekar 'dichtbij' (sarnamibhasa-vocab.md, 'hem/haar'). Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "possessive",
+      "book-p70"
+    ]
+  },
+  {
+    "id": "pron-okar",
+    "word": "okar",
+    "translations": {
+      "nl": "zijn / haar (van de spreker verwijderd)"
+    },
+    "notes": "Bezittelijk voornaamwoord bij ū (3e persoon, veraf; §4.2.3.2). Verbogen okar/ŏkare. Tweede bron bevestigt okar 'veraf' (sarnamibhasa-vocab.md, 'hem/haar'). Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "possessive",
+      "book-p70"
+    ]
+  },
+  {
+    "id": "pron-i",
+    "word": "ī",
+    "translations": {
+      "nl": "dit / deze; hij / zij / het (dichtbij de spreker)"
+    },
+    "notes": "Aanwijzend voornaamwoord voor iets dichtbij de spreker (§4.2.3 / §4.2.3.1); dient ook als 3e-persoons voornaamwoord. Tegenhanger van ū (veraf). In het meervoud aangevuld met sab(han)/log(an). Nog niet tegen een tweede bron gekruist, vandaar needs-verification. Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "demonstrative",
+      "book-p70",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "pron-eke",
+    "word": "eke",
+    "translations": {
+      "nl": "hem / haar (dichtbij de spreker)"
+    },
+    "notes": "Verbogen (meewerkend/lijdend) vorm bij ī (§4.2.3.1): eke — hem, haar. Nog niet tegen een tweede bron gekruist, vandaar needs-verification. Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "demonstrative",
+      "book-p70",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "pron-oke",
+    "word": "oke",
+    "translations": {
+      "nl": "hem / haar (van de spreker verwijderd)"
+    },
+    "notes": "Verbogen (meewerkend/lijdend) vorm bij ū (§4.2.3.2): oke — hem, haar. Nog niet tegen een tweede bron gekruist, vandaar needs-verification. Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "demonstrative",
+      "book-p70",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "pron-inhan",
+    "word": "inhan",
+    "translations": {
+      "nl": "zij (beleefd / meervoud, dichtbij)"
+    },
+    "notes": "Beleefde/meervoudsvorm bij ī (3e persoon, dichtbij; §4.2.3.3): inhan — zij. Nog niet tegen een tweede bron gekruist, vandaar needs-verification. Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "demonstrative",
+      "book-p71",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "pron-unhan",
+    "word": "unhan",
+    "translations": {
+      "nl": "zij (beleefd / meervoud, veraf)"
+    },
+    "notes": "Beleefde/meervoudsvorm bij ū (3e persoon, veraf; §4.2.3.3): unhan — zij. Nog niet tegen een tweede bron gekruist, vandaar needs-verification. Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "demonstrative",
+      "book-p71",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "pron-ke",
+    "word": "ke",
+    "translations": {
+      "nl": "wie (vertrouwelijk)"
+    },
+    "notes": "Vragend voornaamwoord voor personen (§4.5.1): zelfstandig gebruikt en bij een vertrouwde band met de spreker. Tweede bron bevestigt ke? 'wie?' (sarnamibhasa-vocab.md). Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "interrogative",
+      "book-p75"
+    ]
+  },
+  {
+    "id": "pron-kaun",
+    "word": "kaun",
+    "translations": {
+      "nl": "wie / welke (afstandelijk, ook deftig)"
+    },
+    "notes": "Vragend voornaamwoord (§4.5.1/§4.5.2): zowel zelfstandig als bijvoegelijk gebruikt; drukt afstandelijkheid uit en wordt in deftige situaties gebruikt. Tweede bron bevestigt kaun? 'welk?/wat voor een?' (sarnamibhasa-vocab.md). Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "interrogative",
+      "book-p75"
+    ]
+  },
+  {
+    "id": "pron-ka",
+    "word": "kā",
+    "translations": {
+      "nl": "wat"
+    },
+    "notes": "Vragend voornaamwoord naar zaken (§4.5.2): zelfstandig en neutraal gebruikt. Tweede bron bevestigt ká? 'wat?' (sarnamibhasa-vocab.md). Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "interrogative",
+      "book-p75"
+    ]
+  },
+  {
+    "id": "pron-kaunci",
+    "word": "kaunci",
+    "translations": {
+      "nl": "wat (welk ding)"
+    },
+    "notes": "Vragend voornaamwoord naar zaken (§4.5.2): zelfstandig gebruikt, een samenkoppeling van kaun + cīj ('wat voor een ding?'). Tweede bron bevestigt kaunci? 'wat?' (sarnamibhasa-vocab.md). Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "interrogative",
+      "book-p75"
+    ]
+  },
+  {
+    "id": "pron-kekar",
+    "word": "kekar",
+    "translations": {
+      "nl": "wiens / van wie"
+    },
+    "notes": "Bijvoegelijk gebruikte (bezittelijke) vragende vorm bij ke (§4.5.3 voorbeeld: 'Tū kekar jūtā pahinle bāṭe?' — Wiens schoenen heb je aan?). Tweede bron bevestigt kekar? 'wiens?/van wie?' (sarnamibhasa-vocab.md). Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "interrogative",
+      "book-p76"
+    ]
+  },
+  {
+    "id": "pron-jaun",
+    "word": "jaun",
+    "translations": {
+      "nl": "die / welke (betrekkelijk)"
+    },
+    "notes": "Betrekkelijk voornaamwoord (§4.3), gebruikt voor personen en niet-personen. Verbogen jaun(e) ke. Tweede bron bevestigt jaun 'degene die/dat' (sarnamibhasa-vocab.md). Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "relative",
+      "book-p72"
+    ]
+  },
+  {
+    "id": "pron-je",
+    "word": "je",
+    "translations": {
+      "nl": "die / wie (alleen personen)"
+    },
+    "notes": "Betrekkelijk voornaamwoord (§4.3): als onderwerp of lijdend voorwerp uitsluitend voor personen gebruikt. Tweede bron bevestigt je 'degene die/dat' (sarnamibhasa-vocab.md). Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "relative",
+      "book-p72"
+    ]
+  },
+  {
+    "id": "pron-jekar",
+    "word": "jekar",
+    "translations": {
+      "nl": "van wie / wiens (betrekkelijk)"
+    },
+    "notes": "Bijvoegelijk gebruikte (bezittelijke) vorm bij je (§4.3): jekar/jinkar — van wie/welke. Nog niet tegen een tweede bron gekruist, vandaar needs-verification. Pagina bij benadering.",
+    "tags": [
+      "pronoun",
+      "relative",
+      "book-p72",
+      "needs-verification"
+    ]
   }
 ]
