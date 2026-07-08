@@ -1,0 +1,218 @@
+{
+  "id": "unit-05-pronouns",
+  "title": "Voornaamwoorden",
+  "description": "Bezittelijke, aanwijzende, vragende en betrekkelijke voornaamwoorden.",
+  "order": 5,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/03-pronouns.md",
+  "lessons": [
+    {
+      "id": "unit-05-pronouns-possessive",
+      "unitId": "unit-05-pronouns",
+      "order": 1,
+      "title": "Bezittelijke voornaamwoorden",
+      "description": "Bezittelijke voornaamwoorden in het Sarnami.",
+      "newVocab": [
+        "pron-hamar",
+        "pron-tor",
+        "pron-tomhar",
+        "pron-apke",
+        "pron-ekar",
+        "pron-okar"
+      ],
+      "grammarNoteRefs": [
+        "gn-poss-1",
+        "gn-poss-2",
+        "gn-poss-3"
+      ],
+      "exercises": [
+        {
+          "id": "poss-e1",
+          "kind": "matching",
+          "contentRef": "poss-e1"
+        },
+        {
+          "id": "poss-e2",
+          "kind": "multiple-choice",
+          "contentRef": "poss-e2"
+        },
+        {
+          "id": "poss-e3",
+          "kind": "fill-blank",
+          "contentRef": "poss-e3"
+        },
+        {
+          "id": "poss-e4",
+          "kind": "flashcard",
+          "vocabRef": "pron-apke",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "poss-e5",
+          "kind": "flashcard",
+          "vocabRef": "pron-okar",
+          "direction": "native-to-target"
+        },
+        {
+          "id": "poss-e6",
+          "kind": "word-bank",
+          "contentRef": "poss-e6"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-05-pronouns-demonstrative",
+      "unitId": "unit-05-pronouns",
+      "order": 2,
+      "title": "Aanwijzende voornaamwoorden",
+      "description": "Aanwijzende voornaamwoorden.",
+      "newVocab": [
+        "pron-i",
+        "pron-eke",
+        "pron-oke",
+        "pron-inhan",
+        "pron-unhan"
+      ],
+      "grammarNoteRefs": [
+        "gn-dem-1",
+        "gn-dem-2",
+        "gn-dem-3"
+      ],
+      "exercises": [
+        {
+          "id": "dem-e1",
+          "kind": "matching",
+          "contentRef": "dem-e1"
+        },
+        {
+          "id": "dem-e2",
+          "kind": "multiple-choice",
+          "contentRef": "dem-e2"
+        },
+        {
+          "id": "dem-e3",
+          "kind": "fill-blank",
+          "contentRef": "dem-e3"
+        },
+        {
+          "id": "dem-e4",
+          "kind": "flashcard",
+          "vocabRef": "pron-unhan",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "dem-e5",
+          "kind": "flashcard",
+          "vocabRef": "pron-eke",
+          "direction": "native-to-target"
+        },
+        {
+          "id": "dem-e6",
+          "kind": "word-bank",
+          "contentRef": "dem-e6"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-05-pronouns-interrogative-relative",
+      "unitId": "unit-05-pronouns",
+      "order": 3,
+      "title": "Vragende & betrekkelijke voornaamwoorden",
+      "description": "Vragende en betrekkelijke voornaamwoorden.",
+      "newVocab": [
+        "pron-ke",
+        "pron-kaun",
+        "pron-ka",
+        "pron-kaunci",
+        "pron-kekar",
+        "pron-jaun",
+        "pron-je",
+        "pron-jekar"
+      ],
+      "grammarNoteRefs": [
+        "gn-int-1",
+        "gn-int-2",
+        "gn-rel-1"
+      ],
+      "exercises": [
+        {
+          "id": "ir-e1",
+          "kind": "matching",
+          "contentRef": "ir-e1"
+        },
+        {
+          "id": "ir-e2",
+          "kind": "multiple-choice",
+          "contentRef": "ir-e2"
+        },
+        {
+          "id": "ir-e3",
+          "kind": "fill-blank",
+          "contentRef": "ir-e3"
+        },
+        {
+          "id": "ir-e4",
+          "kind": "flashcard",
+          "vocabRef": "pron-jekar",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "ir-e5",
+          "kind": "flashcard",
+          "vocabRef": "pron-kekar",
+          "direction": "native-to-target"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-05-pronouns-review",
+      "unitId": "unit-05-pronouns",
+      "order": 4,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [
+        {
+          "id": "rev-e1",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e1"
+        },
+        {
+          "id": "rev-e2",
+          "kind": "matching",
+          "contentRef": "rev-e2"
+        },
+        {
+          "id": "rev-e3",
+          "kind": "flashcard",
+          "vocabRef": "pron-kaunci",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "rev-e4",
+          "kind": "word-bank",
+          "contentRef": "rev-e4"
+        },
+        {
+          "id": "rev-e5",
+          "kind": "fill-blank",
+          "contentRef": "rev-e5"
+        },
+        {
+          "id": "rev-e6",
+          "kind": "flashcard",
+          "vocabRef": "pron-jaun",
+          "direction": "native-to-target"
+        },
+        {
+          "id": "rev-e7",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e7"
+        }
+      ],
+      "xpReward": 15
+    }
+  ]
+}
