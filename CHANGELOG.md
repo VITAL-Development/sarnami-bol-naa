@@ -40,6 +40,24 @@ which point they move under a dated `## [X.Y.Z]` heading.
   `multiple-choice`, `fill-blank`, `flashcard` and `word-bank` (building a short
   possessive/demonstrative sentence from scrambled tokens) across the content
   lessons, and a review lesson mixing all five kinds.
+- Content for `unit-06-adverbs` ("Bijwoorden"), authored on top of the merged
+  structure scaffold (#112, follow-up to #96). Source chapter:
+  `authored_docs/byakaran/04-the-adverb.md`. Adds 20 adverbs in the new
+  `content/sarnami/vocab/adverbs.json` across time/place/manner/degree
+  categories (āj, bihān, kāl, roj, hardam, uppar, nicce, dūr, nagicce, bāhar,
+  dhīre, dhīre-dhīre, sacce, sait, bahut, thorā se, bilkul), including the
+  chapter's loanword adverbs (habarā, kantī from Sranan Tongo; parsīs from
+  Dutch) — image-verified diacritics, tagged `book-pNN` plus `needs-verification`
+  where not yet confirmed against the sarnamibhasa.nl second source. Adds the
+  lesson content in `content/sarnami/lessons/unit-06-adverbs.json` (grammar notes
+  on the four adverb categories, nasalization → directional place adverbs,
+  reduplication, and loanwords, plus exercises) and wires up the scaffold's three
+  lessons (tijd & plaats / wijze & graad / review) with `newVocab`,
+  `grammarNoteRefs` and `exercises`. Exercise mix per the issue: `flashcard`,
+  `matching` (adverb↔category/meaning), `multiple-choice`, `fill-blank` and
+  `word-bank` (adverb-placement — building a short sentence from scrambled
+  tokens) across the two content lessons, and a review lesson mixing all five
+  kinds.
 - Content for `unit-03-sounds` ("Klanken & uitspraak"), authored on top of the
   merged structure scaffold (#109, follow-up to #93). Source chapter:
   `authored_docs/byakaran/01-sounds.md`. Adds 19 sound-example words in the new
