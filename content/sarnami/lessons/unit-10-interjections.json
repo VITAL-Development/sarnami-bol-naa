@@ -1,0 +1,97 @@
+[
+  {
+    "lessonId": "unit-10-interjections-interjections",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-int-1",
+        "title": "Wat zijn tussenwerpsels?",
+        "body": "Tussenwerpsels zijn losse woorden waarmee je gevoelens en stemmingen uit: onverschilligheid, verdriet, schrik, vreugde, woede, verbazing of een waarschuwing. Vaak zijn het betekenisloze klanken die moeilijk op schrift zijn weer te geven, en een vertaling is meestal maar bij benadering mogelijk. Zo betekent acchā 'goed, oké!', bacāo 'help!' en sābās 'bravo!'.",
+        "relatedVocab": ["int-accha", "int-bacao", "int-sabas"]
+      },
+      {
+        "id": "gn-int-2",
+        "title": "Aandacht trekken: he en ho",
+        "body": "Om iemand aan te spreken gebruik je he voor iemand dichtbij en ho voor iemand veraf. Uit deze twee zijn de wijzende vormen afgeleid: hĕdde (= he dekh! 'zie hier!') en hŏdde (= ho dekh! 'zie daar!'). Andere aandachttrekkers zijn bhalā ('zeg!, kijk aan!') en de alarmkreet cor-cor ('houd de dief!').",
+        "relatedVocab": ["int-he", "int-ho", "int-bhala", "int-cor-cor"]
+      },
+      {
+        "id": "gn-int-3",
+        "title": "Partikels en leenwoorden",
+        "body": "Naast echte uitroepen kent het Sarnami korte gesprekspartikels die nadruk of aansporing geven, zoals to ('toch?, nietwaar?'). Een deel van de tussenwerpsels is ontleend: uit het Sranan Tongo (o.a. mān 'joh, ach', boi 'sjonge-sjonge!') en uit het Nederlands (o.a. tò 'toch?'). De reeds bekende hāṁ ('ja') en nā ('nee') horen ook bij deze groep.",
+        "relatedVocab": ["int-to"]
+      }
+    ],
+    "exercises": {
+      "int-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent 'acchā'?",
+        "options": ["goed, oké!", "help!", "stil!", "au!"],
+        "correctIndex": 0
+      },
+      "int-e2": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "acchā", "right": "goed, oké!" },
+          { "left": "ayā", "right": "au!" },
+          { "left": "bacāo", "right": "help!" },
+          { "left": "cup", "right": "stil!" },
+          { "left": "sābās", "right": "bravo!" },
+          { "left": "albat", "right": "warempel, inderdaad" }
+        ]
+      },
+      "int-e5": {
+        "kind": "multiple-choice",
+        "prompt": "Welke uitroep gebruik je om anderen op een dief te wijzen?",
+        "options": ["cor-cor", "he", "ho", "oho"],
+        "correctIndex": 0
+      },
+      "int-e6": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "bāp-re-bāp", "right": "verbazing / lieve hemel!" },
+          { "left": "hāy-hāy", "right": "verdriet / ach!" },
+          { "left": "oho", "right": "medeleven / och-och!" },
+          { "left": "bhalā", "right": "verrassing / zeg!" },
+          { "left": "to", "right": "nadruk / toch?" }
+        ]
+      }
+    }
+  },
+  {
+    "lessonId": "unit-10-interjections-review",
+    "exampleSentences": [],
+    "grammarNotes": [],
+    "exercises": {
+      "rev-e2": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "hāṁ", "right": "ja" },
+          { "left": "nā", "right": "nee" },
+          { "left": "acchā", "right": "goed, oké!" },
+          { "left": "sābās", "right": "bravo!" },
+          { "left": "bacāo", "right": "help!" }
+        ]
+      },
+      "rev-e3": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent het tussenwerpsel 'hāṁ'?",
+        "options": ["ja", "nee", "help!", "stil!"],
+        "correctIndex": 0
+      },
+      "rev-e4": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "___! — zo maan je iemand tot stilte.",
+        "correctAnswer": "Cup",
+        "options": ["Cup", "Sābās", "Ayā", "Ho"],
+        "translations": { "nl": "Stil!" }
+      },
+      "rev-e5": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Lieve hemel! (zet de delen in de juiste volgorde)" },
+        "correctTargetTokens": ["bāp", "re", "bāp"],
+        "distractorTokens": ["ho", "hāy"]
+      }
+    }
+  }
+]

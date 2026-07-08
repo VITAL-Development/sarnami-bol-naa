@@ -1,0 +1,170 @@
+[
+  {
+    "id": "num-sunna",
+    "word": "sunnā",
+    "translations": {
+      "nl": "nul (0)"
+    },
+    "notes": "Image-verified p.36 (hoofdtelwoordentabel 3.1.1): slot-macron ā. Pagina bij benadering; needs-verification tot kruiscontrole.",
+    "tags": [
+      "numeral",
+      "cardinal",
+      "book-p36",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "num-ek",
+    "word": "ek",
+    "translations": {
+      "nl": "één (1)"
+    },
+    "notes": "Image-verified p.36 (3.1.1). Als telwoord bij een zelfstandig naamwoord vaak ego (= ek + go), tevens onbepaald lidwoord 'een'. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "numeral",
+      "cardinal",
+      "book-p36",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "num-dui",
+    "word": "dūi",
+    "translations": {
+      "nl": "twee (2)"
+    },
+    "notes": "Image-verified p.36 (3.1.1): macron ū. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "numeral",
+      "cardinal",
+      "book-p36",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "num-tin",
+    "word": "tīn",
+    "translations": {
+      "nl": "drie (3)"
+    },
+    "notes": "Image-verified p.36 (3.1.1): macron ī. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "numeral",
+      "cardinal",
+      "book-p36",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "num-car",
+    "word": "cār",
+    "translations": {
+      "nl": "vier (4)"
+    },
+    "notes": "Image-verified p.36 (3.1.1): macron ā; c wordt uitgesproken als 'tsj'. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "numeral",
+      "cardinal",
+      "book-p36",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "num-panc",
+    "word": "pāṃc",
+    "translations": {
+      "nl": "vijf (5)"
+    },
+    "notes": "Image-verified p.36 (3.1.1): macron ā met genasaleerde ṃ (anusvāra). Pagina bij benadering; needs-verification.",
+    "tags": [
+      "numeral",
+      "cardinal",
+      "book-p36",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "num-chau",
+    "word": "chau",
+    "translations": {
+      "nl": "zes (6)"
+    },
+    "notes": "Image-verified p.36 (3.1.1): geaspireerde ch + au-tweeklank. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "numeral",
+      "cardinal",
+      "book-p36",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "num-sat",
+    "word": "sāt",
+    "translations": {
+      "nl": "zeven (7)"
+    },
+    "notes": "Image-verified p.36 (3.1.1): macron ā. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "numeral",
+      "cardinal",
+      "book-p36",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "num-ath",
+    "word": "āṭh",
+    "translations": {
+      "nl": "acht (8)"
+    },
+    "notes": "Image-verified p.36 (3.1.1): macron ā + retroflexe geaspireerde ṭh (onderpunt). Pagina bij benadering; needs-verification.",
+    "tags": [
+      "numeral",
+      "cardinal",
+      "book-p36",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "num-nau",
+    "word": "nau",
+    "translations": {
+      "nl": "negen (9)"
+    },
+    "notes": "Image-verified p.36 (3.1.1): au-tweeklank. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "numeral",
+      "cardinal",
+      "book-p36",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "num-das",
+    "word": "das",
+    "translations": {
+      "nl": "tien (10)"
+    },
+    "notes": "Image-verified p.36 (3.1.1). Pagina bij benadering; needs-verification.",
+    "tags": [
+      "numeral",
+      "cardinal",
+      "book-p36",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "num-sau",
+    "word": "sau",
+    "translations": {
+      "nl": "honderd (100)"
+    },
+    "notes": "Image-verified p.36 (3.1.1: 100 sau, 200 dūi sau). Duizend is (ek) hajār. Pagina bij benadering; needs-verification.",
+    "tags": [
+      "numeral",
+      "cardinal",
+      "book-p36",
+      "needs-verification"
+    ]
+  }
+]
