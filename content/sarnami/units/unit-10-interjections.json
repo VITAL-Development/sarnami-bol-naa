@@ -1,0 +1,122 @@
+{
+  "id": "unit-10-interjections",
+  "title": "Tussenwerpsels",
+  "description": "Veelgebruikte uitroepen en gesprekspartikels.",
+  "order": 11,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/07-interjections.md",
+  "lessons": [
+    {
+      "id": "unit-10-interjections-interjections",
+      "unitId": "unit-10-interjections",
+      "order": 1,
+      "title": "Tussenwerpsels",
+      "description": "Veelgebruikte uitroepen en partikels.",
+      "newVocab": [
+        "int-accha",
+        "int-he",
+        "int-ho",
+        "int-cup",
+        "int-aya",
+        "int-bacao",
+        "int-bhala",
+        "int-bap-re-bap",
+        "int-sabas",
+        "int-vah-vah",
+        "int-albat",
+        "int-cor-cor",
+        "int-hay-hay",
+        "int-oho",
+        "int-to"
+      ],
+      "grammarNoteRefs": [
+        "gn-int-1",
+        "gn-int-2",
+        "gn-int-3"
+      ],
+      "exercises": [
+        {
+          "id": "int-e1",
+          "kind": "multiple-choice",
+          "contentRef": "int-e1"
+        },
+        {
+          "id": "int-e2",
+          "kind": "matching",
+          "contentRef": "int-e2"
+        },
+        {
+          "id": "int-e3",
+          "kind": "flashcard",
+          "vocabRef": "int-bacao",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "int-e4",
+          "kind": "flashcard",
+          "vocabRef": "int-vah-vah",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "int-e5",
+          "kind": "multiple-choice",
+          "contentRef": "int-e5"
+        },
+        {
+          "id": "int-e6",
+          "kind": "matching",
+          "contentRef": "int-e6"
+        },
+        {
+          "id": "int-e7",
+          "kind": "flashcard",
+          "vocabRef": "int-to",
+          "direction": "target-to-native"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-10-interjections-review",
+      "unitId": "unit-10-interjections",
+      "order": 2,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [
+        {
+          "id": "rev-e1",
+          "kind": "flashcard",
+          "vocabRef": "greet-ja",
+          "direction": "native-to-target"
+        },
+        {
+          "id": "rev-e2",
+          "kind": "matching",
+          "contentRef": "rev-e2"
+        },
+        {
+          "id": "rev-e3",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e3"
+        },
+        {
+          "id": "rev-e4",
+          "kind": "fill-blank",
+          "contentRef": "rev-e4"
+        },
+        {
+          "id": "rev-e5",
+          "kind": "word-bank",
+          "contentRef": "rev-e5"
+        },
+        {
+          "id": "rev-e6",
+          "kind": "flashcard",
+          "vocabRef": "greet-nee",
+          "direction": "native-to-target"
+        }
+      ],
+      "xpReward": 15
+    }
+  ]
+}
