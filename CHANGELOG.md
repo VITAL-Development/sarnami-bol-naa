@@ -21,6 +21,24 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ### Added
 
+- Content for `unit-13-reading` ("Lezen: teksten & fabels"), the capstone
+  reading unit authored on top of the merged structure scaffold (#119). Source
+  chapter: `authored_docs/byakaran/11-texts.md` (BIJLAGEN). Adds 15
+  passage-specific words in the new `content/sarnami/vocab/reading.json` drawn
+  from three graded passages — Bijlage 1 *Nātī aur nānī ke khissā* (nānī, nātī,
+  bakarī, peṛ, bhūjā), Bijlage 2 *Herāil beṭavā* (beṭā, bāp, dhan, naukar, pāp)
+  and Bijlage 3 *Canak siyar* in the simplified SCS spelling (siyar, kaiman,
+  akkil, tagat, jangal) — image-verified diacritics, tagged `book-pNN` +
+  `needs-verification`. Lesson content lives in
+  `content/sarnami/lessons/unit-13-reading.json` (per-text intro/passage/
+  keyword grammar notes plus comprehension exercises) and wires up the
+  scaffold's four lessons (text 1 / text 2 / text 3 / review) with `newVocab`,
+  `grammarNoteRefs` and `exercises`. As a capstone it reuses earlier units'
+  vocab/connectives by id (e.g. `noun-ghar`, `struct-en`, `struct-dan`,
+  `struct-weer`, `struct-maar`). Exercise mix per the issue: `multiple-choice`
+  comprehension leads, backed by `fill-blank` (cloze), `word-bank` (sentence
+  reconstruction) and `matching` (passage vocab) in the content lessons, and a
+  review lesson mixing all five kinds.
 - Content for `unit-12-word-formation` ("Woordvorming"), authored on top of the
   merged structure scaffold (#118, follow-up to #102; supersedes scaffold #131).
   Source chapter: `authored_docs/byakaran/10-word-formation.md`. Adds 16

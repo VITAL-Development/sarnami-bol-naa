@@ -1,0 +1,277 @@
+[
+  {
+    "lessonId": "unit-13-reading-text-1",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-text1-1",
+        "title": "Tekst 1: Nātī aur nānī ke khissā",
+        "body": "Dit is een Sarnami volksverhaal uit de bijlagen van de grammatica — 'Het verhaal van de grootmoeder en de kleinzoon'. Het staat in de wetenschappelijke romanisatie met diacritische tekens, precies zoals je die in eerdere eenheden hebt geleerd. Leesstrategie: lees eerst de Sarnami-zin hardop; herken de verbindingswoorden die je al kent — aur (en), tab (dan/toen), phir (weer), baki (maar) — en raad de rest uit de context. Controleer daarna pas de Nederlandse vertaling.",
+        "relatedVocab": ["read-nati", "read-nani", "struct-en", "struct-dan", "struct-weer"]
+      },
+      {
+        "id": "gn-text1-2",
+        "title": "Het begin van de passage",
+        "body": "To aise ego nātī rahā aur ego nānī. Natiyā naniyā lage rahat rahā. — 'Zo was er eens een kleinzoon en zijn grootmoeder. De kleinzoon woonde bij zijn grootmoeder.' Op een dag stuurt de nānī hem met wat bhūjā (gepofte graankorrels) de bakarī (geiten) hoeden: 'E beṭā, tū le etanā bhūjā aur jā bakariyan carāi ke phir sañjhā ke let' aiye.' Let op de bepaalde vorm op -ā: nātī → natiyā, bakarī → bakariyan.",
+        "relatedVocab": ["read-nati", "read-nani", "read-bhuja", "read-bakari"]
+      },
+      {
+        "id": "gn-text1-3",
+        "title": "Sleutelwoorden",
+        "body": "De kern van de plot draait om een paar nieuwe zelfstandige naamwoorden: bakarī (geit), peṛ (boom, waarin de jongen klimt) en bhūjā (het geroosterde graan dat hij opeet). Terwijl hij in de peṛ zit, ziet hij de geiten hun bek bewegen (ze herkauwen) en denkt ten onrechte dat ze hem treiteren — met rampzalige gevolgen. Het huis (ghar) van de nānī brandt uiteindelijk tot as af.",
+        "relatedVocab": ["read-bakari", "read-per", "read-bhuja", "noun-ghar"]
+      }
+    ],
+    "exercises": {
+      "t1-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Bij wie woonde de nātī (kleinzoon) in het verhaal?",
+        "options": [
+          "bij zijn grootmoeder (nānī)",
+          "bij zijn vader",
+          "alleen in het bos",
+          "bij de buren"
+        ],
+        "correctIndex": 0
+      },
+      "t1-e2": {
+        "kind": "multiple-choice",
+        "prompt": "Wat gaf de nānī haar kleinzoon mee toen hij de geiten ging hoeden?",
+        "options": [
+          "bhūjā (gepofte graankorrels)",
+          "een zak geld",
+          "een nieuwe stok",
+          "een fles water"
+        ],
+        "correctIndex": 0
+      },
+      "t1-e3": {
+        "kind": "multiple-choice",
+        "prompt": "Waarom sloeg de jongen de geiten met een stok?",
+        "options": [
+          "hij dacht ten onrechte dat ze hem treiterden, terwijl ze herkauwden",
+          "ze waren weggelopen naar een ander veld",
+          "ze hadden zijn bhūjā opgegeten",
+          "de nānī had het hem opgedragen"
+        ],
+        "correctIndex": 0
+      },
+      "t1-e4": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "De oude vrouw bezat veel schapen en ___ (geiten).",
+        "correctAnswer": "bakarī",
+        "options": ["bakarī", "nānī", "peṛ", "bhūjā"],
+        "translations": { "nl": "De oude vrouw bezat veel schapen en geiten (bakarī)." }
+      },
+      "t1-e5": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Zet het antwoord van de kleinzoon in de juiste volgorde: 'Goed, grootmoeder!'" },
+        "correctTargetTokens": ["acchā", "nānī"],
+        "distractorTokens": ["beṭā", "phir"]
+      }
+    }
+  },
+  {
+    "lessonId": "unit-13-reading-text-2",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-text2-1",
+        "title": "Tekst 2: Herāil beṭavā",
+        "body": "De tweede tekst is een bijbelse gelijkenis, in het Sarnami naverteld — 'De verloren zoon'. Ook deze staat in de wetenschappelijke romanisatie. De titel bevat meteen twee bouwstenen: herāil ('verloren, kwijtgeraakt') en beṭavā, de bepaalde vorm van beṭā (zoon). Leesstrategie voor een langere tekst: hak elke zin in stukken rond de verbindingswoorden jab (toen), tab (dan) en baki (maar).",
+        "relatedVocab": ["read-beta", "read-bap", "struct-maar"]
+      },
+      {
+        "id": "gn-text2-2",
+        "title": "Het begin van de passage",
+        "body": "Ek jane ke dūī bĕṭavā rahā. Chŏtkavā bĕṭauvā āpan bāp se ek din bole: 'E bāp, dhan meṁ se jaun hamār hissā hoī, taun hamme dai de!' — 'Een man had twee zonen. De jongere zoon zei op een dag tegen zijn vader: O, vader, geef mij uit uw rijkdom het deel dat mij toekomt.' Kernwoorden: bāp (vader), dhan (rijkdom, bezit). De zoon vertrekt naar het buitenland en verkwist daar al het dhan.",
+        "relatedVocab": ["read-beta", "read-bap", "read-dhan"]
+      },
+      {
+        "id": "gn-text2-3",
+        "title": "Sleutelwoorden en afloop",
+        "body": "Als het geld op is en er hongersnood komt, moet de zoon bij een vreemde de varkens hoeden. Hij komt tot inkeer, keert terug en bekent: 'Bhagavān ke aur tohare āge hamse bhārī pāp bhail' — 'tegenover God en u heb ik een grote zonde (pāp) begaan'. De vader onthaalt hem toch feestelijk, tot ergernis van de oudere broer, die er juist op wijst dat hij altijd trouw als een naukar (bediende) heeft gediend.",
+        "relatedVocab": ["read-pap", "read-naukar", "read-dhan"]
+      }
+    ],
+    "exercises": {
+      "t2-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Hoeveel zonen (bĕṭavā) had de man aan het begin van het verhaal?",
+        "options": [
+          "twee",
+          "drie",
+          "één",
+          "vier"
+        ],
+        "correctIndex": 0
+      },
+      "t2-e2": {
+        "kind": "multiple-choice",
+        "prompt": "Wat vroeg de jongste zoon aan zijn bāp (vader)?",
+        "options": [
+          "zijn deel van de rijkdom (dhan)",
+          "een geit om te slachten",
+          "toestemming om te trouwen",
+          "een plek onder de bedienden"
+        ],
+        "correctIndex": 0
+      },
+      "t2-e3": {
+        "kind": "multiple-choice",
+        "prompt": "Wat deed de jongere zoon met zijn erfdeel in het buitenland?",
+        "options": [
+          "hij verkwistte het volledig",
+          "hij kocht er land mee",
+          "hij gaf het aan de armen",
+          "hij bewaarde het zorgvuldig"
+        ],
+        "correctIndex": 0
+      },
+      "t2-e4": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "beṭā", "right": "zoon" },
+          { "left": "bāp", "right": "vader" },
+          { "left": "dhan", "right": "rijkdom / bezit" },
+          { "left": "naukar", "right": "bediende" },
+          { "left": "pāp", "right": "zonde" }
+        ]
+      },
+      "t2-e5": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Bij zijn vader thuis kregen zelfs de ___ (bedienden) volop te eten.",
+        "correctAnswer": "naukar",
+        "options": ["naukar", "beṭā", "bāp", "dhan"],
+        "translations": { "nl": "Bij zijn vader thuis kregen zelfs de bedienden (naukar) volop te eten." }
+      }
+    }
+  },
+  {
+    "lessonId": "unit-13-reading-text-3",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-text3-1",
+        "title": "Tekst 3: Canak siyar",
+        "body": "De derde tekst is de fabel 'De slimme vos' (Canak siyar). Belangrijk voor je leesstrategie: deze fabel is gezet in de vereenvoudigde SCS-spelling — de populaire spelling zónder diacritische tekens. Waar je eerder nātī en bakarī met macrons zag, schrijft deze tekst gewoon nati en bakari. De klanken blijven gelijk; alleen de streepjes en puntjes ontbreken.",
+        "relatedVocab": ["read-siyar", "read-kaiman"]
+      },
+      {
+        "id": "gn-text3-2",
+        "title": "Het begin van de passage",
+        "body": "Ego siyar aur ego kaimanin men bahut dosti raha. Rat din barobbar dunu ek sathe rahe. — 'Er waren eens een vos (siyar) en een kaaiman (kaimanin) die dikke vrienden waren. Dag en nacht waren ze samen.' Na een ruzie wordt de vriendschap vijandschap: de kaimanin gaat de rivier (nadi) in, de siyar het bos (jangal) in, en telkens verschalkt de vos de kaaiman.",
+        "relatedVocab": ["read-siyar", "read-kaiman", "read-jangal"]
+      },
+      {
+        "id": "gn-text3-3",
+        "title": "De moraal: akkil tegen tagat",
+        "body": "De hele fabel draait om een tegenstelling die de kaaiman zelf benoemt: 'Toke dehin ke tagat ba aur hamke akkil ke' — 'Jij hebt de kracht van het lichaam en ik het verstand.' De slotzin vat de moraal samen: Akkil ke age tagat kuch na kam kar sake hai! — 'Tegen verstand (akkil) kan kracht (tagat) niets uitrichten.'",
+        "relatedVocab": ["read-akkil", "read-tagat"]
+      }
+    ],
+    "exercises": {
+      "t3-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Wat is er in het begin tussen de siyar (vos) en de kaimanin (kaaiman)?",
+        "options": [
+          "een sterke vriendschap (dosti)",
+          "een handelsafspraak",
+          "een familieband",
+          "meteen al vijandschap"
+        ],
+        "correctIndex": 0
+      },
+      "t3-e2": {
+        "kind": "multiple-choice",
+        "prompt": "Waarmee wint de vos telkens van de kaaiman?",
+        "options": [
+          "met zijn verstand (akkil)",
+          "met zijn lichaamskracht (tagat)",
+          "met hulp van andere dieren",
+          "door hard weg te rennen"
+        ],
+        "correctIndex": 0
+      },
+      "t3-e3": {
+        "kind": "multiple-choice",
+        "prompt": "Wat is de moraal van de fabel?",
+        "options": [
+          "tegen verstand kan kracht niets uitrichten",
+          "vriendschap overwint alles",
+          "wie niet sterk is, verliest altijd",
+          "eerlijk duurt het langst"
+        ],
+        "correctIndex": 0
+      },
+      "t3-e4": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Zet de kern van de moraal in de juiste volgorde: 'verstand — tegenover — kracht' (akkil ke age tagat)." },
+        "correctTargetTokens": ["akkil", "ke", "age", "tagat"],
+        "distractorTokens": ["nadi", "jangal"]
+      },
+      "t3-e5": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "siyar", "right": "vos / jakhals" },
+          { "left": "kaiman", "right": "kaaiman" },
+          { "left": "akkil", "right": "verstand" },
+          { "left": "tagat", "right": "kracht" },
+          { "left": "jangal", "right": "bos" }
+        ]
+      }
+    }
+  },
+  {
+    "lessonId": "unit-13-reading-review",
+    "exampleSentences": [],
+    "grammarNotes": [],
+    "exercises": {
+      "rev-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Welk verhaal gaat over een zoon die zijn erfdeel verkwist en daarna terugkeert?",
+        "options": [
+          "Herāil beṭavā (De verloren zoon)",
+          "Nātī aur nānī ke khissā",
+          "Canak siyar (De slimme vos)",
+          "geen van deze"
+        ],
+        "correctIndex": 0
+      },
+      "rev-e2": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "nānī", "right": "grootmoeder" },
+          { "left": "siyar", "right": "vos" },
+          { "left": "dhan", "right": "rijkdom" },
+          { "left": "peṛ", "right": "boom" },
+          { "left": "pāp", "right": "zonde" }
+        ]
+      },
+      "rev-e4": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Zet het antwoord van de kleinzoon uit tekst 1 in de juiste volgorde: 'Goed, grootmoeder!'" },
+        "correctTargetTokens": ["acchā", "nānī"],
+        "distractorTokens": ["siyar", "bāp"]
+      },
+      "rev-e5": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "In de fabel wint de vos met zijn ___ (verstand), niet met kracht.",
+        "correctAnswer": "akkil",
+        "options": ["akkil", "tagat", "jangal", "dhan"],
+        "translations": { "nl": "In de fabel wint de vos met zijn verstand (akkil), niet met kracht." }
+      },
+      "rev-e7": {
+        "kind": "multiple-choice",
+        "prompt": "In welke spelling is de fabel 'Canak siyar' gezet, anders dan de eerste twee teksten?",
+        "options": [
+          "de vereenvoudigde SCS-spelling zonder diacritische tekens",
+          "het devanagari-schrift",
+          "het Arabische schrift",
+          "de wetenschappelijke romanisatie mét diacritische tekens"
+        ],
+        "correctIndex": 0
+      }
+    }
+  }
+]

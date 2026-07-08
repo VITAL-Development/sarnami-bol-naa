@@ -1,0 +1,212 @@
+[
+  {
+    "id": "read-nani",
+    "word": "nānī",
+    "translations": {
+      "nl": "grootmoeder (van moederskant)"
+    },
+    "tags": [
+      "reading",
+      "noun",
+      "book-p75",
+      "needs-verification"
+    ],
+    "notes": "Passagewoord uit Bijlage 1 'Nātī aur nānī ke khissā' (het verhaal van de grootmoeder en de kleinzoon). Verkleinde/bepaalde vorm in de tekst: naniyā. Beeldgeverifieerde transcriptie (authored_docs/byakaran/11-texts.md, PDF p.75–78); niet in authored_docs/sarnamibhasa-vocab.md, vandaar needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "read-nati",
+    "word": "nātī",
+    "translations": {
+      "nl": "kleinzoon"
+    },
+    "tags": [
+      "reading",
+      "noun",
+      "book-p75",
+      "needs-verification"
+    ],
+    "notes": "Passagewoord uit Bijlage 1. Bepaalde vorm in de tekst: natiyā. Beeldgeverifieerde transcriptie; needs-verification tot kruiscontrole tegen een tweede bron. Pagina bij benadering."
+  },
+  {
+    "id": "read-bakari",
+    "word": "bakarī",
+    "translations": {
+      "nl": "geit"
+    },
+    "tags": [
+      "reading",
+      "noun",
+      "book-p75",
+      "needs-verification"
+    ],
+    "notes": "Passagewoord uit Bijlage 1: 'bakarī-bheṁṛā' (geiten en schapen), meervoud/bepaalde vorm bakariyan. Beeldgeverifieerde transcriptie; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "read-per",
+    "word": "peṛ",
+    "translations": {
+      "nl": "boom"
+    },
+    "tags": [
+      "reading",
+      "noun",
+      "book-p75",
+      "needs-verification"
+    ],
+    "notes": "Passagewoord uit Bijlage 1: de jongen klimt in een peṛ (bepaalde vorm peṛvā). Retroflexe ṛ per beeldgeverifieerde transcriptie; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "read-bhuja",
+    "word": "bhūjā",
+    "translations": {
+      "nl": "gepofte graankorrels (droog geroosterd graan)"
+    },
+    "tags": [
+      "reading",
+      "noun",
+      "book-p75",
+      "needs-verification"
+    ],
+    "notes": "Passagewoord uit Bijlage 1: de grootmoeder geeft de kleinzoon bhūjā mee. Beeldgeverifieerde transcriptie; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "read-beta",
+    "word": "beṭā",
+    "translations": {
+      "nl": "zoon; ook aanspreekvorm 'jongen, kind'"
+    },
+    "tags": [
+      "reading",
+      "noun",
+      "book-p79",
+      "needs-verification"
+    ],
+    "notes": "Passagewoord uit Bijlage 2 'Herāil beṭavā' (de verloren zoon); bepaalde vorm beṭavā/beṭauvā. Vergelijk noun-beṭī (dochter) uit unit-01. Retroflexe ṭ per beeldgeverifieerde transcriptie; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "read-bap",
+    "word": "bāp",
+    "translations": {
+      "nl": "vader"
+    },
+    "tags": [
+      "reading",
+      "noun",
+      "book-p79",
+      "needs-verification"
+    ],
+    "notes": "Passagewoord uit Bijlage 2; bepaalde vorm bapavā. Aanspreekvorm 'e bāp' = 'o, vader'. Naast de eerder geleerde vorm bappā (noun-bappa). Beeldgeverifieerde transcriptie; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "read-dhan",
+    "word": "dhan",
+    "translations": {
+      "nl": "rijkdom, bezit, geld"
+    },
+    "tags": [
+      "reading",
+      "noun",
+      "book-p79",
+      "needs-verification"
+    ],
+    "notes": "Passagewoord uit Bijlage 2: de jongere zoon vraagt zijn deel van het dhan (dhan-daulat = rijkdom en have). Beeldgeverifieerde transcriptie; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "read-naukar",
+    "word": "naukar",
+    "translations": {
+      "nl": "bediende, knecht"
+    },
+    "tags": [
+      "reading",
+      "noun",
+      "book-p79",
+      "needs-verification"
+    ],
+    "notes": "Passagewoord uit Bijlage 2: 'naukar-cākar' (bedienden), bepaalde/meervoudsvorm naukaran. Beeldgeverifieerde transcriptie; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "read-pap",
+    "word": "pāp",
+    "translations": {
+      "nl": "zonde"
+    },
+    "tags": [
+      "reading",
+      "noun",
+      "book-p79",
+      "needs-verification"
+    ],
+    "notes": "Passagewoord uit Bijlage 2: 'bhārī pāp bhail' (ik heb een grote zonde begaan). Beeldgeverifieerde transcriptie; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "read-siyar",
+    "word": "siyar",
+    "translations": {
+      "nl": "vos / jakhals"
+    },
+    "tags": [
+      "reading",
+      "noun",
+      "book-p83",
+      "needs-verification"
+    ],
+    "notes": "Hoofdpersoon van Bijlage 3 'Canak siyar' (de slimme vos); bepaalde vorm siyarva. Bijlage 3 is gezet in de vereenvoudigde SCS-spelling zonder diacritische tekens, dus het woord verschijnt als 'siyar' (wetenschappelijk zou dit siyār zijn). Spelling zoals in de passage aangehouden; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "read-kaiman",
+    "word": "kaiman",
+    "translations": {
+      "nl": "kaaiman (krokodilachtige)"
+    },
+    "tags": [
+      "reading",
+      "noun",
+      "book-p83",
+      "needs-verification"
+    ],
+    "notes": "Tegenspeler in Bijlage 3; vrouwelijke vorm kaimanin, bepaalde vorm kaimaninya. Bijlage 3 gebruikt de vereenvoudigde SCS-spelling (geen diacritische tekens). Spelling zoals in de passage; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "read-akkil",
+    "word": "akkil",
+    "translations": {
+      "nl": "verstand, slimheid"
+    },
+    "tags": [
+      "reading",
+      "noun",
+      "book-p83",
+      "needs-verification"
+    ],
+    "notes": "Kernbegrip van Bijlage 3: de moraal 'Akkil ke age tagat kuch na kam kar sake hai' (tegen verstand kan kracht niets uitrichten). SCS-spelling zoals in de passage; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "read-tagat",
+    "word": "tagat",
+    "translations": {
+      "nl": "kracht, (lichamelijke) sterkte"
+    },
+    "tags": [
+      "reading",
+      "noun",
+      "book-p83",
+      "needs-verification"
+    ],
+    "notes": "Kernbegrip van Bijlage 3, tegenover akkil (verstand): de kaaiman heeft tagat, de vos akkil. SCS-spelling zoals in de passage; needs-verification. Pagina bij benadering."
+  },
+  {
+    "id": "read-jangal",
+    "word": "jangal",
+    "translations": {
+      "nl": "bos, oerwoud"
+    },
+    "tags": [
+      "reading",
+      "noun",
+      "book-p83",
+      "needs-verification"
+    ],
+    "notes": "Passagewoord uit Bijlage 3: na de ruzie gaat de vos het jangal in en de kaaiman de rivier (nadi) in. SCS-spelling zoals in de passage; needs-verification. Pagina bij benadering."
+  }
+]
