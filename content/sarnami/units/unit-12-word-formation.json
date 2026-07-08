@@ -1,0 +1,154 @@
+{
+  "id": "unit-12-word-formation",
+  "title": "Woordvorming",
+  "description": "Afleidingssuffixen en hoe woorden gevormd worden.",
+  "order": 13,
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/10-word-formation.md",
+  "lessons": [
+    {
+      "id": "unit-12-word-formation-suffixes",
+      "unitId": "unit-12-word-formation",
+      "order": 1,
+      "title": "Afleidingssuffixen",
+      "description": "Afleidingssuffixen en hoe woorden gebouwd worden.",
+      "newVocab": [
+        "wf-ghumakkar",
+        "wf-piyakkar",
+        "wf-lohar",
+        "wf-sonar",
+        "wf-parhai",
+        "wf-safai",
+        "wf-topivala",
+        "wf-macharivala"
+      ],
+      "grammarNoteRefs": [
+        "gn-wf-1"
+      ],
+      "exercises": [
+        {
+          "id": "sfx-e1",
+          "kind": "matching",
+          "contentRef": "sfx-e1"
+        },
+        {
+          "id": "sfx-e2",
+          "kind": "multiple-choice",
+          "contentRef": "sfx-e2"
+        },
+        {
+          "id": "sfx-e3",
+          "kind": "multiple-choice",
+          "contentRef": "sfx-e3"
+        },
+        {
+          "id": "sfx-e4",
+          "kind": "matching",
+          "contentRef": "sfx-e4"
+        },
+        {
+          "id": "sfx-e5",
+          "kind": "fill-blank",
+          "contentRef": "sfx-e5"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-12-word-formation-arabic-persian",
+      "unitId": "unit-12-word-formation",
+      "order": 2,
+      "title": "Arabisch-Perzische suffixen",
+      "description": "Suffixen van Arabisch-Perzische oorsprong.",
+      "newVocab": [
+        "wf-imandar",
+        "wf-dukandar",
+        "wf-jadugar",
+        "wf-karigar",
+        "wf-davakhana",
+        "wf-chapkhana",
+        "wf-becain",
+        "wf-nalayak"
+      ],
+      "grammarNoteRefs": [
+        "gn-wf-2",
+        "gn-wf-3"
+      ],
+      "exercises": [
+        {
+          "id": "ap-e1",
+          "kind": "matching",
+          "contentRef": "ap-e1"
+        },
+        {
+          "id": "ap-e2",
+          "kind": "multiple-choice",
+          "contentRef": "ap-e2"
+        },
+        {
+          "id": "ap-e3",
+          "kind": "multiple-choice",
+          "contentRef": "ap-e3"
+        },
+        {
+          "id": "ap-e4",
+          "kind": "matching",
+          "contentRef": "ap-e4"
+        },
+        {
+          "id": "ap-e5",
+          "kind": "fill-blank",
+          "contentRef": "ap-e5"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "unit-12-word-formation-review",
+      "unitId": "unit-12-word-formation",
+      "order": 3,
+      "title": "Herhaling",
+      "description": "Alles uit deze eenheid nog eens herhalen.",
+      "newVocab": [],
+      "exercises": [
+        {
+          "id": "rev-e1",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e1"
+        },
+        {
+          "id": "rev-e2",
+          "kind": "matching",
+          "contentRef": "rev-e2"
+        },
+        {
+          "id": "rev-e3",
+          "kind": "flashcard",
+          "vocabRef": "wf-jadugar",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "rev-e4",
+          "kind": "word-bank",
+          "contentRef": "rev-e4"
+        },
+        {
+          "id": "rev-e5",
+          "kind": "fill-blank",
+          "contentRef": "rev-e5"
+        },
+        {
+          "id": "rev-e6",
+          "kind": "flashcard",
+          "vocabRef": "wf-safai",
+          "direction": "native-to-target"
+        },
+        {
+          "id": "rev-e7",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e7"
+        }
+      ],
+      "xpReward": 15
+    }
+  ]
+}

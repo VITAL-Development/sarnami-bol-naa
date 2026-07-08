@@ -1,0 +1,154 @@
+[
+  {
+    "lessonId": "unit-12-word-formation-suffixes",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-wf-1",
+        "title": "Afleiden met achtervoegsels",
+        "body": "Met voor- en achtervoegsels maak je van bestaande woorden en woordstammen nieuwe woorden. Vier veelvoorkomende achtervoegsels: -akkaṛ vormt een gewoontedoener (ghum- 'rondtrekken' → ghumakkaṛ 'een zwerver'); -ār vormt een beroepsnaam (lŏhā 'ijzer' → lŏhār 'een smid'); -āī vormt een abstract zelfstandig naamwoord, vaak te vertalen met '-heid' of een handeling (sāf 'schoon' → safāī 'netheid'); -vāl(-ā) betekent 'degene met of van X' (ṭopī 'hoed' → ṭopī-vālā 'de man met de hoed'). Herken je het achtervoegsel, dan raad je vaak de betekenis van een onbekend woord.",
+        "relatedVocab": ["wf-ghumakkar", "wf-lohar", "wf-safai", "wf-topivala"]
+      }
+    ],
+    "exercises": {
+      "sfx-e1": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "-akkaṛ", "right": "een gewoontedoener" },
+          { "left": "-ār", "right": "een beroepsnaam" },
+          { "left": "-āī", "right": "een abstract begrip (-heid)" },
+          { "left": "-vālā", "right": "degene met of van X" }
+        ]
+      },
+      "sfx-e2": {
+        "kind": "multiple-choice",
+        "prompt": "Welke afleiding betekent 'een goudsmid'?",
+        "options": ["sŏnār", "lŏhār", "ghumakkaṛ", "safāī"],
+        "correctIndex": 0
+      },
+      "sfx-e3": {
+        "kind": "multiple-choice",
+        "prompt": "Met welk achtervoegsel vorm je een abstract begrip zoals safāī ('netheid')?",
+        "options": ["-āī", "-akkaṛ", "-ār", "-vālā"],
+        "correctIndex": 0
+      },
+      "sfx-e4": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "ghumakkaṛ", "right": "een zwerver" },
+          { "left": "lŏhār", "right": "een smid" },
+          { "left": "paṛhāī", "right": "studie" },
+          { "left": "ṭopī-vālā", "right": "de man met de hoed" },
+          { "left": "macharī-vālā", "right": "de visboer" }
+        ]
+      },
+      "sfx-e5": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "De vakman die ijzer bewerkt, heet een ___ .",
+        "correctAnswer": "lŏhār",
+        "options": ["lŏhār", "sŏnār", "piyakkaṛ", "macharī-vālā"],
+        "translations": { "nl": "De vakman die ijzer bewerkt, heet een smid (lŏhār)." }
+      }
+    }
+  },
+  {
+    "lessonId": "unit-12-word-formation-arabic-persian",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-wf-2",
+        "title": "Achtervoegsels van Arabisch-Perzische oorsprong",
+        "body": "Een deel van de Sarnami-woordvorming komt uit het Arabisch en Perzisch. Het achtervoegsel -dār betekent 'bezittend, houder van' (dukān 'winkel' → dukāndār 'een winkelier'; imān 'eer' → imāndār 'eerlijk'); -gar vormt een maker of doener (jādū 'toverkunst' → jādūgar 'een goochelaar'; kār 'werk' → kārīgar 'een vakman'); -khānā betekent 'huis, plaats' (davā 'medicijn' → davā-khānā 'een apotheek'; chap 'druk' → chapkhānā 'een drukkerij').",
+        "relatedVocab": ["wf-imandar", "wf-jadugar", "wf-davakhana"]
+      },
+      {
+        "id": "gn-wf-3",
+        "title": "Voorvoegsels van Arabisch-Perzische oorsprong",
+        "body": "Dezelfde bron levert ook ontkennende voorvoegsels. Het voorvoegsel be- betekent 'zonder, -loos' (cain 'rust' → becain 'radeloos'); nā- betekent 'on-, niet' (lāyak 'geschikt' → nā-lāyak 'ongeschikt'); bad- betekent 'slecht-' (nām 'naam' → badnāmī 'oneer'). Met deze voorvoegsels vorm je makkelijk het tegendeel van een woord.",
+        "relatedVocab": ["wf-becain", "wf-nalayak"]
+      }
+    ],
+    "exercises": {
+      "ap-e1": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "-dār", "right": "bezittend, houder van" },
+          { "left": "-gar", "right": "maker, doener" },
+          { "left": "-khānā", "right": "huis, plaats" },
+          { "left": "be-", "right": "zonder, -loos" }
+        ]
+      },
+      "ap-e2": {
+        "kind": "multiple-choice",
+        "prompt": "Welke afleiding betekent 'een apotheek'?",
+        "options": ["davā-khānā", "chapkhānā", "dukāndār", "jādūgar"],
+        "correctIndex": 0
+      },
+      "ap-e3": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent het voorvoegsel be- (zoals in becain)?",
+        "options": ["zonder, -loos", "houder van", "maker van", "huis, plaats"],
+        "correctIndex": 0
+      },
+      "ap-e4": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "imāndār", "right": "eerlijk" },
+          { "left": "jādūgar", "right": "een goochelaar" },
+          { "left": "kārīgar", "right": "een vakman" },
+          { "left": "chapkhānā", "right": "een drukkerij" },
+          { "left": "nā-lāyak", "right": "ongeschikt" }
+        ]
+      },
+      "ap-e5": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Iemand die een winkel houdt, heet een ___ .",
+        "correctAnswer": "dukāndār",
+        "options": ["dukāndār", "kārīgar", "davā-khānā", "becain"],
+        "translations": { "nl": "Iemand die een winkel houdt, heet een winkelier (dukāndār)." }
+      }
+    }
+  },
+  {
+    "lessonId": "unit-12-word-formation-review",
+    "exampleSentences": [],
+    "grammarNotes": [],
+    "exercises": {
+      "rev-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Welk achtervoegsel maakt een beroepsnaam zoals lŏhār ('smid') of sŏnār ('goudsmid')?",
+        "options": ["-ār", "-āī", "-akkaṛ", "-khānā"],
+        "correctIndex": 0
+      },
+      "rev-e2": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "-akkaṛ", "right": "een gewoontedoener" },
+          { "left": "-āī", "right": "een abstract begrip (-heid)" },
+          { "left": "-dār", "right": "houder van" },
+          { "left": "-khānā", "right": "huis, plaats" },
+          { "left": "nā-", "right": "on-, niet" }
+        ]
+      },
+      "rev-e4": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Bouw het woord voor 'de man met de hoed' uit de bouwstenen." },
+        "correctTargetTokens": ["ṭopī", "vālā"],
+        "distractorTokens": ["macharī", "khānā"]
+      },
+      "rev-e5": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Iemand die eerlijk is, noem je ___ .",
+        "correctAnswer": "imāndār",
+        "options": ["imāndār", "jādūgar", "becain", "ghumakkaṛ"],
+        "translations": { "nl": "Iemand die eerlijk is, noem je imāndār." }
+      },
+      "rev-e7": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent 'paṛhāī'?",
+        "options": ["studie", "netheid", "een zwerver", "een drukkerij"],
+        "correctIndex": 0
+      }
+    }
+  }
+]

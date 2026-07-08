@@ -1,0 +1,172 @@
+[
+  {
+    "lessonId": "unit-06-adverbs-time-place",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-adv-time",
+        "title": "Bijwoorden van tijd",
+        "body": "Bijwoorden kunnen aan bijna elke woordsoort worden toegevoegd, behalve aan het zelfstandig naamwoord, en worden — anders dan bijvoeglijke naamwoorden — niet verbogen. Bijwoorden van tijd geven aan wanneer iets gebeurt: āj (vandaag), bihān (morgen), kāl (gisteren), roj (dagelijks) en hardam (altijd). Ze staan vaak vooraan in de zin, bijvoorbeeld: 'Āj ham jādā khāi lelī hai' = Ik heb vandaag te veel gegeten.",
+        "relatedVocab": ["adv-aaj", "adv-bihaan", "adv-kaal", "adv-roj", "adv-hardam"]
+      },
+      {
+        "id": "gn-adv-place",
+        "title": "Bijwoorden van plaats",
+        "body": "Bijwoorden van plaats geven aan waar iets is of gebeurt: uppar (boven), nicce (beneden), dūr (ver), nagicce (dichtbij) en bāhar (buiten, tegenover bhittar 'binnen'). Een aardig kenmerk van het Sarnami: door nasalering worden sommige plaatsbijwoorden richtingaanduidend. Zo wordt nicce ('beneden') tot nicvām ('daarbeneden') en uppar tot uparām ('daarboven'). Voorbeeld: 'Jā nicvām dekh to, ke āil hai' = Ga eens even beneden kijken wie gekomen is.",
+        "relatedVocab": ["adv-uppar", "adv-nicce", "adv-dur", "adv-nagicce", "adv-baahar"]
+      }
+    ],
+    "exercises": {
+      "tp-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent het bijwoord 'āj'?",
+        "options": ["vandaag", "morgen", "gisteren", "altijd"],
+        "correctIndex": 0
+      },
+      "tp-e2": {
+        "kind": "multiple-choice",
+        "prompt": "Welk bijwoord van plaats betekent 'dichtbij'?",
+        "options": ["nagicce", "dūr", "uppar", "bāhar"],
+        "correctIndex": 0
+      },
+      "tp-e3": {
+        "kind": "multiple-choice",
+        "prompt": "Door nasalering wordt het plaatsbijwoord 'nicce' (beneden) tot 'nicvām'. Wat betekent 'nicvām'?",
+        "options": ["daarbeneden", "beneden blijven", "naar boven", "buiten"],
+        "correctIndex": 0
+      },
+      "tp-e4": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "āj", "right": "vandaag" },
+          { "left": "kāl", "right": "gisteren" },
+          { "left": "uppar", "right": "boven" },
+          { "left": "dūr", "right": "ver" },
+          { "left": "bāhar", "right": "buiten" }
+        ]
+      },
+      "tp-e5": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "___ ham jādā khāi lelī hai.",
+        "correctAnswer": "Āj",
+        "options": ["Āj", "Bihān", "Dūr", "Uppar"],
+        "translations": { "nl": "Ik heb vandaag te veel gegeten." }
+      },
+      "tp-e9": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "De geit graast buiten." },
+        "correctTargetTokens": ["Bakariyā", "bāhar", "ghāms", "care", "hai."],
+        "distractorTokens": ["uppar", "roj"]
+      }
+    }
+  },
+  {
+    "lessonId": "unit-06-adverbs-manner-degree",
+    "exampleSentences": [],
+    "grammarNotes": [
+      {
+        "id": "gn-adv-manner",
+        "title": "Bijwoorden van wijze",
+        "body": "Bijwoorden van wijze geven aan hóe iets gebeurt: dhīre (zacht, langzaam), sacce (echt, inderdaad) en sait (misschien). Veel wijze-bijwoorden eindigen op -e. Kenmerkend voor het Sarnami is verdubbeling: dhīre wordt dhīre-dhīre ('langzaamaan, geleidelijk'). Daarnaast bestaat er een rijke voorraad klanknabootsende verdubbelingen zoals ṭan-ṭan (metaalklank) en khaṭkhaṭāike (kloppend aan de deur).",
+        "relatedVocab": ["adv-dhire", "adv-dhire-dhire", "adv-sacce", "adv-sait"]
+      },
+      {
+        "id": "gn-adv-degree",
+        "title": "Bijwoorden van graad en hoeveelheid",
+        "body": "Bijwoorden van graad geven aan in welke máte iets geldt: bahut (veel, erg), thorā se (weinig, een beetje) en bilkul (helemaal). Sommige hoeveelheidswoorden zijn eigenlijk bijvoeglijke naamwoorden die ook als bijwoord kunnen optreden. Voorbeeld: 'Rāmlalvā āj bahut batiyā hai' = Ramlal praat vandaag veel.",
+        "relatedVocab": ["adv-bahut", "adv-thora-se", "adv-bilkul"]
+      },
+      {
+        "id": "gn-adv-loan",
+        "title": "Leenwoord-bijwoorden",
+        "body": "Het Sarnami heeft ook bijwoorden ontleend aan andere talen. Uit het Sranan Tongo komen habarā ('aan de overkant', van abra < Eng. over) en kantī ('langs', via Ned. kant). Uit het Nederlands komt parsīs ('precies, toevallig, eigenlijk'). Deze leenwoorden verdubbelen net als inheemse bijwoorden: habarī-habarā ('tegenover elkaar'), kantī-kantī ('aan de zijkant').",
+        "relatedVocab": ["adv-habara", "adv-kanti", "adv-parsis"]
+      }
+    ],
+    "exercises": {
+      "md-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent het bijwoord 'sait'?",
+        "options": ["misschien", "zeker", "nooit", "altijd"],
+        "correctIndex": 0
+      },
+      "md-e2": {
+        "kind": "multiple-choice",
+        "prompt": "'dhīre-dhīre' is een verdubbeling van 'dhīre' (zacht, langzaam). Wat betekent de verdubbelde vorm?",
+        "options": ["langzaamaan, geleidelijk", "heel zacht praten", "meteen", "helemaal niet"],
+        "correctIndex": 0
+      },
+      "md-e3": {
+        "kind": "multiple-choice",
+        "prompt": "Het bijwoord 'parsīs' (precies) is een leenwoord. Uit welke taal komt het?",
+        "options": ["het Nederlands", "het Sranan Tongo", "het Hindi", "het Engels"],
+        "correctIndex": 0
+      },
+      "md-e4": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "dhīre", "right": "langzaam" },
+          { "left": "sacce", "right": "echt" },
+          { "left": "bahut", "right": "veel" },
+          { "left": "bilkul", "right": "helemaal" },
+          { "left": "kantī", "right": "langs" }
+        ]
+      },
+      "md-e5": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Rāmlalvā āj ___ batiyā hai.",
+        "correctAnswer": "bahut",
+        "options": ["bahut", "thorā se", "nagicce", "sait"],
+        "translations": { "nl": "Ramlal praat vandaag veel." }
+      },
+      "md-e9": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Balram liegt echt." },
+        "correctTargetTokens": ["Balram", "sacce", "jhūṭh", "bole", "hai."],
+        "distractorTokens": ["dhīre", "bilkul"]
+      }
+    }
+  },
+  {
+    "lessonId": "unit-06-adverbs-review",
+    "exampleSentences": [],
+    "grammarNotes": [],
+    "exercises": {
+      "rev-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Welk bijwoord van tijd betekent 'altijd'?",
+        "options": ["hardam", "roj", "āj", "kāl"],
+        "correctIndex": 0
+      },
+      "rev-e2": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "āj", "right": "tijd" },
+          { "left": "uppar", "right": "plaats" },
+          { "left": "dhīre", "right": "wijze" },
+          { "left": "bahut", "right": "graad" },
+          { "left": "habarā", "right": "leenwoord" }
+        ]
+      },
+      "rev-e3": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Jā ___ dekh to, ke āil hai.",
+        "correctAnswer": "nicvām",
+        "options": ["nicvām", "uppar", "bihān", "sait"],
+        "translations": { "nl": "Ga eens even beneden kijken wie gekomen is." }
+      },
+      "rev-e4": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Ik heb vandaag te veel gegeten." },
+        "correctTargetTokens": ["Āj", "ham", "jādā", "khāi", "lelī", "hai."],
+        "distractorTokens": ["bihān", "nagicce"]
+      },
+      "rev-e5": {
+        "kind": "multiple-choice",
+        "prompt": "Uit welke taal komt het leenwoord-bijwoord 'habarā' (aan de overkant)?",
+        "options": ["het Sranan Tongo", "het Nederlands", "het Hindi", "het Avadhi"],
+        "correctIndex": 0
+      }
+    }
+  }
+]
