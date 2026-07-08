@@ -1,0 +1,300 @@
+[
+  {
+    "lessonId": "unit-04-nouns-gender",
+    "exampleSentences": [
+      {
+        "id": "ex-04-gender-1",
+        "word": "Ū gadahā hai, ī gadahī hai.",
+        "translations": { "nl": "Dat is een ezel, dit is een ezelin." },
+        "vocabRefs": ["noun-gadaha", "noun-gadahi"]
+      },
+      {
+        "id": "ex-04-gender-2",
+        "word": "Nānā aur nanī ghar meṃ bāteṃ.",
+        "translations": { "nl": "Grootvader en grootmoeder zijn thuis." },
+        "vocabRefs": ["noun-nana", "noun-nani"]
+      }
+    ],
+    "grammarNotes": [
+      {
+        "id": "gn-04-gender-1",
+        "title": "Geslacht speelt nauwelijks een rol",
+        "body": "Anders dan in het Hindi speelt het geslacht in het Sarnami in de verbuiging bijna geen rol: je hoeft bij een woord niet te leren of het mannelijk of vrouwelijk is. Het onderscheid mannelijk (-ā) tegenover vrouwelijk (-ī) wordt vooral gebruikt om mannelijke en vrouwelijke personen en dieren te benoemen, bijvoorbeeld nānā (grootvader) / nanī (grootmoeder) en gadahā (ezel) / gadahī (ezelin).",
+        "relatedVocab": ["noun-nana", "noun-nani", "noun-gadaha", "noun-gadahi"]
+      },
+      {
+        "id": "gn-04-gender-2",
+        "title": "Vrouwelijk maken",
+        "body": "Bestaat er geen apart vrouwelijk woord, dan wordt de vrouwelijke vorm meestal gemaakt door -ā te vervangen door -ī (gadahā → gadahī, māmā → māmī) of door de uitgang -in / -nī toe te voegen (dulahā → dulahin, 'bruidegom → bruid'). Let op: soms levert de wisseling een onverwachte betekenis op — laundā is 'jongen', maar laundī betekent 'hoertje'; chaumṛī is 'meisje', maar chaumṛā 'vlegel'.",
+        "relatedVocab": ["noun-launda", "noun-chaumri", "noun-gadaha", "noun-gadahi"]
+      }
+    ],
+    "exercises": {
+      "gender-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Welke uitgang duidt meestal een vrouwelijk woord (persoon of dier) aan?",
+        "options": ["-ī", "-ā", "-vā", "-an"],
+        "correctIndex": 0
+      },
+      "gender-e2": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "gadahā", "right": "ezel (mannelijk)" },
+          { "left": "gadahī", "right": "ezelin (vrouwelijk)" },
+          { "left": "nānā", "right": "grootvader (mannelijk)" },
+          { "left": "nanī", "right": "grootmoeder (vrouwelijk)" },
+          { "left": "laundā", "right": "jongen (mannelijk)" },
+          { "left": "chaumṛī", "right": "meisje (vrouwelijk)" }
+        ]
+      },
+      "gender-e3": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "De vrouwelijke vorm van gadahā is ___ .",
+        "correctAnswer": "gadahī",
+        "options": ["gadahī", "gadahin", "gadahā", "gadahvā"],
+        "translations": { "nl": "De vrouwelijke vorm van gadahā ('ezel') is gadahī ('ezelin')." }
+      }
+    }
+  },
+  {
+    "lessonId": "unit-04-nouns-number",
+    "exampleSentences": [
+      {
+        "id": "ex-04-number-1",
+        "word": "Ghŏṛvā khāt bā.",
+        "translations": { "nl": "Het paard eet." },
+        "vocabRefs": ["noun-ghora"]
+      },
+      {
+        "id": "ex-04-number-2",
+        "word": "Ghŏṛvan khāt bāteṃ.",
+        "translations": { "nl": "De paarden eten." },
+        "vocabRefs": ["noun-ghora"]
+      },
+      {
+        "id": "ex-04-number-3",
+        "word": "Ram ām khā hai.",
+        "translations": { "nl": "Ram eet manje." },
+        "vocabRefs": ["noun-am"]
+      }
+    ],
+    "grammarNotes": [
+      {
+        "id": "gn-04-number-1",
+        "title": "Korte en lange vorm (onbepaald / bepaald)",
+        "body": "Een zelfstandig naamwoord heeft meestal een korte en een lange vorm. De korte vorm is de stam en is onbepaald: ghar = 'een huis'. De lange vorm is bepaald en wordt gevormd met de uitgang -vā, -iyā of -yā, vaak met een klankverandering: ghar → gharvā ('het huis'), ghoṛā → ghŏṛvā ('het paard'), nāk → nakiyā ('de neus'), beṭī → biṭiyā ('de dochter'). Door er het aanwijzende woordje ī of ū voor te zetten ontstaat 'deze/die': ū gharvā = 'dat huis'.",
+        "relatedVocab": ["noun-ghora", "noun-nak", "noun-per"]
+      },
+      {
+        "id": "gn-04-number-2",
+        "title": "Meervoud met -(a)n",
+        "body": "Het meervoud wordt gevormd door de uitgang -(a)n achter het woord te plaatsen: ghoṛā → ghoṛan ('paarden'), ghŏṛvā → ghŏṛvan. De korte enkelvoudsvorm kan zelf ook als meervoud dienen; de context maakt dan duidelijk of het om één of meer gaat. Vergelijk Ghŏṛvā khāt bā ('het paard eet') met Ghŏṛvan khāt bāteṃ ('de paarden eten'): ook de werkwoordsvorm gaat mee in het meervoud.",
+        "relatedVocab": ["noun-ghora", "noun-kutta"]
+      }
+    ],
+    "exercises": {
+      "number-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Wat is de lange (bepaalde) vorm van ghar ('een huis')?",
+        "options": ["gharvā", "gharan", "gharī", "ghare"],
+        "correctIndex": 0
+      },
+      "number-e2": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Eén paard is ghoṛā, twee zijn ___ .",
+        "correctAnswer": "ghoṛan",
+        "options": ["ghoṛan", "ghoṛā", "ghŏṛvā", "ghoṛī"],
+        "translations": { "nl": "Het meervoud van ghoṛā ('paard') is ghoṛan ('paarden')." }
+      },
+      "number-e3": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "ghar", "right": "gharvā" },
+          { "left": "ghoṛā", "right": "ghŏṛvā" },
+          { "left": "nāk", "right": "nakiyā" },
+          { "left": "peṛ", "right": "pĕṛavā" },
+          { "left": "ām", "right": "amvā" }
+        ]
+      },
+      "number-e4": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "De paarden eten." },
+        "correctTargetTokens": ["Ghŏṛvan", "khāt", "bāteṃ."],
+        "distractorTokens": ["Ghŏṛvā", "bā."]
+      }
+    }
+  },
+  {
+    "lessonId": "unit-04-nouns-cases",
+    "exampleSentences": [
+      {
+        "id": "ex-04-cases-1",
+        "word": "Phalvā chūrī se kāṭ!",
+        "translations": { "nl": "Snijd de vrucht met een mes!" },
+        "vocabRefs": ["noun-churi"]
+      },
+      {
+        "id": "ex-04-cases-2",
+        "word": "Gāī ke pānī dai de.",
+        "translations": { "nl": "Geef de koe water te drinken." },
+        "vocabRefs": ["noun-gai"]
+      },
+      {
+        "id": "ex-04-cases-3",
+        "word": "Ham ghoṛā ke pīṭhī par baiṭhilā.",
+        "translations": { "nl": "Ik zit op de rug van een paard." },
+        "vocabRefs": ["noun-ghora"]
+      }
+    ],
+    "grammarNotes": [
+      {
+        "id": "gn-04-cases-1",
+        "title": "Achterzetsels in plaats van naamvallen",
+        "body": "Het Sarnami kent geen naamvallen zoals het Latijn of het Sanskriet. De functie van een woord in de zin (onderwerp, lijdend voorwerp, bezit …) wordt aangegeven met achterzetsels — in het Nederlands zijn dat voorzetsels — of door de woordvolgorde. Het achterzetsel komt ná het woord te staan. Ke geeft onder meer bezit, het meewerkend en het lijdend voorwerp aan; se betekent 'met / door' of 'van(uit)'.",
+        "relatedVocab": ["noun-gai", "noun-ghora"]
+      },
+      {
+        "id": "gn-04-cases-2",
+        "title": "se en ke in de praktijk",
+        "body": "Middel met se: Phalvā chūrī se kāṭ! ('Snijd de vrucht met een mes'). Meewerkend voorwerp met ke: Gāī ke pānī dai de ('Geef de koe water'). Bezit met ke: beṭī ke ciṭṭhī ('de brief van de dochter'). Plaats met par ('op') of meṃ ('in'): ghoṛā ke pīṭhī par ('op de rug van het paard'). Meestal staat het achterzetsel achter de lange vorm van het woord.",
+        "relatedVocab": ["noun-churi", "noun-gai", "noun-beti", "noun-citthi"]
+      }
+    ],
+    "exercises": {
+      "cases-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Welk achterzetsel gebruik je voor 'met / door' (het middel waarmee iets gebeurt)?",
+        "options": ["se", "ke", "meṃ", "par"],
+        "correctIndex": 0
+      },
+      "cases-e2": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Phalvā chūrī ___ kāṭ!",
+        "correctAnswer": "se",
+        "options": ["se", "ke", "par", "meṃ"],
+        "translations": { "nl": "Snijd de vrucht met een mes!" }
+      },
+      "cases-e3": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "ke", "right": "van / aan (bezit, meewerkend voorwerp)" },
+          { "left": "se", "right": "met / door / vanuit" },
+          { "left": "meṃ", "right": "in" },
+          { "left": "par", "right": "op" },
+          { "left": "ke lage", "right": "bij" }
+        ]
+      },
+      "cases-e4": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Geef de koe water te drinken." },
+        "correctTargetTokens": ["Gāī", "ke", "pānī", "dai", "de."],
+        "distractorTokens": ["se", "par"]
+      }
+    }
+  },
+  {
+    "lessonId": "unit-04-nouns-numerals",
+    "exampleSentences": [
+      {
+        "id": "ex-04-num-1",
+        "word": "Gopāl tīn ṭhe ām ṭurle bā.",
+        "translations": { "nl": "Gopal heeft drie manjes geplukt." },
+        "vocabRefs": ["num-tin", "noun-am"]
+      },
+      {
+        "id": "ex-04-num-2",
+        "word": "Maiyā dūi ṭhī aṅguṭṭhī kīnis hai.",
+        "translations": { "nl": "Moeder heeft twee ringen gekocht." },
+        "vocabRefs": ["num-dui", "noun-maiya"]
+      }
+    ],
+    "grammarNotes": [
+      {
+        "id": "gn-04-num-1",
+        "title": "De hoofdtelwoorden 0–10",
+        "body": "De hoofdtelwoorden van nul tot tien zijn: sunnā (0), ek (1), dūi (2), tīn (3), cār (4), pāṃc (5), chau (6), sāt (7), āṭh (8), nau (9) en das (10). Grotere ronde getallen: honderd is sau, tweehonderd dūi sau en duizend (ek) hajār.",
+        "relatedVocab": ["num-sunna", "num-ek", "num-dui", "num-tin", "num-car", "num-panc", "num-chau", "num-sat", "num-ath", "num-nau", "num-das", "num-sau"]
+      },
+      {
+        "id": "gn-04-num-2",
+        "title": "Tellen met -go en -ṭho",
+        "body": "Als een telwoord een zelfstandig naamwoord telt, wordt het vaak versterkt met -go, -ṭho, -ṭhe of -ṭhi (de laatste twee komen minder vaak voor): sāt go cor ('7 dieven'), tīn ṭhe ām ('drie manjes'), dūi ṭhī aṅguṭṭhī ('2 ringen'). Heel gebruikelijk is ego (= ek + go), dat ook dienstdoet als onbepaald lidwoord 'een'.",
+        "relatedVocab": ["num-ek", "num-dui", "num-tin", "num-sat"]
+      }
+    ],
+    "exercises": {
+      "num-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Wat is 'vijf' in het Sarnami?",
+        "options": ["pāṃc", "cār", "chau", "tīn"],
+        "correctIndex": 0
+      },
+      "num-e2": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "1", "right": "ek" },
+          { "left": "2", "right": "dūi" },
+          { "left": "3", "right": "tīn" },
+          { "left": "5", "right": "pāṃc" },
+          { "left": "8", "right": "āṭh" },
+          { "left": "10", "right": "das" }
+        ]
+      },
+      "num-e3": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Drie manjes: ___ ṭhe ām.",
+        "correctAnswer": "tīn",
+        "options": ["tīn", "dūi", "cār", "das"],
+        "translations": { "nl": "Gopal heeft drie manjes geplukt." }
+      },
+      "num-e4": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Moeder heeft twee ringen gekocht." },
+        "correctTargetTokens": ["Maiyā", "dūi", "ṭhī", "aṅguṭṭhī", "kīnis", "hai."],
+        "distractorTokens": ["tīn", "ego"]
+      }
+    }
+  },
+  {
+    "lessonId": "unit-04-nouns-review",
+    "exampleSentences": [],
+    "grammarNotes": [],
+    "exercises": {
+      "rev-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Hoe maak je van gadahā ('ezel') de vrouwelijke vorm ('ezelin')?",
+        "options": ["gadahī", "gadahin", "gadahvā", "gadahā"],
+        "correctIndex": 0
+      },
+      "rev-e2": {
+        "kind": "matching",
+        "pairs": [
+          { "left": "kuttā", "right": "hond" },
+          { "left": "ghoṛā", "right": "paard" },
+          { "left": "chūrī", "right": "mes" },
+          { "left": "gāī", "right": "koe" },
+          { "left": "tīn", "right": "drie (3)" }
+        ]
+      },
+      "rev-e4": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Snijd de vrucht met een mes!" },
+        "correctTargetTokens": ["Phalvā", "chūrī", "se", "kāṭ!"],
+        "distractorTokens": ["ke", "par"]
+      },
+      "rev-e5": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Gāī ___ pānī dai de.",
+        "correctAnswer": "ke",
+        "options": ["ke", "se", "par", "meṃ"],
+        "translations": { "nl": "Geef de koe water te drinken." }
+      },
+      "rev-e7": {
+        "kind": "multiple-choice",
+        "prompt": "Wat is de lange (bepaalde) vorm van ghar ('een huis')?",
+        "options": ["gharvā", "ghare", "gharan", "gharī"],
+        "correctIndex": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,291 @@
+[
+  {
+    "id": "adv-aaj",
+    "word": "āj",
+    "translations": {
+      "nl": "vandaag"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "time",
+      "book-p79"
+    ],
+    "notes": "Bijwoord van tijd (§5.1.1). Beeldgeverifieerde vorm āj uit authored_docs/byakaran/04-the-adverb.md; tweede bron (sarnamibhasa.nl) bevestigt 'áj' → āj (04-adverb). Voorbeeld: 'Āj ham jādā khāi lelī hai' = Ik heb vandaag te veel gegeten."
+  },
+  {
+    "id": "adv-bihaan",
+    "word": "bihān",
+    "translations": {
+      "nl": "morgen"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "time",
+      "book-p79",
+      "needs-verification"
+    ],
+    "notes": "Bijwoord van tijd (§5.1.1). Beeldgeverifieerde vorm bihān met macron uit de transcriptie; nog niet in de tweede bron (sarnamibhasa.nl) teruggevonden, vandaar needs-verification."
+  },
+  {
+    "id": "adv-kaal",
+    "word": "kāl",
+    "translations": {
+      "nl": "gisteren"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "time",
+      "book-p79",
+      "needs-verification"
+    ],
+    "notes": "Bijwoord van tijd (§5.1.1), genoemd naast de variant kalhimyām ('gisteren'). Beeldgeverifieerde vorm kāl met macron; nog niet in de tweede bron teruggevonden, vandaar needs-verification."
+  },
+  {
+    "id": "adv-roj",
+    "word": "roj",
+    "translations": {
+      "nl": "dagelijks, elke dag"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "time",
+      "book-p79"
+    ],
+    "notes": "Bijwoord van tijd (§5.1.1). Tweede bron (sarnamibhasa.nl) bevestigt 'roj' → roj (04-adverb), ook in verdubbelingen als roj-nit ('altijd')."
+  },
+  {
+    "id": "adv-hardam",
+    "word": "hardam",
+    "translations": {
+      "nl": "altijd"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "time",
+      "book-p79"
+    ],
+    "notes": "Bijwoord van tijd (§5.1.1). Tweede bron (sarnamibhasa.nl) bevestigt 'hardam' → hardam (04-adverb)."
+  },
+  {
+    "id": "adv-uppar",
+    "word": "uppar",
+    "translations": {
+      "nl": "boven, bovenop"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "place",
+      "book-p80"
+    ],
+    "notes": "Bijwoord van plaats (§5.1.2). Tweede bron (sarnamibhasa.nl) bevestigt 'uppar' → uppar (04-adverb). Vergelijk de genasaleerde richtingvorm uparām ('daarboven', §5.1.2.1)."
+  },
+  {
+    "id": "adv-nicce",
+    "word": "nicce",
+    "translations": {
+      "nl": "beneden, onder"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "place",
+      "book-p80",
+      "needs-verification"
+    ],
+    "notes": "Bijwoord van plaats (§5.1.2). Beeldgeverifieerde vorm nicce met dubbele c; nog niet in de tweede bron teruggevonden, vandaar needs-verification. Genasaleerde richtingvorm nicvām ('daarbeneden', §5.1.2.1), zie voorbeeld 'Jā nicvām dekh to' = Ga eens even beneden kijken."
+  },
+  {
+    "id": "adv-dur",
+    "word": "dūr",
+    "translations": {
+      "nl": "ver, ver weg"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "place",
+      "book-p80"
+    ],
+    "notes": "Bijwoord van plaats (§5.1.2). Tweede bron (sarnamibhasa.nl) bevestigt 'dur' → dūr (04-adverb); beeldgeverifieerde macron op de ū."
+  },
+  {
+    "id": "adv-nagicce",
+    "word": "nagicce",
+    "translations": {
+      "nl": "dichtbij, in de buurt"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "place",
+      "book-p80"
+    ],
+    "notes": "Bijwoord van plaats (§5.1.2). Tweede bron (sarnamibhasa.nl) bevestigt 'nagicce' → nagicce (04-adverb). Tegenpool van dūr ('ver')."
+  },
+  {
+    "id": "adv-baahar",
+    "word": "bāhar",
+    "translations": {
+      "nl": "buiten"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "place",
+      "book-p80"
+    ],
+    "notes": "Bijwoord van plaats (§5.1.2). Tweede bron (sarnamibhasa.nl) bevestigt 'bāhar' → bāhar (04-adverb). Tegenpool van bhittar ('binnen'); samen bhittar-bāhar ('binnen en buiten')."
+  },
+  {
+    "id": "adv-dhire",
+    "word": "dhīre",
+    "translations": {
+      "nl": "zacht, langzaam"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "manner",
+      "book-p81",
+      "needs-verification"
+    ],
+    "notes": "Bijwoord van wijze (§5.1.3). Beeldgeverifieerde vorm dhīre; de tweede bron bevestigt de verdubbeling dhīre-dhīre maar niet de losse vorm los, vandaar needs-verification. Ook dhīre se ('zachtjes')."
+  },
+  {
+    "id": "adv-dhire-dhire",
+    "word": "dhīre-dhīre",
+    "translations": {
+      "nl": "langzaamaan, geleidelijk"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "manner",
+      "reduplication",
+      "book-p81"
+    ],
+    "notes": "Verdubbeld bijwoord van wijze (§5.1.3). Verdubbeling van dhīre. Tweede bron (sarnamibhasa.nl) bevestigt 'dhire-dhire' → dhīre-dhīre (04-adverb)."
+  },
+  {
+    "id": "adv-sacce",
+    "word": "sacce",
+    "translations": {
+      "nl": "echt, inderdaad, werkelijk"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "manner",
+      "book-p81"
+    ],
+    "notes": "Bijwoord van wijze (§5.1.3). Tweede bron (sarnamibhasa.nl) bevestigt 'sacce' → sacce (04-adverb)."
+  },
+  {
+    "id": "adv-sait",
+    "word": "sait",
+    "translations": {
+      "nl": "misschien"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "manner",
+      "book-p81"
+    ],
+    "notes": "Bijwoord van wijze (§5.1.3). Tweede bron (sarnamibhasa.nl) bevestigt 'sait' (ook variant isáit) → sait (04-adverb)."
+  },
+  {
+    "id": "adv-bahut",
+    "word": "bahut",
+    "translations": {
+      "nl": "veel, erg"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "degree",
+      "book-p84"
+    ],
+    "notes": "Bijvoeglijk naamwoord van hoeveelheid dat ook als bijwoord van graad optreedt (§5.1.4.1). Tweede bron (sarnamibhasa.nl) bevestigt 'bahut' → bahut (04-adverb). Voorbeeld: 'Rāmlalvā āj bahut batiyā hai' = Ramlal praat vandaag veel."
+  },
+  {
+    "id": "adv-thora-se",
+    "word": "thorā se",
+    "translations": {
+      "nl": "weinig, een beetje"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "degree",
+      "book-p84"
+    ],
+    "notes": "Hoeveelheidswoord dat ook als bijwoord van graad optreedt (§5.1.4.1). Tweede bron (sarnamibhasa.nl) bevestigt 'thorá se' → thorā se (04-adverb). Tegenpool van bahut ('veel')."
+  },
+  {
+    "id": "adv-bilkul",
+    "word": "bilkul",
+    "translations": {
+      "nl": "helemaal, volkomen"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "degree",
+      "book-p84"
+    ],
+    "notes": "Bijwoord (§5.1.5 'Overige bijwoorden'). Tweede bron (sarnamibhasa.nl) bevestigt 'bilkul' → bilkul (04-adverb)."
+  },
+  {
+    "id": "adv-habara",
+    "word": "habarā",
+    "translations": {
+      "nl": "aan de overkant"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "place",
+      "loanword",
+      "book-p86",
+      "needs-verification"
+    ],
+    "notes": "Leenwoord (§5.2), uit het Sranan Tongo 'abra' (van Eng. 'over'). Verdubbeld habarī-habarā = 'tegenover elkaar'. Nog niet in de tweede bron teruggevonden, vandaar needs-verification."
+  },
+  {
+    "id": "adv-kanti",
+    "word": "kantī",
+    "translations": {
+      "nl": "langs, aan de zijkant"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "place",
+      "loanword",
+      "book-p86"
+    ],
+    "notes": "Leenwoord (§5.2), uit het Ned. 'kant' via het Sranan Tongo. Verdubbeld kantī-kantī = 'aan de zijkant'. Tweede bron (sarnamibhasa.nl) bevestigt 'kanti (St.)' → kantī (04-adverb)."
+  },
+  {
+    "id": "adv-parsis",
+    "word": "parsīs",
+    "translations": {
+      "nl": "precies, toevallig, eigenlijk"
+    },
+    "tags": [
+      "adverbs",
+      "adverb",
+      "manner",
+      "loanword",
+      "book-p86"
+    ],
+    "notes": "Leenwoord (§5.2), uit het Nederlands ('precies'). Tweede bron (sarnamibhasa.nl) bevestigt 'parsis' → parsīs (04-adverb). Voorbeeld: 'Tū hamse parsīs-parsīs bataiye' = Je moet mij haarfijn vertellen."
+  }
+]
