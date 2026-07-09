@@ -3,7 +3,8 @@
     "id": "gram-hai",
     "word": "hai",
     "translations": {
-      "nl": "is / ben / bent (koppelwerkwoord 'zijn')"
+      "nl": "is / ben / bent (koppelwerkwoord 'zijn')",
+      "en": "is / am / are (copula 'to be')"
     },
     "notes": "Volledige vervoeging o.t.t.: ham hai, tū hai, ī/ū hai, ham log haiṁ, tū log hai, āp ho, ī/ū sab haiṁ.",
     "tags": [
@@ -16,7 +17,8 @@
     "id": "gram-na",
     "word": "nā",
     "translations": {
-      "nl": "niet"
+      "nl": "niet",
+      "en": "not"
     },
     "tags": [
       "grammar",

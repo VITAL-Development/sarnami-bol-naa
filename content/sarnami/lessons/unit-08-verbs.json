@@ -45,6 +45,7 @@
       "pres-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat is de stam van het werkwoord 'paṛhe' (lezen)?",
+        "promptTranslations": { "nl": "Wat is de stam van het werkwoord 'paṛhe' (lezen)?", "en": "What is the stem of the verb 'paṛhe' (to read)?" },
         "options": ["paṛh", "paṛhe", "paṛhilā", "paṛhab"],
         "correctIndex": 0
       },
@@ -56,6 +57,13 @@
           { "left": "bol", "right": "zeggen" },
           { "left": "dekh", "right": "kijken" },
           { "left": "sun", "right": "luisteren" }
+        ],
+        "rightTranslations": [
+          { "nl": "lezen", "en": "to read" },
+          { "nl": "doen", "en": "to do" },
+          { "nl": "zeggen", "en": "to say" },
+          { "nl": "kijken", "en": "to look" },
+          { "nl": "luisteren", "en": "to listen" }
         ]
       },
       "pres-e3": {
@@ -63,11 +71,11 @@
         "sentenceTemplate": "Ham kitāb ___ .",
         "correctAnswer": "paṛhilā",
         "options": ["paṛhilā", "paṛhlī", "paṛhab", "paṛho"],
-        "translations": { "nl": "Ik lees een boek." }
+        "translations": { "nl": "Ik lees een boek.", "en": "I am reading a book." }
       },
       "pres-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Wat doe je?" },
+        "promptTranslations": { "nl": "Wat doe je?", "en": "What are you doing?" },
         "correctTargetTokens": ["Tū", "kā", "kare", "hai?"],
         "distractorTokens": ["karlī", "karab"]
       }
@@ -119,6 +127,7 @@
       "past-e1": {
         "kind": "multiple-choice",
         "prompt": "Welke vorm is de verleden tijd (o.v.t.) 'ik las'?",
+        "promptTranslations": { "nl": "Welke vorm is de verleden tijd (o.v.t.) 'ik las'?", "en": "Which form is the past tense (simple past) 'I read'?" },
         "options": ["ham paṛhlī", "ham paṛhilā", "ham paṛhab", "ham paṛhiye"],
         "correctIndex": 0
       },
@@ -137,11 +146,11 @@
         "sentenceTemplate": "Ū ghare ___ .",
         "correctAnswer": "gail",
         "options": ["gail", "jāī", "jāilā", "gailo"],
-        "translations": { "nl": "Hij ging naar huis." }
+        "translations": { "nl": "Hij ging naar huis.", "en": "He went home." }
       },
       "past-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Ik schreef een brief." },
+        "promptTranslations": { "nl": "Ik schreef een brief.", "en": "I wrote a letter." },
         "correctTargetTokens": ["Ham", "ciṭṭhi", "likhlī."],
         "distractorTokens": ["likhab", "likhilā"]
       }
@@ -193,6 +202,7 @@
       "fut-e1": {
         "kind": "multiple-choice",
         "prompt": "Welke vorm drukt de toekomende tijd 'ik zal lezen' uit?",
+        "promptTranslations": { "nl": "Welke vorm drukt de toekomende tijd 'ik zal lezen' uit?", "en": "Which form expresses the future tense 'I will read'?" },
         "options": ["ham paṛhab", "ham paṛhlī", "ham paṛhilā", "ham paṛhat rahlī"],
         "correctIndex": 0
       },
@@ -211,11 +221,11 @@
         "sentenceTemplate": "Ham toke ek kitāb ___ .",
         "correctAnswer": "debe",
         "options": ["debe", "deis", "delī", "deve"],
-        "translations": { "nl": "Ik zal je een boek geven." }
+        "translations": { "nl": "Ik zal je een boek geven.", "en": "I will give you a book." }
       },
       "fut-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Hij zal het snel begrijpen." },
+        "promptTranslations": { "nl": "Hij zal het snel begrijpen.", "en": "He will understand it quickly." },
         "correctTargetTokens": ["Ū", "jaldī", "samjhī."],
         "distractorTokens": ["samjhis", "samjhilā"]
       }
@@ -267,6 +277,7 @@
       "imp-e1": {
         "kind": "multiple-choice",
         "prompt": "Hoe luidt de vertrouwelijke gebiedende wijs (tegen een kind) van 'dekhe' (kijken)?",
+        "promptTranslations": { "nl": "Hoe luidt de vertrouwelijke gebiedende wijs (tegen een kind) van 'dekhe' (kijken)?", "en": "What is the familiar imperative (to a child) of 'dekhe' (to look)?" },
         "options": ["dekh!", "dekho!", "dekhiye!", "dekhat"],
         "correctIndex": 0
       },
@@ -278,6 +289,13 @@
           { "left": "jā!", "right": "ga!" },
           { "left": "baiṭho!", "right": "gaat u zitten!" },
           { "left": "āvo!", "right": "komt u!" }
+        ],
+        "rightTranslations": [
+          { "nl": "lees!", "en": "read!" },
+          { "nl": "luister!", "en": "listen!" },
+          { "nl": "ga!", "en": "go!" },
+          { "nl": "gaat u zitten!", "en": "sit down! (polite)" },
+          { "nl": "komt u!", "en": "come! (polite)" }
         ]
       },
       "imp-e3": {
@@ -285,11 +303,11 @@
         "sentenceTemplate": "Kapaṛā ___ !",
         "correctAnswer": "dhovo",
         "options": ["dhovo", "dhove", "dhoilā", "dhovī"],
-        "translations": { "nl": "Was de kleren!" }
+        "translations": { "nl": "Was de kleren!", "en": "Wash the clothes!" }
       },
       "imp-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Kom en ga zitten!" },
+        "promptTranslations": { "nl": "Kom en ga zitten!", "en": "Come and sit down!" },
         "correctTargetTokens": ["Āvo", "aur", "baiṭho!"],
         "distractorTokens": ["baiṭhat", "āvat"]
       }
@@ -341,11 +359,18 @@
       "subj-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat drukt de aanvoegende wijs vooral uit?",
+        "promptTranslations": { "nl": "Wat drukt de aanvoegende wijs vooral uit?", "en": "What does the subjunctive mainly express?" },
         "options": [
           "een wens of mogelijkheid",
           "een voltooide handeling in het verleden",
           "een streng bevel",
           "een vraag naar de plaats"
+        ],
+        "optionTranslations": [
+          { "nl": "een wens of mogelijkheid", "en": "a wish or possibility" },
+          { "nl": "een voltooide handeling in het verleden", "en": "a completed action in the past" },
+          { "nl": "een streng bevel", "en": "a strict command" },
+          { "nl": "een vraag naar de plaats", "en": "a question about location" }
         ],
         "correctIndex": 0
       },
@@ -364,11 +389,11 @@
         "sentenceTemplate": "Ū māṅge hai ki ham ___ .",
         "correctAnswer": "nācī",
         "options": ["nācī", "nāclī", "nācab", "nācat"],
-        "translations": { "nl": "Hij wil dat ik dans." }
+        "translations": { "nl": "Hij wil dat ik dans.", "en": "He wants me to dance." }
       },
       "subj-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Moeder wil dat de kinderen spelen." },
+        "promptTranslations": { "nl": "Moeder wil dat de kinderen spelen.", "en": "Mother wants the children to play." },
         "correctTargetTokens": ["Maiyā", "māṅge", "hai", "ki", "laṛkavan", "khele."],
         "distractorTokens": ["khelis", "khelab"]
       }
@@ -382,6 +407,7 @@
       "rev-e1": {
         "kind": "multiple-choice",
         "prompt": "Welke vorm is de toekomende tijd 'ik zal lezen'?",
+        "promptTranslations": { "nl": "Welke vorm is de toekomende tijd 'ik zal lezen'?", "en": "Which form is the future tense 'I will read'?" },
         "options": ["ham paṛhab", "ham paṛhlī", "ham paṛhilā", "paṛh!"],
         "correctIndex": 0
       },
@@ -393,6 +419,13 @@
           { "left": "toekomende tijd", "right": "ham paṛhab" },
           { "left": "gebiedende wijs", "right": "paṛh!" },
           { "left": "aanvoegende wijs", "right": "ham paṛhī" }
+        ],
+        "leftTranslations": [
+          { "nl": "tegenwoordige tijd", "en": "present tense" },
+          { "nl": "verleden tijd", "en": "past tense" },
+          { "nl": "toekomende tijd", "en": "future tense" },
+          { "nl": "gebiedende wijs", "en": "imperative" },
+          { "nl": "aanvoegende wijs", "en": "subjunctive" }
         ]
       },
       "rev-e3": {
@@ -400,17 +433,18 @@
         "sentenceTemplate": "Ū kalha ghare ___ .",
         "correctAnswer": "gail",
         "options": ["gail", "jāī", "jāilā", "jaī"],
-        "translations": { "nl": "Hij ging gisteren naar huis." }
+        "translations": { "nl": "Hij ging gisteren naar huis.", "en": "He went home yesterday." }
       },
       "rev-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Wat doe je?" },
+        "promptTranslations": { "nl": "Wat doe je?", "en": "What are you doing?" },
         "correctTargetTokens": ["Tū", "kā", "kare", "hai?"],
         "distractorTokens": ["karlī", "karab"]
       },
       "rev-e5": {
         "kind": "multiple-choice",
         "prompt": "Wat is de stam van het werkwoord 'khāī' (eten)?",
+        "promptTranslations": { "nl": "Wat is de stam van het werkwoord 'khāī' (eten)?", "en": "What is the stem of the verb 'khāī' (to eat)?" },
         "options": ["khā", "khāī", "khāilā", "khāt"],
         "correctIndex": 0
       }

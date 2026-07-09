@@ -2,210 +2,210 @@
   {
     "id": "verb-parhe",
     "word": "paṛhe",
-    "translations": { "nl": "lezen; leren, studeren" },
+    "translations": { "nl": "lezen; leren, studeren", "en": "to read; to learn, to study" },
     "notes": "Stam: paṛh-. Modelwerkwoord van hoofdstuk 9 (medeklinkerstam, -e-infinitief). O.t.t. ham paṛhilā, tū paṛhe hai; o.v.t. ham paṛhlī; o.t.t.t. ham paṛhab. Beeldgeverifieerde spelling; needs-verification tot kruiscontrole (tweede bron is een functiewoordenlijst).",
     "tags": ["verb", "book-p57", "needs-verification"]
   },
   {
     "id": "verb-kare",
     "word": "kare",
-    "translations": { "nl": "doen, maken" },
+    "translations": { "nl": "doen, maken", "en": "to do, to make" },
     "notes": "Stam: kar-. O.v.t. Nickerie ham karin / rest van Suriname ham karlī; causatieven karāve (laten doen) en karvāve (door een derde laten doen). Vaak als hulpwerkwoord in samenstellingen (bicār kare, nās kare). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p57", "needs-verification"]
   },
   {
     "id": "verb-bole",
     "word": "bole",
-    "translations": { "nl": "zeggen, vertellen, spreken" },
+    "translations": { "nl": "zeggen, vertellen, spreken", "en": "to say, to tell, to speak" },
     "notes": "Stam: bol-. Voorbeeld van de tijdsuitgangen: bolat (zeggend), bolal (gezegd), bolab / bolī (zal zeggen). Beleefde gebiedende wijs bolă! (vertel eens!). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
   {
     "id": "verb-dekhe",
     "word": "dekhe",
-    "translations": { "nl": "kijken, zien" },
+    "translations": { "nl": "kijken, zien", "en": "to look, to see" },
     "notes": "Stam: dekh-. Gebiedende wijs dekh! (kijk!), beleefd dekho! / dekhiye!. Causatief dĕkhāve (laten zien, tonen). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p57", "needs-verification"]
   },
   {
     "id": "verb-sune",
     "word": "sune",
-    "translations": { "nl": "luisteren, horen" },
+    "translations": { "nl": "luisteren, horen", "en": "to listen, to hear" },
     "notes": "Stam: sun-. Gebiedende wijs sun! (luister!). Samenstelling sun leve (horen). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
   {
     "id": "verb-khai",
     "word": "khāī",
-    "translations": { "nl": "eten" },
+    "translations": { "nl": "eten", "en": "to eat" },
     "notes": "Stam: khā- (klinkerstam op -ā, -ī-infinitief). Wijkt af in vervoeging: o.t.t. ham khāilā, tū khā hai; ik ben etende: ham khāt bāṭī. Causatieven khiyāve / khavāve (te eten geven). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
   {
     "id": "verb-jai",
     "word": "jāī",
-    "translations": { "nl": "gaan" },
+    "translations": { "nl": "gaan", "en": "to go" },
     "notes": "Stam: jā-. Onregelmatige verleden tijd op gail-: ham gailī, tū gaile, ū gail. Ook hulpwerkwoord (lijdende vorm en aspect). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
   {
     "id": "verb-ave",
     "word": "āve",
-    "translations": { "nl": "komen" },
+    "translations": { "nl": "komen", "en": "to come" },
     "notes": "Stam: ā-. Gebiedende wijs āvo! (komt u!). Ook aspecthulpwerkwoord dat de aanvang/richting-naar-de-spreker van de handeling aanduidt. Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
   {
     "id": "verb-sute",
     "word": "sūte",
-    "translations": { "nl": "slapen" },
+    "translations": { "nl": "slapen", "en": "to sleep" },
     "notes": "Stam: sūt- (medeklinkerstam, -e-infinitief). O.t.t.t. ham sūtat rahab (ik zal al slapen). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
   {
     "id": "verb-kine",
     "word": "kīne",
-    "translations": { "nl": "kopen" },
+    "translations": { "nl": "kopen", "en": "to buy" },
     "notes": "Stam: kīn-. O.v.t. 3e p. ū kīnis (heeft gekocht). Lijdend kīnal jāi (gekocht worden). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
   {
     "id": "verb-leve",
     "word": "leve",
-    "translations": { "nl": "nemen" },
+    "translations": { "nl": "nemen", "en": "to take" },
     "notes": "Stam: le- (klinkerstam, -ve-infinitief). Ook hulpwerkwoord: leve drukt uit dat het onderwerp de handeling voor zichzelf verricht (sun leve = horen, dekh leve = zien). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
   {
     "id": "verb-deve",
     "word": "deve",
-    "translations": { "nl": "geven" },
+    "translations": { "nl": "geven", "en": "to give" },
     "notes": "Stam: de- (klinkerstam, -ve-infinitief). Ook hulpwerkwoord: deve drukt uit dat het onderwerp de handeling voor een ander verricht (dĕkhā deve = laten zien). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
   {
     "id": "verb-dhove",
     "word": "dhove",
-    "translations": { "nl": "wassen" },
+    "translations": { "nl": "wassen", "en": "to wash" },
     "notes": "Stam: dho- (klinkerstam op -o, -ve-infinitief). Lijdend dhoval jāi / dhŏvāī (gewassen worden). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
   {
     "id": "verb-rove",
     "word": "rove",
-    "translations": { "nl": "huilen" },
+    "translations": { "nl": "huilen", "en": "to cry" },
     "notes": "Stam: ro- (klinkerstam op -o, -ve-infinitief). Onovergankelijk; causatief rŏvāve (doen huilen). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
   {
     "id": "verb-piye",
     "word": "pīye",
-    "translations": { "nl": "drinken" },
+    "translations": { "nl": "drinken", "en": "to drink" },
     "notes": "Stam: pī- (klinkerstam op -ī, -ye-infinitief). Overgankelijk: pānī pīye (water drinken). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
   {
     "id": "verb-siye",
     "word": "sīye",
-    "translations": { "nl": "naaien" },
+    "translations": { "nl": "naaien", "en": "to sew" },
     "notes": "Stam: sī- (klinkerstam op -ī, -ye-infinitief). Lijdend sīyal jāi / siyāī (genaaid worden). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
   {
     "id": "verb-likhe",
     "word": "likhe",
-    "translations": { "nl": "schrijven" },
+    "translations": { "nl": "schrijven", "en": "to write" },
     "notes": "Stam: likh-. Beleefde gebiedende wijs likhiye! / likhihe! (schrijft u!). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
   {
     "id": "verb-cale",
     "word": "cale",
-    "translations": { "nl": "lopen, gaan, bewegen" },
+    "translations": { "nl": "lopen, gaan, bewegen", "en": "to walk, to go, to move" },
     "notes": "Stam: cal-. Beleefde gebiedende wijs caliye! (gaat u mee!). Ook aspecthulpwerkwoord (voortgang van de handeling). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
   {
     "id": "verb-baithe",
     "word": "baiṭhe",
-    "translations": { "nl": "zitten, gaan zitten" },
+    "translations": { "nl": "zitten, gaan zitten", "en": "to sit, to sit down" },
     "notes": "Stam: baiṭh-. Onovergankelijk; causatief baiṭhāve (doen zitten). Ook hulpwerkwoord voor een doelbewuste handeling. Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
   {
     "id": "verb-uthe",
     "word": "uṭhe",
-    "translations": { "nl": "opstaan, opkomen" },
+    "translations": { "nl": "opstaan, opkomen", "en": "to get up, to rise" },
     "notes": "Stam: uṭh-. Ook hulpwerkwoord dat een spontane reactie uitdrukt (bol uṭhe = het uitroepen). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
   {
     "id": "verb-nace",
     "word": "nāce",
-    "translations": { "nl": "dansen" },
+    "translations": { "nl": "dansen", "en": "to dance" },
     "notes": "Stam: nāc-. Onovergankelijk; causatief nacāve (doen dansen). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
   {
     "id": "verb-hamse",
     "word": "haṁse",
-    "translations": { "nl": "lachen" },
+    "translations": { "nl": "lachen", "en": "to laugh" },
     "notes": "Stam: haṁs-. Onovergankelijk werkwoord. Beeldgeverifieerd (nasale ṁ); needs-verification.",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
   {
     "id": "verb-kate",
     "word": "kāṭe",
-    "translations": { "nl": "snijden, hakken" },
+    "translations": { "nl": "snijden, hakken", "en": "to cut, to chop" },
     "notes": "Stam: kāṭ-. Overgankelijke tegenhanger van het onovergankelijke kaṭe (gesneden worden): lakaṛī kāṭe (hout hakken). Beeldgeverifieerd (retroflexe ṭ); needs-verification.",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
   {
     "id": "verb-khele",
     "word": "khele",
-    "translations": { "nl": "spelen" },
+    "translations": { "nl": "spelen", "en": "to play" },
     "notes": "Stam: khel-. Aanvoegende wijs: Maiyā māṅge hai ki laṛkavan khele (moeder wil dat de kinderen spelen). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
   {
     "id": "verb-mare-hit",
     "word": "māre",
-    "translations": { "nl": "slaan, doden" },
+    "translations": { "nl": "slaan, doden", "en": "to hit, to kill" },
     "notes": "Stam: mār- (lange ā). Overgankelijk; te onderscheiden van mare (sterven). Causatieven marāve / marvāve. Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
   {
     "id": "verb-mare-die",
     "word": "mare",
-    "translations": { "nl": "sterven, doodgaan" },
+    "translations": { "nl": "sterven, doodgaan", "en": "to die, to pass away" },
     "notes": "Stam: mar- (korte a). Onovergankelijk; overgankelijk gemaakt tot māre (doden, slaan) door verlenging van de stamklinker. Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
   {
     "id": "verb-pahine",
     "word": "pahine",
-    "translations": { "nl": "aantrekken, dragen (kleding)" },
+    "translations": { "nl": "aantrekken, dragen (kleding)", "en": "to put on, to wear (clothing)" },
     "notes": "Stam: pahin-. V.t. kapaṛā pahinle rahte (je zou je aangekleed hebben). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p57", "needs-verification"]
   },
   {
     "id": "verb-samjhe",
     "word": "samjhe",
-    "translations": { "nl": "begrijpen, snappen" },
+    "translations": { "nl": "begrijpen, snappen", "en": "to understand, to get" },
     "notes": "Stam: samajh- / samjh-. V.v.t. nā samajhle rahā / samjhe rahā (had niet begrepen). Causatief samjhāve (uitleggen). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p57", "needs-verification"]
   },
   {
     "id": "verb-khoje",
     "word": "khoje",
-    "translations": { "nl": "zoeken" },
+    "translations": { "nl": "zoeken", "en": "to look for, to search" },
     "notes": "Stam: khoj-. tū oke khoje gai rahe (je ging hem zoeken). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p57", "needs-verification"]
   },
   {
     "id": "verb-puche",
     "word": "pūche",
-    "translations": { "nl": "vragen" },
+    "translations": { "nl": "vragen", "en": "to ask" },
     "notes": "Stam: pūch-. Nadrukvorm met -hi: puchahi (helemaal vragen). Beeldgeverifieerd; needs-verification.",
     "tags": ["verb", "book-p65", "needs-verification"]
   }
