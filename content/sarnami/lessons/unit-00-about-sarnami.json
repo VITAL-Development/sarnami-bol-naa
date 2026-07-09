@@ -20,33 +20,54 @@
       "what-e1": {
         "kind": "multiple-choice",
         "prompt": "Wie spreken het Sarnami als moedertaal?",
+        "promptTranslations": { "nl": "Wie spreken het Sarnami als moedertaal?", "en": "Who speaks Sarnami as their mother tongue?" },
         "options": [
           "Surinamers van Hindostaanse afkomst",
           "alle inwoners van India",
           "alleen mensen in Nederland",
           "de oorspronkelijke bevolking van Suriname"
         ],
+        "optionTranslations": [
+          { "nl": "Surinamers van Hindostaanse afkomst", "en": "Surinamese people of Hindostani descent" },
+          { "nl": "alle inwoners van India", "en": "all inhabitants of India" },
+          { "nl": "alleen mensen in Nederland", "en": "only people in the Netherlands" },
+          { "nl": "de oorspronkelijke bevolking van Suriname", "en": "the indigenous population of Suriname" }
+        ],
         "correctIndex": 0
       },
       "what-e2": {
         "kind": "multiple-choice",
         "prompt": "Waar is de naam 'Sarnami' van afgeleid?",
+        "promptTranslations": { "nl": "Waar is de naam 'Sarnami' van afgeleid?", "en": "What is the name 'Sarnami' derived from?" },
         "options": [
           "van Sarnām, de naam voor het vaderland Suriname",
           "van een Nederlands woord voor 'zuiden'",
           "van de naam van een rivier in India",
           "van het Engelse woord 'surname'"
         ],
+        "optionTranslations": [
+          { "nl": "van Sarnām, de naam voor het vaderland Suriname", "en": "from Sarnām, the name for the homeland Suriname" },
+          { "nl": "van een Nederlands woord voor 'zuiden'", "en": "from a Dutch word for 'south'" },
+          { "nl": "van de naam van een rivier in India", "en": "from the name of a river in India" },
+          { "nl": "van het Engelse woord 'surname'", "en": "from the English word 'surname'" }
+        ],
         "correctIndex": 0
       },
       "what-e3": {
         "kind": "multiple-choice",
         "prompt": "Welke andere naam gebruiken sprekers zelf ook voor hun taal?",
+        "promptTranslations": { "nl": "Welke andere naam gebruiken sprekers zelf ook voor hun taal?", "en": "What other name do speakers themselves also use for their language?" },
         "options": [
           "(Sarnami-)Hindustani",
           "Sranan Tongo",
           "Devanagari",
           "Bhojpuri-Nederlands"
+        ],
+        "optionTranslations": [
+          null,
+          null,
+          null,
+          { "nl": "Bhojpuri-Nederlands", "en": "Bhojpuri-Dutch" }
         ],
         "correctIndex": 0
       }
@@ -79,33 +100,54 @@
       "hist-e1": {
         "kind": "multiple-choice",
         "prompt": "Waarom wierf Nederland contractarbeiders in Brits-Indië?",
+        "promptTranslations": { "nl": "Waarom wierf Nederland contractarbeiders in Brits-Indië?", "en": "Why did the Netherlands recruit contract labourers in British India?" },
         "options": [
           "door een arbeidstekort na de afschaffing van de slavernij",
           "omdat er te veel arbeiders in Suriname waren",
           "om de Nederlandse taal te verspreiden",
           "vanwege een oorlog in India"
         ],
+        "optionTranslations": [
+          { "nl": "door een arbeidstekort na de afschaffing van de slavernij", "en": "because of a labour shortage after the abolition of slavery" },
+          { "nl": "omdat er te veel arbeiders in Suriname waren", "en": "because there were too many labourers in Suriname" },
+          { "nl": "om de Nederlandse taal te verspreiden", "en": "to spread the Dutch language" },
+          { "nl": "vanwege een oorlog in India", "en": "because of a war in India" }
+        ],
         "correctIndex": 0
       },
       "hist-e2": {
         "kind": "multiple-choice",
         "prompt": "Hoe heette het eerste immigrantenschip dat op 5 juni 1873 aankwam?",
+        "promptTranslations": { "nl": "Hoe heette het eerste immigrantenschip dat op 5 juni 1873 aankwam?", "en": "What was the name of the first immigrant ship that arrived on 5 June 1873?" },
         "options": [
           "de Lalla Rookh",
           "de Sarnām",
           "de Immigratiedag",
           "de Commewijne"
         ],
+        "optionTranslations": [
+          { "nl": "de Lalla Rookh", "en": "the Lalla Rookh" },
+          { "nl": "de Sarnām", "en": "the Sarnām" },
+          { "nl": "de Immigratiedag", "en": "Immigration Day" },
+          { "nl": "de Commewijne", "en": "the Commewijne" }
+        ],
         "correctIndex": 0
       },
       "hist-e3": {
         "kind": "multiple-choice",
         "prompt": "Welke twee Indiase streektalen vormen samen de basis van het Sarnami?",
+        "promptTranslations": { "nl": "Welke twee Indiase streektalen vormen samen de basis van het Sarnami?", "en": "Which two Indian regional languages together form the basis of Sarnami?" },
         "options": [
           "Bhojpuri en Avadhi",
           "Hindi en Urdu",
           "Sanskrit en Arabisch",
           "Bengali en Oriya"
+        ],
+        "optionTranslations": [
+          { "nl": "Bhojpuri en Avadhi", "en": "Bhojpuri and Avadhi" },
+          { "nl": "Hindi en Urdu", "en": "Hindi and Urdu" },
+          { "nl": "Sanskrit en Arabisch", "en": "Sanskrit and Arabic" },
+          { "nl": "Bengali en Oriya", "en": "Bengali and Oriya" }
         ],
         "correctIndex": 0
       }
@@ -138,44 +180,72 @@
       "write-e1": {
         "kind": "multiple-choice",
         "prompt": "Met welk schrift wordt het Sarnami van oudsher geschreven?",
+        "promptTranslations": { "nl": "Met welk schrift wordt het Sarnami van oudsher geschreven?", "en": "In which script has Sarnami traditionally been written?" },
         "options": [
           "het devanagari-schrift",
           "het Latijnse schrift",
           "het Arabische schrift",
           "het Cyrillische schrift"
         ],
+        "optionTranslations": [
+          { "nl": "het devanagari-schrift", "en": "the Devanagari script" },
+          { "nl": "het Latijnse schrift", "en": "the Latin script" },
+          { "nl": "het Arabische schrift", "en": "the Arabic script" },
+          { "nl": "het Cyrillische schrift", "en": "the Cyrillic script" }
+        ],
         "correctIndex": 0
       },
       "write-e2": {
         "kind": "multiple-choice",
         "prompt": "Waarvoor staat een streepje boven een klinker (bijvoorbeeld ā) in de romanisatie?",
+        "promptTranslations": { "nl": "Waarvoor staat een streepje boven een klinker (bijvoorbeeld ā) in de romanisatie?", "en": "What does a line above a vowel (for example ā) stand for in the romanization?" },
         "options": [
           "voor een lange klinker",
           "voor een beklemtoonde lettergreep",
           "voor een stille letter",
           "voor een genasaleerde medeklinker"
         ],
+        "optionTranslations": [
+          { "nl": "voor een lange klinker", "en": "for a long vowel" },
+          { "nl": "voor een beklemtoonde lettergreep", "en": "for a stressed syllable" },
+          { "nl": "voor een stille letter", "en": "for a silent letter" },
+          { "nl": "voor een genasaleerde medeklinker", "en": "for a nasalized consonant" }
+        ],
         "correctIndex": 0
       },
       "write-e3": {
         "kind": "multiple-choice",
         "prompt": "Wat geeft een puntje onder een medeklinker (bijvoorbeeld ṭ) aan?",
+        "promptTranslations": { "nl": "Wat geeft een puntje onder een medeklinker (bijvoorbeeld ṭ) aan?", "en": "What does a dot under a consonant (for example ṭ) indicate?" },
         "options": [
           "een retroflexe uitspraak",
           "een lange medeklinker",
           "een stemloze medeklinker",
           "een klemtoon"
         ],
+        "optionTranslations": [
+          { "nl": "een retroflexe uitspraak", "en": "a retroflex pronunciation" },
+          { "nl": "een lange medeklinker", "en": "a long consonant" },
+          { "nl": "een stemloze medeklinker", "en": "a voiceless consonant" },
+          { "nl": "een klemtoon", "en": "a stress accent" }
+        ],
         "correctIndex": 0
       },
       "write-e4": {
         "kind": "multiple-choice",
         "prompt": "Welk kenmerk heeft het Sarnami net als het Hindi en Urdu, maar niet het Nederlands?",
+        "promptTranslations": { "nl": "Welk kenmerk heeft het Sarnami net als het Hindi en Urdu, maar niet het Nederlands?", "en": "Which feature does Sarnami have, like Hindi and Urdu, but not Dutch?" },
         "options": [
           "geaspireerde medeklinkers (kha, gha, tha, pha)",
           "lidwoorden 'de' en 'het'",
           "een vaste klemtoon op de eerste lettergreep",
           "hoofdletters aan het begin van een zin"
+        ],
+        "optionTranslations": [
+          { "nl": "geaspireerde medeklinkers (kha, gha, tha, pha)", "en": "aspirated consonants (kha, gha, tha, pha)" },
+          { "nl": "lidwoorden 'de' en 'het'", "en": "the articles 'de' and 'het'" },
+          { "nl": "een vaste klemtoon op de eerste lettergreep", "en": "a fixed stress on the first syllable" },
+          { "nl": "hoofdletters aan het begin van een zin", "en": "capital letters at the start of a sentence" }
         ],
         "correctIndex": 0
       }
@@ -189,27 +259,34 @@
       "rev-e1": {
         "kind": "multiple-choice",
         "prompt": "Op welke datum wordt de Immigratiedag herdacht?",
+        "promptTranslations": { "nl": "Op welke datum wordt de Immigratiedag herdacht?", "en": "On what date is Immigration Day commemorated?" },
         "options": [
           "5 juni 1873",
           "1 juli 1863",
           "25 november 1975",
           "1 juli 1873"
         ],
+        "optionTranslations": [
+          { "nl": "5 juni 1873", "en": "5 June 1873" },
+          { "nl": "1 juli 1863", "en": "1 July 1863" },
+          { "nl": "25 november 1975", "en": "25 November 1975" },
+          { "nl": "1 juli 1873", "en": "1 July 1873" }
+        ],
         "correctIndex": 0
       },
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "Sarnām", "right": "Suriname / de beroemde naam" },
-          { "left": "Bhojpuri", "right": "Indiase brontaal van het Sarnami" },
-          { "left": "girmiṭ", "right": "het vijfjarig arbeidscontract" },
-          { "left": "Lalla Rookh", "right": "het eerste immigrantenschip" },
-          { "left": "Hindustani", "right": "andere naam voor het Sarnami" }
+          { "left": "Sarnām", "right": "Suriname / de beroemde naam", "rightTranslations": { "nl": "Suriname / de beroemde naam", "en": "Suriname / the famous name" } },
+          { "left": "Bhojpuri", "right": "Indiase brontaal van het Sarnami", "rightTranslations": { "nl": "Indiase brontaal van het Sarnami", "en": "Indian source language of Sarnami" } },
+          { "left": "girmiṭ", "right": "het vijfjarig arbeidscontract", "rightTranslations": { "nl": "het vijfjarig arbeidscontract", "en": "the five-year labour contract" } },
+          { "left": "Lalla Rookh", "right": "het eerste immigrantenschip", "rightTranslations": { "nl": "het eerste immigrantenschip", "en": "the first immigrant ship" } },
+          { "left": "Hindustani", "right": "andere naam voor het Sarnami", "rightTranslations": { "nl": "andere naam voor het Sarnami", "en": "another name for Sarnami" } }
         ]
       },
       "rev-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Noem de twee streektalen die samen de basis van het Sarnami vormen." },
+        "promptTranslations": { "nl": "Noem de twee streektalen die samen de basis van het Sarnami vormen.", "en": "Name the two regional languages that together form the basis of Sarnami." },
         "correctTargetTokens": ["Bhojpuri", "Avadhi"],
         "distractorTokens": ["Hindi", "Urdu"]
       },
@@ -218,16 +295,23 @@
         "sentenceTemplate": "Het eerste immigrantenschip heette de ___ .",
         "correctAnswer": "Lalla Rookh",
         "options": ["Lalla Rookh", "Sarnām", "Bhojpuri", "Avadhi"],
-        "translations": { "nl": "Het eerste immigrantenschip heette de Lalla Rookh." }
+        "translations": { "nl": "Het eerste immigrantenschip heette de Lalla Rookh.", "en": "The first immigrant ship was called the Lalla Rookh." }
       },
       "rev-e7": {
         "kind": "multiple-choice",
         "prompt": "Met welk schrift wordt het Sarnami van oudsher geschreven?",
+        "promptTranslations": { "nl": "Met welk schrift wordt het Sarnami van oudsher geschreven?", "en": "In which script has Sarnami traditionally been written?" },
         "options": [
           "het devanagari-schrift",
           "het Latijnse schrift met diacritische tekens",
           "het Sranan Tongo-schrift",
           "het Arabische schrift"
+        ],
+        "optionTranslations": [
+          { "nl": "het devanagari-schrift", "en": "the Devanagari script" },
+          { "nl": "het Latijnse schrift met diacritische tekens", "en": "the Latin script with diacritics" },
+          { "nl": "het Sranan Tongo-schrift", "en": "the Sranan Tongo script" },
+          { "nl": "het Arabische schrift", "en": "the Arabic script" }
         ],
         "correctIndex": 0
       }

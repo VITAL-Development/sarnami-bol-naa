@@ -3,7 +3,8 @@
     "id": "about-sarnami",
     "word": "Sarnāmī",
     "translations": {
-      "nl": "Sarnami; de Surinaamse moedertaal van Hindostanen"
+      "nl": "Sarnami; de Surinaamse moedertaal van Hindostanen",
+      "en": "Sarnami; the Surinamese mother tongue of the Hindostani community"
     },
     "tags": [
       "about-sarnami",
@@ -17,7 +18,8 @@
     "id": "about-sarnam",
     "word": "Sarnām",
     "translations": {
-      "nl": "Suriname (zoals de immigranten het uitspraken); ook 'de beroemde (naam)'"
+      "nl": "Suriname (zoals de immigranten het uitspraken); ook 'de beroemde (naam)'",
+      "en": "Suriname (as the immigrants pronounced it); also 'the famous (name)'"
     },
     "tags": [
       "about-sarnami",
@@ -31,7 +33,8 @@
     "id": "about-hindustani",
     "word": "Hindustani",
     "translations": {
-      "nl": "andere naam die Sarnami-sprekers voor hun taal gebruiken (Sarnami-Hindustani)"
+      "nl": "andere naam die Sarnami-sprekers voor hun taal gebruiken (Sarnami-Hindustani)",
+      "en": "another name that Sarnami speakers use for their language (Sarnami-Hindustani)"
     },
     "tags": [
       "about-sarnami",
@@ -45,7 +48,8 @@
     "id": "about-bhojpuri",
     "word": "Bhojpurī",
     "translations": {
-      "nl": "een Noord-Indiase streektaal; samen met het Avadhi de basis van het Sarnami (dominante factor)"
+      "nl": "een Noord-Indiase streektaal; samen met het Avadhi de basis van het Sarnami (dominante factor)",
+      "en": "a North Indian regional language; together with Avadhi the basis of Sarnami (the dominant factor)"
     },
     "tags": [
       "about-sarnami",
@@ -59,7 +63,8 @@
     "id": "about-avadhi",
     "word": "Avadhī",
     "translations": {
-      "nl": "een Noord-Indiase streektaal; samen met het Bhojpuri de basis van het Sarnami"
+      "nl": "een Noord-Indiase streektaal; samen met het Bhojpuri de basis van het Sarnami",
+      "en": "a North Indian regional language; together with Bhojpuri the basis of Sarnami"
     },
     "tags": [
       "about-sarnami",
@@ -73,7 +78,8 @@
     "id": "about-girmit",
     "word": "girmiṭ",
     "translations": {
-      "nl": "het vijfjarig arbeidscontract; een ellendige tijd (van Engels 'agreement')"
+      "nl": "het vijfjarig arbeidscontract; een ellendige tijd (van Engels 'agreement')",
+      "en": "the five-year labour contract; a wretched time (from English 'agreement')"
     },
     "tags": [
       "about-sarnami",
@@ -86,7 +92,8 @@
     "id": "about-lalla-rookh",
     "word": "Lalla Rookh",
     "translations": {
-      "nl": "het eerste immigrantenschip (aankomst 5 juni 1873)"
+      "nl": "het eerste immigrantenschip (aankomst 5 juni 1873)",
+      "en": "the first immigrant ship (arrival 5 June 1873)"
     },
     "tags": [
       "about-sarnami",
@@ -100,7 +107,8 @@
     "id": "about-devanagari",
     "word": "devanāgarī",
     "translations": {
-      "nl": "het devanagari-schrift; het lettergrepenschrift waarmee het Sarnami van oudsher geschreven wordt"
+      "nl": "het devanagari-schrift; het lettergrepenschrift waarmee het Sarnami van oudsher geschreven wordt",
+      "en": "the Devanagari script; the syllabic script in which Sarnami has traditionally been written"
     },
     "tags": [
       "about-sarnami",
