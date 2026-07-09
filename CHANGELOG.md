@@ -32,6 +32,7 @@ which point they move under a dated `## [X.Y.Z]` heading.
   complete for all units; this fills the separate `GET /grammar` reference,
   which still held only scaffold placeholders.
 - Grammar-reference note `about-sarnami` ("Over het Sarnami") for `unit-00-about-sarnami` in `content/sarnami/grammar/grammar.json` (served by `GET /grammar`): consolidates the unit's per-lesson grammar notes into one browsable reference entry so the PWA grammar screen covers this unit. Part of #153.
+- Grammar-reference note `sounds` ("Klanken & uitspraak") for `unit-03-sounds` in `content/sarnami/grammar/grammar.json` (served by `GET /grammar`): consolidates the unit's per-lesson grammar notes into one browsable reference entry so the PWA grammar screen covers this unit. Part of #153.
 
 ## [0.2.0] - 2026-07-09
 
