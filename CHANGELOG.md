@@ -21,6 +21,16 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ### Added
 
+- Real grammar-reference content for the nouns topic in
+  `content/sarnami/grammar/grammar.json` (served by the backend's `GET /grammar`
+  endpoint): replaced the `nouns` placeholder with a consolidated note covering
+  geslacht, enkelvoud/meervoud and functie (achterzetsels), and added a
+  `numerals` note (hoofdtelwoorden, gebruik, rangtelwoorden). Distilled from
+  `authored_docs/byakaran/02-the-noun.md`, image-verified diacritics. First
+  topic of populating the standalone grammar reference (#153). Note: the
+  per-lesson grammar notes in `content/sarnami/lessons/*.json` were already
+  complete for all units; this fills the separate `GET /grammar` reference,
+  which still held only scaffold placeholders.
 - `settings/sarnami/language-settings.json`: new top-level `defaultUiLanguage`
   field, set to `"nl"` — declares Dutch as the default interface language for
   the Sarnami deployment (the audience is Dutch-speaking). Additive/MINOR: a
