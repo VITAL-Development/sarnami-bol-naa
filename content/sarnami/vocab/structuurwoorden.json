@@ -3,7 +3,8 @@
     "id": "struct-en",
     "word": "aur",
     "translations": {
-      "nl": "en"
+      "nl": "en",
+      "en": "and"
     },
     "notes": "Nevenschikkend voegwoord. Ook: auro, auru, au, a.",
     "tags": [
@@ -16,7 +17,8 @@
     "id": "struct-maar",
     "word": "baki",
     "translations": {
-      "nl": "maar"
+      "nl": "maar",
+      "en": "but"
     },
     "notes": "sarnamibhasa.nl geeft ook balki, magar als varianten.",
     "tags": [
@@ -29,7 +31,8 @@
     "id": "struct-of",
     "word": "yā",
     "translations": {
-      "nl": "of"
+      "nl": "of",
+      "en": "or"
     },
     "notes": "Ook: ki, ki to.",
     "tags": [
@@ -42,7 +45,8 @@
     "id": "struct-dat",
     "word": "ki",
     "translations": {
-      "nl": "dat (voegwoord)"
+      "nl": "dat (voegwoord)",
+      "en": "that (conjunction)"
     },
     "notes": "Onderschikkend voegwoord; ki heeft ook de betekenis 'of'. Ook: kī.",
     "tags": [
@@ -55,7 +59,8 @@
     "id": "struct-als",
     "word": "jo",
     "translations": {
-      "nl": "als, indien"
+      "nl": "als, indien",
+      "en": "if, in case"
     },
     "notes": "Ook: ja. Correlaat: jo … to (indien … dan). sarnamibhasa.nl geeft ook jab, agar.",
     "tags": [
@@ -68,7 +73,8 @@
     "id": "struct-dan",
     "word": "tab",
     "translations": {
-      "nl": "dan (gevolg)"
+      "nl": "dan (gevolg)",
+      "en": "then (consequence)"
     },
     "notes": "Correlaat van jo … to.",
     "tags": [
@@ -81,7 +87,8 @@
     "id": "struct-omdat",
     "word": "kāhe se",
     "translations": {
-      "nl": "omdat, want"
+      "nl": "omdat, want",
+      "en": "because, for"
     },
     "notes": "Volledige vorm: kāhe (se) (ki). sarnamibhasa.nl: káhense, káren ki.",
     "tags": [
@@ -94,7 +101,8 @@
     "id": "struct-anders",
     "word": "nahīṁ to",
     "translations": {
-      "nl": "anders"
+      "nl": "anders",
+      "en": "otherwise"
     },
     "tags": [
       "conjunction",
@@ -106,7 +114,8 @@
     "id": "struct-sinds",
     "word": "jab se",
     "translations": {
-      "nl": "sinds, sedert"
+      "nl": "sinds, sedert",
+      "en": "since, ever since"
     },
     "tags": [
       "conjunction",
@@ -118,7 +127,8 @@
     "id": "struct-toch",
     "word": "tabbo",
     "translations": {
-      "nl": "toch"
+      "nl": "toch",
+      "en": "still, yet"
     },
     "tags": [
       "conjunction",

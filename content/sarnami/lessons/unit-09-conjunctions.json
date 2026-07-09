@@ -33,11 +33,11 @@
       "c1-e1": {
         "kind": "matching",
         "pairs": [
-          { "left": "aur", "right": "en" },
-          { "left": "baki", "right": "maar" },
-          { "left": "yā", "right": "of" },
-          { "left": "yā to", "right": "of wel" },
-          { "left": "kā … kā …", "right": "zowel … als …" }
+          { "left": "aur", "right": "en", "rightTranslations": { "nl": "en", "en": "and" } },
+          { "left": "baki", "right": "maar", "rightTranslations": { "nl": "maar", "en": "but" } },
+          { "left": "yā", "right": "of", "rightTranslations": { "nl": "of", "en": "or" } },
+          { "left": "yā to", "right": "of wel", "rightTranslations": { "nl": "of wel", "en": "or else" } },
+          { "left": "kā … kā …", "right": "zowel … als …", "rightTranslations": { "nl": "zowel … als …", "en": "both … and …" } }
         ]
       },
       "c1-e2": {
@@ -45,17 +45,18 @@
         "sentenceTemplate": "Bhāī ___ bahin ghar meṁ hai.",
         "correctAnswer": "aur",
         "options": ["aur", "baki", "yā", "kāhe se"],
-        "translations": { "nl": "Broer en zus zijn thuis." }
+        "translations": { "nl": "Broer en zus zijn thuis.", "en": "Brother and sister are at home." }
       },
       "c1-e3": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Hij is klein maar goed." },
+        "promptTranslations": { "nl": "Hij is klein maar goed.", "en": "He is small but good." },
         "correctTargetTokens": ["Ū", "choṭā", "baki", "barhimyā", "hai."],
         "distractorTokens": ["aur", "yā"]
       },
       "c1-e4": {
         "kind": "multiple-choice",
         "prompt": "Welk voegwoord betekent 'maar'?",
+        "promptTranslations": { "nl": "Welk voegwoord betekent 'maar'?", "en": "Which conjunction means 'but'?" },
         "options": ["baki", "aur", "yā", "kā"],
         "correctIndex": 0
       }
@@ -101,11 +102,11 @@
       "c2-e1": {
         "kind": "matching",
         "pairs": [
-          { "left": "ki", "right": "dat" },
-          { "left": "jo", "right": "als, indien" },
-          { "left": "kāhe se", "right": "omdat, want" },
-          { "left": "jaune", "right": "opdat, zodat" },
-          { "left": "jab se", "right": "sinds, sedert" }
+          { "left": "ki", "right": "dat", "rightTranslations": { "nl": "dat", "en": "that" } },
+          { "left": "jo", "right": "als, indien", "rightTranslations": { "nl": "als, indien", "en": "if, in case" } },
+          { "left": "kāhe se", "right": "omdat, want", "rightTranslations": { "nl": "omdat, want", "en": "because, for" } },
+          { "left": "jaune", "right": "opdat, zodat", "rightTranslations": { "nl": "opdat, zodat", "en": "in order that, so that" } },
+          { "left": "jab se", "right": "sinds, sedert", "rightTranslations": { "nl": "sinds, sedert", "en": "since, ever since" } }
         ]
       },
       "c2-e2": {
@@ -113,17 +114,18 @@
         "sentenceTemplate": "Ham jāntā hai ___ ū ghar meṁ hai.",
         "correctAnswer": "ki",
         "options": ["ki", "jo", "baki", "aur"],
-        "translations": { "nl": "Ik weet dat hij thuis is." }
+        "translations": { "nl": "Ik weet dat hij thuis is.", "en": "I know that he is at home." }
       },
       "c2-e3": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Als het regent, kom ik niet." },
+        "promptTranslations": { "nl": "Als het regent, kom ik niet.", "en": "If it rains, I won't come." },
         "correctTargetTokens": ["Jo", "bariś", "hoī,", "ham", "nā", "āb."],
         "distractorTokens": ["ki", "baki"]
       },
       "c2-e4": {
         "kind": "multiple-choice",
         "prompt": "Welk voegwoord gebruik je voor 'omdat'?",
+        "promptTranslations": { "nl": "Welk voegwoord gebruik je voor 'omdat'?", "en": "Which conjunction do you use for 'because'?" },
         "options": ["kāhe se", "jaune", "jab se", "tabbo"],
         "correctIndex": 0
       }
@@ -137,22 +139,23 @@
       "rev-e1": {
         "kind": "multiple-choice",
         "prompt": "Welk van deze voegwoorden is nevenschikkend?",
+        "promptTranslations": { "nl": "Welk van deze voegwoorden is nevenschikkend?", "en": "Which of these conjunctions is coordinating?" },
         "options": ["aur", "ki", "jaune", "kāhe se"],
         "correctIndex": 0
       },
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "aur", "right": "en" },
-          { "left": "baki", "right": "maar" },
-          { "left": "ki", "right": "dat" },
-          { "left": "jo", "right": "als, indien" },
-          { "left": "kāhe se", "right": "omdat, want" }
+          { "left": "aur", "right": "en", "rightTranslations": { "nl": "en", "en": "and" } },
+          { "left": "baki", "right": "maar", "rightTranslations": { "nl": "maar", "en": "but" } },
+          { "left": "ki", "right": "dat", "rightTranslations": { "nl": "dat", "en": "that" } },
+          { "left": "jo", "right": "als, indien", "rightTranslations": { "nl": "als, indien", "en": "if, in case" } },
+          { "left": "kāhe se", "right": "omdat, want", "rightTranslations": { "nl": "omdat, want", "en": "because, for" } }
         ]
       },
       "rev-e3": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Zowel broer als zus zijn thuis." },
+        "promptTranslations": { "nl": "Zowel broer als zus zijn thuis.", "en": "Both brother and sister are at home." },
         "correctTargetTokens": ["Kā", "bhāī", "kā", "bahin", "ghar", "meṁ", "hai."],
         "distractorTokens": ["nā", "yā"]
       },
@@ -161,7 +164,7 @@
         "sentenceTemplate": "Ū nā āis, ___ ū bīmār rahā.",
         "correctAnswer": "kāhe se",
         "options": ["kāhe se", "jaune", "yā to", "tabbo"],
-        "translations": { "nl": "Hij kwam niet, omdat hij ziek was." }
+        "translations": { "nl": "Hij kwam niet, omdat hij ziek was.", "en": "He didn't come, because he was ill." }
       }
     }
   }
