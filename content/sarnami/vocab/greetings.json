@@ -3,7 +3,8 @@
     "id": "greet-ram-ram",
     "word": "Rām Rām",
     "translations": {
-      "nl": "hallo / gegroet"
+      "nl": "hallo / gegroet",
+      "en": "hello / greetings"
     },
     "tags": [
       "greeting",
@@ -15,7 +16,8 @@
     "id": "greet-pranam",
     "word": "Pranām",
     "translations": {
-      "nl": "eerbiedige groet (tegen ouderen)"
+      "nl": "eerbiedige groet (tegen ouderen)",
+      "en": "respectful greeting (to elders)"
     },
     "tags": [
       "greeting",
@@ -27,7 +29,8 @@
     "id": "greet-kaise-hai",
     "word": "Kaise hai?",
     "translations": {
-      "nl": "Hoe gaat het?"
+      "nl": "Hoe gaat het?",
+      "en": "How are you?"
     },
     "tags": [
       "greeting",
@@ -39,7 +42,8 @@
     "id": "greet-moi-jahe",
     "word": "Moi jā hai",
     "translations": {
-      "nl": "Het gaat goed"
+      "nl": "Het gaat goed",
+      "en": "It's going well"
     },
     "tags": [
       "greeting",
@@ -52,7 +56,8 @@
     "id": "greet-dhanyavad",
     "word": "Dhanbād",
     "translations": {
-      "nl": "bedankt / dank u"
+      "nl": "bedankt / dank u",
+      "en": "thanks / thank you"
     },
     "tags": [
       "greeting",

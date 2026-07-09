@@ -20,12 +20,19 @@
       "l1-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent 'Rām Rām'?",
+        "promptTranslations": { "nl": "Wat betekent 'Rām Rām'?", "en": "What does 'Rām Rām' mean?" },
         "options": ["hallo / gegroet", "dank u", "hoe gaat het?", "tot ziens"],
+        "optionTranslations": [
+          { "nl": "hallo / gegroet", "en": "hello / greetings" },
+          { "nl": "dank u", "en": "thank you" },
+          { "nl": "hoe gaat het?", "en": "how are you?" },
+          { "nl": "tot ziens", "en": "goodbye" }
+        ],
         "correctIndex": 0
       },
       "l1-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Hoe gaat het?" },
+        "promptTranslations": { "nl": "Hoe gaat het?", "en": "How are you?" },
         "correctTargetTokens": ["Kaise", "hai?"],
         "distractorTokens": ["Dhanbād", "Rām"]
       },
@@ -34,7 +41,7 @@
         "sentenceTemplate": "Moi ___ hai.",
         "correctAnswer": "jā",
         "options": ["jā", "kaise", "Rām", "dhanbād"],
-        "translations": { "nl": "Het gaat goed." }
+        "translations": { "nl": "Het gaat goed.", "en": "It's going well." }
       }
     }
   },
@@ -59,22 +66,23 @@
       "l2-e1": {
         "kind": "multiple-choice",
         "prompt": "Welk woord betekent 'ik'?",
+        "promptTranslations": { "nl": "Welk woord betekent 'ik'?", "en": "Which word means 'I'?" },
         "options": ["ham", "tū", "āp", "ū"],
         "correctIndex": 0
       },
       "l2-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "ham", "right": "ik" },
-          { "left": "tū", "right": "jij (informeel)" },
-          { "left": "āp", "right": "u (beleefd)" },
-          { "left": "ū", "right": "hij / zij" },
-          { "left": "ham log", "right": "wij" }
+          { "left": "ham", "right": "ik", "rightTranslations": { "nl": "ik", "en": "I" } },
+          { "left": "tū", "right": "jij (informeel)", "rightTranslations": { "nl": "jij (informeel)", "en": "you (informal)" } },
+          { "left": "āp", "right": "u (beleefd)", "rightTranslations": { "nl": "u (beleefd)", "en": "you (polite)" } },
+          { "left": "ū", "right": "hij / zij", "rightTranslations": { "nl": "hij / zij", "en": "he / she" } },
+          { "left": "ham log", "right": "wij", "rightTranslations": { "nl": "wij", "en": "we" } }
         ]
       },
       "l2-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Hoe gaat het met jou?" },
+        "promptTranslations": { "nl": "Hoe gaat het met jou?", "en": "How are you doing?" },
         "correctTargetTokens": ["Tū", "kaise", "hai?"],
         "distractorTokens": ["ham", "āp"]
       },
@@ -83,7 +91,7 @@
         "sentenceTemplate": "___ Sarnāmi bol-nā sikhe hai.",
         "correctAnswer": "Ham",
         "options": ["Ham", "Tū", "Āp", "Ū"],
-        "translations": { "nl": "Ik leer Sarnami spreken." }
+        "translations": { "nl": "Ik leer Sarnami spreken.", "en": "I am learning to speak Sarnami." }
       }
     }
   },
@@ -114,22 +122,29 @@
       "l3-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent 'ghar'?",
+        "promptTranslations": { "nl": "Wat betekent 'ghar'?", "en": "What does 'ghar' mean?" },
         "options": ["huis", "klok", "broer", "zus"],
+        "optionTranslations": [
+          { "nl": "huis", "en": "house" },
+          { "nl": "klok", "en": "clock" },
+          { "nl": "broer", "en": "brother" },
+          { "nl": "zus", "en": "sister" }
+        ],
         "correctIndex": 0
       },
       "l3-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "ghar", "right": "huis" },
-          { "left": "ghaṛī", "right": "klok" },
-          { "left": "bhāi", "right": "broer" },
-          { "left": "bahin", "right": "zus" },
-          { "left": "mai-bāp", "right": "ouders" }
+          { "left": "ghar", "right": "huis", "rightTranslations": { "nl": "huis", "en": "house" } },
+          { "left": "ghaṛī", "right": "klok", "rightTranslations": { "nl": "klok", "en": "clock" } },
+          { "left": "bhāi", "right": "broer", "rightTranslations": { "nl": "broer", "en": "brother" } },
+          { "left": "bahin", "right": "zus", "rightTranslations": { "nl": "zus", "en": "sister" } },
+          { "left": "mai-bāp", "right": "ouders", "rightTranslations": { "nl": "ouders", "en": "parents" } }
         ]
       },
       "l3-e3": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Dit is mijn huis." },
+        "promptTranslations": { "nl": "Dit is mijn huis.", "en": "This is my house." },
         "correctTargetTokens": ["Ī", "hamar", "ghar", "hai."],
         "distractorTokens": ["tor", "bahin"]
       }
@@ -175,6 +190,7 @@
       "l4-e1": {
         "kind": "multiple-choice",
         "prompt": "Hoe zeg je 'wij zijn'?",
+        "promptTranslations": { "nl": "Hoe zeg je 'wij zijn'?", "en": "How do you say 'we are'?" },
         "options": ["ham log haiṁ", "tū log hai", "āp ho", "ī sab haiṁ"],
         "correctIndex": 0
       },
@@ -183,20 +199,20 @@
         "sentenceTemplate": "Ham log ___ .",
         "correctAnswer": "haiṁ",
         "options": ["haiṁ", "hai", "ho", "nā"],
-        "translations": { "nl": "Wij zijn." }
+        "translations": { "nl": "Wij zijn.", "en": "We are." }
       },
       "l4-e3": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Waar is hij/zij?" },
+        "promptTranslations": { "nl": "Waar is hij/zij?", "en": "Where is he/she?" },
         "correctTargetTokens": ["Ū", "kahāṁ", "hai?"],
         "distractorTokens": ["nā", "ham"]
       },
       "l4-e4": {
         "kind": "matching",
         "pairs": [
-          { "left": "hai", "right": "is / ben / bent" },
-          { "left": "nā", "right": "niet" },
-          { "left": "kahāṁ", "right": "waar" }
+          { "left": "hai", "right": "is / ben / bent", "rightTranslations": { "nl": "is / ben / bent", "en": "is / am / are" } },
+          { "left": "nā", "right": "niet", "rightTranslations": { "nl": "niet", "en": "not" } },
+          { "left": "kahāṁ", "right": "waar", "rightTranslations": { "nl": "waar", "en": "where" } }
         ]
       }
     }
@@ -209,22 +225,29 @@
       "l5-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent 'Rām Rām'?",
+        "promptTranslations": { "nl": "Wat betekent 'Rām Rām'?", "en": "What does 'Rām Rām' mean?" },
         "options": ["hallo / gegroet", "waar", "niet", "klok"],
+        "optionTranslations": [
+          { "nl": "hallo / gegroet", "en": "hello / greetings" },
+          { "nl": "waar", "en": "where" },
+          { "nl": "niet", "en": "not" },
+          { "nl": "klok", "en": "clock" }
+        ],
         "correctIndex": 0
       },
       "l5-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "ham", "right": "ik" },
-          { "left": "ghar", "right": "huis" },
-          { "left": "bhāi", "right": "broer" },
-          { "left": "hai", "right": "is / ben / bent" },
-          { "left": "kahāṁ", "right": "waar" }
+          { "left": "ham", "right": "ik", "rightTranslations": { "nl": "ik", "en": "I" } },
+          { "left": "ghar", "right": "huis", "rightTranslations": { "nl": "huis", "en": "house" } },
+          { "left": "bhāi", "right": "broer", "rightTranslations": { "nl": "broer", "en": "brother" } },
+          { "left": "hai", "right": "is / ben / bent", "rightTranslations": { "nl": "is / ben / bent", "en": "is / am / are" } },
+          { "left": "kahāṁ", "right": "waar", "rightTranslations": { "nl": "waar", "en": "where" } }
         ]
       },
       "l5-e3": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Dit is mijn huis." },
+        "promptTranslations": { "nl": "Dit is mijn huis.", "en": "This is my house." },
         "correctTargetTokens": ["Ī", "hamar", "ghar", "hai."],
         "distractorTokens": ["kahāṁ", "nā"]
       },
@@ -233,7 +256,7 @@
         "sentenceTemplate": "Hamār bāp ___ hai ghare.",
         "correctAnswer": "nā",
         "options": ["nā", "kahāṁ", "hai", "ham"],
-        "translations": { "nl": "Mijn vader is niet thuis." }
+        "translations": { "nl": "Mijn vader is niet thuis.", "en": "My father is not home." }
       }
     }
   }

@@ -40,9 +40,15 @@
   {
     "id": "verb-to-be",
     "title": "Het koppelwerkwoord 'zijn' (hai)",
+    "titleTranslations": { "nl": "Het koppelwerkwoord 'zijn' (hai)", "en": "The copula 'to be' (hai)" },
     "summary": "Vervoeging van hai in de tegenwoordige tijd.",
+    "summaryTranslations": { "nl": "Vervoeging van hai in de tegenwoordige tijd.", "en": "Conjugation of hai in the present tense." },
     "order": 3,
     "body": "# Het koppelwerkwoord 'zijn' (hai)\n\nHet werkwoord *hai* betekent 'is/ben/bent'. De tegenwoordige tijd:\n\n- ham hai — ik ben\n- tū hai — jij bent\n- ī/ū hai — hij/zij is\n- ham log haiṁ — wij zijn\n- tū log hai — jullie zijn\n- āp ho — u bent (beleefd)\n- ī/ū sab haiṁ — zij zijn\n\nDe ontkenning gebruikt *nā* ('niet').\n\n> Placeholder-inhoud voor de scaffold, ontleend aan de bestaande grammatica-vocabulaire (zie `content/sarnami/vocab/grammar.json`).",
+    "bodyTranslations": {
+      "nl": "# Het koppelwerkwoord 'zijn' (hai)\n\nHet werkwoord *hai* betekent 'is/ben/bent'. De tegenwoordige tijd:\n\n- ham hai — ik ben\n- tū hai — jij bent\n- ī/ū hai — hij/zij is\n- ham log haiṁ — wij zijn\n- tū log hai — jullie zijn\n- āp ho — u bent (beleefd)\n- ī/ū sab haiṁ — zij zijn\n\nDe ontkenning gebruikt *nā* ('niet').\n\n> Placeholder-inhoud voor de scaffold, ontleend aan de bestaande grammatica-vocabulaire (zie `content/sarnami/vocab/grammar.json`).",
+      "en": "# The copula 'to be' (hai)\n\nThe verb *hai* means 'is/am/are'. The present tense:\n\n- ham hai — I am\n- tū hai — you are\n- ī/ū hai — he/she is\n- ham log haiṁ — we are\n- tū log hai — you (plural) are\n- āp ho — you are (polite)\n- ī/ū sab haiṁ — they are\n\nThe negation uses *nā* ('not').\n\n> Placeholder content for the scaffold, drawn from the existing grammar vocabulary (see `content/sarnami/vocab/grammar.json`)."
+    },
     "relatedVocab": [
       "gram-hai",
       "gram-na"
