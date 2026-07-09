@@ -19,6 +19,16 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Added
+
+- `settings/sarnami/language-settings.json`: new top-level `defaultUiLanguage`
+  field, set to `"nl"` — declares Dutch as the default interface language for
+  the Sarnami deployment (the audience is Dutch-speaking). Additive/MINOR: a
+  consumer that doesn't read the field is unaffected. Intended to be surfaced
+  by the backend on `GET /languages` and consumed by the frontend as the
+  default UI language when the user hasn't chosen one, so the app no longer
+  starts in English over Dutch-only content. See sarnami-bol-naa#155.
+
 ## [0.2.0] - 2026-07-09
 
 ### Added
