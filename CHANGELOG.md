@@ -21,6 +21,11 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ### Added
 
+- `settings/sarnami/language-settings.json`: documented the anusvara `ṁ`
+  (nasalization of the preceding vowel) in `romanization.diacritics`, alongside
+  the existing `ñ`/`ṅ` nasals, so the correct nasal is discoverable and content
+  doesn't drift back to a bare `m` (#149). Additive `diacritics` array entry —
+  no shape change.
 - Content for `unit-13-reading` ("Lezen: teksten & fabels"), the capstone
   reading unit authored on top of the merged structure scaffold (#119). Source
   chapter: `authored_docs/byakaran/11-texts.md` (BIJLAGEN). Adds 15
@@ -247,6 +252,20 @@ which point they move under a dated `## [X.Y.Z]` heading.
 - `content/sarnami/vocab/greetings.json`: reworded two `notes` strings to drop
   an internal PR citation (same-shape notes-string edit; no schema or
   served-field change).
+
+### Fixed
+
+- Spelling: nasalized Sarnami words now use the anusvara `ṁ` (nasalization of
+  the preceding vowel) instead of a bare consonant `m`, per the IAST-derived
+  scheme in `authored_docs/byakaran/01-sounds.md` (closes #149). Corrected
+  display text (words, options, tokens, matching pairs, grammar-note bodies) —
+  `haim` → `haiṁ` (हैं), `kahām` → `kahāṁ` (कहाँ), `mem` → `meṁ` (में),
+  `nahīm to` → `nahīṁ to` (नहीं), and the explicitly-nasalized direction
+  adverbs `nicvām` → `nicvāṁ` / `uparām` → `uparāṁ` (plus the Nickeriaans
+  variants `emām`/`omām` → `emāṁ`/`omāṁ`). **Display text only**: vocab **ids**
+  (`gram-kaham`, `post-mem`, `struct-in`, …) and their `vocabRef`/`vocabRefs`
+  are left unchanged, so this is a PATCH, not a breaking id rename. Consonant
+  `m` (`ham`, `Rām`, `kām`, `Sarnām`, …) and Dutch glosses are untouched.
 
 ## [0.1.0] - 2026-07-05
 

@@ -139,7 +139,7 @@
       },
       {
         "id": "ex-8-3",
-        "word": "Sarnām mem ī sab se dhanī adamī hai.",
+        "word": "Sarnām meṁ ī sab se dhanī adamī hai.",
         "translations": { "nl": "In Suriname is hij de rijkste man." },
         "vocabRefs": ["gram-sabse"]
       }
@@ -169,7 +169,7 @@
       "l8-e3": {
         "kind": "word-bank",
         "promptTranslations": { "nl": "In Suriname is hij de rijkste man." },
-        "correctTargetTokens": ["Sarnām", "mem", "ī", "sab", "se", "dhanī", "adamī", "hai."],
+        "correctTargetTokens": ["Sarnām", "meṁ", "ī", "sab", "se", "dhanī", "adamī", "hai."],
         "distractorTokens": ["jādā", "aur"]
       },
       "l8-e4": {

@@ -12,7 +12,8 @@
       { "char": "ḍ", "description": "retroflex d (underdot)" },
       { "char": "ṇ", "description": "retroflex n (underdot)" },
       { "char": "ñ", "description": "palatal nasal" },
-      { "char": "ṅ", "description": "velar nasal" }
+      { "char": "ṅ", "description": "velar nasal" },
+      { "char": "ṁ", "description": "anusvara (nasalization of the preceding vowel; e.g. haiṁ, meṁ, kahāṁ, nahīṁ)" }
     ],
     "notes": "Raw text extraction from book-source PDFs commonly corrupts or drops these diacritics (e.g. ā → ä, or vanishing entirely); content must be verified against rendered page images, not trusted from pdftotext output. See authored_docs/byakaran/01-sounds.md for the full sound inventory this is derived from."
   },

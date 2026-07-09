@@ -146,13 +146,13 @@
       },
       {
         "id": "ex-4-2",
-        "word": "Ham log haim. Tū log hai. Āp ho.",
+        "word": "Ham log haiṁ. Tū log hai. Āp ho.",
         "translations": { "nl": "Wij zijn. Jullie zijn. U bent." },
         "vocabRefs": ["gram-hai", "pron-hamlog", "pron-ap"]
       },
       {
         "id": "ex-4-3",
-        "word": "Ū kahām hai?",
+        "word": "Ū kahāṁ hai?",
         "translations": { "nl": "Waar is hij/zij?" },
         "vocabRefs": ["gram-kaham", "pron-u"]
       },
@@ -167,7 +167,7 @@
       {
         "id": "gn-4-1",
         "title": "Vervoeging van 'hai' (zijn) in de o.t.t.",
-        "body": "ham hai (ik ben) — tū hai (jij bent) — ī/ū hai (hij/zij is) — ham log haim (wij zijn) — tū log hai (jullie zijn) — āp ho (u bent) — ī/ū sab haim (zij zijn).",
+        "body": "ham hai (ik ben) — tū hai (jij bent) — ī/ū hai (hij/zij is) — ham log haiṁ (wij zijn) — tū log hai (jullie zijn) — āp ho (u bent) — ī/ū sab haiṁ (zij zijn).",
         "relatedVocab": ["gram-hai"]
       }
     ],
@@ -175,20 +175,20 @@
       "l4-e1": {
         "kind": "multiple-choice",
         "prompt": "Hoe zeg je 'wij zijn'?",
-        "options": ["ham log haim", "tū log hai", "āp ho", "ī sab haim"],
+        "options": ["ham log haiṁ", "tū log hai", "āp ho", "ī sab haiṁ"],
         "correctIndex": 0
       },
       "l4-e2": {
         "kind": "fill-blank",
         "sentenceTemplate": "Ham log ___ .",
-        "correctAnswer": "haim",
-        "options": ["haim", "hai", "ho", "nā"],
+        "correctAnswer": "haiṁ",
+        "options": ["haiṁ", "hai", "ho", "nā"],
         "translations": { "nl": "Wij zijn." }
       },
       "l4-e3": {
         "kind": "word-bank",
         "promptTranslations": { "nl": "Waar is hij/zij?" },
-        "correctTargetTokens": ["Ū", "kahām", "hai?"],
+        "correctTargetTokens": ["Ū", "kahāṁ", "hai?"],
         "distractorTokens": ["nā", "ham"]
       },
       "l4-e4": {
@@ -196,7 +196,7 @@
         "pairs": [
           { "left": "hai", "right": "is / ben / bent" },
           { "left": "nā", "right": "niet" },
-          { "left": "kahām", "right": "waar" }
+          { "left": "kahāṁ", "right": "waar" }
         ]
       }
     }
@@ -219,20 +219,20 @@
           { "left": "ghar", "right": "huis" },
           { "left": "bhāi", "right": "broer" },
           { "left": "hai", "right": "is / ben / bent" },
-          { "left": "kahām", "right": "waar" }
+          { "left": "kahāṁ", "right": "waar" }
         ]
       },
       "l5-e3": {
         "kind": "word-bank",
         "promptTranslations": { "nl": "Dit is mijn huis." },
         "correctTargetTokens": ["Ī", "hamar", "ghar", "hai."],
-        "distractorTokens": ["kahām", "nā"]
+        "distractorTokens": ["kahāṁ", "nā"]
       },
       "l5-e4": {
         "kind": "fill-blank",
         "sentenceTemplate": "Hamār bāp ___ hai ghare.",
         "correctAnswer": "nā",
-        "options": ["nā", "kahām", "hai", "ham"],
+        "options": ["nā", "kahāṁ", "hai", "ham"],
         "translations": { "nl": "Mijn vader is niet thuis." }
       }
     }
