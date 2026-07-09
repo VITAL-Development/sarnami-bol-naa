@@ -33,18 +33,19 @@
       "gender-e1": {
         "kind": "multiple-choice",
         "prompt": "Welke uitgang duidt meestal een vrouwelijk woord (persoon of dier) aan?",
+        "promptTranslations": { "nl": "Welke uitgang duidt meestal een vrouwelijk woord (persoon of dier) aan?", "en": "Which ending usually marks a feminine word (person or animal)?" },
         "options": ["-ī", "-ā", "-vā", "-an"],
         "correctIndex": 0
       },
       "gender-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "gadahā", "right": "ezel (mannelijk)" },
-          { "left": "gadahī", "right": "ezelin (vrouwelijk)" },
-          { "left": "nānā", "right": "grootvader (mannelijk)" },
-          { "left": "nanī", "right": "grootmoeder (vrouwelijk)" },
-          { "left": "laundā", "right": "jongen (mannelijk)" },
-          { "left": "chaumṛī", "right": "meisje (vrouwelijk)" }
+          { "left": "gadahā", "right": "ezel (mannelijk)", "rightTranslations": { "nl": "ezel (mannelijk)", "en": "donkey (masculine)" } },
+          { "left": "gadahī", "right": "ezelin (vrouwelijk)", "rightTranslations": { "nl": "ezelin (vrouwelijk)", "en": "female donkey (feminine)" } },
+          { "left": "nānā", "right": "grootvader (mannelijk)", "rightTranslations": { "nl": "grootvader (mannelijk)", "en": "grandfather (masculine)" } },
+          { "left": "nanī", "right": "grootmoeder (vrouwelijk)", "rightTranslations": { "nl": "grootmoeder (vrouwelijk)", "en": "grandmother (feminine)" } },
+          { "left": "laundā", "right": "jongen (mannelijk)", "rightTranslations": { "nl": "jongen (mannelijk)", "en": "boy (masculine)" } },
+          { "left": "chaumṛī", "right": "meisje (vrouwelijk)", "rightTranslations": { "nl": "meisje (vrouwelijk)", "en": "girl (feminine)" } }
         ]
       },
       "gender-e3": {
@@ -52,7 +53,7 @@
         "sentenceTemplate": "De vrouwelijke vorm van gadahā is ___ .",
         "correctAnswer": "gadahī",
         "options": ["gadahī", "gadahin", "gadahā", "gadahvā"],
-        "translations": { "nl": "De vrouwelijke vorm van gadahā ('ezel') is gadahī ('ezelin')." }
+        "translations": { "nl": "De vrouwelijke vorm van gadahā ('ezel') is gadahī ('ezelin').", "en": "The feminine form of gadahā ('donkey') is gadahī ('female donkey')." }
       }
     }
   },
@@ -96,6 +97,7 @@
       "number-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat is de lange (bepaalde) vorm van ghar ('een huis')?",
+        "promptTranslations": { "nl": "Wat is de lange (bepaalde) vorm van ghar ('een huis')?", "en": "What is the long (definite) form of ghar ('a house')?" },
         "options": ["gharvā", "gharan", "gharī", "ghare"],
         "correctIndex": 0
       },
@@ -104,7 +106,7 @@
         "sentenceTemplate": "Eén paard is ghoṛā, twee zijn ___ .",
         "correctAnswer": "ghoṛan",
         "options": ["ghoṛan", "ghoṛā", "ghŏṛvā", "ghoṛī"],
-        "translations": { "nl": "Het meervoud van ghoṛā ('paard') is ghoṛan ('paarden')." }
+        "translations": { "nl": "Het meervoud van ghoṛā ('paard') is ghoṛan ('paarden').", "en": "The plural of ghoṛā ('horse') is ghoṛan ('horses')." }
       },
       "number-e3": {
         "kind": "matching",
@@ -118,7 +120,7 @@
       },
       "number-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "De paarden eten." },
+        "promptTranslations": { "nl": "De paarden eten.", "en": "The horses eat." },
         "correctTargetTokens": ["Ghŏṛvan", "khāt", "bāteṃ."],
         "distractorTokens": ["Ghŏṛvā", "bā."]
       }
@@ -164,6 +166,7 @@
       "cases-e1": {
         "kind": "multiple-choice",
         "prompt": "Welk achterzetsel gebruik je voor 'met / door' (het middel waarmee iets gebeurt)?",
+        "promptTranslations": { "nl": "Welk achterzetsel gebruik je voor 'met / door' (het middel waarmee iets gebeurt)?", "en": "Which postposition do you use for 'with / by' (the means by which something is done)?" },
         "options": ["se", "ke", "meṃ", "par"],
         "correctIndex": 0
       },
@@ -172,21 +175,21 @@
         "sentenceTemplate": "Phalvā chūrī ___ kāṭ!",
         "correctAnswer": "se",
         "options": ["se", "ke", "par", "meṃ"],
-        "translations": { "nl": "Snijd de vrucht met een mes!" }
+        "translations": { "nl": "Snijd de vrucht met een mes!", "en": "Cut the fruit with a knife!" }
       },
       "cases-e3": {
         "kind": "matching",
         "pairs": [
-          { "left": "ke", "right": "van / aan (bezit, meewerkend voorwerp)" },
-          { "left": "se", "right": "met / door / vanuit" },
-          { "left": "meṃ", "right": "in" },
-          { "left": "par", "right": "op" },
-          { "left": "ke lage", "right": "bij" }
+          { "left": "ke", "right": "van / aan (bezit, meewerkend voorwerp)", "rightTranslations": { "nl": "van / aan (bezit, meewerkend voorwerp)", "en": "of / to (possession, indirect object)" } },
+          { "left": "se", "right": "met / door / vanuit", "rightTranslations": { "nl": "met / door / vanuit", "en": "with / by / from" } },
+          { "left": "meṃ", "right": "in", "rightTranslations": { "nl": "in", "en": "in" } },
+          { "left": "par", "right": "op", "rightTranslations": { "nl": "op", "en": "on" } },
+          { "left": "ke lage", "right": "bij", "rightTranslations": { "nl": "bij", "en": "at / near" } }
         ]
       },
       "cases-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Geef de koe water te drinken." },
+        "promptTranslations": { "nl": "Geef de koe water te drinken.", "en": "Give the cow water to drink." },
         "correctTargetTokens": ["Gāī", "ke", "pānī", "dai", "de."],
         "distractorTokens": ["se", "par"]
       }
@@ -226,6 +229,7 @@
       "num-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat is 'vijf' in het Sarnami?",
+        "promptTranslations": { "nl": "Wat is 'vijf' in het Sarnami?", "en": "What is 'five' in Sarnami?" },
         "options": ["pāṃc", "cār", "chau", "tīn"],
         "correctIndex": 0
       },
@@ -245,11 +249,11 @@
         "sentenceTemplate": "Drie manjes: ___ ṭhe ām.",
         "correctAnswer": "tīn",
         "options": ["tīn", "dūi", "cār", "das"],
-        "translations": { "nl": "Gopal heeft drie manjes geplukt." }
+        "translations": { "nl": "Gopal heeft drie manjes geplukt.", "en": "Gopal picked three mangoes." }
       },
       "num-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Moeder heeft twee ringen gekocht." },
+        "promptTranslations": { "nl": "Moeder heeft twee ringen gekocht.", "en": "Mother bought two rings." },
         "correctTargetTokens": ["Maiyā", "dūi", "ṭhī", "aṅguṭṭhī", "kīnis", "hai."],
         "distractorTokens": ["tīn", "ego"]
       }
@@ -263,22 +267,23 @@
       "rev-e1": {
         "kind": "multiple-choice",
         "prompt": "Hoe maak je van gadahā ('ezel') de vrouwelijke vorm ('ezelin')?",
+        "promptTranslations": { "nl": "Hoe maak je van gadahā ('ezel') de vrouwelijke vorm ('ezelin')?", "en": "How do you form the feminine ('female donkey') from gadahā ('donkey')?" },
         "options": ["gadahī", "gadahin", "gadahvā", "gadahā"],
         "correctIndex": 0
       },
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "kuttā", "right": "hond" },
-          { "left": "ghoṛā", "right": "paard" },
-          { "left": "chūrī", "right": "mes" },
-          { "left": "gāī", "right": "koe" },
-          { "left": "tīn", "right": "drie (3)" }
+          { "left": "kuttā", "right": "hond", "rightTranslations": { "nl": "hond", "en": "dog" } },
+          { "left": "ghoṛā", "right": "paard", "rightTranslations": { "nl": "paard", "en": "horse" } },
+          { "left": "chūrī", "right": "mes", "rightTranslations": { "nl": "mes", "en": "knife" } },
+          { "left": "gāī", "right": "koe", "rightTranslations": { "nl": "koe", "en": "cow" } },
+          { "left": "tīn", "right": "drie (3)", "rightTranslations": { "nl": "drie (3)", "en": "three (3)" } }
         ]
       },
       "rev-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Snijd de vrucht met een mes!" },
+        "promptTranslations": { "nl": "Snijd de vrucht met een mes!", "en": "Cut the fruit with a knife!" },
         "correctTargetTokens": ["Phalvā", "chūrī", "se", "kāṭ!"],
         "distractorTokens": ["ke", "par"]
       },
@@ -287,11 +292,12 @@
         "sentenceTemplate": "Gāī ___ pānī dai de.",
         "correctAnswer": "ke",
         "options": ["ke", "se", "par", "meṃ"],
-        "translations": { "nl": "Geef de koe water te drinken." }
+        "translations": { "nl": "Geef de koe water te drinken.", "en": "Give the cow water to drink." }
       },
       "rev-e7": {
         "kind": "multiple-choice",
         "prompt": "Wat is de lange (bepaalde) vorm van ghar ('een huis')?",
+        "promptTranslations": { "nl": "Wat is de lange (bepaalde) vorm van ghar ('een huis')?", "en": "What is the long (definite) form of ghar ('a house')?" },
         "options": ["gharvā", "ghare", "gharan", "gharī"],
         "correctIndex": 0
       }

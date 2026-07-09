@@ -1,6 +1,7 @@
 {
   "id": "unit-04-nouns",
   "title": "Zelfstandige naamwoorden",
+  "titleTranslations": { "nl": "Zelfstandige naamwoorden", "en": "Nouns" },
   "description": "Geslacht, getal, naamval en telwoorden.",
   "order": 4,
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/02-the-noun.md",
@@ -10,6 +11,7 @@
       "unitId": "unit-04-nouns",
       "order": 1,
       "title": "Geslacht",
+      "titleTranslations": { "nl": "Geslacht", "en": "Gender" },
       "description": "Het geslacht van zelfstandige naamwoorden.",
       "newVocab": [
         "noun-gadaha",
@@ -63,6 +65,7 @@
       "unitId": "unit-04-nouns",
       "order": 2,
       "title": "Getal & meervoud",
+      "titleTranslations": { "nl": "Getal & meervoud", "en": "Number & plural" },
       "description": "Enkelvoud en meervoud, plus de korte en lange vorm.",
       "newVocab": [
         "noun-ghora",
@@ -115,6 +118,7 @@
       "unitId": "unit-04-nouns",
       "order": 3,
       "title": "Naamvallen",
+      "titleTranslations": { "nl": "Naamvallen", "en": "Cases" },
       "description": "Naamvalsgedrag van zelfstandige naamwoorden met achterzetsels.",
       "newVocab": [
         "noun-churi",
@@ -166,6 +170,7 @@
       "unitId": "unit-04-nouns",
       "order": 4,
       "title": "Telwoorden",
+      "titleTranslations": { "nl": "Telwoorden", "en": "Numerals" },
       "description": "De hoofdtelwoorden uit dit hoofdstuk.",
       "newVocab": [
         "num-sunna",
@@ -224,6 +229,7 @@
       "unitId": "unit-04-nouns",
       "order": 5,
       "title": "Herhaling",
+      "titleTranslations": { "nl": "Herhaling", "en": "Review" },
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [
