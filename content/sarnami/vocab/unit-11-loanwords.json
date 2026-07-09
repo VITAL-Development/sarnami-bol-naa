@@ -3,7 +3,8 @@
     "id": "loan-bel",
     "word": "bel kare",
     "translations": {
-      "nl": "opbellen (met hove: opgebeld worden)"
+      "nl": "opbellen (met hove: opgebeld worden)",
+      "en": "to call up (with hove: to be called up)"
     },
     "tags": [
       "loanword",
@@ -17,7 +18,8 @@
     "id": "loan-klop",
     "word": "klop kare",
     "translations": {
-      "nl": "kloppen (met hove: geklopt worden)"
+      "nl": "kloppen (met hove: geklopt worden)",
+      "en": "to knock (with hove: to be knocked)"
     },
     "tags": [
       "loanword",
@@ -31,7 +33,8 @@
     "id": "loan-uitleg",
     "word": "uitleg kare",
     "translations": {
-      "nl": "uitleggen (met hove: uitgelegd worden)"
+      "nl": "uitleggen (met hove: uitgelegd worden)",
+      "en": "to explain (with hove: to be explained)"
     },
     "tags": [
       "loanword",
@@ -45,7 +48,8 @@
     "id": "loan-beledig",
     "word": "beledig kare",
     "translations": {
-      "nl": "beledigen (met hove: beledigd worden)"
+      "nl": "beledigen (met hove: beledigd worden)",
+      "en": "to insult (with hove: to be insulted)"
     },
     "tags": [
       "loanword",
@@ -59,7 +63,8 @@
     "id": "loan-bekeur",
     "word": "bekeur kare",
     "translations": {
-      "nl": "bekeuren (met hove: bekeurd worden)"
+      "nl": "bekeuren (met hove: bekeurd worden)",
+      "en": "to fine/ticket (with hove: to be fined)"
     },
     "tags": [
       "loanword",
@@ -73,7 +78,8 @@
     "id": "loan-wachti",
     "word": "wachti kare",
     "translations": {
-      "nl": "wachten; opwachten (met hove: opgewacht worden)"
+      "nl": "wachten; opwachten (met hove: opgewacht worden)",
+      "en": "to wait; to wait for (with hove: to be waited for)"
     },
     "tags": [
       "loanword",
@@ -87,7 +93,8 @@
     "id": "loan-help",
     "word": "help kare",
     "translations": {
-      "nl": "helpen (met hove: geholpen worden)"
+      "nl": "helpen (met hove: geholpen worden)",
+      "en": "to help (with hove: to be helped)"
     },
     "tags": [
       "loanword",
@@ -101,7 +108,8 @@
     "id": "loan-mooi",
     "word": "mooi kare",
     "translations": {
-      "nl": "mooi maken (met hove: mooi worden)"
+      "nl": "mooi maken (met hove: mooi worden)",
+      "en": "to make beautiful (with hove: to become beautiful)"
     },
     "tags": [
       "loanword",
@@ -115,7 +123,8 @@
     "id": "loan-luru",
     "word": "lūrū kare",
     "translations": {
-      "nl": "loeren (met hove: beloerd worden)"
+      "nl": "loeren (met hove: beloerd worden)",
+      "en": "to peer/spy (with hove: to be spied on)"
     },
     "tags": [
       "loanword",
@@ -129,7 +138,8 @@
     "id": "loan-butu",
     "word": "būṭū bhare",
     "translations": {
-      "nl": "een boete betalen"
+      "nl": "een boete betalen",
+      "en": "to pay a fine"
     },
     "tags": [
       "loanword",
@@ -143,7 +153,8 @@
     "id": "loan-don",
     "word": "don kare",
     "translations": {
-      "nl": "afmaken; klaar zijn/maken (met hove: klaar zijn)"
+      "nl": "afmaken; klaar zijn/maken (met hove: klaar zijn)",
+      "en": "to finish; to be/get done (with hove: to be done)"
     },
     "tags": [
       "loanword",
@@ -156,7 +167,8 @@
     "id": "loan-las",
     "word": "lās kare",
     "translations": {
-      "nl": "verliezen (met hove: verloren raken)"
+      "nl": "verliezen (met hove: verloren raken)",
+      "en": "to lose (with hove: to get lost)"
     },
     "tags": [
       "loanword",
@@ -170,7 +182,8 @@
     "id": "loan-hambog",
     "word": "hambog kare",
     "translations": {
-      "nl": "hinderen (met hove: verhinderd worden)"
+      "nl": "hinderen (met hove: verhinderd worden)",
+      "en": "to hinder (with hove: to be hindered)"
     },
     "tags": [
       "loanword",
@@ -184,7 +197,8 @@
     "id": "loan-pharyam",
     "word": "pharyam kare",
     "translations": {
-      "nl": "braden (met hove: gebraden worden)"
+      "nl": "braden (met hove: gebraden worden)",
+      "en": "to fry (with hove: to be fried)"
     },
     "tags": [
       "loanword",
@@ -198,7 +212,8 @@
     "id": "loan-riwors",
     "word": "riwŏrs kare",
     "translations": {
-      "nl": "achteruit rijden (met hove: achteruit gereden worden)"
+      "nl": "achteruit rijden (met hove: achteruit gereden worden)",
+      "en": "to reverse/drive backwards (with hove: to be driven backwards)"
     },
     "tags": [
       "loanword",
@@ -212,7 +227,8 @@
     "id": "loan-boro",
     "word": "boro kare",
     "translations": {
-      "nl": "boren (met hove: geboord worden)"
+      "nl": "boren (met hove: geboord worden)",
+      "en": "to drill (with hove: to be drilled)"
     },
     "tags": [
       "loanword",
@@ -226,7 +242,8 @@
     "id": "loan-triki",
     "word": "trīkī kare",
     "translations": {
-      "nl": "strijken (met hove: gestreken worden)"
+      "nl": "strijken (met hove: gestreken worden)",
+      "en": "to iron (with hove: to be ironed)"
     },
     "tags": [
       "loanword",
@@ -240,7 +257,8 @@
     "id": "loan-yuru",
     "word": "yūrū kare",
     "translations": {
-      "nl": "huren (met hove: verhuurd worden)"
+      "nl": "huren (met hove: verhuurd worden)",
+      "en": "to rent (with hove: to be rented out)"
     },
     "tags": [
       "loanword",
@@ -254,7 +272,8 @@
     "id": "loan-morsu",
     "word": "morsū kare",
     "translations": {
-      "nl": "vuil maken (met hove: vervuild raken)"
+      "nl": "vuil maken (met hove: vervuild raken)",
+      "en": "to make dirty (with hove: to get polluted)"
     },
     "tags": [
       "loanword",
@@ -268,7 +287,8 @@
     "id": "loan-lesiyai",
     "word": "lĕsiyāī",
     "translations": {
-      "nl": "luieren"
+      "nl": "luieren",
+      "en": "to laze/be lazy"
     },
     "tags": [
       "loanword",
@@ -283,7 +303,8 @@
     "id": "loan-setiyave",
     "word": "sĕtiyāve",
     "translations": {
-      "nl": "ordenen; op orde brengen"
+      "nl": "ordenen; op orde brengen",
+      "en": "to arrange; to put in order"
     },
     "tags": [
       "loanword",
