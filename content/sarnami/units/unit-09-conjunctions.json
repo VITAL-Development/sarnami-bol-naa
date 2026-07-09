@@ -1,6 +1,7 @@
 {
   "id": "unit-09-conjunctions",
   "title": "Voegwoorden",
+  "titleTranslations": { "nl": "Voegwoorden", "en": "Conjunctions" },
   "description": "Nevenschikkende en onderschikkende voegwoorden.",
   "order": 10,
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/06-conjunctions.md",
@@ -10,6 +11,7 @@
       "unitId": "unit-09-conjunctions",
       "order": 1,
       "title": "Nevenschikkende voegwoorden",
+      "titleTranslations": { "nl": "Nevenschikkende voegwoorden", "en": "Coordinating conjunctions" },
       "description": "Voegwoorden die zinsdelen nevenschikken.",
       "newVocab": [
         "struct-en",
@@ -62,6 +64,7 @@
       "unitId": "unit-09-conjunctions",
       "order": 2,
       "title": "Onderschikkende voegwoorden",
+      "titleTranslations": { "nl": "Onderschikkende voegwoorden", "en": "Subordinating conjunctions" },
       "description": "Voegwoorden die bijzinnen inleiden.",
       "newVocab": [
         "struct-dat",
@@ -119,6 +122,7 @@
       "unitId": "unit-09-conjunctions",
       "order": 3,
       "title": "Herhaling",
+      "titleTranslations": { "nl": "Herhaling", "en": "Review" },
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [

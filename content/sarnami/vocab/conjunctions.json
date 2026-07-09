@@ -3,7 +3,8 @@
     "id": "conj-ofwel",
     "word": "yā to",
     "translations": {
-      "nl": "of wel"
+      "nl": "of wel",
+      "en": "or else"
     },
     "notes": "Nevenschikkend voegwoord. Variant van yā ('of'). sarnamibhasa.nl bevestigt yáto (ook kito) voor 'ofwel'.",
     "tags": [
@@ -17,7 +18,8 @@
     "id": "conj-zowel-als",
     "word": "kā … kā …",
     "translations": {
-      "nl": "zowel … als …"
+      "nl": "zowel … als …",
+      "en": "both … and …"
     },
     "notes": "Nevenschikkend, correlatief paar: kā voor elk van de nevengeschikte delen. sarnamibhasa.nl bevestigt ká voor 'zowel'.",
     "tags": [
@@ -32,7 +34,8 @@
     "id": "conj-noch-noch",
     "word": "nā … nā …",
     "translations": {
-      "nl": "noch … noch …"
+      "nl": "noch … noch …",
+      "en": "neither … nor …"
     },
     "notes": "Nevenschikkend, correlatief paar. sarnamibhasa.nl bevestigt ná voor 'noch'.",
     "tags": [
@@ -47,7 +50,8 @@
     "id": "conj-zodat",
     "word": "jaune",
     "translations": {
-      "nl": "opdat, zodat"
+      "nl": "opdat, zodat",
+      "en": "in order that, so that"
     },
     "notes": "Onderschikkend voegwoord. Ook: jame, jeme. sarnamibhasa.nl bevestigt jaune (ook jaise ki) voor 'opdat'.",
     "tags": [
@@ -61,7 +65,8 @@
     "id": "conj-ookal",
     "word": "cāhe",
     "translations": {
-      "nl": "ook al, hoewel"
+      "nl": "ook al, hoewel",
+      "en": "even though, although"
     },
     "notes": "Onderschikkend voegwoord. sarnamibhasa.nl geeft cáhen voor 'ook al' en 'hoewel'.",
     "tags": [
@@ -75,7 +80,8 @@
     "id": "conj-zolang",
     "word": "jab talak",
     "translations": {
-      "nl": "zolang"
+      "nl": "zolang",
+      "en": "as long as"
     },
     "notes": "Onderschikkend voegwoord van tijd. Ook: jab tak. sarnamibhasa.nl bevestigt jab talak / jab tak voor 'zolang'.",
     "tags": [
