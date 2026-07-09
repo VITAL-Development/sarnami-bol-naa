@@ -20,32 +20,36 @@
       "vow-e1": {
         "kind": "multiple-choice",
         "prompt": "Welk teken op een klinker geeft aan dat hij lang wordt uitgesproken?",
+        "promptTranslations": { "nl": "Welk teken op een klinker geeft aan dat hij lang wordt uitgesproken?", "en": "Which mark on a vowel indicates that it is pronounced long?" },
         "options": [
           "de macron (het streepje): ā",
           "de punt eronder: ṭ",
           "de tilde: ñ",
           "het accent aigu: á"
         ],
+        "optionTranslations": ["the macron (the bar): ā", "the dot below: ṭ", "the tilde: ñ", "the acute accent: á"],
         "correctIndex": 0
       },
       "vow-e2": {
         "kind": "multiple-choice",
         "prompt": "In welk woord hoor je de lange ā?",
+        "promptTranslations": { "nl": "In welk woord hoor je de lange ā?", "en": "In which word do you hear the long ā?" },
         "options": [
           "ām (een manje)",
           "ab (nu)",
           "ek (één)",
           "os (dauw)"
         ],
+        "optionTranslations": ["ām (a manje)", "ab (now)", "ek (one)", "os (dew)"],
         "correctIndex": 0
       },
       "vow-e3": {
         "kind": "matching",
         "pairs": [
-          { "left": "ā", "right": "ām (een manje)" },
-          { "left": "ai", "right": "ainā (een spiegel)" },
-          { "left": "au", "right": "aurat (een vrouw)" },
-          { "left": "u", "right": "ultā (omgekeerd)" }
+          { "left": "ā", "right": "ām (een manje)", "rightTranslations": { "nl": "ām (een manje)", "en": "ām (a manje)" } },
+          { "left": "ai", "right": "ainā (een spiegel)", "rightTranslations": { "nl": "ainā (een spiegel)", "en": "ainā (a mirror)" } },
+          { "left": "au", "right": "aurat (een vrouw)", "rightTranslations": { "nl": "aurat (een vrouw)", "en": "aurat (a woman)" } },
+          { "left": "u", "right": "ultā (omgekeerd)", "rightTranslations": { "nl": "ultā (omgekeerd)", "en": "ultā (reversed)" } }
         ]
       }
     }
@@ -71,32 +75,36 @@
       "con-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent de 'h' in een medeklinker als 'kh' of 'ph'?",
+        "promptTranslations": { "nl": "Wat betekent de 'h' in een medeklinker als 'kh' of 'ph'?", "en": "What does the 'h' in a consonant like 'kh' or 'ph' mean?" },
         "options": [
           "dat de klank geaspireerd (met een luchtstootje) wordt uitgesproken",
           "dat de klank lang is",
           "dat het een klinker is",
           "dat je de letter niet uitspreekt"
         ],
+        "optionTranslations": ["that the sound is pronounced aspirated (with a puff of air)", "that the sound is long", "that it is a vowel", "that you don't pronounce the letter"],
         "correctIndex": 0
       },
       "con-e2": {
         "kind": "multiple-choice",
         "prompt": "Welk woord begint met een geaspireerde medeklinker?",
+        "promptTranslations": { "nl": "Welk woord begint met een geaspireerde medeklinker?", "en": "Which word begins with an aspirated consonant?" },
         "options": [
           "khet (een akker)",
           "kaun (wie)",
           "cor (een dief)",
           "garīb (arm)"
         ],
+        "optionTranslations": ["khet (a field)", "kaun (who)", "cor (a thief)", "garīb (poor)"],
         "correctIndex": 0
       },
       "con-e3": {
         "kind": "matching",
         "pairs": [
-          { "left": "kh", "right": "khet (een akker)" },
-          { "left": "ph", "right": "phul (een bloem)" },
-          { "left": "ch", "right": "chūrī (een mes)" },
-          { "left": "g", "right": "garīb (arm)" }
+          { "left": "kh", "right": "khet (een akker)", "rightTranslations": { "nl": "khet (een akker)", "en": "khet (a field)" } },
+          { "left": "ph", "right": "phul (een bloem)", "rightTranslations": { "nl": "phul (een bloem)", "en": "phul (a flower)" } },
+          { "left": "ch", "right": "chūrī (een mes)", "rightTranslations": { "nl": "chūrī (een mes)", "en": "chūrī (a knife)" } },
+          { "left": "g", "right": "garīb (arm)", "rightTranslations": { "nl": "garīb (arm)", "en": "garīb (poor)" } }
         ]
       }
     }
@@ -128,43 +136,49 @@
       "dia-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat geeft een punt onder een medeklinker (zoals ṭ of ḍ) aan?",
+        "promptTranslations": { "nl": "Wat geeft een punt onder een medeklinker (zoals ṭ of ḍ) aan?", "en": "What does a dot under a consonant (such as ṭ or ḍ) indicate?" },
         "options": [
           "een retroflexe klank: de tong krult naar het gehemelte",
           "een lange klinker",
           "een geaspireerde klank",
           "dat je de letter niet uitspreekt"
         ],
+        "optionTranslations": ["a retroflex sound: the tongue curls toward the palate", "a long vowel", "an aspirated sound", "that you don't pronounce the letter"],
         "correctIndex": 0
       },
       "dia-e2": {
         "kind": "multiple-choice",
         "prompt": "In welk woord staat de retroflexe ṭ (met punt eronder)?",
+        "promptTranslations": { "nl": "In welk woord staat de retroflexe ṭ (met punt eronder)?", "en": "In which word is there the retroflex ṭ (with a dot below)?" },
         "options": [
           "roṭī (een roti)",
           "tarkārī (groente)",
           "har (een ploeg)",
           "ek (één)"
         ],
+        "optionTranslations": ["roṭī (a roti)", "tarkārī (vegetable)", "har (a plough)", "ek (one)"],
         "correctIndex": 0
       },
       "dia-e3": {
         "kind": "matching",
         "pairs": [
-          { "left": "ṭ", "right": "roṭī (een roti)" },
-          { "left": "ñ", "right": "kaiñcī (een schaar)" },
-          { "left": "ṅ", "right": "Laṅkā (Sri Lanka)" },
-          { "left": "ṇ", "right": "jhaṇḍā (een vlag)" }
+          { "left": "ṭ", "right": "roṭī (een roti)", "rightTranslations": { "nl": "roṭī (een roti)", "en": "roṭī (a roti)" } },
+          { "left": "ñ", "right": "kaiñcī (een schaar)", "rightTranslations": { "nl": "kaiñcī (een schaar)", "en": "kaiñcī (a pair of scissors)" } },
+          { "left": "ṅ", "right": "Laṅkā (Sri Lanka)", "rightTranslations": { "nl": "Laṅkā (Sri Lanka)", "en": "Laṅkā (Sri Lanka)" } },
+          { "left": "ṇ", "right": "jhaṇḍā (een vlag)", "rightTranslations": { "nl": "jhaṇḍā (een vlag)", "en": "jhaṇḍā (a flag)" } }
         ]
       },
       "dia-e4": {
         "kind": "multiple-choice",
         "prompt": "Welk teken gebruikt het Sarnami voor nasale (neus)klanken zoals ñ en ṅ?",
+        "promptTranslations": { "nl": "Welk teken gebruikt het Sarnami voor nasale (neus)klanken zoals ñ en ṅ?", "en": "Which mark does Sarnami use for nasal sounds such as ñ and ṅ?" },
         "options": [
           "de tilde / punt boven de letter",
           "de macron (het streepje)",
           "de punt onder de letter",
           "het accent aigu"
         ],
+        "optionTranslations": ["the tilde / dot above the letter", "the macron (the bar)", "the dot below the letter", "the acute accent"],
         "correctIndex": 0
       }
     }
@@ -177,26 +191,28 @@
       "rev-e1": {
         "kind": "multiple-choice",
         "prompt": "Waar dient de macron (ā, ī, ū) voor?",
+        "promptTranslations": { "nl": "Waar dient de macron (ā, ī, ū) voor?", "en": "What is the macron (ā, ī, ū) for?" },
         "options": [
           "hij geeft aan dat de klinker lang wordt uitgesproken",
           "hij geeft een retroflexe klank aan",
           "hij geeft een nasale klank aan",
           "hij geeft aspiratie aan"
         ],
+        "optionTranslations": ["it indicates that the vowel is pronounced long", "it indicates a retroflex sound", "it indicates a nasal sound", "it indicates aspiration"],
         "correctIndex": 0
       },
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "ā", "right": "lange klinker" },
-          { "left": "ṭ", "right": "retroflexe klank (punt eronder)" },
-          { "left": "ñ", "right": "nasale klank (tilde)" },
-          { "left": "kh", "right": "geaspireerde klank" }
+          { "left": "ā", "right": "lange klinker", "rightTranslations": { "nl": "lange klinker", "en": "long vowel" } },
+          { "left": "ṭ", "right": "retroflexe klank (punt eronder)", "rightTranslations": { "nl": "retroflexe klank (punt eronder)", "en": "retroflex sound (dot below)" } },
+          { "left": "ñ", "right": "nasale klank (tilde)", "rightTranslations": { "nl": "nasale klank (tilde)", "en": "nasal sound (tilde)" } },
+          { "left": "kh", "right": "geaspireerde klank", "rightTranslations": { "nl": "geaspireerde klank", "en": "aspirated sound" } }
         ]
       },
       "rev-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Zet de tekens in de juiste volgorde tot het woord voor 'een roti' (let op de retroflexe ṭ)." },
+        "promptTranslations": { "nl": "Zet de tekens in de juiste volgorde tot het woord voor 'een roti' (let op de retroflexe ṭ).", "en": "Put the characters in the right order to form the word for 'a roti' (mind the retroflex ṭ)." },
         "correctTargetTokens": ["r", "o", "ṭ", "ī"],
         "distractorTokens": ["t", "i"]
       },
@@ -205,7 +221,7 @@
         "sentenceTemplate": "Een punt onder een medeklinker, zoals in roṭī, geeft een ___ klank aan.",
         "correctAnswer": "retroflexe",
         "options": ["retroflexe", "lange", "nasale", "geaspireerde"],
-        "translations": { "nl": "Een punt onder een medeklinker, zoals in roṭī, geeft een retroflexe klank aan." }
+        "translations": { "nl": "Een punt onder een medeklinker, zoals in roṭī, geeft een retroflexe klank aan.", "en": "A dot under a consonant, as in roṭī, indicates a retroflex sound." }
       }
     }
   }
