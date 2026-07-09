@@ -12,7 +12,7 @@
       {
         "id": "gn-adv-place",
         "title": "Bijwoorden van plaats",
-        "body": "Bijwoorden van plaats geven aan waar iets is of gebeurt: uppar (boven), nicce (beneden), dūr (ver), nagicce (dichtbij) en bāhar (buiten, tegenover bhittar 'binnen'). Een aardig kenmerk van het Sarnami: door nasalering worden sommige plaatsbijwoorden richtingaanduidend. Zo wordt nicce ('beneden') tot nicvām ('daarbeneden') en uppar tot uparām ('daarboven'). Voorbeeld: 'Jā nicvām dekh to, ke āil hai' = Ga eens even beneden kijken wie gekomen is.",
+        "body": "Bijwoorden van plaats geven aan waar iets is of gebeurt: uppar (boven), nicce (beneden), dūr (ver), nagicce (dichtbij) en bāhar (buiten, tegenover bhittar 'binnen'). Een aardig kenmerk van het Sarnami: door nasalering worden sommige plaatsbijwoorden richtingaanduidend. Zo wordt nicce ('beneden') tot nicvāṁ ('daarbeneden') en uppar tot uparāṁ ('daarboven'). Voorbeeld: 'Jā nicvāṁ dekh to, ke āil hai' = Ga eens even beneden kijken wie gekomen is.",
         "relatedVocab": ["adv-uppar", "adv-nicce", "adv-dur", "adv-nagicce", "adv-baahar"]
       }
     ],
@@ -31,7 +31,7 @@
       },
       "tp-e3": {
         "kind": "multiple-choice",
-        "prompt": "Door nasalering wordt het plaatsbijwoord 'nicce' (beneden) tot 'nicvām'. Wat betekent 'nicvām'?",
+        "prompt": "Door nasalering wordt het plaatsbijwoord 'nicce' (beneden) tot 'nicvāṁ'. Wat betekent 'nicvāṁ'?",
         "options": ["daarbeneden", "beneden blijven", "naar boven", "buiten"],
         "correctIndex": 0
       },
@@ -151,8 +151,8 @@
       "rev-e3": {
         "kind": "fill-blank",
         "sentenceTemplate": "Jā ___ dekh to, ke āil hai.",
-        "correctAnswer": "nicvām",
-        "options": ["nicvām", "uppar", "bihān", "sait"],
+        "correctAnswer": "nicvāṁ",
+        "options": ["nicvāṁ", "uppar", "bihān", "sait"],
         "translations": { "nl": "Ga eens even beneden kijken wie gekomen is." }
       },
       "rev-e4": {

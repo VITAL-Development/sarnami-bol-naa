@@ -5,7 +5,7 @@
     "translations": {
       "nl": "is / ben / bent (koppelwerkwoord 'zijn')"
     },
-    "notes": "Volledige vervoeging o.t.t.: ham hai, tū hai, ī/ū hai, ham log haim, tū log hai, āp ho, ī/ū sab haim.",
+    "notes": "Volledige vervoeging o.t.t.: ham hai, tū hai, ī/ū hai, ham log haiṁ, tū log hai, āp ho, ī/ū sab haiṁ.",
     "tags": [
       "grammar",
       "verb",
@@ -26,7 +26,7 @@
   },
   {
     "id": "gram-kaham",
-    "word": "kahām",
+    "word": "kahāṁ",
     "translations": {
       "nl": "waar"
     },

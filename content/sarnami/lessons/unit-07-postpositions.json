@@ -4,7 +4,7 @@
     "exampleSentences": [
       {
         "id": "ex-p1-1",
-        "word": "Bed mem ham ī batiyā parhle bāṭī.",
+        "word": "Bed meṁ ham ī batiyā parhle bāṭī.",
         "translations": { "nl": "Ik heb dit in de Veda's gelezen." },
         "vocabRefs": ["post-mem"]
       },
@@ -25,13 +25,13 @@
       {
         "id": "gn-post-1",
         "title": "Achterzetsel, geen voorzetsel",
-        "body": "Het Sarnami plaatst het achterzetsel ACHTER het woord waar het bij hoort — anders dan het Nederlands, dat een voorzetsel ervóór zet. Zo wordt 'in huis' letterlijk 'huis in': ghar mem. En 'op het huis' wordt ghar par. Onthoud dus: eerst het naam- of voornaamwoord, dan het achterzetsel.",
+        "body": "Het Sarnami plaatst het achterzetsel ACHTER het woord waar het bij hoort — anders dan het Nederlands, dat een voorzetsel ervóór zet. Zo wordt 'in huis' letterlijk 'huis in': ghar meṁ. En 'op het huis' wordt ghar par. Onthoud dus: eerst het naam- of voornaamwoord, dan het achterzetsel.",
         "relatedVocab": ["post-mem", "post-par", "noun-ghar"]
       },
       {
         "id": "gn-post-2",
         "title": "De primaire achterzetsels",
-        "body": "Er zijn vier korte, primaire achterzetsels: mem (in), se (met, door, uit, aan), par of pe (op) en ke (van, aan). Ze bestaan uit één woordje en staan direct achter het naamwoord. Het achterzetsel se is bijzonder veelzijdig en dekt meerdere Nederlandse voorzetsels tegelijk.",
+        "body": "Er zijn vier korte, primaire achterzetsels: meṁ (in), se (met, door, uit, aan), par of pe (op) en ke (van, aan). Ze bestaan uit één woordje en staan direct achter het naamwoord. Het achterzetsel se is bijzonder veelzijdig en dekt meerdere Nederlandse voorzetsels tegelijk.",
         "relatedVocab": ["post-mem", "post-se", "post-par", "post-ke"]
       },
       {
@@ -56,7 +56,7 @@
       "com-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "mem", "right": "in" },
+          { "left": "meṁ", "right": "in" },
           { "left": "se", "right": "met, door" },
           { "left": "par", "right": "op" },
           { "left": "ke uppar", "right": "boven" },
@@ -66,15 +66,15 @@
       "com-e3": {
         "kind": "fill-blank",
         "sentenceTemplate": "Bed ___ ham ī batiyā parhle bāṭī.",
-        "correctAnswer": "mem",
-        "options": ["mem", "se", "par", "ke"],
+        "correctAnswer": "meṁ",
+        "options": ["meṁ", "se", "par", "ke"],
         "translations": { "nl": "Ik heb dit in de Veda's gelezen." }
       },
       "com-e4": {
         "kind": "word-bank",
         "promptTranslations": { "nl": "Hij is buiten het huis." },
         "correctTargetTokens": ["Ū", "ghar", "ke", "bāhar", "hai."],
-        "distractorTokens": ["bhittar", "mem"]
+        "distractorTokens": ["bhittar", "meṁ"]
       }
     }
   },
@@ -95,7 +95,7 @@
       },
       {
         "id": "ex-p2-3",
-        "word": "Ŏkare hāthe mem chūrī rahā.",
+        "word": "Ŏkare hāthe meṁ chūrī rahā.",
         "translations": { "nl": "Hij had een mes in zijn hand." },
         "vocabRefs": ["post-mem"]
       }
@@ -116,7 +116,7 @@
       {
         "id": "gn-post-6",
         "title": "De uitgang -e",
-        "body": "Een achterzetsel kan een uitgang -e geven aan het naamwoord dat er direct vóór staat (en aan bijbehorende voornaamwoorden). Zo bestaat naast okar hāth mem ook de vorm ŏkare hāthe mem (in zijn hand). Deze -e is niet verplicht en mag ook worden weggelaten.",
+        "body": "Een achterzetsel kan een uitgang -e geven aan het naamwoord dat er direct vóór staat (en aan bijbehorende voornaamwoorden). Zo bestaat naast okar hāth meṁ ook de vorm ŏkare hāthe meṁ (in zijn hand). Deze -e is niet verplicht en mag ook worden weggelaten.",
         "relatedVocab": ["post-mem"]
       }
     ],
@@ -182,7 +182,7 @@
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "mem", "right": "in" },
+          { "left": "meṁ", "right": "in" },
           { "left": "se", "right": "met, door" },
           { "left": "ke uppar", "right": "boven" },
           { "left": "ke binā", "right": "zonder" },
@@ -193,13 +193,13 @@
         "kind": "word-bank",
         "promptTranslations": { "nl": "Hij is buiten het huis." },
         "correctTargetTokens": ["Ū", "ghar", "ke", "bāhar", "hai."],
-        "distractorTokens": ["bhittar", "mem"]
+        "distractorTokens": ["bhittar", "meṁ"]
       },
       "rev-e5": {
         "kind": "fill-blank",
         "sentenceTemplate": "Bed ___ ham ī batiyā parhle bāṭī.",
-        "correctAnswer": "mem",
-        "options": ["mem", "se", "par", "ke"],
+        "correctAnswer": "meṁ",
+        "options": ["meṁ", "se", "par", "ke"],
         "translations": { "nl": "Ik heb dit in de Veda's gelezen." }
       },
       "rev-e7": {
