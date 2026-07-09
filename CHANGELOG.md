@@ -19,6 +19,8 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-07-09
+
 ### Added
 
 - `content/sarnami/units/{unit-01-basics,unit-02-adjectives}.json`: opt-in,
