@@ -163,5 +163,30 @@
       "adv-kanti",
       "adv-parsis"
     ]
+  },
+  {
+    "id": "postpositions",
+    "title": "Achterzetsels",
+    "summary": "De gangbare achterzetsels en hoe ze aan naam- en voornaamwoorden vastzitten.",
+    "order": 8,
+    "body": "# Achterzetsels\n\nDe gangbare achterzetsels en hoe ze aan naam- en voornaamwoorden vastzitten.\n\n## Achterzetsel, geen voorzetsel\n\nHet Sarnami plaatst het achterzetsel ACHTER het woord waar het bij hoort — anders dan het Nederlands, dat een voorzetsel ervóór zet. Zo wordt 'in huis' letterlijk 'huis in': ghar meṁ. En 'op het huis' wordt ghar par. Onthoud dus: eerst het naam- of voornaamwoord, dan het achterzetsel.\n\n## De primaire achterzetsels\n\nEr zijn vier korte, primaire achterzetsels: meṁ (in), se (met, door, uit, aan), par of pe (op) en ke (van, aan). Ze bestaan uit één woordje en staan direct achter het naamwoord. Het achterzetsel se is bijzonder veelzijdig en dekt meerdere Nederlandse voorzetsels tegelijk.\n\n## Samengestelde achterzetsels met ke\n\nNaast de primaire achterzetsels bestaan er samengestelde vormen die met ke worden gebouwd: ke uppar (boven), ke nicce (onder), ke bhittar (binnen), ke bāhar (buiten). Ze geven vaak een plaats aan. Soms kan de ke wegvallen, maar in de standaardvorm staat hij er wel: ghar ke uppar (boven het huis).\n\n## Vastzitten aan het zelfstandig naamwoord\n\nEen achterzetsel volgt direct op het naamwoord waar het bij hoort. Bij de samengestelde vormen komt het hele blokje erachter: ghar ke lage (bij het huis), ghar ke āge (vóór het huis), ghar ke piche (achter het huis). De volgorde ligt vast — naamwoord eerst, dan het achterzetsel.\n\n## Met voornaamwoorden valt ke weg\n\nStaat een achterzetsel bij een persoonlijk voornaamwoord (ham, tū, ī, ū), dan neemt dat voornaamwoord de bezittelijke vorm aan en valt de ke weg. Zo wordt 'zonder mij' hamār binā (niet 'ham ke binā'), 'zonder jou' tor binā, en 'zonder hem/haar' ekar binā of okar binā. Hetzelfde patroon geldt voor de andere samengestelde achterzetsels: tor sāth (samen met jou).\n\n## De uitgang -e\n\nEen achterzetsel kan een uitgang -e geven aan het naamwoord dat er direct vóór staat (en aan bijbehorende voornaamwoorden). Zo bestaat naast okar hāth meṁ ook de vorm ŏkare hāthe meṁ (in zijn hand). Deze -e is niet verplicht en mag ook worden weggelaten.",
+    "relatedVocab": [
+      "post-mem",
+      "post-par",
+      "noun-ghar",
+      "post-se",
+      "post-ke",
+      "post-ke-uppar",
+      "post-ke-nicce",
+      "post-ke-bhittar",
+      "post-ke-bahar",
+      "post-ke-lage",
+      "post-ke-age",
+      "post-ke-piche",
+      "post-ke-bina",
+      "post-ke-sath",
+      "pron-ham",
+      "pron-tu"
+    ]
   }
 ]
