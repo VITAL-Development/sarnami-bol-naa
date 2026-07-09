@@ -223,5 +223,30 @@
       "verb-kate",
       "verb-hamse"
     ]
+  },
+  {
+    "id": "conjunctions",
+    "title": "Voegwoorden",
+    "summary": "Nevenschikkende en onderschikkende voegwoorden.",
+    "order": 10,
+    "body": "# Voegwoorden\n\nNevenschikkende en onderschikkende voegwoorden.\n\n## Nevenschikkende voegwoorden\n\nNevenschikkende voegwoorden verbinden gelijkwaardige zinnen of zinsdelen. De belangrijkste zijn aur ('en'; ook auro, au), baki ('maar') en yā ('of'; ook ki, ki to). Voor 'ofwel' gebruik je yā to. Twee voegwoorden komen in vaste paren voor (correlatief): kā … kā … ('zowel … als …') en nā … nā … ('noch … noch …'). Net als alle voegwoorden zijn ze onverbuigbaar.\n\n## Onderschikkende voegwoorden\n\nOnderschikkende voegwoorden leiden een bijzin in die ondergeschikt is aan de hoofdzin. Veelgebruikt zijn ki ('dat'), jo ('als, indien'; ook ja), kāhe se ('omdat, want'; volledige vorm kāhe se ki), jaune ('opdat, zodat'; ook jame, jeme), jab se ('sinds, sedert') en jab talak ('zolang'; ook jab tak). Met cāhe druk je 'ook al / hoewel' uit.\n\n## Correlatieve paren en woordvolgorde\n\nSommige onderschikkende voegwoorden werken samen met een correlaat in de hoofdzin. Bij een voorwaarde staat jo … to ('indien … dan'): Jo bariś hoī, to ham nā āb ('Als het regent, dan kom ik niet'). Andere vaste verbindingen zijn nahīṁ to ('anders') en tabbo ('toch'). De bijzin met het voegwoord kan vóór of ná de hoofdzin staan; het correlaat (to, tab) opent dan de hoofdzin.",
+    "relatedVocab": [
+      "struct-en",
+      "struct-maar",
+      "struct-of",
+      "conj-ofwel",
+      "conj-zowel-als",
+      "conj-noch-noch",
+      "struct-dat",
+      "struct-als",
+      "struct-omdat",
+      "conj-zodat",
+      "conj-zolang",
+      "conj-ookal",
+      "struct-sinds",
+      "struct-dan",
+      "struct-anders",
+      "struct-toch"
+    ]
   }
 ]
