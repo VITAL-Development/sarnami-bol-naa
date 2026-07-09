@@ -2,17 +2,50 @@
   {
     "id": "nouns",
     "title": "Zelfstandige naamwoorden",
-    "summary": "Geslacht en getal van naamwoorden in het Sarnami.",
+    "summary": "Geslacht, getal (enkelvoud/meervoud) en functie (achterzetsels in plaats van naamvallen) van naamwoorden in het Sarnami.",
     "order": 1,
-    "body": "# Zelfstandige naamwoorden\n\nSarnami-naamwoorden hebben een mannelijk of vrouwelijk geslacht. Het geslacht is niet altijd af te leiden uit de vorm, dus leer het per woord.\n\nHet meervoud wordt meestal gevormd door verbuiging van de uitgang; sommige naamwoorden blijven onveranderd en krijgen hun getal uit de context.\n\n> Placeholder-inhoud voor de scaffold. De echte tekst wordt gestructureerd overgenomen uit de byakaran-hoofdstukken van de leertaal-repo (`docs/byakaran/*.md`).",
-    "relatedVocab": []
+    "body": "# Zelfstandige naamwoorden\n\n## Geslacht\n\nAnders dan in het Hindi speelt het geslacht in het Sarnami **nauwelijks een rol** in de verbuiging. Je hoeft bij een woord niet te leren of het mannelijk of vrouwelijk is. Het onderscheid mannelijk (*-ā*) tegenover vrouwelijk (*-ī*) wordt vooral gebruikt om mannelijke en vrouwelijke personen en dieren te benoemen:\n\n| mannelijk | vrouwelijk | betekenis |\n|---|---|---|\n| laundā | chaumṛī | een jongen / een meisje |\n| nānā | nanī | grootvader / grootmoeder |\n| gadahā | gadahī | een ezel / een ezelin |\n\nBijvoeglijke naamwoorden en werkwoorden veranderen **niet** mee met het geslacht. Waar geen apart vrouwelijk woord bestaat, wordt de vrouwelijke vorm gevormd door *-ā* → *-ī* (māmā → māmī) of door toevoeging van *-in/-nī/-ini* (dulahā → dulahin). Let op onverwachte betekenissen: *laundā* 'jongen' maar *laundī* 'hoertje'.\n\n## Enkelvoud en meervoud\n\nAls meervoud kan optreden: de **kale enkelvoudsvorm** zelf, óf het woord uitgebreid met **-(a)n**. Welke vorm verschijnt, hangt af van de functie van het woord in de zin.\n\n| enkelvoud | meervoud | betekenis |\n|---|---|---|\n| ghoṛā / ghŏṛvā | ghoṛan / ghŏṛvan | het paard / de paarden |\n\n- *Ghŏṛvā khāt bā* — Het paard eet\n- *Ghŏṛvan khāt bāteṃ* — De paarden eten\n\n## Functie: geen naamvallen, maar achterzetsels\n\nHet Sarnami kent **geen naamvallen** zoals het Latijn of Sanskrit. De functie van een woord (onderwerp, lijdend voorwerp, meewerkend voorwerp, bezit …) wordt uitgedrukt met **achterzetsels** — wat in het Nederlands de voorzetsels zijn, maar dan áchter het woord. Twee veelgebruikte:\n\n- **ke** — bezit, meewerkend en (nadrukkelijk) lijdend voorwerp: *ghorā ke pīṭhī* (de rug ván een paard), *gāī ke pānī dai de* (geef de koe water).\n- **se** — middel en herkomst: *chūrī se kāṭ!* (snijd met een mes), *darbavā se gir paṛal* (viel van het hok).",
+    "relatedVocab": [
+      "noun-launda",
+      "noun-chaumri",
+      "noun-nana",
+      "noun-nani",
+      "noun-gadaha",
+      "noun-ghora",
+      "noun-gai",
+      "noun-churi"
+    ]
+  },
+  {
+    "id": "numerals",
+    "title": "Telwoorden",
+    "summary": "De hoofdtelwoorden (0–10 en hoger) en hun gebruik, plus de versterkende telpartikels -go/-ṭho en de rangtelwoorden.",
+    "order": 2,
+    "body": "# Telwoorden\n\n## Hoofdtelwoorden\n\n| getal | telwoord | getal | telwoord |\n|---|---|---|---|\n| 0 | sunnā | 6 | chau |\n| 1 | ek | 7 | sāt |\n| 2 | dūi | 8 | āṭh |\n| 3 | tīn | 9 | nau |\n| 4 | cār | 10 | das |\n| 5 | pāṃc | 100 | sau |\n\nHogerop: *bīs* (20), *tīs* (30), *(ek) hajār* (1.000), *(ek) lākh* (100.000), *(ek) kaṛor* (10.000.000). De getallen 29, 39, 49 … kunnen ook met een aftrekvorm: *ek kam tīs* = 'dertig min één' (29).\n\n## Gebruik\n\nEen hoofdtelwoord kan **zelfstandig** een getal aangeven of als **bijvoeglijk naamwoord** een zelfstandigheid bepalen. Bij het tellen van een naamwoord worden ze vaak versterkt met *-go*, *-ṭho*, *-ṭhe* of *-ṭhi*:\n\n- *Rajavā sāt go/ṭho cor ke marvā deis rahā* — De koning had zeven dieven laten terechtstellen\n- *Gopāl tīn ṭhe ām ṭurle bā* — Gopal heeft drie manjes geplukt\n\nHeel gebruikelijk is *ego* (= *ek* + *go*), dat ook dienstdoet als onbepaald lidwoord 'een'. De nadrukvormen *tīne* ('slechts drie') en *tīno* ('al de drie') komen ook voor.\n\n## Rangtelwoorden\n\nDe rangtelwoorden (de hoeveelste?) zijn onder meer *pahil* (de eerste), *dūsar* (de tweede) en *tīsarā* (de derde); de overige worden gevormd met *-vā* achter de stam, bijvoorbeeld *sātvā* (de zevende).",
+    "relatedVocab": [
+      "num-sunna",
+      "num-ek",
+      "num-dui",
+      "num-tin",
+      "num-car",
+      "num-panc",
+      "num-chau",
+      "num-sat",
+      "num-ath",
+      "num-nau",
+      "num-das",
+      "num-sau"
+    ]
   },
   {
     "id": "verb-to-be",
     "title": "Het koppelwerkwoord 'zijn' (hai)",
     "summary": "Vervoeging van hai in de tegenwoordige tijd.",
-    "order": 2,
+    "order": 3,
     "body": "# Het koppelwerkwoord 'zijn' (hai)\n\nHet werkwoord *hai* betekent 'is/ben/bent'. De tegenwoordige tijd:\n\n- ham hai — ik ben\n- tū hai — jij bent\n- ī/ū hai — hij/zij is\n- ham log haiṁ — wij zijn\n- tū log hai — jullie zijn\n- āp ho — u bent (beleefd)\n- ī/ū sab haiṁ — zij zijn\n\nDe ontkenning gebruikt *nā* ('niet').\n\n> Placeholder-inhoud voor de scaffold, ontleend aan de bestaande grammatica-vocabulaire (zie `content/sarnami/vocab/grammar.json`).",
-    "relatedVocab": ["gram-hai", "gram-na"]
+    "relatedVocab": [
+      "gram-hai",
+      "gram-na"
+    ]
   }
 ]
