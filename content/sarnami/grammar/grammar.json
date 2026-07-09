@@ -284,5 +284,23 @@
       "loan-lesiyai",
       "loan-setiyave"
     ]
+  },
+  {
+    "id": "word-formation",
+    "title": "Woordvorming",
+    "summary": "Afleidingssuffixen en hoe woorden gevormd worden.",
+    "order": 13,
+    "body": "# Woordvorming\n\nAfleidingssuffixen en hoe woorden gevormd worden.\n\n## Afleiden met achtervoegsels\n\nMet voor- en achtervoegsels maak je van bestaande woorden en woordstammen nieuwe woorden. Vier veelvoorkomende achtervoegsels: -akkaṛ vormt een gewoontedoener (ghum- 'rondtrekken' → ghumakkaṛ 'een zwerver'); -ār vormt een beroepsnaam (lŏhā 'ijzer' → lŏhār 'een smid'); -āī vormt een abstract zelfstandig naamwoord, vaak te vertalen met '-heid' of een handeling (sāf 'schoon' → safāī 'netheid'); -vāl(-ā) betekent 'degene met of van X' (ṭopī 'hoed' → ṭopī-vālā 'de man met de hoed'). Herken je het achtervoegsel, dan raad je vaak de betekenis van een onbekend woord.\n\n## Achtervoegsels van Arabisch-Perzische oorsprong\n\nEen deel van de Sarnami-woordvorming komt uit het Arabisch en Perzisch. Het achtervoegsel -dār betekent 'bezittend, houder van' (dukān 'winkel' → dukāndār 'een winkelier'; imān 'eer' → imāndār 'eerlijk'); -gar vormt een maker of doener (jādū 'toverkunst' → jādūgar 'een goochelaar'; kār 'werk' → kārīgar 'een vakman'); -khānā betekent 'huis, plaats' (davā 'medicijn' → davā-khānā 'een apotheek'; chap 'druk' → chapkhānā 'een drukkerij').\n\n## Voorvoegsels van Arabisch-Perzische oorsprong\n\nDezelfde bron levert ook ontkennende voorvoegsels. Het voorvoegsel be- betekent 'zonder, -loos' (cain 'rust' → becain 'radeloos'); nā- betekent 'on-, niet' (lāyak 'geschikt' → nā-lāyak 'ongeschikt'); bad- betekent 'slecht-' (nām 'naam' → badnāmī 'oneer'). Met deze voorvoegsels vorm je makkelijk het tegendeel van een woord.",
+    "relatedVocab": [
+      "wf-ghumakkar",
+      "wf-lohar",
+      "wf-safai",
+      "wf-topivala",
+      "wf-imandar",
+      "wf-jadugar",
+      "wf-davakhana",
+      "wf-becain",
+      "wf-nalayak"
+    ]
   }
 ]
