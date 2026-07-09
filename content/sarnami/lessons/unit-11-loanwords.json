@@ -20,17 +20,31 @@
       "dutch-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent 'bel kare'?",
+        "promptTranslations": {
+          "nl": "Wat betekent 'bel kare'?",
+          "en": "What does 'bel kare' mean?"
+        },
         "options": [
           "opbellen",
           "kloppen",
           "helpen",
           "wachten"
         ],
+        "optionTranslations": [
+          { "nl": "opbellen", "en": "to call up" },
+          { "nl": "kloppen", "en": "to knock" },
+          { "nl": "helpen", "en": "to help" },
+          { "nl": "wachten", "en": "to wait" }
+        ],
         "correctIndex": 0
       },
       "dutch-e2": {
         "kind": "multiple-choice",
         "prompt": "Met welk hulpwerkwoord maak je van een leenwoord de lijdende vorm (bv. 'geholpen worden')?",
+        "promptTranslations": {
+          "nl": "Met welk hulpwerkwoord maak je van een leenwoord de lijdende vorm (bv. 'geholpen worden')?",
+          "en": "With which auxiliary verb do you form the passive of a loanword (e.g. 'to be helped')?"
+        },
         "options": [
           "hove",
           "kare",
@@ -42,11 +56,11 @@
       "dutch-e3": {
         "kind": "matching",
         "pairs": [
-          { "left": "klop kare", "right": "kloppen" },
-          { "left": "uitleg kare", "right": "uitleggen" },
-          { "left": "help kare", "right": "helpen" },
-          { "left": "wachti kare", "right": "wachten" },
-          { "left": "mooi kare", "right": "mooi maken" }
+          { "left": "klop kare", "right": "kloppen", "rightTranslations": { "nl": "kloppen", "en": "to knock" } },
+          { "left": "uitleg kare", "right": "uitleggen", "rightTranslations": { "nl": "uitleggen", "en": "to explain" } },
+          { "left": "help kare", "right": "helpen", "rightTranslations": { "nl": "helpen", "en": "to help" } },
+          { "left": "wachti kare", "right": "wachten", "rightTranslations": { "nl": "wachten", "en": "to wait" } },
+          { "left": "mooi kare", "right": "mooi maken", "rightTranslations": { "nl": "mooi maken", "en": "to make beautiful" } }
         ]
       }
     }
@@ -72,6 +86,10 @@
       "other-e1": {
         "kind": "multiple-choice",
         "prompt": "Van welk Engels woord komt 'don kare' (afmaken)?",
+        "promptTranslations": {
+          "nl": "Van welk Engels woord komt 'don kare' (afmaken)?",
+          "en": "Which English word does 'don kare' (to finish) come from?"
+        },
         "options": [
           "done",
           "down",
@@ -83,22 +101,32 @@
       "other-e2": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent de nieuwvorming 'lĕsiyāī'?",
+        "promptTranslations": {
+          "nl": "Wat betekent de nieuwvorming 'lĕsiyāī'?",
+          "en": "What does the neologism 'lĕsiyāī' mean?"
+        },
         "options": [
           "luieren",
           "ordenen",
           "strijken",
           "huren"
         ],
+        "optionTranslations": [
+          { "nl": "luieren", "en": "to laze" },
+          { "nl": "ordenen", "en": "to arrange" },
+          { "nl": "strijken", "en": "to iron" },
+          { "nl": "huren", "en": "to rent" }
+        ],
         "correctIndex": 0
       },
       "other-e3": {
         "kind": "matching",
         "pairs": [
-          { "left": "lās kare", "right": "verliezen" },
-          { "left": "boro kare", "right": "boren" },
-          { "left": "yūrū kare", "right": "huren" },
-          { "left": "trīkī kare", "right": "strijken" },
-          { "left": "sĕtiyāve", "right": "ordenen" }
+          { "left": "lās kare", "right": "verliezen", "rightTranslations": { "nl": "verliezen", "en": "to lose" } },
+          { "left": "boro kare", "right": "boren", "rightTranslations": { "nl": "boren", "en": "to drill" } },
+          { "left": "yūrū kare", "right": "huren", "rightTranslations": { "nl": "huren", "en": "to rent" } },
+          { "left": "trīkī kare", "right": "strijken", "rightTranslations": { "nl": "strijken", "en": "to iron" } },
+          { "left": "sĕtiyāve", "right": "ordenen", "rightTranslations": { "nl": "ordenen", "en": "to arrange" } }
         ]
       }
     }
@@ -111,6 +139,10 @@
       "rev-e1": {
         "kind": "multiple-choice",
         "prompt": "Met welke twee hulpwerkwoorden worden leenwoorden tot Sarnami-werkwoorden gemaakt?",
+        "promptTranslations": {
+          "nl": "Met welke twee hulpwerkwoorden worden leenwoorden tot Sarnami-werkwoorden gemaakt?",
+          "en": "With which two auxiliary verbs are loanwords turned into Sarnami verbs?"
+        },
         "options": [
           "kare en hove",
           "hai en bā",
@@ -122,16 +154,16 @@
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "bel kare", "right": "opbellen" },
-          { "left": "boro kare", "right": "boren" },
-          { "left": "don kare", "right": "afmaken" },
-          { "left": "lĕsiyāī", "right": "luieren" },
-          { "left": "būṭū bhare", "right": "een boete betalen" }
+          { "left": "bel kare", "right": "opbellen", "rightTranslations": { "nl": "opbellen", "en": "to call up" } },
+          { "left": "boro kare", "right": "boren", "rightTranslations": { "nl": "boren", "en": "to drill" } },
+          { "left": "don kare", "right": "afmaken", "rightTranslations": { "nl": "afmaken", "en": "to finish" } },
+          { "left": "lĕsiyāī", "right": "luieren", "rightTranslations": { "nl": "luieren", "en": "to laze" } },
+          { "left": "būṭū bhare", "right": "een boete betalen", "rightTranslations": { "nl": "een boete betalen", "en": "to pay a fine" } }
         ]
       },
       "rev-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Hoe zeg je 'kloppen' (leenwoord met het hulpwerkwoord voor de bedrijvende vorm)?" },
+        "promptTranslations": { "nl": "Hoe zeg je 'kloppen' (leenwoord met het hulpwerkwoord voor de bedrijvende vorm)?", "en": "How do you say 'to knock' (loanword with the auxiliary verb for the active form)?" },
         "correctTargetTokens": ["klop", "kare"],
         "distractorTokens": ["hove", "bel"]
       },
@@ -140,11 +172,15 @@
         "sentenceTemplate": "'Huren' heet in het Sarnami ___ kare.",
         "correctAnswer": "yūrū",
         "options": ["yūrū", "boro", "trīkī", "morsū"],
-        "translations": { "nl": "'Huren' heet in het Sarnami yūrū kare." }
+        "translations": { "nl": "'Huren' heet in het Sarnami yūrū kare.", "en": "'To rent' in Sarnami is yūrū kare." }
       },
       "rev-e7": {
         "kind": "multiple-choice",
         "prompt": "De nieuwvorming 'lĕsiyāī' (luieren) gaat terug op welk Engels woord?",
+        "promptTranslations": {
+          "nl": "De nieuwvorming 'lĕsiyāī' (luieren) gaat terug op welk Engels woord?",
+          "en": "The neologism 'lĕsiyāī' (to laze) goes back to which English word?"
+        },
         "options": [
           "lazy",
           "lousy",

@@ -1,6 +1,10 @@
 {
   "id": "unit-11-loanwords",
   "title": "Leenwoorden & nieuwvormingen",
+  "titleTranslations": {
+    "nl": "Leenwoorden & nieuwvormingen",
+    "en": "Loanwords & neologisms"
+  },
   "description": "Leenwoorden uit het Nederlands, Sranantongo e.a., en nieuwvormingen.",
   "order": 12,
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/09-loan-words-and-neologisms.md",
@@ -10,6 +14,10 @@
       "unitId": "unit-11-loanwords",
       "order": 1,
       "title": "Nederlandse leenwoorden",
+      "titleTranslations": {
+        "nl": "Nederlandse leenwoorden",
+        "en": "Dutch loanwords"
+      },
       "description": "Leenwoorden uit het Nederlands.",
       "newVocab": [
         "loan-bel",
@@ -63,6 +71,10 @@
       "unitId": "unit-11-loanwords",
       "order": 2,
       "title": "Sranantongo & overige leenwoorden",
+      "titleTranslations": {
+        "nl": "Sranantongo & overige leenwoorden",
+        "en": "Sranantongo & other loanwords"
+      },
       "description": "Leenwoorden uit het Sranantongo en andere talen, en nieuwvormingen.",
       "newVocab": [
         "loan-don",
@@ -117,6 +129,10 @@
       "unitId": "unit-11-loanwords",
       "order": 3,
       "title": "Herhaling",
+      "titleTranslations": {
+        "nl": "Herhaling",
+        "en": "Review"
+      },
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [
