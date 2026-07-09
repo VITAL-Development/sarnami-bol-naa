@@ -34,6 +34,7 @@ which point they move under a dated `## [X.Y.Z]` heading.
 - Grammar-reference note `about-sarnami` ("Over het Sarnami") for `unit-00-about-sarnami` in `content/sarnami/grammar/grammar.json` (served by `GET /grammar`): consolidates the unit's per-lesson grammar notes into one browsable reference entry so the PWA grammar screen covers this unit. Part of #153.
 - Grammar-reference note `sounds` ("Klanken & uitspraak") for `unit-03-sounds` in `content/sarnami/grammar/grammar.json` (served by `GET /grammar`): consolidates the unit's per-lesson grammar notes into one browsable reference entry so the PWA grammar screen covers this unit. Part of #153.
 - Grammar-reference note `basics` ("Basis") for `unit-01-basics` in `content/sarnami/grammar/grammar.json` (served by `GET /grammar`): consolidates the unit's per-lesson grammar notes into one browsable reference entry so the PWA grammar screen covers this unit. Part of #153.
+- Grammar-reference note `pronouns` ("Voornaamwoorden") for `unit-05-pronouns` in `content/sarnami/grammar/grammar.json` (served by `GET /grammar`): consolidates the unit's per-lesson grammar notes into one browsable reference entry so the PWA grammar screen covers this unit. Part of #153.
 
 ## [0.2.0] - 2026-07-09
 

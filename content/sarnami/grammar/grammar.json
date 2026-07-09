@@ -91,5 +91,34 @@
     "relatedVocab": [
       "gram-hai"
     ]
+  },
+  {
+    "id": "pronouns",
+    "title": "Voornaamwoorden",
+    "summary": "Bezittelijke, aanwijzende, vragende en betrekkelijke voornaamwoorden.",
+    "order": 5,
+    "body": "# Voornaamwoorden\n\nBezittelijke, aanwijzende, vragende en betrekkelijke voornaamwoorden.\n\n## Bezittelijke voornaamwoorden\n\nDe bezittelijke voornaamwoorden staan in nauw verband met de persoonlijke voornaamwoorden: ze zijn terug te brengen op een combinatie van het persoonlijk voornaamwoord met kar of ke ('van'). Bij ham (ik) hoort hamār (mijn), bij tū (jij) hoort tor (jouw), en bij de 3e persoon ekar (zijn/haar, dichtbij de spreker) en okar (zijn/haar, van de spreker verwijderd). Voorbeeld: 'Hamār ghar hiṁyā se dūr nā hai' — Mijn huis is niet ver van hier.\n\n## Beleefde vormen: tŏṁhār en āpke\n\nOm beleefdheid uit te drukken bij de 2e persoon gebruikt het Sarnami de bezittelijke vormen tŏṁhār en āpke (uw). Let bij tŏṁhār op de breve boven de o (ŏ) en de nasale ṁ. Vergelijk: tor ghar (jouw huis, vertrouwelijk) tegenover tŏṁhār/āpke ghar (uw huis, beleefd).\n\n## Uitbreiding met -e vóór een achterzetsel\n\nWordt het door een bezittelijk voornaamwoord bepaalde zelfstandig naamwoord gevolgd door een achterzetsel (meṁ, se, ke, par ...), dan kunnen alle bezittelijke voornaamwoorden zonder betekenisverschil worden uitgebreid met -e: hamār wordt dan hamāre/hamare, tor wordt tore, ekar wordt ĕkare en okar wordt ŏkare. Voorbeeld: 'Ū hamāre ghar meṁ rahat rahā' — Hij/zij woonde in mijn huis.\n\n## Aanwijzend: ī (dit) en ū (dat)\n\nVoor de 3e persoon gebruikt het Sarnami de aanwijzende voornaamwoorden ī (dit, deze) en ū (dat, die). Het verschil geeft afstand tot de spreker aan: ī staat voor iets dichtbij de spreker, ū voor iets dat van de spreker verwijderd is. Dezelfde woorden betekenen ook 'hij/zij/het'. In het enkelvoud kunnen ī en ū versterkt worden met vāl(-ā): ī vālā — deze!\n\n## Verbogen vormen: eke en oke\n\nAls meewerkend of lijdend voorwerp krijgen de aanwijzende voornaamwoorden een verbogen vorm: eke (hem/haar, dichtbij) bij ī, en oke (hem/haar, veraf) bij ū. Voorbeeld: 'Oke tū etnā bisvās na karal kariye' — Je moet hem/haar niet zoveel vertrouwen.\n\n## Beleefdheid en meervoud: inhan en unhan\n\nIn de beleefdheidsvorm en het meervoud gebruikt men inhan (zij, dichtbij) en unhan (zij, veraf). In het gewone meervoud kan aan ī en ū ook sab(han), log(an) of loṅ worden toegevoegd (bv. ī sab — zij).\n\n## Vragend: ke, kaun en kā\n\nVragende voornaamwoorden vragen naar personen en zaken. Naar personen: ke (wie) wordt zelfstandig gebruikt bij een vertrouwde band met de spreker, terwijl kaun (wie, welke) zowel zelfstandig als bijvoegelijk gebruikt wordt en afstandelijkheid — ook deftigheid — uitdrukt. Naar zaken vraagt men met kā (wat), zelfstandig en neutraal gebruikt. Voorbeeld: 'Ke āil hai?' — Wie is er gekomen? / 'Kā lāis hai?' — Wat heeft hij meegebracht?\n\n## kaunci en kekar\n\nNaast kā bestaat kaunci (wat), een samenkoppeling van kaun + cīj ('wat voor een ding?'). Bijvoegelijk gebruikt vraagt kekar naar bezit: 'Tū kekar jūtā pahinle bāṭe?' — Wiens schoenen heb je aan? Het meervoud ontstaat door verdubbeling: ke-ke, kaune-kaune, kekar-kekar.\n\n## Betrekkelijk: jaun, je en jekar\n\nBetrekkelijke voornaamwoorden verwijzen terug naar iets dat genoemd is. jaun (die, welke) wordt gebruikt voor personen én niet-personen; je (die, wie) wordt als onderwerp of lijdend voorwerp uitsluitend voor personen gebruikt, met de bezittelijke vorm jekar (van wie, wiens). Voorbeeld: 'Ū adamiyā jaun humvā cale hai hamār māmā hai' — De man die daar loopt, is mijn oom.",
+    "relatedVocab": [
+      "pron-hamar",
+      "pron-tor",
+      "pron-ekar",
+      "pron-okar",
+      "pron-tomhar",
+      "pron-apke",
+      "pron-i",
+      "pron-u",
+      "pron-eke",
+      "pron-oke",
+      "pron-inhan",
+      "pron-unhan",
+      "pron-ke",
+      "pron-kaun",
+      "pron-ka",
+      "pron-kaunci",
+      "pron-kekar",
+      "pron-jaun",
+      "pron-je",
+      "pron-jekar"
+    ]
   }
 ]
