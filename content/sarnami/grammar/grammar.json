@@ -302,5 +302,34 @@
       "wf-becain",
       "wf-nalayak"
     ]
+  },
+  {
+    "id": "reading",
+    "title": "Lezen: teksten & fabels",
+    "summary": "Gegradeerd leesbegrip over de fabels en teksten uit de bijlagen.",
+    "order": 14,
+    "body": "# Lezen: teksten & fabels\n\nGegradeerd leesbegrip over de fabels en teksten uit de bijlagen.\n\n## Tekst 1: Nātī aur nānī ke khissā\n\nDit is een Sarnami volksverhaal uit de bijlagen van de grammatica — 'Het verhaal van de grootmoeder en de kleinzoon'. Het staat in de wetenschappelijke romanisatie met diacritische tekens, precies zoals je die in eerdere eenheden hebt geleerd. Leesstrategie: lees eerst de Sarnami-zin hardop; herken de verbindingswoorden die je al kent — aur (en), tab (dan/toen), phir (weer), baki (maar) — en raad de rest uit de context. Controleer daarna pas de Nederlandse vertaling.\n\n## Het begin van de passage\n\nTo aise ego nātī rahā aur ego nānī. Natiyā naniyā lage rahat rahā. — 'Zo was er eens een kleinzoon en zijn grootmoeder. De kleinzoon woonde bij zijn grootmoeder.' Op een dag stuurt de nānī hem met wat bhūjā (gepofte graankorrels) de bakarī (geiten) hoeden: 'E beṭā, tū le etanā bhūjā aur jā bakariyan carāi ke phir sañjhā ke let' aiye.' Let op de bepaalde vorm op -ā: nātī → natiyā, bakarī → bakariyan.\n\n## Sleutelwoorden\n\nDe kern van de plot draait om een paar nieuwe zelfstandige naamwoorden: bakarī (geit), peṛ (boom, waarin de jongen klimt) en bhūjā (het geroosterde graan dat hij opeet). Terwijl hij in de peṛ zit, ziet hij de geiten hun bek bewegen (ze herkauwen) en denkt ten onrechte dat ze hem treiteren — met rampzalige gevolgen. Het huis (ghar) van de nānī brandt uiteindelijk tot as af.\n\n## Tekst 2: Herāil beṭavā\n\nDe tweede tekst is een bijbelse gelijkenis, in het Sarnami naverteld — 'De verloren zoon'. Ook deze staat in de wetenschappelijke romanisatie. De titel bevat meteen twee bouwstenen: herāil ('verloren, kwijtgeraakt') en beṭavā, de bepaalde vorm van beṭā (zoon). Leesstrategie voor een langere tekst: hak elke zin in stukken rond de verbindingswoorden jab (toen), tab (dan) en baki (maar).\n\n## Het begin van de passage\n\nEk jane ke dūī bĕṭavā rahā. Chŏtkavā bĕṭauvā āpan bāp se ek din bole: 'E bāp, dhan meṁ se jaun hamār hissā hoī, taun hamme dai de!' — 'Een man had twee zonen. De jongere zoon zei op een dag tegen zijn vader: O, vader, geef mij uit uw rijkdom het deel dat mij toekomt.' Kernwoorden: bāp (vader), dhan (rijkdom, bezit). De zoon vertrekt naar het buitenland en verkwist daar al het dhan.\n\n## Sleutelwoorden en afloop\n\nAls het geld op is en er hongersnood komt, moet de zoon bij een vreemde de varkens hoeden. Hij komt tot inkeer, keert terug en bekent: 'Bhagavān ke aur tohare āge hamse bhārī pāp bhail' — 'tegenover God en u heb ik een grote zonde (pāp) begaan'. De vader onthaalt hem toch feestelijk, tot ergernis van de oudere broer, die er juist op wijst dat hij altijd trouw als een naukar (bediende) heeft gediend.\n\n## Tekst 3: Canak siyar\n\nDe derde tekst is de fabel 'De slimme vos' (Canak siyar). Belangrijk voor je leesstrategie: deze fabel is gezet in de vereenvoudigde SCS-spelling — de populaire spelling zónder diacritische tekens. Waar je eerder nātī en bakarī met macrons zag, schrijft deze tekst gewoon nati en bakari. De klanken blijven gelijk; alleen de streepjes en puntjes ontbreken.\n\n## Het begin van de passage\n\nEgo siyar aur ego kaimanin men bahut dosti raha. Rat din barobbar dunu ek sathe rahe. — 'Er waren eens een vos (siyar) en een kaaiman (kaimanin) die dikke vrienden waren. Dag en nacht waren ze samen.' Na een ruzie wordt de vriendschap vijandschap: de kaimanin gaat de rivier (nadi) in, de siyar het bos (jangal) in, en telkens verschalkt de vos de kaaiman.\n\n## De moraal: akkil tegen tagat\n\nDe hele fabel draait om een tegenstelling die de kaaiman zelf benoemt: 'Toke dehin ke tagat ba aur hamke akkil ke' — 'Jij hebt de kracht van het lichaam en ik het verstand.' De slotzin vat de moraal samen: Akkil ke age tagat kuch na kam kar sake hai! — 'Tegen verstand (akkil) kan kracht (tagat) niets uitrichten.'",
+    "relatedVocab": [
+      "read-nati",
+      "read-nani",
+      "struct-en",
+      "struct-dan",
+      "struct-weer",
+      "read-bhuja",
+      "read-bakari",
+      "read-per",
+      "noun-ghar",
+      "read-beta",
+      "read-bap",
+      "struct-maar",
+      "read-dhan",
+      "read-pap",
+      "read-naukar",
+      "read-siyar",
+      "read-kaiman",
+      "read-jangal",
+      "read-akkil",
+      "read-tagat"
+    ]
   }
 ]
