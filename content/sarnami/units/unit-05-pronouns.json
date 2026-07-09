@@ -1,6 +1,7 @@
 {
   "id": "unit-05-pronouns",
   "title": "Voornaamwoorden",
+  "titleTranslations": { "nl": "Voornaamwoorden", "en": "Pronouns" },
   "description": "Bezittelijke, aanwijzende, vragende en betrekkelijke voornaamwoorden.",
   "order": 5,
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/03-pronouns.md",
@@ -10,6 +11,7 @@
       "unitId": "unit-05-pronouns",
       "order": 1,
       "title": "Bezittelijke voornaamwoorden",
+      "titleTranslations": { "nl": "Bezittelijke voornaamwoorden", "en": "Possessive pronouns" },
       "description": "Bezittelijke voornaamwoorden in het Sarnami.",
       "newVocab": [
         "pron-hamar",
@@ -65,6 +67,7 @@
       "unitId": "unit-05-pronouns",
       "order": 2,
       "title": "Aanwijzende voornaamwoorden",
+      "titleTranslations": { "nl": "Aanwijzende voornaamwoorden", "en": "Demonstrative pronouns" },
       "description": "Aanwijzende voornaamwoorden.",
       "newVocab": [
         "pron-i",
@@ -119,6 +122,7 @@
       "unitId": "unit-05-pronouns",
       "order": 3,
       "title": "Vragende & betrekkelijke voornaamwoorden",
+      "titleTranslations": { "nl": "Vragende & betrekkelijke voornaamwoorden", "en": "Interrogative & relative pronouns" },
       "description": "Vragende en betrekkelijke voornaamwoorden.",
       "newVocab": [
         "pron-ke",
@@ -171,6 +175,7 @@
       "unitId": "unit-05-pronouns",
       "order": 4,
       "title": "Herhaling",
+      "titleTranslations": { "nl": "Herhaling", "en": "Review" },
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [
