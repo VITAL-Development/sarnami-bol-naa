@@ -21,6 +21,13 @@ which point they move under a dated `## [X.Y.Z]` heading.
 
 ### Added
 
+- `content/sarnami/units/{unit-01-basics,unit-02-adjectives}.json`: opt-in,
+  id-keyed `generatedSpec` on the two units' review lessons
+  (`lesson-5-review`, `lesson-9-adjectives-review`) — additive, the fixed
+  `exercises` arrays are left in place — so the seeded exercise-arrangement
+  generator (rarelang-server#37) can serve a freshly varied exercise mix on
+  each replay. Every id is a foreign key into this repo's own vocab; no
+  content text moves into the engine (#147).
 - `settings/sarnami/language-settings.json`: documented the anusvara `ṁ`
   (nasalization of the preceding vowel) in `romanization.diacritics`, alongside
   the existing `ñ`/`ṅ` nasals, so the correct nasal is discoverable and content
