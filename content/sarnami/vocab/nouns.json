@@ -3,8 +3,7 @@
     "id": "noun-ghar",
     "word": "ghar",
     "translations": {
-      "nl": "huis",
-      "en": "house"
+      "nl": "huis"
     },
     "tags": [
       "noun",
@@ -15,8 +14,7 @@
     "id": "noun-ghari",
     "word": "ghaṛī",
     "translations": {
-      "nl": "klok",
-      "en": "clock"
+      "nl": "klok"
     },
     "tags": [
       "noun",
@@ -27,8 +25,7 @@
     "id": "noun-maibap",
     "word": "māī-bāp",
     "translations": {
-      "nl": "ouders",
-      "en": "parents"
+      "nl": "ouders"
     },
     "notes": "Image-verified tegen p.22 (lopende tekst) en p.31 (samenstellingen, 1.5.1): macron op beide klinkers van māī.",
     "tags": [
@@ -40,8 +37,7 @@
     "id": "noun-bhai",
     "word": "bhāī",
     "translations": {
-      "nl": "broer",
-      "en": "brother"
+      "nl": "broer"
     },
     "notes": "Image-verified tegen p.31 (samenstelling bhāī-bahin, 1.5.1); de lopende tekst op p.22 schrijft dit woord daarentegen zonder macron (bhai).",
     "tags": [
@@ -53,8 +49,7 @@
     "id": "noun-bahin",
     "word": "bahin",
     "translations": {
-      "nl": "zus",
-      "en": "sister"
+      "nl": "zus"
     },
     "tags": [
       "noun",
@@ -65,8 +60,7 @@
     "id": "noun-maiya",
     "word": "maiyā",
     "translations": {
-      "nl": "moeder",
-      "en": "mother"
+      "nl": "moeder"
     },
     "tags": [
       "noun",
@@ -77,8 +71,7 @@
     "id": "noun-bappa",
     "word": "bappā",
     "translations": {
-      "nl": "vader",
-      "en": "father"
+      "nl": "vader"
     },
     "tags": [
       "noun",
