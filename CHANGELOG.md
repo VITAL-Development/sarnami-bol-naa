@@ -40,6 +40,7 @@ which point they move under a dated `## [X.Y.Z]` heading.
 - Grammar-reference note `postpositions` ("Achterzetsels") for `unit-07-postpositions` in `content/sarnami/grammar/grammar.json` (served by `GET /grammar`): consolidates the unit's per-lesson grammar notes into one browsable reference entry so the PWA grammar screen covers this unit. Part of #153.
 - Grammar-reference note `verbs` ("Werkwoorden") for `unit-08-verbs` in `content/sarnami/grammar/grammar.json` (served by `GET /grammar`): consolidates the unit's per-lesson grammar notes into one browsable reference entry so the PWA grammar screen covers this unit. Part of #153.
 - Grammar-reference note `conjunctions` ("Voegwoorden") for `unit-09-conjunctions` in `content/sarnami/grammar/grammar.json` (served by `GET /grammar`): consolidates the unit's per-lesson grammar notes into one browsable reference entry so the PWA grammar screen covers this unit. Part of #153.
+- Grammar-reference note `interjections` ("Tussenwerpsels") for `unit-10-interjections` in `content/sarnami/grammar/grammar.json` (served by `GET /grammar`): consolidates the unit's per-lesson grammar notes into one browsable reference entry so the PWA grammar screen covers this unit. Part of #153.
 
 ## [0.2.0] - 2026-07-09
 
