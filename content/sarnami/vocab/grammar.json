@@ -40,7 +40,8 @@
     "id": "gram-se",
     "word": "se",
     "translations": {
-      "nl": "dan (bij vergelijking)"
+      "nl": "dan (bij vergelijking)",
+      "en": "than (in comparison)"
     },
     "notes": "Vormt de vergrotende trap: ...se barkā hai (is groter dan...).",
     "tags": [
@@ -53,7 +54,8 @@
     "id": "gram-aur-compare",
     "word": "aur",
     "translations": {
-      "nl": "nog (meer)"
+      "nl": "nog (meer)",
+      "en": "even (more)"
     },
     "notes": "Versterkt de vergrotende trap samen met of in plaats van 'se'.",
     "tags": [
@@ -66,7 +68,8 @@
     "id": "gram-jada",
     "word": "jādā",
     "translations": {
-      "nl": "meer"
+      "nl": "meer",
+      "en": "more"
     },
     "notes": "Versterkt de vergrotende trap; sab se jādā vormt een sterke overtreffende trap.",
     "tags": [
@@ -79,7 +82,8 @@
     "id": "gram-sabse",
     "word": "sab se",
     "translations": {
-      "nl": "de meest-"
+      "nl": "de meest-",
+      "en": "the most-"
     },
     "notes": "Vormt de overtreffende trap: sab se dhanī (de rijkste).",
     "tags": [

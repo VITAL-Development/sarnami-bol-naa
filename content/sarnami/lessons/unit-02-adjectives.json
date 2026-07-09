@@ -33,17 +33,24 @@
       "l6-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent 'choṭā'?",
+        "promptTranslations": { "nl": "Wat betekent 'choṭā'?", "en": "What does 'choṭā' mean?" },
         "options": ["klein", "rood", "dun", "lekker"],
+        "optionTranslations": [
+          { "nl": "klein", "en": "small" },
+          { "nl": "rood", "en": "red" },
+          { "nl": "dun", "en": "thin" },
+          { "nl": "lekker", "en": "tasty" }
+        ],
         "correctIndex": 0
       },
       "l6-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "choṭā", "right": "klein" },
-          { "left": "lāl", "right": "rood" },
-          { "left": "sojhā", "right": "recht" },
-          { "left": "pātar", "right": "dun" },
-          { "left": "mīṭhā", "right": "lekker" }
+          { "left": "choṭā", "right": "klein", "rightTranslations": { "nl": "klein", "en": "small" } },
+          { "left": "lāl", "right": "rood", "rightTranslations": { "nl": "rood", "en": "red" } },
+          { "left": "sojhā", "right": "recht", "rightTranslations": { "nl": "recht", "en": "straight" } },
+          { "left": "pātar", "right": "dun", "rightTranslations": { "nl": "dun", "en": "thin" } },
+          { "left": "mīṭhā", "right": "lekker", "rightTranslations": { "nl": "lekker", "en": "tasty" } }
         ]
       },
       "l6-e3": {
@@ -51,11 +58,11 @@
         "sentenceTemplate": "Mahes ego ___ ghar kīnis hai.",
         "correctAnswer": "choṭā",
         "options": ["choṭā", "lāl", "pātar", "mīṭhā"],
-        "translations": { "nl": "Mahes heeft een huisje gekocht." }
+        "translations": { "nl": "Mahes heeft een huisje gekocht.", "en": "Mahes bought a little house." }
       },
       "l6-e5": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Mahes heeft het huisje gekocht." },
+        "promptTranslations": { "nl": "Mahes heeft het huisje gekocht.", "en": "Mahes bought the little house." },
         "correctTargetTokens": ["Mahes", "chŏṭkā", "gharvā", "kīnis", "hai."],
         "distractorTokens": ["lalkā", "miṭhkā"]
       }
@@ -95,21 +102,28 @@
       "l7-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent 'barkā'?",
+        "promptTranslations": { "nl": "Wat betekent 'barkā'?", "en": "What does 'barkā' mean?" },
         "options": ["groot", "lang", "goed", "zwart"],
+        "optionTranslations": [
+          { "nl": "groot", "en": "big" },
+          { "nl": "lang", "en": "long" },
+          { "nl": "goed", "en": "good" },
+          { "nl": "zwart", "en": "black" }
+        ],
         "correctIndex": 0
       },
       "l7-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "barkā", "right": "groot" },
-          { "left": "lammā", "right": "lang" },
-          { "left": "barhimyā", "right": "goed" },
-          { "left": "karikkā", "right": "zwart" }
+          { "left": "barkā", "right": "groot", "rightTranslations": { "nl": "groot", "en": "big" } },
+          { "left": "lammā", "right": "lang", "rightTranslations": { "nl": "lang", "en": "long" } },
+          { "left": "barhimyā", "right": "goed", "rightTranslations": { "nl": "goed", "en": "good" } },
+          { "left": "karikkā", "right": "zwart", "rightTranslations": { "nl": "zwart", "en": "black" } }
         ]
       },
       "l7-e3": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Die grote bomen." },
+        "promptTranslations": { "nl": "Die grote bomen.", "en": "Those big trees." },
         "correctTargetTokens": ["Ū", "barkāvan", "pervan."],
         "distractorTokens": ["chŏṭkā", "lalkā"]
       },
@@ -118,7 +132,7 @@
         "sentenceTemplate": "___ bakariyā.",
         "correctAnswer": "Karikkanī",
         "options": ["Karikkanī", "Lalkanī", "Chŏṭkanī", "Miṭhkanī"],
-        "translations": { "nl": "De zwarte geit." }
+        "translations": { "nl": "De zwarte geit.", "en": "The black goat." }
       }
     }
   },
@@ -156,6 +170,7 @@
       "l8-e1": {
         "kind": "multiple-choice",
         "prompt": "Hoe zeg je 'groter dan'?",
+        "promptTranslations": { "nl": "Hoe zeg je 'groter dan'?", "en": "How do you say 'bigger than'?" },
         "options": ["... se barkā", "... barkā se", "sab se barkā", "barkā-barkā"],
         "correctIndex": 0
       },
@@ -164,21 +179,21 @@
         "sentenceTemplate": "Hamār ghar tor ghar ___ barkā hai.",
         "correctAnswer": "se",
         "options": ["se", "aur", "sab", "jādā"],
-        "translations": { "nl": "Mijn huis is groter dan jouw huis." }
+        "translations": { "nl": "Mijn huis is groter dan jouw huis.", "en": "My house is bigger than your house." }
       },
       "l8-e3": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "In Suriname is hij de rijkste man." },
+        "promptTranslations": { "nl": "In Suriname is hij de rijkste man.", "en": "In Suriname he is the richest man." },
         "correctTargetTokens": ["Sarnām", "meṁ", "ī", "sab", "se", "dhanī", "adamī", "hai."],
         "distractorTokens": ["jādā", "aur"]
       },
       "l8-e4": {
         "kind": "matching",
         "pairs": [
-          { "left": "se", "right": "dan (bij vergelijking)" },
-          { "left": "aur", "right": "nog (meer)" },
-          { "left": "jādā", "right": "meer" },
-          { "left": "sab se", "right": "de meest-" }
+          { "left": "se", "right": "dan (bij vergelijking)", "rightTranslations": { "nl": "dan (bij vergelijking)", "en": "than (in comparison)" } },
+          { "left": "aur", "right": "nog (meer)", "rightTranslations": { "nl": "nog (meer)", "en": "even (more)" } },
+          { "left": "jādā", "right": "meer", "rightTranslations": { "nl": "meer", "en": "more" } },
+          { "left": "sab se", "right": "de meest-", "rightTranslations": { "nl": "de meest-", "en": "the most-" } }
         ]
       }
     }
@@ -191,22 +206,29 @@
       "l9-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent 'barkā'?",
+        "promptTranslations": { "nl": "Wat betekent 'barkā'?", "en": "What does 'barkā' mean?" },
         "options": ["groot", "klein", "dun", "recht"],
+        "optionTranslations": [
+          { "nl": "groot", "en": "big" },
+          { "nl": "klein", "en": "small" },
+          { "nl": "dun", "en": "thin" },
+          { "nl": "recht", "en": "straight" }
+        ],
         "correctIndex": 0
       },
       "l9-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "choṭā", "right": "klein" },
-          { "left": "lāl", "right": "rood" },
-          { "left": "barkā", "right": "groot" },
-          { "left": "se", "right": "dan (bij vergelijking)" },
-          { "left": "sab se", "right": "de meest-" }
+          { "left": "choṭā", "right": "klein", "rightTranslations": { "nl": "klein", "en": "small" } },
+          { "left": "lāl", "right": "rood", "rightTranslations": { "nl": "rood", "en": "red" } },
+          { "left": "barkā", "right": "groot", "rightTranslations": { "nl": "groot", "en": "big" } },
+          { "left": "se", "right": "dan (bij vergelijking)", "rightTranslations": { "nl": "dan (bij vergelijking)", "en": "than (in comparison)" } },
+          { "left": "sab se", "right": "de meest-", "rightTranslations": { "nl": "de meest-", "en": "the most-" } }
         ]
       },
       "l9-e3": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Mijn huis is groter dan jouw huis." },
+        "promptTranslations": { "nl": "Mijn huis is groter dan jouw huis.", "en": "My house is bigger than your house." },
         "correctTargetTokens": ["Hamār", "ghar", "tor", "ghar", "se", "barkā", "hai."],
         "distractorTokens": ["choṭā", "jādā"]
       },
@@ -215,7 +237,7 @@
         "sentenceTemplate": "Karikkanī ___.",
         "correctAnswer": "bakariyā",
         "options": ["bakariyā", "sariyā", "gaiyā", "chaumriyā"],
-        "translations": { "nl": "De zwarte geit." }
+        "translations": { "nl": "De zwarte geit.", "en": "The black goat." }
       }
     }
   }
