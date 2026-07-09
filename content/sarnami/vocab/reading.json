@@ -3,7 +3,8 @@
     "id": "read-nani",
     "word": "nānī",
     "translations": {
-      "nl": "grootmoeder (van moederskant)"
+      "nl": "grootmoeder (van moederskant)",
+      "en": "grandmother (maternal)"
     },
     "tags": [
       "reading",
@@ -17,7 +18,8 @@
     "id": "read-nati",
     "word": "nātī",
     "translations": {
-      "nl": "kleinzoon"
+      "nl": "kleinzoon",
+      "en": "grandson"
     },
     "tags": [
       "reading",
@@ -31,7 +33,8 @@
     "id": "read-bakari",
     "word": "bakarī",
     "translations": {
-      "nl": "geit"
+      "nl": "geit",
+      "en": "goat"
     },
     "tags": [
       "reading",
@@ -45,7 +48,8 @@
     "id": "read-per",
     "word": "peṛ",
     "translations": {
-      "nl": "boom"
+      "nl": "boom",
+      "en": "tree"
     },
     "tags": [
       "reading",
@@ -59,7 +63,8 @@
     "id": "read-bhuja",
     "word": "bhūjā",
     "translations": {
-      "nl": "gepofte graankorrels (droog geroosterd graan)"
+      "nl": "gepofte graankorrels (droog geroosterd graan)",
+      "en": "puffed grain (dry-roasted grain)"
     },
     "tags": [
       "reading",
@@ -73,7 +78,8 @@
     "id": "read-beta",
     "word": "beṭā",
     "translations": {
-      "nl": "zoon; ook aanspreekvorm 'jongen, kind'"
+      "nl": "zoon; ook aanspreekvorm 'jongen, kind'",
+      "en": "son; also a form of address 'boy, child'"
     },
     "tags": [
       "reading",
@@ -87,7 +93,8 @@
     "id": "read-bap",
     "word": "bāp",
     "translations": {
-      "nl": "vader"
+      "nl": "vader",
+      "en": "father"
     },
     "tags": [
       "reading",
@@ -101,7 +108,8 @@
     "id": "read-dhan",
     "word": "dhan",
     "translations": {
-      "nl": "rijkdom, bezit, geld"
+      "nl": "rijkdom, bezit, geld",
+      "en": "wealth, possessions, money"
     },
     "tags": [
       "reading",
@@ -115,7 +123,8 @@
     "id": "read-naukar",
     "word": "naukar",
     "translations": {
-      "nl": "bediende, knecht"
+      "nl": "bediende, knecht",
+      "en": "servant, manservant"
     },
     "tags": [
       "reading",
@@ -129,7 +138,8 @@
     "id": "read-pap",
     "word": "pāp",
     "translations": {
-      "nl": "zonde"
+      "nl": "zonde",
+      "en": "sin"
     },
     "tags": [
       "reading",
@@ -143,7 +153,8 @@
     "id": "read-siyar",
     "word": "siyar",
     "translations": {
-      "nl": "vos / jakhals"
+      "nl": "vos / jakhals",
+      "en": "fox / jackal"
     },
     "tags": [
       "reading",
@@ -157,7 +168,8 @@
     "id": "read-kaiman",
     "word": "kaiman",
     "translations": {
-      "nl": "kaaiman (krokodilachtige)"
+      "nl": "kaaiman (krokodilachtige)",
+      "en": "caiman (crocodilian)"
     },
     "tags": [
       "reading",
@@ -171,7 +183,8 @@
     "id": "read-akkil",
     "word": "akkil",
     "translations": {
-      "nl": "verstand, slimheid"
+      "nl": "verstand, slimheid",
+      "en": "wit, cleverness"
     },
     "tags": [
       "reading",
@@ -185,7 +198,8 @@
     "id": "read-tagat",
     "word": "tagat",
     "translations": {
-      "nl": "kracht, (lichamelijke) sterkte"
+      "nl": "kracht, (lichamelijke) sterkte",
+      "en": "strength, (physical) power"
     },
     "tags": [
       "reading",
@@ -199,7 +213,8 @@
     "id": "read-jangal",
     "word": "jangal",
     "translations": {
-      "nl": "bos, oerwoud"
+      "nl": "bos, oerwoud",
+      "en": "forest, jungle"
     },
     "tags": [
       "reading",
