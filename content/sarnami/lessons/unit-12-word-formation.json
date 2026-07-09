@@ -14,32 +14,34 @@
       "sfx-e1": {
         "kind": "matching",
         "pairs": [
-          { "left": "-akkaṛ", "right": "een gewoontedoener" },
-          { "left": "-ār", "right": "een beroepsnaam" },
-          { "left": "-āī", "right": "een abstract begrip (-heid)" },
-          { "left": "-vālā", "right": "degene met of van X" }
+          { "left": "-akkaṛ", "right": "een gewoontedoener", "rightTranslations": { "nl": "een gewoontedoener", "en": "a habitual doer" } },
+          { "left": "-ār", "right": "een beroepsnaam", "rightTranslations": { "nl": "een beroepsnaam", "en": "an occupational name" } },
+          { "left": "-āī", "right": "een abstract begrip (-heid)", "rightTranslations": { "nl": "een abstract begrip (-heid)", "en": "an abstract concept (-ness)" } },
+          { "left": "-vālā", "right": "degene met of van X", "rightTranslations": { "nl": "degene met of van X", "en": "the one with or of X" } }
         ]
       },
       "sfx-e2": {
         "kind": "multiple-choice",
         "prompt": "Welke afleiding betekent 'een goudsmid'?",
+        "promptTranslations": { "nl": "Welke afleiding betekent 'een goudsmid'?", "en": "Which derivation means 'a goldsmith'?" },
         "options": ["sŏnār", "lŏhār", "ghumakkaṛ", "safāī"],
         "correctIndex": 0
       },
       "sfx-e3": {
         "kind": "multiple-choice",
         "prompt": "Met welk achtervoegsel vorm je een abstract begrip zoals safāī ('netheid')?",
+        "promptTranslations": { "nl": "Met welk achtervoegsel vorm je een abstract begrip zoals safāī ('netheid')?", "en": "With which suffix do you form an abstract concept like safāī ('cleanliness')?" },
         "options": ["-āī", "-akkaṛ", "-ār", "-vālā"],
         "correctIndex": 0
       },
       "sfx-e4": {
         "kind": "matching",
         "pairs": [
-          { "left": "ghumakkaṛ", "right": "een zwerver" },
-          { "left": "lŏhār", "right": "een smid" },
-          { "left": "paṛhāī", "right": "studie" },
-          { "left": "ṭopī-vālā", "right": "de man met de hoed" },
-          { "left": "macharī-vālā", "right": "de visboer" }
+          { "left": "ghumakkaṛ", "right": "een zwerver", "rightTranslations": { "nl": "een zwerver", "en": "a wanderer" } },
+          { "left": "lŏhār", "right": "een smid", "rightTranslations": { "nl": "een smid", "en": "a blacksmith" } },
+          { "left": "paṛhāī", "right": "studie", "rightTranslations": { "nl": "studie", "en": "study" } },
+          { "left": "ṭopī-vālā", "right": "de man met de hoed", "rightTranslations": { "nl": "de man met de hoed", "en": "the man with the hat" } },
+          { "left": "macharī-vālā", "right": "de visboer", "rightTranslations": { "nl": "de visboer", "en": "the fishmonger" } }
         ]
       },
       "sfx-e5": {
@@ -47,7 +49,7 @@
         "sentenceTemplate": "De vakman die ijzer bewerkt, heet een ___ .",
         "correctAnswer": "lŏhār",
         "options": ["lŏhār", "sŏnār", "piyakkaṛ", "macharī-vālā"],
-        "translations": { "nl": "De vakman die ijzer bewerkt, heet een smid (lŏhār)." }
+        "translations": { "nl": "De vakman die ijzer bewerkt, heet een smid (lŏhār).", "en": "The craftsman who works iron is called a blacksmith (lŏhār)." }
       }
     }
   },
@@ -72,32 +74,40 @@
       "ap-e1": {
         "kind": "matching",
         "pairs": [
-          { "left": "-dār", "right": "bezittend, houder van" },
-          { "left": "-gar", "right": "maker, doener" },
-          { "left": "-khānā", "right": "huis, plaats" },
-          { "left": "be-", "right": "zonder, -loos" }
+          { "left": "-dār", "right": "bezittend, houder van", "rightTranslations": { "nl": "bezittend, houder van", "en": "possessing, holder of" } },
+          { "left": "-gar", "right": "maker, doener", "rightTranslations": { "nl": "maker, doener", "en": "maker, doer" } },
+          { "left": "-khānā", "right": "huis, plaats", "rightTranslations": { "nl": "huis, plaats", "en": "house, place" } },
+          { "left": "be-", "right": "zonder, -loos", "rightTranslations": { "nl": "zonder, -loos", "en": "without, -less" } }
         ]
       },
       "ap-e2": {
         "kind": "multiple-choice",
         "prompt": "Welke afleiding betekent 'een apotheek'?",
+        "promptTranslations": { "nl": "Welke afleiding betekent 'een apotheek'?", "en": "Which derivation means 'a pharmacy'?" },
         "options": ["davā-khānā", "chapkhānā", "dukāndār", "jādūgar"],
         "correctIndex": 0
       },
       "ap-e3": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent het voorvoegsel be- (zoals in becain)?",
+        "promptTranslations": { "nl": "Wat betekent het voorvoegsel be- (zoals in becain)?", "en": "What does the prefix be- (as in becain) mean?" },
         "options": ["zonder, -loos", "houder van", "maker van", "huis, plaats"],
+        "optionTranslations": [
+          { "nl": "zonder, -loos", "en": "without, -less" },
+          { "nl": "houder van", "en": "holder of" },
+          { "nl": "maker van", "en": "maker of" },
+          { "nl": "huis, plaats", "en": "house, place" }
+        ],
         "correctIndex": 0
       },
       "ap-e4": {
         "kind": "matching",
         "pairs": [
-          { "left": "imāndār", "right": "eerlijk" },
-          { "left": "jādūgar", "right": "een goochelaar" },
-          { "left": "kārīgar", "right": "een vakman" },
-          { "left": "chapkhānā", "right": "een drukkerij" },
-          { "left": "nā-lāyak", "right": "ongeschikt" }
+          { "left": "imāndār", "right": "eerlijk", "rightTranslations": { "nl": "eerlijk", "en": "honest" } },
+          { "left": "jādūgar", "right": "een goochelaar", "rightTranslations": { "nl": "een goochelaar", "en": "a magician" } },
+          { "left": "kārīgar", "right": "een vakman", "rightTranslations": { "nl": "een vakman", "en": "a craftsman" } },
+          { "left": "chapkhānā", "right": "een drukkerij", "rightTranslations": { "nl": "een drukkerij", "en": "a printing house" } },
+          { "left": "nā-lāyak", "right": "ongeschikt", "rightTranslations": { "nl": "ongeschikt", "en": "unfit" } }
         ]
       },
       "ap-e5": {
@@ -105,7 +115,7 @@
         "sentenceTemplate": "Iemand die een winkel houdt, heet een ___ .",
         "correctAnswer": "dukāndār",
         "options": ["dukāndār", "kārīgar", "davā-khānā", "becain"],
-        "translations": { "nl": "Iemand die een winkel houdt, heet een winkelier (dukāndār)." }
+        "translations": { "nl": "Iemand die een winkel houdt, heet een winkelier (dukāndār).", "en": "Someone who keeps a shop is called a shopkeeper (dukāndār)." }
       }
     }
   },
@@ -117,22 +127,23 @@
       "rev-e1": {
         "kind": "multiple-choice",
         "prompt": "Welk achtervoegsel maakt een beroepsnaam zoals lŏhār ('smid') of sŏnār ('goudsmid')?",
+        "promptTranslations": { "nl": "Welk achtervoegsel maakt een beroepsnaam zoals lŏhār ('smid') of sŏnār ('goudsmid')?", "en": "Which suffix forms an occupational name like lŏhār ('blacksmith') or sŏnār ('goldsmith')?" },
         "options": ["-ār", "-āī", "-akkaṛ", "-khānā"],
         "correctIndex": 0
       },
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "-akkaṛ", "right": "een gewoontedoener" },
-          { "left": "-āī", "right": "een abstract begrip (-heid)" },
-          { "left": "-dār", "right": "houder van" },
-          { "left": "-khānā", "right": "huis, plaats" },
-          { "left": "nā-", "right": "on-, niet" }
+          { "left": "-akkaṛ", "right": "een gewoontedoener", "rightTranslations": { "nl": "een gewoontedoener", "en": "a habitual doer" } },
+          { "left": "-āī", "right": "een abstract begrip (-heid)", "rightTranslations": { "nl": "een abstract begrip (-heid)", "en": "an abstract concept (-ness)" } },
+          { "left": "-dār", "right": "houder van", "rightTranslations": { "nl": "houder van", "en": "holder of" } },
+          { "left": "-khānā", "right": "huis, plaats", "rightTranslations": { "nl": "huis, plaats", "en": "house, place" } },
+          { "left": "nā-", "right": "on-, niet", "rightTranslations": { "nl": "on-, niet", "en": "un-, not" } }
         ]
       },
       "rev-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Bouw het woord voor 'de man met de hoed' uit de bouwstenen." },
+        "promptTranslations": { "nl": "Bouw het woord voor 'de man met de hoed' uit de bouwstenen.", "en": "Build the word for 'the man with the hat' from the building blocks." },
         "correctTargetTokens": ["ṭopī", "vālā"],
         "distractorTokens": ["macharī", "khānā"]
       },
@@ -141,12 +152,19 @@
         "sentenceTemplate": "Iemand die eerlijk is, noem je ___ .",
         "correctAnswer": "imāndār",
         "options": ["imāndār", "jādūgar", "becain", "ghumakkaṛ"],
-        "translations": { "nl": "Iemand die eerlijk is, noem je imāndār." }
+        "translations": { "nl": "Iemand die eerlijk is, noem je imāndār.", "en": "Someone who is honest is called imāndār." }
       },
       "rev-e7": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent 'paṛhāī'?",
+        "promptTranslations": { "nl": "Wat betekent 'paṛhāī'?", "en": "What does 'paṛhāī' mean?" },
         "options": ["studie", "netheid", "een zwerver", "een drukkerij"],
+        "optionTranslations": [
+          { "nl": "studie", "en": "study" },
+          { "nl": "netheid", "en": "cleanliness" },
+          { "nl": "een zwerver", "en": "a wanderer" },
+          { "nl": "een drukkerij", "en": "a printing house" }
+        ],
         "correctIndex": 0
       }
     }
