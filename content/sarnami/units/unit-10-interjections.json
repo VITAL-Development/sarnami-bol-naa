@@ -1,6 +1,10 @@
 {
   "id": "unit-10-interjections",
   "title": "Tussenwerpsels",
+  "titleTranslations": {
+    "nl": "Tussenwerpsels",
+    "en": "Interjections"
+  },
   "description": "Veelgebruikte uitroepen en gesprekspartikels.",
   "order": 11,
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/07-interjections.md",
@@ -10,6 +14,10 @@
       "unitId": "unit-10-interjections",
       "order": 1,
       "title": "Tussenwerpsels",
+      "titleTranslations": {
+        "nl": "Tussenwerpsels",
+        "en": "Interjections"
+      },
       "description": "Veelgebruikte uitroepen en partikels.",
       "newVocab": [
         "int-accha",
@@ -80,6 +88,10 @@
       "unitId": "unit-10-interjections",
       "order": 2,
       "title": "Herhaling",
+      "titleTranslations": {
+        "nl": "Herhaling",
+        "en": "Review"
+      },
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [

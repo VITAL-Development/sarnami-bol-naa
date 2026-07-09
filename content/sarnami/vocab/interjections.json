@@ -3,7 +3,8 @@
     "id": "int-accha",
     "word": "acchā",
     "translations": {
-      "nl": "goed!, oké!"
+      "nl": "goed!, oké!",
+      "en": "good!, okay!"
     },
     "tags": [
       "interjection",
@@ -15,7 +16,8 @@
     "id": "int-he",
     "word": "he",
     "translations": {
-      "nl": "hé! (om aandacht te trekken)"
+      "nl": "hé! (om aandacht te trekken)",
+      "en": "hey! (to get attention)"
     },
     "tags": [
       "interjection",
@@ -28,7 +30,8 @@
     "id": "int-ho",
     "word": "ho",
     "translations": {
-      "nl": "hé! (iemand van veraf roepen)"
+      "nl": "hé! (iemand van veraf roepen)",
+      "en": "hey! (to call someone from afar)"
     },
     "tags": [
       "interjection",
@@ -41,7 +44,8 @@
     "id": "int-cup",
     "word": "cup",
     "translations": {
-      "nl": "stil!"
+      "nl": "stil!",
+      "en": "quiet!"
     },
     "tags": [
       "interjection",
@@ -54,7 +58,8 @@
     "id": "int-aya",
     "word": "ayā",
     "translations": {
-      "nl": "au! (bij pijn)"
+      "nl": "au! (bij pijn)",
+      "en": "ow! (when in pain)"
     },
     "tags": [
       "interjection",
@@ -67,7 +72,8 @@
     "id": "int-bacao",
     "word": "bacāo",
     "translations": {
-      "nl": "help!"
+      "nl": "help!",
+      "en": "help!"
     },
     "tags": [
       "interjection",
@@ -80,7 +86,8 @@
     "id": "int-bhala",
     "word": "bhalā",
     "translations": {
-      "nl": "zeg!, kijk aan!"
+      "nl": "zeg!, kijk aan!",
+      "en": "say!, well now!"
     },
     "tags": [
       "interjection",
@@ -93,7 +100,8 @@
     "id": "int-bap-re-bap",
     "word": "bāp-re-bāp",
     "translations": {
-      "nl": "lieve hemel!"
+      "nl": "lieve hemel!",
+      "en": "good heavens!"
     },
     "tags": [
       "interjection",
@@ -106,7 +114,8 @@
     "id": "int-sabas",
     "word": "sābās",
     "translations": {
-      "nl": "bravo!"
+      "nl": "bravo!",
+      "en": "bravo!"
     },
     "tags": [
       "interjection",
@@ -119,7 +128,8 @@
     "id": "int-vah-vah",
     "word": "vāh-vāh",
     "translations": {
-      "nl": "bravo!, prachtig!"
+      "nl": "bravo!, prachtig!",
+      "en": "bravo!, wonderful!"
     },
     "tags": [
       "interjection",
@@ -132,7 +142,8 @@
     "id": "int-albat",
     "word": "albat",
     "translations": {
-      "nl": "warempel, inderdaad"
+      "nl": "warempel, inderdaad",
+      "en": "truly, indeed"
     },
     "tags": [
       "interjection",
@@ -145,7 +156,8 @@
     "id": "int-cor-cor",
     "word": "cor-cor",
     "translations": {
-      "nl": "houd de dief!"
+      "nl": "houd de dief!",
+      "en": "stop the thief!"
     },
     "tags": [
       "interjection",
@@ -158,7 +170,8 @@
     "id": "int-hay-hay",
     "word": "hāy-hāy",
     "translations": {
-      "nl": "ach! (bij verdriet)"
+      "nl": "ach! (bij verdriet)",
+      "en": "alas! (in grief)"
     },
     "tags": [
       "interjection",
@@ -171,7 +184,8 @@
     "id": "int-oho",
     "word": "oho",
     "translations": {
-      "nl": "och-och! (medeleven)"
+      "nl": "och-och! (medeleven)",
+      "en": "oh dear! (sympathy)"
     },
     "tags": [
       "interjection",
@@ -184,7 +198,8 @@
     "id": "int-to",
     "word": "to",
     "translations": {
-      "nl": "toch?, nietwaar?"
+      "nl": "toch?, nietwaar?",
+      "en": "right?, isn't it?"
     },
     "tags": [
       "interjection",
