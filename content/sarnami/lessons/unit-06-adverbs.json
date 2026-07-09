@@ -7,56 +7,192 @@
         "id": "gn-adv-time",
         "title": "Bijwoorden van tijd",
         "body": "Bijwoorden kunnen aan bijna elke woordsoort worden toegevoegd, behalve aan het zelfstandig naamwoord, en worden — anders dan bijvoeglijke naamwoorden — niet verbogen. Bijwoorden van tijd geven aan wanneer iets gebeurt: āj (vandaag), bihān (morgen), kāl (gisteren), roj (dagelijks) en hardam (altijd). Ze staan vaak vooraan in de zin, bijvoorbeeld: 'Āj ham jādā khāi lelī hai' = Ik heb vandaag te veel gegeten.",
-        "relatedVocab": ["adv-aaj", "adv-bihaan", "adv-kaal", "adv-roj", "adv-hardam"]
+        "relatedVocab": [
+          "adv-aaj",
+          "adv-bihaan",
+          "adv-kaal",
+          "adv-roj",
+          "adv-hardam"
+        ]
       },
       {
         "id": "gn-adv-place",
         "title": "Bijwoorden van plaats",
         "body": "Bijwoorden van plaats geven aan waar iets is of gebeurt: uppar (boven), nicce (beneden), dūr (ver), nagicce (dichtbij) en bāhar (buiten, tegenover bhittar 'binnen'). Een aardig kenmerk van het Sarnami: door nasalering worden sommige plaatsbijwoorden richtingaanduidend. Zo wordt nicce ('beneden') tot nicvāṁ ('daarbeneden') en uppar tot uparāṁ ('daarboven'). Voorbeeld: 'Jā nicvāṁ dekh to, ke āil hai' = Ga eens even beneden kijken wie gekomen is.",
-        "relatedVocab": ["adv-uppar", "adv-nicce", "adv-dur", "adv-nagicce", "adv-baahar"]
+        "relatedVocab": [
+          "adv-uppar",
+          "adv-nicce",
+          "adv-dur",
+          "adv-nagicce",
+          "adv-baahar"
+        ]
       }
     ],
     "exercises": {
       "tp-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent het bijwoord 'āj'?",
-        "options": ["vandaag", "morgen", "gisteren", "altijd"],
+        "promptTranslations": {
+          "nl": "Wat betekent het bijwoord 'āj'?",
+          "en": "What does the adverb 'āj' mean?"
+        },
+        "options": [
+          "vandaag",
+          "morgen",
+          "gisteren",
+          "altijd"
+        ],
+        "optionTranslations": [
+          {
+            "nl": "vandaag",
+            "en": "today"
+          },
+          {
+            "nl": "morgen",
+            "en": "tomorrow"
+          },
+          {
+            "nl": "gisteren",
+            "en": "yesterday"
+          },
+          {
+            "nl": "altijd",
+            "en": "always"
+          }
+        ],
         "correctIndex": 0
       },
       "tp-e2": {
         "kind": "multiple-choice",
         "prompt": "Welk bijwoord van plaats betekent 'dichtbij'?",
-        "options": ["nagicce", "dūr", "uppar", "bāhar"],
+        "promptTranslations": {
+          "nl": "Welk bijwoord van plaats betekent 'dichtbij'?",
+          "en": "Which adverb of place means 'nearby'?"
+        },
+        "options": [
+          "nagicce",
+          "dūr",
+          "uppar",
+          "bāhar"
+        ],
+        "optionTranslations": [
+          null,
+          null,
+          null,
+          null
+        ],
         "correctIndex": 0
       },
       "tp-e3": {
         "kind": "multiple-choice",
         "prompt": "Door nasalering wordt het plaatsbijwoord 'nicce' (beneden) tot 'nicvāṁ'. Wat betekent 'nicvāṁ'?",
-        "options": ["daarbeneden", "beneden blijven", "naar boven", "buiten"],
+        "promptTranslations": {
+          "nl": "Door nasalering wordt het plaatsbijwoord 'nicce' (beneden) tot 'nicvāṁ'. Wat betekent 'nicvāṁ'?",
+          "en": "Through nasalization the adverb of place 'nicce' (below) becomes 'nicvāṁ'. What does 'nicvāṁ' mean?"
+        },
+        "options": [
+          "daarbeneden",
+          "beneden blijven",
+          "naar boven",
+          "buiten"
+        ],
+        "optionTranslations": [
+          {
+            "nl": "daarbeneden",
+            "en": "down there"
+          },
+          {
+            "nl": "beneden blijven",
+            "en": "stay below"
+          },
+          {
+            "nl": "naar boven",
+            "en": "upwards"
+          },
+          {
+            "nl": "buiten",
+            "en": "outside"
+          }
+        ],
         "correctIndex": 0
       },
       "tp-e4": {
         "kind": "matching",
         "pairs": [
-          { "left": "āj", "right": "vandaag" },
-          { "left": "kāl", "right": "gisteren" },
-          { "left": "uppar", "right": "boven" },
-          { "left": "dūr", "right": "ver" },
-          { "left": "bāhar", "right": "buiten" }
+          {
+            "left": "āj",
+            "right": "vandaag",
+            "rightTranslations": {
+              "nl": "vandaag",
+              "en": "today"
+            }
+          },
+          {
+            "left": "kāl",
+            "right": "gisteren",
+            "rightTranslations": {
+              "nl": "gisteren",
+              "en": "yesterday"
+            }
+          },
+          {
+            "left": "uppar",
+            "right": "boven",
+            "rightTranslations": {
+              "nl": "boven",
+              "en": "above"
+            }
+          },
+          {
+            "left": "dūr",
+            "right": "ver",
+            "rightTranslations": {
+              "nl": "ver",
+              "en": "far"
+            }
+          },
+          {
+            "left": "bāhar",
+            "right": "buiten",
+            "rightTranslations": {
+              "nl": "buiten",
+              "en": "outside"
+            }
+          }
         ]
       },
       "tp-e5": {
         "kind": "fill-blank",
         "sentenceTemplate": "___ ham jādā khāi lelī hai.",
         "correctAnswer": "Āj",
-        "options": ["Āj", "Bihān", "Dūr", "Uppar"],
-        "translations": { "nl": "Ik heb vandaag te veel gegeten." }
+        "options": [
+          "Āj",
+          "Bihān",
+          "Dūr",
+          "Uppar"
+        ],
+        "translations": {
+          "nl": "Ik heb vandaag te veel gegeten.",
+          "en": "I have eaten too much today."
+        }
       },
       "tp-e9": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "De geit graast buiten." },
-        "correctTargetTokens": ["Bakariyā", "bāhar", "ghāms", "care", "hai."],
-        "distractorTokens": ["uppar", "roj"]
+        "promptTranslations": {
+          "nl": "De geit graast buiten.",
+          "en": "The goat grazes outside."
+        },
+        "correctTargetTokens": [
+          "Bakariyā",
+          "bāhar",
+          "ghāms",
+          "care",
+          "hai."
+        ],
+        "distractorTokens": [
+          "uppar",
+          "roj"
+        ]
       }
     }
   },
@@ -68,62 +204,211 @@
         "id": "gn-adv-manner",
         "title": "Bijwoorden van wijze",
         "body": "Bijwoorden van wijze geven aan hóe iets gebeurt: dhīre (zacht, langzaam), sacce (echt, inderdaad) en sait (misschien). Veel wijze-bijwoorden eindigen op -e. Kenmerkend voor het Sarnami is verdubbeling: dhīre wordt dhīre-dhīre ('langzaamaan, geleidelijk'). Daarnaast bestaat er een rijke voorraad klanknabootsende verdubbelingen zoals ṭan-ṭan (metaalklank) en khaṭkhaṭāike (kloppend aan de deur).",
-        "relatedVocab": ["adv-dhire", "adv-dhire-dhire", "adv-sacce", "adv-sait"]
+        "relatedVocab": [
+          "adv-dhire",
+          "adv-dhire-dhire",
+          "adv-sacce",
+          "adv-sait"
+        ]
       },
       {
         "id": "gn-adv-degree",
         "title": "Bijwoorden van graad en hoeveelheid",
         "body": "Bijwoorden van graad geven aan in welke máte iets geldt: bahut (veel, erg), thorā se (weinig, een beetje) en bilkul (helemaal). Sommige hoeveelheidswoorden zijn eigenlijk bijvoeglijke naamwoorden die ook als bijwoord kunnen optreden. Voorbeeld: 'Rāmlalvā āj bahut batiyā hai' = Ramlal praat vandaag veel.",
-        "relatedVocab": ["adv-bahut", "adv-thora-se", "adv-bilkul"]
+        "relatedVocab": [
+          "adv-bahut",
+          "adv-thora-se",
+          "adv-bilkul"
+        ]
       },
       {
         "id": "gn-adv-loan",
         "title": "Leenwoord-bijwoorden",
         "body": "Het Sarnami heeft ook bijwoorden ontleend aan andere talen. Uit het Sranan Tongo komen habarā ('aan de overkant', van abra < Eng. over) en kantī ('langs', via Ned. kant). Uit het Nederlands komt parsīs ('precies, toevallig, eigenlijk'). Deze leenwoorden verdubbelen net als inheemse bijwoorden: habarī-habarā ('tegenover elkaar'), kantī-kantī ('aan de zijkant').",
-        "relatedVocab": ["adv-habara", "adv-kanti", "adv-parsis"]
+        "relatedVocab": [
+          "adv-habara",
+          "adv-kanti",
+          "adv-parsis"
+        ]
       }
     ],
     "exercises": {
       "md-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent het bijwoord 'sait'?",
-        "options": ["misschien", "zeker", "nooit", "altijd"],
+        "promptTranslations": {
+          "nl": "Wat betekent het bijwoord 'sait'?",
+          "en": "What does the adverb 'sait' mean?"
+        },
+        "options": [
+          "misschien",
+          "zeker",
+          "nooit",
+          "altijd"
+        ],
+        "optionTranslations": [
+          {
+            "nl": "misschien",
+            "en": "maybe"
+          },
+          {
+            "nl": "zeker",
+            "en": "certainly"
+          },
+          {
+            "nl": "nooit",
+            "en": "never"
+          },
+          {
+            "nl": "altijd",
+            "en": "always"
+          }
+        ],
         "correctIndex": 0
       },
       "md-e2": {
         "kind": "multiple-choice",
         "prompt": "'dhīre-dhīre' is een verdubbeling van 'dhīre' (zacht, langzaam). Wat betekent de verdubbelde vorm?",
-        "options": ["langzaamaan, geleidelijk", "heel zacht praten", "meteen", "helemaal niet"],
+        "promptTranslations": {
+          "nl": "'dhīre-dhīre' is een verdubbeling van 'dhīre' (zacht, langzaam). Wat betekent de verdubbelde vorm?",
+          "en": "'dhīre-dhīre' is a reduplication of 'dhīre' (soft, slow). What does the reduplicated form mean?"
+        },
+        "options": [
+          "langzaamaan, geleidelijk",
+          "heel zacht praten",
+          "meteen",
+          "helemaal niet"
+        ],
+        "optionTranslations": [
+          {
+            "nl": "langzaamaan, geleidelijk",
+            "en": "little by little, gradually"
+          },
+          {
+            "nl": "heel zacht praten",
+            "en": "speaking very softly"
+          },
+          {
+            "nl": "meteen",
+            "en": "immediately"
+          },
+          {
+            "nl": "helemaal niet",
+            "en": "not at all"
+          }
+        ],
         "correctIndex": 0
       },
       "md-e3": {
         "kind": "multiple-choice",
         "prompt": "Het bijwoord 'parsīs' (precies) is een leenwoord. Uit welke taal komt het?",
-        "options": ["het Nederlands", "het Sranan Tongo", "het Hindi", "het Engels"],
+        "promptTranslations": {
+          "nl": "Het bijwoord 'parsīs' (precies) is een leenwoord. Uit welke taal komt het?",
+          "en": "The adverb 'parsīs' (exactly) is a loanword. Which language does it come from?"
+        },
+        "options": [
+          "het Nederlands",
+          "het Sranan Tongo",
+          "het Hindi",
+          "het Engels"
+        ],
+        "optionTranslations": [
+          {
+            "nl": "het Nederlands",
+            "en": "Dutch"
+          },
+          {
+            "nl": "het Sranan Tongo",
+            "en": "Sranan Tongo"
+          },
+          {
+            "nl": "het Hindi",
+            "en": "Hindi"
+          },
+          {
+            "nl": "het Engels",
+            "en": "English"
+          }
+        ],
         "correctIndex": 0
       },
       "md-e4": {
         "kind": "matching",
         "pairs": [
-          { "left": "dhīre", "right": "langzaam" },
-          { "left": "sacce", "right": "echt" },
-          { "left": "bahut", "right": "veel" },
-          { "left": "bilkul", "right": "helemaal" },
-          { "left": "kantī", "right": "langs" }
+          {
+            "left": "dhīre",
+            "right": "langzaam",
+            "rightTranslations": {
+              "nl": "langzaam",
+              "en": "slowly"
+            }
+          },
+          {
+            "left": "sacce",
+            "right": "echt",
+            "rightTranslations": {
+              "nl": "echt",
+              "en": "really"
+            }
+          },
+          {
+            "left": "bahut",
+            "right": "veel",
+            "rightTranslations": {
+              "nl": "veel",
+              "en": "much"
+            }
+          },
+          {
+            "left": "bilkul",
+            "right": "helemaal",
+            "rightTranslations": {
+              "nl": "helemaal",
+              "en": "completely"
+            }
+          },
+          {
+            "left": "kantī",
+            "right": "langs",
+            "rightTranslations": {
+              "nl": "langs",
+              "en": "alongside"
+            }
+          }
         ]
       },
       "md-e5": {
         "kind": "fill-blank",
         "sentenceTemplate": "Rāmlalvā āj ___ batiyā hai.",
         "correctAnswer": "bahut",
-        "options": ["bahut", "thorā se", "nagicce", "sait"],
-        "translations": { "nl": "Ramlal praat vandaag veel." }
+        "options": [
+          "bahut",
+          "thorā se",
+          "nagicce",
+          "sait"
+        ],
+        "translations": {
+          "nl": "Ramlal praat vandaag veel.",
+          "en": "Ramlal talks a lot today."
+        }
       },
       "md-e9": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Balram liegt echt." },
-        "correctTargetTokens": ["Balram", "sacce", "jhūṭh", "bole", "hai."],
-        "distractorTokens": ["dhīre", "bilkul"]
+        "promptTranslations": {
+          "nl": "Balram liegt echt.",
+          "en": "Balram really lies."
+        },
+        "correctTargetTokens": [
+          "Balram",
+          "sacce",
+          "jhūṭh",
+          "bole",
+          "hai."
+        ],
+        "distractorTokens": [
+          "dhīre",
+          "bilkul"
+        ]
       }
     }
   },
@@ -135,36 +420,134 @@
       "rev-e1": {
         "kind": "multiple-choice",
         "prompt": "Welk bijwoord van tijd betekent 'altijd'?",
-        "options": ["hardam", "roj", "āj", "kāl"],
+        "promptTranslations": {
+          "nl": "Welk bijwoord van tijd betekent 'altijd'?",
+          "en": "Which adverb of time means 'always'?"
+        },
+        "options": [
+          "hardam",
+          "roj",
+          "āj",
+          "kāl"
+        ],
+        "optionTranslations": [
+          null,
+          null,
+          null,
+          null
+        ],
         "correctIndex": 0
       },
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "āj", "right": "tijd" },
-          { "left": "uppar", "right": "plaats" },
-          { "left": "dhīre", "right": "wijze" },
-          { "left": "bahut", "right": "graad" },
-          { "left": "habarā", "right": "leenwoord" }
+          {
+            "left": "āj",
+            "right": "tijd",
+            "rightTranslations": {
+              "nl": "tijd",
+              "en": "time"
+            }
+          },
+          {
+            "left": "uppar",
+            "right": "plaats",
+            "rightTranslations": {
+              "nl": "plaats",
+              "en": "place"
+            }
+          },
+          {
+            "left": "dhīre",
+            "right": "wijze",
+            "rightTranslations": {
+              "nl": "wijze",
+              "en": "manner"
+            }
+          },
+          {
+            "left": "bahut",
+            "right": "graad",
+            "rightTranslations": {
+              "nl": "graad",
+              "en": "degree"
+            }
+          },
+          {
+            "left": "habarā",
+            "right": "leenwoord",
+            "rightTranslations": {
+              "nl": "leenwoord",
+              "en": "loanword"
+            }
+          }
         ]
       },
       "rev-e3": {
         "kind": "fill-blank",
         "sentenceTemplate": "Jā ___ dekh to, ke āil hai.",
         "correctAnswer": "nicvāṁ",
-        "options": ["nicvāṁ", "uppar", "bihān", "sait"],
-        "translations": { "nl": "Ga eens even beneden kijken wie gekomen is." }
+        "options": [
+          "nicvāṁ",
+          "uppar",
+          "bihān",
+          "sait"
+        ],
+        "translations": {
+          "nl": "Ga eens even beneden kijken wie gekomen is.",
+          "en": "Go and take a look downstairs to see who has come."
+        }
       },
       "rev-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Ik heb vandaag te veel gegeten." },
-        "correctTargetTokens": ["Āj", "ham", "jādā", "khāi", "lelī", "hai."],
-        "distractorTokens": ["bihān", "nagicce"]
+        "promptTranslations": {
+          "nl": "Ik heb vandaag te veel gegeten.",
+          "en": "I have eaten too much today."
+        },
+        "correctTargetTokens": [
+          "Āj",
+          "ham",
+          "jādā",
+          "khāi",
+          "lelī",
+          "hai."
+        ],
+        "distractorTokens": [
+          "bihān",
+          "nagicce"
+        ]
       },
       "rev-e5": {
         "kind": "multiple-choice",
         "prompt": "Uit welke taal komt het leenwoord-bijwoord 'habarā' (aan de overkant)?",
-        "options": ["het Sranan Tongo", "het Nederlands", "het Hindi", "het Avadhi"],
+        "promptTranslations": {
+          "nl": "Uit welke taal komt het leenwoord-bijwoord 'habarā' (aan de overkant)?",
+          "en": "Which language does the loanword adverb 'habarā' (on the other side) come from?"
+        },
+        "options": [
+          "het Sranan Tongo",
+          "het Nederlands",
+          "het Hindi",
+          "het Avadhi"
+        ],
+        "optionTranslations": [
+          {
+            "nl": "het Sranan Tongo",
+            "en": "Sranan Tongo"
+          },
+          {
+            "nl": "het Nederlands",
+            "en": "Dutch"
+          },
+          {
+            "nl": "het Hindi",
+            "en": "Hindi"
+          },
+          {
+            "nl": "het Avadhi",
+            "en": "Avadhi"
+          }
+        ],
         "correctIndex": 0
       }
     }

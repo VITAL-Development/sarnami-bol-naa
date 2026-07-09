@@ -3,7 +3,8 @@
     "id": "adv-aaj",
     "word": "āj",
     "translations": {
-      "nl": "vandaag"
+      "nl": "vandaag",
+      "en": "today"
     },
     "tags": [
       "adverbs",
@@ -17,7 +18,8 @@
     "id": "adv-bihaan",
     "word": "bihān",
     "translations": {
-      "nl": "morgen"
+      "nl": "morgen",
+      "en": "tomorrow"
     },
     "tags": [
       "adverbs",
@@ -32,7 +34,8 @@
     "id": "adv-kaal",
     "word": "kāl",
     "translations": {
-      "nl": "gisteren"
+      "nl": "gisteren",
+      "en": "yesterday"
     },
     "tags": [
       "adverbs",
@@ -47,7 +50,8 @@
     "id": "adv-roj",
     "word": "roj",
     "translations": {
-      "nl": "dagelijks, elke dag"
+      "nl": "dagelijks, elke dag",
+      "en": "daily, every day"
     },
     "tags": [
       "adverbs",
@@ -61,7 +65,8 @@
     "id": "adv-hardam",
     "word": "hardam",
     "translations": {
-      "nl": "altijd"
+      "nl": "altijd",
+      "en": "always"
     },
     "tags": [
       "adverbs",
@@ -75,7 +80,8 @@
     "id": "adv-uppar",
     "word": "uppar",
     "translations": {
-      "nl": "boven, bovenop"
+      "nl": "boven, bovenop",
+      "en": "above, on top"
     },
     "tags": [
       "adverbs",
@@ -89,7 +95,8 @@
     "id": "adv-nicce",
     "word": "nicce",
     "translations": {
-      "nl": "beneden, onder"
+      "nl": "beneden, onder",
+      "en": "below, under"
     },
     "tags": [
       "adverbs",
@@ -104,7 +111,8 @@
     "id": "adv-dur",
     "word": "dūr",
     "translations": {
-      "nl": "ver, ver weg"
+      "nl": "ver, ver weg",
+      "en": "far, far away"
     },
     "tags": [
       "adverbs",
@@ -118,7 +126,8 @@
     "id": "adv-nagicce",
     "word": "nagicce",
     "translations": {
-      "nl": "dichtbij, in de buurt"
+      "nl": "dichtbij, in de buurt",
+      "en": "nearby, close by"
     },
     "tags": [
       "adverbs",
@@ -132,7 +141,8 @@
     "id": "adv-baahar",
     "word": "bāhar",
     "translations": {
-      "nl": "buiten"
+      "nl": "buiten",
+      "en": "outside"
     },
     "tags": [
       "adverbs",
@@ -146,7 +156,8 @@
     "id": "adv-dhire",
     "word": "dhīre",
     "translations": {
-      "nl": "zacht, langzaam"
+      "nl": "zacht, langzaam",
+      "en": "softly, slowly"
     },
     "tags": [
       "adverbs",
@@ -161,7 +172,8 @@
     "id": "adv-dhire-dhire",
     "word": "dhīre-dhīre",
     "translations": {
-      "nl": "langzaamaan, geleidelijk"
+      "nl": "langzaamaan, geleidelijk",
+      "en": "little by little, gradually"
     },
     "tags": [
       "adverbs",
@@ -176,7 +188,8 @@
     "id": "adv-sacce",
     "word": "sacce",
     "translations": {
-      "nl": "echt, inderdaad, werkelijk"
+      "nl": "echt, inderdaad, werkelijk",
+      "en": "really, indeed, truly"
     },
     "tags": [
       "adverbs",
@@ -190,7 +203,8 @@
     "id": "adv-sait",
     "word": "sait",
     "translations": {
-      "nl": "misschien"
+      "nl": "misschien",
+      "en": "maybe, perhaps"
     },
     "tags": [
       "adverbs",
@@ -204,7 +218,8 @@
     "id": "adv-bahut",
     "word": "bahut",
     "translations": {
-      "nl": "veel, erg"
+      "nl": "veel, erg",
+      "en": "much, very"
     },
     "tags": [
       "adverbs",
@@ -218,7 +233,8 @@
     "id": "adv-thora-se",
     "word": "thorā se",
     "translations": {
-      "nl": "weinig, een beetje"
+      "nl": "weinig, een beetje",
+      "en": "little, a bit"
     },
     "tags": [
       "adverbs",
@@ -232,7 +248,8 @@
     "id": "adv-bilkul",
     "word": "bilkul",
     "translations": {
-      "nl": "helemaal, volkomen"
+      "nl": "helemaal, volkomen",
+      "en": "completely, entirely"
     },
     "tags": [
       "adverbs",
@@ -246,7 +263,8 @@
     "id": "adv-habara",
     "word": "habarā",
     "translations": {
-      "nl": "aan de overkant"
+      "nl": "aan de overkant",
+      "en": "on the other side"
     },
     "tags": [
       "adverbs",
@@ -262,7 +280,8 @@
     "id": "adv-kanti",
     "word": "kantī",
     "translations": {
-      "nl": "langs, aan de zijkant"
+      "nl": "langs, aan de zijkant",
+      "en": "alongside, to the side"
     },
     "tags": [
       "adverbs",
@@ -277,7 +296,8 @@
     "id": "adv-parsis",
     "word": "parsīs",
     "translations": {
-      "nl": "precies, toevallig, eigenlijk"
+      "nl": "precies, toevallig, eigenlijk",
+      "en": "exactly, by chance, actually"
     },
     "tags": [
       "adverbs",

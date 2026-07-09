@@ -1,6 +1,10 @@
 {
   "id": "unit-06-adverbs",
   "title": "Bijwoorden",
+  "titleTranslations": {
+    "nl": "Bijwoorden",
+    "en": "Adverbs"
+  },
   "description": "Bijwoorden van tijd, plaats, wijze en graad.",
   "order": 7,
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/04-the-adverb.md",
@@ -10,6 +14,10 @@
       "unitId": "unit-06-adverbs",
       "order": 1,
       "title": "Tijd & plaats",
+      "titleTranslations": {
+        "nl": "Tijd & plaats",
+        "en": "Time & place"
+      },
       "description": "Bijwoorden van tijd en plaats.",
       "newVocab": [
         "adv-aaj",
@@ -84,6 +92,10 @@
       "unitId": "unit-06-adverbs",
       "order": 2,
       "title": "Wijze & graad",
+      "titleTranslations": {
+        "nl": "Wijze & graad",
+        "en": "Manner & degree"
+      },
       "description": "Bijwoorden van wijze en graad, incl. leenwoorden.",
       "newVocab": [
         "adv-dhire",
@@ -159,6 +171,10 @@
       "unitId": "unit-06-adverbs",
       "order": 3,
       "title": "Herhaling",
+      "titleTranslations": {
+        "nl": "Herhaling",
+        "en": "Review"
+      },
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [
