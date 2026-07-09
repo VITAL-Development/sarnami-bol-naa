@@ -26,33 +26,54 @@
       "t1-e1": {
         "kind": "multiple-choice",
         "prompt": "Bij wie woonde de nātī (kleinzoon) in het verhaal?",
+        "promptTranslations": { "nl": "Bij wie woonde de nātī (kleinzoon) in het verhaal?", "en": "Who did the nātī (grandson) live with in the story?" },
         "options": [
           "bij zijn grootmoeder (nānī)",
           "bij zijn vader",
           "alleen in het bos",
           "bij de buren"
         ],
+        "optionTranslations": [
+          { "nl": "bij zijn grootmoeder (nānī)", "en": "with his grandmother (nānī)" },
+          { "nl": "bij zijn vader", "en": "with his father" },
+          { "nl": "alleen in het bos", "en": "alone in the forest" },
+          { "nl": "bij de buren", "en": "with the neighbours" }
+        ],
         "correctIndex": 0
       },
       "t1-e2": {
         "kind": "multiple-choice",
         "prompt": "Wat gaf de nānī haar kleinzoon mee toen hij de geiten ging hoeden?",
+        "promptTranslations": { "nl": "Wat gaf de nānī haar kleinzoon mee toen hij de geiten ging hoeden?", "en": "What did the nānī give her grandson to take along when he went to herd the goats?" },
         "options": [
           "bhūjā (gepofte graankorrels)",
           "een zak geld",
           "een nieuwe stok",
           "een fles water"
         ],
+        "optionTranslations": [
+          { "nl": "bhūjā (gepofte graankorrels)", "en": "bhūjā (puffed grain)" },
+          { "nl": "een zak geld", "en": "a bag of money" },
+          { "nl": "een nieuwe stok", "en": "a new stick" },
+          { "nl": "een fles water", "en": "a bottle of water" }
+        ],
         "correctIndex": 0
       },
       "t1-e3": {
         "kind": "multiple-choice",
         "prompt": "Waarom sloeg de jongen de geiten met een stok?",
+        "promptTranslations": { "nl": "Waarom sloeg de jongen de geiten met een stok?", "en": "Why did the boy hit the goats with a stick?" },
         "options": [
           "hij dacht ten onrechte dat ze hem treiterden, terwijl ze herkauwden",
           "ze waren weggelopen naar een ander veld",
           "ze hadden zijn bhūjā opgegeten",
           "de nānī had het hem opgedragen"
+        ],
+        "optionTranslations": [
+          { "nl": "hij dacht ten onrechte dat ze hem treiterden, terwijl ze herkauwden", "en": "he wrongly thought they were mocking him, while they were chewing the cud" },
+          { "nl": "ze waren weggelopen naar een ander veld", "en": "they had run off to another field" },
+          { "nl": "ze hadden zijn bhūjā opgegeten", "en": "they had eaten up his bhūjā" },
+          { "nl": "de nānī had het hem opgedragen", "en": "the nānī had ordered him to" }
         ],
         "correctIndex": 0
       },
@@ -61,11 +82,11 @@
         "sentenceTemplate": "De oude vrouw bezat veel schapen en ___ (geiten).",
         "correctAnswer": "bakarī",
         "options": ["bakarī", "nānī", "peṛ", "bhūjā"],
-        "translations": { "nl": "De oude vrouw bezat veel schapen en geiten (bakarī)." }
+        "translations": { "nl": "De oude vrouw bezat veel schapen en geiten (bakarī).", "en": "The old woman owned many sheep and goats (bakarī)." }
       },
       "t1-e5": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Zet het antwoord van de kleinzoon in de juiste volgorde: 'Goed, grootmoeder!'" },
+        "promptTranslations": { "nl": "Zet het antwoord van de kleinzoon in de juiste volgorde: 'Goed, grootmoeder!'", "en": "Put the grandson's reply in the right order: 'Good, grandmother!'" },
         "correctTargetTokens": ["acchā", "nānī"],
         "distractorTokens": ["beṭā", "phir"]
       }
@@ -98,44 +119,65 @@
       "t2-e1": {
         "kind": "multiple-choice",
         "prompt": "Hoeveel zonen (bĕṭavā) had de man aan het begin van het verhaal?",
+        "promptTranslations": { "nl": "Hoeveel zonen (bĕṭavā) had de man aan het begin van het verhaal?", "en": "How many sons (bĕṭavā) did the man have at the start of the story?" },
         "options": [
           "twee",
           "drie",
           "één",
           "vier"
         ],
+        "optionTranslations": [
+          { "nl": "twee", "en": "two" },
+          { "nl": "drie", "en": "three" },
+          { "nl": "één", "en": "one" },
+          { "nl": "vier", "en": "four" }
+        ],
         "correctIndex": 0
       },
       "t2-e2": {
         "kind": "multiple-choice",
         "prompt": "Wat vroeg de jongste zoon aan zijn bāp (vader)?",
+        "promptTranslations": { "nl": "Wat vroeg de jongste zoon aan zijn bāp (vader)?", "en": "What did the youngest son ask his bāp (father)?" },
         "options": [
           "zijn deel van de rijkdom (dhan)",
           "een geit om te slachten",
           "toestemming om te trouwen",
           "een plek onder de bedienden"
         ],
+        "optionTranslations": [
+          { "nl": "zijn deel van de rijkdom (dhan)", "en": "his share of the wealth (dhan)" },
+          { "nl": "een geit om te slachten", "en": "a goat to slaughter" },
+          { "nl": "toestemming om te trouwen", "en": "permission to marry" },
+          { "nl": "een plek onder de bedienden", "en": "a place among the servants" }
+        ],
         "correctIndex": 0
       },
       "t2-e3": {
         "kind": "multiple-choice",
         "prompt": "Wat deed de jongere zoon met zijn erfdeel in het buitenland?",
+        "promptTranslations": { "nl": "Wat deed de jongere zoon met zijn erfdeel in het buitenland?", "en": "What did the younger son do with his inheritance abroad?" },
         "options": [
           "hij verkwistte het volledig",
           "hij kocht er land mee",
           "hij gaf het aan de armen",
           "hij bewaarde het zorgvuldig"
         ],
+        "optionTranslations": [
+          { "nl": "hij verkwistte het volledig", "en": "he squandered it completely" },
+          { "nl": "hij kocht er land mee", "en": "he bought land with it" },
+          { "nl": "hij gaf het aan de armen", "en": "he gave it to the poor" },
+          { "nl": "hij bewaarde het zorgvuldig", "en": "he kept it carefully" }
+        ],
         "correctIndex": 0
       },
       "t2-e4": {
         "kind": "matching",
         "pairs": [
-          { "left": "beṭā", "right": "zoon" },
-          { "left": "bāp", "right": "vader" },
-          { "left": "dhan", "right": "rijkdom / bezit" },
-          { "left": "naukar", "right": "bediende" },
-          { "left": "pāp", "right": "zonde" }
+          { "left": "beṭā", "right": "zoon", "rightTranslations": { "nl": "zoon", "en": "son" } },
+          { "left": "bāp", "right": "vader", "rightTranslations": { "nl": "vader", "en": "father" } },
+          { "left": "dhan", "right": "rijkdom / bezit", "rightTranslations": { "nl": "rijkdom / bezit", "en": "wealth / possessions" } },
+          { "left": "naukar", "right": "bediende", "rightTranslations": { "nl": "bediende", "en": "servant" } },
+          { "left": "pāp", "right": "zonde", "rightTranslations": { "nl": "zonde", "en": "sin" } }
         ]
       },
       "t2-e5": {
@@ -143,7 +185,7 @@
         "sentenceTemplate": "Bij zijn vader thuis kregen zelfs de ___ (bedienden) volop te eten.",
         "correctAnswer": "naukar",
         "options": ["naukar", "beṭā", "bāp", "dhan"],
-        "translations": { "nl": "Bij zijn vader thuis kregen zelfs de bedienden (naukar) volop te eten." }
+        "translations": { "nl": "Bij zijn vader thuis kregen zelfs de bedienden (naukar) volop te eten.", "en": "At his father's home even the servants (naukar) had plenty to eat." }
       }
     }
   },
@@ -174,50 +216,71 @@
       "t3-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat is er in het begin tussen de siyar (vos) en de kaimanin (kaaiman)?",
+        "promptTranslations": { "nl": "Wat is er in het begin tussen de siyar (vos) en de kaimanin (kaaiman)?", "en": "What is there at first between the siyar (fox) and the kaimanin (caiman)?" },
         "options": [
           "een sterke vriendschap (dosti)",
           "een handelsafspraak",
           "een familieband",
           "meteen al vijandschap"
         ],
+        "optionTranslations": [
+          { "nl": "een sterke vriendschap (dosti)", "en": "a strong friendship (dosti)" },
+          { "nl": "een handelsafspraak", "en": "a trade deal" },
+          { "nl": "een familieband", "en": "a family tie" },
+          { "nl": "meteen al vijandschap", "en": "hostility right from the start" }
+        ],
         "correctIndex": 0
       },
       "t3-e2": {
         "kind": "multiple-choice",
         "prompt": "Waarmee wint de vos telkens van de kaaiman?",
+        "promptTranslations": { "nl": "Waarmee wint de vos telkens van de kaaiman?", "en": "With what does the fox keep beating the caiman?" },
         "options": [
           "met zijn verstand (akkil)",
           "met zijn lichaamskracht (tagat)",
           "met hulp van andere dieren",
           "door hard weg te rennen"
         ],
+        "optionTranslations": [
+          { "nl": "met zijn verstand (akkil)", "en": "with his wit (akkil)" },
+          { "nl": "met zijn lichaamskracht (tagat)", "en": "with his physical strength (tagat)" },
+          { "nl": "met hulp van andere dieren", "en": "with help from other animals" },
+          { "nl": "door hard weg te rennen", "en": "by running away fast" }
+        ],
         "correctIndex": 0
       },
       "t3-e3": {
         "kind": "multiple-choice",
         "prompt": "Wat is de moraal van de fabel?",
+        "promptTranslations": { "nl": "Wat is de moraal van de fabel?", "en": "What is the moral of the fable?" },
         "options": [
           "tegen verstand kan kracht niets uitrichten",
           "vriendschap overwint alles",
           "wie niet sterk is, verliest altijd",
           "eerlijk duurt het langst"
         ],
+        "optionTranslations": [
+          { "nl": "tegen verstand kan kracht niets uitrichten", "en": "against wit, strength can achieve nothing" },
+          { "nl": "vriendschap overwint alles", "en": "friendship conquers all" },
+          { "nl": "wie niet sterk is, verliest altijd", "en": "whoever is not strong always loses" },
+          { "nl": "eerlijk duurt het langst", "en": "honesty lasts longest" }
+        ],
         "correctIndex": 0
       },
       "t3-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Zet de kern van de moraal in de juiste volgorde: 'verstand — tegenover — kracht' (akkil ke age tagat)." },
+        "promptTranslations": { "nl": "Zet de kern van de moraal in de juiste volgorde: 'verstand — tegenover — kracht' (akkil ke age tagat).", "en": "Put the core of the moral in the right order: 'wit — against — strength' (akkil ke age tagat)." },
         "correctTargetTokens": ["akkil", "ke", "age", "tagat"],
         "distractorTokens": ["nadi", "jangal"]
       },
       "t3-e5": {
         "kind": "matching",
         "pairs": [
-          { "left": "siyar", "right": "vos / jakhals" },
-          { "left": "kaiman", "right": "kaaiman" },
-          { "left": "akkil", "right": "verstand" },
-          { "left": "tagat", "right": "kracht" },
-          { "left": "jangal", "right": "bos" }
+          { "left": "siyar", "right": "vos / jakhals", "rightTranslations": { "nl": "vos / jakhals", "en": "fox / jackal" } },
+          { "left": "kaiman", "right": "kaaiman", "rightTranslations": { "nl": "kaaiman", "en": "caiman" } },
+          { "left": "akkil", "right": "verstand", "rightTranslations": { "nl": "verstand", "en": "wit" } },
+          { "left": "tagat", "right": "kracht", "rightTranslations": { "nl": "kracht", "en": "strength" } },
+          { "left": "jangal", "right": "bos", "rightTranslations": { "nl": "bos", "en": "forest" } }
         ]
       }
     }
@@ -230,27 +293,34 @@
       "rev-e1": {
         "kind": "multiple-choice",
         "prompt": "Welk verhaal gaat over een zoon die zijn erfdeel verkwist en daarna terugkeert?",
+        "promptTranslations": { "nl": "Welk verhaal gaat over een zoon die zijn erfdeel verkwist en daarna terugkeert?", "en": "Which story is about a son who squanders his inheritance and then returns?" },
         "options": [
           "Herāil beṭavā (De verloren zoon)",
           "Nātī aur nānī ke khissā",
           "Canak siyar (De slimme vos)",
           "geen van deze"
         ],
+        "optionTranslations": [
+          { "nl": "Herāil beṭavā (De verloren zoon)", "en": "Herāil beṭavā (The prodigal son)" },
+          null,
+          { "nl": "Canak siyar (De slimme vos)", "en": "Canak siyar (The clever fox)" },
+          { "nl": "geen van deze", "en": "none of these" }
+        ],
         "correctIndex": 0
       },
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "nānī", "right": "grootmoeder" },
-          { "left": "siyar", "right": "vos" },
-          { "left": "dhan", "right": "rijkdom" },
-          { "left": "peṛ", "right": "boom" },
-          { "left": "pāp", "right": "zonde" }
+          { "left": "nānī", "right": "grootmoeder", "rightTranslations": { "nl": "grootmoeder", "en": "grandmother" } },
+          { "left": "siyar", "right": "vos", "rightTranslations": { "nl": "vos", "en": "fox" } },
+          { "left": "dhan", "right": "rijkdom", "rightTranslations": { "nl": "rijkdom", "en": "wealth" } },
+          { "left": "peṛ", "right": "boom", "rightTranslations": { "nl": "boom", "en": "tree" } },
+          { "left": "pāp", "right": "zonde", "rightTranslations": { "nl": "zonde", "en": "sin" } }
         ]
       },
       "rev-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Zet het antwoord van de kleinzoon uit tekst 1 in de juiste volgorde: 'Goed, grootmoeder!'" },
+        "promptTranslations": { "nl": "Zet het antwoord van de kleinzoon uit tekst 1 in de juiste volgorde: 'Goed, grootmoeder!'", "en": "Put the grandson's reply from text 1 in the right order: 'Good, grandmother!'" },
         "correctTargetTokens": ["acchā", "nānī"],
         "distractorTokens": ["siyar", "bāp"]
       },
@@ -259,16 +329,23 @@
         "sentenceTemplate": "In de fabel wint de vos met zijn ___ (verstand), niet met kracht.",
         "correctAnswer": "akkil",
         "options": ["akkil", "tagat", "jangal", "dhan"],
-        "translations": { "nl": "In de fabel wint de vos met zijn verstand (akkil), niet met kracht." }
+        "translations": { "nl": "In de fabel wint de vos met zijn verstand (akkil), niet met kracht.", "en": "In the fable the fox wins with his wit (akkil), not with strength." }
       },
       "rev-e7": {
         "kind": "multiple-choice",
         "prompt": "In welke spelling is de fabel 'Canak siyar' gezet, anders dan de eerste twee teksten?",
+        "promptTranslations": { "nl": "In welke spelling is de fabel 'Canak siyar' gezet, anders dan de eerste twee teksten?", "en": "In which spelling is the fable 'Canak siyar' set, unlike the first two texts?" },
         "options": [
           "de vereenvoudigde SCS-spelling zonder diacritische tekens",
           "het devanagari-schrift",
           "het Arabische schrift",
           "de wetenschappelijke romanisatie mét diacritische tekens"
+        ],
+        "optionTranslations": [
+          { "nl": "de vereenvoudigde SCS-spelling zonder diacritische tekens", "en": "the simplified SCS spelling without diacritics" },
+          { "nl": "het devanagari-schrift", "en": "the Devanagari script" },
+          { "nl": "het Arabische schrift", "en": "the Arabic script" },
+          { "nl": "de wetenschappelijke romanisatie mét diacritische tekens", "en": "the scientific romanisation with diacritics" }
         ],
         "correctIndex": 0
       }
