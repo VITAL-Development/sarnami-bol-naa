@@ -38,17 +38,6 @@
     ]
   },
   {
-    "id": "verb-to-be",
-    "title": "Het koppelwerkwoord 'zijn' (hai)",
-    "summary": "Vervoeging van hai in de tegenwoordige tijd.",
-    "order": 3,
-    "body": "# Het koppelwerkwoord 'zijn' (hai)\n\nHet werkwoord *hai* betekent 'is/ben/bent'. De tegenwoordige tijd:\n\n- ham hai — ik ben\n- tū hai — jij bent\n- ī/ū hai — hij/zij is\n- ham log haiṁ — wij zijn\n- tū log hai — jullie zijn\n- āp ho — u bent (beleefd)\n- ī/ū sab haiṁ — zij zijn\n\nDe ontkenning gebruikt *nā* ('niet').\n\n> Placeholder-inhoud voor de scaffold, ontleend aan de bestaande grammatica-vocabulaire (zie `content/sarnami/vocab/grammar.json`).",
-    "relatedVocab": [
-      "gram-hai",
-      "gram-na"
-    ]
-  },
-  {
     "id": "about-sarnami",
     "title": "Over het Sarnami",
     "summary": "Achtergrond: wat Sarnami is, waar de naam vandaan komt en de immigratiegeschiedenis.",
@@ -91,6 +80,16 @@
       "sound-jhanda",
       "sound-shanti",
       "sound-bhasa"
+    ]
+  },
+  {
+    "id": "basics",
+    "title": "Basis",
+    "summary": "Begroetingen, voornaamwoorden, eenvoudige zelfstandige naamwoorden en zinnen met 'hai'.",
+    "order": 3,
+    "body": "# Basis\n\nBegroetingen, voornaamwoorden, eenvoudige zelfstandige naamwoorden en zinnen met 'hai'.\n\n## Vervoeging van 'hai' (zijn) in de o.t.t.\n\nham hai (ik ben) — tū hai (jij bent) — ī/ū hai (hij/zij is) — ham log haiṁ (wij zijn) — tū log hai (jullie zijn) — āp ho (u bent) — ī/ū sab haiṁ (zij zijn).",
+    "relatedVocab": [
+      "gram-hai"
     ]
   }
 ]
