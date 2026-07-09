@@ -1,6 +1,7 @@
 {
   "code": "sarnami",
   "displayName": "Sarnami Hindoestani",
+  "defaultUiLanguage": "nl",
   "scriptDirection": "ltr",
   "romanization": {
     "scheme": "IAST-derived",
