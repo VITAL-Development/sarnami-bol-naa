@@ -1,6 +1,7 @@
 {
   "id": "unit-07-postpositions",
   "title": "Achterzetsels",
+  "titleTranslations": { "nl": "Achterzetsels", "en": "Postpositions" },
   "description": "De gangbare achterzetsels en hoe ze aan naam- en voornaamwoorden vastzitten.",
   "order": 8,
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/05-postpositions.md",
@@ -10,6 +11,7 @@
       "unitId": "unit-07-postpositions",
       "order": 1,
       "title": "Gangbare achterzetsels",
+      "titleTranslations": { "nl": "Gangbare achterzetsels", "en": "Common postpositions" },
       "description": "De meest voorkomende achterzetsels.",
       "newVocab": [
         "post-mem",
@@ -72,6 +74,7 @@
       "unitId": "unit-07-postpositions",
       "order": 2,
       "title": "Vastzitten aan woorden",
+      "titleTranslations": { "nl": "Vastzitten aan woorden", "en": "Attaching to words" },
       "description": "Hoe achterzetsels aan naam- en voornaamwoorden vastzitten.",
       "newVocab": [
         "post-ke-sath",
@@ -130,6 +133,7 @@
       "unitId": "unit-07-postpositions",
       "order": 3,
       "title": "Herhaling",
+      "titleTranslations": { "nl": "Herhaling", "en": "Review" },
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [
