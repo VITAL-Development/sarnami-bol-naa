@@ -13,14 +13,34 @@ consuming server syncing this repo would care about (new/changed
 vocab, units, lessons, or `language-settings.json` shape). Pure grammar-doc
 or tooling edits that don't affect served content need not appear.
 
-Releases are cut as git tags `vX.Y.Z`. There are no tags yet; the entries
-below accumulate under `[Unreleased]` until the first release is cut, at
-which point they move under a dated `## [X.Y.Z]` heading.
+Releases are cut as git tags `vX.Y.Z`. Entries accumulate under
+`[Unreleased]` until a release is cut, at which point they move under a
+dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-07-10
+
 ### Added
 
+- English (`en`) localization for all 14 units (unit-00 through unit-13):
+  `en` glosses for every `VocabItem.translations`, `WordBankContent.promptTranslations`
+  and `FillBlankContent.translations` map (map-based scope of #157–#170), plus the
+  additive `*Translations` schema migration for previously bare-string fields —
+  `Unit.titleTranslations`, `Lesson.titleTranslations`,
+  `MultipleChoiceContent.promptTranslations` (and `optionTranslations` where
+  options are language-bearing rather than Sarnami teaching tokens), and
+  `MatchingContent.pairs[].leftTranslations`/`rightTranslations` (this unit's
+  slice of the schema gap identified in #156). No `nl` value was removed or
+  edited and no Sarnami target-language token (`correctTargetTokens`,
+  `distractorTokens`, `sentenceTemplate`, `correctAnswer`, matching left-side
+  Sarnami words) was touched — purely additive, old consumers reading only
+  `nl`/the bare string are unaffected. Completes the per-unit English
+  authoring and schema-gap sub-issues of the "English UI shows Dutch
+  everywhere" epic (#154); combined with the `defaultUiLanguage` setting
+  (0.2.0) and the `GET /grammar` reference (below), an English-language UI
+  now reads as English throughout instead of falling back to Dutch. Closes
+  #156, closes #154.
 - Real grammar-reference content for the nouns topic in
   `content/sarnami/grammar/grammar.json` (served by the backend's `GET /grammar`
   endpoint): replaced the `nouns` placeholder with a consolidated note covering
