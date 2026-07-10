@@ -31,3 +31,118 @@ jobs:
 
       - name: Validate content contract
         run: node /tmp/rarelang-server/scripts/validate-content.mjs .
+
+  contracts-discovery:
+    name: contracts-discovery (deterministic)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # Deterministic half of "dynamically discover new/changed contracts"
+      # (rarelang-server#53, this repo's #204): a plain sha256 diff between
+      # rarelang-server's current contract docs and the hashes we last
+      # reviewed (contracts.lock.json). No LLM needed to notice a contract
+      # doc changed — only reviewing *what* changed is a human/agentic call.
+      - name: Fetch rarelang-server contracts-manifest
+        run: git clone --depth 1 https://github.com/VITAL-Development/rarelang-server.git /tmp/rarelang-server
+
+      - name: Diff upstream contracts against contracts.lock.json
+        run: |
+          node /tmp/rarelang-server/scripts/contracts-manifest.mjs > /tmp/upstream-manifest.json
+          node -e '
+            const fs = require("node:fs");
+            const upstream = JSON.parse(fs.readFileSync("/tmp/upstream-manifest.json", "utf-8"));
+            const lock = JSON.parse(fs.readFileSync("contracts.lock.json", "utf-8"));
+            const docs = Object.keys(upstream);
+            const drift = docs.filter((doc) => lock[doc] !== upstream[doc]);
+            if (drift.length > 0) {
+              console.error("Upstream rarelang-server contract doc(s) changed since contracts.lock.json was last reviewed:");
+              for (const doc of drift) {
+                console.error(`  ${doc}: locked=${lock[doc] ?? "(missing)"} upstream=${upstream[doc]}`);
+              }
+              console.error("\nReview the change at https://github.com/VITAL-Development/rarelang-server/blob/main/" + drift[0] + ", then update contracts.lock.json to match.");
+              process.exit(1);
+            }
+            console.log("contracts.lock.json is up to date with rarelang-server main.");
+          '
+
+  advisory-contract-review:
+    name: advisory-contract-review (agentic, non-blocking)
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Cost control: only run the agent when a PR actually touches content
+      # or the lesson plan — most PRs (CI/docs/tooling) don't, and should
+      # cost zero tokens. No full-repo scan either way.
+      - name: List changed content/lesson-plan files
+        id: changed
+        run: |
+          files=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- 'content/sarnami/**' 'authored_docs/lesson-plan.md' 'authored_docs/**')
+          echo "files<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$files" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+          if [ -z "$files" ]; then
+            echo "any=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "any=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Fetch prose contract docs
+        if: steps.changed.outputs.any == 'true'
+        run: |
+          git clone --depth 1 https://github.com/VITAL-Development/rarelang-server.git /tmp/rarelang-server
+
+      # Advisory-only half of the Option C fork (rarelang-server#53, #204):
+      # the two contracts here are prose/judgment calls that aren't
+      # schema-shaped — CEFR-tier correctness of a unit's `cefrLevel`, and
+      # the A2-readability ceiling on Dutch authoring text — so they're left
+      # to a single, tightly-scoped agentic pass instead of the deterministic
+      # validate-content job. Cost controls: gated to run only when content
+      # changed (above), reads only the changed files listed above plus the
+      # two contract docs (no repo-wide search), single attempt (no retry
+      # loop), findings below 70% confidence are not reported, and the job
+      # never fails the check — it's advisory, posted as a PR comment only.
+      - name: Run Claude Code advisory review
+        if: steps.changed.outputs.any == 'true'
+        uses: anthropics/claude-code-action@v1
+        continue-on-error: true
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            You are doing a single-pass advisory review. Do not search the repository
+            or use any tool beyond reading the specific files listed below — this is a
+            cost-bounded check, not an open-ended audit.
+
+            Read only:
+            - The changed files from this PR: ${{ steps.changed.outputs.files }}
+            - /tmp/rarelang-server/docs/lesson-plan-authoring-contract.md (CEFR tier rules, cefrLevel field)
+            - /tmp/rarelang-server/docs/source-language-authoring-contract.md (A2 ceiling on Dutch authoring text)
+
+            Evaluate the changed files against those two contracts only:
+            1. If a unit sets `cefrLevel`, does its actual vocab/grammar difficulty plausibly
+               match that CEFR tier (per the tier table in the lesson-plan contract)?
+            2. Is Dutch authoring text (unit/lesson descriptions, notes, exercise prompts —
+               not the target-language content itself) written at CEFR A2 level or simpler
+               (short sentences, common vocabulary, minimal subordination)?
+
+            For each candidate issue, assign yourself a confidence 0-100. Only report
+            findings with confidence >= 70. If you have no findings at or above that bar,
+            or none of the changed files are relevant to these two contracts, post nothing
+            and stop — do not post a comment saying "no issues found".
+
+            If you do have findings, post ONE PR comment listing them, each with: the file,
+            a one-sentence description, your confidence, and which contract it concerns.
+            Make clear in the comment that this is an advisory, non-blocking review.
+          claude_args: "--max-turns 6"
