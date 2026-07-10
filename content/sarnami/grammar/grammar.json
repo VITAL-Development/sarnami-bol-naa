@@ -265,5 +265,24 @@
       "int-cor-cor",
       "int-to"
     ]
+  },
+  {
+    "id": "loanwords",
+    "title": "Leenwoorden & nieuwvormingen",
+    "summary": "Leenwoorden uit het Nederlands, Sranantongo e.a., en nieuwvormingen.",
+    "order": 12,
+    "body": "# Leenwoorden & nieuwvormingen\n\nLeenwoorden uit het Nederlands, Sranantongo e.a., en nieuwvormingen.\n\n## Leenwoorden met kare en hove\n\nHet Sarnami leent volop werkwoorden uit de omringende talen. Nederlandse werkwoorden worden ingepast met twee hulpwerkwoorden: kare (doen) voor de bedrijvende vorm en hove (worden/zijn) voor de lijdende vorm. Zo wordt van de stam 'bel' → bel kare (opbellen) en bel hove (opgebeld worden), en van 'help' → help kare (helpen) en help hove (geholpen worden). Op dezelfde manier: klop kare, uitleg kare, beledig kare, bekeur kare, wachti kare.\n\n## Niet alleen werkwoorden\n\nDe basis hoeft geen werkwoord te zijn. Bij mooi kare (mooi maken) / mooi hove (mooi worden) is de basis een bijvoeglijk naamwoord. Sommige ontleningen zijn zo ingeburgerd dat ze het oorspronkelijke Sarnami-woord volledig hebben vervangen. Een enkele keer wordt een ander hulpwerkwoord gebruikt: būṭū bhare betekent 'een boete betalen' (būṭū uit het Nederlandse 'boete' via het Sranantongo butu, met bhare = betalen).\n\n## Uit het Engels en het Sranantongo\n\nOok uit het Engels en het Sranantongo zijn werkwoorden geleend, weer met kare en hove: don kare (afmaken, van 'done'), lās kare (verliezen, van 'lost'), boro kare (boren), trīkī kare (strijken), yūrū kare (huren), morsū kare (vuil maken). Opvallend: veel Sranantongo-woorden gaan zelf terug op het Nederlands — boro < boren, yūrū < huren, morsū < morsen — en bereikten het Sarnami dus via een omweg.\n\n## Nieuwvormingen en volksetymologie\n\nSommige ontleningen zijn zo volledig aangepast aan de Sarnami-werkwoordstructuur dat ze nauwelijks nog als leenwoord herkenbaar zijn en geen kare/hove meer nodig hebben: lĕsiyāī (luieren, van het Eng. 'lazy' via het Sranan lesi) en sĕtiyāve (ordenen, van het Eng. 'to set' via seti). Verwant is girmiṭ (van 'agreement'), een bekend voorbeeld van volksetymologie.",
+    "relatedVocab": [
+      "loan-bel",
+      "loan-help",
+      "loan-klop",
+      "loan-mooi",
+      "loan-butu",
+      "loan-don",
+      "loan-boro",
+      "loan-yuru",
+      "loan-lesiyai",
+      "loan-setiyave"
+    ]
   }
 ]
