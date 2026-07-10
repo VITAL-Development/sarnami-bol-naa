@@ -20,9 +20,13 @@ repo, if you need it.
 
 ```
 content/sarnami/{vocab,units,lessons}/*.json   # authored knowledge base
-settings/sarnami/language-settings.json        # romanization/alphabet/audio + branding
+content/sarnami/grammar/grammar.json           # standalone GET /grammar reference (topic notes, distinct
+                                                # from per-lesson grammar notes in lessons/*.json)
+settings/sarnami/language-settings.json        # romanization/alphabet/audio + branding + defaultUiLanguage
+settings/sarnami/ui/{en,nl}/strings.json       # static UI chrome strings (nav/buttons/labels) — not content
 authored_docs/byakaran/*.md                    # grammar reference content was authored from
 authored_docs/sarnamibhasa-vocab.md            # sarnamibhasa.nl second-source vocab (cross-check)
+authored_docs/lesson-plan.md                   # unit sequencing, incl. CEFR tiers (Beginner/Intermediate/Advanced)
 docs/versioning.md                             # release/versioning policy (see below)
 CHANGELOG.md                                   # content/schema changes per release
 ```
@@ -66,6 +70,52 @@ with the book, prefer the book's diacritic-correct form.
 (`vocabRef`, `contentRef`) rather than embedding literal text — the actual
 prompt/example-sentence/grammar-note text lives in
 `content/sarnami/lessons/*.json`, keyed by `contentRef`.
+
+## Localization (nl/en)
+
+Content is authored Dutch-first — `defaultUiLanguage` in
+`settings/sarnami/language-settings.json` is `"nl"`, since the audience is
+Dutch-speaking. Dutch-facing strings carry a parallel `en` gloss via
+`{nl, en}` translation maps: `VocabItem.translations`,
+`Unit.titleTranslations`, `Lesson.titleTranslations`, and per-exercise
+`promptTranslations`/`optionTranslations`/`leftTranslations`/
+`rightTranslations` in `content/sarnami/lessons/*.json`. Legacy bare-string
+fields (`prompt`, `options`, etc.) are kept alongside the `*Translations`
+map for old consumers — this was an additive/MINOR migration (see
+`docs/versioning.md`), not a replacement. Never touch a Sarnami
+target-language token (`correctTargetTokens`, `distractorTokens`,
+`sentenceTemplate`, `correctAnswer`, matching left-side Sarnami words) when
+adding/editing an `en` gloss — those aren't translated, only the nl/en
+prose around them is.
+
+This completes the per-unit English-authoring side of the "English UI shows
+Dutch content" epic. The other half — propagating `defaultUiLanguage` across
+the frontend/backend repos, and a fallback for any string this repo hasn't
+authored an `en` gloss for — is implemented there, not in this content repo.
+
+`settings/sarnami/ui/{en,nl}/strings.json` is a separate concern from the
+`*Translations` maps above: it's static app-chrome text (nav labels, button
+text, empty-states) keyed by UI language, not per-item content translation.
+Don't conflate the two when adding a language-facing string — chrome text
+goes in `settings/sarnami/ui/`, authored content glosses go in the
+`*Translations` fields on the relevant `content/sarnami/` item.
+
+## CI content validation
+
+Every PR and manual dispatch runs `.github/workflows/validate-content.yml`,
+which clones `rarelang-server` (private; auths via `RARELANG_SERVER_TOKEN`)
+and runs its `validate-content` CLI against `content/sarnami/` +
+`settings/sarnami/` — the same content-repository contract the backend
+server's loader expects, checked here instead of only surfacing downstream
+after a tag is cut. `contracts.lock.json` pins the sha256 of the upstream
+contract docs last reviewed; a `contracts-discovery` job flags when
+rarelang-server changes one of those docs so a human/agentic follow-up can
+assess drift (a deliberate, non-automatic gate — like bumping a dependency
+lockfile). A separate `advisory-contract-review` job runs a cost-bounded
+Claude Code pass (only on diffs touching `content/`/`authored_docs`, capped
+turns, non-blocking) for the two judgment-shaped contracts that aren't
+schema-checkable: CEFR-tier correctness and the A2 Dutch-readability
+ceiling.
 
 ## Branding
 
