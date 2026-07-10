@@ -19,6 +19,16 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Added
+
+- `settings/sarnami/ui/{en,nl}/strings.json` — UI-chrome string tables (nav,
+  grammar section, lesson/review/profile/settings/startup/exercise copy)
+  served by `GET /ui-strings?lang=`. Previously `settings/sarnami/ui/` didn't
+  exist at all, so the endpoint had no data for any UI language and the
+  frontend silently fell back to its bundled English example table — the
+  Grammar section rendered "Grammar"/"Back to topics" even with
+  `defaultUiLanguage: "nl"`. Fixes #208.
+
 ## [0.3.0] - 2026-07-10
 
 ### Added

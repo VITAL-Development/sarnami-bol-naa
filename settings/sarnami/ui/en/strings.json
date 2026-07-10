@@ -1,0 +1,67 @@
+{
+  "common": {
+    "loading": "Loading..."
+  },
+  "nav": {
+    "path": "Path",
+    "review": "Review",
+    "grammar": "Grammar",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "path": {
+    "title": "Your learning path",
+    "noLessonsYet": "No lessons yet for this language."
+  },
+  "lesson": {
+    "checkAnswer": "Check",
+    "continue": "Continue",
+    "correct": "Correct!",
+    "incorrect": "Not quite.",
+    "backToPath": "Back to path",
+    "tryAgain": "Try again",
+    "lessonComplete": "Lesson complete!",
+    "lessonFailed": "Lesson failed",
+    "xpEarned": "XP earned"
+  },
+  "review": {
+    "title": "Review",
+    "empty": "Nothing to review right now.",
+    "showAnswer": "Show answer",
+    "knewIt": "I knew it",
+    "didntKnowIt": "I didn't know it"
+  },
+  "grammar": {
+    "title": "Grammar",
+    "empty": "No grammar topics yet for this language.",
+    "backToTopics": "Back to topics",
+    "notFound": "Grammar topic not found."
+  },
+  "profile": {
+    "title": "Profile",
+    "xp": "XP",
+    "streak": "Streak",
+    "badges": "Badges",
+    "noBadgesYet": "No badges yet."
+  },
+  "settings": {
+    "title": "Settings",
+    "uiLanguageLabel": "Interface language",
+    "learningLanguageLabel": "Learning language"
+  },
+  "startup": {
+    "title": "Which language do you want to learn?",
+    "subtitle": "Choose a language to get started. You can change it later in Settings.",
+    "comingSoon": "Coming soon",
+    "loading": "Setting things up…",
+    "loadError": "We couldn't load that language. Please check your connection and try again.",
+    "retry": "Try again"
+  },
+  "exercise": {
+    "flashcard": "Flashcard",
+    "fillBlank": "Fill in the blank",
+    "wordBank": "Build the sentence",
+    "multipleChoice": "Multiple choice",
+    "matching": "Drag matching pairs together"
+  }
+}

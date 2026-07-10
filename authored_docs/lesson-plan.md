@@ -7,7 +7,12 @@ vocab ownership stay consistent across units and nothing is taught twice.
 This is a planning/design doc, not served content. It guides authoring order.
 For the on-disk content model (`vocabRef`/`contentRef`, verification tags,
 directory layout) see [`../CLAUDE.md`](../CLAUDE.md); for how content ships,
-see [`../docs/versioning.md`](../docs/versioning.md).
+see [`../docs/versioning.md`](../docs/versioning.md). The curriculum is
+organized into three CEFR tiers — **Beginner (A1–A2)**, **Intermediate
+(B1–B2)**, **Advanced (C1–C2)** — per the shared, cross-language
+[lesson-plan authoring contract](https://github.com/VITAL-Development/rarelang-server/blob/main/docs/lesson-plan-authoring-contract.md);
+that contract defines what each tier means, the required document shape, and
+the `cefrLevel` unit field. This document covers only what's Sarnami-specific.
 
 ## Source material
 
@@ -22,8 +27,9 @@ unit JSON's `bookChapterRef`, as `unit-02-adjectives` already does.
 ## The content model, briefly
 
 - A **unit** (`content/sarnami/units/*.json`) has an `id`, `title`,
-  `description`, an integer `order` (display sort key), an optional
-  `bookChapterRef`, and an ordered list of **lessons**.
+  `description`, an integer `order` (display sort key), a `cefrLevel`
+  (per the shared contract), an optional `bookChapterRef`, and an ordered
+  list of **lessons**.
 - A **lesson** lists `newVocab` (vocab ids it introduces), optional
   `exampleSentenceRefs` / `grammarNoteRefs`, an ordered `exercises` array, and
   an `xpReward`. The prompt/sentence/note text itself lives in the parallel
@@ -35,63 +41,67 @@ unit JSON's `bookChapterRef`, as `unit-02-adjectives` already does.
 Native/explanation language is **Dutch (`nl`)** throughout, matching the
 existing units and the byakaran source.
 
-## Unit sequence
+## Tier overview
 
-Units are ordered pedagogically, not by chapter number: orientation and sounds
-come first, productive grammar builds on the basics, and reading is a capstone.
-Two units already exist — `unit-01-basics` and `unit-02-adjectives` — and keep
-their **ids** (ids are the stable reference used by any consumer). Their
-`order` values are reassigned to fit the sequence below as each new unit lands;
-because `order` is only a sort key and ids don't change, renumbering it is an
-**additive/non-breaking** content change (see `docs/versioning.md`).
+Units are ordered pedagogically within and across tiers, not by chapter
+number: orientation and sounds come first, productive grammar builds on the
+basics, and reading is a capstone. Two units already exist —
+`unit-01-basics` and `unit-02-adjectives` — and keep their **ids** (ids are
+the stable reference used by any consumer). Their `order`/`cefrLevel` values
+are assigned to fit the sequence below; because `order`/`cefrLevel` are only
+metadata and ids don't change, assigning or renumbering them is an
+**additive/non-breaking** content change (see `docs/versioning.md` and the
+shared authoring contract's `cefrLevel` versioning note).
 
-| # | Unit id | Title (nl) | Source chapter | Status |
-|---|---------|------------|----------------|--------|
-| 1 | `unit-00-about-sarnami` | Over het Sarnami | `00-introduction.md` | new |
-| 2 | `unit-03-sounds` | Klanken & uitspraak | `01-sounds.md` | new |
-| 3 | `unit-01-basics` | Basis | *(intro subset of 02/03)* | **exists** |
-| 4 | `unit-04-nouns` | Zelfstandige naamwoorden | `02-the-noun.md` | new |
-| 5 | `unit-05-pronouns` | Voornaamwoorden | `03-pronouns.md` | new |
-| 6 | `unit-02-adjectives` | Bijvoeglijke naamwoorden | `adjective-verified.md` | **exists** |
-| 7 | `unit-06-adverbs` | Bijwoorden | `04-the-adverb.md` | new |
-| 8 | `unit-07-postpositions` | Achterzetsels | `05-postpositions.md` | new |
-| 9 | `unit-08-verbs` | Werkwoorden | `08-the-verb.md` | new |
-| 10 | `unit-09-conjunctions` | Voegwoorden | `06-conjunctions.md` | new |
-| 11 | `unit-10-interjections` | Tussenwerpsels | `07-interjections.md` | new |
-| 12 | `unit-11-loanwords` | Leenwoorden & nieuwvormingen | `09-loan-words-and-neologisms.md` | new |
-| 13 | `unit-12-word-formation` | Woordvorming | `10-word-formation.md` | new |
-| 14 | `unit-13-reading` | Lezen: teksten & fabels | `11-texts.md` | new |
+| Tier | Units | CEFR range |
+|---|---|---|
+| Beginner | 6 | A1–A2 |
+| Intermediate | 6 | B1–B2 |
+| Advanced | 2 | C1 |
 
-New unit ids are numbered `00` and `04`–`13` so they don't collide with the two
-existing ids; the **`order` column** (1–14) is what actually drives display
-sequence. (An implementer may instead choose to renumber all unit ids to a
-clean `unit-01`…`unit-14`; if so, do it as one dedicated change and update every
-`unitId` back-reference — the id-preserving scheme above avoids that churn.)
+New unit ids are numbered `00` and `04`–`13` so they don't collide with the
+two existing ids; the **`order` column** (1–14, spanning tiers) is what
+actually drives display sequence. (An implementer may instead choose to
+renumber all unit ids to a clean `unit-01`…`unit-14`; if so, do it as one
+dedicated change and update every `unitId` back-reference — the id-preserving
+scheme above avoids that churn.)
 
-## Sequencing & dependencies
+---
+
+## Beginner tier (A1–A2)
+
+*A learner completing this tier can greet people, introduce themselves and
+their family, name everyday objects, form simple `hai` ("to be") sentences,
+recognise and spell Sarnami's diacritics, and use basic adjectives and
+pronouns — with no productive grammar beyond basic agreement.*
+
+| # | Unit id | Title (nl) | CEFR | Source chapter | Status |
+|---|---------|------------|------|----------------|--------|
+| 1 | `unit-00-about-sarnami` | Over het Sarnami | A1 | `00-introduction.md` | new |
+| 2 | `unit-03-sounds` | Klanken & uitspraak | A1 | `01-sounds.md` | new |
+| 3 | `unit-01-basics` | Basis | A1 | *(intro subset of 02/03)* | **exists** |
+| 4 | `unit-04-nouns` | Zelfstandige naamwoorden | A2 | `02-the-noun.md` | new |
+| 5 | `unit-05-pronouns` | Voornaamwoorden | A2 | `03-pronouns.md` | new |
+| 6 | `unit-02-adjectives` | Bijvoeglijke naamwoorden | A2 | `adjective-verified.md` | **exists** |
+
+### Sequencing & dependencies
 
 - **Orientation first, no prerequisites.** `unit-00-about-sarnami` is
   background/cultural and can be taken cold.
 - **Sounds before everything productive.** `unit-03-sounds` teaches the
   romanization (macrons ā/ī/ū, underdots ṭ/ḍ/ṇ, ñ/ṅ) that every later unit
-  relies on for correct spelling. It gates the grammar units.
+  relies on for correct spelling. It gates the rest of this tier and every
+  higher tier.
 - **Basics before deep grammar.** `unit-01-basics` already teaches greetings,
   the core personal pronouns, a handful of nouns, and `hai`/negation. The
   deeper noun and pronoun units **extend** it and must not re-teach that
   starter set (see *Overlap* below).
-- **Nouns & pronouns before adjectives/verbs.** Agreement (adjective→noun,
-  verb→subject) presupposes gender/number and the pronoun system.
-- **Postpositions after nouns/pronouns** — they attach to them.
-- **Verbs are the spine of sentence-building** and unlock everything after.
-- **Conjunctions & interjections** are light and can slot in any time after
-  basics, but sit best just before reading (they glue clauses together).
-- **Reading is the capstone.** `unit-13-reading` reuses vocab and grammar from
-  earlier units and should introduce little new machinery — only reading
-  strategy and passage-specific vocab.
-- **Word formation late.** It teaches learners to *derive* vocabulary from
-  patterns, which only pays off once they have a base to build on.
+- **Nouns & pronouns before adjectives.** Agreement (adjective→noun)
+  presupposes gender/number and the pronoun system.
+- No unit in this tier carries an Intermediate- or Advanced-tier
+  prerequisite, per the shared contract's cross-tier sequencing rule.
 
-## Overlap with the existing basics unit
+### Overlap with the existing basics unit
 
 `unit-01-basics` intentionally front-loads a small, high-frequency slice of
 later chapters. The deeper units own the rest:
@@ -105,13 +115,13 @@ later chapters. The deeper units own the rest:
   (possessive, demonstrative, interrogative, relative) and does **not**
   re-introduce the five.
 - **`hai` / negation** — basics teaches `gram-hai`, `gram-na`, `gram-kaham` as
-  fixed forms. `unit-08-verbs` generalises them into the full conjugation
-  paradigm.
+  fixed forms. `unit-08-verbs` (Intermediate tier) generalises them into the
+  full conjugation paradigm.
 
 Rule of thumb: a vocab entry has exactly one owning lesson (its `newVocab`);
-every other lesson references it by id.
+every other lesson references it by id — including across tier boundaries.
 
-## Per-unit scope
+### Per-unit scope
 
 Sizing follows the existing units: **4–5 lessons per unit**, **~5 exercises per
 lesson** (review lessons ~6), ending each unit with a **review lesson**
@@ -119,7 +129,7 @@ lesson** (review lessons ~6), ending each unit with a **review lesson**
 targets, to be met only with entries verifiable against the book or
 `sarnamibhasa-vocab.md`; unverified entries carry `needs-verification`.
 
-### 1. `unit-00-about-sarnami` — Over het Sarnami (`00-introduction.md`)
+#### 1. `unit-00-about-sarnami` — Over het Sarnami (A1, `00-introduction.md`)
 Background/cultural, reading-led. What Sarnami is, the name's origin, the
 British-Indian immigration history, and an at-a-glance look at the
 writing/romanization system.
@@ -129,7 +139,7 @@ writing/romanization system.
 - **Exercise mix:** heavy `multiple-choice` comprehension + a few `flashcard`
   for key terms. No `word-bank`/`fill-blank` (nothing to construct yet).
 
-### 2. `unit-03-sounds` — Klanken & uitspraak (`01-sounds.md`)
+#### 2. `unit-03-sounds` — Klanken & uitspraak (A1, `01-sounds.md`)
 The foundation unit: vowels (*klinkers*), consonants (*medeklinkers*), and the
 diacritics. Teaches learners to recognise and distinguish sounds and their
 spellings.
@@ -140,7 +150,7 @@ spellings.
   (which spelling / which sound), `flashcard` (diacritic recognition). Avoid
   `word-bank`; use `fill-blank` only for "pick the correctly-spelled form".
 
-### 4. `unit-04-nouns` — Zelfstandige naamwoorden (`02-the-noun.md`)
+#### 4. `unit-04-nouns` — Zelfstandige naamwoorden (A2, `02-the-noun.md`)
 Gender (*geslacht*), number, case behaviour, plus the chapter's numeral
 subsections. Extends the basics nouns.
 - ~5 lessons: gender → number/plurals → cases → numerals → review.
@@ -149,7 +159,7 @@ subsections. Extends the basics nouns.
 - **Exercise mix:** full mix; lean on `fill-blank` (case/number endings),
   `matching` (noun ↔ gender), `word-bank` (noun phrases).
 
-### 5. `unit-05-pronouns` — Voornaamwoorden (`03-pronouns.md`)
+#### 5. `unit-05-pronouns` — Voornaamwoorden (A2, `03-pronouns.md`)
 Completes the pronoun system beyond the basics' personal pronouns: possessive,
 demonstrative, interrogative, relative.
 - ~4 lessons: possessive → demonstrative → interrogative & relative → review.
@@ -157,7 +167,54 @@ demonstrative, interrogative, relative.
 - **Exercise mix:** `matching` (form ↔ meaning), `fill-blank` (choose the right
   pronoun in a sentence), `word-bank`, `multiple-choice`.
 
-### 7. `unit-06-adverbs` — Bijwoorden (`04-the-adverb.md`)
+#### 6. `unit-02-adjectives` — Bijvoeglijke naamwoorden (A2, `adjective-verified.md`) *(exists)*
+Already authored and verified: adjective agreement and usage. No new
+authoring needed beyond keeping its `order`/`cefrLevel` in step with this
+sequence.
+
+---
+
+## Intermediate tier (B1–B2)
+
+*A learner completing this tier can produce connected sentences with the full
+core grammar spine — adverbs, postpositions, verb conjugation across tenses
+and moods, conjunctions, and light interjections/loanword vocabulary — and
+handle most everyday topics.*
+
+| # | Unit id | Title (nl) | CEFR | Source chapter | Status |
+|---|---------|------------|------|----------------|--------|
+| 7 | `unit-06-adverbs` | Bijwoorden | B1 | `04-the-adverb.md` | new |
+| 8 | `unit-07-postpositions` | Achterzetsels | B1 | `05-postpositions.md` | new |
+| 9 | `unit-08-verbs` | Werkwoorden | B2 | `08-the-verb.md` | new |
+| 10 | `unit-09-conjunctions` | Voegwoorden | B1 | `06-conjunctions.md` | new |
+| 11 | `unit-10-interjections` | Tussenwerpsels | B1 | `07-interjections.md` | new |
+| 12 | `unit-11-loanwords` | Leenwoorden & nieuwvormingen | B2 | `09-loan-words-and-neologisms.md` | new |
+
+### Sequencing & dependencies
+
+- **Nouns & pronouns (Beginner tier) before adverbs/postpositions/verbs.**
+  Agreement (verb→subject) and postposition attachment presuppose
+  gender/number and the pronoun system taught in the Beginner tier.
+- **Postpositions after nouns/pronouns** — they attach to them.
+- **Verbs are the spine of sentence-building** and unlock everything after.
+  `unit-08-verbs` spans B1 (present/past/future) through B2 (imperative,
+  subjunctive); it may ship as two sub-units if it grows unwieldy, but keeps
+  a single `cefrLevel: "B2"` (its ceiling) on the unit unless split.
+- **Conjunctions & interjections** are light and can slot in any time after
+  the Beginner tier, but sit best just before this tier's later units (they
+  glue clauses together).
+- No unit in this tier carries an Advanced-tier prerequisite, per the shared
+  contract's cross-tier sequencing rule; every unit here depends only on
+  Beginner-tier material (see *Overlap*, Beginner tier above, for the
+  `hai`/negation → full conjugation extension).
+
+### Per-unit scope
+
+Same sizing convention as the Beginner tier: **4–5 lessons per unit** (the
+verb unit runs longer, see below), **~5 exercises per lesson**, review
+lesson per unit.
+
+#### 7. `unit-06-adverbs` — Bijwoorden (B1, `04-the-adverb.md`)
 Common adverbs of time, place, manner and degree, including the loanword
 adverbs the chapter discusses, with example sentences.
 - ~3–4 lessons grouped by category → review.
@@ -165,7 +222,7 @@ adverbs the chapter discusses, with example sentences.
 - **Exercise mix:** `flashcard` + `matching` (adverb ↔ category/meaning),
   `fill-blank` and `word-bank` (place the adverb correctly in a sentence).
 
-### 8. `unit-07-postpositions` — Achterzetsels (`05-postpositions.md`)
+#### 8. `unit-07-postpositions` — Achterzetsels (B1, `05-postpositions.md`)
 Sarnami uses postpositions, not prepositions: the common ones and how they
 attach to nouns/pronouns.
 - ~3–4 lessons → review. Depends on nouns/pronouns.
@@ -173,7 +230,7 @@ attach to nouns/pronouns.
 - **Exercise mix:** `word-bank` is the workhorse (word order + attachment),
   plus `fill-blank` (choose the postposition) and `matching`.
 
-### 9. `unit-08-verbs` — Werkwoorden (`08-the-verb.md`)
+#### 9. `unit-08-verbs` — Werkwoorden (B2, `08-the-verb.md`)
 The largest chapter and the sentence-building spine. Conjugation across tenses
 and moods including the subjunctive (*aanvoegende wijs*). Split by difficulty.
 - **~6–7 lessons** (the one unit that runs longer): present → past → future →
@@ -185,22 +242,22 @@ and moods including the subjunctive (*aanvoegende wijs*). Split by difficulty.
   clause) dominate; `matching` (person ↔ ending), `multiple-choice` (which
   tense/mood), `flashcard` for stems.
 
-### 10. `unit-09-conjunctions` — Voegwoorden (`06-conjunctions.md`)
-Coordinating and subordinating conjunctions; joining clauses. Pairs with
-reading. Several forms already live in `vocab/structuurwoorden.json` — reuse
-them, don't duplicate.
+#### 10. `unit-09-conjunctions` — Voegwoorden (B1, `06-conjunctions.md`)
+Coordinating and subordinating conjunctions; joining clauses. Pairs with the
+Advanced tier's reading unit. Several forms already live in
+`vocab/structuurwoorden.json` — reuse them, don't duplicate.
 - ~2–3 lessons → review.
 - **Exercise mix:** `word-bank` (join two clauses), `fill-blank` (choose the
   conjunction), `matching`.
 
-### 11. `unit-10-interjections` — Tussenwerpsels (`07-interjections.md`)
+#### 11. `unit-10-interjections` — Tussenwerpsels (B1, `07-interjections.md`)
 Short, high-frequency, conversational: common exclamations and discourse
 particles. Some (`hāṁ`, `nā`) already exist in `vocab/greetings.json` — reuse.
 - ~2 lessons → review.
 - **Exercise mix:** `flashcard` + `matching` (interjection ↔ situation/meaning),
   light `multiple-choice`.
 
-### 12. `unit-11-loanwords` — Leenwoorden & nieuwvormingen (`09-loan-words-and-neologisms.md`)
+#### 12. `unit-11-loanwords` — Leenwoorden & nieuwvormingen (B2, `09-loan-words-and-neologisms.md`)
 Dutch/Sranantongo/other loanwords and coined modern terms. A vocab-expansion
 unit; cross-check spellings per the verification discipline.
 - ~3 lessons grouped by source language → review.
@@ -208,14 +265,47 @@ unit; cross-check spellings per the verification discipline.
 - **Exercise mix:** `flashcard` + `matching` (loanword ↔ origin/meaning),
   `multiple-choice`. Little productive grammar.
 
-### 13. `unit-12-word-formation` — Woordvorming (`10-word-formation.md`)
+---
+
+## Advanced tier (C1)
+
+*A learner completing this tier can derive new vocabulary from productive
+word-formation patterns and read graded authentic texts (fables, passages)
+with Dutch translations, applying the full grammar spine from lower tiers to
+unfamiliar material.*
+
+| # | Unit id | Title (nl) | CEFR | Source chapter | Status |
+|---|---------|------------|------|----------------|--------|
+| 13 | `unit-12-word-formation` | Woordvorming | C1 | `10-word-formation.md` | new |
+| 14 | `unit-13-reading` | Lezen: teksten & fabels | C1 | `11-texts.md` | new |
+
+This tier is deliberately the smallest and most likely to stay thin for a
+while — both units depend on the full Intermediate-tier grammar spine and
+genuine authentic source text (the *BIJLAGEN* fables/passages), so there is
+no fabricated content here to pad it out. No further Advanced units are
+currently planned beyond these two; if the book's rarer/long-tail verb
+paradigms (see *Out of scope* below) are authored later, they would land
+here as C2 material.
+
+### Sequencing & dependencies
+
+- **Word formation depends on the full Intermediate-tier grammar spine** — it
+  teaches learners to *derive* vocabulary from patterns, which only pays off
+  once they have a base to build on.
+- **Reading is the capstone** and sits last — it reuses vocab and grammar from
+  every lower tier and should introduce little new machinery, only reading
+  strategy and passage-specific vocab.
+
+### Per-unit scope
+
+#### 13. `unit-12-word-formation` — Woordvorming (C1, `10-word-formation.md`)
 Derivational suffixes (incl. those of Arabic-Persian origin) and how words are
 built — recognising patterns to expand vocabulary. Best placed late.
 - ~3 lessons by suffix family → review.
 - **Exercise mix:** `matching` (suffix ↔ meaning), `multiple-choice` (which
   derived form), `fill-blank` (build the derived word). Meta over rote.
 
-### 14. `unit-13-reading` — Lezen: teksten & fabels (`11-texts.md`)
+#### 14. `unit-13-reading` — Lezen: teksten & fabels (C1, `11-texts.md`)
 Capstone/applied: the fables and reading passages (with Dutch translations)
 from the *BIJLAGEN*. Graded comprehension that reuses earlier vocab and grammar.
 - ~3–4 graded reading lessons → review; sits at the end.
@@ -223,6 +313,8 @@ from the *BIJLAGEN*. Graded comprehension that reuses earlier vocab and grammar.
 - **Exercise mix:** `multiple-choice` comprehension leads; `word-bank`
   (reconstruct a sentence from the passage), `fill-blank` (cloze over known
   words), `matching` (passage vocab).
+
+---
 
 ## Exercise-type reference
 
@@ -252,4 +344,6 @@ Review lessons mix all five and carry the highest `xpReward`.
   disagree, prefer the book's diacritic-correct form and tag
   `needs-verification` until a second source confirms.
 - **A fully exhaustive verb paradigm** (every rare compound/aspect) — the verb
-  unit ships the common tenses/moods; long-tail forms are a later addition.
+  unit ships the common tenses/moods; long-tail forms are a later addition
+  and, per the Advanced-tier note above, the most likely candidate for a
+  future C2 unit.
