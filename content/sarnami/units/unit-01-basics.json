@@ -1,6 +1,7 @@
 {
   "id": "unit-01-basics",
   "title": "Basis",
+  "titleTranslations": { "nl": "Basis", "en": "Basics" },
   "description": "Begroetingen, voornaamwoorden, eenvoudige zelfstandige naamwoorden en zinnen met 'hai'.",
   "order": 3,
   "lessons": [
@@ -9,6 +10,7 @@
       "unitId": "unit-01-basics",
       "order": 1,
       "title": "Begroetingen",
+      "titleTranslations": { "nl": "Begroetingen", "en": "Greetings" },
       "description": "Leer de eerste Sarnami groeten.",
       "newVocab": [
         "greet-ram-ram",
@@ -58,6 +60,7 @@
       "unitId": "unit-01-basics",
       "order": 2,
       "title": "Voornaamwoorden",
+      "titleTranslations": { "nl": "Voornaamwoorden", "en": "Pronouns" },
       "description": "Ik, jij, u, hij/zij en wij in het Sarnami.",
       "newVocab": [
         "pron-ham",
@@ -105,6 +108,7 @@
       "unitId": "unit-01-basics",
       "order": 3,
       "title": "Familie en huis",
+      "titleTranslations": { "nl": "Familie en huis", "en": "Family and house" },
       "description": "Eenvoudige zelfstandige naamwoorden over huis en familie.",
       "newVocab": [
         "noun-ghar",
@@ -157,6 +161,7 @@
       "unitId": "unit-01-basics",
       "order": 4,
       "title": "Zinnen met 'hai'",
+      "titleTranslations": { "nl": "Zinnen met 'hai'", "en": "Sentences with 'hai'" },
       "description": "Het werkwoord 'hai' (zijn), ontkenning en de vraag 'waar'.",
       "newVocab": [
         "gram-hai",
@@ -207,6 +212,7 @@
       "unitId": "unit-01-basics",
       "order": 5,
       "title": "Herhaling",
+      "titleTranslations": { "nl": "Herhaling", "en": "Review" },
       "description": "Alles uit Eenheid 1 nog eens herhalen.",
       "newVocab": [],
       "generatedSpec": {
