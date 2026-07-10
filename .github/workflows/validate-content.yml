@@ -26,8 +26,13 @@ jobs:
       # to that tag the same way deployments pin content tags (see
       # docs/versioning.md) — a moving `main` ref is only acceptable here
       # because it's fetching tooling, not the content shape being validated.
+      # rarelang-server is a private repo, so this needs an authenticated
+      # clone — RARELANG_SERVER_TOKEN is a PAT scoped to read-only access on
+      # that one repo.
       - name: Fetch rarelang-server validate-content
-        run: git clone --depth 1 https://github.com/VITAL-Development/rarelang-server.git /tmp/rarelang-server
+        env:
+          RARELANG_SERVER_TOKEN: ${{ secrets.RARELANG_SERVER_TOKEN }}
+        run: git clone --depth 1 "https://x-access-token:${RARELANG_SERVER_TOKEN}@github.com/VITAL-Development/rarelang-server.git" /tmp/rarelang-server
 
       - name: Validate content contract
         run: node /tmp/rarelang-server/scripts/validate-content.mjs .
@@ -48,7 +53,9 @@ jobs:
       # reviewed (contracts.lock.json). No LLM needed to notice a contract
       # doc changed — only reviewing *what* changed is a human/agentic call.
       - name: Fetch rarelang-server contracts-manifest
-        run: git clone --depth 1 https://github.com/VITAL-Development/rarelang-server.git /tmp/rarelang-server
+        env:
+          RARELANG_SERVER_TOKEN: ${{ secrets.RARELANG_SERVER_TOKEN }}
+        run: git clone --depth 1 "https://x-access-token:${RARELANG_SERVER_TOKEN}@github.com/VITAL-Development/rarelang-server.git" /tmp/rarelang-server
 
       - name: Diff upstream contracts against contracts.lock.json
         run: |
@@ -101,8 +108,10 @@ jobs:
 
       - name: Fetch prose contract docs
         if: steps.changed.outputs.any == 'true'
+        env:
+          RARELANG_SERVER_TOKEN: ${{ secrets.RARELANG_SERVER_TOKEN }}
         run: |
-          git clone --depth 1 https://github.com/VITAL-Development/rarelang-server.git /tmp/rarelang-server
+          git clone --depth 1 "https://x-access-token:${RARELANG_SERVER_TOKEN}@github.com/VITAL-Development/rarelang-server.git" /tmp/rarelang-server
 
       # Advisory-only half of the Option C fork (rarelang-server#53, #204):
       # the two contracts here are prose/judgment calls that aren't
