@@ -1,0 +1,67 @@
+{
+  "common": {
+    "loading": "Laden..."
+  },
+  "nav": {
+    "path": "Route",
+    "review": "Herhalen",
+    "grammar": "Grammatica",
+    "profile": "Profiel",
+    "settings": "Instellingen"
+  },
+  "path": {
+    "title": "Jouw leerroute",
+    "noLessonsYet": "Nog geen lessen voor deze taal."
+  },
+  "lesson": {
+    "checkAnswer": "Controleren",
+    "continue": "Verder",
+    "correct": "Goed zo!",
+    "incorrect": "Niet helemaal.",
+    "backToPath": "Terug naar de route",
+    "tryAgain": "Probeer opnieuw",
+    "lessonComplete": "Les voltooid!",
+    "lessonFailed": "Les mislukt",
+    "xpEarned": "XP verdiend"
+  },
+  "review": {
+    "title": "Herhalen",
+    "empty": "Op dit moment niets om te herhalen.",
+    "showAnswer": "Toon antwoord",
+    "knewIt": "Ik wist het",
+    "didntKnowIt": "Ik wist het niet"
+  },
+  "grammar": {
+    "title": "Grammatica",
+    "empty": "Nog geen grammaticaonderwerpen voor deze taal.",
+    "backToTopics": "Terug naar onderwerpen",
+    "notFound": "Grammaticaonderwerp niet gevonden."
+  },
+  "profile": {
+    "title": "Profiel",
+    "xp": "XP",
+    "streak": "Reeks",
+    "badges": "Badges",
+    "noBadgesYet": "Nog geen badges."
+  },
+  "settings": {
+    "title": "Instellingen",
+    "uiLanguageLabel": "Taal van de interface",
+    "learningLanguageLabel": "Taal die je leert"
+  },
+  "startup": {
+    "title": "Welke taal wil je leren?",
+    "subtitle": "Kies een taal om te beginnen. Je kunt dit later wijzigen in Instellingen.",
+    "comingSoon": "Binnenkort beschikbaar",
+    "loading": "Alles wordt klaargezet…",
+    "loadError": "We konden die taal niet laden. Controleer je verbinding en probeer het opnieuw.",
+    "retry": "Probeer opnieuw"
+  },
+  "exercise": {
+    "flashcard": "Flashcard",
+    "fillBlank": "Vul het ontbrekende woord in",
+    "wordBank": "Zet de zin in elkaar",
+    "multipleChoice": "Meerkeuze",
+    "matching": "Sleep bij elkaar horende paren naar elkaar toe"
+  }
+}
