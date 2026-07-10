@@ -52,18 +52,11 @@
       "pres-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "paṛh", "right": "lezen" },
-          { "left": "kar", "right": "doen" },
-          { "left": "bol", "right": "zeggen" },
-          { "left": "dekh", "right": "kijken" },
-          { "left": "sun", "right": "luisteren" }
-        ],
-        "rightTranslations": [
-          { "nl": "lezen", "en": "to read" },
-          { "nl": "doen", "en": "to do" },
-          { "nl": "zeggen", "en": "to say" },
-          { "nl": "kijken", "en": "to look" },
-          { "nl": "luisteren", "en": "to listen" }
+          { "left": "paṛh", "right": "lezen", "rightTranslations": { "nl": "lezen", "en": "to read" } },
+          { "left": "kar", "right": "doen", "rightTranslations": { "nl": "doen", "en": "to do" } },
+          { "left": "bol", "right": "zeggen", "rightTranslations": { "nl": "zeggen", "en": "to say" } },
+          { "left": "dekh", "right": "kijken", "rightTranslations": { "nl": "kijken", "en": "to look" } },
+          { "left": "sun", "right": "luisteren", "rightTranslations": { "nl": "luisteren", "en": "to listen" } }
         ]
       },
       "pres-e3": {
@@ -284,18 +277,11 @@
       "imp-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "paṛh!", "right": "lees!" },
-          { "left": "sun!", "right": "luister!" },
-          { "left": "jā!", "right": "ga!" },
-          { "left": "baiṭho!", "right": "gaat u zitten!" },
-          { "left": "āvo!", "right": "komt u!" }
-        ],
-        "rightTranslations": [
-          { "nl": "lees!", "en": "read!" },
-          { "nl": "luister!", "en": "listen!" },
-          { "nl": "ga!", "en": "go!" },
-          { "nl": "gaat u zitten!", "en": "sit down! (polite)" },
-          { "nl": "komt u!", "en": "come! (polite)" }
+          { "left": "paṛh!", "right": "lees!", "rightTranslations": { "nl": "lees!", "en": "read!" } },
+          { "left": "sun!", "right": "luister!", "rightTranslations": { "nl": "luister!", "en": "listen!" } },
+          { "left": "jā!", "right": "ga!", "rightTranslations": { "nl": "ga!", "en": "go!" } },
+          { "left": "baiṭho!", "right": "gaat u zitten!", "rightTranslations": { "nl": "gaat u zitten!", "en": "sit down! (polite)" } },
+          { "left": "āvo!", "right": "komt u!", "rightTranslations": { "nl": "komt u!", "en": "come! (polite)" } }
         ]
       },
       "imp-e3": {
@@ -414,18 +400,11 @@
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "tegenwoordige tijd", "right": "ham paṛhilā" },
-          { "left": "verleden tijd", "right": "ham paṛhlī" },
-          { "left": "toekomende tijd", "right": "ham paṛhab" },
-          { "left": "gebiedende wijs", "right": "paṛh!" },
-          { "left": "aanvoegende wijs", "right": "ham paṛhī" }
-        ],
-        "leftTranslations": [
-          { "nl": "tegenwoordige tijd", "en": "present tense" },
-          { "nl": "verleden tijd", "en": "past tense" },
-          { "nl": "toekomende tijd", "en": "future tense" },
-          { "nl": "gebiedende wijs", "en": "imperative" },
-          { "nl": "aanvoegende wijs", "en": "subjunctive" }
+          { "left": "tegenwoordige tijd", "right": "ham paṛhilā", "leftTranslations": { "nl": "tegenwoordige tijd", "en": "present tense" } },
+          { "left": "verleden tijd", "right": "ham paṛhlī", "leftTranslations": { "nl": "verleden tijd", "en": "past tense" } },
+          { "left": "toekomende tijd", "right": "ham paṛhab", "leftTranslations": { "nl": "toekomende tijd", "en": "future tense" } },
+          { "left": "gebiedende wijs", "right": "paṛh!", "leftTranslations": { "nl": "gebiedende wijs", "en": "imperative" } },
+          { "left": "aanvoegende wijs", "right": "ham paṛhī", "leftTranslations": { "nl": "aanvoegende wijs", "en": "subjunctive" } }
         ]
       },
       "rev-e3": {
