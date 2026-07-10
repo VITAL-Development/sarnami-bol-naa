@@ -1,6 +1,7 @@
 {
   "id": "unit-03-sounds",
   "title": "Klanken & uitspraak",
+  "titleTranslations": { "nl": "Klanken & uitspraak", "en": "Sounds & pronunciation" },
   "description": "Klinkers, medeklinkers en de diacritische tekens van de Sarnami-romanisatie.",
   "order": 2,
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/01-sounds.md",
@@ -10,6 +11,7 @@
       "unitId": "unit-03-sounds",
       "order": 1,
       "title": "Klinkers & macrons",
+      "titleTranslations": { "nl": "Klinkers & macrons", "en": "Vowels & macrons" },
       "description": "Klinkers en de lange klinkers (ā/ī/ū).",
       "newVocab": [
         "sound-am",
@@ -58,6 +60,7 @@
       "unitId": "unit-03-sounds",
       "order": 2,
       "title": "Medeklinkers",
+      "titleTranslations": { "nl": "Medeklinkers", "en": "Consonants" },
       "description": "De medeklinkers van het Sarnami.",
       "newVocab": [
         "sound-kaun",
@@ -107,6 +110,7 @@
       "unitId": "unit-03-sounds",
       "order": 3,
       "title": "Bijzondere tekens",
+      "titleTranslations": { "nl": "Bijzondere tekens", "en": "Special characters" },
       "description": "De onderpunt- en tilde-tekens (ṭ/ḍ/ṇ, ñ/ṅ).",
       "newVocab": [
         "sound-roti",
@@ -164,6 +168,7 @@
       "unitId": "unit-03-sounds",
       "order": 4,
       "title": "Herhaling",
+      "titleTranslations": { "nl": "Herhaling", "en": "Review" },
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [
