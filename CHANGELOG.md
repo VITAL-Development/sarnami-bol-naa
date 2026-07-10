@@ -38,6 +38,16 @@ which point they move under a dated `## [X.Y.Z]` heading.
   by the backend on `GET /languages` and consumed by the frontend as the
   default UI language when the user hasn't chosen one, so the app no longer
   starts in English over Dutch-only content. See sarnami-bol-naa#155.
+- Real grammar-reference content for the remaining 12 topics in
+  `content/sarnami/grammar/grammar.json` (`GET /grammar`): about-sarnami,
+  sounds, basics, pronouns, adjectives, adverbs, postpositions, verbs,
+  conjunctions, interjections, loanwords, word-formation and reading —
+  consolidating each unit's already-authored per-lesson grammar notes into
+  one browsable reference note per topic. Completes the standalone grammar
+  reference so it covers every unit (#153); `units/` and `lessons/` are
+  untouched, only the separate `GET /grammar` reference changes. Removed the
+  `verb-to-be` scaffold placeholder, superseded by the authored `basics` and
+  `verbs` notes.
 
 ## [0.2.0] - 2026-07-09
 
