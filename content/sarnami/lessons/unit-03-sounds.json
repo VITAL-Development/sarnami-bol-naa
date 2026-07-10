@@ -27,7 +27,12 @@
           "de tilde: ñ",
           "het accent aigu: á"
         ],
-        "optionTranslations": ["the macron (the bar): ā", "the dot below: ṭ", "the tilde: ñ", "the acute accent: á"],
+        "optionTranslations": [
+          { "nl": "de macron (het streepje): ā", "en": "the macron (the bar): ā" },
+          { "nl": "de punt eronder: ṭ", "en": "the dot below: ṭ" },
+          { "nl": "de tilde: ñ", "en": "the tilde: ñ" },
+          { "nl": "het accent aigu: á", "en": "the acute accent: á" }
+        ],
         "correctIndex": 0
       },
       "vow-e2": {
@@ -40,7 +45,12 @@
           "ek (één)",
           "os (dauw)"
         ],
-        "optionTranslations": ["ām (a manje)", "ab (now)", "ek (one)", "os (dew)"],
+        "optionTranslations": [
+          { "nl": "ām (een manje)", "en": "ām (a manje)" },
+          { "nl": "ab (nu)", "en": "ab (now)" },
+          { "nl": "ek (één)", "en": "ek (one)" },
+          { "nl": "os (dauw)", "en": "os (dew)" }
+        ],
         "correctIndex": 0
       },
       "vow-e3": {
@@ -82,7 +92,12 @@
           "dat het een klinker is",
           "dat je de letter niet uitspreekt"
         ],
-        "optionTranslations": ["that the sound is pronounced aspirated (with a puff of air)", "that the sound is long", "that it is a vowel", "that you don't pronounce the letter"],
+        "optionTranslations": [
+          { "nl": "dat de klank geaspireerd (met een luchtstootje) wordt uitgesproken", "en": "that the sound is pronounced aspirated (with a puff of air)" },
+          { "nl": "dat de klank lang is", "en": "that the sound is long" },
+          { "nl": "dat het een klinker is", "en": "that it is a vowel" },
+          { "nl": "dat je de letter niet uitspreekt", "en": "that you don't pronounce the letter" }
+        ],
         "correctIndex": 0
       },
       "con-e2": {
@@ -95,7 +110,12 @@
           "cor (een dief)",
           "garīb (arm)"
         ],
-        "optionTranslations": ["khet (a field)", "kaun (who)", "cor (a thief)", "garīb (poor)"],
+        "optionTranslations": [
+          { "nl": "khet (een akker)", "en": "khet (a field)" },
+          { "nl": "kaun (wie)", "en": "kaun (who)" },
+          { "nl": "cor (een dief)", "en": "cor (a thief)" },
+          { "nl": "garīb (arm)", "en": "garīb (poor)" }
+        ],
         "correctIndex": 0
       },
       "con-e3": {
@@ -143,7 +163,12 @@
           "een geaspireerde klank",
           "dat je de letter niet uitspreekt"
         ],
-        "optionTranslations": ["a retroflex sound: the tongue curls toward the palate", "a long vowel", "an aspirated sound", "that you don't pronounce the letter"],
+        "optionTranslations": [
+          { "nl": "een retroflexe klank: de tong krult naar het gehemelte", "en": "a retroflex sound: the tongue curls toward the palate" },
+          { "nl": "een lange klinker", "en": "a long vowel" },
+          { "nl": "een geaspireerde klank", "en": "an aspirated sound" },
+          { "nl": "dat je de letter niet uitspreekt", "en": "that you don't pronounce the letter" }
+        ],
         "correctIndex": 0
       },
       "dia-e2": {
@@ -156,7 +181,12 @@
           "har (een ploeg)",
           "ek (één)"
         ],
-        "optionTranslations": ["roṭī (a roti)", "tarkārī (vegetable)", "har (a plough)", "ek (one)"],
+        "optionTranslations": [
+          { "nl": "roṭī (een roti)", "en": "roṭī (a roti)" },
+          { "nl": "tarkārī (groente)", "en": "tarkārī (vegetable)" },
+          { "nl": "har (een ploeg)", "en": "har (a plough)" },
+          { "nl": "ek (één)", "en": "ek (one)" }
+        ],
         "correctIndex": 0
       },
       "dia-e3": {
@@ -178,7 +208,12 @@
           "de punt onder de letter",
           "het accent aigu"
         ],
-        "optionTranslations": ["the tilde / dot above the letter", "the macron (the bar)", "the dot below the letter", "the acute accent"],
+        "optionTranslations": [
+          { "nl": "de tilde / punt boven de letter", "en": "the tilde / dot above the letter" },
+          { "nl": "de macron (het streepje)", "en": "the macron (the bar)" },
+          { "nl": "de punt onder de letter", "en": "the dot below the letter" },
+          { "nl": "het accent aigu", "en": "the acute accent" }
+        ],
         "correctIndex": 0
       }
     }
@@ -198,7 +233,12 @@
           "hij geeft een nasale klank aan",
           "hij geeft aspiratie aan"
         ],
-        "optionTranslations": ["it indicates that the vowel is pronounced long", "it indicates a retroflex sound", "it indicates a nasal sound", "it indicates aspiration"],
+        "optionTranslations": [
+          { "nl": "hij geeft aan dat de klinker lang wordt uitgesproken", "en": "it indicates that the vowel is pronounced long" },
+          { "nl": "hij geeft een retroflexe klank aan", "en": "it indicates a retroflex sound" },
+          { "nl": "hij geeft een nasale klank aan", "en": "it indicates a nasal sound" },
+          { "nl": "hij geeft aspiratie aan", "en": "it indicates aspiration" }
+        ],
         "correctIndex": 0
       },
       "rev-e2": {
