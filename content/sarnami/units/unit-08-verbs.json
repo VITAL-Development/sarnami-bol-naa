@@ -1,6 +1,7 @@
 {
   "id": "unit-08-verbs",
   "title": "Werkwoorden",
+  "titleTranslations": { "nl": "Werkwoorden", "en": "Verbs" },
   "description": "Vervoeging in tijden en wijzen, inclusief de aanvoegende wijs.",
   "order": 9,
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/08-the-verb.md",
@@ -10,6 +11,7 @@
       "unitId": "unit-08-verbs",
       "order": 1,
       "title": "Tegenwoordige tijd",
+      "titleTranslations": { "nl": "Tegenwoordige tijd", "en": "Present tense" },
       "description": "Vervoeging in de tegenwoordige tijd.",
       "newVocab": [
         "verb-parhe",
@@ -37,6 +39,7 @@
       "unitId": "unit-08-verbs",
       "order": 2,
       "title": "Verleden tijd",
+      "titleTranslations": { "nl": "Verleden tijd", "en": "Past tense" },
       "description": "Vervoeging in de verleden tijd.",
       "newVocab": [
         "verb-jai",
@@ -62,6 +65,7 @@
       "unitId": "unit-08-verbs",
       "order": 3,
       "title": "Toekomende tijd",
+      "titleTranslations": { "nl": "Toekomende tijd", "en": "Future tense" },
       "description": "Vervoeging in de toekomende tijd.",
       "newVocab": [
         "verb-leve",
@@ -87,6 +91,7 @@
       "unitId": "unit-08-verbs",
       "order": 4,
       "title": "Gebiedende wijs",
+      "titleTranslations": { "nl": "Gebiedende wijs", "en": "Imperative" },
       "description": "De gebiedende wijs.",
       "newVocab": [
         "verb-cale",
@@ -112,6 +117,7 @@
       "unitId": "unit-08-verbs",
       "order": 5,
       "title": "Aanvoegende wijs",
+      "titleTranslations": { "nl": "Aanvoegende wijs", "en": "Subjunctive" },
       "description": "De aanvoegende wijs.",
       "newVocab": [
         "verb-pahine",
@@ -137,6 +143,7 @@
       "unitId": "unit-08-verbs",
       "order": 6,
       "title": "Herhaling",
+      "titleTranslations": { "nl": "Herhaling", "en": "Review" },
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [
