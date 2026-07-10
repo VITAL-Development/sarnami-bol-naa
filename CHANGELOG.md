@@ -43,6 +43,7 @@ which point they move under a dated `## [X.Y.Z]` heading.
 - Grammar-reference note `interjections` ("Tussenwerpsels") for `unit-10-interjections` in `content/sarnami/grammar/grammar.json` (served by `GET /grammar`): consolidates the unit's per-lesson grammar notes into one browsable reference entry so the PWA grammar screen covers this unit. Part of #153.
 - Grammar-reference note `loanwords` ("Leenwoorden & nieuwvormingen") for `unit-11-loanwords` in `content/sarnami/grammar/grammar.json` (served by `GET /grammar`): consolidates the unit's per-lesson grammar notes into one browsable reference entry so the PWA grammar screen covers this unit. Part of #153.
 - Grammar-reference note `word-formation` ("Woordvorming") for `unit-12-word-formation` in `content/sarnami/grammar/grammar.json` (served by `GET /grammar`): consolidates the unit's per-lesson grammar notes into one browsable reference entry so the PWA grammar screen covers this unit. Part of #153.
+- Grammar-reference note `reading` ("Lezen: teksten & fabels") for `unit-13-reading` in `content/sarnami/grammar/grammar.json` (served by `GET /grammar`): consolidates the unit's per-lesson grammar notes into one browsable reference entry so the PWA grammar screen covers this unit. Part of #153.
 
 ## [0.2.0] - 2026-07-09
 
