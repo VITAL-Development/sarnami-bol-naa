@@ -6,8 +6,44 @@ on:
     branches: [main]
 
 jobs:
+  fetch-rarelang-server:
+    name: fetch rarelang-server tooling
+    runs-on: ubuntu-latest
+    outputs:
+      cache-key: ${{ steps.resolve.outputs.cache-key }}
+    steps:
+      # rarelang-server is private, so this needs an authenticated clone —
+      # RARELANG_SERVER_TOKEN is a PAT scoped to read-only access on that one
+      # repo. Resolve `main`'s current commit first (a single `ls-remote`
+      # round-trip, not a clone) so the cache key below only changes when
+      # rarelang-server's `main` actually moves — most runs hit cache and
+      # skip the clone entirely, and every other job in this workflow
+      # restores the same cache instead of cloning again itself, so
+      # rarelang-server is fetched at most once per commit, not once per job.
+      - name: Resolve rarelang-server main SHA
+        id: resolve
+        env:
+          RARELANG_SERVER_TOKEN: ${{ secrets.RARELANG_SERVER_TOKEN }}
+        run: |
+          sha=$(git ls-remote "https://x-access-token:${RARELANG_SERVER_TOKEN}@github.com/VITAL-Development/rarelang-server.git" refs/heads/main | cut -f1)
+          echo "cache-key=rarelang-server-tooling-${sha}" >> "$GITHUB_OUTPUT"
+
+      - name: Cache rarelang-server tooling
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: rarelang-server-tooling
+          key: ${{ steps.resolve.outputs.cache-key }}
+
+      - name: Clone rarelang-server (cache miss)
+        if: steps.cache.outputs.cache-hit != 'true'
+        env:
+          RARELANG_SERVER_TOKEN: ${{ secrets.RARELANG_SERVER_TOKEN }}
+        run: git clone --depth 1 "https://x-access-token:${RARELANG_SERVER_TOKEN}@github.com/VITAL-Development/rarelang-server.git" rarelang-server-tooling
+
   validate-content:
     name: validate-content (rarelang-server)
+    needs: fetch-rarelang-server
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -16,29 +52,31 @@ jobs:
         with:
           node-version: "22"
 
-      # The validator lives in rarelang-server (scripts/validate-content.mjs,
-      # rarelang-server#57) — this repo supplies content only, not tooling.
-      # It checks this repo's content/sarnami + settings/sarnami against the
+      # Restore-only: fetch-rarelang-server already populated this exact key
+      # (it ran first, via `needs:`), so this is a same-run cache hit — no
+      # network fetch of rarelang-server here at all.
+      - name: Restore rarelang-server tooling
+        uses: actions/cache/restore@v4
+        with:
+          path: rarelang-server-tooling
+          key: ${{ needs.fetch-rarelang-server.outputs.cache-key }}
+          fail-on-cache-miss: true
+
+      # Checks this repo's content/sarnami + settings/sarnami against the
       # "Content repository contract" in rarelang-server's docs/api-contract.md:
       # required fields/types plus referential integrity of every id-based
-      # cross-reference. Pinned to `main` for now since the tool isn't part of
-      # a released rarelang-server tag yet; once it ships in one, switch this
-      # to that tag the same way deployments pin content tags (see
-      # docs/versioning.md) — a moving `main` ref is only acceptable here
-      # because it's fetching tooling, not the content shape being validated.
-      # rarelang-server is a private repo, so this needs an authenticated
-      # clone — RARELANG_SERVER_TOKEN is a PAT scoped to read-only access on
-      # that one repo.
-      - name: Fetch rarelang-server validate-content
-        env:
-          RARELANG_SERVER_TOKEN: ${{ secrets.RARELANG_SERVER_TOKEN }}
-        run: git clone --depth 1 "https://x-access-token:${RARELANG_SERVER_TOKEN}@github.com/VITAL-Development/rarelang-server.git" /tmp/rarelang-server
-
+      # cross-reference. Tracks rarelang-server's `main` for now since the
+      # validator isn't part of a released rarelang-server tag yet; once it
+      # ships in one, switch this to that tag the same way deployments pin
+      # content tags (see docs/versioning.md) — a moving `main` ref is only
+      # acceptable here because it's fetching tooling, not the content shape
+      # being validated.
       - name: Validate content contract
-        run: node /tmp/rarelang-server/scripts/validate-content.mjs .
+        run: node rarelang-server-tooling/scripts/validate-content.mjs .
 
   contracts-discovery:
     name: contracts-discovery (deterministic)
+    needs: fetch-rarelang-server
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -46,20 +84,22 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+
+      - name: Restore rarelang-server tooling
+        uses: actions/cache/restore@v4
+        with:
+          path: rarelang-server-tooling
+          key: ${{ needs.fetch-rarelang-server.outputs.cache-key }}
+          fail-on-cache-miss: true
 
       # Deterministic half of "dynamically discover new/changed contracts"
       # (rarelang-server#53, this repo's #204): a plain sha256 diff between
       # rarelang-server's current contract docs and the hashes we last
       # reviewed (contracts.lock.json). No LLM needed to notice a contract
       # doc changed — only reviewing *what* changed is a human/agentic call.
-      - name: Fetch rarelang-server contracts-manifest
-        env:
-          RARELANG_SERVER_TOKEN: ${{ secrets.RARELANG_SERVER_TOKEN }}
-        run: git clone --depth 1 "https://x-access-token:${RARELANG_SERVER_TOKEN}@github.com/VITAL-Development/rarelang-server.git" /tmp/rarelang-server
-
       - name: Diff upstream contracts against contracts.lock.json
         run: |
-          node /tmp/rarelang-server/scripts/contracts-manifest.mjs > /tmp/upstream-manifest.json
+          node rarelang-server-tooling/scripts/contracts-manifest.mjs > /tmp/upstream-manifest.json
           node -e '
             const fs = require("node:fs");
             const upstream = JSON.parse(fs.readFileSync("/tmp/upstream-manifest.json", "utf-8"));
@@ -79,6 +119,7 @@ jobs:
 
   advisory-contract-review:
     name: advisory-contract-review (agentic, non-blocking)
+    needs: fetch-rarelang-server
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     permissions:
@@ -106,12 +147,13 @@ jobs:
             echo "any=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Fetch prose contract docs
+      - name: Restore rarelang-server tooling
         if: steps.changed.outputs.any == 'true'
-        env:
-          RARELANG_SERVER_TOKEN: ${{ secrets.RARELANG_SERVER_TOKEN }}
-        run: |
-          git clone --depth 1 "https://x-access-token:${RARELANG_SERVER_TOKEN}@github.com/VITAL-Development/rarelang-server.git" /tmp/rarelang-server
+        uses: actions/cache/restore@v4
+        with:
+          path: rarelang-server-tooling
+          key: ${{ needs.fetch-rarelang-server.outputs.cache-key }}
+          fail-on-cache-miss: true
 
       # Advisory-only half of the Option C fork (rarelang-server#53, #204):
       # the two contracts here are prose/judgment calls that aren't
@@ -136,8 +178,8 @@ jobs:
 
             Read only:
             - The changed files from this PR: ${{ steps.changed.outputs.files }}
-            - /tmp/rarelang-server/docs/lesson-plan-authoring-contract.md (CEFR tier rules, cefrLevel field)
-            - /tmp/rarelang-server/docs/source-language-authoring-contract.md (A2 ceiling on Dutch authoring text)
+            - rarelang-server-tooling/docs/lesson-plan-authoring-contract.md (CEFR tier rules, cefrLevel field)
+            - rarelang-server-tooling/docs/source-language-authoring-contract.md (A2 ceiling on Dutch authoring text)
 
             Evaluate the changed files against those two contracts only:
             1. If a unit sets `cefrLevel`, does its actual vocab/grammar difficulty plausibly
