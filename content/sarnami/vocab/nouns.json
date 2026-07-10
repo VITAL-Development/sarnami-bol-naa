@@ -3,7 +3,8 @@
     "id": "noun-ghar",
     "word": "ghar",
     "translations": {
-      "nl": "huis"
+      "nl": "huis",
+      "en": "house"
     },
     "tags": [
       "noun",
@@ -14,7 +15,8 @@
     "id": "noun-ghari",
     "word": "ghaṛī",
     "translations": {
-      "nl": "klok"
+      "nl": "klok",
+      "en": "clock"
     },
     "tags": [
       "noun",
@@ -25,7 +27,8 @@
     "id": "noun-maibap",
     "word": "māī-bāp",
     "translations": {
-      "nl": "ouders"
+      "nl": "ouders",
+      "en": "parents"
     },
     "notes": "Image-verified tegen p.22 (lopende tekst) en p.31 (samenstellingen, 1.5.1): macron op beide klinkers van māī.",
     "tags": [
@@ -37,7 +40,8 @@
     "id": "noun-bhai",
     "word": "bhāī",
     "translations": {
-      "nl": "broer"
+      "nl": "broer",
+      "en": "brother"
     },
     "notes": "Image-verified tegen p.31 (samenstelling bhāī-bahin, 1.5.1); de lopende tekst op p.22 schrijft dit woord daarentegen zonder macron (bhai).",
     "tags": [
@@ -49,7 +53,8 @@
     "id": "noun-bahin",
     "word": "bahin",
     "translations": {
-      "nl": "zus"
+      "nl": "zus",
+      "en": "sister"
     },
     "tags": [
       "noun",
@@ -60,7 +65,8 @@
     "id": "noun-maiya",
     "word": "maiyā",
     "translations": {
-      "nl": "moeder"
+      "nl": "moeder",
+      "en": "mother"
     },
     "tags": [
       "noun",
@@ -71,7 +77,8 @@
     "id": "noun-bappa",
     "word": "bappā",
     "translations": {
-      "nl": "vader"
+      "nl": "vader",
+      "en": "father"
     },
     "tags": [
       "noun",
@@ -82,7 +89,8 @@
     "id": "noun-beti",
     "word": "beṭī",
     "translations": {
-      "nl": "dochter"
+      "nl": "dochter",
+      "en": "daughter"
     },
     "notes": "Image-verified tegen p.25 (1.2.3.2, beṭī → biṭiyā): retroflexe ṭ (onderpunt), slot-ī lang. Lange (bepaalde) vorm biṭiyā. Eigendom van unit-04-nouns.",
     "tags": [
@@ -94,7 +102,8 @@
     "id": "noun-citthi",
     "word": "ciṭṭhi",
     "translations": {
-      "nl": "brief"
+      "nl": "brief",
+      "en": "letter"
     },
     "notes": "Image-verified tegen p.22: retroflexe ṭṭh (dot-below op beide t's), slot-i kort (geen macron). Eigendom van unit-04-nouns.",
     "tags": [
@@ -106,7 +115,8 @@
     "id": "noun-kutta",
     "word": "kuttā",
     "translations": {
-      "nl": "hond"
+      "nl": "hond",
+      "en": "dog"
     },
     "notes": "Image-verified p.22 (korte-vormtabel: kuttā 'een hond') en p.28/35 (lange vormen kutauvā/kutaunā). Dentale tt, slot-macron ā. Pagina bij benadering; needs-verification tot kruiscontrole.",
     "tags": [
@@ -119,7 +129,8 @@
     "id": "noun-ghora",
     "word": "ghoṛā",
     "translations": {
-      "nl": "paard"
+      "nl": "paard",
+      "en": "horse"
     },
     "notes": "Image-verified p.24 (1.2.3.2) en de naamval-voorbeelden 1.4.1–1.4.6: retroflexe ṛ (onderpunt), slot-macron ā. Lange vorm ghŏṛvā, meervoud ghoṛan/ghŏṛvan. Pagina bij benadering; needs-verification.",
     "tags": [
@@ -132,7 +143,8 @@
     "id": "noun-per",
     "word": "peṛ",
     "translations": {
-      "nl": "boom"
+      "nl": "boom",
+      "en": "tree"
     },
     "notes": "Image-verified p.22 (korte-vormtabel: peṛ 'een boom') en p.24 (pĕṛavā): retroflexe ṛ (onderpunt). Pagina bij benadering; needs-verification.",
     "tags": [
@@ -145,7 +157,8 @@
     "id": "noun-am",
     "word": "ām",
     "translations": {
-      "nl": "manje (mango)"
+      "nl": "manje (mango)",
+      "en": "mango"
     },
     "notes": "Image-verified p.28 (naamval-voorbeelden 1.4.2: ām/amvā): macron ā. Lange vorm amvā, meervoud amvan. Pagina bij benadering; needs-verification.",
     "tags": [
@@ -158,7 +171,8 @@
     "id": "noun-gai",
     "word": "gāī",
     "translations": {
-      "nl": "koe"
+      "nl": "koe",
+      "en": "cow"
     },
     "notes": "Image-verified p.28 (1.4.4: gāī/gaiyā ke): macron op ā en ī. Lange vorm gaiyā. Pagina bij benadering; needs-verification.",
     "tags": [
@@ -171,7 +185,8 @@
     "id": "noun-gadaha",
     "word": "gadahā",
     "translations": {
-      "nl": "ezel"
+      "nl": "ezel",
+      "en": "donkey"
     },
     "notes": "Image-verified p.26 (1.3.1: gadahā 'een ezel') en p.24 (gadăhvā, met breve op -dăh-). Slot-macron ā. Vrouwelijke vorm gadahī. Pagina bij benadering; needs-verification.",
     "tags": [
@@ -184,7 +199,8 @@
     "id": "noun-gadahi",
     "word": "gadahī",
     "translations": {
-      "nl": "ezelin"
+      "nl": "ezelin",
+      "en": "female donkey"
     },
     "notes": "Image-verified p.26 (1.3.1/1.3.3.1: gadahā → gadahī 'een ezelin'): slot-ī lang. Vrouwelijke vorm van gadahā. Pagina bij benadering; needs-verification.",
     "tags": [
@@ -197,7 +213,8 @@
     "id": "noun-launda",
     "word": "laundā",
     "translations": {
-      "nl": "jongen"
+      "nl": "jongen",
+      "en": "boy"
     },
     "notes": "Image-verified p.26 (1.3.1: laundā 'een jongen'): au-tweeklank, slot-macron ā. Let op: laundī (met -ī) betekent níet 'meisje' maar 'hoertje' (1.3.3.1.1). Pagina bij benadering; needs-verification.",
     "tags": [
@@ -210,7 +227,8 @@
     "id": "noun-chaumri",
     "word": "chaumṛī",
     "translations": {
-      "nl": "meisje"
+      "nl": "meisje",
+      "en": "girl"
     },
     "notes": "Image-verified p.26 (1.3.1/1.3.3.1.1: chaumṛī 'een meisje'): au-tweeklank, retroflexe ṛ (onderpunt), slot-ī lang. De -ā-vorm chaumṛā betekent 'vlegel'. Pagina bij benadering; needs-verification.",
     "tags": [
@@ -223,7 +241,8 @@
     "id": "noun-nana",
     "word": "nānā",
     "translations": {
-      "nl": "grootvader (moeders vader)"
+      "nl": "grootvader (moeders vader)",
+      "en": "grandfather (mother's father)"
     },
     "notes": "Image-verified p.26 (1.3.1: nānā 'een grootvader'): macron op beide a's. Vrouwelijke vorm nanī. Pagina bij benadering; needs-verification.",
     "tags": [
@@ -236,7 +255,8 @@
     "id": "noun-nani",
     "word": "nanī",
     "translations": {
-      "nl": "grootmoeder (moeders moeder)"
+      "nl": "grootmoeder (moeders moeder)",
+      "en": "grandmother (mother's mother)"
     },
     "notes": "Image-verified p.26 (1.3.1: nanī 'een grootmoeder'): eerste a kort, slot-ī lang (dus níet nānī). Vrouwelijke tegenhanger van nānā. Pagina bij benadering; needs-verification.",
     "tags": [
@@ -249,7 +269,8 @@
     "id": "noun-nak",
     "word": "nāk",
     "translations": {
-      "nl": "neus"
+      "nl": "neus",
+      "en": "nose"
     },
     "notes": "Image-verified p.22 (medeklinker-slottabel: nāk 'een neus') en p.28 (lange vorm nakiyā): macron ā. Pagina bij benadering; needs-verification.",
     "tags": [
@@ -262,7 +283,8 @@
     "id": "noun-churi",
     "word": "chūrī",
     "translations": {
-      "nl": "mes"
+      "nl": "mes",
+      "en": "knife"
     },
     "notes": "Image-verified p.28 (1.4.3: chūrī/churiya se): macron op ū en ī. Lange vorm churiyā. Pagina bij benadering; needs-verification.",
     "tags": [

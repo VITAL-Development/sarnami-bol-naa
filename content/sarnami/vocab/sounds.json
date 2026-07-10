@@ -3,7 +3,8 @@
     "id": "sound-am",
     "word": "ām",
     "translations": {
-      "nl": "een manje (mango)"
+      "nl": "een manje (mango)",
+      "en": "a manje (mango)"
     },
     "tags": [
       "sounds",
@@ -17,7 +18,8 @@
     "id": "sound-insan",
     "word": "insān",
     "translations": {
-      "nl": "een mens"
+      "nl": "een mens",
+      "en": "a human being"
     },
     "tags": [
       "sounds",
@@ -31,7 +33,8 @@
     "id": "sound-ulta",
     "word": "ultā",
     "translations": {
-      "nl": "omgekeerd"
+      "nl": "omgekeerd",
+      "en": "reversed"
     },
     "tags": [
       "sounds",
@@ -45,7 +48,8 @@
     "id": "sound-aina",
     "word": "ainā",
     "translations": {
-      "nl": "een spiegel"
+      "nl": "een spiegel",
+      "en": "a mirror"
     },
     "tags": [
       "sounds",
@@ -59,7 +63,8 @@
     "id": "sound-aurat",
     "word": "aurat",
     "translations": {
-      "nl": "een vrouw"
+      "nl": "een vrouw",
+      "en": "a woman"
     },
     "tags": [
       "sounds",
@@ -73,7 +78,8 @@
     "id": "sound-kaun",
     "word": "kaun",
     "translations": {
-      "nl": "wie"
+      "nl": "wie",
+      "en": "who"
     },
     "tags": [
       "sounds",
@@ -87,7 +93,8 @@
     "id": "sound-khet",
     "word": "khet",
     "translations": {
-      "nl": "een akker"
+      "nl": "een akker",
+      "en": "a field"
     },
     "tags": [
       "sounds",
@@ -101,7 +108,8 @@
     "id": "sound-cor",
     "word": "cor",
     "translations": {
-      "nl": "een dief"
+      "nl": "een dief",
+      "en": "a thief"
     },
     "tags": [
       "sounds",
@@ -115,7 +123,8 @@
     "id": "sound-churi",
     "word": "chūrī",
     "translations": {
-      "nl": "een mes"
+      "nl": "een mes",
+      "en": "a knife"
     },
     "tags": [
       "sounds",
@@ -129,7 +138,8 @@
     "id": "sound-phul",
     "word": "phul",
     "translations": {
-      "nl": "een bloem"
+      "nl": "een bloem",
+      "en": "a flower"
     },
     "tags": [
       "sounds",
@@ -143,7 +153,8 @@
     "id": "sound-garib",
     "word": "garīb",
     "translations": {
-      "nl": "arm"
+      "nl": "arm",
+      "en": "poor"
     },
     "tags": [
       "sounds",
@@ -157,7 +168,8 @@
     "id": "sound-roti",
     "word": "roṭī",
     "translations": {
-      "nl": "een roti"
+      "nl": "een roti",
+      "en": "a roti"
     },
     "tags": [
       "sounds",
@@ -172,7 +184,8 @@
     "id": "sound-dar",
     "word": "ḍar",
     "translations": {
-      "nl": "vrees"
+      "nl": "vrees",
+      "en": "fear"
     },
     "tags": [
       "sounds",
@@ -187,7 +200,8 @@
     "id": "sound-larka",
     "word": "laṛkā",
     "translations": {
-      "nl": "een kind"
+      "nl": "een kind",
+      "en": "a child"
     },
     "tags": [
       "sounds",
@@ -202,7 +216,8 @@
     "id": "sound-jhanda",
     "word": "jhaṇḍā",
     "translations": {
-      "nl": "een vlag"
+      "nl": "een vlag",
+      "en": "a flag"
     },
     "tags": [
       "sounds",
@@ -218,7 +233,8 @@
     "id": "sound-kainci",
     "word": "kaiñcī",
     "translations": {
-      "nl": "een schaar"
+      "nl": "een schaar",
+      "en": "a pair of scissors"
     },
     "tags": [
       "sounds",
@@ -233,7 +249,8 @@
     "id": "sound-lanka",
     "word": "Laṅkā",
     "translations": {
-      "nl": "Sri Lanka"
+      "nl": "Sri Lanka",
+      "en": "Sri Lanka"
     },
     "tags": [
       "sounds",
@@ -249,7 +266,8 @@
     "id": "sound-bhasa",
     "word": "bhāṣā",
     "translations": {
-      "nl": "taal"
+      "nl": "taal",
+      "en": "language"
     },
     "tags": [
       "sounds",
@@ -264,7 +282,8 @@
     "id": "sound-shanti",
     "word": "śānti",
     "translations": {
-      "nl": "vrede"
+      "nl": "vrede",
+      "en": "peace"
     },
     "tags": [
       "sounds",

@@ -3,7 +3,8 @@
     "id": "num-sunna",
     "word": "sunnā",
     "translations": {
-      "nl": "nul (0)"
+      "nl": "nul (0)",
+      "en": "zero (0)"
     },
     "notes": "Image-verified p.36 (hoofdtelwoordentabel 3.1.1): slot-macron ā. Pagina bij benadering; needs-verification tot kruiscontrole.",
     "tags": [
@@ -17,7 +18,8 @@
     "id": "num-ek",
     "word": "ek",
     "translations": {
-      "nl": "één (1)"
+      "nl": "één (1)",
+      "en": "one (1)"
     },
     "notes": "Image-verified p.36 (3.1.1). Als telwoord bij een zelfstandig naamwoord vaak ego (= ek + go), tevens onbepaald lidwoord 'een'. Pagina bij benadering; needs-verification.",
     "tags": [
@@ -31,7 +33,8 @@
     "id": "num-dui",
     "word": "dūi",
     "translations": {
-      "nl": "twee (2)"
+      "nl": "twee (2)",
+      "en": "two (2)"
     },
     "notes": "Image-verified p.36 (3.1.1): macron ū. Pagina bij benadering; needs-verification.",
     "tags": [
@@ -45,7 +48,8 @@
     "id": "num-tin",
     "word": "tīn",
     "translations": {
-      "nl": "drie (3)"
+      "nl": "drie (3)",
+      "en": "three (3)"
     },
     "notes": "Image-verified p.36 (3.1.1): macron ī. Pagina bij benadering; needs-verification.",
     "tags": [
@@ -59,7 +63,8 @@
     "id": "num-car",
     "word": "cār",
     "translations": {
-      "nl": "vier (4)"
+      "nl": "vier (4)",
+      "en": "four (4)"
     },
     "notes": "Image-verified p.36 (3.1.1): macron ā; c wordt uitgesproken als 'tsj'. Pagina bij benadering; needs-verification.",
     "tags": [
@@ -73,7 +78,8 @@
     "id": "num-panc",
     "word": "pāṃc",
     "translations": {
-      "nl": "vijf (5)"
+      "nl": "vijf (5)",
+      "en": "five (5)"
     },
     "notes": "Image-verified p.36 (3.1.1): macron ā met genasaleerde ṃ (anusvāra). Pagina bij benadering; needs-verification.",
     "tags": [
@@ -87,7 +93,8 @@
     "id": "num-chau",
     "word": "chau",
     "translations": {
-      "nl": "zes (6)"
+      "nl": "zes (6)",
+      "en": "six (6)"
     },
     "notes": "Image-verified p.36 (3.1.1): geaspireerde ch + au-tweeklank. Pagina bij benadering; needs-verification.",
     "tags": [
@@ -101,7 +108,8 @@
     "id": "num-sat",
     "word": "sāt",
     "translations": {
-      "nl": "zeven (7)"
+      "nl": "zeven (7)",
+      "en": "seven (7)"
     },
     "notes": "Image-verified p.36 (3.1.1): macron ā. Pagina bij benadering; needs-verification.",
     "tags": [
@@ -115,7 +123,8 @@
     "id": "num-ath",
     "word": "āṭh",
     "translations": {
-      "nl": "acht (8)"
+      "nl": "acht (8)",
+      "en": "eight (8)"
     },
     "notes": "Image-verified p.36 (3.1.1): macron ā + retroflexe geaspireerde ṭh (onderpunt). Pagina bij benadering; needs-verification.",
     "tags": [
@@ -129,7 +138,8 @@
     "id": "num-nau",
     "word": "nau",
     "translations": {
-      "nl": "negen (9)"
+      "nl": "negen (9)",
+      "en": "nine (9)"
     },
     "notes": "Image-verified p.36 (3.1.1): au-tweeklank. Pagina bij benadering; needs-verification.",
     "tags": [
@@ -143,7 +153,8 @@
     "id": "num-das",
     "word": "das",
     "translations": {
-      "nl": "tien (10)"
+      "nl": "tien (10)",
+      "en": "ten (10)"
     },
     "notes": "Image-verified p.36 (3.1.1). Pagina bij benadering; needs-verification.",
     "tags": [
@@ -157,7 +168,8 @@
     "id": "num-sau",
     "word": "sau",
     "translations": {
-      "nl": "honderd (100)"
+      "nl": "honderd (100)",
+      "en": "hundred (100)"
     },
     "notes": "Image-verified p.36 (3.1.1: 100 sau, 200 dūi sau). Duizend is (ek) hajār. Pagina bij benadering; needs-verification.",
     "tags": [

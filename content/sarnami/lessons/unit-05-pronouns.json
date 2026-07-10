@@ -26,17 +26,24 @@
       "poss-e1": {
         "kind": "matching",
         "pairs": [
-          { "left": "hamār", "right": "mijn" },
-          { "left": "tor", "right": "jouw" },
-          { "left": "tŏṁhār", "right": "uw (beleefd)" },
-          { "left": "ekar", "right": "zijn/haar (dichtbij)" },
-          { "left": "okar", "right": "zijn/haar (veraf)" }
+          { "left": "hamār", "right": "mijn", "rightTranslations": { "nl": "mijn", "en": "my" } },
+          { "left": "tor", "right": "jouw", "rightTranslations": { "nl": "jouw", "en": "your" } },
+          { "left": "tŏṁhār", "right": "uw (beleefd)", "rightTranslations": { "nl": "uw (beleefd)", "en": "your (polite)" } },
+          { "left": "ekar", "right": "zijn/haar (dichtbij)", "rightTranslations": { "nl": "zijn/haar (dichtbij)", "en": "his/her (near)" } },
+          { "left": "okar", "right": "zijn/haar (veraf)", "rightTranslations": { "nl": "zijn/haar (veraf)", "en": "his/her (far)" } }
         ]
       },
       "poss-e2": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent 'hamār'?",
+        "promptTranslations": { "nl": "Wat betekent 'hamār'?", "en": "What does 'hamār' mean?" },
         "options": ["mijn", "jouw", "zijn/haar", "uw"],
+        "optionTranslations": [
+          { "nl": "mijn", "en": "my" },
+          { "nl": "jouw", "en": "your" },
+          { "nl": "zijn/haar", "en": "his/her" },
+          { "nl": "uw", "en": "your (polite)" }
+        ],
         "correctIndex": 0
       },
       "poss-e3": {
@@ -44,7 +51,7 @@
         "sentenceTemplate": "___ ghar hiṁyā se dūr nā hai.",
         "correctAnswer": "Hamār",
         "options": ["Hamār", "Tor", "Ekar", "Okar"],
-        "translations": { "nl": "Mijn huis is niet ver van hier." }
+        "translations": { "nl": "Mijn huis is niet ver van hier.", "en": "My house is not far from here." }
       },
       "poss-e4": {
         "kind": "flashcard",
@@ -58,7 +65,7 @@
       },
       "poss-e6": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Hij/zij woonde in jouw huis." },
+        "promptTranslations": { "nl": "Hij/zij woonde in jouw huis.", "en": "He/she lived in your house." },
         "correctTargetTokens": ["Ū", "tor", "ghar", "meṁ", "rahat", "rahā."],
         "distractorTokens": ["hamār", "okar"]
       }
@@ -91,16 +98,17 @@
       "dem-e1": {
         "kind": "matching",
         "pairs": [
-          { "left": "ī", "right": "dit / deze (dichtbij)" },
-          { "left": "ū", "right": "dat / die (veraf)" },
-          { "left": "eke", "right": "hem/haar (dichtbij)" },
-          { "left": "oke", "right": "hem/haar (veraf)" },
-          { "left": "inhan", "right": "zij (beleefd/meervoud)" }
+          { "left": "ī", "right": "dit / deze (dichtbij)", "rightTranslations": { "nl": "dit / deze (dichtbij)", "en": "this / these (near)" } },
+          { "left": "ū", "right": "dat / die (veraf)", "rightTranslations": { "nl": "dat / die (veraf)", "en": "that / those (far)" } },
+          { "left": "eke", "right": "hem/haar (dichtbij)", "rightTranslations": { "nl": "hem/haar (dichtbij)", "en": "him/her (near)" } },
+          { "left": "oke", "right": "hem/haar (veraf)", "rightTranslations": { "nl": "hem/haar (veraf)", "en": "him/her (far)" } },
+          { "left": "inhan", "right": "zij (beleefd/meervoud)", "rightTranslations": { "nl": "zij (beleefd/meervoud)", "en": "they (polite/plural)" } }
         ]
       },
       "dem-e2": {
         "kind": "multiple-choice",
         "prompt": "Welk aanwijzend voornaamwoord gebruik je voor iets dat dichtbij de spreker is?",
+        "promptTranslations": { "nl": "Welk aanwijzend voornaamwoord gebruik je voor iets dat dichtbij de spreker is?", "en": "Which demonstrative pronoun do you use for something that is near the speaker?" },
         "options": ["ī", "ū", "oke", "unhan"],
         "correctIndex": 0
       },
@@ -109,7 +117,7 @@
         "sentenceTemplate": "___ ghar dūr nā hai.",
         "correctAnswer": "Ī",
         "options": ["Ī", "Ū", "Eke", "Oke"],
-        "translations": { "nl": "Dit huis is niet ver." }
+        "translations": { "nl": "Dit huis is niet ver.", "en": "This house is not far." }
       },
       "dem-e4": {
         "kind": "flashcard",
@@ -123,7 +131,7 @@
       },
       "dem-e6": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Dit huis is van mij." },
+        "promptTranslations": { "nl": "Dit huis is van mij.", "en": "This house is mine." },
         "correctTargetTokens": ["Ī", "ghar", "hamār", "hai."],
         "distractorTokens": ["Ū", "tor"]
       }
@@ -156,16 +164,17 @@
       "ir-e1": {
         "kind": "matching",
         "pairs": [
-          { "left": "ke", "right": "wie (vertrouwelijk)" },
-          { "left": "kaun", "right": "wie / welke (afstandelijk)" },
-          { "left": "kā", "right": "wat" },
-          { "left": "jaun", "right": "die / welke" },
-          { "left": "je", "right": "die / wie (personen)" }
+          { "left": "ke", "right": "wie (vertrouwelijk)", "rightTranslations": { "nl": "wie (vertrouwelijk)", "en": "who (familiar)" } },
+          { "left": "kaun", "right": "wie / welke (afstandelijk)", "rightTranslations": { "nl": "wie / welke (afstandelijk)", "en": "who / which (distant)" } },
+          { "left": "kā", "right": "wat", "rightTranslations": { "nl": "wat", "en": "what" } },
+          { "left": "jaun", "right": "die / welke", "rightTranslations": { "nl": "die / welke", "en": "that / which" } },
+          { "left": "je", "right": "die / wie (personen)", "rightTranslations": { "nl": "die / wie (personen)", "en": "that / who (persons)" } }
         ]
       },
       "ir-e2": {
         "kind": "multiple-choice",
         "prompt": "Welk vragend voornaamwoord gebruik je zelfstandig en neutraal om naar een zaak te vragen?",
+        "promptTranslations": { "nl": "Welk vragend voornaamwoord gebruik je zelfstandig en neutraal om naar een zaak te vragen?", "en": "Which interrogative pronoun do you use independently and neutrally to ask about a thing?" },
         "options": ["kā", "ke", "kaun", "jaun"],
         "correctIndex": 0
       },
@@ -174,7 +183,7 @@
         "sentenceTemplate": "___ āil hai?",
         "correctAnswer": "Ke",
         "options": ["Ke", "Kā", "Jaun", "Jekar"],
-        "translations": { "nl": "Wie is er gekomen?" }
+        "translations": { "nl": "Wie is er gekomen?", "en": "Who has come?" }
       },
       "ir-e4": {
         "kind": "flashcard",
@@ -196,17 +205,18 @@
       "rev-e1": {
         "kind": "multiple-choice",
         "prompt": "Welk voornaamwoord betekent 'jouw'?",
+        "promptTranslations": { "nl": "Welk voornaamwoord betekent 'jouw'?", "en": "Which pronoun means 'your'?" },
         "options": ["tor", "hamār", "ekar", "okar"],
         "correctIndex": 0
       },
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "hamār", "right": "mijn" },
-          { "left": "ī", "right": "dit / deze" },
-          { "left": "ke", "right": "wie" },
-          { "left": "jaun", "right": "die / welke" },
-          { "left": "okar", "right": "zijn/haar (veraf)" }
+          { "left": "hamār", "right": "mijn", "rightTranslations": { "nl": "mijn", "en": "my" } },
+          { "left": "ī", "right": "dit / deze", "rightTranslations": { "nl": "dit / deze", "en": "this / these" } },
+          { "left": "ke", "right": "wie", "rightTranslations": { "nl": "wie", "en": "who" } },
+          { "left": "jaun", "right": "die / welke", "rightTranslations": { "nl": "die / welke", "en": "that / which" } },
+          { "left": "okar", "right": "zijn/haar (veraf)", "rightTranslations": { "nl": "zijn/haar (veraf)", "en": "his/her (far)" } }
         ]
       },
       "rev-e3": {
@@ -216,7 +226,7 @@
       },
       "rev-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Mijn huis is niet ver van hier." },
+        "promptTranslations": { "nl": "Mijn huis is niet ver van hier.", "en": "My house is not far from here." },
         "correctTargetTokens": ["Hamār", "ghar", "hiṁyā", "se", "dūr", "nā", "hai."],
         "distractorTokens": ["tor", "okar"]
       },
@@ -225,7 +235,7 @@
         "sentenceTemplate": "Ū ___ ghar meṁ rahat rahā.",
         "correctAnswer": "tor",
         "options": ["tor", "ke", "kā", "jaun"],
-        "translations": { "nl": "Hij/zij woonde in jouw huis." }
+        "translations": { "nl": "Hij/zij woonde in jouw huis.", "en": "He/she lived in your house." }
       },
       "rev-e6": {
         "kind": "flashcard",
@@ -235,6 +245,7 @@
       "rev-e7": {
         "kind": "multiple-choice",
         "prompt": "Welk betrekkelijk voornaamwoord wordt uitsluitend voor personen gebruikt?",
+        "promptTranslations": { "nl": "Welk betrekkelijk voornaamwoord wordt uitsluitend voor personen gebruikt?", "en": "Which relative pronoun is used exclusively for persons?" },
         "options": ["je", "jaun", "kā", "ī"],
         "correctIndex": 0
       }
