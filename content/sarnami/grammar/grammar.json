@@ -134,5 +134,34 @@
       "gram-se",
       "gram-sabse"
     ]
+  },
+  {
+    "id": "adverbs",
+    "title": "Bijwoorden",
+    "summary": "Bijwoorden van tijd, plaats, wijze en graad.",
+    "order": 7,
+    "body": "# Bijwoorden\n\nBijwoorden van tijd, plaats, wijze en graad.\n\n## Bijwoorden van tijd\n\nBijwoorden kunnen aan bijna elke woordsoort worden toegevoegd, behalve aan het zelfstandig naamwoord, en worden — anders dan bijvoeglijke naamwoorden — niet verbogen. Bijwoorden van tijd geven aan wanneer iets gebeurt: āj (vandaag), bihān (morgen), kāl (gisteren), roj (dagelijks) en hardam (altijd). Ze staan vaak vooraan in de zin, bijvoorbeeld: 'Āj ham jādā khāi lelī hai' = Ik heb vandaag te veel gegeten.\n\n## Bijwoorden van plaats\n\nBijwoorden van plaats geven aan waar iets is of gebeurt: uppar (boven), nicce (beneden), dūr (ver), nagicce (dichtbij) en bāhar (buiten, tegenover bhittar 'binnen'). Een aardig kenmerk van het Sarnami: door nasalering worden sommige plaatsbijwoorden richtingaanduidend. Zo wordt nicce ('beneden') tot nicvāṁ ('daarbeneden') en uppar tot uparāṁ ('daarboven'). Voorbeeld: 'Jā nicvāṁ dekh to, ke āil hai' = Ga eens even beneden kijken wie gekomen is.\n\n## Bijwoorden van wijze\n\nBijwoorden van wijze geven aan hóe iets gebeurt: dhīre (zacht, langzaam), sacce (echt, inderdaad) en sait (misschien). Veel wijze-bijwoorden eindigen op -e. Kenmerkend voor het Sarnami is verdubbeling: dhīre wordt dhīre-dhīre ('langzaamaan, geleidelijk'). Daarnaast bestaat er een rijke voorraad klanknabootsende verdubbelingen zoals ṭan-ṭan (metaalklank) en khaṭkhaṭāike (kloppend aan de deur).\n\n## Bijwoorden van graad en hoeveelheid\n\nBijwoorden van graad geven aan in welke máte iets geldt: bahut (veel, erg), thorā se (weinig, een beetje) en bilkul (helemaal). Sommige hoeveelheidswoorden zijn eigenlijk bijvoeglijke naamwoorden die ook als bijwoord kunnen optreden. Voorbeeld: 'Rāmlalvā āj bahut batiyā hai' = Ramlal praat vandaag veel.\n\n## Leenwoord-bijwoorden\n\nHet Sarnami heeft ook bijwoorden ontleend aan andere talen. Uit het Sranan Tongo komen habarā ('aan de overkant', van abra < Eng. over) en kantī ('langs', via Ned. kant). Uit het Nederlands komt parsīs ('precies, toevallig, eigenlijk'). Deze leenwoorden verdubbelen net als inheemse bijwoorden: habarī-habarā ('tegenover elkaar'), kantī-kantī ('aan de zijkant').",
+    "relatedVocab": [
+      "adv-aaj",
+      "adv-bihaan",
+      "adv-kaal",
+      "adv-roj",
+      "adv-hardam",
+      "adv-uppar",
+      "adv-nicce",
+      "adv-dur",
+      "adv-nagicce",
+      "adv-baahar",
+      "adv-dhire",
+      "adv-dhire-dhire",
+      "adv-sacce",
+      "adv-sait",
+      "adv-bahut",
+      "adv-thora-se",
+      "adv-bilkul",
+      "adv-habara",
+      "adv-kanti",
+      "adv-parsis"
+    ]
   }
 ]
