@@ -347,3 +347,5 @@ Review lessons mix all five and carry the highest `xpReward`.
   unit ships the common tenses/moods; long-tail forms are a later addition
   and, per the Advanced-tier note above, the most likely candidate for a
   future C2 unit.
+
+<!-- ci-verify: trivial touch to trigger content-changed gate for PR #223 fallback test; will be reverted -->
