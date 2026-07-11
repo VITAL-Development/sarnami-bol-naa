@@ -62,7 +62,7 @@ jobs:
           fail-on-cache-miss: true
 
       # Checks this repo's content/sarnami + settings/sarnami against the
-      # "Content repository contract" in rarelang-server's docs/api-contract.md:
+      # "Content repository contract" in rarelang-server's docs/contracts/api-contract.md:
       # required fields/types plus referential integrity of every id-based
       # cross-reference. Tracks rarelang-server's `main` for now since the
       # validator isn't part of a released rarelang-server tag yet; once it
@@ -179,8 +179,8 @@ jobs:
 
             Read only:
             - The changed files from this PR: ${{ steps.changed.outputs.files }}
-            - rarelang-server-tooling/docs/lesson-plan-authoring-contract.md (CEFR tier rules, cefrLevel field)
-            - rarelang-server-tooling/docs/source-language-authoring-contract.md (A2 ceiling on Dutch authoring text)
+            - rarelang-server-tooling/docs/contracts/lesson-plan-authoring-contract.md (CEFR tier rules, cefrLevel field)
+            - rarelang-server-tooling/docs/contracts/source-language-authoring-contract.md (A2 ceiling on Dutch authoring text)
 
             Evaluate the changed files against those two contracts only:
             1. If a unit sets `cefrLevel`, does its actual vocab/grammar difficulty plausibly
