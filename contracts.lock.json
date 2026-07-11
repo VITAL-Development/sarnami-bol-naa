@@ -1,6 +1,15 @@
 {
-  "_comment": "Last-reviewed hashes of rarelang-server's contract docs (rarelang-server/scripts/contracts-manifest.mjs). CI fails the contracts-discovery job when the upstream manifest no longer matches this file — bump it deliberately, like a dependency lockfile, once you've reviewed what changed upstream.",
-  "docs/contracts/api-contract.md": "sha256:cf3d7b8df26a25c7853466ec6649233be33f6e4af837bb3d40630bfccd49f909",
-  "docs/contracts/lesson-plan-authoring-contract.md": "sha256:7773d2d18438048997f9b6d61c2857731b9918c91865900bd2fcf0b202b82208",
-  "docs/contracts/source-language-authoring-contract.md": "sha256:0fb01bfba4b3877afbcccba3355b8d722e6941e84016b24cfdbe977f3edbcb64"
+  "_comment": "Last-reviewed { version, hash } of rarelang-server's contract docs (rarelang-server/scripts/contracts-manifest.mjs). CI fails the contracts-discovery job when the upstream manifest no longer matches this file — bump it deliberately, like a dependency lockfile, once you've reviewed what changed upstream.",
+  "docs/contracts/api-contract.md": {
+    "version": "1.0.0",
+    "hash": "sha256:c5e8d5c37512fe35634e7dbf98068de1196fc0ddc673e87e8256173395ba3e2d"
+  },
+  "docs/contracts/lesson-plan-authoring-contract.md": {
+    "version": "1.0.0",
+    "hash": "sha256:eeb440fbf5231b1ca334bacf45bd91f0394164193ab8e6fa2a28a7b8f89d384f"
+  },
+  "docs/contracts/source-language-authoring-contract.md": {
+    "version": "1.0.0",
+    "hash": "sha256:d4a68da9bfad76eb0b3beb129c3f981b17db3a6aa62616baec3280d19563f1c2"
+  }
 }
