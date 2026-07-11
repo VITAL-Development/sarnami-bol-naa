@@ -167,6 +167,7 @@ jobs:
       # loop), findings below 70% confidence are not reported, and the job
       # never fails the check — it's advisory, posted as a PR comment only.
       - name: Run Claude Code advisory review
+        id: claude_advisory
         if: steps.changed.outputs.any == 'true'
         uses: anthropics/claude-code-action@v1
         continue-on-error: true
@@ -192,13 +193,48 @@ jobs:
                (short sentences, common vocabulary, minimal subordination)?
 
             For each candidate issue, assign yourself a confidence 0-100. Only report
-            findings with confidence >= 70. If you have no findings at or above that bar,
-            or none of the changed files are relevant to these two contracts, post nothing
-            and stop — do not post a comment saying "no issues found".
+            findings with confidence >= 70.
 
-            If you do have findings, post ONE PR comment listing them, each with: the file,
-            a one-sentence description, your confidence, and which contract it concerns.
-            Make clear in the comment that this is an advisory, non-blocking review.
+            Post exactly ONE new PR comment on every run, so a reader can always tell the
+            review actually ran on the latest commit instead of wondering why nothing showed
+            up or whether they're looking at a stale result from an earlier push:
+            - If you have findings at or above that bar, list each with: the file, a
+              one-sentence description, your confidence, and which contract it concerns.
+            - Otherwise (no qualifying findings, or none of the changed files are relevant
+              to these two contracts), post a single short line saying so, e.g. "Advisory
+              contract review: no issues found above the 70% confidence bar."
+            Make clear in the comment that this is an advisory, non-blocking review. Always
+            post a genuinely new comment — never edit or reuse a previous comment — so the
+            PR's comment history shows one advisory result per commit.
             Post it by running `gh pr comment ${{ github.event.pull_request.number }} --body "..."`
             — that's the only Bash command you're allowed to run.
           claude_args: "--max-turns 6 --allowed-tools \"Read\" \"Bash(gh pr comment:*)\""
+
+      # Fallback for when the step above ran (condition was true) but never
+      # got as far as posting a comment — e.g. GitHub's OIDC token exchange
+      # for claude-code-action refuses to authenticate when a PR's workflow
+      # file differs from the version committed on the default branch (a
+      # guard against a PR editing its own workflow to exfiltrate
+      # CLAUDE_CODE_OAUTH_TOKEN), which silently no-ops the step on any PR
+      # that touches this very file. Without this, a run that didn't post
+      # looked to a reader like the check had silently failed or hadn't run
+      # at all on the latest commit. `execution_file` is only set once
+      # Claude actually runs (see anthropics/claude-code-action's run.ts), so
+      # its absence — combined with the step not failing outright — is the
+      # signal something upstream of the review itself went wrong.
+      - name: Report advisory review if it didn't post
+        if: |
+          always() &&
+          steps.changed.outputs.any == 'true' &&
+          (steps.claude_advisory.outcome == 'failure' || steps.claude_advisory.outputs.execution_file == '')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          OUTCOME: ${{ steps.claude_advisory.outcome }}
+        run: |
+          if [ "$OUTCOME" = "failure" ]; then
+            body="**Advisory contract review didn't post a comment.**"$'\n\n'"The \`Run Claude Code advisory review\` step failed outright (non-blocking — this doesn't affect merge status). See the [workflow run]($RUN_URL) for the error."
+          else
+            body="**Advisory contract review didn't post a comment.**"$'\n\n'"The step completed without producing one, most likely because this PR modifies \`.github/workflows/validate-content.yml\` itself: GitHub's OIDC token exchange for \`claude-code-action\` refuses to authenticate when a PR's workflow file differs from the version committed on the default branch (\`main\`) — a guard against a PR altering its own workflow to exfiltrate \`CLAUDE_CODE_OAUTH_TOKEN\`. This is expected and resolves once this workflow file on \`main\` matches; it does not indicate a problem with this PR's content changes. See the [workflow run]($RUN_URL) for details."
+          fi
+          gh pr comment "${{ github.event.pull_request.number }}" --body "$body"
