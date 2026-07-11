@@ -104,11 +104,13 @@ jobs:
             const upstream = JSON.parse(fs.readFileSync("/tmp/upstream-manifest.json", "utf-8"));
             const lock = JSON.parse(fs.readFileSync("contracts.lock.json", "utf-8"));
             const docs = Object.keys(upstream);
-            const drift = docs.filter((doc) => lock[doc] !== upstream[doc]);
+            const drift = docs.filter((doc) => lock[doc]?.hash !== upstream[doc].hash);
             if (drift.length > 0) {
               console.error("Upstream rarelang-server contract doc(s) changed since contracts.lock.json was last reviewed:");
               for (const doc of drift) {
-                console.error(`  ${doc}: locked=${lock[doc] ?? "(missing)"} upstream=${upstream[doc]}`);
+                const lockedVersion = lock[doc]?.version ?? "(missing)";
+                const lockedHash = lock[doc]?.hash ?? "(missing)";
+                console.error(`  ${doc}: locked=${lockedVersion} (${lockedHash}) upstream=${upstream[doc].version} (${upstream[doc].hash})`);
               }
               console.error("\nReview the change at https://github.com/VITAL-Development/rarelang-server/blob/main/" + drift[0] + ", then update contracts.lock.json to match.");
               process.exit(1);
