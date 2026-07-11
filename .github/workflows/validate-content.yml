@@ -195,4 +195,4 @@ jobs:
             If you do have findings, post ONE PR comment listing them, each with: the file,
             a one-sentence description, your confidence, and which contract it concerns.
             Make clear in the comment that this is an advisory, non-blocking review.
-          claude_args: "--max-turns 6"
+          claude_args: "--max-turns 6 --allowed-tools Read"
