@@ -4,6 +4,7 @@
   "titleTranslations": { "nl": "Achterzetsels", "en": "Postpositions" },
   "description": "De gangbare achterzetsels en hoe ze aan naam- en voornaamwoorden vastzitten.",
   "order": 8,
+  "cefrLevel": "B1",
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/05-postpositions.md",
   "lessons": [
     {
