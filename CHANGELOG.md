@@ -19,6 +19,8 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-07-11
+
 ### Added
 
 - `settings/sarnami/ui/{en,nl}/strings.json` — UI-chrome string tables (nav,
