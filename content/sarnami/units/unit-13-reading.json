@@ -4,6 +4,7 @@
   "titleTranslations": { "nl": "Lezen: teksten & fabels", "en": "Reading: texts & fables" },
   "description": "Gegradeerd leesbegrip over de fabels en teksten uit de bijlagen.",
   "order": 14,
+  "cefrLevel": "C1",
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/11-texts.md",
   "lessons": [
     {

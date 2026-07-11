@@ -4,6 +4,7 @@
   "titleTranslations": { "nl": "Basis", "en": "Basics" },
   "description": "Begroetingen, voornaamwoorden, eenvoudige zelfstandige naamwoorden en zinnen met 'hai'.",
   "order": 3,
+  "cefrLevel": "A1",
   "lessons": [
     {
       "id": "lesson-1-greetings",

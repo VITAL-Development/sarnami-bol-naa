@@ -28,6 +28,11 @@ dated `## [X.Y.Z]` heading.
   frontend silently fell back to its bundled English example table — the
   Grammar section rendered "Grammar"/"Back to topics" even with
   `defaultUiLanguage: "nl"`. Fixes #208.
+- `cefrLevel` populated on all 14 units in `content/sarnami/units/*.json`,
+  backfilling the optional unit-level field from
+  `docs/contracts/lesson-plan-authoring-contract.md` §3 (rarelang-server)
+  using the CEFR tiers already established in `authored_docs/lesson-plan.md`
+  (#200). Additive/optional field — old consumers ignore it. Fixes #211.
 
 ## [0.3.0] - 2026-07-10
 

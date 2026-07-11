@@ -4,6 +4,7 @@
   "titleTranslations": { "nl": "Werkwoorden", "en": "Verbs" },
   "description": "Vervoeging in tijden en wijzen, inclusief de aanvoegende wijs.",
   "order": 9,
+  "cefrLevel": "B2",
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/08-the-verb.md",
   "lessons": [
     {

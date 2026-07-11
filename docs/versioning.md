@@ -58,7 +58,7 @@ referential integrity the frontend relies on. Concretely:
 
 - **Renaming or removing a consumed field.** e.g. `word`, `translations`,
   `id`, `tags` on a vocab item (`content/sarnami/vocab/*.json`); `id`,
-  `title`, `order`, `lessons`, `newVocab`, `exercises`, `kind`, `contentRef`,
+  `title`, `order`, `cefrLevel`, `lessons`, `newVocab`, `exercises`, `kind`, `contentRef`,
   `xpReward` on a unit/lesson (`content/sarnami/units/*.json`); `lessonId`,
   `exampleSentences`, `exercises`, `correctIndex`, `correctTargetTokens`,
   `sentenceTemplate`, `correctAnswer` in lesson content

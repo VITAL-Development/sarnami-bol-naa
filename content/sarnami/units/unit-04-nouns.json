@@ -4,6 +4,7 @@
   "titleTranslations": { "nl": "Zelfstandige naamwoorden", "en": "Nouns" },
   "description": "Geslacht, getal, naamval en telwoorden.",
   "order": 4,
+  "cefrLevel": "A2",
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/02-the-noun.md",
   "lessons": [
     {
