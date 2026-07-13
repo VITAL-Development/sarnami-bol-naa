@@ -85,9 +85,9 @@
       },
       "tp-e3": {
         "kind": "multiple-choice",
-        "prompt": "Door nasalering wordt het plaatsbijwoord 'nicce' (beneden) tot 'nicvāṁ'. Wat betekent 'nicvāṁ'?",
+        "prompt": "Door nasalering verandert 'nicce' (beneden) in 'nicvāṁ'. Wat betekent 'nicvāṁ'?",
         "promptTranslations": {
-          "nl": "Door nasalering wordt het plaatsbijwoord 'nicce' (beneden) tot 'nicvāṁ'. Wat betekent 'nicvāṁ'?",
+          "nl": "Door nasalering verandert 'nicce' (beneden) in 'nicvāṁ'. Wat betekent 'nicvāṁ'?",
           "en": "Through nasalization the adverb of place 'nicce' (below) becomes 'nicvāṁ'. What does 'nicvāṁ' mean?"
         },
         "options": [

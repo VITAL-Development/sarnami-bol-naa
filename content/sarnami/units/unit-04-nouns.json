@@ -120,7 +120,7 @@
       "order": 3,
       "title": "Naamvallen",
       "titleTranslations": { "nl": "Naamvallen", "en": "Cases" },
-      "description": "Naamvalsgedrag van zelfstandige naamwoorden met achterzetsels.",
+      "description": "Hoe zelfstandige naamwoorden veranderen bij achterzetsels.",
       "newVocab": [
         "noun-churi",
         "noun-gai",

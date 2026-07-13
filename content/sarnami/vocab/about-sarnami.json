@@ -12,7 +12,7 @@
       "book-p7",
       "needs-verification"
     ],
-    "notes": "Kernterm uit de inleiding (§A 'De naam Sarnami'). Betekent 'Surinaams / Surinaamse taal' en is afgeleid van Sarnām. Proper noun uit de beeldgeverifieerde transcriptie van authored_docs/byakaran/00-introduction.md; nog niet tegen een tweede bron gekruist, vandaar needs-verification. Pagina bij benadering."
+    "notes": "Betekent 'Surinaams / Surinaamse taal' en is afgeleid van Sarnām."
   },
   {
     "id": "about-sarnam",
@@ -27,7 +27,7 @@
       "book-p7",
       "needs-verification"
     ],
-    "notes": "Uit §A: de voor de Brits-Indische contractarbeiders moeilijk uitspreekbare naam 'Suriname' werd als Sarnām uitgesproken; in Hindi/Urdu/Bhojpuri/Avadhi betekent Sarnām/Sarnāmī 'de beroemde (naam)'. Waarvan het bijvoeglijk naamwoord Sarnami is afgeleid. Pagina bij benadering; needs-verification tot kruiscontrole."
+    "notes": "De Brits-Indische contractarbeiders konden de naam 'Suriname' moeilijk uitspreken. Zij zeiden Sarnām. In het Hindi, Urdu, Bhojpuri en Avadhi betekent Sarnām/Sarnāmī ook 'de beroemde (naam)'. Het bijvoeglijk naamwoord Sarnami komt van Sarnām."
   },
   {
     "id": "about-hindustani",
@@ -42,7 +42,7 @@
       "book-p7",
       "needs-verification"
     ],
-    "notes": "Uit §A: sprekers noemen hun taal ook Hindustani of Sarnami-Hindustani; hiermee bedoelen Surinamers een andere taal dan Indiërs (voor wie Hindustani de op Hindi/Urdu gebaseerde omgangstaal van Noord-India is). Pagina bij benadering; needs-verification."
+    "notes": "Sprekers noemen hun taal ook Hindustani of Sarnami-Hindustani. Surinamers bedoelen daarmee iets anders dan Indiërs. Voor Indiërs is Hindustani de omgangstaal van Noord-India, gebaseerd op Hindi en Urdu."
   },
   {
     "id": "about-bhojpuri",
@@ -57,7 +57,7 @@
       "book-p13",
       "needs-verification"
     ],
-    "notes": "Uit §C: de basis van het Sarnami wordt gevormd door het Bhojpuri en het Avadhi, met het Bhojpuri als dominante factor. Diacritisch correcte vorm (Bhojpurī) uit het historische schema (Fig. 2); lopende tekst schrijft ook 'Bhojpuri'. Pagina bij benadering; needs-verification."
+    "notes": "Het Sarnami komt vooral van het Bhojpuri en het Avadhi. Het Bhojpuri is daarbij de belangrijkste taal."
   },
   {
     "id": "about-avadhi",
@@ -72,7 +72,7 @@
       "book-p13",
       "needs-verification"
     ],
-    "notes": "Uit §C: naast het Bhojpuri de tweede brontaal van het Sarnami; taal van o.a. het populaire Ramayana van Tulsidas. Diacritisch correcte vorm (Avadhī) uit het historische schema (Fig. 2); lopende tekst schrijft ook 'Avadhi'. Pagina bij benadering; needs-verification."
+    "notes": "Avadhi is naast het Bhojpuri de tweede taal waar het Sarnami vandaan komt. Het is ook de taal van de populaire Ramayana van Tulsidas."
   },
   {
     "id": "about-girmit",
@@ -86,7 +86,7 @@
       "book-p26",
       "needs-verification"
     ],
-    "notes": "Voorbeeld van volksetymologie (§E.8.c): van het Engelse 'agreement'; girmiṭ kāṭe = 'een ellendige tijd doormaken', in het bijzonder het als vernederend ervaren vijfjarig contract. Retroflexe ṭ per beeldgeverifieerde transcriptie. Pagina bij benadering; needs-verification."
+    "notes": "Dit woord komt van het Engelse 'agreement' (overeenkomst). Girmiṭ kāṭe betekent 'een moeilijke tijd doormaken'. Het verwijst vooral naar het vijfjarige contract, dat als vernederend werd ervaren."
   },
   {
     "id": "about-lalla-rookh",
@@ -101,7 +101,7 @@
       "book-p10",
       "needs-verification"
     ],
-    "notes": "Uit §B: het eerste (zeil)schip dat op 5 juni 1873 de eerste 398 Brits-Indische contractarbeiders naar Suriname bracht — herdacht als de Immigratiedag. Scheepsnaam in Latijnse spelling zoals in de bron (LALLA ROOKH). Pagina bij benadering; needs-verification."
+    "notes": "Dit was het eerste schip met Brits-Indische contractarbeiders. Het kwam op 5 juni 1873 aan met de eerste 398 mensen. Deze dag heet nu de Immigratiedag."
   },
   {
     "id": "about-devanagari",
@@ -116,6 +116,6 @@
       "book-p29",
       "needs-verification"
     ],
-    "notes": "Uit §G ('Sarnami spraakklanken'): het devanagari-schrift (देवनागरी) is een oud lettergrepenschrift waarop de volgorde van de klankinventaris berust en dat geschikt is om het Sarnami weer te geven. Naast dit schrift gebruikt de grammatica een wetenschappelijke romanisatie met diacritische tekens. Pagina bij benadering; needs-verification."
+    "notes": "Het devanagari-schrift (देवनागरी) is een oud schrift. Het Sarnami wordt hiermee geschreven. Daarnaast gebruikt de grammatica ook een wetenschappelijke romanisatie met diacritische tekens (streepjes en puntjes op letters)."
   }
 ]

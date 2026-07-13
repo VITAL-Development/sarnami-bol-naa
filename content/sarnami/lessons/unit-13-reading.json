@@ -333,8 +333,8 @@
       },
       "rev-e7": {
         "kind": "multiple-choice",
-        "prompt": "In welke spelling is de fabel 'Canak siyar' gezet, anders dan de eerste twee teksten?",
-        "promptTranslations": { "nl": "In welke spelling is de fabel 'Canak siyar' gezet, anders dan de eerste twee teksten?", "en": "In which spelling is the fable 'Canak siyar' set, unlike the first two texts?" },
+        "prompt": "De fabel 'Canak siyar' gebruikt een andere spelling dan de eerste twee teksten. Welke spelling is dat?",
+        "promptTranslations": { "nl": "De fabel 'Canak siyar' gebruikt een andere spelling dan de eerste twee teksten. Welke spelling is dat?", "en": "In which spelling is the fable 'Canak siyar' set, unlike the first two texts?" },
         "options": [
           "de vereenvoudigde SCS-spelling zonder diacritische tekens",
           "het devanagari-schrift",

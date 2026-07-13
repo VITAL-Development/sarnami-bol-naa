@@ -12,7 +12,7 @@
       "time",
       "book-p79"
     ],
-    "notes": "Bijwoord van tijd (§5.1.1). Beeldgeverifieerde vorm āj uit authored_docs/byakaran/04-the-adverb.md; tweede bron (sarnamibhasa.nl) bevestigt 'áj' → āj (04-adverb). Voorbeeld: 'Āj ham jādā khāi lelī hai' = Ik heb vandaag te veel gegeten."
+    "notes": "Bijwoord van tijd. Voorbeeld: 'Āj ham jādā khāi lelī hai' = Ik heb vandaag te veel gegeten."
   },
   {
     "id": "adv-bihaan",
@@ -28,7 +28,7 @@
       "book-p79",
       "needs-verification"
     ],
-    "notes": "Bijwoord van tijd (§5.1.1). Beeldgeverifieerde vorm bihān met macron uit de transcriptie; nog niet in de tweede bron (sarnamibhasa.nl) teruggevonden, vandaar needs-verification."
+    "notes": "Bijwoord van tijd."
   },
   {
     "id": "adv-kaal",
@@ -44,7 +44,7 @@
       "book-p79",
       "needs-verification"
     ],
-    "notes": "Bijwoord van tijd (§5.1.1), genoemd naast de variant kalhimyām ('gisteren'). Beeldgeverifieerde vorm kāl met macron; nog niet in de tweede bron teruggevonden, vandaar needs-verification."
+    "notes": "Bijwoord van tijd, genoemd naast de variant kalhimyām ('gisteren')."
   },
   {
     "id": "adv-roj",
@@ -59,7 +59,7 @@
       "time",
       "book-p79"
     ],
-    "notes": "Bijwoord van tijd (§5.1.1). Tweede bron (sarnamibhasa.nl) bevestigt 'roj' → roj (04-adverb), ook in verdubbelingen als roj-nit ('altijd')."
+    "notes": "Bijwoord van tijd."
   },
   {
     "id": "adv-hardam",
@@ -74,7 +74,7 @@
       "time",
       "book-p79"
     ],
-    "notes": "Bijwoord van tijd (§5.1.1). Tweede bron (sarnamibhasa.nl) bevestigt 'hardam' → hardam (04-adverb)."
+    "notes": "Bijwoord van tijd."
   },
   {
     "id": "adv-uppar",
@@ -89,7 +89,7 @@
       "place",
       "book-p80"
     ],
-    "notes": "Bijwoord van plaats (§5.1.2). Tweede bron (sarnamibhasa.nl) bevestigt 'uppar' → uppar (04-adverb). Vergelijk de genasaleerde richtingvorm uparāṁ ('daarboven', §5.1.2.1)."
+    "notes": "Bijwoord van plaats."
   },
   {
     "id": "adv-nicce",
@@ -105,7 +105,7 @@
       "book-p80",
       "needs-verification"
     ],
-    "notes": "Bijwoord van plaats (§5.1.2). Beeldgeverifieerde vorm nicce met dubbele c; nog niet in de tweede bron teruggevonden, vandaar needs-verification. Genasaleerde richtingvorm nicvāṁ ('daarbeneden', §5.1.2.1), zie voorbeeld 'Jā nicvāṁ dekh to' = Ga eens even beneden kijken."
+    "notes": "Bijwoord van plaats."
   },
   {
     "id": "adv-dur",
@@ -120,7 +120,7 @@
       "place",
       "book-p80"
     ],
-    "notes": "Bijwoord van plaats (§5.1.2). Tweede bron (sarnamibhasa.nl) bevestigt 'dur' → dūr (04-adverb); beeldgeverifieerde macron op de ū."
+    "notes": "Bijwoord van plaats."
   },
   {
     "id": "adv-nagicce",
@@ -135,7 +135,7 @@
       "place",
       "book-p80"
     ],
-    "notes": "Bijwoord van plaats (§5.1.2). Tweede bron (sarnamibhasa.nl) bevestigt 'nagicce' → nagicce (04-adverb). Tegenpool van dūr ('ver')."
+    "notes": "Bijwoord van plaats. Tegenpool van dūr ('ver')."
   },
   {
     "id": "adv-baahar",
@@ -150,7 +150,7 @@
       "place",
       "book-p80"
     ],
-    "notes": "Bijwoord van plaats (§5.1.2). Tweede bron (sarnamibhasa.nl) bevestigt 'bāhar' → bāhar (04-adverb). Tegenpool van bhittar ('binnen'); samen bhittar-bāhar ('binnen en buiten')."
+    "notes": "Bijwoord van plaats. Tegenpool van bhittar ('binnen'); samen bhittar-bāhar ('binnen en buiten')."
   },
   {
     "id": "adv-dhire",
@@ -166,7 +166,7 @@
       "book-p81",
       "needs-verification"
     ],
-    "notes": "Bijwoord van wijze (§5.1.3). Beeldgeverifieerde vorm dhīre; de tweede bron bevestigt de verdubbeling dhīre-dhīre maar niet de losse vorm los, vandaar needs-verification. Ook dhīre se ('zachtjes')."
+    "notes": "Bijwoord van wijze. Ook dhīre se ('zachtjes')."
   },
   {
     "id": "adv-dhire-dhire",
@@ -182,7 +182,7 @@
       "reduplication",
       "book-p81"
     ],
-    "notes": "Verdubbeld bijwoord van wijze (§5.1.3). Verdubbeling van dhīre. Tweede bron (sarnamibhasa.nl) bevestigt 'dhire-dhire' → dhīre-dhīre (04-adverb)."
+    "notes": "Verdubbeld bijwoord van wijze. Verdubbeling van dhīre."
   },
   {
     "id": "adv-sacce",
@@ -197,7 +197,7 @@
       "manner",
       "book-p81"
     ],
-    "notes": "Bijwoord van wijze (§5.1.3). Tweede bron (sarnamibhasa.nl) bevestigt 'sacce' → sacce (04-adverb)."
+    "notes": "Bijwoord van wijze."
   },
   {
     "id": "adv-sait",
@@ -212,7 +212,7 @@
       "manner",
       "book-p81"
     ],
-    "notes": "Bijwoord van wijze (§5.1.3). Tweede bron (sarnamibhasa.nl) bevestigt 'sait' (ook variant isáit) → sait (04-adverb)."
+    "notes": "Bijwoord van wijze."
   },
   {
     "id": "adv-bahut",
@@ -227,7 +227,7 @@
       "degree",
       "book-p84"
     ],
-    "notes": "Bijvoeglijk naamwoord van hoeveelheid dat ook als bijwoord van graad optreedt (§5.1.4.1). Tweede bron (sarnamibhasa.nl) bevestigt 'bahut' → bahut (04-adverb). Voorbeeld: 'Rāmlalvā āj bahut batiyā hai' = Ramlal praat vandaag veel."
+    "notes": "Bijvoeglijk naamwoord van hoeveelheid dat ook als bijwoord van graad optreedt. Voorbeeld: 'Rāmlalvā āj bahut batiyā hai' = Ramlal praat vandaag veel."
   },
   {
     "id": "adv-thora-se",
@@ -242,7 +242,7 @@
       "degree",
       "book-p84"
     ],
-    "notes": "Hoeveelheidswoord dat ook als bijwoord van graad optreedt (§5.1.4.1). Tweede bron (sarnamibhasa.nl) bevestigt 'thorá se' → thorā se (04-adverb). Tegenpool van bahut ('veel')."
+    "notes": "Hoeveelheidswoord dat ook als bijwoord van graad optreedt. Tegenpool van bahut ('veel')."
   },
   {
     "id": "adv-bilkul",
@@ -256,8 +256,7 @@
       "adverb",
       "degree",
       "book-p84"
-    ],
-    "notes": "Bijwoord (§5.1.5 'Overige bijwoorden'). Tweede bron (sarnamibhasa.nl) bevestigt 'bilkul' → bilkul (04-adverb)."
+    ]
   },
   {
     "id": "adv-habara",
@@ -274,7 +273,7 @@
       "book-p86",
       "needs-verification"
     ],
-    "notes": "Leenwoord (§5.2), uit het Sranan Tongo 'abra' (van Eng. 'over'). Verdubbeld habarī-habarā = 'tegenover elkaar'. Nog niet in de tweede bron teruggevonden, vandaar needs-verification."
+    "notes": "Leenwoord, uit het Sranan Tongo 'abra' (van Eng. 'over'). Verdubbeld habarī-habarā = 'tegenover elkaar'."
   },
   {
     "id": "adv-kanti",
@@ -290,7 +289,7 @@
       "loanword",
       "book-p86"
     ],
-    "notes": "Leenwoord (§5.2), uit het Ned. 'kant' via het Sranan Tongo. Verdubbeld kantī-kantī = 'aan de zijkant'. Tweede bron (sarnamibhasa.nl) bevestigt 'kanti (St.)' → kantī (04-adverb)."
+    "notes": "Leenwoord, uit het Ned. 'kant' via het Sranan Tongo. Verdubbeld kantī-kantī = 'aan de zijkant'."
   },
   {
     "id": "adv-parsis",
@@ -306,6 +305,6 @@
       "loanword",
       "book-p86"
     ],
-    "notes": "Leenwoord (§5.2), uit het Nederlands ('precies'). Tweede bron (sarnamibhasa.nl) bevestigt 'parsis' → parsīs (04-adverb). Voorbeeld: 'Tū hamse parsīs-parsīs bataiye' = Je moet mij haarfijn vertellen."
+    "notes": "Leenwoord, uit het Nederlands ('precies'). Voorbeeld: 'Tū hamse parsīs-parsīs bataiye' = Je moet mij haarfijn vertellen."
   }
 ]

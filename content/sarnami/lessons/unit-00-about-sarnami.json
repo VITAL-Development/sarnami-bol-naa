@@ -99,8 +99,8 @@
     "exercises": {
       "hist-e1": {
         "kind": "multiple-choice",
-        "prompt": "Waarom wierf Nederland contractarbeiders in Brits-Indië?",
-        "promptTranslations": { "nl": "Waarom wierf Nederland contractarbeiders in Brits-Indië?", "en": "Why did the Netherlands recruit contract labourers in British India?" },
+        "prompt": "Waarom haalde Nederland contractarbeiders uit Brits-Indië?",
+        "promptTranslations": { "nl": "Waarom haalde Nederland contractarbeiders uit Brits-Indië?", "en": "Why did the Netherlands recruit contract labourers in British India?" },
         "options": [
           "door een arbeidstekort na de afschaffing van de slavernij",
           "omdat er te veel arbeiders in Suriname waren",
