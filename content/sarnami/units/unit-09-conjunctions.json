@@ -3,7 +3,7 @@
   "title": "Voegwoorden",
   "titleTranslations": { "nl": "Voegwoorden", "en": "Conjunctions" },
   "description": "Nevenschikkende en onderschikkende voegwoorden.",
-  "order": 10,
+  "order": 9,
   "cefrLevel": "B1",
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/06-conjunctions.md",
   "lessons": [
