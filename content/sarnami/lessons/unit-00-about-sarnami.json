@@ -6,7 +6,7 @@
       {
         "id": "gn-what-1",
         "title": "Wat is het Sarnami?",
-        "body": "Het Sarnami is de taal die als moedertaal wordt gesproken door Surinamers van Hindostaanse afkomst, in Suriname en in Nederland. De naam raakte vanaf de beginjaren 70 ingeburgerd, mede dankzij taalemancipatorische activiteiten van Surinaamse intellectuelen in Nederland. Sprekers noemen hun taal ook Hindustani of Sarnami-Hindustani.",
+        "body": "Het Sarnami is de moedertaal van Surinamers van Hindostaanse afkomst. Zij spreken het in Suriname en in Nederland. De naam werd bekend vanaf de jaren 70. Surinaamse intellectuelen in Nederland gebruikten de naam 'Sarnami' toen juist om trots te zijn op hun eigen taal. Sprekers noemen hun taal ook Hindustani of Sarnami-Hindustani.",
         "relatedVocab": ["about-sarnami", "about-hindustani"]
       },
       {
@@ -80,19 +80,19 @@
       {
         "id": "gn-hist-1",
         "title": "De Brits-Indische immigratie",
-        "body": "Nadat Nederland op 1 juli 1863 de slavernij in Suriname afschafte, ontstond een schrijnend arbeidstekort op de plantages. Nederland wierf daarom contractarbeiders in Brits-Indië volgens het 'indentured labour system'. Het eerste schip, de Lalla Rookh, bracht op 5 juni 1873 de eerste 398 mannen, vrouwen en kinderen naar Suriname — nog steeds herdacht als de Immigratiedag. Tussen 1873 en 1916 kwamen 34.304 immigranten; ongeveer tweederde (66%) bleef in Suriname.",
+        "body": "Op 1 juli 1863 schafte Nederland de slavernij in Suriname af. Daarna was er te weinig personeel op de plantages. Daarom haalde Nederland contractarbeiders uit Brits-Indië. Deze arbeiders moesten voor een vast aantal jaren werken; dit heet een contractarbeidsysteem. Het eerste schip heette de Lalla Rookh. Het bracht op 5 juni 1873 de eerste 398 mannen, vrouwen en kinderen naar Suriname. Deze dag heet nu de Immigratiedag. Tussen 1873 en 1916 kwamen in totaal 34.304 immigranten naar Suriname. Ongeveer twee van de drie mensen bleven in Suriname wonen.",
         "relatedVocab": ["about-lalla-rookh", "about-girmit"]
       },
       {
         "id": "gn-hist-2",
         "title": "Herkomst en talen",
-        "body": "De meeste immigranten (circa 80%) kwamen uit de streek die nu Uttar Pradesh heet, met daarnaast Bihar — in Noord-India. Hun streektalen Bhojpuri en Avadhi vormen samen de basis van het Sarnami, met het Bhojpuri als dominante factor. Vanaf de jaren 60 en rond de onafhankelijkheid van Suriname (25 november 1975) emigreerden duizenden Surinamers naar Nederland, waar 's-Gravenhage (Den Haag) uitgroeide tot een bolwerk van het Sarnami.",
+        "body": "De meeste immigranten kwamen uit een gebied in Noord-India. Dat gebied heet nu Uttar Pradesh en Bihar. Zij spraken de talen Bhojpuri en Avadhi. Deze twee talen vormen samen de basis van het Sarnami. Het Bhojpuri had de grootste invloed. Vanaf de jaren 60 gingen veel Surinamers naar Nederland. Rond de onafhankelijkheid van Suriname, op 25 november 1975, kwamen er nog meer. Veel van hen gingen in Den Haag wonen. Daar spreken nu veel mensen Sarnami.",
         "relatedVocab": ["about-bhojpuri", "about-avadhi"]
       },
       {
         "id": "gn-hist-3",
         "title": "Girmit",
-        "body": "Het woord girmiṭ is een voorbeeld van volksetymologie: het komt van het Engelse 'agreement' (overeenkomst). De uitdrukking girmiṭ kāṭe betekent 'een ellendige tijd doormaken' en verwijst in het bijzonder naar het vijfjarige contract dat de immigranten als zwaar en vernederend hebben ervaren.",
+        "body": "Het woord girmiṭ komt van het Engelse woord 'agreement' (overeenkomst). Mensen pasten de klank van het Engelse woord aan naar hun eigen taal; dat heet volksetymologie. De uitdrukking girmiṭ kāṭe betekent 'een moeilijke tijd doormaken'. Het verwijst vooral naar het contract van vijf jaar. De immigranten vonden dit contract zwaar en vernederend.",
         "relatedVocab": ["about-girmit"]
       }
     ],
@@ -166,7 +166,7 @@
       {
         "id": "gn-write-2",
         "title": "Diacritische tekens",
-        "body": "De romanisatie gebruikt tekens die de uitspraak preciezer maken: een streepje boven de klinker (macron) voor lange klinkers (ā ī ū ē ō), een puntje eronder voor retroflexe medeklinkers (ṭ ḍ ṛ ṇ ṣ) en een ṁ voor genasaleerde klinkers. Anders dan in het Nederlands maakt het verschil tussen een korte en een lange klinker in het Sarnami betekenisverschil.",
+        "body": "De romanisatie gebruikt extra tekens om de uitspraak duidelijker te maken. Een streepje boven een klinker (macron: ā ī ū ē ō) betekent dat de klinker lang is. Een puntje onder een medeklinker (ṭ ḍ ṛ ṇ ṣ) betekent dat de tong daarbij naar achteren krult; dit heet retroflex. Een ṁ betekent dat de klinker door de neus wordt uitgesproken; dit heet nasaal. In het Sarnami is het verschil tussen een korte en een lange klinker heel belangrijk: twee woorden met alleen een ander klinkerverschil kunnen iets heel anders betekenen. In het Nederlands is dat niet zo.",
         "relatedVocab": []
       },
       {
