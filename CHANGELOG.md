@@ -19,6 +19,21 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+## [0.4.1] - 2026-07-14
+
+### Fixed
+
+- Simplified authoring prose across unit/lesson titles+descriptions,
+  exercise prompts, and vocab/grammar notes/glosses in
+  `content/sarnami/units/*.json` and `content/sarnami/vocab/*.json` to meet
+  the A2 source-language readability ceiling in
+  `docs/contracts/source-language-authoring-contract.md` §2/§2a — replaced
+  anglicisms, dense compounds, and passive/embedded-clause constructions
+  with plainer wording, and stripped citation/verification apparatus
+  (already captured in each item's `tags`) out of learner-facing `notes`
+  fields. Same-shape value edits only — no ids, refs, or field shapes
+  changed. (#217, #218, #219, #226)
+
 ## [0.4.0] - 2026-07-11
 
 ### Added
