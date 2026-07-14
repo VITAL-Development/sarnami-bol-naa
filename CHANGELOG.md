@@ -33,6 +33,16 @@ dated `## [X.Y.Z]` heading.
   (already captured in each item's `tags`) out of learner-facing `notes`
   fields. Same-shape value edits only — no ids, refs, or field shapes
   changed. (#217, #218, #219, #226)
+- `content/sarnami/lessons/unit-04-nouns.json`: trimmed the "Naamvallen"
+  lesson to actively drill only the `ke` postposition (possession, indirect
+  object), deferring the full postposition inventory (`se`, `meṃ`, `par`,
+  `ke lage`) to `unit-07-postpositions` (Intermediate/B1), whose
+  `bookChapterRef` is the dedicated source for that system; `se`/`par`
+  example sentences remain as passive exposure only. Also simplified
+  `unit-04-nouns` grammar-note prose (`gn-04-gender-1`, `gn-04-number-1`,
+  `gn-04-cases-1`, `gn-04-gender-2`) per the A2 source-language ceiling.
+  Same-shape edits — no vocab ids removed, only which ones this lesson
+  actively drills. (#227, #228)
 
 ## [0.4.0] - 2026-07-11
 
