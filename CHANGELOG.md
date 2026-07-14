@@ -19,6 +19,22 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+## [0.4.2] - 2026-07-14
+
+### Changed
+
+- `content/sarnami/grammar/grammar.json`: reworked the `pronouns` topic's
+  possessive/demonstrative/interrogative/relative paradigms from prose
+  bullet lists into markdown tables, matching the table style already used
+  in the `nouns` topic — same-shape `body` value edit only. (#233, #234)
+
+### Fixed
+
+- `content/sarnami/grammar/grammar.json`: simplified several `reading`
+  topic phrases above the A2 Dutch-readability ceiling ("verkwist",
+  "onthaalt", "komt tot inkeer", "rampzalige gevolgen") flagged by the
+  advisory contract review on #234.
+
 ## [0.4.1] - 2026-07-14
 
 ### Fixed
