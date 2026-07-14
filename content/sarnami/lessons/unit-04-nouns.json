@@ -19,7 +19,7 @@
       {
         "id": "gn-04-gender-1",
         "title": "Geslacht speelt nauwelijks een rol",
-        "body": "Anders dan in het Hindi speelt het geslacht in het Sarnami in de verbuiging bijna geen rol: je hoeft bij een woord niet te leren of het mannelijk of vrouwelijk is. Het onderscheid mannelijk (-ā) tegenover vrouwelijk (-ī) wordt vooral gebruikt om mannelijke en vrouwelijke personen en dieren te benoemen, bijvoorbeeld nānā (grootvader) / nanī (grootmoeder) en gadahā (ezel) / gadahī (ezelin).",
+        "body": "In het Sarnami speelt het geslacht van een woord bijna geen rol. Je hoeft dus niet te onthouden of een woord mannelijk of vrouwelijk is. Het Hindi werkt hierin anders: daar is het geslacht wel belangrijk voor de vorm van een woord. Het onderscheid mannelijk (-ā) en vrouwelijk (-ī) gebruik je in het Sarnami vooral voor personen en dieren. Voorbeeld: nānā (grootvader) tegenover nanī (grootmoeder). Nog een voorbeeld: gadahā (ezel) tegenover gadahī (ezelin).",
         "relatedVocab": ["noun-nana", "noun-nani", "noun-gadaha", "noun-gadahi"]
       },
       {
@@ -83,7 +83,7 @@
       {
         "id": "gn-04-number-1",
         "title": "Korte en lange vorm (onbepaald / bepaald)",
-        "body": "Een zelfstandig naamwoord heeft meestal een korte en een lange vorm. De korte vorm is de stam en is onbepaald: ghar = 'een huis'. De lange vorm is bepaald en wordt gevormd met de uitgang -vā, -iyā of -yā, vaak met een klankverandering: ghar → gharvā ('het huis'), ghoṛā → ghŏṛvā ('het paard'), nāk → nakiyā ('de neus'), beṭī → biṭiyā ('de dochter'). Door er het aanwijzende woordje ī of ū voor te zetten ontstaat 'deze/die': ū gharvā = 'dat huis'.",
+        "body": "Een zelfstandig naamwoord heeft meestal twee vormen: een korte vorm en een lange vorm. De korte vorm is onbepaald. Dat betekent 'een huis' in plaats van 'het huis'. Bijvoorbeeld: ghar betekent 'een huis'. De lange vorm is bepaald. Dat betekent 'het huis' in plaats van 'een huis'. Je maakt de lange vorm met de uitgang -vā, -iyā of -yā. Soms verandert daarbij ook de klank van het woord een beetje. Voorbeeld: ghar wordt gharvā ('het huis'). Nog een voorbeeld: ghoṛā wordt ghŏṛvā ('het paard'). En: nāk wordt nakiyā ('de neus'). En: beṭī wordt biṭiyā ('de dochter'). Zet je het woordje ī of ū voor de lange vorm, dan betekent het 'deze' of 'die': ū gharvā betekent 'dat huis'.",
         "relatedVocab": ["noun-ghora", "noun-nak", "noun-per"]
       },
       {
