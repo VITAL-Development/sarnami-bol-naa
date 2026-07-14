@@ -10,7 +10,7 @@
       "interjection",
       "book-p50"
     ],
-    "notes": "Uit §8.1 van authored_docs/byakaran/07-interjections.md ('acchā! = goed, o.k.!'). Bevestigende uitroep. Diacritisch correcte vorm (macron ā) per de beeldgeverifieerde transcriptie. Bevestigd door de tweede bron authored_docs/sarnamibhasa-vocab.md ('goed | acchá'), daarom geen needs-verification."
+    "notes": "Bevestigende uitroep."
   },
   {
     "id": "int-he",
@@ -24,7 +24,7 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uit §8.1 ('he! = he!'). Roep om iemand dichtbij aan te spreken of de aandacht te trekken; vergelijk de afleiding hĕdde (= he dekh! 'zie hier!'). Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+    "notes": "Roep om iemand dichtbij aan te spreken of de aandacht te trekken; vergelijk de afleiding hĕdde (= he dekh! 'zie hier!')."
   },
   {
     "id": "int-ho",
@@ -38,7 +38,7 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uit §8.1 ('ho! = he!'). Roep om iemand op afstand aan te spreken; vergelijk de afleiding hŏdde (= ho dekh! 'zie daar!'). Staat naast he (dichtbij). Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+    "notes": "Roep om iemand op afstand aan te spreken; vergelijk de afleiding hŏdde (= ho dekh! 'zie daar!'). Staat naast he (dichtbij)."
   },
   {
     "id": "int-cup",
@@ -52,7 +52,7 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uit §8.1 ('cup! = stil!'). Bevel om te zwijgen. De tweede bron geeft voor 'stil' shánt/shánti/astil (een andere stam), dus cup is niet bevestigd; needs-verification. Pagina bij benadering."
+    "notes": "Bevel om te zwijgen."
   },
   {
     "id": "int-aya",
@@ -66,7 +66,7 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uit §8.1 ('ayā! = au!'). Uitroep van pijn of schrik. Diacritisch correcte vorm (macron ā) per de beeldgeverifieerde transcriptie. Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+    "notes": "Uitroep van pijn of schrik."
   },
   {
     "id": "int-bacao",
@@ -80,7 +80,7 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uit §8.1 ('bacāo! = help!'). Noodkreet. Diacritisch correcte vorm (macron ā) per de beeldgeverifieerde transcriptie. Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+    "notes": "Noodkreet."
   },
   {
     "id": "int-bhala",
@@ -94,7 +94,7 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uit §8.1 ('bhalā! = zeg!'). Uitroep van verrassing of om de aandacht te richten. Diacritisch correcte vorm (macron ā). Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+    "notes": "Uitroep van verrassing of om de aandacht te richten. Diacritisch correcte vorm (macron ā)."
   },
   {
     "id": "int-bap-re-bap",
@@ -108,7 +108,7 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uit §8.1 ('bāp-re-bāp! = lieve hemel!'). Uitroep van verbazing of ontzetting (letterlijk 'vader-toch-vader'). Diacritisch correcte vorm (macrons ā) per de beeldgeverifieerde transcriptie. Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+    "notes": "Uitroep van verbazing of ontzetting (letterlijk 'vader-toch-vader')."
   },
   {
     "id": "int-sabas",
@@ -122,7 +122,7 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uit §8.1 ('sābās! = bravo!'). Uitroep van lof of aanmoediging. Diacritisch correcte vorm (macrons ā) per de beeldgeverifieerde transcriptie. Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+    "notes": "Uitroep van lof of aanmoediging."
   },
   {
     "id": "int-vah-vah",
@@ -136,7 +136,7 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uit §8.1 ('vāh-vāh! = bravo!'). Uitroep van bewondering. Diacritisch correcte vorm (macrons ā) per de beeldgeverifieerde transcriptie. Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+    "notes": "Uitroep van bewondering."
   },
   {
     "id": "int-albat",
@@ -150,7 +150,7 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uit §8.1 ('albat! = warempel, inderdaad'). Bevestigend partikel. Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+    "notes": "Bevestigend partikel."
   },
   {
     "id": "int-cor-cor",
@@ -164,7 +164,7 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uit §8.1 ('cor-cor! = houdt de dief!'). Alarmkreet bij diefstal (van cor 'dief'). Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+    "notes": "Alarmkreet bij diefstal (van cor 'dief')."
   },
   {
     "id": "int-hay-hay",
@@ -178,7 +178,7 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uit §8.1 ('hāy-hāy! = ach!'). Uitroep van verdriet of weeklacht; vergelijk hāy re ('jammer!'). Diacritisch correcte vorm (macrons ā) per de beeldgeverifieerde transcriptie. Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+    "notes": "Uitroep van verdriet of weeklacht; vergelijk hāy re ('jammer!')."
   },
   {
     "id": "int-oho",
@@ -192,7 +192,7 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uit §8.1 ('oho! = och-och!'). Uitroep van medeleven of milde verbazing. Nog niet tegen een tweede bron gekruist; needs-verification. Pagina bij benadering."
+    "notes": "Uitroep van medeleven of milde verbazing."
   },
   {
     "id": "int-to",
@@ -205,6 +205,6 @@
       "interjection",
       "book-p50"
     ],
-    "notes": "Uit §8.1 ('to, ta? = toch?'); ook onder de Nederlandse leenwoorden in §8.2 ('tò, toch?'). Nadrukgevend/aansporend gesprekspartikel. Bevestigd door de tweede bron authored_docs/sarnamibhasa-vocab.md ('evengoed; toch | to, to bhi, tabbo'), daarom geen needs-verification. Pagina bij benadering."
+    "notes": "Nadrukgevend/aansporend gesprekspartikel."
   }
 ]

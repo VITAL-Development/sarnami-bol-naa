@@ -12,7 +12,7 @@
       "book-p19",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de lange klinker ā (macron) uit de klinkertabel van authored_docs/byakaran/01-sounds.md. Contrasteert met de korte a in 'ab' (nu). Diacritiek beeldgeverifieerd per de bronkop; boekpagina bij benadering (PDF-pagina 19–22). needs-verification: nog niet tegen een tweede bron gekruist."
+    "notes": "Contrasteert met de korte a in 'ab' (nu)."
   },
   {
     "id": "sound-insan",
@@ -27,7 +27,7 @@
       "book-p19",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de korte klinker i (beginpositie) plus de lange ā uit de klinkertabel van authored_docs/byakaran/01-sounds.md. Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "Boekpagina bij benadering."
   },
   {
     "id": "sound-ulta",
@@ -42,7 +42,7 @@
       "book-p19",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de korte klinker u, met de lange ā aan het eind, uit de klinkertabel van authored_docs/byakaran/01-sounds.md. Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "Boekpagina bij benadering."
   },
   {
     "id": "sound-aina",
@@ -57,7 +57,7 @@
       "book-p19",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de tweeklank ai uit de klinkertabel van authored_docs/byakaran/01-sounds.md. Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "Boekpagina bij benadering."
   },
   {
     "id": "sound-aurat",
@@ -72,7 +72,7 @@
       "book-p19",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de tweeklank au uit de klinkertabel van authored_docs/byakaran/01-sounds.md. Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "Boekpagina bij benadering."
   },
   {
     "id": "sound-kaun",
@@ -87,7 +87,7 @@
       "book-p20",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de niet-geaspireerde k uit de medeklinkertabel van authored_docs/byakaran/01-sounds.md. Vormt een minimaal contrast met de geaspireerde kh in 'khet'. Diacritiek beeldgeverifieerd; boekpagina bij benadering (PDF-pagina 19–22). needs-verification."
+    "notes": "Vormt een minimaal contrast met de geaspireerde kh in 'khet'."
   },
   {
     "id": "sound-khet",
@@ -102,7 +102,7 @@
       "book-p20",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de geaspireerde kh (k + luchtstootje) uit de medeklinkertabel van authored_docs/byakaran/01-sounds.md. Contrasteert met de niet-geaspireerde k in 'kaun'. Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "Contrasteert met de niet-geaspireerde k in 'kaun'. boekpagina bij benadering."
   },
   {
     "id": "sound-cor",
@@ -117,7 +117,7 @@
       "book-p20",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de niet-geaspireerde c (als 'tj') uit de medeklinkertabel van authored_docs/byakaran/01-sounds.md. Contrasteert met de geaspireerde ch in 'chūrī'. Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "Contrasteert met de geaspireerde ch in 'chūrī'. boekpagina bij benadering."
   },
   {
     "id": "sound-churi",
@@ -132,7 +132,7 @@
       "book-p20",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de geaspireerde ch plus de lange ū uit de medeklinkertabel van authored_docs/byakaran/01-sounds.md. Contrasteert met de niet-geaspireerde c in 'cor'. Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "Contrasteert met de niet-geaspireerde c in 'cor'. boekpagina bij benadering."
   },
   {
     "id": "sound-phul",
@@ -147,7 +147,7 @@
       "book-p21",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de geaspireerde ph uit de medeklinkertabel van authored_docs/byakaran/01-sounds.md (te onderscheiden van de f in leenwoorden). Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "Boekpagina bij benadering."
   },
   {
     "id": "sound-garib",
@@ -162,7 +162,7 @@
       "book-p20",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de g plus de lange ī uit de medeklinkertabel van authored_docs/byakaran/01-sounds.md. Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "Boekpagina bij benadering."
   },
   {
     "id": "sound-roti",
@@ -178,7 +178,7 @@
       "book-p21",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de retroflexe ṭ (punt eronder: tong krult naar het gehemelte) plus lange ī, uit de medeklinkertabel van authored_docs/byakaran/01-sounds.md. Contrasteert met de dentale t in 'tarkārī' (groente). Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "Contrasteert met de dentale t in 'tarkārī' (groente). boekpagina bij benadering."
   },
   {
     "id": "sound-dar",
@@ -194,7 +194,7 @@
       "book-p21",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de retroflexe ḍ (punt eronder) uit de medeklinkertabel van authored_docs/byakaran/01-sounds.md. Contrasteert met de retroflexe flap ṛ in 'laṛkā'. Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "Contrasteert met de retroflexe flap ṛ in 'laṛkā'. boekpagina bij benadering."
   },
   {
     "id": "sound-larka",
@@ -210,7 +210,7 @@
       "book-p21",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de retroflexe flap ṛ (punt eronder) plus lange ā, uit de medeklinkertabel van authored_docs/byakaran/01-sounds.md. In de populaire SCS-spelling geschreven als 'larka'. Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "In de populaire SCS-spelling geschreven als 'larka'. boekpagina bij benadering."
   },
   {
     "id": "sound-jhanda",
@@ -227,7 +227,7 @@
       "book-p21",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de retroflexe nasaal ṇ (punt eronder) naast de retroflexe ḍ, uit de medeklinkertabel van authored_docs/byakaran/01-sounds.md. Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "Boekpagina bij benadering."
   },
   {
     "id": "sound-kainci",
@@ -243,7 +243,7 @@
       "book-p20",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de palatale nasaal ñ (tilde) plus lange ī, uit de medeklinkertabel van authored_docs/byakaran/01-sounds.md. Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "Boekpagina bij benadering."
   },
   {
     "id": "sound-lanka",
@@ -260,7 +260,7 @@
       "book-p20",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de velaire nasaal ṅ (punt/tilde boven) plus lange ā, uit de medeklinkertabel van authored_docs/byakaran/01-sounds.md. Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "Boekpagina bij benadering."
   },
   {
     "id": "sound-bhasa",
@@ -276,7 +276,7 @@
       "book-p21",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de retroflexe sisklank ṣ (punt eronder) plus twee lange ā's, uit de medeklinkertabel van authored_docs/byakaran/01-sounds.md; populair 'bhasa/bhasha'. Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "Populair 'bhasa/bhasha'. boekpagina bij benadering."
   },
   {
     "id": "sound-shanti",
@@ -292,6 +292,6 @@
       "book-p21",
       "needs-verification"
     ],
-    "notes": "Voorbeeldwoord voor de palatale sisklank ś (accent) plus lange ā, uit de medeklinkertabel van authored_docs/byakaran/01-sounds.md; populair 'shanti'. Diacritiek beeldgeverifieerd; boekpagina bij benadering. needs-verification."
+    "notes": "Populair 'shanti'. boekpagina bij benadering."
   }
 ]

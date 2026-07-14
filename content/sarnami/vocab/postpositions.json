@@ -6,7 +6,7 @@
       "nl": "in",
       "en": "in"
     },
-    "notes": "Primair achterzetsel (byakaran 6.2, tabel 1). Beeldgeverifieerd; het Nickeriaans kent ook de vormen emāṁ/omāṁ (6.5). De tweede bron (sarnamibhasa.nl) noteert dit als 'men'; boekvorm meṁ aangehouden. Paginanummer bij benadering.",
+    "notes": "Het Nickeriaans kent ook de vormen emāṁ/omāṁ (6.5). boekvorm meṁ aangehouden.",
     "tags": [
       "postposition",
       "book-p86",
@@ -20,7 +20,6 @@
       "nl": "met, door, uit, aan",
       "en": "with, by, from, to"
     },
-    "notes": "Primair achterzetsel (byakaran 6.2, tabel 1). Bevestigd tegen de tweede bron (sarnamibhasa.nl -> 05-postpositions). Paginanummer bij benadering.",
     "tags": [
       "postposition",
       "book-p86"
@@ -33,7 +32,7 @@
       "nl": "op",
       "en": "on"
     },
-    "notes": "Primair achterzetsel (byakaran 6.2, tabel 1); komt ook voor in de nevenvorm 'pe'. Beeldgeverifieerd. Paginanummer bij benadering; needs-verification tot kruiscontrole van deze exacte betekenis.",
+    "notes": "Komt ook voor in de nevenvorm 'pe'.",
     "tags": [
       "postposition",
       "book-p86",
@@ -47,7 +46,7 @@
       "nl": "van, aan",
       "en": "of, to"
     },
-    "notes": "Primair achterzetsel (byakaran 6.2, tabel 1); vormt ook de basis van de samengestelde achterzetsels (ke uppar, ke binā, ...). Bevestigd tegen de tweede bron (sarnamibhasa.nl -> 05-postpositions). Paginanummer bij benadering.",
+    "notes": "Vormt ook de basis van de samengestelde achterzetsels (ke uppar, ke binā, ...).",
     "tags": [
       "postposition",
       "book-p86"
@@ -60,7 +59,7 @@
       "nl": "boven",
       "en": "above"
     },
-    "notes": "Samengesteld achterzetsel met ke (byakaran 6.2, tabel 2); ke kan soms wegvallen. Bevestigd tegen de tweede bron (sarnamibhasa.nl: uppar -> 04-adverb). Paginanummer bij benadering.",
+    "notes": "Ke kan soms wegvallen.",
     "tags": [
       "postposition",
       "book-p87"
@@ -73,7 +72,6 @@
       "nl": "beneden, onder",
       "en": "below, under"
     },
-    "notes": "Samengesteld achterzetsel met ke (byakaran 6.2, tabel 2). Bevestigd tegen de tweede bron (sarnamibhasa.nl: nicce -> 04-adverb). Paginanummer bij benadering.",
     "tags": [
       "postposition",
       "book-p87"
@@ -86,7 +84,6 @@
       "nl": "binnen, in",
       "en": "inside, in"
     },
-    "notes": "Samengesteld achterzetsel met ke (byakaran 6.2, tabel 2). Bevestigd tegen de tweede bron (sarnamibhasa.nl: bhittar -> 04-adverb). Paginanummer bij benadering.",
     "tags": [
       "postposition",
       "book-p87"
@@ -99,7 +96,7 @@
       "nl": "buiten",
       "en": "outside"
     },
-    "notes": "Samengesteld achterzetsel met ke (byakaran 6.2, tabel 2); macron op de eerste ā. Bevestigd tegen de tweede bron (sarnamibhasa.nl: bāhar -> 04-adverb). Paginanummer bij benadering.",
+    "notes": "Macron op de eerste ā.",
     "tags": [
       "postposition",
       "book-p87"
@@ -112,7 +109,7 @@
       "nl": "(samen) met",
       "en": "(together) with"
     },
-    "notes": "Samengesteld achterzetsel met ke (byakaran 6.2, tabel 2); macron op de ā. Beeldgeverifieerd; de tweede bron noteert sáth zonder consistente diacritiek. Paginanummer bij benadering; needs-verification tot kruiscontrole.",
+    "notes": "Macron op de ā.",
     "tags": [
       "postposition",
       "book-p87",
@@ -126,7 +123,7 @@
       "nl": "zonder",
       "en": "without"
     },
-    "notes": "Samengesteld achterzetsel met ke (byakaran 6.2, tabel 2); macron op de ā. Het boek gebruikt binā als voorbeeld bij de voornaamwoordelijke vormen (6.3: hamār binā, tor binā). Beeldgeverifieerd; de tweede bron noteert biná. Paginanummer bij benadering; needs-verification tot kruiscontrole.",
+    "notes": "Macron op de ā. Het boek gebruikt binā als voorbeeld bij de voornaamwoordelijke vormen (6.3: hamār binā, tor binā).",
     "tags": [
       "postposition",
       "book-p87",
@@ -140,7 +137,7 @@
       "nl": "bij, dichtbij",
       "en": "near, close by"
     },
-    "notes": "Samengesteld achterzetsel met ke (byakaran 6.2, tabel 2). Beeldgeverifieerd; de tweede bron noemt lage bij 'bij; dichtbij' maar zonder boekkruisverwijzing. Paginanummer bij benadering; needs-verification tot kruiscontrole.",
+    "notes": "Dichtbij' maar zonder boekkruisverwijzing.",
     "tags": [
       "postposition",
       "book-p87",
@@ -154,7 +151,7 @@
       "nl": "voor, vóór",
       "en": "in front of, before"
     },
-    "notes": "Samengesteld achterzetsel met ke (byakaran 6.2, tabel 2); macron op de ā. Beeldgeverifieerd. Paginanummer bij benadering; needs-verification tot kruiscontrole.",
+    "notes": "Macron op de ā.",
     "tags": [
       "postposition",
       "book-p87",
@@ -168,7 +165,6 @@
       "nl": "achter",
       "en": "behind"
     },
-    "notes": "Samengesteld achterzetsel met ke (byakaran 6.2, tabel 2). Bevestigd tegen de tweede bron (sarnamibhasa.nl: piche -> 04-adverb). Paginanummer bij benadering.",
     "tags": [
       "postposition",
       "book-p87"

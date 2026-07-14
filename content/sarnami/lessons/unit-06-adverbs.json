@@ -6,7 +6,7 @@
       {
         "id": "gn-adv-time",
         "title": "Bijwoorden van tijd",
-        "body": "Bijwoorden kunnen aan bijna elke woordsoort worden toegevoegd, behalve aan het zelfstandig naamwoord, en worden — anders dan bijvoeglijke naamwoorden — niet verbogen. Bijwoorden van tijd geven aan wanneer iets gebeurt: āj (vandaag), bihān (morgen), kāl (gisteren), roj (dagelijks) en hardam (altijd). Ze staan vaak vooraan in de zin, bijvoorbeeld: 'Āj ham jādā khāi lelī hai' = Ik heb vandaag te veel gegeten.",
+        "body": "Een bijwoord zegt iets extra's over een werkwoord, een bijvoeglijk naamwoord of een ander bijwoord. Een bijwoord verandert nooit van vorm, ook niet bij een ander onderwerp; dat is anders dan bij een bijvoeglijk naamwoord. Bijwoorden van tijd zeggen wanneer iets gebeurt: āj (vandaag), bihān (morgen), kāl (gisteren), roj (dagelijks) en hardam (altijd). Ze staan vaak vooraan in de zin. Voorbeeld: 'Āj ham jādā khāi lelī hai' = Ik heb vandaag te veel gegeten.",
         "relatedVocab": [
           "adv-aaj",
           "adv-bihaan",
@@ -18,7 +18,7 @@
       {
         "id": "gn-adv-place",
         "title": "Bijwoorden van plaats",
-        "body": "Bijwoorden van plaats geven aan waar iets is of gebeurt: uppar (boven), nicce (beneden), dūr (ver), nagicce (dichtbij) en bāhar (buiten, tegenover bhittar 'binnen'). Een aardig kenmerk van het Sarnami: door nasalering worden sommige plaatsbijwoorden richtingaanduidend. Zo wordt nicce ('beneden') tot nicvāṁ ('daarbeneden') en uppar tot uparāṁ ('daarboven'). Voorbeeld: 'Jā nicvāṁ dekh to, ke āil hai' = Ga eens even beneden kijken wie gekomen is.",
+        "body": "Bijwoorden van plaats zeggen waar iets is: uppar (boven), nicce (beneden), dūr (ver), nagicce (dichtbij) en bāhar (buiten). Het tegenovergestelde van bāhar is bhittar (binnen). Het Sarnami heeft een bijzonder kenmerk: je kunt van sommige plaatsbijwoorden een richting maken. Dat doe je door een neusklank (ṁ) toe te voegen; dit heet nasalering. Zo wordt nicce ('beneden') het woord nicvāṁ ('daarbeneden'). En uppar ('boven') wordt uparāṁ ('daarboven'). Voorbeeld: 'Jā nicvāṁ dekh to, ke āil hai' = Ga eens even beneden kijken wie gekomen is.",
         "relatedVocab": [
           "adv-uppar",
           "adv-nicce",
@@ -85,9 +85,9 @@
       },
       "tp-e3": {
         "kind": "multiple-choice",
-        "prompt": "Door nasalering wordt het plaatsbijwoord 'nicce' (beneden) tot 'nicvāṁ'. Wat betekent 'nicvāṁ'?",
+        "prompt": "Door nasalering verandert 'nicce' (beneden) in 'nicvāṁ'. Wat betekent 'nicvāṁ'?",
         "promptTranslations": {
-          "nl": "Door nasalering wordt het plaatsbijwoord 'nicce' (beneden) tot 'nicvāṁ'. Wat betekent 'nicvāṁ'?",
+          "nl": "Door nasalering verandert 'nicce' (beneden) in 'nicvāṁ'. Wat betekent 'nicvāṁ'?",
           "en": "Through nasalization the adverb of place 'nicce' (below) becomes 'nicvāṁ'. What does 'nicvāṁ' mean?"
         },
         "options": [
@@ -224,7 +224,7 @@
       {
         "id": "gn-adv-loan",
         "title": "Leenwoord-bijwoorden",
-        "body": "Het Sarnami heeft ook bijwoorden ontleend aan andere talen. Uit het Sranan Tongo komen habarā ('aan de overkant', van abra < Eng. over) en kantī ('langs', via Ned. kant). Uit het Nederlands komt parsīs ('precies, toevallig, eigenlijk'). Deze leenwoorden verdubbelen net als inheemse bijwoorden: habarī-habarā ('tegenover elkaar'), kantī-kantī ('aan de zijkant').",
+        "body": "Het Sarnami heeft ook bijwoorden die uit andere talen komen; dit heten leenwoorden. Uit het Sranan Tongo komen habarā ('aan de overkant') en kantī ('langs'). Habarā komt oorspronkelijk van het Engelse woord 'over'. Kantī komt van het Nederlandse woord 'kant'. Uit het Nederlands komt ook parsīs ('precies, toevallig, eigenlijk'). Deze leenwoorden kun je verdubbelen, net als Sarnami-bijwoorden die al langer bestaan: habarī-habarā ('tegenover elkaar'), kantī-kantī ('aan de zijkant').",
         "relatedVocab": [
           "adv-habara",
           "adv-kanti",

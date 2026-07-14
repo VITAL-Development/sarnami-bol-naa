@@ -6,7 +6,7 @@
       {
         "id": "gn-text1-1",
         "title": "Tekst 1: Nātī aur nānī ke khissā",
-        "body": "Dit is een Sarnami volksverhaal uit de bijlagen van de grammatica — 'Het verhaal van de grootmoeder en de kleinzoon'. Het staat in de wetenschappelijke romanisatie met diacritische tekens, precies zoals je die in eerdere eenheden hebt geleerd. Leesstrategie: lees eerst de Sarnami-zin hardop; herken de verbindingswoorden die je al kent — aur (en), tab (dan/toen), phir (weer), baki (maar) — en raad de rest uit de context. Controleer daarna pas de Nederlandse vertaling.",
+        "body": "Dit is een Sarnami volksverhaal uit de bijlagen van de grammatica. De titel is 'Het verhaal van de grootmoeder en de kleinzoon'. De tekst staat in de wetenschappelijke spelling met diacritische tekens (streepjes en puntjes), net als in eerdere eenheden. Tip om te lezen: lees eerst de Sarnami-zin hardop. Herken de verbindingswoorden die je al kent: aur (en), tab (dan/toen), phir (weer), baki (maar). Raad de rest van de zin met behulp van de context. Kijk daarna pas naar de Nederlandse vertaling.",
         "relatedVocab": ["read-nati", "read-nani", "struct-en", "struct-dan", "struct-weer"]
       },
       {
@@ -99,7 +99,7 @@
       {
         "id": "gn-text2-1",
         "title": "Tekst 2: Herāil beṭavā",
-        "body": "De tweede tekst is een bijbelse gelijkenis, in het Sarnami naverteld — 'De verloren zoon'. Ook deze staat in de wetenschappelijke romanisatie. De titel bevat meteen twee bouwstenen: herāil ('verloren, kwijtgeraakt') en beṭavā, de bepaalde vorm van beṭā (zoon). Leesstrategie voor een langere tekst: hak elke zin in stukken rond de verbindingswoorden jab (toen), tab (dan) en baki (maar).",
+        "body": "De tweede tekst is een bekende bijbelse gelijkenis, naverteld in het Sarnami. De titel is 'De verloren zoon'. Ook deze tekst staat in de wetenschappelijke spelling. De titel bestaat uit twee delen: herāil ('verloren, kwijtgeraakt') en beṭavā. Beṭavā is de bepaalde vorm van beṭā (zoon). Tip om een langere tekst te lezen: hak elke zin in stukken bij de verbindingswoorden jab (toen), tab (dan) en baki (maar).",
         "relatedVocab": ["read-beta", "read-bap", "struct-maar"]
       },
       {
@@ -333,8 +333,8 @@
       },
       "rev-e7": {
         "kind": "multiple-choice",
-        "prompt": "In welke spelling is de fabel 'Canak siyar' gezet, anders dan de eerste twee teksten?",
-        "promptTranslations": { "nl": "In welke spelling is de fabel 'Canak siyar' gezet, anders dan de eerste twee teksten?", "en": "In which spelling is the fable 'Canak siyar' set, unlike the first two texts?" },
+        "prompt": "De fabel 'Canak siyar' gebruikt een andere spelling dan de eerste twee teksten. Welke spelling is dat?",
+        "promptTranslations": { "nl": "De fabel 'Canak siyar' gebruikt een andere spelling dan de eerste twee teksten. Welke spelling is dat?", "en": "In which spelling is the fable 'Canak siyar' set, unlike the first two texts?" },
         "options": [
           "de vereenvoudigde SCS-spelling zonder diacritische tekens",
           "het devanagari-schrift",

@@ -35,8 +35,7 @@
     "tags": [
       "greeting",
       "baatsiekh"
-    ],
-    "notes": "Bevestigd door baatsiekh.nl's Uitspraken-soundboard: 'hoe gaat het?' -> kaise."
+    ]
   },
   {
     "id": "greet-moi-jahe",
@@ -50,7 +49,7 @@
       "baatsiekh",
       "book"
     ],
-    "notes": "Vervangt de eerdere ongeverifieerde gok 'Ham ṭhīk hai'. baatsiekh.nl geeft 'moi djahe' voor 'het gaat goed' (dj staat hier voor de j-klank); jā hai is de bevestigde vervoeging van jāi (gaan), zie authored_docs/byakaran/08-the-verb.md ('tū jā hai', 'ū jā hai'). Ontkennende vorm: 'Nā moi jā hai' (het gaat niet goed)."
+    "notes": "Vervangt de eerdere ongeverifieerde gok 'Ham ṭhīk hai'. Ontkennende vorm: 'Nā moi jā hai' (het gaat niet goed)."
   },
   {
     "id": "greet-dhanyavad",
@@ -63,7 +62,7 @@
       "greeting",
       "baatsiekh"
     ],
-    "notes": "baatsiekh.nl geeft 'dhanbaad' voor 'bedankt' (dubbele klinker -> macron, zoals elders in het boek). Waarschijnlijk een ingekorte, informele uitspraak van het meer formele Hindi-achtige Dhanyavād (niet zelf in het boek geattesteerd, maar wel breed gebruikelijk)."
+    "notes": "Waarschijnlijk een ingekorte, informele uitspraak van het meer formele Hindi-achtige Dhanyavād (niet zelf in het boek geattesteerd, maar wel breed gebruikelijk)."
   },
   {
     "id": "greet-ja",
@@ -75,8 +74,7 @@
       "greeting",
       "baatsiekh",
       "book"
-    ],
-    "notes": "Bevestigd in authored_docs/byakaran/07-interjections.md ('hāṁ! = ja!') en baatsiekh.nl's Uitspraken-soundboard."
+    ]
   },
   {
     "id": "greet-nee",
@@ -88,7 +86,6 @@
       "greeting",
       "baatsiekh",
       "book"
-    ],
-    "notes": "Bevestigd in authored_docs/byakaran/07-interjections.md ('nā! = nee!') en baatsiekh.nl's Uitspraken-soundboard."
+    ]
   }
 ]
