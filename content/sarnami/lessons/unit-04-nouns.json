@@ -19,13 +19,13 @@
       {
         "id": "gn-04-gender-1",
         "title": "Geslacht speelt nauwelijks een rol",
-        "body": "Anders dan in het Hindi speelt het geslacht in het Sarnami in de verbuiging bijna geen rol: je hoeft bij een woord niet te leren of het mannelijk of vrouwelijk is. Het onderscheid mannelijk (-ā) tegenover vrouwelijk (-ī) wordt vooral gebruikt om mannelijke en vrouwelijke personen en dieren te benoemen, bijvoorbeeld nānā (grootvader) / nanī (grootmoeder) en gadahā (ezel) / gadahī (ezelin).",
+        "body": "In het Sarnami speelt het geslacht van een woord bijna geen rol. Je hoeft dus niet te onthouden of een woord mannelijk of vrouwelijk is. Het Hindi werkt hierin anders: daar is het geslacht wel belangrijk voor de vorm van een woord. Het onderscheid mannelijk (-ā) en vrouwelijk (-ī) gebruik je in het Sarnami vooral voor personen en dieren. Voorbeeld: nānā (grootvader) tegenover nanī (grootmoeder). Nog een voorbeeld: gadahā (ezel) tegenover gadahī (ezelin).",
         "relatedVocab": ["noun-nana", "noun-nani", "noun-gadaha", "noun-gadahi"]
       },
       {
         "id": "gn-04-gender-2",
         "title": "Vrouwelijk maken",
-        "body": "Bestaat er geen apart vrouwelijk woord, dan wordt de vrouwelijke vorm meestal gemaakt door -ā te vervangen door -ī (gadahā → gadahī, māmā → māmī) of door de uitgang -in / -nī toe te voegen (dulahā → dulahin, 'bruidegom → bruid'). Let op: soms levert de wisseling een onverwachte betekenis op — laundā is 'jongen', maar laundī betekent 'hoertje'; chaumṛī is 'meisje', maar chaumṛā 'vlegel'.",
+        "body": "Soms bestaat er geen apart vrouwelijk woord. Dan maak je de vrouwelijke vorm meestal op een van twee manieren. Manier 1: je vervangt -ā door -ī. Bijvoorbeeld: gadahā wordt gadahī. Ook: māmā wordt māmī. Manier 2: je voegt de uitgang -in of -nī toe. Bijvoorbeeld: dulahā ('bruidegom') wordt dulahin ('bruid'). Let op: soms krijgt het woord daardoor een andere betekenis dan je verwacht. laundā betekent 'jongen', maar laundī betekent 'hoertje'. chaumṛī betekent 'meisje', maar chaumṛā betekent 'vlegel'.",
         "relatedVocab": ["noun-launda", "noun-chaumri", "noun-gadaha", "noun-gadahi"]
       }
     ],
@@ -83,7 +83,7 @@
       {
         "id": "gn-04-number-1",
         "title": "Korte en lange vorm (onbepaald / bepaald)",
-        "body": "Een zelfstandig naamwoord heeft meestal een korte en een lange vorm. De korte vorm is de stam en is onbepaald: ghar = 'een huis'. De lange vorm is bepaald en wordt gevormd met de uitgang -vā, -iyā of -yā, vaak met een klankverandering: ghar → gharvā ('het huis'), ghoṛā → ghŏṛvā ('het paard'), nāk → nakiyā ('de neus'), beṭī → biṭiyā ('de dochter'). Door er het aanwijzende woordje ī of ū voor te zetten ontstaat 'deze/die': ū gharvā = 'dat huis'.",
+        "body": "Een zelfstandig naamwoord heeft meestal twee vormen: een korte vorm en een lange vorm. De korte vorm is onbepaald. Dat betekent 'een huis' in plaats van 'het huis'. Bijvoorbeeld: ghar betekent 'een huis'. De lange vorm is bepaald. Dat betekent 'het huis' in plaats van 'een huis'. Je maakt de lange vorm met de uitgang -vā, -iyā of -yā. Soms verandert daarbij ook de klank van het woord een beetje. Voorbeeld: ghar wordt gharvā ('het huis'). Nog een voorbeeld: ghoṛā wordt ghŏṛvā ('het paard'). En: nāk wordt nakiyā ('de neus'). En: beṭī wordt biṭiyā ('de dochter'). Zet je het woordje ī of ū voor de lange vorm, dan betekent het 'deze' of 'die': ū gharvā betekent 'dat huis'.",
         "relatedVocab": ["noun-ghora", "noun-nak", "noun-per"]
       },
       {
@@ -152,39 +152,36 @@
       {
         "id": "gn-04-cases-1",
         "title": "Achterzetsels in plaats van naamvallen",
-        "body": "Het Sarnami kent geen naamvallen zoals het Latijn of het Sanskriet. De functie van een woord in de zin (onderwerp, lijdend voorwerp, bezit …) wordt aangegeven met achterzetsels — in het Nederlands zijn dat voorzetsels — of door de woordvolgorde. Het achterzetsel komt ná het woord te staan. Ke geeft onder meer bezit, het meewerkend en het lijdend voorwerp aan; se betekent 'met / door' of 'van(uit)'.",
+        "body": "Het Sarnami kent geen naamvallen zoals het Latijn of het Sanskriet. Een woord kan verschillende functies hebben in de zin. Denk aan onderwerp, lijdend voorwerp of bezit. Het Sarnami geeft deze functie aan met achterzetsels. In het Nederlands noemen we dat voorzetsels. Soms geeft ook de woordvolgorde de functie aan. Het achterzetsel komt ná het woord te staan. Deze les laat het patroon zien met het woordje ke. De andere achterzetsels (se, meṃ, par en de samengestelde vormen) leer je in de eenheid Achterzetsels.",
         "relatedVocab": ["noun-gai", "noun-ghora"]
       },
       {
         "id": "gn-04-cases-2",
-        "title": "se en ke in de praktijk",
-        "body": "Middel met se: Phalvā chūrī se kāṭ! ('Snijd de vrucht met een mes'). Meewerkend voorwerp met ke: Gāī ke pānī dai de ('Geef de koe water'). Bezit met ke: beṭī ke ciṭṭhī ('de brief van de dochter'). Plaats met par ('op') of meṃ ('in'): ghoṛā ke pīṭhī par ('op de rug van het paard'). Meestal staat het achterzetsel achter de lange vorm van het woord.",
-        "relatedVocab": ["noun-churi", "noun-gai", "noun-beti", "noun-citthi"]
+        "title": "ke in de praktijk",
+        "body": "Ke is het meest gebruikte achterzetsel bij zelfstandige naamwoorden en geeft onder meer bezit en het meewerkend voorwerp aan. Meewerkend voorwerp: Gāī ke pānī dai de ('Geef de koe water'). Bezit: beṭī ke ciṭṭhī ('de brief van de dochter'). Meestal staat het achterzetsel achter de lange vorm van het woord.",
+        "relatedVocab": ["noun-gai", "noun-beti", "noun-citthi"]
       }
     ],
     "exercises": {
       "cases-e1": {
         "kind": "multiple-choice",
-        "prompt": "Welk achterzetsel gebruik je voor 'met / door' (het middel waarmee iets gebeurt)?",
-        "promptTranslations": { "nl": "Welk achterzetsel gebruik je voor 'met / door' (het middel waarmee iets gebeurt)?", "en": "Which postposition do you use for 'with / by' (the means by which something is done)?" },
-        "options": ["se", "ke", "meṃ", "par"],
+        "prompt": "Welk achterzetsel gebruik je om bezit aan te geven, zoals in 'de brief van de dochter'?",
+        "promptTranslations": { "nl": "Welk achterzetsel gebruik je om bezit aan te geven, zoals in 'de brief van de dochter'?", "en": "Which postposition marks possession, as in 'the daughter's letter'?" },
+        "options": ["ke", "se", "meṃ", "par"],
         "correctIndex": 0
       },
       "cases-e2": {
         "kind": "fill-blank",
-        "sentenceTemplate": "Phalvā chūrī ___ kāṭ!",
-        "correctAnswer": "se",
-        "options": ["se", "ke", "par", "meṃ"],
-        "translations": { "nl": "Snijd de vrucht met een mes!", "en": "Cut the fruit with a knife!" }
+        "sentenceTemplate": "Gāī ___ pānī dai de.",
+        "correctAnswer": "ke",
+        "options": ["ke", "se", "par", "meṃ"],
+        "translations": { "nl": "Geef de koe water te drinken.", "en": "Give the cow water to drink." }
       },
       "cases-e3": {
         "kind": "matching",
         "pairs": [
-          { "left": "ke", "right": "van / aan (bezit, meewerkend voorwerp)", "rightTranslations": { "nl": "van / aan (bezit, meewerkend voorwerp)", "en": "of / to (possession, indirect object)" } },
-          { "left": "se", "right": "met / door / vanuit", "rightTranslations": { "nl": "met / door / vanuit", "en": "with / by / from" } },
-          { "left": "meṃ", "right": "in", "rightTranslations": { "nl": "in", "en": "in" } },
-          { "left": "par", "right": "op", "rightTranslations": { "nl": "op", "en": "on" } },
-          { "left": "ke lage", "right": "bij", "rightTranslations": { "nl": "bij", "en": "at / near" } }
+          { "left": "ke (bezit)", "right": "van / aan, bijv. beṭī ke ciṭṭhī", "rightTranslations": { "nl": "van / aan, bijv. beṭī ke ciṭṭhī ('de brief van de dochter')", "en": "of / to, e.g. beṭī ke ciṭṭhī ('the daughter's letter')" } },
+          { "left": "ke (meewerkend voorwerp)", "right": "aan, bijv. gāī ke pānī dai de", "rightTranslations": { "nl": "aan, bijv. gāī ke pānī dai de ('geef de koe water')", "en": "to, e.g. gāī ke pānī dai de ('give the cow water')" } }
         ]
       },
       "cases-e4": {

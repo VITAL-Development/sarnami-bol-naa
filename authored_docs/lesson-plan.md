@@ -158,6 +158,14 @@ subsections. Extends the basics nouns.
   `vocab/nouns.json` extension and a `vocab/numerals.json`).
 - **Exercise mix:** full mix; lean on `fill-blank` (case/number endings),
   `matching` (noun ↔ gender), `word-bank` (noun phrases).
+- **Cases lesson scope (resolved via #227):** the `unit-04-nouns-cases` lesson
+  was pre-empting `unit-07-postpositions` (Intermediate/B1) by actively
+  drilling the full postposition inventory (`se`, `ke`, `meṃ`, `par`,
+  compounds). Trimmed to actively teach only `ke` (possession, indirect
+  object) — the achterzetsel most tied to basic noun relations — while
+  keeping `se`/`par` example sentences for passive exposure only. The full
+  postposition system remains owned by `unit-07-postpositions`, whose
+  `bookChapterRef` (`05-postpositions.md`) is the dedicated source for it.
 
 #### 5. `unit-05-pronouns` — Voornaamwoorden (A2, `03-pronouns.md`)
 Completes the pronoun system beyond the basics' personal pronouns: possessive,
