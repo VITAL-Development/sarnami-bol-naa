@@ -44,18 +44,6 @@
           "contentRef": "poss-e3"
         },
         {
-          "id": "poss-e4",
-          "kind": "flashcard",
-          "vocabRef": "pron-apke",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "poss-e5",
-          "kind": "flashcard",
-          "vocabRef": "pron-okar",
-          "direction": "native-to-target"
-        },
-        {
           "id": "poss-e6",
           "kind": "word-bank",
           "contentRef": "poss-e6"
@@ -97,18 +85,6 @@
           "id": "dem-e3",
           "kind": "fill-blank",
           "contentRef": "dem-e3"
-        },
-        {
-          "id": "dem-e4",
-          "kind": "flashcard",
-          "vocabRef": "pron-unhan",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "dem-e5",
-          "kind": "flashcard",
-          "vocabRef": "pron-eke",
-          "direction": "native-to-target"
         },
         {
           "id": "dem-e6",
@@ -155,18 +131,6 @@
           "id": "ir-e3",
           "kind": "fill-blank",
           "contentRef": "ir-e3"
-        },
-        {
-          "id": "ir-e4",
-          "kind": "flashcard",
-          "vocabRef": "pron-jekar",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "ir-e5",
-          "kind": "flashcard",
-          "vocabRef": "pron-kekar",
-          "direction": "native-to-target"
         }
       ],
       "xpReward": 10
@@ -191,12 +155,6 @@
           "contentRef": "rev-e2"
         },
         {
-          "id": "rev-e3",
-          "kind": "flashcard",
-          "vocabRef": "pron-kaunci",
-          "direction": "target-to-native"
-        },
-        {
           "id": "rev-e4",
           "kind": "word-bank",
           "contentRef": "rev-e4"
@@ -205,12 +163,6 @@
           "id": "rev-e5",
           "kind": "fill-blank",
           "contentRef": "rev-e5"
-        },
-        {
-          "id": "rev-e6",
-          "kind": "flashcard",
-          "vocabRef": "pron-jaun",
-          "direction": "native-to-target"
         },
         {
           "id": "rev-e7",

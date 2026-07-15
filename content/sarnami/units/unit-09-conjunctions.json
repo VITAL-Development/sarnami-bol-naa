@@ -50,12 +50,6 @@
           "id": "c1-e4",
           "kind": "multiple-choice",
           "contentRef": "c1-e4"
-        },
-        {
-          "id": "c1-e5",
-          "kind": "flashcard",
-          "vocabRef": "conj-zowel-als",
-          "direction": "target-to-native"
         }
       ],
       "xpReward": 10
@@ -108,12 +102,6 @@
           "id": "c2-e4",
           "kind": "multiple-choice",
           "contentRef": "c2-e4"
-        },
-        {
-          "id": "c2-e5",
-          "kind": "flashcard",
-          "vocabRef": "conj-zodat",
-          "direction": "target-to-native"
         }
       ],
       "xpReward": 10
@@ -146,18 +134,6 @@
           "id": "rev-e4",
           "kind": "fill-blank",
           "contentRef": "rev-e4"
-        },
-        {
-          "id": "rev-e5",
-          "kind": "flashcard",
-          "vocabRef": "struct-omdat",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "rev-e6",
-          "kind": "flashcard",
-          "vocabRef": "struct-toch",
-          "direction": "native-to-target"
         }
       ],
       "xpReward": 15

@@ -32,18 +32,6 @@
           "promptVocabRef": "greet-ram-ram"
         },
         {
-          "id": "l1-e2",
-          "kind": "flashcard",
-          "vocabRef": "greet-pranam",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "l1-e3",
-          "kind": "flashcard",
-          "vocabRef": "greet-dhanyavad",
-          "direction": "native-to-target"
-        },
-        {
           "id": "l1-e4",
           "kind": "word-bank",
           "contentRef": "l1-e4"
@@ -84,12 +72,6 @@
           "id": "l2-e2",
           "kind": "matching",
           "contentRef": "l2-e2"
-        },
-        {
-          "id": "l2-e3",
-          "kind": "flashcard",
-          "vocabRef": "pron-u",
-          "direction": "target-to-native"
         },
         {
           "id": "l2-e4",
@@ -141,18 +123,6 @@
           "id": "l3-e3",
           "kind": "word-bank",
           "contentRef": "l3-e3"
-        },
-        {
-          "id": "l3-e4",
-          "kind": "flashcard",
-          "vocabRef": "noun-bappa",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "l3-e5",
-          "kind": "flashcard",
-          "vocabRef": "noun-maiya",
-          "direction": "native-to-target"
         }
       ],
       "xpReward": 10
@@ -198,12 +168,6 @@
           "id": "l4-e4",
           "kind": "matching",
           "contentRef": "l4-e4"
-        },
-        {
-          "id": "l4-e5",
-          "kind": "flashcard",
-          "vocabRef": "gram-kaham",
-          "direction": "target-to-native"
         }
       ],
       "xpReward": 12
@@ -241,7 +205,7 @@
         ],
         "grammarRefs": [],
         "topics": ["greeting", "pronoun", "noun", "negation"],
-        "kinds": ["multiple-choice", "matching", "word-bank", "fill-blank", "flashcard"],
+        "kinds": ["multiple-choice", "matching", "word-bank", "fill-blank"],
         "count": 6,
         "distractorScope": "topic"
       },
@@ -265,18 +229,6 @@
           "id": "l5-e4",
           "kind": "fill-blank",
           "contentRef": "l5-e4"
-        },
-        {
-          "id": "l5-e5",
-          "kind": "flashcard",
-          "vocabRef": "noun-maiya",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "l5-e6",
-          "kind": "flashcard",
-          "vocabRef": "pron-hamlog",
-          "direction": "native-to-target"
         }
       ],
       "xpReward": 15
