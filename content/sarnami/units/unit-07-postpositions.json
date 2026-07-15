@@ -54,18 +54,6 @@
           "id": "com-e4",
           "kind": "word-bank",
           "contentRef": "com-e4"
-        },
-        {
-          "id": "com-e5",
-          "kind": "flashcard",
-          "vocabRef": "post-mem",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "com-e6",
-          "kind": "flashcard",
-          "vocabRef": "post-ke-nicce",
-          "direction": "native-to-target"
         }
       ],
       "xpReward": 10
@@ -119,12 +107,6 @@
           "id": "att-e5",
           "kind": "word-bank",
           "contentRef": "att-e5"
-        },
-        {
-          "id": "att-e6",
-          "kind": "flashcard",
-          "vocabRef": "post-ke-lage",
-          "direction": "target-to-native"
         }
       ],
       "xpReward": 10
@@ -149,12 +131,6 @@
           "contentRef": "rev-e2"
         },
         {
-          "id": "rev-e3",
-          "kind": "flashcard",
-          "vocabRef": "post-par",
-          "direction": "native-to-target"
-        },
-        {
           "id": "rev-e4",
           "kind": "word-bank",
           "contentRef": "rev-e4"
@@ -163,12 +139,6 @@
           "id": "rev-e5",
           "kind": "fill-blank",
           "contentRef": "rev-e5"
-        },
-        {
-          "id": "rev-e6",
-          "kind": "flashcard",
-          "vocabRef": "post-ke-piche",
-          "direction": "target-to-native"
         },
         {
           "id": "rev-e7",

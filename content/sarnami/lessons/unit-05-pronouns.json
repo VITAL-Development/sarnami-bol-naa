@@ -53,16 +53,6 @@
         "options": ["Hamār", "Tor", "Ekar", "Okar"],
         "translations": { "nl": "Mijn huis is niet ver van hier.", "en": "My house is not far from here." }
       },
-      "poss-e4": {
-        "kind": "flashcard",
-        "vocabRef": "pron-apke",
-        "direction": "target-to-native"
-      },
-      "poss-e5": {
-        "kind": "flashcard",
-        "vocabRef": "pron-okar",
-        "direction": "native-to-target"
-      },
       "poss-e6": {
         "kind": "word-bank",
         "promptTranslations": { "nl": "Hij/zij woonde in jouw huis.", "en": "He/she lived in your house." },
@@ -119,16 +109,6 @@
         "options": ["Ī", "Ū", "Eke", "Oke"],
         "translations": { "nl": "Dit huis is niet ver.", "en": "This house is not far." }
       },
-      "dem-e4": {
-        "kind": "flashcard",
-        "vocabRef": "pron-unhan",
-        "direction": "target-to-native"
-      },
-      "dem-e5": {
-        "kind": "flashcard",
-        "vocabRef": "pron-eke",
-        "direction": "native-to-target"
-      },
       "dem-e6": {
         "kind": "word-bank",
         "promptTranslations": { "nl": "Dit huis is van mij.", "en": "This house is mine." },
@@ -184,16 +164,6 @@
         "correctAnswer": "Ke",
         "options": ["Ke", "Kā", "Jaun", "Jekar"],
         "translations": { "nl": "Wie is er gekomen?", "en": "Who has come?" }
-      },
-      "ir-e4": {
-        "kind": "flashcard",
-        "vocabRef": "pron-jekar",
-        "direction": "target-to-native"
-      },
-      "ir-e5": {
-        "kind": "flashcard",
-        "vocabRef": "pron-kekar",
-        "direction": "native-to-target"
       }
     }
   },
@@ -219,11 +189,6 @@
           { "left": "okar", "right": "zijn/haar (veraf)", "rightTranslations": { "nl": "zijn/haar (veraf)", "en": "his/her (far)" } }
         ]
       },
-      "rev-e3": {
-        "kind": "flashcard",
-        "vocabRef": "pron-kaunci",
-        "direction": "target-to-native"
-      },
       "rev-e4": {
         "kind": "word-bank",
         "promptTranslations": { "nl": "Mijn huis is niet ver van hier.", "en": "My house is not far from here." },
@@ -236,11 +201,6 @@
         "correctAnswer": "tor",
         "options": ["tor", "ke", "kā", "jaun"],
         "translations": { "nl": "Hij/zij woonde in jouw huis.", "en": "He/she lived in your house." }
-      },
-      "rev-e6": {
-        "kind": "flashcard",
-        "vocabRef": "pron-jaun",
-        "direction": "native-to-target"
       },
       "rev-e7": {
         "kind": "multiple-choice",

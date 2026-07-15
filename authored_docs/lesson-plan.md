@@ -35,8 +35,8 @@ unit JSON's `bookChapterRef`, as `unit-02-adjectives` already does.
   an `xpReward`. The prompt/sentence/note text itself lives in the parallel
   `content/sarnami/lessons/*.json`, keyed by `contentRef`; vocab lives in
   `content/sarnami/vocab/*.json`, keyed by `vocabRef`.
-- **Exercise kinds** the engine supports: `multiple-choice`, `flashcard`,
-  `word-bank`, `fill-blank`, `matching`.
+- **Exercise kinds** the engine supports: `multiple-choice`, `word-bank`,
+  `fill-blank`, `matching`.
 
 Native/explanation language is **Dutch (`nl`)** throughout, matching the
 existing units and the byakaran source.
@@ -134,10 +134,9 @@ Background/cultural, reading-led. What Sarnami is, the name's origin, the
 British-Indian immigration history, and an at-a-glance look at the
 writing/romanization system.
 - ~2–3 short reading lessons + a light review. Little to no productive drilling.
-- Vocab: a small set of key terms/proper nouns (flashcard-worthy), not a
-  general vocab set.
-- **Exercise mix:** heavy `multiple-choice` comprehension + a few `flashcard`
-  for key terms. No `word-bank`/`fill-blank` (nothing to construct yet).
+- Vocab: a small set of key terms/proper nouns, not a general vocab set.
+- **Exercise mix:** heavy `multiple-choice` comprehension for key terms. No
+  `word-bank`/`fill-blank` (nothing to construct yet).
 
 #### 2. `unit-03-sounds` — Klanken & uitspraak (A1, `01-sounds.md`)
 The foundation unit: vowels (*klinkers*), consonants (*medeklinkers*), and the
@@ -147,8 +146,8 @@ spellings.
   (ṭ/ḍ/ṇ, ñ/ṅ) → review.
 - Vocab: minimal-pair example words rather than a themed vocab set.
 - **Exercise mix:** `matching` (symbol ↔ sound/description), `multiple-choice`
-  (which spelling / which sound), `flashcard` (diacritic recognition). Avoid
-  `word-bank`; use `fill-blank` only for "pick the correctly-spelled form".
+  (which spelling / which sound / diacritic recognition). Avoid `word-bank`;
+  use `fill-blank` only for "pick the correctly-spelled form".
 
 #### 4. `unit-04-nouns` — Zelfstandige naamwoorden (A2, `02-the-noun.md`)
 Gender (*geslacht*), number, case behaviour, plus the chapter's numeral
@@ -227,8 +226,8 @@ Common adverbs of time, place, manner and degree, including the loanword
 adverbs the chapter discusses, with example sentences.
 - ~3–4 lessons grouped by category → review.
 - Vocab ~15–20 adverbs.
-- **Exercise mix:** `flashcard` + `matching` (adverb ↔ category/meaning),
-  `fill-blank` and `word-bank` (place the adverb correctly in a sentence).
+- **Exercise mix:** `matching` (adverb ↔ category/meaning), `fill-blank` and
+  `word-bank` (place the adverb correctly in a sentence).
 
 #### 8. `unit-07-postpositions` — Achterzetsels (B1, `05-postpositions.md`)
 Sarnami uses postpositions, not prepositions: the common ones and how they
@@ -250,8 +249,8 @@ Advanced tier's reading unit. Several forms already live in
 Short, high-frequency, conversational: common exclamations and discourse
 particles. Some (`hāṁ`, `nā`) already exist in `vocab/greetings.json` — reuse.
 - ~2 lessons → review.
-- **Exercise mix:** `flashcard` + `matching` (interjection ↔ situation/meaning),
-  light `multiple-choice`.
+- **Exercise mix:** `matching` (interjection ↔ situation/meaning), light
+  `multiple-choice`.
 
 #### 11. `unit-08-verbs` — Werkwoorden (B2, `08-the-verb.md`)
 The largest chapter and the sentence-building spine. Conjugation across tenses
@@ -263,15 +262,15 @@ and moods including the subjunctive (*aanvoegende wijs*). Split by difficulty.
   `grammarNotes`.
 - **Exercise mix:** `fill-blank` (conjugated form) and `word-bank` (build the
   clause) dominate; `matching` (person ↔ ending), `multiple-choice` (which
-  tense/mood), `flashcard` for stems.
+  tense/mood).
 
 #### 12. `unit-11-loanwords` — Leenwoorden & nieuwvormingen (B2, `09-loan-words-and-neologisms.md`)
 Dutch/Sranantongo/other loanwords and coined modern terms. A vocab-expansion
 unit; cross-check spellings per the verification discipline.
 - ~3 lessons grouped by source language → review.
 - Vocab ~20 loanwords, each tagged with `book-pNN` / source.
-- **Exercise mix:** `flashcard` + `matching` (loanword ↔ origin/meaning),
-  `multiple-choice`. Little productive grammar.
+- **Exercise mix:** `matching` (loanword ↔ origin/meaning), `multiple-choice`.
+  Little productive grammar.
 
 ---
 
@@ -328,15 +327,14 @@ from the *BIJLAGEN*. Graded comprehension that reuses earlier vocab and grammar.
 
 | Kind | Best for |
 |------|----------|
-| `flashcard` | Raw vocab memorisation, both directions (`target-to-native`, `native-to-target`). |
 | `matching` | Sets of pairs: form↔meaning, symbol↔sound, noun↔gender, adverb↔category. |
 | `multiple-choice` | Meaning recognition, "which rule/tense/spelling", reading comprehension. |
 | `fill-blank` | One targeted slot: case ending, verb conjugation, correct pronoun/postposition. |
 | `word-bank` | Word order & construction: noun phrases, postposition attachment, whole clauses. |
 
-Progression within a unit: recognition first (`flashcard`/`multiple-choice`),
-then production (`fill-blank` → `word-bank`), with `matching` for consolidation.
-Review lessons mix all five and carry the highest `xpReward`.
+Progression within a unit: recognition first (`multiple-choice`), then
+production (`fill-blank` → `word-bank`), with `matching` for consolidation.
+Review lessons mix all four and carry the highest `xpReward`.
 
 ## Out of scope / deferred for a first release
 

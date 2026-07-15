@@ -30,8 +30,7 @@
         { "id": "pres-e1", "kind": "multiple-choice", "contentRef": "pres-e1", "promptVocabRef": "verb-parhe" },
         { "id": "pres-e2", "kind": "matching", "contentRef": "pres-e2" },
         { "id": "pres-e3", "kind": "fill-blank", "contentRef": "pres-e3" },
-        { "id": "pres-e4", "kind": "word-bank", "contentRef": "pres-e4" },
-        { "id": "pres-e5", "kind": "flashcard", "vocabRef": "verb-parhe", "direction": "target-to-native" }
+        { "id": "pres-e4", "kind": "word-bank", "contentRef": "pres-e4" }
       ],
       "xpReward": 10
     },
@@ -56,8 +55,7 @@
         { "id": "past-e1", "kind": "multiple-choice", "contentRef": "past-e1" },
         { "id": "past-e2", "kind": "matching", "contentRef": "past-e2" },
         { "id": "past-e3", "kind": "fill-blank", "contentRef": "past-e3" },
-        { "id": "past-e4", "kind": "word-bank", "contentRef": "past-e4" },
-        { "id": "past-e5", "kind": "flashcard", "vocabRef": "verb-jai", "direction": "target-to-native" }
+        { "id": "past-e4", "kind": "word-bank", "contentRef": "past-e4" }
       ],
       "xpReward": 10
     },
@@ -82,8 +80,7 @@
         { "id": "fut-e1", "kind": "multiple-choice", "contentRef": "fut-e1" },
         { "id": "fut-e2", "kind": "matching", "contentRef": "fut-e2" },
         { "id": "fut-e3", "kind": "fill-blank", "contentRef": "fut-e3" },
-        { "id": "fut-e4", "kind": "word-bank", "contentRef": "fut-e4" },
-        { "id": "fut-e5", "kind": "flashcard", "vocabRef": "verb-deve", "direction": "native-to-target" }
+        { "id": "fut-e4", "kind": "word-bank", "contentRef": "fut-e4" }
       ],
       "xpReward": 10
     },
@@ -108,8 +105,7 @@
         { "id": "imp-e1", "kind": "multiple-choice", "contentRef": "imp-e1", "promptVocabRef": "verb-dekhe" },
         { "id": "imp-e2", "kind": "matching", "contentRef": "imp-e2" },
         { "id": "imp-e3", "kind": "fill-blank", "contentRef": "imp-e3" },
-        { "id": "imp-e4", "kind": "word-bank", "contentRef": "imp-e4" },
-        { "id": "imp-e5", "kind": "flashcard", "vocabRef": "verb-cale", "direction": "target-to-native" }
+        { "id": "imp-e4", "kind": "word-bank", "contentRef": "imp-e4" }
       ],
       "xpReward": 10
     },
@@ -134,8 +130,7 @@
         { "id": "subj-e1", "kind": "multiple-choice", "contentRef": "subj-e1" },
         { "id": "subj-e2", "kind": "matching", "contentRef": "subj-e2" },
         { "id": "subj-e3", "kind": "fill-blank", "contentRef": "subj-e3" },
-        { "id": "subj-e4", "kind": "word-bank", "contentRef": "subj-e4" },
-        { "id": "subj-e5", "kind": "flashcard", "vocabRef": "verb-nace", "direction": "native-to-target" }
+        { "id": "subj-e4", "kind": "word-bank", "contentRef": "subj-e4" }
       ],
       "xpReward": 10
     },
@@ -152,9 +147,7 @@
         { "id": "rev-e2", "kind": "matching", "contentRef": "rev-e2" },
         { "id": "rev-e3", "kind": "fill-blank", "contentRef": "rev-e3" },
         { "id": "rev-e4", "kind": "word-bank", "contentRef": "rev-e4" },
-        { "id": "rev-e5", "kind": "multiple-choice", "contentRef": "rev-e5" },
-        { "id": "rev-e6", "kind": "flashcard", "vocabRef": "verb-khai", "direction": "target-to-native" },
-        { "id": "rev-e7", "kind": "flashcard", "vocabRef": "verb-mare-hit", "direction": "native-to-target" }
+        { "id": "rev-e5", "kind": "multiple-choice", "contentRef": "rev-e5" }
       ],
       "xpReward": 15
     }

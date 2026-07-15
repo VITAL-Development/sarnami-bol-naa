@@ -40,18 +40,6 @@
           "id": "vow-e3",
           "kind": "matching",
           "contentRef": "vow-e3"
-        },
-        {
-          "id": "vow-e4",
-          "kind": "flashcard",
-          "vocabRef": "sound-am",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "vow-e5",
-          "kind": "flashcard",
-          "vocabRef": "sound-aina",
-          "direction": "target-to-native"
         }
       ],
       "xpReward": 10
@@ -90,18 +78,6 @@
           "id": "con-e3",
           "kind": "matching",
           "contentRef": "con-e3"
-        },
-        {
-          "id": "con-e4",
-          "kind": "flashcard",
-          "vocabRef": "sound-khet",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "con-e5",
-          "kind": "flashcard",
-          "vocabRef": "sound-churi",
-          "direction": "target-to-native"
         }
       ],
       "xpReward": 10
@@ -148,18 +124,6 @@
           "id": "dia-e4",
           "kind": "multiple-choice",
           "contentRef": "dia-e4"
-        },
-        {
-          "id": "dia-e5",
-          "kind": "flashcard",
-          "vocabRef": "sound-roti",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "dia-e6",
-          "kind": "flashcard",
-          "vocabRef": "sound-jhanda",
-          "direction": "target-to-native"
         }
       ],
       "xpReward": 10
@@ -184,12 +148,6 @@
           "contentRef": "rev-e2"
         },
         {
-          "id": "rev-e3",
-          "kind": "flashcard",
-          "vocabRef": "sound-larka",
-          "direction": "target-to-native"
-        },
-        {
           "id": "rev-e4",
           "kind": "word-bank",
           "contentRef": "rev-e4"
@@ -198,12 +156,6 @@
           "id": "rev-e5",
           "kind": "fill-blank",
           "contentRef": "rev-e5"
-        },
-        {
-          "id": "rev-e6",
-          "kind": "flashcard",
-          "vocabRef": "sound-kainci",
-          "direction": "native-to-target"
         }
       ],
       "xpReward": 15

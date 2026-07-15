@@ -19,6 +19,15 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Removed
+
+- Removed all `flashcard` exercises (96 across `content/sarnami/units/*.json`
+  and `content/sarnami/lessons/*.json`) and the `flashcard` entry from the
+  two `generatedSpec.kinds` lists that carried it — `flashcard` is no longer
+  a supported exercise `kind` (BREAKING, see `docs/versioning.md`), matching
+  the removal from the platform contract (vital-development/rarelang-server#75).
+  Every affected lesson still has at least 3 exercises. (#237)
+
 ## [0.4.2] - 2026-07-14
 
 ### Changed
