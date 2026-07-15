@@ -208,7 +208,7 @@ jobs:
             PR's comment history shows one advisory result per commit.
             Post it by running `gh pr comment ${{ github.event.pull_request.number }} --body "..."`
             — that's the only Bash command you're allowed to run.
-          claude_args: "--max-turns 6 --allowed-tools \"Read\" \"Bash(gh pr comment:*)\""
+          claude_args: "--max-turns 15 --allowed-tools \"Read\" \"Bash(gh pr comment:*)\""
 
       # Fallback for when the step above ran (condition was true) but never
       # got as far as posting a comment — e.g. GitHub's OIDC token exchange
