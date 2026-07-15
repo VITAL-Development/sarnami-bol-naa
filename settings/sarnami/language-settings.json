@@ -29,7 +29,8 @@
   "audio": {
     "baseUrl": "/audio/sarnami/",
     "format": "mp3",
-    "voice": "single-speaker-tts"
+    "voice": "single-speaker-tts",
+    "ttsModel": "facebook/mms-tts-hns"
   },
   "branding": {
     "appName": "Sarnami Bol Naa",

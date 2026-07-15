@@ -36,6 +36,11 @@ dated `## [X.Y.Z]` heading.
   `vocab/nouns.json`; `post-se-locative` (se, locative sense, distinct from
   `post-se`/`gram-se`) in `vocab/postpositions.json`; `adv-ghare` (ghare)
   in `vocab/adverbs.json`.
+- `settings/sarnami/language-settings.json`: `audio.ttsModel` field
+  (`"facebook/mms-tts-hns"`), declaring the MMS-TTS model id this repo's own
+  `scripts/generate-audio.mjs` uses when calling rarelang-server's
+  `POST /audio/generate` (rarelang-server#79/#80). Additive, no shape change
+  to existing fields.
 
 ## [0.5.0] - 2026-07-15
 

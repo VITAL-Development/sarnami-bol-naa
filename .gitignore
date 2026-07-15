@@ -2,3 +2,5 @@ node_modules
 *.local
 .DS_Store
 .claude/
+# scripts/generate-audio.mjs output (issue #79) — generated locally, not committed
+generated-audio/
