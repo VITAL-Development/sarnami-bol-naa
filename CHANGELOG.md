@@ -31,6 +31,18 @@ dated `## [X.Y.Z]` heading.
   `vocab`, not from lesson `exercises`. Every affected lesson still has at
   least 3 exercises. (#237)
 
+### Fixed
+
+- Simplified the 9 grammar-note bodies in
+  `content/sarnami/lessons/unit-05-pronouns.json` (`gn-poss-1`–`gn-poss-3`,
+  `gn-dem-1`–`gn-dem-3`, `gn-int-1`, `gn-int-2`, `gn-rel-1`) to meet the A2
+  source-language readability ceiling in
+  `docs/contracts/source-language-authoring-contract.md` §2/§2a — split
+  dense multi-clause sentences and defined/removed jargon ("verbogen
+  vorm", "meewerkend/lijdend voorwerp", "bijvoegelijk gebruikt",
+  "deftigheid", "afstandelijkheid"). Flagged by an advisory contract
+  review on #239. See #241.
+
 ## [0.4.2] - 2026-07-14
 
 ### Changed

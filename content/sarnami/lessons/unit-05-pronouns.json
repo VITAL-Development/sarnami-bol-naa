@@ -6,19 +6,19 @@
       {
         "id": "gn-poss-1",
         "title": "Bezittelijke voornaamwoorden",
-        "body": "De bezittelijke voornaamwoorden staan in nauw verband met de persoonlijke voornaamwoorden: ze zijn terug te brengen op een combinatie van het persoonlijk voornaamwoord met kar of ke ('van'). Bij ham (ik) hoort hamār (mijn), bij tū (jij) hoort tor (jouw), en bij de 3e persoon ekar (zijn/haar, dichtbij de spreker) en okar (zijn/haar, van de spreker verwijderd). Voorbeeld: 'Hamār ghar hiṁyā se dūr nā hai' — Mijn huis is niet ver van hier.",
+        "body": "Bezittelijke voornaamwoorden zeggen van wie iets is. Ze lijken op de persoonlijke voornaamwoorden. Er zit vaak kar of ke in. Kar of ke betekent 'van'. Bij ham (ik) hoort hamār (mijn). Bij tū (jij) hoort tor (jouw). Bij de 3e persoon zijn er twee vormen: ekar en okar. Beide betekenen 'zijn' of 'haar'. Gebruik ekar als de persoon of het ding dichtbij de spreker is. Gebruik okar als de persoon of het ding ver van de spreker is. Voorbeeld: 'Hamār ghar hiṁyā se dūr nā hai' — Mijn huis is niet ver van hier.",
         "relatedVocab": ["pron-hamar", "pron-tor", "pron-ekar", "pron-okar"]
       },
       {
         "id": "gn-poss-2",
         "title": "Beleefde vormen: tŏṁhār en āpke",
-        "body": "Om beleefdheid uit te drukken bij de 2e persoon gebruikt het Sarnami de bezittelijke vormen tŏṁhār en āpke (uw). Let bij tŏṁhār op de breve boven de o (ŏ) en de nasale ṁ. Vergelijk: tor ghar (jouw huis, vertrouwelijk) tegenover tŏṁhār/āpke ghar (uw huis, beleefd).",
+        "body": "Het Sarnami heeft ook beleefde vormen. Je gebruikt deze voor mensen die je niet goed kent, of voor oudere mensen. Bij de 2e persoon (jij/u) zijn er twee beleefde vormen: tŏṁhār en āpke. Beide betekenen 'uw'. Let op de tekens bij tŏṁhār: het rondje boven de o (ŏ) en de n-klank (ṁ). Vergelijk: tor ghar betekent 'jouw huis' en klinkt vertrouwelijk. Tŏṁhār ghar of āpke ghar betekent 'uw huis' en klinkt beleefd.",
         "relatedVocab": ["pron-tomhar", "pron-apke"]
       },
       {
         "id": "gn-poss-3",
         "title": "Uitbreiding met -e vóór een achterzetsel",
-        "body": "Wordt het door een bezittelijk voornaamwoord bepaalde zelfstandig naamwoord gevolgd door een achterzetsel (meṁ, se, ke, par ...), dan kunnen alle bezittelijke voornaamwoorden zonder betekenisverschil worden uitgebreid met -e: hamār wordt dan hamāre/hamare, tor wordt tore, ekar wordt ĕkare en okar wordt ŏkare. Voorbeeld: 'Ū hamāre ghar meṁ rahat rahā' — Hij/zij woonde in mijn huis.",
+        "body": "Soms staat er een klein woordje ná het zelfstandig naamwoord, zoals meṁ (in), se (van/uit), ke (van) of par (op). Dit woordje heet een achterzetsel: het staat achter het woord in plaats van ervoor. Als er zo'n achterzetsel volgt, dan krijgen de bezittelijke voornaamwoorden er een extra -e bij. De betekenis blijft hetzelfde. Hamār wordt dan hamāre (of hamare). Tor wordt tore. Ekar wordt ĕkare. Okar wordt ŏkare. Voorbeeld: 'Ū hamāre ghar meṁ rahat rahā' — Hij/zij woonde in mijn huis.",
         "relatedVocab": ["pron-hamar", "pron-tor"]
       }
     ],
@@ -68,19 +68,19 @@
       {
         "id": "gn-dem-1",
         "title": "Aanwijzend: ī (dit) en ū (dat)",
-        "body": "Voor de 3e persoon gebruikt het Sarnami de aanwijzende voornaamwoorden ī (dit, deze) en ū (dat, die). Het verschil geeft afstand tot de spreker aan: ī staat voor iets dichtbij de spreker, ū voor iets dat van de spreker verwijderd is. Dezelfde woorden betekenen ook 'hij/zij/het'. In het enkelvoud kunnen ī en ū versterkt worden met vāl(-ā): ī vālā — deze!",
+        "body": "Aanwijzende voornaamwoorden wijzen iets aan, zoals 'dit' of 'dat'. Het Sarnami heeft er twee: ī en ū. Gebruik ī voor iets dichtbij: 'dit' of 'deze'. Gebruik ū voor iets verder weg: 'dat' of 'die'. Dezelfde woorden betekenen ook 'hij', 'zij' of 'het'. Je kunt ī en ū sterker maken met vāl of vālā erachter. Voorbeeld: ī vālā betekent 'deze hier!'",
         "relatedVocab": ["pron-i", "pron-u"]
       },
       {
         "id": "gn-dem-2",
         "title": "Verbogen vormen: eke en oke",
-        "body": "Als meewerkend of lijdend voorwerp krijgen de aanwijzende voornaamwoorden een verbogen vorm: eke (hem/haar, dichtbij) bij ī, en oke (hem/haar, veraf) bij ū. Voorbeeld: 'Oke tū etnā bisvās na karal kariye' — Je moet hem/haar niet zoveel vertrouwen.",
+        "body": "Het onderwerp van een zin is het deel dat de handeling doet. ī en ū veranderen van vorm als ze niet het onderwerp zijn. Dat gebeurt bijvoorbeeld als iemand iets aan hen geeft, of als de handeling hen raakt. We noemen dit een voorwerp in de zin. Bij ī wordt dat eke (hem/haar, dichtbij). Bij ū wordt dat oke (hem/haar, veraf). Voorbeeld: 'Oke tū etnā bisvās na karal kariye' — Je moet hem/haar niet zoveel vertrouwen.",
         "relatedVocab": ["pron-eke", "pron-oke"]
       },
       {
         "id": "gn-dem-3",
         "title": "Beleefdheid en meervoud: inhan en unhan",
-        "body": "In de beleefdheidsvorm en het meervoud gebruikt men inhan (zij, dichtbij) en unhan (zij, veraf). In het gewone meervoud kan aan ī en ū ook sab(han), log(an) of loṅ worden toegevoegd (bv. ī sab — zij).",
+        "body": "Voor het meervoud en voor beleefdheid gebruikt het Sarnami inhan (zij, dichtbij) en unhan (zij, veraf). Er is nog een andere manier om het meervoud te maken: je zet sab(han), log(an) of loṅ achter ī of ū. Voorbeeld: ī sab betekent 'zij'.",
         "relatedVocab": ["pron-inhan", "pron-unhan"]
       }
     ],
@@ -124,19 +124,19 @@
       {
         "id": "gn-int-1",
         "title": "Vragend: ke, kaun en kā",
-        "body": "Vragende voornaamwoorden vragen naar personen en zaken. Naar personen: ke (wie) wordt zelfstandig gebruikt bij een vertrouwde band met de spreker, terwijl kaun (wie, welke) zowel zelfstandig als bijvoegelijk gebruikt wordt en afstandelijkheid — ook deftigheid — uitdrukt. Naar zaken vraagt men met kā (wat), zelfstandig en neutraal gebruikt. Voorbeeld: 'Ke āil hai?' — Wie is er gekomen? / 'Kā lāis hai?' — Wat heeft hij meegebracht?",
+        "body": "Vragende voornaamwoorden gebruik je om iets te vragen. Je vraagt naar personen met ke (wie) of kaun (wie, welke). Gebruik ke als je de persoon goed kent. Gebruik kaun als de persoon minder bekend is, of als je beleefd wilt klinken. Kaun kan ook vóór een zelfstandig naamwoord staan, zoals in 'welk boek'. Je vraagt naar dingen met kā (wat). Voorbeeld: 'Ke āil hai?' — Wie is er gekomen? Voorbeeld: 'Kā lāis hai?' — Wat heeft hij meegebracht?",
         "relatedVocab": ["pron-ke", "pron-kaun", "pron-ka"]
       },
       {
         "id": "gn-int-2",
         "title": "kaunci en kekar",
-        "body": "Naast kā bestaat kaunci (wat), een samenkoppeling van kaun + cīj ('wat voor een ding?'). Bijvoegelijk gebruikt vraagt kekar naar bezit: 'Tū kekar jūtā pahinle bāṭe?' — Wiens schoenen heb je aan? Het meervoud ontstaat door verdubbeling: ke-ke, kaune-kaune, kekar-kekar.",
+        "body": "Er is nog een woord voor 'wat': kaunci. Dit woord komt van kaun (wie, welke) en cīj (ding). Samen betekenen ze 'wat voor een ding?'. Om te vragen van wie iets is, gebruik je kekar. Kekar staat vóór een zelfstandig naamwoord. Voorbeeld: 'Tū kekar jūtā pahinle bāṭe?' — Wiens schoenen heb je aan? Voor het meervoud herhaal je het woord. Bijvoorbeeld: ke-ke, kaune-kaune, kekar-kekar.",
         "relatedVocab": ["pron-kaunci", "pron-kekar"]
       },
       {
         "id": "gn-rel-1",
         "title": "Betrekkelijk: jaun, je en jekar",
-        "body": "Betrekkelijke voornaamwoorden verwijzen terug naar iets dat genoemd is. jaun (die, welke) wordt gebruikt voor personen én niet-personen; je (die, wie) wordt als onderwerp of lijdend voorwerp uitsluitend voor personen gebruikt, met de bezittelijke vorm jekar (van wie, wiens). Voorbeeld: 'Ū adamiyā jaun humvā cale hai hamār māmā hai' — De man die daar loopt, is mijn oom.",
+        "body": "Betrekkelijke voornaamwoorden verbinden twee delen van een zin. Ze verwijzen terug naar iets dat je net genoemd hebt, zoals 'die' of 'welke' in het Nederlands. Jaun (die, welke) gebruik je voor mensen én voor dingen. Je (die, wie) gebruik je alleen voor mensen. De bezittelijke vorm van je is jekar (van wie, wiens). Voorbeeld: 'Ū adamiyā jaun humvā cale hai hamār māmā hai' — De man die daar loopt, is mijn oom.",
         "relatedVocab": ["pron-jaun", "pron-je", "pron-jekar"]
       }
     ],
