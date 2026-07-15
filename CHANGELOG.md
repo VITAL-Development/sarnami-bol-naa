@@ -19,6 +19,25 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-07-15
+
+### Changed
+
+- `content/sarnami/grammar/grammar.json`: reworked prose bullet lists / run-on
+  paradigm sentences across 13 topics (nouns, numerals, about-sarnami,
+  sounds, basics, adjectives, adverbs, postpositions, verbs, conjunctions,
+  interjections, loanwords, word-formation) into markdown tables, matching
+  the style already established for nouns/pronouns. Same-shape body value
+  edits only — no ids, fields, or refs changed. (#233)
+- `content/sarnami/units/{unit-08-verbs,unit-09-conjunctions,unit-10-interjections}.json`:
+  renumbered `order` so CEFR progression is strictly non-decreasing
+  (conjunctions 10→9, interjections 11→10, verbs 9→11) — `unit-08-verbs`
+  (B2) previously sat ahead of the B1 units. `order` is only a sort key;
+  ids and `lessonId`/prerequisite refs are unaffected, so this is
+  non-breaking. Also defined "nevenschikkende"/"onderschikkende"/"bijzin"
+  (unit-09) and "de aanvoegende wijs" (unit-08) inline in unit
+  descriptions per the A2 source-language ceiling. (#213)
+
 ### Removed
 
 - Removed all `flashcard` exercises (96 across `content/sarnami/units/*.json`
@@ -42,6 +61,10 @@ dated `## [X.Y.Z]` heading.
   vorm", "meewerkend/lijdend voorwerp", "bijvoegelijk gebruikt",
   "deftigheid", "afstandelijkheid"). Flagged by an advisory contract
   review on #239. See #241.
+- `content/sarnami/lessons/unit-05-pronouns.json`: simplified two exercise
+  prompts (`ir-e2`, `rev-e7`) flagged by advisory contract review as above
+  the A2 register ceiling ("zelfstandig en neutraal"/"zaak",
+  "uitsluitend"). (#245)
 
 ## [0.4.2] - 2026-07-14
 
