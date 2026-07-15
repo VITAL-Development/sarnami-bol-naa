@@ -45,18 +45,6 @@
           "id": "gender-e3",
           "kind": "fill-blank",
           "contentRef": "gender-e3"
-        },
-        {
-          "id": "gender-e4",
-          "kind": "flashcard",
-          "vocabRef": "noun-launda",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "gender-e5",
-          "kind": "flashcard",
-          "vocabRef": "noun-nani",
-          "direction": "native-to-target"
         }
       ],
       "xpReward": 10
@@ -104,12 +92,6 @@
           "id": "number-e4",
           "kind": "word-bank",
           "contentRef": "number-e4"
-        },
-        {
-          "id": "number-e5",
-          "kind": "flashcard",
-          "vocabRef": "noun-kutta",
-          "direction": "target-to-native"
         }
       ],
       "xpReward": 10
@@ -156,12 +138,6 @@
           "id": "cases-e4",
           "kind": "word-bank",
           "contentRef": "cases-e4"
-        },
-        {
-          "id": "cases-e5",
-          "kind": "flashcard",
-          "vocabRef": "noun-beti",
-          "direction": "target-to-native"
         }
       ],
       "xpReward": 10
@@ -215,12 +191,6 @@
           "id": "num-e4",
           "kind": "word-bank",
           "contentRef": "num-e4"
-        },
-        {
-          "id": "num-e5",
-          "kind": "flashcard",
-          "vocabRef": "num-sat",
-          "direction": "native-to-target"
         }
       ],
       "xpReward": 10
@@ -245,12 +215,6 @@
           "contentRef": "rev-e2"
         },
         {
-          "id": "rev-e3",
-          "kind": "flashcard",
-          "vocabRef": "noun-ghora",
-          "direction": "target-to-native"
-        },
-        {
           "id": "rev-e4",
           "kind": "word-bank",
           "contentRef": "rev-e4"
@@ -259,12 +223,6 @@
           "id": "rev-e5",
           "kind": "fill-blank",
           "contentRef": "rev-e5"
-        },
-        {
-          "id": "rev-e6",
-          "kind": "flashcard",
-          "vocabRef": "noun-chaumri",
-          "direction": "native-to-target"
         },
         {
           "id": "rev-e7",

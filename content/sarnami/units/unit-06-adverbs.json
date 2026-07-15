@@ -66,24 +66,6 @@
           "id": "tp-e9",
           "kind": "word-bank",
           "contentRef": "tp-e9"
-        },
-        {
-          "id": "tp-e6",
-          "kind": "flashcard",
-          "vocabRef": "adv-aaj",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "tp-e7",
-          "kind": "flashcard",
-          "vocabRef": "adv-nagicce",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "tp-e8",
-          "kind": "flashcard",
-          "vocabRef": "adv-baahar",
-          "direction": "native-to-target"
         }
       ],
       "xpReward": 10
@@ -145,24 +127,6 @@
           "id": "md-e9",
           "kind": "word-bank",
           "contentRef": "md-e9"
-        },
-        {
-          "id": "md-e6",
-          "kind": "flashcard",
-          "vocabRef": "adv-dhire",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "md-e7",
-          "kind": "flashcard",
-          "vocabRef": "adv-bahut",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "md-e8",
-          "kind": "flashcard",
-          "vocabRef": "adv-habara",
-          "direction": "native-to-target"
         }
       ],
       "xpReward": 10
@@ -203,18 +167,6 @@
           "id": "rev-e5",
           "kind": "multiple-choice",
           "contentRef": "rev-e5"
-        },
-        {
-          "id": "rev-e6",
-          "kind": "flashcard",
-          "vocabRef": "adv-sait",
-          "direction": "native-to-target"
-        },
-        {
-          "id": "rev-e7",
-          "kind": "flashcard",
-          "vocabRef": "adv-kanti",
-          "direction": "target-to-native"
         }
       ],
       "xpReward": 15

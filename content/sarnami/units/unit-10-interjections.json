@@ -54,18 +54,6 @@
           "contentRef": "int-e2"
         },
         {
-          "id": "int-e3",
-          "kind": "flashcard",
-          "vocabRef": "int-bacao",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "int-e4",
-          "kind": "flashcard",
-          "vocabRef": "int-vah-vah",
-          "direction": "target-to-native"
-        },
-        {
           "id": "int-e5",
           "kind": "multiple-choice",
           "contentRef": "int-e5"
@@ -74,12 +62,6 @@
           "id": "int-e6",
           "kind": "matching",
           "contentRef": "int-e6"
-        },
-        {
-          "id": "int-e7",
-          "kind": "flashcard",
-          "vocabRef": "int-to",
-          "direction": "target-to-native"
         }
       ],
       "xpReward": 10
@@ -96,12 +78,6 @@
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [
-        {
-          "id": "rev-e1",
-          "kind": "flashcard",
-          "vocabRef": "greet-ja",
-          "direction": "native-to-target"
-        },
         {
           "id": "rev-e2",
           "kind": "matching",
@@ -121,12 +97,6 @@
           "id": "rev-e5",
           "kind": "word-bank",
           "contentRef": "rev-e5"
-        },
-        {
-          "id": "rev-e6",
-          "kind": "flashcard",
-          "vocabRef": "greet-nee",
-          "direction": "native-to-target"
         }
       ],
       "xpReward": 15

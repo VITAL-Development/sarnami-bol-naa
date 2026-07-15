@@ -71,8 +71,7 @@ referential integrity the frontend relies on. Concretely:
 - **Adding a new *required* field** that old content lacks, or making a
   previously optional field required.
 - **Changing the set of allowed enum values** consumers switch on — exercise
-  `kind` (`multiple-choice` | `word-bank` | `fill-blank` | `matching` |
-  `flashcard`), `direction` (`target-to-native` | `native-to-target`).
+  `kind` (`multiple-choice` | `word-bank` | `fill-blank` | `matching`).
 - **Breaking referential integrity** — removing/renaming a vocab `id`,
   `contentRef`, `exampleSentenceRef`, `grammarNoteRef`, or lesson/unit `id`
   that is still referenced elsewhere, so a ref no longer resolves.
