@@ -23,10 +23,13 @@ dated `## [X.Y.Z]` heading.
 
 - Removed all `flashcard` exercises (96 across `content/sarnami/units/*.json`
   and `content/sarnami/lessons/*.json`) and the `flashcard` entry from the
-  two `generatedSpec.kinds` lists that carried it — `flashcard` is no longer
-  a supported exercise `kind` (BREAKING, see `docs/versioning.md`), matching
-  the removal from the platform contract (vital-development/rarelang-server#75).
-  Every affected lesson still has at least 3 exercises. (#237)
+  two `generatedSpec.kinds` lists that carried it — `flashcard` is
+  Review-only and must not be authored in Path lesson content (BREAKING,
+  see `docs/versioning.md`), matching the platform contract
+  (vital-development/rarelang-server#75). The Review (spaced-repetition)
+  feature is unaffected: it synthesizes flashcard exercises directly from
+  `vocab`, not from lesson `exercises`. Every affected lesson still has at
+  least 3 exercises. (#237)
 
 ## [0.4.2] - 2026-07-14
 
