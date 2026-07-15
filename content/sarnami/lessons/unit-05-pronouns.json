@@ -18,7 +18,7 @@
       {
         "id": "gn-poss-3",
         "title": "Uitbreiding met -e vóór een achterzetsel",
-        "body": "Soms staat er een klein woordje ná het zelfstandig naamwoord, zoals meṁ (in), se (van/uit), ke (van) of par (op). Dit woordje heet een achterzetsel: het staat achter het woord in plaats van ervoor. Volgt er zo'n achterzetsel, dan krijgen de bezittelijke voornaamwoorden er een extra -e bij. De betekenis blijft hetzelfde. Hamār wordt dan hamāre (of hamare). Tor wordt tore. Ekar wordt ĕkare. Okar wordt ŏkare. Voorbeeld: 'Ū hamāre ghar meṁ rahat rahā' — Hij/zij woonde in mijn huis.",
+        "body": "Soms staat er een klein woordje ná het zelfstandig naamwoord, zoals meṁ (in), se (van/uit), ke (van) of par (op). Dit woordje heet een achterzetsel: het staat achter het woord in plaats van ervoor. Als er zo'n achterzetsel volgt, dan krijgen de bezittelijke voornaamwoorden er een extra -e bij. De betekenis blijft hetzelfde. Hamār wordt dan hamāre (of hamare). Tor wordt tore. Ekar wordt ĕkare. Okar wordt ŏkare. Voorbeeld: 'Ū hamāre ghar meṁ rahat rahā' — Hij/zij woonde in mijn huis.",
         "relatedVocab": ["pron-hamar", "pron-tor"]
       }
     ],
@@ -74,7 +74,7 @@
       {
         "id": "gn-dem-2",
         "title": "Verbogen vormen: eke en oke",
-        "body": "ī en ū veranderen van vorm als ze niet het onderwerp van de zin zijn. Dat gebeurt bijvoorbeeld als iemand iets aan hen geeft, of als de handeling hen raakt. We noemen dit een voorwerp in de zin. Bij ī wordt dat eke (hem/haar, dichtbij). Bij ū wordt dat oke (hem/haar, veraf). Voorbeeld: 'Oke tū etnā bisvās na karal kariye' — Je moet hem/haar niet zoveel vertrouwen.",
+        "body": "Het onderwerp van een zin is het deel dat de handeling doet. ī en ū veranderen van vorm als ze niet het onderwerp zijn. Dat gebeurt bijvoorbeeld als iemand iets aan hen geeft, of als de handeling hen raakt. We noemen dit een voorwerp in de zin. Bij ī wordt dat eke (hem/haar, dichtbij). Bij ū wordt dat oke (hem/haar, veraf). Voorbeeld: 'Oke tū etnā bisvās na karal kariye' — Je moet hem/haar niet zoveel vertrouwen.",
         "relatedVocab": ["pron-eke", "pron-oke"]
       },
       {
