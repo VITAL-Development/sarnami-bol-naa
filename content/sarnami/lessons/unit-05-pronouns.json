@@ -153,8 +153,8 @@
       },
       "ir-e2": {
         "kind": "multiple-choice",
-        "prompt": "Welk vragend voornaamwoord gebruik je zelfstandig en neutraal om naar een zaak te vragen?",
-        "promptTranslations": { "nl": "Welk vragend voornaamwoord gebruik je zelfstandig en neutraal om naar een zaak te vragen?", "en": "Which interrogative pronoun do you use independently and neutrally to ask about a thing?" },
+        "prompt": "Welk vragend voornaamwoord gebruik je om naar een ding te vragen?",
+        "promptTranslations": { "nl": "Welk vragend voornaamwoord gebruik je om naar een ding te vragen?", "en": "Which interrogative pronoun do you use to ask about a thing?" },
         "options": ["kā", "ke", "kaun", "jaun"],
         "correctIndex": 0
       },
@@ -204,8 +204,8 @@
       },
       "rev-e7": {
         "kind": "multiple-choice",
-        "prompt": "Welk betrekkelijk voornaamwoord wordt uitsluitend voor personen gebruikt?",
-        "promptTranslations": { "nl": "Welk betrekkelijk voornaamwoord wordt uitsluitend voor personen gebruikt?", "en": "Which relative pronoun is used exclusively for persons?" },
+        "prompt": "Welk betrekkelijk voornaamwoord wordt alleen voor personen gebruikt?",
+        "promptTranslations": { "nl": "Welk betrekkelijk voornaamwoord wordt alleen voor personen gebruikt?", "en": "Which relative pronoun is used only for persons?" },
         "options": ["je", "jaun", "kā", "ī"],
         "correctIndex": 0
       }
