@@ -193,9 +193,9 @@ handle most everyday topics.*
 |---|---------|------------|------|----------------|--------|
 | 7 | `unit-06-adverbs` | Bijwoorden | B1 | `04-the-adverb.md` | new |
 | 8 | `unit-07-postpositions` | Achterzetsels | B1 | `05-postpositions.md` | new |
-| 9 | `unit-08-verbs` | Werkwoorden | B2 | `08-the-verb.md` | new |
-| 10 | `unit-09-conjunctions` | Voegwoorden | B1 | `06-conjunctions.md` | new |
-| 11 | `unit-10-interjections` | Tussenwerpsels | B1 | `07-interjections.md` | new |
+| 9 | `unit-09-conjunctions` | Voegwoorden | B1 | `06-conjunctions.md` | new |
+| 10 | `unit-10-interjections` | Tussenwerpsels | B1 | `07-interjections.md` | new |
+| 11 | `unit-08-verbs` | Werkwoorden | B2 | `08-the-verb.md` | new |
 | 12 | `unit-11-loanwords` | Leenwoorden & nieuwvormingen | B2 | `09-loan-words-and-neologisms.md` | new |
 
 ### Sequencing & dependencies
@@ -238,7 +238,22 @@ attach to nouns/pronouns.
 - **Exercise mix:** `word-bank` is the workhorse (word order + attachment),
   plus `fill-blank` (choose the postposition) and `matching`.
 
-#### 9. `unit-08-verbs` — Werkwoorden (B2, `08-the-verb.md`)
+#### 9. `unit-09-conjunctions` — Voegwoorden (B1, `06-conjunctions.md`)
+Coordinating and subordinating conjunctions; joining clauses. Pairs with the
+Advanced tier's reading unit. Several forms already live in
+`vocab/structuurwoorden.json` — reuse them, don't duplicate.
+- ~2–3 lessons → review.
+- **Exercise mix:** `word-bank` (join two clauses), `fill-blank` (choose the
+  conjunction), `matching`.
+
+#### 10. `unit-10-interjections` — Tussenwerpsels (B1, `07-interjections.md`)
+Short, high-frequency, conversational: common exclamations and discourse
+particles. Some (`hāṁ`, `nā`) already exist in `vocab/greetings.json` — reuse.
+- ~2 lessons → review.
+- **Exercise mix:** `flashcard` + `matching` (interjection ↔ situation/meaning),
+  light `multiple-choice`.
+
+#### 11. `unit-08-verbs` — Werkwoorden (B2, `08-the-verb.md`)
 The largest chapter and the sentence-building spine. Conjugation across tenses
 and moods including the subjunctive (*aanvoegende wijs*). Split by difficulty.
 - **~6–7 lessons** (the one unit that runs longer): present → past → future →
@@ -249,21 +264,6 @@ and moods including the subjunctive (*aanvoegende wijs*). Split by difficulty.
 - **Exercise mix:** `fill-blank` (conjugated form) and `word-bank` (build the
   clause) dominate; `matching` (person ↔ ending), `multiple-choice` (which
   tense/mood), `flashcard` for stems.
-
-#### 10. `unit-09-conjunctions` — Voegwoorden (B1, `06-conjunctions.md`)
-Coordinating and subordinating conjunctions; joining clauses. Pairs with the
-Advanced tier's reading unit. Several forms already live in
-`vocab/structuurwoorden.json` — reuse them, don't duplicate.
-- ~2–3 lessons → review.
-- **Exercise mix:** `word-bank` (join two clauses), `fill-blank` (choose the
-  conjunction), `matching`.
-
-#### 11. `unit-10-interjections` — Tussenwerpsels (B1, `07-interjections.md`)
-Short, high-frequency, conversational: common exclamations and discourse
-particles. Some (`hāṁ`, `nā`) already exist in `vocab/greetings.json` — reuse.
-- ~2 lessons → review.
-- **Exercise mix:** `flashcard` + `matching` (interjection ↔ situation/meaning),
-  light `multiple-choice`.
 
 #### 12. `unit-11-loanwords` — Leenwoorden & nieuwvormingen (B2, `09-loan-words-and-neologisms.md`)
 Dutch/Sranantongo/other loanwords and coined modern terms. A vocab-expansion
