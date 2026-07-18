@@ -213,7 +213,7 @@
     "id": "verb-bolna",
     "word": "bol-nā",
     "translations": { "nl": "spreken", "en": "to speak" },
-    "notes": "Infinitiefvorm (-nā), tegenover de vervoegde stam bole (verb-bole) — gebruikt in periphrastische constructies zoals 'bol-nā sikhe hai' (leert spreken).",
+    "notes": "Dit is de vorm op '-nā', zoals in 'bol-nā sikhe hai' (leert spreken). 'Bole' (verb-bole) is de andere vorm van hetzelfde werkwoord.",
     "tags": ["verb"]
   },
   {
@@ -226,7 +226,7 @@
     "id": "verb-lave",
     "word": "lāve",
     "translations": { "nl": "halen", "en": "to fetch, to bring" },
-    "notes": "Verwant aan āve (verb-ave, komen) met causatief l-voorvoegsel.",
+    "notes": "Lijkt op 'āve' (verb-ave, komen), maar 'lāve' betekent 'halen' (iets meebrengen).",
     "tags": ["verb"]
   }
 ]
