@@ -248,5 +248,12 @@
     "word": "ṭurle",
     "translations": { "nl": "plukken", "en": "to pluck" },
     "tags": ["verb"]
+  },
+  {
+    "id": "verb-jante",
+    "word": "jāntā",
+    "translations": { "nl": "weet (kennen)", "en": "know(s)" },
+    "notes": "Educated guess op basis van de zinsvertaling ('Ik weet dat...'); niet geverifieerd tegen het boek.",
+    "tags": ["verb", "needs-verification"]
   }
 ]
