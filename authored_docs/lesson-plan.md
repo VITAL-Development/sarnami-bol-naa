@@ -55,8 +55,8 @@ shared authoring contract's `cefrLevel` versioning note).
 
 | Tier | Units | CEFR range |
 |---|---|---|
-| Beginner | 6 | A1–A2 |
-| Intermediate | 6 | B1–B2 |
+| Beginner | 5 | A1–A2 |
+| Intermediate | 7 | B1–B2 |
 | Advanced | 2 | C1 |
 
 New unit ids are numbered `00` and `04`–`13` so they don't collide with the
@@ -72,8 +72,8 @@ scheme above avoids that churn.)
 
 *A learner completing this tier can greet people, introduce themselves and
 their family, name everyday objects, form simple `hai` ("to be") sentences,
-recognise and spell Sarnami's diacritics, and use basic adjectives and
-pronouns — with no productive grammar beyond basic agreement.*
+recognise and spell Sarnami's diacritics, and use basic adjectives and the
+core personal pronouns — with no productive grammar beyond basic agreement.*
 
 | # | Unit id | Title (nl) | CEFR | Source chapter | Status |
 |---|---------|------------|------|----------------|--------|
@@ -81,8 +81,7 @@ pronouns — with no productive grammar beyond basic agreement.*
 | 2 | `unit-03-sounds` | Klanken & uitspraak | A1 | `01-sounds.md` | new |
 | 3 | `unit-01-basics` | Basis | A1 | *(intro subset of 02/03)* | **exists** |
 | 4 | `unit-04-nouns` | Zelfstandige naamwoorden | A2 | `02-the-noun.md` | new |
-| 5 | `unit-05-pronouns` | Voornaamwoorden | A2 | `03-pronouns.md` | new |
-| 6 | `unit-02-adjectives` | Bijvoeglijke naamwoorden | A2 | `adjective-verified.md` | **exists** |
+| 5 | `unit-02-adjectives` | Bijvoeglijke naamwoorden | A2 | `adjective-verified.md` | **exists** |
 
 ### Sequencing & dependencies
 
@@ -94,10 +93,12 @@ pronouns — with no productive grammar beyond basic agreement.*
   higher tier.
 - **Basics before deep grammar.** `unit-01-basics` already teaches greetings,
   the core personal pronouns, a handful of nouns, and `hai`/negation. The
-  deeper noun and pronoun units **extend** it and must not re-teach that
-  starter set (see *Overlap* below).
-- **Nouns & pronouns before adjectives.** Agreement (adjective→noun)
-  presupposes gender/number and the pronoun system.
+  deeper noun unit **extends** it and must not re-teach that starter set (see
+  *Overlap* below).
+- **Nouns before adjectives.** Agreement (adjective→noun) presupposes
+  gender/number; the five core personal pronouns from `unit-01-basics` cover
+  the pronoun side of that agreement, so adjectives don't need the fuller
+  pronoun system (see below) as a prerequisite.
 - No unit in this tier carries an Intermediate- or Advanced-tier
   prerequisite, per the shared contract's cross-tier sequencing rule.
 
@@ -111,9 +112,9 @@ later chapters. The deeper units own the rest:
   it may *reuse* those vocab ids in examples but introduces no duplicate
   entries and adds its own `newVocab`.
 - **Pronouns** — basics teaches the five core personal pronouns
-  (`pron-ham`/`tu`/`ap`/`u`/`hamlog`). `unit-05-pronouns` completes the system
-  (possessive, demonstrative, interrogative, relative) and does **not**
-  re-introduce the five.
+  (`pron-ham`/`tu`/`ap`/`u`/`hamlog`). `unit-05-pronouns` (Intermediate tier —
+  see below) completes the system (possessive, demonstrative, interrogative,
+  relative) and does **not** re-introduce the five.
 - **`hai` / negation** — basics teaches `gram-hai`, `gram-na`, `gram-kaham` as
   fixed forms. `unit-08-verbs` (Intermediate tier) generalises them into the
   full conjugation paradigm.
@@ -166,15 +167,7 @@ subsections. Extends the basics nouns.
   postposition system remains owned by `unit-07-postpositions`, whose
   `bookChapterRef` (`05-postpositions.md`) is the dedicated source for it.
 
-#### 5. `unit-05-pronouns` — Voornaamwoorden (A2, `03-pronouns.md`)
-Completes the pronoun system beyond the basics' personal pronouns: possessive,
-demonstrative, interrogative, relative.
-- ~4 lessons: possessive → demonstrative → interrogative & relative → review.
-- Vocab ~15–20 pronoun forms (extends `vocab/pronouns.json`).
-- **Exercise mix:** `matching` (form ↔ meaning), `fill-blank` (choose the right
-  pronoun in a sentence), `word-bank`, `multiple-choice`.
-
-#### 6. `unit-02-adjectives` — Bijvoeglijke naamwoorden (A2, `adjective-verified.md`) *(exists)*
+#### 5. `unit-02-adjectives` — Bijvoeglijke naamwoorden (A2, `adjective-verified.md`) *(exists)*
 Already authored and verified: adjective agreement and usage. No new
 authoring needed beyond keeping its `order`/`cefrLevel` in step with this
 sequence.
@@ -184,12 +177,14 @@ sequence.
 ## Intermediate tier (B1–B2)
 
 *A learner completing this tier can produce connected sentences with the full
-core grammar spine — adverbs, postpositions, verb conjugation across tenses
-and moods, conjunctions, and light interjections/loanword vocabulary — and
-handle most everyday topics.*
+core grammar spine — the fuller pronoun system (possessive, demonstrative,
+interrogative, relative), adverbs, postpositions, verb conjugation across
+tenses and moods, conjunctions, and light interjections/loanword vocabulary —
+and handle most everyday topics.*
 
 | # | Unit id | Title (nl) | CEFR | Source chapter | Status |
 |---|---------|------------|------|----------------|--------|
+| 6 | `unit-05-pronouns` | Voornaamwoorden | B1 | `03-pronouns.md` | new |
 | 7 | `unit-06-adverbs` | Bijwoorden | B1 | `04-the-adverb.md` | new |
 | 8 | `unit-07-postpositions` | Achterzetsels | B1 | `05-postpositions.md` | new |
 | 9 | `unit-09-conjunctions` | Voegwoorden | B1 | `06-conjunctions.md` | new |
@@ -199,9 +194,17 @@ handle most everyday topics.*
 
 ### Sequencing & dependencies
 
-- **Nouns & pronouns (Beginner tier) before adverbs/postpositions/verbs.**
-  Agreement (verb→subject) and postposition attachment presuppose
-  gender/number and the pronoun system taught in the Beginner tier.
+- **Nouns (Beginner tier) and the core personal pronouns (`unit-01-basics`)
+  before this tier's pronouns/adverbs/postpositions/verbs.** Agreement
+  (verb→subject) and postposition attachment presuppose gender/number and at
+  least the core pronoun set taught in the Beginner tier.
+- **Pronouns lead this tier.** `unit-05-pronouns` completes the pronoun
+  system (possessive, demonstrative, interrogative, relative) — including
+  productive relative-clause formation and case-inflected demonstrative
+  object forms, which is why it sits here rather than in the Beginner tier
+  (see [issue #241](https://github.com/VITAL-Development/sarnami-bol-naa/issues/241)).
+  Postpositions and verb agreement lean on the fuller system it teaches, so
+  it comes first.
 - **Postpositions after nouns/pronouns** — they attach to them.
 - **Verbs are the spine of sentence-building** and unlock everything after.
   `unit-08-verbs` spans B1 (present/past/future) through B2 (imperative,
@@ -220,6 +223,18 @@ handle most everyday topics.*
 Same sizing convention as the Beginner tier: **4–5 lessons per unit** (the
 verb unit runs longer, see below), **~5 exercises per lesson**, review
 lesson per unit.
+
+#### 6. `unit-05-pronouns` — Voornaamwoorden (B1, `03-pronouns.md`)
+Completes the pronoun system beyond the basics' personal pronouns: possessive,
+demonstrative, interrogative, relative. Moved here from the Beginner tier
+(see [issue #241](https://github.com/VITAL-Development/sarnami-bol-naa/issues/241)):
+productive relative-clause formation (`jaun`/`je`/`jekar`) and case-inflected
+demonstrative object forms (`eke`/`oke` vs. `ī`/`ū`) exceed the Beginner
+tier's "no productive grammar beyond basic agreement" ceiling.
+- ~4 lessons: possessive → demonstrative → interrogative & relative → review.
+- Vocab ~15–20 pronoun forms (extends `vocab/pronouns.json`).
+- **Exercise mix:** `matching` (form ↔ meaning), `fill-blank` (choose the right
+  pronoun in a sentence), `word-bank`, `multiple-choice`.
 
 #### 7. `unit-06-adverbs` — Bijwoorden (B1, `04-the-adverb.md`)
 Common adverbs of time, place, manner and degree, including the loanword

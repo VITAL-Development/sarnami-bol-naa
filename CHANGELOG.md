@@ -19,6 +19,20 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Changed
+
+- `content/sarnami/units/unit-05-pronouns.json`: reclassified `cefrLevel` from
+  `A2` to `B1` and moved `order` from `5` to `6` (now the first Intermediate-tier
+  unit, right before `unit-06-adverbs`). Resolves Finding 2 of #241: the unit
+  teaches productive relative-clause formation (`jaun`/`je`/`jekar`) and
+  case-inflected demonstrative object forms, which exceeds the Beginner
+  tier's "no productive grammar beyond basic agreement" ceiling.
+- `content/sarnami/units/unit-02-adjectives.json`: `order` moved from `6` to
+  `5` to fill the Beginner-tier slot vacated by the pronouns move above; its
+  `cefrLevel` (`A2`) is unchanged. Adjective agreement only needs the core
+  personal pronouns already taught in `unit-01-basics`, not the fuller
+  pronoun system, so this has no prerequisite impact.
+
 ## [0.5.0] - 2026-07-15
 
 ### Changed
