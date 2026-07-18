@@ -6,6 +6,7 @@
       "nl": "opbellen (met hove: opgebeld worden)",
       "en": "to call up (with hove: to be called up)"
     },
+    "audioUrl": "/audio/sarnami/loan-bel.mp3",
     "tags": [
       "loanword",
       "loan-dutch",
@@ -21,6 +22,7 @@
       "nl": "kloppen (met hove: geklopt worden)",
       "en": "to knock (with hove: to be knocked)"
     },
+    "audioUrl": "/audio/sarnami/loan-klop.mp3",
     "tags": [
       "loanword",
       "loan-dutch",
@@ -36,6 +38,7 @@
       "nl": "uitleggen (met hove: uitgelegd worden)",
       "en": "to explain (with hove: to be explained)"
     },
+    "audioUrl": "/audio/sarnami/loan-uitleg.mp3",
     "tags": [
       "loanword",
       "loan-dutch",
@@ -51,6 +54,7 @@
       "nl": "beledigen (met hove: beledigd worden)",
       "en": "to insult (with hove: to be insulted)"
     },
+    "audioUrl": "/audio/sarnami/loan-beledig.mp3",
     "tags": [
       "loanword",
       "loan-dutch",
@@ -66,6 +70,7 @@
       "nl": "bekeuren (met hove: bekeurd worden)",
       "en": "to fine/ticket (with hove: to be fined)"
     },
+    "audioUrl": "/audio/sarnami/loan-bekeur.mp3",
     "tags": [
       "loanword",
       "loan-dutch",
@@ -81,6 +86,7 @@
       "nl": "wachten; opwachten (met hove: opgewacht worden)",
       "en": "to wait; to wait for (with hove: to be waited for)"
     },
+    "audioUrl": "/audio/sarnami/loan-wachti.mp3",
     "tags": [
       "loanword",
       "loan-dutch",
@@ -96,6 +102,7 @@
       "nl": "helpen (met hove: geholpen worden)",
       "en": "to help (with hove: to be helped)"
     },
+    "audioUrl": "/audio/sarnami/loan-help.mp3",
     "tags": [
       "loanword",
       "loan-dutch",
@@ -111,6 +118,7 @@
       "nl": "mooi maken (met hove: mooi worden)",
       "en": "to make beautiful (with hove: to become beautiful)"
     },
+    "audioUrl": "/audio/sarnami/loan-mooi.mp3",
     "tags": [
       "loanword",
       "loan-dutch",
@@ -126,6 +134,7 @@
       "nl": "loeren (met hove: beloerd worden)",
       "en": "to peer/spy (with hove: to be spied on)"
     },
+    "audioUrl": "/audio/sarnami/loan-luru.mp3",
     "tags": [
       "loanword",
       "loan-dutch",
@@ -141,6 +150,7 @@
       "nl": "een boete betalen",
       "en": "to pay a fine"
     },
+    "audioUrl": "/audio/sarnami/loan-butu.mp3",
     "tags": [
       "loanword",
       "loan-dutch",
@@ -156,6 +166,7 @@
       "nl": "afmaken; klaar zijn/maken (met hove: klaar zijn)",
       "en": "to finish; to be/get done (with hove: to be done)"
     },
+    "audioUrl": "/audio/sarnami/loan-don.mp3",
     "tags": [
       "loanword",
       "loan-english",
@@ -170,6 +181,7 @@
       "nl": "verliezen (met hove: verloren raken)",
       "en": "to lose (with hove: to get lost)"
     },
+    "audioUrl": "/audio/sarnami/loan-las.mp3",
     "tags": [
       "loanword",
       "loan-english",
@@ -185,6 +197,7 @@
       "nl": "hinderen (met hove: verhinderd worden)",
       "en": "to hinder (with hove: to be hindered)"
     },
+    "audioUrl": "/audio/sarnami/loan-hambog.mp3",
     "tags": [
       "loanword",
       "loan-english",
@@ -200,6 +213,7 @@
       "nl": "braden (met hove: gebraden worden)",
       "en": "to fry (with hove: to be fried)"
     },
+    "audioUrl": "/audio/sarnami/loan-pharyam.mp3",
     "tags": [
       "loanword",
       "loan-english",
@@ -215,6 +229,7 @@
       "nl": "achteruit rijden (met hove: achteruit gereden worden)",
       "en": "to reverse/drive backwards (with hove: to be driven backwards)"
     },
+    "audioUrl": "/audio/sarnami/loan-riwors.mp3",
     "tags": [
       "loanword",
       "loan-english",
@@ -230,6 +245,7 @@
       "nl": "boren (met hove: geboord worden)",
       "en": "to drill (with hove: to be drilled)"
     },
+    "audioUrl": "/audio/sarnami/loan-boro.mp3",
     "tags": [
       "loanword",
       "loan-sranan",
@@ -245,6 +261,7 @@
       "nl": "strijken (met hove: gestreken worden)",
       "en": "to iron (with hove: to be ironed)"
     },
+    "audioUrl": "/audio/sarnami/loan-triki.mp3",
     "tags": [
       "loanword",
       "loan-sranan",
@@ -260,6 +277,7 @@
       "nl": "huren (met hove: verhuurd worden)",
       "en": "to rent (with hove: to be rented out)"
     },
+    "audioUrl": "/audio/sarnami/loan-yuru.mp3",
     "tags": [
       "loanword",
       "loan-sranan",
@@ -275,6 +293,7 @@
       "nl": "vuil maken (met hove: vervuild raken)",
       "en": "to make dirty (with hove: to get polluted)"
     },
+    "audioUrl": "/audio/sarnami/loan-morsu.mp3",
     "tags": [
       "loanword",
       "loan-sranan",
@@ -290,6 +309,7 @@
       "nl": "luieren",
       "en": "to laze/be lazy"
     },
+    "audioUrl": "/audio/sarnami/loan-lesiyai.mp3",
     "tags": [
       "loanword",
       "neologism",
@@ -306,6 +326,7 @@
       "nl": "ordenen; op orde brengen",
       "en": "to arrange; to put in order"
     },
+    "audioUrl": "/audio/sarnami/loan-setiyave.mp3",
     "tags": [
       "loanword",
       "neologism",

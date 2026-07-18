@@ -6,6 +6,7 @@
       "nl": "klein",
       "en": "small"
     },
+    "audioUrl": "/audio/sarnami/adj-chota.mp3",
     "notes": "Lange vorm: chŏṭkā. Langere vorm: chŏṭkāvā.",
     "tags": [
       "adjective",
@@ -19,6 +20,7 @@
       "nl": "rood",
       "en": "red"
     },
+    "audioUrl": "/audio/sarnami/adj-lal.mp3",
     "notes": "Lange vorm: lalkā. Langere vorm: lalkāvā.",
     "tags": [
       "adjective",
@@ -32,6 +34,7 @@
       "nl": "recht",
       "en": "straight"
     },
+    "audioUrl": "/audio/sarnami/adj-sojha.mp3",
     "notes": "Lange vorm: sŏjhkā. Langere vorm: sŏjhkāvā.",
     "tags": [
       "adjective",
@@ -45,6 +48,7 @@
       "nl": "dun",
       "en": "thin"
     },
+    "audioUrl": "/audio/sarnami/adj-patar.mp3",
     "notes": "Lange vorm: patarkā. Langere vorm: patarkāvā.",
     "tags": [
       "adjective",
@@ -58,6 +62,7 @@
       "nl": "lekker",
       "en": "tasty"
     },
+    "audioUrl": "/audio/sarnami/adj-mitha.mp3",
     "notes": "Lange vorm: miṭhkā. Langere vorm: miṭhkāvā.",
     "tags": [
       "adjective",
@@ -71,6 +76,7 @@
       "nl": "groot",
       "en": "big"
     },
+    "audioUrl": "/audio/sarnami/adj-barka.mp3",
     "notes": "Komt alleen voor in de lange (barkā) en langere (barkāvā) vorm, geen kale stam.",
     "tags": [
       "adjective",
@@ -84,6 +90,7 @@
       "nl": "lang",
       "en": "long"
     },
+    "audioUrl": "/audio/sarnami/adj-lamma.mp3",
     "notes": "Lange vorm: lamkā. Langere vorm: lamkāvā.",
     "tags": [
       "adjective",
@@ -97,6 +104,7 @@
       "nl": "goed",
       "en": "good"
     },
+    "audioUrl": "/audio/sarnami/adj-barhimya.mp3",
     "notes": "Langere vorm: barhimkvā.",
     "tags": [
       "adjective",
@@ -110,6 +118,7 @@
       "nl": "zwart",
       "en": "black"
     },
+    "audioUrl": "/audio/sarnami/adj-karikka.mp3",
     "notes": "Vrouwelijke vorm bij dieren/mensen: karikkī (koe), karikkanī (geit).",
     "tags": [
       "adjective",
@@ -120,6 +129,7 @@
     "id": "adj-bimar",
     "word": "bīmār",
     "translations": { "nl": "ziek", "en": "sick, ill" },
+    "audioUrl": "/audio/sarnami/adj-bimar.mp3",
     "notes": "Educated guess op basis van de zinsvertaling ('omdat hij ziek was'); niet geverifieerd tegen het boek.",
     "tags": ["adjective", "needs-verification"]
   },
@@ -130,6 +140,7 @@
       "nl": "rijk",
       "en": "rich"
     },
+    "audioUrl": "/audio/sarnami/adj-dhani.mp3",
     "notes": "Uit het boek (§2.13, p.59-61): 'sab se dhanī adamī' (de rijkste man).",
     "tags": [
       "adjective",

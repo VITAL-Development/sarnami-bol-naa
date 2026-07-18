@@ -19,6 +19,26 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Added
+
+- `content/sarnami/audio/*.mp3`: generated pronunciation audio for all 312
+  `content/sarnami/vocab/*.json` entries via rarelang-server's
+  `POST /audio/generate` (`facebook/mms-tts-hns`), using
+  `scripts/generate-audio.mjs` (#251) against a real deployed server for the
+  first time. Each vocab entry's `word` is transliterated to SCS
+  plain-Latin before synthesis (that model's vocabulary doesn't cover
+  Sarnami's diacritics — see `scripts/scs-transliterate.mjs`), and the
+  resulting `.wav` is transcoded to `.mp3` (`libmp3lame -q:a 4`, mono) to
+  match `audio.format` in `settings/sarnami/language-settings.json` before
+  committing — raw `.wav` output isn't shipped. Every vocab entry now
+  carries an additive `audioUrl` field (`/audio/sarnami/<id>.mp3`, per
+  `audio.baseUrl`). Automated sanity-checked (via `ffprobe`/`ffmpeg`
+  duration + `volumedetect` non-silence checks on a ~18-file sample, plus a
+  full-set duration pass — no zero-length or wildly-off-duration outliers)
+  but **not** verified by ear; a human listening pass is still recommended.
+  New optional field + new files, additive; no existing shape changed.
+  (#280)
+
 ## [0.7.0] - 2026-07-18
 
 ### Added

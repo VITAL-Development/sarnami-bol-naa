@@ -6,6 +6,7 @@
       "nl": "een manje (mango)",
       "en": "a manje (mango)"
     },
+    "audioUrl": "/audio/sarnami/sound-am.mp3",
     "tags": [
       "sounds",
       "vowel",
@@ -21,6 +22,7 @@
       "nl": "een mens",
       "en": "a human being"
     },
+    "audioUrl": "/audio/sarnami/sound-insan.mp3",
     "tags": [
       "sounds",
       "vowel",
@@ -36,6 +38,7 @@
       "nl": "omgekeerd",
       "en": "reversed"
     },
+    "audioUrl": "/audio/sarnami/sound-ulta.mp3",
     "tags": [
       "sounds",
       "vowel",
@@ -51,6 +54,7 @@
       "nl": "een spiegel",
       "en": "a mirror"
     },
+    "audioUrl": "/audio/sarnami/sound-aina.mp3",
     "tags": [
       "sounds",
       "vowel",
@@ -66,6 +70,7 @@
       "nl": "een vrouw",
       "en": "a woman"
     },
+    "audioUrl": "/audio/sarnami/sound-aurat.mp3",
     "tags": [
       "sounds",
       "vowel",
@@ -81,6 +86,7 @@
       "nl": "wie",
       "en": "who"
     },
+    "audioUrl": "/audio/sarnami/sound-kaun.mp3",
     "tags": [
       "sounds",
       "consonant",
@@ -96,6 +102,7 @@
       "nl": "een akker",
       "en": "a field"
     },
+    "audioUrl": "/audio/sarnami/sound-khet.mp3",
     "tags": [
       "sounds",
       "consonant",
@@ -111,6 +118,7 @@
       "nl": "een dief",
       "en": "a thief"
     },
+    "audioUrl": "/audio/sarnami/sound-cor.mp3",
     "tags": [
       "sounds",
       "consonant",
@@ -126,6 +134,7 @@
       "nl": "een mes",
       "en": "a knife"
     },
+    "audioUrl": "/audio/sarnami/sound-churi.mp3",
     "tags": [
       "sounds",
       "consonant",
@@ -141,6 +150,7 @@
       "nl": "een bloem",
       "en": "a flower"
     },
+    "audioUrl": "/audio/sarnami/sound-phul.mp3",
     "tags": [
       "sounds",
       "consonant",
@@ -156,6 +166,7 @@
       "nl": "arm",
       "en": "poor"
     },
+    "audioUrl": "/audio/sarnami/sound-garib.mp3",
     "tags": [
       "sounds",
       "consonant",
@@ -171,6 +182,7 @@
       "nl": "een roti",
       "en": "a roti"
     },
+    "audioUrl": "/audio/sarnami/sound-roti.mp3",
     "tags": [
       "sounds",
       "diacritic",
@@ -187,6 +199,7 @@
       "nl": "vrees",
       "en": "fear"
     },
+    "audioUrl": "/audio/sarnami/sound-dar.mp3",
     "tags": [
       "sounds",
       "diacritic",
@@ -203,6 +216,7 @@
       "nl": "een kind",
       "en": "a child"
     },
+    "audioUrl": "/audio/sarnami/sound-larka.mp3",
     "tags": [
       "sounds",
       "diacritic",
@@ -219,6 +233,7 @@
       "nl": "een vlag",
       "en": "a flag"
     },
+    "audioUrl": "/audio/sarnami/sound-jhanda.mp3",
     "tags": [
       "sounds",
       "diacritic",
@@ -236,6 +251,7 @@
       "nl": "een schaar",
       "en": "a pair of scissors"
     },
+    "audioUrl": "/audio/sarnami/sound-kainci.mp3",
     "tags": [
       "sounds",
       "diacritic",
@@ -252,6 +268,7 @@
       "nl": "Sri Lanka",
       "en": "Sri Lanka"
     },
+    "audioUrl": "/audio/sarnami/sound-lanka.mp3",
     "tags": [
       "sounds",
       "diacritic",
@@ -269,6 +286,7 @@
       "nl": "taal",
       "en": "language"
     },
+    "audioUrl": "/audio/sarnami/sound-bhasa.mp3",
     "tags": [
       "sounds",
       "diacritic",
@@ -285,6 +303,7 @@
       "nl": "vrede",
       "en": "peace"
     },
+    "audioUrl": "/audio/sarnami/sound-shanti.mp3",
     "tags": [
       "sounds",
       "diacritic",

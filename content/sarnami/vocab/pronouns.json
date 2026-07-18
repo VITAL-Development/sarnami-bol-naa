@@ -6,6 +6,7 @@
       "nl": "ik",
       "en": "I"
     },
+    "audioUrl": "/audio/sarnami/pron-ham.mp3",
     "tags": [
       "pronoun",
       "book-p68"
@@ -18,6 +19,7 @@
       "nl": "jij (informeel)",
       "en": "you (informal)"
     },
+    "audioUrl": "/audio/sarnami/pron-tu.mp3",
     "tags": [
       "pronoun",
       "book-p69"
@@ -30,6 +32,7 @@
       "nl": "u (beleefdheidsvorm)",
       "en": "you (polite form)"
     },
+    "audioUrl": "/audio/sarnami/pron-ap.mp3",
     "tags": [
       "pronoun",
       "book-p69"
@@ -42,6 +45,7 @@
       "nl": "die / dat; hij / zij (veraf van de spreker)",
       "en": "that / those; he / she (far from the speaker)"
     },
+    "audioUrl": "/audio/sarnami/pron-u.mp3",
     "notes": "Dient ook als 3e-persoons voornaamwoord. Tegenhanger van ī (dichtbij).",
     "tags": [
       "pronoun",
@@ -56,6 +60,7 @@
       "nl": "wij",
       "en": "we"
     },
+    "audioUrl": "/audio/sarnami/pron-hamlog.mp3",
     "tags": [
       "pronoun",
       "book-p68"
@@ -68,6 +73,7 @@
       "nl": "mijn / van mij",
       "en": "my / mine"
     },
+    "audioUrl": "/audio/sarnami/pron-hamar.mp3",
     "notes": "Bezittelijk voornaamwoord bij ham. Verbogen vorm hamār/hamare, en vóór een achterzetsel uitgebreid tot hamāre (opm. 5).",
     "tags": [
       "pronoun",
@@ -82,6 +88,7 @@
       "nl": "jouw / van jou",
       "en": "your / yours"
     },
+    "audioUrl": "/audio/sarnami/pron-tor.mp3",
     "notes": "Bezittelijk voornaamwoord bij tū. Vóór een achterzetsel wordt het tor/tore.",
     "tags": [
       "pronoun",
@@ -96,6 +103,7 @@
       "nl": "uw / van u (beleefdheidsvorm)",
       "en": "your / yours (polite form)"
     },
+    "audioUrl": "/audio/sarnami/pron-tomhar.mp3",
     "notes": "Verbogen tŏṁhār/tŏṁhare; let op de breve ŏ en de nasale ṁ.",
     "tags": [
       "pronoun",
@@ -111,6 +119,7 @@
       "nl": "uw / van u (beleefdheidsvorm)",
       "en": "your / yours (polite form)"
     },
+    "audioUrl": "/audio/sarnami/pron-apke.mp3",
     "tags": [
       "pronoun",
       "possessive",
@@ -125,6 +134,7 @@
       "nl": "zijn / haar (dichtbij de spreker)",
       "en": "his / her (near the speaker)"
     },
+    "audioUrl": "/audio/sarnami/pron-ekar.mp3",
     "notes": "Bezittelijk voornaamwoord bij ī (3e persoon, dichtbij; Verbogen ekar/ĕkare.",
     "tags": [
       "pronoun",
@@ -139,6 +149,7 @@
       "nl": "zijn / haar (van de spreker verwijderd)",
       "en": "his / her (away from the speaker)"
     },
+    "audioUrl": "/audio/sarnami/pron-okar.mp3",
     "notes": "Bezittelijk voornaamwoord bij ū (3e persoon, veraf; Verbogen okar/ŏkare.",
     "tags": [
       "pronoun",
@@ -153,6 +164,7 @@
       "nl": "dit / deze; hij / zij / het (dichtbij de spreker)",
       "en": "this / these; he / she / it (near the speaker)"
     },
+    "audioUrl": "/audio/sarnami/pron-i.mp3",
     "notes": "Dient ook als 3e-persoons voornaamwoord. Tegenhanger van ū (veraf). In het meervoud aangevuld met sab(han)/log(an).",
     "tags": [
       "pronoun",
@@ -168,6 +180,7 @@
       "nl": "hem / haar (dichtbij de spreker)",
       "en": "him / her (near the speaker)"
     },
+    "audioUrl": "/audio/sarnami/pron-eke.mp3",
     "notes": "Verbogen (meewerkend/lijdend) vorm bij ī: eke — hem, haar.",
     "tags": [
       "pronoun",
@@ -183,6 +196,7 @@
       "nl": "hem / haar (van de spreker verwijderd)",
       "en": "him / her (away from the speaker)"
     },
+    "audioUrl": "/audio/sarnami/pron-oke.mp3",
     "notes": "Verbogen (meewerkend/lijdend) vorm bij ū: oke — hem, haar.",
     "tags": [
       "pronoun",
@@ -198,6 +212,7 @@
       "nl": "zij (beleefd / meervoud, dichtbij)",
       "en": "they (polite / plural, near)"
     },
+    "audioUrl": "/audio/sarnami/pron-inhan.mp3",
     "notes": "Beleefde/meervoudsvorm bij ī (3e persoon, dichtbij;.",
     "tags": [
       "pronoun",
@@ -213,6 +228,7 @@
       "nl": "zij (beleefd / meervoud, veraf)",
       "en": "they (polite / plural, far)"
     },
+    "audioUrl": "/audio/sarnami/pron-unhan.mp3",
     "notes": "Beleefde/meervoudsvorm bij ū (3e persoon, veraf;.",
     "tags": [
       "pronoun",
@@ -228,6 +244,7 @@
       "nl": "wie (vertrouwelijk)",
       "en": "who (familiar)"
     },
+    "audioUrl": "/audio/sarnami/pron-ke.mp3",
     "notes": "Vragend voornaamwoord voor personen: zelfstandig gebruikt en bij een vertrouwde band met de spreker.",
     "tags": [
       "pronoun",
@@ -242,6 +259,7 @@
       "nl": "wie / welke (afstandelijk, ook deftig)",
       "en": "who / which (distant, also formal)"
     },
+    "audioUrl": "/audio/sarnami/pron-kaun.mp3",
     "notes": "Drukt afstandelijkheid uit en wordt in deftige situaties gebruikt.",
     "tags": [
       "pronoun",
@@ -256,6 +274,7 @@
       "nl": "wat",
       "en": "what"
     },
+    "audioUrl": "/audio/sarnami/pron-ka.mp3",
     "notes": "Vragend voornaamwoord naar zaken: zelfstandig en neutraal gebruikt.",
     "tags": [
       "pronoun",
@@ -270,6 +289,7 @@
       "nl": "wat (welk ding)",
       "en": "what (which thing)"
     },
+    "audioUrl": "/audio/sarnami/pron-kaunci.mp3",
     "notes": "Vragend voornaamwoord naar zaken: zelfstandig gebruikt, een samenkoppeling van kaun + cīj ('wat voor een ding?').",
     "tags": [
       "pronoun",
@@ -284,6 +304,7 @@
       "nl": "wiens / van wie",
       "en": "whose / of whom"
     },
+    "audioUrl": "/audio/sarnami/pron-kekar.mp3",
     "tags": [
       "pronoun",
       "interrogative",
@@ -297,6 +318,7 @@
       "nl": "die / welke (betrekkelijk)",
       "en": "that / which (relative)"
     },
+    "audioUrl": "/audio/sarnami/pron-jaun.mp3",
     "notes": "Betrekkelijk voornaamwoord, gebruikt voor personen en niet-personen. Verbogen jaun(e) ke.",
     "tags": [
       "pronoun",
@@ -311,6 +333,7 @@
       "nl": "die / wie (alleen personen)",
       "en": "that / who (persons only)"
     },
+    "audioUrl": "/audio/sarnami/pron-je.mp3",
     "notes": "Betrekkelijk voornaamwoord: als onderwerp of lijdend voorwerp uitsluitend voor personen gebruikt.",
     "tags": [
       "pronoun",
@@ -325,6 +348,7 @@
       "nl": "van wie / wiens (betrekkelijk)",
       "en": "of whom / whose (relative)"
     },
+    "audioUrl": "/audio/sarnami/pron-jekar.mp3",
     "notes": "Bijvoegelijk gebruikte (bezittelijke) vorm bij je: jekar/jinkar — van wie/welke.",
     "tags": [
       "pronoun",

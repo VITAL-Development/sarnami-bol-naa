@@ -3,6 +3,7 @@
     "id": "verb-parhe",
     "word": "paṛhe",
     "translations": { "nl": "lezen; leren, studeren", "en": "to read; to learn, to study" },
+    "audioUrl": "/audio/sarnami/verb-parhe.mp3",
     "notes": "De stam (basisvorm zonder uitgang) is paṛh-. Dit is het modelwerkwoord van hoofdstuk 9: de stam eindigt op een medeklinker (medeklinkerstam) en de infinitief (woordenboekvorm) eindigt op -e. Tegenwoordige tijd (nu): ham paṛhilā, tū paṛhe hai. Verleden tijd (toen): ham paṛhlī. Toekomende tijd (later): ham paṛhab.",
     "tags": ["verb", "book-p57", "needs-verification"]
   },
@@ -10,6 +11,7 @@
     "id": "verb-kare",
     "word": "kare",
     "translations": { "nl": "doen, maken", "en": "to do, to make" },
+    "audioUrl": "/audio/sarnami/verb-kare.mp3",
     "notes": "De stam is kar-. Verleden tijd (toen): in Nickerie zeg je ham karin, in de rest van Suriname ham karlī. Er zijn ook doe-vormen (causatief): karāve betekent 'iemand laten doen', en karvāve betekent 'iemand door een ander laten doen'. Kare wordt ook vaak gebruikt als hulpwerkwoord in combinaties, zoals bicār kare (nadenken) en nās kare (kapotmaken).",
     "tags": ["verb", "book-p57", "needs-verification"]
   },
@@ -17,6 +19,7 @@
     "id": "verb-bole",
     "word": "bole",
     "translations": { "nl": "zeggen, vertellen, spreken", "en": "to say, to tell, to speak" },
+    "audioUrl": "/audio/sarnami/verb-bole.mp3",
     "notes": "De stam is bol-. Dit werkwoord laat goed zien hoe de tijd-uitgangen werken: bolat (zeggend), bolal (gezegd), bolab / bolī (zal zeggen). De beleefde bevelvorm (een vriendelijke opdracht) is bolă! (vertel eens!).",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
@@ -24,6 +27,7 @@
     "id": "verb-dekhe",
     "word": "dekhe",
     "translations": { "nl": "kijken, zien", "en": "to look, to see" },
+    "audioUrl": "/audio/sarnami/verb-dekhe.mp3",
     "notes": "De stam is dekh-. De bevelvorm (om iets te vragen of te bevelen) is dekh! (kijk!); beleefd zeg je dekho! of dekhiye!. De doe-vorm dĕkhāve betekent 'laten zien, tonen'.",
     "tags": ["verb", "book-p57", "needs-verification"]
   },
@@ -31,6 +35,7 @@
     "id": "verb-sune",
     "word": "sune",
     "translations": { "nl": "luisteren, horen", "en": "to listen, to hear" },
+    "audioUrl": "/audio/sarnami/verb-sune.mp3",
     "notes": "De stam is sun-. De bevelvorm is sun! (luister!). In combinatie met leve wordt het sun leve, dat 'horen' betekent.",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
@@ -38,6 +43,7 @@
     "id": "verb-khai",
     "word": "khāī",
     "translations": { "nl": "eten", "en": "to eat" },
+    "audioUrl": "/audio/sarnami/verb-khai.mp3",
     "notes": "De stam is khā-. Die stam eindigt op een klinker (klinkerstam). De infinitief (woordenboekvorm) eindigt op -ī. De vervoeging wijkt af van de meeste werkwoorden. Tegenwoordige tijd (nu): ham khāilā, tū khā hai. 'Ik ben aan het eten': ham khāt bāṭī. De doe-vormen khiyāve en khavāve betekenen allebei 'te eten geven'.",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
@@ -45,6 +51,7 @@
     "id": "verb-jai",
     "word": "jāī",
     "translations": { "nl": "gaan", "en": "to go" },
+    "audioUrl": "/audio/sarnami/verb-jai.mp3",
     "notes": "De stam is jā-. De verleden tijd is onregelmatig en gebruikt gail-: ham gailī, tū gaile, ū gail. Jāi wordt ook als hulpwerkwoord gebruikt. Het kan de lijdende vorm maken: dan is niet belangrijk wie de handeling doet. Het kan ook laten zien hoe een handeling verloopt.",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
@@ -52,6 +59,7 @@
     "id": "verb-ave",
     "word": "āve",
     "translations": { "nl": "komen", "en": "to come" },
+    "audioUrl": "/audio/sarnami/verb-ave.mp3",
     "notes": "De stam is ā-. De beleefde bevelvorm is āvo! (komt u!). Āve wordt ook als hulpwerkwoord gebruikt. Het kan laten zien dat een handeling net begint. Het kan ook laten zien dat iets naar de spreker toe beweegt.",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
@@ -59,6 +67,7 @@
     "id": "verb-sute",
     "word": "sūte",
     "translations": { "nl": "slapen", "en": "to sleep" },
+    "audioUrl": "/audio/sarnami/verb-sute.mp3",
     "notes": "De stam is sūt-: die eindigt op een medeklinker (medeklinkerstam), met infinitief op -e. Toekomende tijd (later): ham sūtat rahab (ik zal al slapen).",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
@@ -66,6 +75,7 @@
     "id": "verb-kine",
     "word": "kīne",
     "translations": { "nl": "kopen", "en": "to buy" },
+    "audioUrl": "/audio/sarnami/verb-kine.mp3",
     "notes": "De stam is kīn-. Verleden tijd, hij/zij (3e persoon): ū kīnis (heeft gekocht). De lijdende vorm (het gebeurt, zonder te zeggen wie het doet) is kīnal jāi (gekocht worden).",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
@@ -73,6 +83,7 @@
     "id": "verb-leve",
     "word": "leve",
     "translations": { "nl": "nemen", "en": "to take" },
+    "audioUrl": "/audio/sarnami/verb-leve.mp3",
     "notes": "De stam is le-: een klinkerstam, met infinitief op -ve. Leve wordt ook als hulpwerkwoord gebruikt: het laat zien dat iemand iets voor zichzelf doet, bijvoorbeeld sun leve (horen) en dekh leve (zien).",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
@@ -80,6 +91,7 @@
     "id": "verb-deve",
     "word": "deve",
     "translations": { "nl": "geven", "en": "to give" },
+    "audioUrl": "/audio/sarnami/verb-deve.mp3",
     "notes": "De stam is de-: een klinkerstam, met infinitief op -ve. Deve wordt ook als hulpwerkwoord gebruikt: het laat zien dat iemand iets voor een ander doet, bijvoorbeeld dĕkhā deve (laten zien).",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
@@ -87,6 +99,7 @@
     "id": "verb-dhove",
     "word": "dhove",
     "translations": { "nl": "wassen", "en": "to wash" },
+    "audioUrl": "/audio/sarnami/verb-dhove.mp3",
     "notes": "De stam is dho-: een klinkerstam op -o, met infinitief op -ve. De lijdende vorm (het gebeurt, zonder te zeggen wie het doet) is dhoval jāi of dhŏvāī (gewassen worden).",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
@@ -94,6 +107,7 @@
     "id": "verb-rove",
     "word": "rove",
     "translations": { "nl": "huilen", "en": "to cry" },
+    "audioUrl": "/audio/sarnami/verb-rove.mp3",
     "notes": "De stam is ro-: een klinkerstam op -o, met infinitief op -ve. Rove heeft geen lijdend voorwerp nodig (je huilt niet iets). De doe-vorm rŏvāve betekent 'doen huilen'.",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
@@ -101,6 +115,7 @@
     "id": "verb-piye",
     "word": "pīye",
     "translations": { "nl": "drinken", "en": "to drink" },
+    "audioUrl": "/audio/sarnami/verb-piye.mp3",
     "notes": "De stam is pī-: een klinkerstam op -ī, met infinitief op -ye. Piye heeft een lijdend voorwerp nodig (je drinkt iets), bijvoorbeeld pānī pīye (water drinken).",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
@@ -108,6 +123,7 @@
     "id": "verb-siye",
     "word": "sīye",
     "translations": { "nl": "naaien", "en": "to sew" },
+    "audioUrl": "/audio/sarnami/verb-siye.mp3",
     "notes": "De stam is sī-: een klinkerstam op -ī, met infinitief op -ye. De lijdende vorm is sīyal jāi of siyāī (genaaid worden).",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
@@ -115,6 +131,7 @@
     "id": "verb-likhe",
     "word": "likhe",
     "translations": { "nl": "schrijven", "en": "to write" },
+    "audioUrl": "/audio/sarnami/verb-likhe.mp3",
     "notes": "De stam is likh-. De beleefde bevelvorm is likhiye! of likhihe! (schrijft u!).",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
@@ -122,6 +139,7 @@
     "id": "verb-cale",
     "word": "cale",
     "translations": { "nl": "lopen, gaan, bewegen", "en": "to walk, to go, to move" },
+    "audioUrl": "/audio/sarnami/verb-cale.mp3",
     "notes": "De stam is cal-. De beleefde bevelvorm is caliye! (gaat u mee!). Cale wordt ook als hulpwerkwoord gebruikt. Het laat dan zien dat een handeling doorgaat.",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
@@ -129,6 +147,7 @@
     "id": "verb-baithe",
     "word": "baiṭhe",
     "translations": { "nl": "zitten, gaan zitten", "en": "to sit, to sit down" },
+    "audioUrl": "/audio/sarnami/verb-baithe.mp3",
     "notes": "De stam is baiṭh-. Baithe heeft geen lijdend voorwerp nodig (je zit niet iets). De doe-vorm baiṭhāve betekent 'doen zitten'. Baithe wordt ook als hulpwerkwoord gebruikt. Het laat dan zien dat iemand iets met een duidelijk doel doet.",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
@@ -136,6 +155,7 @@
     "id": "verb-uthe",
     "word": "uṭhe",
     "translations": { "nl": "opstaan, opkomen", "en": "to get up, to rise" },
+    "audioUrl": "/audio/sarnami/verb-uthe.mp3",
     "notes": "De stam is uṭh-. Uthe wordt ook als hulpwerkwoord gebruikt om een plotselinge reactie te laten zien, bijvoorbeeld bol uṭhe (het ineens uitroepen).",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
@@ -143,6 +163,7 @@
     "id": "verb-nace",
     "word": "nāce",
     "translations": { "nl": "dansen", "en": "to dance" },
+    "audioUrl": "/audio/sarnami/verb-nace.mp3",
     "notes": "De stam is nāc-. Nace heeft geen lijdend voorwerp nodig (je danst niet iets). De doe-vorm nacāve betekent 'doen dansen'.",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
@@ -150,6 +171,7 @@
     "id": "verb-hamse",
     "word": "haṁse",
     "translations": { "nl": "lachen", "en": "to laugh" },
+    "audioUrl": "/audio/sarnami/verb-hamse.mp3",
     "notes": "De stam is haṁs-. Haṁse heeft geen lijdend voorwerp nodig (je lacht niet iets).",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
@@ -157,6 +179,7 @@
     "id": "verb-kate",
     "word": "kāṭe",
     "translations": { "nl": "snijden, hakken", "en": "to cut, to chop" },
+    "audioUrl": "/audio/sarnami/verb-kate.mp3",
     "notes": "De stam is kāṭ-. Kate heeft een lijdend voorwerp nodig (je snijdt iets), zoals in lakaṛī kāṭe (hout hakken). Het hoort bij kaṭe. Kaṭe heeft geen lijdend voorwerp nodig en betekent 'gesneden worden'.",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
@@ -164,6 +187,7 @@
     "id": "verb-khele",
     "word": "khele",
     "translations": { "nl": "spelen", "en": "to play" },
+    "audioUrl": "/audio/sarnami/verb-khele.mp3",
     "notes": "De stam is khel-. Dit is een voorbeeld van een wens-vorm (aanvoegende wijs). Die vorm gebruik je voor wensen of voor dingen die nog niet zeker zijn: Maiyā māṅge hai ki laṛkavan khele (moeder wil dat de kinderen spelen).",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
@@ -171,6 +195,7 @@
     "id": "verb-mare-hit",
     "word": "māre",
     "translations": { "nl": "slaan, doden", "en": "to hit, to kill" },
+    "audioUrl": "/audio/sarnami/verb-mare-hit.mp3",
     "notes": "De stam is mār- (met een lange ā). Māre heeft een lijdend voorwerp nodig (je slaat of doodt iets/iemand). Let op het verschil met mare (sterven). De doe-vormen zijn marāve en marvāve.",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
@@ -178,6 +203,7 @@
     "id": "verb-mare-die",
     "word": "mare",
     "translations": { "nl": "sterven, doodgaan", "en": "to die, to pass away" },
+    "audioUrl": "/audio/sarnami/verb-mare-die.mp3",
     "notes": "De stam is mar- (met een korte a). Mare heeft geen lijdend voorwerp nodig (je sterft niet iets). Door de klinker in de stam langer te maken ontstaat māre (doden, slaan), dat wél een lijdend voorwerp nodig heeft.",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
@@ -185,6 +211,7 @@
     "id": "verb-pahine",
     "word": "pahine",
     "translations": { "nl": "aantrekken, dragen (kleding)", "en": "to put on, to wear (clothing)" },
+    "audioUrl": "/audio/sarnami/verb-pahine.mp3",
     "notes": "De stam is pahin-. Voorbeeld van een voltooide tijd: kapaṛā pahinle rahte (je zou je aangekleed hebben).",
     "tags": ["verb", "book-p57", "needs-verification"]
   },
@@ -192,6 +219,7 @@
     "id": "verb-samjhe",
     "word": "samjhe",
     "translations": { "nl": "begrijpen, snappen", "en": "to understand, to get" },
+    "audioUrl": "/audio/sarnami/verb-samjhe.mp3",
     "notes": "De stam is samajh- of samjh-. Voltooid verleden tijd (had gedaan, langer geleden): nā samajhle rahā of samjhe rahā (had niet begrepen). De doe-vorm samjhāve betekent 'uitleggen'.",
     "tags": ["verb", "book-p57", "needs-verification"]
   },
@@ -199,6 +227,7 @@
     "id": "verb-khoje",
     "word": "khoje",
     "translations": { "nl": "zoeken", "en": "to look for, to search" },
+    "audioUrl": "/audio/sarnami/verb-khoje.mp3",
     "notes": "Stam: khoj-. tū oke khoje gai rahe (je ging hem zoeken).",
     "tags": ["verb", "book-p57", "needs-verification"]
   },
@@ -206,6 +235,7 @@
     "id": "verb-puche",
     "word": "pūche",
     "translations": { "nl": "vragen", "en": "to ask" },
+    "audioUrl": "/audio/sarnami/verb-puche.mp3",
     "notes": "De stam is pūch-. Met de nadruk-uitgang -hi erbij (een uitgang die iets extra benadrukt) wordt het puchahi (helemaal vragen).",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
@@ -213,6 +243,7 @@
     "id": "verb-bolna",
     "word": "bol-nā",
     "translations": { "nl": "spreken", "en": "to speak" },
+    "audioUrl": "/audio/sarnami/verb-bolna.mp3",
     "notes": "Dit is de vorm op '-nā', zoals in 'bol-nā sikhe hai' (leert spreken). 'Bole' (verb-bole) is de andere vorm van hetzelfde werkwoord.",
     "tags": ["verb"]
   },
@@ -220,12 +251,14 @@
     "id": "verb-sikhe",
     "word": "sikhe",
     "translations": { "nl": "leren", "en": "to learn" },
+    "audioUrl": "/audio/sarnami/verb-sikhe.mp3",
     "tags": ["verb"]
   },
   {
     "id": "verb-lave",
     "word": "lāve",
     "translations": { "nl": "halen", "en": "to fetch, to bring" },
+    "audioUrl": "/audio/sarnami/verb-lave.mp3",
     "notes": "Lijkt op 'āve' (verb-ave, komen), maar 'lāve' betekent 'halen' (iets meebrengen).",
     "tags": ["verb"]
   },
@@ -233,6 +266,7 @@
     "id": "verb-dai",
     "word": "dai",
     "translations": { "nl": "drinken", "en": "to drink" },
+    "audioUrl": "/audio/sarnami/verb-dai.mp3",
     "notes": "Komt voor in de samengestelde vorm dai de (te drinken geven), met deve (verb-deve) als hulpwerkwoord.",
     "tags": ["verb"]
   },
@@ -240,6 +274,7 @@
     "id": "verb-pakare",
     "word": "pakaṛe",
     "translations": { "nl": "pakken, vastgrijpen", "en": "to catch, to grab, to hold" },
+    "audioUrl": "/audio/sarnami/verb-pakare.mp3",
     "notes": "Stam: pakaṛ-. Komt voor in de samengestelde vorm pakaṛ leis (vastgepakt), met leve (verb-leve) als hulpwerkwoord.",
     "tags": ["verb"]
   },
@@ -247,12 +282,14 @@
     "id": "verb-turle",
     "word": "ṭurle",
     "translations": { "nl": "plukken", "en": "to pluck" },
+    "audioUrl": "/audio/sarnami/verb-turle.mp3",
     "tags": ["verb"]
   },
   {
     "id": "verb-jante",
     "word": "jāntā",
     "translations": { "nl": "weet (kennen)", "en": "know(s)" },
+    "audioUrl": "/audio/sarnami/verb-jante.mp3",
     "notes": "Educated guess op basis van de zinsvertaling ('Ik weet dat...'); niet geverifieerd tegen het boek.",
     "tags": ["verb", "needs-verification"]
   }

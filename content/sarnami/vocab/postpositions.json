@@ -6,6 +6,7 @@
       "nl": "in",
       "en": "in"
     },
+    "audioUrl": "/audio/sarnami/post-mem.mp3",
     "notes": "Het Nickeriaans kent ook de vormen emāṁ/omāṁ (6.5). boekvorm meṁ aangehouden.",
     "tags": [
       "postposition",
@@ -20,6 +21,7 @@
       "nl": "met, door, uit, aan",
       "en": "with, by, from, to"
     },
+    "audioUrl": "/audio/sarnami/post-se.mp3",
     "tags": [
       "postposition",
       "book-p86"
@@ -32,6 +34,7 @@
       "nl": "op",
       "en": "on"
     },
+    "audioUrl": "/audio/sarnami/post-par.mp3",
     "notes": "Komt ook voor in de nevenvorm 'pe'.",
     "tags": [
       "postposition",
@@ -46,6 +49,7 @@
       "nl": "van, aan",
       "en": "of, to"
     },
+    "audioUrl": "/audio/sarnami/post-ke.mp3",
     "notes": "Vormt ook de basis van de samengestelde achterzetsels (ke uppar, ke binā, ...).",
     "tags": [
       "postposition",
@@ -59,6 +63,7 @@
       "nl": "boven",
       "en": "above"
     },
+    "audioUrl": "/audio/sarnami/post-ke-uppar.mp3",
     "notes": "Ke kan soms wegvallen.",
     "tags": [
       "postposition",
@@ -72,6 +77,7 @@
       "nl": "beneden, onder",
       "en": "below, under"
     },
+    "audioUrl": "/audio/sarnami/post-ke-nicce.mp3",
     "tags": [
       "postposition",
       "book-p87"
@@ -84,6 +90,7 @@
       "nl": "binnen, in",
       "en": "inside, in"
     },
+    "audioUrl": "/audio/sarnami/post-ke-bhittar.mp3",
     "tags": [
       "postposition",
       "book-p87"
@@ -96,6 +103,7 @@
       "nl": "buiten",
       "en": "outside"
     },
+    "audioUrl": "/audio/sarnami/post-ke-bahar.mp3",
     "notes": "Macron op de eerste ā.",
     "tags": [
       "postposition",
@@ -109,6 +117,7 @@
       "nl": "(samen) met",
       "en": "(together) with"
     },
+    "audioUrl": "/audio/sarnami/post-ke-sath.mp3",
     "notes": "Macron op de ā.",
     "tags": [
       "postposition",
@@ -123,6 +132,7 @@
       "nl": "zonder",
       "en": "without"
     },
+    "audioUrl": "/audio/sarnami/post-ke-bina.mp3",
     "notes": "Macron op de ā. Het boek gebruikt binā als voorbeeld bij de voornaamwoordelijke vormen (6.3: hamār binā, tor binā).",
     "tags": [
       "postposition",
@@ -137,6 +147,7 @@
       "nl": "bij, dichtbij",
       "en": "near, close by"
     },
+    "audioUrl": "/audio/sarnami/post-ke-lage.mp3",
     "notes": "Dichtbij' maar zonder boekkruisverwijzing.",
     "tags": [
       "postposition",
@@ -151,6 +162,7 @@
       "nl": "voor, vóór",
       "en": "in front of, before"
     },
+    "audioUrl": "/audio/sarnami/post-ke-age.mp3",
     "notes": "Macron op de ā.",
     "tags": [
       "postposition",
@@ -165,6 +177,7 @@
       "nl": "achter",
       "en": "behind"
     },
+    "audioUrl": "/audio/sarnami/post-ke-piche.mp3",
     "tags": [
       "postposition",
       "book-p87"
@@ -177,6 +190,7 @@
       "nl": "bij (voorzetsel locatie)",
       "en": "at (locative preposition)"
     },
+    "audioUrl": "/audio/sarnami/post-se-locative.mp3",
     "notes": "Dit 'se' betekent hier 'bij'. Zoals in 'bajār se saudā lāve' (haalt boodschappen bij de markt). Let op: 'post-se' en 'gram-se' zijn ook 'se', maar betekenen iets anders.",
     "tags": ["postposition"]
   }

@@ -6,6 +6,7 @@
       "nl": "of wel",
       "en": "or else"
     },
+    "audioUrl": "/audio/sarnami/conj-ofwel.mp3",
     "notes": "Dit woordje verbindt twee gelijkwaardige delen van een zin, net als 'of' in het Nederlands. Het is een variant van yā ('of').",
     "tags": [
       "conjunction",
@@ -21,6 +22,7 @@
       "nl": "zowel … als …",
       "en": "both … and …"
     },
+    "audioUrl": "/audio/sarnami/conj-zowel-als.mp3",
     "notes": "Dit is een woordpaar: je gebruikt kā twee keer, één keer voor elk deel dat je verbindt. Samen betekenen ze 'zowel ... als ...'.",
     "tags": [
       "conjunction",
@@ -37,6 +39,7 @@
       "nl": "noch … noch …",
       "en": "neither … nor …"
     },
+    "audioUrl": "/audio/sarnami/conj-noch-noch.mp3",
     "notes": "Dit is een woordpaar: je gebruikt nā twee keer, één keer voor elk deel. Samen betekenen ze 'noch ... noch ...'.",
     "tags": [
       "conjunction",
@@ -53,6 +56,7 @@
       "nl": "opdat, zodat",
       "en": "in order that, so that"
     },
+    "audioUrl": "/audio/sarnami/conj-zodat.mp3",
     "notes": "Dit woordje verbindt twee delen van een zin. Het laat zien wat het doel of gevolg is, net als 'zodat' in het Nederlands. Andere vormen: jame, jeme.",
     "tags": [
       "conjunction",
@@ -68,6 +72,7 @@
       "nl": "ook al, hoewel",
       "en": "even though, although"
     },
+    "audioUrl": "/audio/sarnami/conj-ookal.mp3",
     "notes": "Dit woordje verbindt twee delen van een zin. Het laat een tegenstelling zien, net als 'hoewel' in het Nederlands.",
     "tags": [
       "conjunction",
@@ -83,6 +88,7 @@
       "nl": "zolang",
       "en": "as long as"
     },
+    "audioUrl": "/audio/sarnami/conj-zolang.mp3",
     "notes": "Dit woordje geeft een tijdsduur aan, net als 'zolang' in het Nederlands. Andere vorm: jab tak.",
     "tags": [
       "conjunction",
@@ -98,6 +104,7 @@
       "nl": "en",
       "en": "and"
     },
+    "audioUrl": "/audio/sarnami/conj-aur.mp3",
     "notes": "Dit woordje verbindt twee gelijkwaardige delen van een zin, net als 'en' in het Nederlands. Let op: 'aur' heeft ook een andere betekenis bij het vergelijken van dingen, bijvoorbeeld bij 'groter' of 'meer'. Dat is een ander gebruik van hetzelfde woord.",
     "tags": [
       "conjunction",
