@@ -1,6 +1,6 @@
 # unit-13-reading — candidate example sentences
 
-Status: DRAFT
+Status: FINALIZED
 
 Source: `authored_docs/byakaran/11-texts.md` (Sarnami Byākaran, Marhé 1985, Bijlagen 1–3: two
 folk tales plus a fable). Per issue #261, this draft uses **extraction, not generation** — every
