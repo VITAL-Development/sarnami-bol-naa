@@ -373,5 +373,26 @@
     "word": "aṅguṭṭhī",
     "translations": { "nl": "ring", "en": "ring" },
     "tags": ["noun"]
+  },
+  {
+    "id": "noun-bed",
+    "word": "Bed",
+    "translations": { "nl": "de Veda's", "en": "the Vedas" },
+    "notes": "Uit het boek (introductie-vocabulaire en §6.2.1): 'Bed meṁ ham ī batiyā parhle bāṭī' (Ik heb dit in de Veda's gelezen).",
+    "tags": ["noun", "proper-noun", "book", "needs-verification"]
+  },
+  {
+    "id": "noun-batiya",
+    "word": "batiyā",
+    "translations": { "nl": "ding, zaak", "en": "thing, matter" },
+    "notes": "Explicietere vorm naast het voornaamwoord ī ('dit'): 'ham ī batiyā parhle bāṭī' (ik heb dit [ding] gelezen). Uit het boek, §6.2.1.",
+    "tags": ["noun", "book", "needs-verification"]
+  },
+  {
+    "id": "noun-hath",
+    "word": "hāth",
+    "translations": { "nl": "hand", "en": "hand" },
+    "notes": "Lange vorm hathvā. Uit het boek (§6.2.1): 'Ŏkare hāthe meṁ chūrī rahā' (Hij had een mes in zijn hand).",
+    "tags": ["noun", "book", "needs-verification"]
   }
 ]

@@ -11,16 +11,20 @@
         "vocabRefs": [
           "post-mem",
           "pron-ham",
-          "pron-i"
+          "pron-i",
+          "noun-bed",
+          "noun-batiya",
+          "verb-parhe",
+          "gram-bati"
         ],
         "tokenVocabRefs": [
-          null,
+          "noun-bed",
           "post-mem",
           "pron-ham",
           "pron-i",
-          null,
-          null,
-          null
+          "noun-batiya",
+          "verb-parhe",
+          "gram-bati"
         ]
       },
       {
@@ -32,14 +36,15 @@
         "vocabRefs": [
           "post-ke-bhittar",
           "noun-ghar",
-          "pron-ham"
+          "pron-ham",
+          "gram-bati"
         ],
         "tokenVocabRefs": [
           "pron-ham",
           "noun-ghar",
           "post-ke-bhittar",
           "post-ke-bhittar",
-          null
+          "gram-bati"
         ]
       },
       {
@@ -285,13 +290,13 @@
           "en": "I have read this in the Vedas."
         },
         "tokenVocabRefs": [
-          null,
+          "noun-bed",
           "post-mem",
           "pron-ham",
           "pron-i",
-          null,
-          null,
-          null
+          "noun-batiya",
+          "verb-parhe",
+          "gram-bati"
         ]
       },
       "com-e4": {
@@ -367,11 +372,12 @@
           "post-mem",
           "pron-okar",
           "noun-churi",
-          "gram-raha-aux"
+          "gram-raha-aux",
+          "noun-hath"
         ],
         "tokenVocabRefs": [
           "pron-okar",
-          null,
+          "noun-hath",
           "post-mem",
           "noun-churi",
           "gram-raha-aux"
@@ -809,13 +815,13 @@
           "en": "I have read this in the Vedas."
         },
         "tokenVocabRefs": [
-          null,
+          "noun-bed",
           "post-mem",
           "pron-ham",
           "pron-i",
-          null,
-          null,
-          null
+          "noun-batiya",
+          "verb-parhe",
+          "gram-bati"
         ]
       },
       "rev-e7": {
