@@ -127,7 +127,7 @@
       {
         "id": "gn-post-1",
         "title": "Achterzetsel, geen voorzetsel",
-        "body": "Het Sarnami plaatst het achterzetsel ACHTER het woord waar het bij hoort — anders dan het Nederlands, dat een voorzetsel ervóór zet. Zo wordt 'in huis' letterlijk 'huis in': ghar meṁ. En 'op het huis' wordt ghar par. Onthoud dus: eerst het naam- of voornaamwoord, dan het achterzetsel.",
+        "body": "Het Sarnami plaatst het achterzetsel ACHTER het woord. Het Nederlands doet dat anders: daar komt het voorzetsel VÓÓR het woord. Zo wordt 'in huis' letterlijk 'huis in': ghar meṁ. En 'op het huis' wordt ghar par. Onthoud dus: eerst het naam- of voornaamwoord, dan het achterzetsel.",
         "relatedVocab": [
           "post-mem",
           "post-par",
@@ -444,7 +444,7 @@
       {
         "id": "gn-post-5",
         "title": "Met voornaamwoorden valt ke weg",
-        "body": "Staat een achterzetsel bij een persoonlijk voornaamwoord (ham, tū, ī, ū), dan neemt dat voornaamwoord de bezittelijke vorm aan en valt de ke weg. Zo wordt 'zonder mij' hamār binā (niet 'ham ke binā'), 'zonder jou' tor binā, en 'zonder hem/haar' ekar binā of okar binā. Hetzelfde patroon geldt voor de andere samengestelde achterzetsels: tor sāth (samen met jou).",
+        "body": "Als een achterzetsel bij een persoonlijk voornaamwoord staat (ham, tū, ī, ū), verandert dat voornaamwoord. Het krijgt dan zijn bezittelijke vorm: de vorm die 'van mij', 'van jou' of 'van hem/haar' betekent. De ke valt daarbij weg. Zo wordt 'zonder mij' hamār binā (niet 'ham ke binā'), 'zonder jou' tor binā, en 'zonder hem/haar' ekar binā of okar binā. Hetzelfde patroon geldt voor de andere samengestelde achterzetsels: tor sāth (samen met jou).",
         "relatedVocab": [
           "post-ke-bina",
           "post-ke-sath",
