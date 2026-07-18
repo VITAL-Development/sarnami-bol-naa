@@ -350,7 +350,7 @@
       {
         "id": "gn-04-number-1",
         "title": "Korte en lange vorm (onbepaald / bepaald)",
-        "body": "Een zelfstandig naamwoord heeft meestal twee vormen: een korte vorm en een lange vorm. De korte vorm is onbepaald. Dat betekent 'een huis' in plaats van 'het huis'. Bijvoorbeeld: ghar betekent 'een huis'. De lange vorm is bepaald. Dat betekent 'het huis' in plaats van 'een huis'. Je maakt de lange vorm met de uitgang -vā, -iyā of -yā. Soms verandert daarbij ook de klank van het woord een beetje. Voorbeeld: ghar wordt gharvā ('het huis'). Nog een voorbeeld: ghoṛā wordt ghŏṛvā ('het paard'). En: nāk wordt nakiyā ('de neus'). En: beṭī wordt biṭiyā ('de dochter'). Als je ī of ū voor de lange vorm zet, betekent het 'deze' of 'die'. Ū gharvā betekent bijvoorbeeld 'dat huis'.",
+        "body": "Een zelfstandig naamwoord (een woord voor een ding, dier of persoon, zoals 'huis' of 'paard') heeft meestal twee vormen: een korte vorm en een lange vorm. De korte vorm is onbepaald. Dat betekent 'een huis' in plaats van 'het huis'. Bijvoorbeeld: ghar betekent 'een huis'. De lange vorm is bepaald. Dat betekent 'het huis' in plaats van 'een huis'. Je maakt de lange vorm met de uitgang -vā, -iyā of -yā. Soms verandert daarbij ook de klank van het woord een beetje. Voorbeeld: ghar wordt gharvā ('het huis'). Nog een voorbeeld: ghoṛā wordt ghŏṛvā ('het paard'). En: nāk wordt nakiyā ('de neus'). En: beṭī wordt biṭiyā ('de dochter'). Als je ī of ū voor de lange vorm zet, betekent het 'deze' of 'die'. Ū gharvā betekent bijvoorbeeld 'dat huis'.",
         "relatedVocab": [
           "noun-ghora",
           "noun-nak",
@@ -837,7 +837,7 @@
       {
         "id": "gn-04-num-1",
         "title": "De hoofdtelwoorden 0–10",
-        "body": "De hoofdtelwoorden van nul tot tien zijn: sunnā (0), ek (1), dūi (2), tīn (3), cār (4), pāṃc (5), chau (6), sāt (7), āṭh (8), nau (9) en das (10). Grotere ronde getallen: honderd is sau, tweehonderd dūi sau en duizend (ek) hajār.",
+        "body": "De hoofdtelwoorden — de gewone telwoorden zoals 'een', 'twee', 'drie' — van nul tot tien zijn: sunnā (0), ek (1), dūi (2), tīn (3), cār (4), pāṃc (5), chau (6), sāt (7), āṭh (8), nau (9) en das (10). Grotere ronde getallen: honderd is sau, tweehonderd dūi sau en duizend (ek) hajār.",
         "relatedVocab": [
           "num-sunna",
           "num-ek",
@@ -856,7 +856,7 @@
       {
         "id": "gn-04-num-2",
         "title": "Tellen met -go en -ṭho",
-        "body": "Als een telwoord een zelfstandig naamwoord telt, wordt het vaak versterkt met -go, -ṭho, -ṭhe of -ṭhi (de laatste twee komen minder vaak voor): sāt go cor ('7 dieven'), tīn ṭhe ām ('drie manjes'), dūi ṭhī aṅguṭṭhī ('2 ringen'). Heel gebruikelijk is ego (= ek + go), dat ook dienstdoet als onbepaald lidwoord 'een'.",
+        "body": "Als een telwoord iets telt (een ding, dier of persoon), wordt het vaak versterkt met -go, -ṭho, -ṭhe of -ṭhi: sāt go cor ('7 dieven'), tīn ṭhe ām ('drie manjes'), dūi ṭhī aṅguṭṭhī ('2 ringen'). -ṭho en -ṭhi komen minder vaak voor. Heel gebruikelijk is ego (= ek + go). Dat gebruik je ook in plaats van het woordje 'een'.",
         "relatedVocab": [
           "num-ek",
           "num-dui",
