@@ -5,66 +5,282 @@
       {
         "id": "ex-6-1",
         "word": "Mahes ego choṭā ghar kīnis hai.",
-        "translations": { "nl": "Mahes heeft een huisje gekocht." },
-        "vocabRefs": ["adj-chota"]
+        "translations": {
+          "nl": "Mahes heeft een huisje gekocht."
+        },
+        "vocabRefs": [
+          "adj-chota",
+          "noun-ghar",
+          "verb-kine",
+          "gram-hai",
+          "noun-mahes",
+          "gram-ego"
+        ],
+        "tokenVocabRefs": [
+          "noun-mahes",
+          "gram-ego",
+          "adj-chota",
+          "noun-ghar",
+          "verb-kine",
+          "gram-hai"
+        ]
       },
       {
         "id": "ex-6-2",
         "word": "Mahes chŏṭkā gharvā kīnis hai.",
-        "translations": { "nl": "Mahes heeft het huisje gekocht." },
-        "vocabRefs": ["adj-chota"]
+        "translations": {
+          "nl": "Mahes heeft het huisje gekocht."
+        },
+        "vocabRefs": [
+          "adj-chota",
+          "noun-ghar",
+          "verb-kine",
+          "gram-hai",
+          "noun-mahes"
+        ],
+        "tokenVocabRefs": [
+          "noun-mahes",
+          "adj-chota",
+          "noun-ghar",
+          "verb-kine",
+          "gram-hai"
+        ]
       },
       {
         "id": "ex-6-3",
         "word": "Hariyā lāl somth pahine hai.",
-        "translations": { "nl": "Hari draagt een rood overhemd." },
-        "vocabRefs": ["adj-lal"]
+        "translations": {
+          "nl": "Hari draagt een rood overhemd."
+        },
+        "vocabRefs": [
+          "adj-lal",
+          "verb-pahine",
+          "gram-hai",
+          "noun-hariya",
+          "noun-somth"
+        ],
+        "tokenVocabRefs": [
+          "noun-hariya",
+          "adj-lal",
+          "noun-somth",
+          "verb-pahine",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-6-4",
+        "word": "Mahes ego pātar chūrī kīnis hai.",
+        "translations": {
+          "nl": "Mahes heeft een dun mes gekocht.",
+          "en": "Mahes bought a thin knife."
+        },
+        "vocabRefs": [
+          "adj-patar",
+          "noun-churi",
+          "verb-kine",
+          "gram-hai",
+          "noun-mahes",
+          "gram-ego"
+        ],
+        "tokenVocabRefs": [
+          "noun-mahes",
+          "gram-ego",
+          "adj-patar",
+          "noun-churi",
+          "verb-kine",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-6-5",
+        "word": "Mahes patarkā churiyā kīnis hai.",
+        "translations": {
+          "nl": "Mahes heeft het dunne mes gekocht.",
+          "en": "Mahes bought the thin knife."
+        },
+        "vocabRefs": [
+          "adj-patar",
+          "noun-churi",
+          "verb-kine",
+          "gram-hai",
+          "noun-mahes"
+        ],
+        "tokenVocabRefs": [
+          "noun-mahes",
+          "adj-patar",
+          "noun-churi",
+          "verb-kine",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-6-6",
+        "word": "Mahes ego mīṭhā ām kīnis hai.",
+        "translations": {
+          "nl": "Mahes heeft een lekkere manje gekocht.",
+          "en": "Mahes bought a tasty mango."
+        },
+        "vocabRefs": [
+          "adj-mitha",
+          "noun-am",
+          "verb-kine",
+          "gram-hai",
+          "noun-mahes",
+          "gram-ego"
+        ],
+        "tokenVocabRefs": [
+          "noun-mahes",
+          "gram-ego",
+          "adj-mitha",
+          "noun-am",
+          "verb-kine",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-6-7",
+        "word": "Mahes miṭhkā amvā kīnis hai.",
+        "translations": {
+          "nl": "Mahes heeft de lekkere manje gekocht.",
+          "en": "Mahes bought the tasty mango."
+        },
+        "vocabRefs": [
+          "adj-mitha",
+          "noun-am",
+          "verb-kine",
+          "gram-hai",
+          "noun-mahes"
+        ],
+        "tokenVocabRefs": [
+          "noun-mahes",
+          "adj-mitha",
+          "noun-am",
+          "verb-kine",
+          "gram-hai"
+        ]
       }
     ],
     "grammarNotes": [
       {
         "id": "gn-6-1",
         "title": "Stam, lange en langere vorm",
-        "body": "Bijvoeglijke naamwoorden hebben drie vormen: de stam (onbepaalde betekenis, bv. choṭā 'klein'), de lange vorm met -kā (bepaalde betekenis, bv. chŏṭkā), en de langere vorm met -kavā (sterkere nadruk, bv. chŏṭkāvā). In het district Nickerie wordt in plaats van -kavā vaak -kanā gebruikt (chŏṭkanā).",
-        "relatedVocab": ["adj-chota"]
+        "body": "Een bijvoeglijk naamwoord is een woord dat iets beschrijft, zoals 'klein' of 'rood'. Zo'n woord heeft in het Sarnami drie vormen. De stam is de neutrale vorm. Bijvoorbeeld: choṭā betekent 'klein'. De lange vorm eindigt op -kā. Bijvoorbeeld: chŏṭkā. De langere vorm eindigt op -kavā en legt extra nadruk. Bijvoorbeeld: chŏṭkāvā. In het district Nickerie gebruikt men vaak -kanā in plaats van -kavā. Bijvoorbeeld: chŏṭkanā.",
+        "relatedVocab": [
+          "adj-chota"
+        ]
       }
     ],
     "exercises": {
       "l6-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent 'choṭā'?",
-        "promptTranslations": { "nl": "Wat betekent 'choṭā'?", "en": "What does 'choṭā' mean?" },
-        "options": ["klein", "rood", "dun", "lekker"],
+        "promptTranslations": {
+          "nl": "Wat betekent 'choṭā'?",
+          "en": "What does 'choṭā' mean?"
+        },
+        "options": [
+          "klein",
+          "rood",
+          "dun",
+          "lekker"
+        ],
         "optionTranslations": [
-          { "nl": "klein", "en": "small" },
-          { "nl": "rood", "en": "red" },
-          { "nl": "dun", "en": "thin" },
-          { "nl": "lekker", "en": "tasty" }
+          {
+            "nl": "klein",
+            "en": "small"
+          },
+          {
+            "nl": "rood",
+            "en": "red"
+          },
+          {
+            "nl": "dun",
+            "en": "thin"
+          },
+          {
+            "nl": "lekker",
+            "en": "tasty"
+          }
         ],
         "correctIndex": 0
       },
       "l6-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "choṭā", "right": "klein", "rightTranslations": { "nl": "klein", "en": "small" } },
-          { "left": "lāl", "right": "rood", "rightTranslations": { "nl": "rood", "en": "red" } },
-          { "left": "sojhā", "right": "recht", "rightTranslations": { "nl": "recht", "en": "straight" } },
-          { "left": "pātar", "right": "dun", "rightTranslations": { "nl": "dun", "en": "thin" } },
-          { "left": "mīṭhā", "right": "lekker", "rightTranslations": { "nl": "lekker", "en": "tasty" } }
+          {
+            "left": "choṭā",
+            "right": "klein",
+            "rightTranslations": {
+              "nl": "klein",
+              "en": "small"
+            }
+          },
+          {
+            "left": "lāl",
+            "right": "rood",
+            "rightTranslations": {
+              "nl": "rood",
+              "en": "red"
+            }
+          },
+          {
+            "left": "sojhā",
+            "right": "recht",
+            "rightTranslations": {
+              "nl": "recht",
+              "en": "straight"
+            }
+          },
+          {
+            "left": "pātar",
+            "right": "dun",
+            "rightTranslations": {
+              "nl": "dun",
+              "en": "thin"
+            }
+          },
+          {
+            "left": "mīṭhā",
+            "right": "lekker",
+            "rightTranslations": {
+              "nl": "lekker",
+              "en": "tasty"
+            }
+          }
         ]
       },
       "l6-e3": {
         "kind": "fill-blank",
         "sentenceTemplate": "Mahes ego ___ ghar kīnis hai.",
         "correctAnswer": "choṭā",
-        "options": ["choṭā", "lāl", "pātar", "mīṭhā"],
-        "translations": { "nl": "Mahes heeft een huisje gekocht.", "en": "Mahes bought a little house." }
+        "options": [
+          "choṭā",
+          "lāl",
+          "pātar",
+          "mīṭhā"
+        ],
+        "translations": {
+          "nl": "Mahes heeft een huisje gekocht.",
+          "en": "Mahes bought a little house."
+        }
       },
       "l6-e5": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Mahes heeft het huisje gekocht.", "en": "Mahes bought the little house." },
-        "correctTargetTokens": ["Mahes", "chŏṭkā", "gharvā", "kīnis", "hai."],
-        "distractorTokens": ["lalkā", "miṭhkā"]
+        "promptTranslations": {
+          "nl": "Mahes heeft het huisje gekocht.",
+          "en": "Mahes bought the little house."
+        },
+        "correctTargetTokens": [
+          "Mahes",
+          "chŏṭkā",
+          "gharvā",
+          "kīnis",
+          "hai."
+        ],
+        "distractorTokens": [
+          "lalkā",
+          "miṭhkā"
+        ]
       }
     }
   },
@@ -74,65 +290,215 @@
       {
         "id": "ex-7-1",
         "word": "Ego barkā per.",
-        "translations": { "nl": "Een grote boom." },
-        "vocabRefs": ["adj-barka"]
+        "translations": {
+          "nl": "Een grote boom."
+        },
+        "vocabRefs": [
+          "adj-barka",
+          "noun-per",
+          "gram-ego"
+        ],
+        "tokenVocabRefs": [
+          "gram-ego",
+          "adj-barka",
+          "noun-per"
+        ]
       },
       {
         "id": "ex-7-2",
         "word": "Ū barkāvan pervan.",
-        "translations": { "nl": "Die grote bomen." },
-        "vocabRefs": ["adj-barka"]
+        "translations": {
+          "nl": "Die grote bomen."
+        },
+        "vocabRefs": [
+          "adj-barka",
+          "pron-u",
+          "noun-per"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "adj-barka",
+          "noun-per"
+        ]
       },
       {
         "id": "ex-7-3",
         "word": "Karikkanī bakariyā.",
-        "translations": { "nl": "De zwarte geit." },
-        "vocabRefs": ["adj-karikka"]
+        "translations": {
+          "nl": "De zwarte geit."
+        },
+        "vocabRefs": [
+          "adj-karikka",
+          "noun-bakari"
+        ],
+        "tokenVocabRefs": [
+          "adj-karikka",
+          "noun-bakari"
+        ]
+      },
+      {
+        "id": "ex-7-4",
+        "word": "Karikkī gaiyā.",
+        "translations": {
+          "nl": "De zwarte koe.",
+          "en": "The black cow."
+        },
+        "vocabRefs": [
+          "adj-karikka",
+          "noun-gai"
+        ],
+        "tokenVocabRefs": [
+          "adj-karikka",
+          "noun-gai"
+        ]
+      },
+      {
+        "id": "ex-7-5",
+        "word": "Chŏṭkanī chaumriyā.",
+        "translations": {
+          "nl": "Het kleine meisje.",
+          "en": "The small girl."
+        },
+        "vocabRefs": [
+          "adj-chota",
+          "noun-chaumri"
+        ],
+        "tokenVocabRefs": [
+          "adj-chota",
+          "noun-chaumri"
+        ]
+      },
+      {
+        "id": "ex-7-6",
+        "word": "Ū barkāvan ghŏṛvan.",
+        "translations": {
+          "nl": "Die grote paarden.",
+          "en": "Those big horses."
+        },
+        "vocabRefs": [
+          "adj-barka",
+          "pron-u",
+          "noun-ghora"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "adj-barka",
+          "noun-ghora"
+        ]
       }
     ],
     "grammarNotes": [
       {
         "id": "gn-7-1",
         "title": "Meervoud en vrouwelijke vorm",
-        "body": "Bijvoeglijke naamwoorden nemen het getal (enkelvoud/meervoud) over van het zelfstandig naamwoord dat ze bepalen: ū barkāvā perva (die grote boom) wordt ū barkāvan pervan (die grote bomen) in het meervoud. Bij vrouwelijke zelfstandige naamwoorden krijgt het bijvoeglijk naamwoord vaak de uitgang -ī: karikkanī bakariyā (de zwarte geit), lalkanī sariyā (de rode sari).",
-        "relatedVocab": ["adj-barka", "adj-karikka"]
+        "body": "Een bijvoeglijk naamwoord neemt het getal (enkelvoud/meervoud) over van het zelfstandig naamwoord. Bijvoorbeeld: ū barkāvā perva (die grote boom) wordt in het meervoud ū barkāvan pervan (die grote bomen). Bij een vrouwelijk zelfstandig naamwoord krijgt het bijvoeglijk naamwoord vaak de uitgang -ī. Bijvoorbeeld: karikkanī bakariyā (de zwarte geit), lalkanī sariyā (de rode sari).",
+        "relatedVocab": [
+          "adj-barka",
+          "adj-karikka"
+        ]
       }
     ],
     "exercises": {
       "l7-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent 'barkā'?",
-        "promptTranslations": { "nl": "Wat betekent 'barkā'?", "en": "What does 'barkā' mean?" },
-        "options": ["groot", "lang", "goed", "zwart"],
+        "promptTranslations": {
+          "nl": "Wat betekent 'barkā'?",
+          "en": "What does 'barkā' mean?"
+        },
+        "options": [
+          "groot",
+          "lang",
+          "goed",
+          "zwart"
+        ],
         "optionTranslations": [
-          { "nl": "groot", "en": "big" },
-          { "nl": "lang", "en": "long" },
-          { "nl": "goed", "en": "good" },
-          { "nl": "zwart", "en": "black" }
+          {
+            "nl": "groot",
+            "en": "big"
+          },
+          {
+            "nl": "lang",
+            "en": "long"
+          },
+          {
+            "nl": "goed",
+            "en": "good"
+          },
+          {
+            "nl": "zwart",
+            "en": "black"
+          }
         ],
         "correctIndex": 0
       },
       "l7-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "barkā", "right": "groot", "rightTranslations": { "nl": "groot", "en": "big" } },
-          { "left": "lammā", "right": "lang", "rightTranslations": { "nl": "lang", "en": "long" } },
-          { "left": "barhimyā", "right": "goed", "rightTranslations": { "nl": "goed", "en": "good" } },
-          { "left": "karikkā", "right": "zwart", "rightTranslations": { "nl": "zwart", "en": "black" } }
+          {
+            "left": "barkā",
+            "right": "groot",
+            "rightTranslations": {
+              "nl": "groot",
+              "en": "big"
+            }
+          },
+          {
+            "left": "lammā",
+            "right": "lang",
+            "rightTranslations": {
+              "nl": "lang",
+              "en": "long"
+            }
+          },
+          {
+            "left": "barhimyā",
+            "right": "goed",
+            "rightTranslations": {
+              "nl": "goed",
+              "en": "good"
+            }
+          },
+          {
+            "left": "karikkā",
+            "right": "zwart",
+            "rightTranslations": {
+              "nl": "zwart",
+              "en": "black"
+            }
+          }
         ]
       },
       "l7-e3": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Die grote bomen.", "en": "Those big trees." },
-        "correctTargetTokens": ["Ū", "barkāvan", "pervan."],
-        "distractorTokens": ["chŏṭkā", "lalkā"]
+        "promptTranslations": {
+          "nl": "Die grote bomen.",
+          "en": "Those big trees."
+        },
+        "correctTargetTokens": [
+          "Ū",
+          "barkāvan",
+          "pervan."
+        ],
+        "distractorTokens": [
+          "chŏṭkā",
+          "lalkā"
+        ]
       },
       "l7-e4": {
         "kind": "fill-blank",
         "sentenceTemplate": "___ bakariyā.",
         "correctAnswer": "Karikkanī",
-        "options": ["Karikkanī", "Lalkanī", "Chŏṭkanī", "Miṭhkanī"],
-        "translations": { "nl": "De zwarte geit.", "en": "The black goat." }
+        "options": [
+          "Karikkanī",
+          "Lalkanī",
+          "Chŏṭkanī",
+          "Miṭhkanī"
+        ],
+        "translations": {
+          "nl": "De zwarte geit.",
+          "en": "The black goat."
+        }
       }
     }
   },
@@ -142,58 +508,257 @@
       {
         "id": "ex-8-1",
         "word": "Hamār ghar tor ghar se barkā hai.",
-        "translations": { "nl": "Mijn huis is groter dan jouw huis." },
-        "vocabRefs": ["gram-se", "adj-barka"]
+        "translations": {
+          "nl": "Mijn huis is groter dan jouw huis."
+        },
+        "vocabRefs": [
+          "gram-se",
+          "adj-barka",
+          "pron-hamar",
+          "noun-ghar",
+          "pron-tor",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-hamar",
+          "noun-ghar",
+          "pron-tor",
+          "noun-ghar",
+          "gram-se",
+          "adj-barka",
+          "gram-hai"
+        ]
       },
       {
         "id": "ex-8-2",
         "word": "Hamār gharī tor gharī se aur choṭā hai.",
-        "translations": { "nl": "Mijn horloge is kleiner dan het jouwe." },
-        "vocabRefs": ["gram-aur-compare", "adj-chota"]
+        "translations": {
+          "nl": "Mijn horloge is kleiner dan het jouwe."
+        },
+        "vocabRefs": [
+          "gram-aur-compare",
+          "adj-chota",
+          "pron-hamar",
+          "noun-ghari",
+          "pron-tor",
+          "gram-se",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-hamar",
+          "noun-ghari",
+          "pron-tor",
+          "noun-ghari",
+          "gram-se",
+          "gram-aur-compare",
+          "adj-chota",
+          "gram-hai"
+        ]
       },
       {
         "id": "ex-8-3",
         "word": "Sarnām meṁ ī sab se dhanī adamī hai.",
-        "translations": { "nl": "In Suriname is hij de rijkste man." },
-        "vocabRefs": ["gram-sabse"]
+        "translations": {
+          "nl": "In Suriname is hij de rijkste man."
+        },
+        "vocabRefs": [
+          "gram-sabse",
+          "post-mem",
+          "pron-i",
+          "gram-hai",
+          "noun-sarnam",
+          "adj-dhani",
+          "noun-adami"
+        ],
+        "tokenVocabRefs": [
+          "noun-sarnam",
+          "post-mem",
+          "pron-i",
+          "gram-sabse",
+          "gram-sabse",
+          "adj-dhani",
+          "noun-adami",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-8-4",
+        "word": "Hamār ghar tor ghar se jādā barkā hai.",
+        "translations": {
+          "nl": "Mijn huis is groter dan jouw huis (met nadruk).",
+          "en": "My house is (even) bigger than your house."
+        },
+        "vocabRefs": [
+          "gram-se",
+          "gram-jada",
+          "adj-barka",
+          "pron-hamar",
+          "noun-ghar",
+          "pron-tor",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-hamar",
+          "noun-ghar",
+          "pron-tor",
+          "noun-ghar",
+          "gram-se",
+          "gram-jada",
+          "adj-barka",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-8-5",
+        "word": "Ī ghoṛā sab se jādā barkā hai.",
+        "translations": {
+          "nl": "Dit paard is het allergrootst.",
+          "en": "This horse is the biggest of all."
+        },
+        "vocabRefs": [
+          "gram-sabse",
+          "gram-jada",
+          "adj-barka",
+          "pron-i",
+          "noun-ghora",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-i",
+          "noun-ghora",
+          "gram-sabse",
+          "gram-sabse",
+          "gram-jada",
+          "adj-barka",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-8-6",
+        "word": "Hamār kuttā tor kuttā se aur barhimyā hai.",
+        "translations": {
+          "nl": "Mijn hond is beter dan jouw hond.",
+          "en": "My dog is better than your dog."
+        },
+        "vocabRefs": [
+          "gram-se",
+          "gram-aur-compare",
+          "adj-barhimya",
+          "pron-hamar",
+          "noun-kutta",
+          "pron-tor",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-hamar",
+          "noun-kutta",
+          "pron-tor",
+          "noun-kutta",
+          "gram-se",
+          "gram-aur-compare",
+          "adj-barhimya",
+          "gram-hai"
+        ]
       }
     ],
     "grammarNotes": [
       {
         "id": "gn-8-1",
-        "title": "Vergrotende en overtreffende trap",
-        "body": "De stellende trap is de neutrale vorm van elk bijvoeglijk naamwoord. De vergrotende trap wordt gevormd met se, aur en/of jādā achter het vergelijkingswoord: ...se barkā hai (is groter dan). De overtreffende trap wordt gevormd met sab se of sab se jādā: sab se dhanī (de rijkste), sab se jādā dhanī (de allerrijkste).",
-        "relatedVocab": ["gram-se", "gram-sabse"]
+        "title": "Vergelijkende en overtreffende vorm",
+        "body": "Een bijvoeglijk naamwoord heeft drie vormen, net als in het Nederlands 'klein', 'kleiner', 'kleinst'. De gewone vorm is de neutrale vorm van het woord. Je maakt de vergelijkende vorm met se, aur en/of jādā. Deze woordjes komen achter het woord waarmee je vergelijkt. Bijvoorbeeld: ...se barkā hai betekent 'is groter dan'. Je maakt de overtreffende vorm met sab se of sab se jādā. Bijvoorbeeld: sab se dhanī betekent 'de rijkste'. Nog een voorbeeld: sab se jādā dhanī betekent 'de allerrijkste'.",
+        "relatedVocab": [
+          "gram-se",
+          "gram-sabse"
+        ]
       }
     ],
     "exercises": {
       "l8-e1": {
         "kind": "multiple-choice",
         "prompt": "Hoe zeg je 'groter dan'?",
-        "promptTranslations": { "nl": "Hoe zeg je 'groter dan'?", "en": "How do you say 'bigger than'?" },
-        "options": ["... se barkā", "... barkā se", "sab se barkā", "barkā-barkā"],
+        "promptTranslations": {
+          "nl": "Hoe zeg je 'groter dan'?",
+          "en": "How do you say 'bigger than'?"
+        },
+        "options": [
+          "... se barkā",
+          "... barkā se",
+          "sab se barkā",
+          "barkā-barkā"
+        ],
         "correctIndex": 0
       },
       "l8-e2": {
         "kind": "fill-blank",
         "sentenceTemplate": "Hamār ghar tor ghar ___ barkā hai.",
         "correctAnswer": "se",
-        "options": ["se", "aur", "sab", "jādā"],
-        "translations": { "nl": "Mijn huis is groter dan jouw huis.", "en": "My house is bigger than your house." }
+        "options": [
+          "se",
+          "aur",
+          "sab",
+          "jādā"
+        ],
+        "translations": {
+          "nl": "Mijn huis is groter dan jouw huis.",
+          "en": "My house is bigger than your house."
+        }
       },
       "l8-e3": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "In Suriname is hij de rijkste man.", "en": "In Suriname he is the richest man." },
-        "correctTargetTokens": ["Sarnām", "meṁ", "ī", "sab", "se", "dhanī", "adamī", "hai."],
-        "distractorTokens": ["jādā", "aur"]
+        "promptTranslations": {
+          "nl": "In Suriname is hij de rijkste man.",
+          "en": "In Suriname he is the richest man."
+        },
+        "correctTargetTokens": [
+          "Sarnām",
+          "meṁ",
+          "ī",
+          "sab",
+          "se",
+          "dhanī",
+          "adamī",
+          "hai."
+        ],
+        "distractorTokens": [
+          "jādā",
+          "aur"
+        ]
       },
       "l8-e4": {
         "kind": "matching",
         "pairs": [
-          { "left": "se", "right": "dan (bij vergelijking)", "rightTranslations": { "nl": "dan (bij vergelijking)", "en": "than (in comparison)" } },
-          { "left": "aur", "right": "nog (meer)", "rightTranslations": { "nl": "nog (meer)", "en": "even (more)" } },
-          { "left": "jādā", "right": "meer", "rightTranslations": { "nl": "meer", "en": "more" } },
-          { "left": "sab se", "right": "de meest-", "rightTranslations": { "nl": "de meest-", "en": "the most-" } }
+          {
+            "left": "se",
+            "right": "dan (bij vergelijking)",
+            "rightTranslations": {
+              "nl": "dan (bij vergelijking)",
+              "en": "than (in comparison)"
+            }
+          },
+          {
+            "left": "aur",
+            "right": "nog (meer)",
+            "rightTranslations": {
+              "nl": "nog (meer)",
+              "en": "even (more)"
+            }
+          },
+          {
+            "left": "jādā",
+            "right": "meer",
+            "rightTranslations": {
+              "nl": "meer",
+              "en": "more"
+            }
+          },
+          {
+            "left": "sab se",
+            "right": "de meest-",
+            "rightTranslations": {
+              "nl": "de meest-",
+              "en": "the most-"
+            }
+          }
         ]
       }
     }
@@ -206,38 +771,115 @@
       "l9-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent 'barkā'?",
-        "promptTranslations": { "nl": "Wat betekent 'barkā'?", "en": "What does 'barkā' mean?" },
-        "options": ["groot", "klein", "dun", "recht"],
+        "promptTranslations": {
+          "nl": "Wat betekent 'barkā'?",
+          "en": "What does 'barkā' mean?"
+        },
+        "options": [
+          "groot",
+          "klein",
+          "dun",
+          "recht"
+        ],
         "optionTranslations": [
-          { "nl": "groot", "en": "big" },
-          { "nl": "klein", "en": "small" },
-          { "nl": "dun", "en": "thin" },
-          { "nl": "recht", "en": "straight" }
+          {
+            "nl": "groot",
+            "en": "big"
+          },
+          {
+            "nl": "klein",
+            "en": "small"
+          },
+          {
+            "nl": "dun",
+            "en": "thin"
+          },
+          {
+            "nl": "recht",
+            "en": "straight"
+          }
         ],
         "correctIndex": 0
       },
       "l9-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "choṭā", "right": "klein", "rightTranslations": { "nl": "klein", "en": "small" } },
-          { "left": "lāl", "right": "rood", "rightTranslations": { "nl": "rood", "en": "red" } },
-          { "left": "barkā", "right": "groot", "rightTranslations": { "nl": "groot", "en": "big" } },
-          { "left": "se", "right": "dan (bij vergelijking)", "rightTranslations": { "nl": "dan (bij vergelijking)", "en": "than (in comparison)" } },
-          { "left": "sab se", "right": "de meest-", "rightTranslations": { "nl": "de meest-", "en": "the most-" } }
+          {
+            "left": "choṭā",
+            "right": "klein",
+            "rightTranslations": {
+              "nl": "klein",
+              "en": "small"
+            }
+          },
+          {
+            "left": "lāl",
+            "right": "rood",
+            "rightTranslations": {
+              "nl": "rood",
+              "en": "red"
+            }
+          },
+          {
+            "left": "barkā",
+            "right": "groot",
+            "rightTranslations": {
+              "nl": "groot",
+              "en": "big"
+            }
+          },
+          {
+            "left": "se",
+            "right": "dan (bij vergelijking)",
+            "rightTranslations": {
+              "nl": "dan (bij vergelijking)",
+              "en": "than (in comparison)"
+            }
+          },
+          {
+            "left": "sab se",
+            "right": "de meest-",
+            "rightTranslations": {
+              "nl": "de meest-",
+              "en": "the most-"
+            }
+          }
         ]
       },
       "l9-e3": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Mijn huis is groter dan jouw huis.", "en": "My house is bigger than your house." },
-        "correctTargetTokens": ["Hamār", "ghar", "tor", "ghar", "se", "barkā", "hai."],
-        "distractorTokens": ["choṭā", "jādā"]
+        "promptTranslations": {
+          "nl": "Mijn huis is groter dan jouw huis.",
+          "en": "My house is bigger than your house."
+        },
+        "correctTargetTokens": [
+          "Hamār",
+          "ghar",
+          "tor",
+          "ghar",
+          "se",
+          "barkā",
+          "hai."
+        ],
+        "distractorTokens": [
+          "choṭā",
+          "jādā"
+        ]
       },
       "l9-e4": {
         "kind": "fill-blank",
         "sentenceTemplate": "Karikkanī ___.",
         "correctAnswer": "bakariyā",
-        "options": ["bakariyā", "sariyā", "gaiyā", "chaumriyā"],
-        "translations": { "nl": "De zwarte geit.", "en": "The black goat." }
+        "options": [
+          "bakariyā",
+          "sariyā",
+          "gaiyā",
+          "chaumriyā"
+        ],
+        "translations": {
+          "nl": "De zwarte geit.",
+          "en": "The black goat."
+        }
       }
     }
   }
