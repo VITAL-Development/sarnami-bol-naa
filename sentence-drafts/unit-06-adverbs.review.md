@@ -1,6 +1,6 @@
 # unit-06-adverbs — candidate example sentences
 
-Status: DRAFT
+Status: FINALIZED
 
 Source: `authored_docs/byakaran/04-the-adverb.md` (Sarnami Byākaran, Marhé 1985, chapter 5).
 Generated per `/gen-sentences unit-06-adverbs`, verified per `/verify-sentences unit-06-adverbs`
