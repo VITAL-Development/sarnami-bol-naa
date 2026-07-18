@@ -6,19 +6,22 @@
         "id": "ex-p1-1",
         "word": "Bed meṁ ham ī batiyā parhle bāṭī.",
         "translations": { "nl": "Ik heb dit in de Veda's gelezen." },
-        "vocabRefs": ["post-mem"]
+        "vocabRefs": ["post-mem"],
+        "tokenVocabRefs": [null, "post-mem", null, null, null, null, null]
       },
       {
         "id": "ex-p1-2",
         "word": "Ham ghar ke bhittar bāṭī.",
         "translations": { "nl": "Ik ben binnen in huis." },
-        "vocabRefs": ["post-ke-bhittar", "noun-ghar", "pron-ham"]
+        "vocabRefs": ["post-ke-bhittar", "noun-ghar", "pron-ham"],
+        "tokenVocabRefs": ["pron-ham", "noun-ghar", "post-ke-bhittar", "post-ke-bhittar", null]
       },
       {
         "id": "ex-p1-3",
         "word": "Ū ghar ke bāhar hai.",
         "translations": { "nl": "Hij is buiten het huis." },
-        "vocabRefs": ["post-ke-bahar", "noun-ghar", "pron-u"]
+        "vocabRefs": ["post-ke-bahar", "noun-ghar", "pron-u"],
+        "tokenVocabRefs": ["pron-u", "noun-ghar", "post-ke-bahar", "post-ke-bahar", null]
       }
     ],
     "grammarNotes": [
@@ -75,7 +78,8 @@
         "sentenceTemplate": "Bed ___ ham ī batiyā parhle bāṭī.",
         "correctAnswer": "meṁ",
         "options": ["meṁ", "se", "par", "ke"],
-        "translations": { "nl": "Ik heb dit in de Veda's gelezen.", "en": "I have read this in the Vedas." }
+        "translations": { "nl": "Ik heb dit in de Veda's gelezen.", "en": "I have read this in the Vedas." },
+        "tokenVocabRefs": [null, "post-mem", null, null, null, null, null]
       },
       "com-e4": {
         "kind": "word-bank",
@@ -92,19 +96,22 @@
         "id": "ex-p2-1",
         "word": "Tor binā ham na jāb.",
         "translations": { "nl": "Zonder jou ga ik niet." },
-        "vocabRefs": ["post-ke-bina", "pron-tu", "pron-ham"]
+        "vocabRefs": ["post-ke-bina", "pron-tu", "pron-ham"],
+        "tokenVocabRefs": ["pron-tu", "post-ke-bina", "pron-ham", null, null]
       },
       {
         "id": "ex-p2-2",
         "word": "Ham tor sāth jāb.",
         "translations": { "nl": "Ik ga samen met jou." },
-        "vocabRefs": ["post-ke-sath", "pron-tu", "pron-ham"]
+        "vocabRefs": ["post-ke-sath", "pron-tu", "pron-ham"],
+        "tokenVocabRefs": ["pron-ham", "pron-tu", "post-ke-sath", null]
       },
       {
         "id": "ex-p2-3",
         "word": "Ŏkare hāthe meṁ chūrī rahā.",
         "translations": { "nl": "Hij had een mes in zijn hand." },
-        "vocabRefs": ["post-mem"]
+        "vocabRefs": ["post-mem"],
+        "tokenVocabRefs": [null, null, "post-mem", null, null]
       }
     ],
     "grammarNotes": [
@@ -161,7 +168,8 @@
         "sentenceTemplate": "Tor ___ ham na jāb.",
         "correctAnswer": "binā",
         "options": ["binā", "sāth", "lage", "āge"],
-        "translations": { "nl": "Zonder jou ga ik niet.", "en": "Without you I will not go." }
+        "translations": { "nl": "Zonder jou ga ik niet.", "en": "Without you I will not go." },
+        "tokenVocabRefs": ["pron-tu", "post-ke-bina", "pron-ham", null, null]
       },
       "att-e4": {
         "kind": "word-bank",
@@ -221,7 +229,8 @@
         "sentenceTemplate": "Bed ___ ham ī batiyā parhle bāṭī.",
         "correctAnswer": "meṁ",
         "options": ["meṁ", "se", "par", "ke"],
-        "translations": { "nl": "Ik heb dit in de Veda's gelezen.", "en": "I have read this in the Vedas." }
+        "translations": { "nl": "Ik heb dit in de Veda's gelezen.", "en": "I have read this in the Vedas." },
+        "tokenVocabRefs": [null, "post-mem", null, null, null, null, null]
       },
       "rev-e7": {
         "kind": "multiple-choice",
