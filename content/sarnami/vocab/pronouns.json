@@ -39,11 +39,13 @@
     "id": "pron-u",
     "word": "ū",
     "translations": {
-      "nl": "hij / zij",
-      "en": "he / she"
+      "nl": "die / dat; hij / zij (veraf van de spreker)",
+      "en": "that / those; he / she (far from the speaker)"
     },
+    "notes": "Dient ook als 3e-persoons voornaamwoord. Tegenhanger van ī (dichtbij).",
     "tags": [
       "pronoun",
+      "demonstrative",
       "book-p23"
     ]
   },

@@ -9,8 +9,19 @@
           "nl": "Dat is een ezel, dit is een ezelin."
         },
         "vocabRefs": [
+          "pron-u",
           "noun-gadaha",
+          "gram-hai",
+          "pron-i",
           "noun-gadahi"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "noun-gadaha",
+          "gram-hai",
+          "pron-i",
+          "noun-gadahi",
+          "gram-hai"
         ]
       },
       {
@@ -21,7 +32,19 @@
         },
         "vocabRefs": [
           "noun-nana",
-          "noun-nani"
+          "conj-aur",
+          "noun-nani",
+          "noun-ghar",
+          "post-mem",
+          "gram-ba"
+        ],
+        "tokenVocabRefs": [
+          "noun-nana",
+          "conj-aur",
+          "noun-nani",
+          "noun-ghar",
+          "post-mem",
+          "gram-ba"
         ]
       },
       {
@@ -31,8 +54,19 @@
           "nl": "Dat is een jongen, dit is een meisje."
         },
         "vocabRefs": [
+          "pron-u",
           "noun-launda",
+          "gram-hai",
+          "pron-i",
           "noun-chaumri"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "noun-launda",
+          "gram-hai",
+          "pron-i",
+          "noun-chaumri",
+          "gram-hai"
         ]
       },
       {
@@ -42,8 +76,19 @@
           "nl": "Dat is een grootvader, dit is een grootmoeder."
         },
         "vocabRefs": [
+          "pron-u",
           "noun-nana",
+          "gram-hai",
+          "pron-i",
           "noun-nani"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "noun-nana",
+          "gram-hai",
+          "pron-i",
+          "noun-nani",
+          "gram-hai"
         ]
       }
     ],
@@ -167,7 +212,14 @@
           "nl": "Het paard eet."
         },
         "vocabRefs": [
-          "noun-ghora"
+          "noun-ghora",
+          "verb-khai",
+          "gram-ba-aux"
+        ],
+        "tokenVocabRefs": [
+          "noun-ghora",
+          "verb-khai",
+          "gram-ba-aux"
         ]
       },
       {
@@ -177,7 +229,14 @@
           "nl": "De paarden eten."
         },
         "vocabRefs": [
-          "noun-ghora"
+          "noun-ghora",
+          "verb-khai",
+          "gram-ba-aux"
+        ],
+        "tokenVocabRefs": [
+          "noun-ghora",
+          "verb-khai",
+          "gram-ba-aux"
         ]
       },
       {
@@ -187,7 +246,16 @@
           "nl": "Ram eet manje."
         },
         "vocabRefs": [
-          "noun-am"
+          "noun-ram",
+          "noun-am",
+          "verb-khai",
+          "gram-hai-aux"
+        ],
+        "tokenVocabRefs": [
+          "noun-ram",
+          "noun-am",
+          "verb-khai",
+          "gram-hai-aux"
         ]
       },
       {
@@ -197,7 +265,14 @@
           "nl": "Een hond eet."
         },
         "vocabRefs": [
-          "noun-kutta"
+          "noun-kutta",
+          "verb-khai",
+          "gram-ba-aux"
+        ],
+        "tokenVocabRefs": [
+          "noun-kutta",
+          "verb-khai",
+          "gram-ba-aux"
         ]
       },
       {
@@ -207,7 +282,14 @@
           "nl": "Honden eten."
         },
         "vocabRefs": [
-          "noun-kutta"
+          "noun-kutta",
+          "verb-khai",
+          "gram-ba-aux"
+        ],
+        "tokenVocabRefs": [
+          "noun-kutta",
+          "verb-khai",
+          "gram-ba-aux"
         ]
       },
       {
@@ -217,7 +299,14 @@
           "nl": "Dit is de neus."
         },
         "vocabRefs": [
-          "noun-nak"
+          "pron-i",
+          "noun-nak",
+          "gram-hai-aux"
+        ],
+        "tokenVocabRefs": [
+          "pron-i",
+          "noun-nak",
+          "gram-hai-aux"
         ]
       },
       {
@@ -227,7 +316,14 @@
           "nl": "Dat is de boom."
         },
         "vocabRefs": [
-          "noun-per"
+          "pron-u",
+          "noun-per",
+          "gram-hai-aux"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "noun-per",
+          "gram-hai-aux"
         ]
       },
       {
@@ -237,7 +333,16 @@
           "nl": "Ram eet de manjes."
         },
         "vocabRefs": [
-          "noun-am"
+          "noun-ram",
+          "noun-am",
+          "verb-khai",
+          "gram-hai-aux"
+        ],
+        "tokenVocabRefs": [
+          "noun-ram",
+          "noun-am",
+          "verb-khai",
+          "gram-hai-aux"
         ]
       }
     ],
@@ -245,7 +350,7 @@
       {
         "id": "gn-04-number-1",
         "title": "Korte en lange vorm (onbepaald / bepaald)",
-        "body": "Een zelfstandig naamwoord heeft meestal twee vormen: een korte vorm en een lange vorm. De korte vorm is onbepaald. Dat betekent 'een huis' in plaats van 'het huis'. Bijvoorbeeld: ghar betekent 'een huis'. De lange vorm is bepaald. Dat betekent 'het huis' in plaats van 'een huis'. Je maakt de lange vorm met de uitgang -vā, -iyā of -yā. Soms verandert daarbij ook de klank van het woord een beetje. Voorbeeld: ghar wordt gharvā ('het huis'). Nog een voorbeeld: ghoṛā wordt ghŏṛvā ('het paard'). En: nāk wordt nakiyā ('de neus'). En: beṭī wordt biṭiyā ('de dochter'). Zet je het woordje ī of ū voor de lange vorm, dan betekent het 'deze' of 'die': ū gharvā betekent 'dat huis'.",
+        "body": "Een zelfstandig naamwoord (een woord voor een ding, dier of persoon, zoals 'huis' of 'paard') heeft meestal twee vormen: een korte vorm en een lange vorm. De korte vorm is onbepaald. Dat betekent 'een huis' in plaats van 'het huis'. Bijvoorbeeld: ghar betekent 'een huis'. De lange vorm is bepaald. Dat betekent 'het huis' in plaats van 'een huis'. Je maakt de lange vorm met de uitgang -vā, -iyā of -yā. Soms verandert daarbij ook de klank van het woord een beetje. Voorbeeld: ghar wordt gharvā ('het huis'). Nog een voorbeeld: ghoṛā wordt ghŏṛvā ('het paard'). En: nāk wordt nakiyā ('de neus'). En: beṭī wordt biṭiyā ('de dochter'). Als je ī of ū voor de lange vorm zet, betekent het 'deze' of 'die'. Ū gharvā betekent bijvoorbeeld 'dat huis'.",
         "relatedVocab": [
           "noun-ghora",
           "noun-nak",
@@ -255,7 +360,7 @@
       {
         "id": "gn-04-number-2",
         "title": "Meervoud met -(a)n",
-        "body": "Het meervoud wordt gevormd door de uitgang -(a)n achter het woord te plaatsen: ghoṛā → ghoṛan ('paarden'), ghŏṛvā → ghŏṛvan. De korte enkelvoudsvorm kan zelf ook als meervoud dienen; de context maakt dan duidelijk of het om één of meer gaat. Vergelijk Ghŏṛvā khāt bā ('het paard eet') met Ghŏṛvan khāt bāteṃ ('de paarden eten'): ook de werkwoordsvorm gaat mee in het meervoud.",
+        "body": "Je maakt het meervoud met de uitgang -(a)n achter het woord: ghoṛā → ghoṛan ('paarden'), ghŏṛvā → ghŏṛvan. De korte enkelvoudsvorm kan ook meervoud betekenen. Dan bepaalt de context of het om één ding gaat of om meer. Vergelijk Ghŏṛvā khāt bā ('het paard eet') met Ghŏṛvan khāt bāteṃ ('de paarden eten'): ook de werkwoordsvorm gaat mee in het meervoud.",
         "relatedVocab": [
           "noun-ghora",
           "noun-kutta"
@@ -346,7 +451,16 @@
           "nl": "Snijd de vrucht met een mes!"
         },
         "vocabRefs": [
-          "noun-churi"
+          "noun-phal",
+          "noun-churi",
+          "post-se",
+          "verb-kate"
+        ],
+        "tokenVocabRefs": [
+          "noun-phal",
+          "noun-churi",
+          "post-se",
+          "verb-kate"
         ]
       },
       {
@@ -356,7 +470,18 @@
           "nl": "Geef de koe water te drinken."
         },
         "vocabRefs": [
-          "noun-gai"
+          "noun-gai",
+          "post-ke",
+          "noun-pani",
+          "verb-dai",
+          "verb-deve"
+        ],
+        "tokenVocabRefs": [
+          "noun-gai",
+          "post-ke",
+          "noun-pani",
+          "verb-dai",
+          "verb-deve"
         ]
       },
       {
@@ -366,7 +491,20 @@
           "nl": "Ik zit op de rug van een paard."
         },
         "vocabRefs": [
-          "noun-ghora"
+          "pron-ham",
+          "noun-ghora",
+          "post-ke",
+          "noun-pithi",
+          "post-par",
+          "verb-baithe"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          "noun-ghora",
+          "post-ke",
+          "noun-pithi",
+          "post-par",
+          "verb-baithe"
         ]
       },
       {
@@ -376,8 +514,18 @@
           "nl": "Ik lees de brief van de dochter."
         },
         "vocabRefs": [
+          "pron-ham",
           "noun-beti",
-          "noun-citthi"
+          "post-ke",
+          "noun-citthi",
+          "verb-parhe"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          "noun-beti",
+          "post-ke",
+          "noun-citthi",
+          "verb-parhe"
         ]
       },
       {
@@ -387,7 +535,20 @@
           "nl": "Haal gras voor de koeien."
         },
         "vocabRefs": [
-          "noun-gai"
+          "noun-gai",
+          "post-ke",
+          "noun-khartin",
+          "noun-ghams",
+          "verb-lave",
+          "verb-deve"
+        ],
+        "tokenVocabRefs": [
+          "noun-gai",
+          "post-ke",
+          "noun-khartin",
+          "noun-ghams",
+          "verb-lave",
+          "verb-deve"
         ]
       },
       {
@@ -397,7 +558,20 @@
           "nl": "Ik zit op de ruggen van de paarden."
         },
         "vocabRefs": [
-          "noun-ghora"
+          "pron-ham",
+          "noun-ghora",
+          "post-ke",
+          "noun-pithi",
+          "post-par",
+          "verb-baithe"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          "noun-ghora",
+          "post-ke",
+          "noun-pithi",
+          "post-par",
+          "verb-baithe"
         ]
       },
       {
@@ -407,7 +581,20 @@
           "nl": "Rustam heeft het paard vastgehouden."
         },
         "vocabRefs": [
-          "noun-ghora"
+          "noun-rustam",
+          "noun-ghora",
+          "post-ke",
+          "verb-pakare",
+          "verb-leve",
+          "gram-hai-aux"
+        ],
+        "tokenVocabRefs": [
+          "noun-rustam",
+          "noun-ghora",
+          "post-ke",
+          "verb-pakare",
+          "verb-leve",
+          "gram-hai-aux"
         ]
       },
       {
@@ -417,8 +604,18 @@
           "nl": "Ik zie het mes van de dochter."
         },
         "vocabRefs": [
+          "pron-ham",
           "noun-beti",
-          "noun-churi"
+          "post-ke",
+          "noun-churi",
+          "verb-dekhe"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          "noun-beti",
+          "post-ke",
+          "noun-churi",
+          "verb-dekhe"
         ]
       }
     ],
@@ -426,7 +623,7 @@
       {
         "id": "gn-04-cases-1",
         "title": "Achterzetsels in plaats van naamvallen",
-        "body": "Het Sarnami kent geen naamvallen zoals het Latijn of het Sanskriet. Een woord kan verschillende functies hebben in de zin. Denk aan onderwerp, lijdend voorwerp of bezit. Het Sarnami geeft deze functie aan met achterzetsels. In het Nederlands noemen we dat voorzetsels. Soms geeft ook de woordvolgorde de functie aan. Het achterzetsel komt ná het woord te staan. Deze les laat het patroon zien met het woordje ke. De andere achterzetsels (se, meṃ, par en de samengestelde vormen) leer je in de eenheid Achterzetsels.",
+        "body": "Het Sarnami gebruikt geen naamvallen. Naamvallen zijn andere vormen van een woord. Die vormen laten de functie van het woord in de zin zien. In het Sarnami blijft de vorm van een woord hetzelfde. Dat geldt voor elke functie in de zin. Bijvoorbeeld: wie iets doet (het onderwerp). Of: wie iets krijgt (het lijdend voorwerp). Het Sarnami laat die functie op een andere manier zien: met een achterzetsel. Dat is net als een voorzetsel in het Nederlands. Maar het achterzetsel staat achter het woord, niet ervoor. Soms laat ook de woordvolgorde de functie zien. Deze les laat het patroon zien met het woordje ke. De andere achterzetsels (se, meṃ, par en de samengestelde vormen) leer je in de eenheid Achterzetsels.",
         "relatedVocab": [
           "noun-gai",
           "noun-ghora"
@@ -525,8 +722,20 @@
           "nl": "Gopal heeft drie manjes geplukt."
         },
         "vocabRefs": [
+          "noun-gopal",
           "num-tin",
-          "noun-am"
+          "gram-go",
+          "noun-am",
+          "verb-turle",
+          "gram-ba-aux"
+        ],
+        "tokenVocabRefs": [
+          "noun-gopal",
+          "num-tin",
+          "gram-go",
+          "noun-am",
+          "verb-turle",
+          "gram-ba-aux"
         ]
       },
       {
@@ -536,8 +745,20 @@
           "nl": "Moeder heeft twee ringen gekocht."
         },
         "vocabRefs": [
+          "noun-maiya",
           "num-dui",
-          "noun-maiya"
+          "gram-go",
+          "noun-anguthi",
+          "verb-kine",
+          "gram-hai-aux"
+        ],
+        "tokenVocabRefs": [
+          "noun-maiya",
+          "num-dui",
+          "gram-go",
+          "noun-anguthi",
+          "verb-kine",
+          "gram-hai-aux"
         ]
       },
       {
@@ -547,7 +768,24 @@
           "nl": "De koning had 7 dieven laten vermoorden."
         },
         "vocabRefs": [
-          "num-sat"
+          "noun-raja",
+          "num-sat",
+          "gram-go",
+          "sound-cor",
+          "post-ke",
+          "verb-mare-hit",
+          "verb-deve",
+          "gram-raha-aux"
+        ],
+        "tokenVocabRefs": [
+          "noun-raja",
+          "num-sat",
+          "gram-go",
+          "sound-cor",
+          "post-ke",
+          "verb-mare-hit",
+          "verb-deve",
+          "gram-raha-aux"
         ]
       },
       {
@@ -557,8 +795,18 @@
           "nl": "Sita heeft een mes gekocht."
         },
         "vocabRefs": [
+          "noun-sita",
           "num-ek",
-          "noun-churi"
+          "noun-churi",
+          "verb-kine",
+          "gram-hai-aux"
+        ],
+        "tokenVocabRefs": [
+          "noun-sita",
+          "num-ek",
+          "noun-churi",
+          "verb-kine",
+          "gram-hai-aux"
         ]
       },
       {
@@ -568,9 +816,20 @@
           "nl": "Moeder heeft tien manjes gekocht."
         },
         "vocabRefs": [
+          "noun-maiya",
           "num-das",
+          "gram-go",
           "noun-am",
-          "noun-maiya"
+          "verb-kine",
+          "gram-hai-aux"
+        ],
+        "tokenVocabRefs": [
+          "noun-maiya",
+          "num-das",
+          "gram-go",
+          "noun-am",
+          "verb-kine",
+          "gram-hai-aux"
         ]
       }
     ],
@@ -578,7 +837,7 @@
       {
         "id": "gn-04-num-1",
         "title": "De hoofdtelwoorden 0–10",
-        "body": "De hoofdtelwoorden van nul tot tien zijn: sunnā (0), ek (1), dūi (2), tīn (3), cār (4), pāṃc (5), chau (6), sāt (7), āṭh (8), nau (9) en das (10). Grotere ronde getallen: honderd is sau, tweehonderd dūi sau en duizend (ek) hajār.",
+        "body": "De hoofdtelwoorden — de gewone telwoorden zoals 'een', 'twee', 'drie' — van nul tot tien zijn: sunnā (0), ek (1), dūi (2), tīn (3), cār (4), pāṃc (5), chau (6), sāt (7), āṭh (8), nau (9) en das (10). Grotere ronde getallen: honderd is sau, tweehonderd dūi sau en duizend (ek) hajār.",
         "relatedVocab": [
           "num-sunna",
           "num-ek",
@@ -597,7 +856,7 @@
       {
         "id": "gn-04-num-2",
         "title": "Tellen met -go en -ṭho",
-        "body": "Als een telwoord een zelfstandig naamwoord telt, wordt het vaak versterkt met -go, -ṭho, -ṭhe of -ṭhi (de laatste twee komen minder vaak voor): sāt go cor ('7 dieven'), tīn ṭhe ām ('drie manjes'), dūi ṭhī aṅguṭṭhī ('2 ringen'). Heel gebruikelijk is ego (= ek + go), dat ook dienstdoet als onbepaald lidwoord 'een'.",
+        "body": "Als een telwoord iets telt (een ding, dier of persoon), wordt het vaak versterkt met -go, -ṭho, -ṭhe of -ṭhi: sāt go cor ('7 dieven'), tīn ṭhe ām ('drie manjes'), dūi ṭhī aṅguṭṭhī ('2 ringen'). -ṭho en -ṭhi komen minder vaak voor. Heel gebruikelijk is ego (= ek + go). Dat gebruik je ook in plaats van het woordje 'een'.",
         "relatedVocab": [
           "num-ek",
           "num-dui",

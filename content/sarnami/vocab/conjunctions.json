@@ -6,7 +6,7 @@
       "nl": "of wel",
       "en": "or else"
     },
-    "notes": "Nevenschikkend voegwoord. Variant van yā ('of').",
+    "notes": "Dit woordje verbindt twee gelijkwaardige delen van een zin, net als 'of' in het Nederlands. Het is een variant van yā ('of').",
     "tags": [
       "conjunction",
       "coordinating",
@@ -21,7 +21,7 @@
       "nl": "zowel … als …",
       "en": "both … and …"
     },
-    "notes": "Nevenschikkend, correlatief paar: kā voor elk van de nevengeschikte delen.",
+    "notes": "Dit is een woordpaar: je gebruikt kā twee keer, één keer voor elk deel dat je verbindt. Samen betekenen ze 'zowel ... als ...'.",
     "tags": [
       "conjunction",
       "coordinating",
@@ -37,7 +37,7 @@
       "nl": "noch … noch …",
       "en": "neither … nor …"
     },
-    "notes": "Nevenschikkend, correlatief paar.",
+    "notes": "Dit is een woordpaar: je gebruikt nā twee keer, één keer voor elk deel. Samen betekenen ze 'noch ... noch ...'.",
     "tags": [
       "conjunction",
       "coordinating",
@@ -53,7 +53,7 @@
       "nl": "opdat, zodat",
       "en": "in order that, so that"
     },
-    "notes": "Onderschikkend voegwoord. Ook: jame, jeme.",
+    "notes": "Dit woordje verbindt twee delen van een zin. Het laat zien wat het doel of gevolg is, net als 'zodat' in het Nederlands. Andere vormen: jame, jeme.",
     "tags": [
       "conjunction",
       "subordinating",
@@ -68,7 +68,7 @@
       "nl": "ook al, hoewel",
       "en": "even though, although"
     },
-    "notes": "Onderschikkend voegwoord.",
+    "notes": "Dit woordje verbindt twee delen van een zin. Het laat een tegenstelling zien, net als 'hoewel' in het Nederlands.",
     "tags": [
       "conjunction",
       "subordinating",
@@ -83,12 +83,25 @@
       "nl": "zolang",
       "en": "as long as"
     },
-    "notes": "Onderschikkend voegwoord van tijd. Ook: jab tak.",
+    "notes": "Dit woordje geeft een tijdsduur aan, net als 'zolang' in het Nederlands. Andere vorm: jab tak.",
     "tags": [
       "conjunction",
       "subordinating",
       "sarnamibhasa",
       "book-p50"
+    ]
+  },
+  {
+    "id": "conj-aur",
+    "word": "aur",
+    "translations": {
+      "nl": "en",
+      "en": "and"
+    },
+    "notes": "Dit woordje verbindt twee gelijkwaardige delen van een zin, net als 'en' in het Nederlands. Let op: 'aur' heeft ook een andere betekenis bij het vergelijken van dingen, bijvoorbeeld bij 'groter' of 'meer'. Dat is een ander gebruik van hetzelfde woord.",
+    "tags": [
+      "conjunction",
+      "coordinating"
     ]
   }
 ]

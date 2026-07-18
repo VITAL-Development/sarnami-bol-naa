@@ -102,7 +102,7 @@
       "nl": "hulpwerkwoord (hove)",
       "en": "auxiliary verb (hove)"
     },
-    "notes": "Dit is dezelfde vorm als 'hai' (gram-hai, 'zijn'). Maar hier staat het achter een ander werkwoord, bijvoorbeeld 'kām kare hai' (werkt) of 'kin lāve hai' (haalt). Het betekent dan niet 'zijn' — het hoort gewoon bij dat andere werkwoord.",
+    "notes": "Dit is dezelfde vorm als het woordje 'hai' ('zijn'). Maar hier staat het achter een ander werkwoord, bijvoorbeeld 'kām kare hai' (werkt) of 'kin lāve hai' (haalt). Het betekent dan niet 'zijn' — het hoort gewoon bij dat andere werkwoord.",
     "tags": ["grammar"]
   },
   {
@@ -112,6 +112,46 @@
       "nl": "hoe",
       "en": "how"
     },
+    "tags": ["grammar"]
+  },
+  {
+    "id": "gram-ba",
+    "word": "bā",
+    "translations": {
+      "nl": "zijn (bestaan, ergens zijn)",
+      "en": "to be (existential/locative)"
+    },
+    "notes": "Bāteṃ is de meervoudsvorm van bā. Dit werkwoord zegt dat iets ergens is, bijvoorbeeld ghar meṃ bāteṃ (zijn thuis).",
+    "tags": ["grammar"]
+  },
+  {
+    "id": "gram-ba-aux",
+    "word": "bā",
+    "translations": {
+      "nl": "hulpwerkwoord (bate)",
+      "en": "auxiliary verb (bate)"
+    },
+    "notes": "Dit is dezelfde vorm als het woordje 'bā' ('zijn'). Maar hier staat het achter een ander werkwoord, bijvoorbeeld khāt bā (is aan het eten) of ṭurle bā (heeft geplukt). Het betekent dan niet 'zijn' — het hoort gewoon bij dat andere werkwoord.",
+    "tags": ["grammar"]
+  },
+  {
+    "id": "gram-go",
+    "word": "go",
+    "translations": {
+      "nl": "telwoordpartikel",
+      "en": "numeral counter particle"
+    },
+    "notes": "Dit woordje komt na een telwoord als je dingen telt, bijvoorbeeld sāt go cor (7 dieven). Het heeft zelf geen betekenis; het hoort gewoon bij het telwoord. Andere vormen van dit partikel zijn -ṭho, -ṭhe en -ṭhi.",
+    "tags": ["grammar"]
+  },
+  {
+    "id": "gram-raha-aux",
+    "word": "rahā",
+    "translations": {
+      "nl": "hulpwerkwoord (voltooid verleden tijd)",
+      "en": "auxiliary verb (past perfect)"
+    },
+    "notes": "Rahā (en de vorm rahe) hoort achter een ander werkwoord. Samen vormen ze de voltooid verleden tijd: 'had gedaan'. Bijvoorbeeld: nā samajhle rahā (had niet begrepen).",
     "tags": ["grammar"]
   }
 ]
