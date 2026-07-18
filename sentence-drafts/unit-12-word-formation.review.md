@@ -1,6 +1,6 @@
 # unit-12-word-formation — candidate example sentences
 
-Status: DRAFT
+Status: FINALIZED
 
 Source: `authored_docs/byakaran/10-word-formation.md` (Sarnami Byākaran, Marhé 1985, "Woordvorming"
 chapter — voor- en achtervoegsels). Generated per `/gen-sentences unit-12-word-formation`, verified
@@ -58,7 +58,7 @@ table row for the suffix.
         safāī 'netheid'" derivation exactly. "ghar meṁ" (post-mem "in") + abstract-noun subject +
         hai is a standard locative-existential frame, not invented.
 
-- [ ] id: ex-sfx-5
+- [x] id: ex-sfx-5
       sarnami: Ū paṛhāī kare hai.
       nl: Hij studeert. (letterlijk: hij doet studie)
       vocabRefs: wf-parhai, verb-kare, pron-u, gram-hai
