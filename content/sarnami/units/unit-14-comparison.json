@@ -1,0 +1,65 @@
+{
+  "id": "unit-14-comparison",
+  "title": "Vergelijking",
+  "titleTranslations": {
+    "nl": "Vergelijking",
+    "en": "Comparison"
+  },
+  "description": "Vergelijkende en overtreffende trap van het bijvoeglijk naamwoord: se, aur, jādā, sab se en sab se jādā.",
+  "order": 6,
+  "cefrLevel": "B1",
+  "bookChapterRef": "Sarnami Byākaran (Marhé, 1985), p.55-61",
+  "lessons": [
+    {
+      "id": "lesson-8-comparison",
+      "unitId": "unit-14-comparison",
+      "order": 1,
+      "title": "Trappen van vergelijking",
+      "titleTranslations": {
+        "nl": "Trappen van vergelijking",
+        "en": "Degrees of comparison"
+      },
+      "description": "Vergelijkende en overtreffende vorm in het Sarnami.",
+      "newVocab": [
+        "gram-se",
+        "gram-aur-compare",
+        "gram-jada",
+        "gram-sabse"
+      ],
+      "exampleSentenceRefs": [
+        "ex-8-1",
+        "ex-8-2",
+        "ex-8-3",
+        "ex-8-4",
+        "ex-8-5",
+        "ex-8-6"
+      ],
+      "grammarNoteRefs": [
+        "gn-8-1"
+      ],
+      "exercises": [
+        {
+          "id": "l8-e1",
+          "kind": "multiple-choice",
+          "contentRef": "l8-e1"
+        },
+        {
+          "id": "l8-e2",
+          "kind": "fill-blank",
+          "contentRef": "l8-e2"
+        },
+        {
+          "id": "l8-e3",
+          "kind": "word-bank",
+          "contentRef": "l8-e3"
+        },
+        {
+          "id": "l8-e4",
+          "kind": "matching",
+          "contentRef": "l8-e4"
+        }
+      ],
+      "xpReward": 12
+    }
+  ]
+}

@@ -56,15 +56,18 @@ shared authoring contract's `cefrLevel` versioning note).
 | Tier | Units | CEFR range |
 |---|---|---|
 | Beginner | 5 | A1–A2 |
-| Intermediate | 7 | B1–B2 |
+| Intermediate | 8 | B1–B2 |
 | Advanced | 2 | C1 |
 
 New unit ids are numbered `00` and `04`–`13` so they don't collide with the
-two existing ids; the **`order` column** (1–14, spanning tiers) is what
+two existing ids; the **`order` column** (1–15, spanning tiers) is what
 actually drives display sequence. (An implementer may instead choose to
-renumber all unit ids to a clean `unit-01`…`unit-14`; if so, do it as one
+renumber all unit ids to a clean `unit-01`…`unit-15`; if so, do it as one
 dedicated change and update every `unitId` back-reference — the id-preserving
-scheme above avoids that churn.)
+scheme above avoids that churn.) `unit-14-comparison` (split out of
+`unit-02-adjectives` per issue #288, see the Intermediate tier below) is the
+one exception authored after this numbering scheme was set: `14` is the next
+unused id, chosen the same way rather than colliding with `05`–`13`.
 
 ---
 
@@ -170,7 +173,11 @@ subsections. Extends the basics nouns.
 #### 5. `unit-02-adjectives` — Bijvoeglijke naamwoorden (A2, `adjective-verified.md`) *(exists)*
 Already authored and verified: adjective agreement and usage. No new
 authoring needed beyond keeping its `order`/`cefrLevel` in step with this
-sequence.
+sequence. **Comparison moved out (issue #288):** the unit originally also
+carried `lesson-8-comparison` (comparative/superlative particles), but a
+full particle system exceeds this tier's "no productive grammar beyond basic
+agreement" ceiling — it now ships as its own Intermediate-tier unit, see
+`unit-14-comparison` below.
 
 ---
 
@@ -184,13 +191,14 @@ and handle most everyday topics.*
 
 | # | Unit id | Title (nl) | CEFR | Source chapter | Status |
 |---|---------|------------|------|----------------|--------|
-| 6 | `unit-05-pronouns` | Voornaamwoorden | B1 | `03-pronouns.md` | new |
-| 7 | `unit-06-adverbs` | Bijwoorden | B1 | `04-the-adverb.md` | new |
-| 8 | `unit-07-postpositions` | Achterzetsels | B1 | `05-postpositions.md` | new |
-| 9 | `unit-09-conjunctions` | Voegwoorden | B1 | `06-conjunctions.md` | new |
-| 10 | `unit-10-interjections` | Tussenwerpsels | B1 | `07-interjections.md` | new |
-| 11 | `unit-08-verbs` | Werkwoorden | B2 | `08-the-verb.md` | new |
-| 12 | `unit-11-loanwords` | Leenwoorden & nieuwvormingen | B2 | `09-loan-words-and-neologisms.md` | new |
+| 6 | `unit-14-comparison` | Vergelijking | B1 | `adjective-verified.md` (comparison subsection) | new |
+| 7 | `unit-05-pronouns` | Voornaamwoorden | B1 | `03-pronouns.md` | new |
+| 8 | `unit-06-adverbs` | Bijwoorden | B1 | `04-the-adverb.md` | new |
+| 9 | `unit-07-postpositions` | Achterzetsels | B1 | `05-postpositions.md` | new |
+| 10 | `unit-09-conjunctions` | Voegwoorden | B1 | `06-conjunctions.md` | new |
+| 11 | `unit-10-interjections` | Tussenwerpsels | B1 | `07-interjections.md` | new |
+| 12 | `unit-08-verbs` | Werkwoorden | B2 | `08-the-verb.md` | new |
+| 13 | `unit-11-loanwords` | Leenwoorden & nieuwvormingen | B2 | `09-loan-words-and-neologisms.md` | new |
 
 ### Sequencing & dependencies
 
@@ -198,7 +206,15 @@ and handle most everyday topics.*
   before this tier's pronouns/adverbs/postpositions/verbs.** Agreement
   (verb→subject) and postposition attachment presuppose gender/number and at
   least the core pronoun set taught in the Beginner tier.
-- **Pronouns lead this tier.** `unit-05-pronouns` completes the pronoun
+- **Comparison opens this tier, right after adjectives.** `unit-14-comparison`
+  depends only on the Beginner-tier `unit-02-adjectives` (adjective forms +
+  agreement) and its `se` postposition use is a self-contained slice of the
+  fuller postposition system `unit-07-postpositions` teaches later — split out
+  per [issue #288](https://github.com/VITAL-Development/sarnami-bol-naa/issues/288)
+  since the comparative/superlative particle system (`se`, `aur`, `jādā`,
+  `sab se`, `sab se jādā`) is a full particle system, which the shared
+  authoring contract's tier table reserves for Intermediate.
+- **Pronouns lead the rest of this tier.** `unit-05-pronouns` completes the pronoun
   system (possessive, demonstrative, interrogative, relative) — including
   productive relative-clause formation and case-inflected demonstrative
   object forms, which is why it sits here rather than in the Beginner tier
@@ -224,7 +240,24 @@ Same sizing convention as the Beginner tier: **4–5 lessons per unit** (the
 verb unit runs longer, see below), **~5 exercises per lesson**, review
 lesson per unit.
 
-#### 6. `unit-05-pronouns` — Voornaamwoorden (B1, `03-pronouns.md`)
+#### 6. `unit-14-comparison` — Vergelijking (B1, `adjective-verified.md`) *(exists)*
+Split out of `unit-02-adjectives` per
+[issue #288](https://github.com/VITAL-Development/sarnami-bol-naa/issues/288):
+comparative/superlative adjective formation with `se`, `aur`, `jādā`, `sab se`
+and `sab se jādā` — a full particle system (and `se` doubling as a
+postposition), which exceeds the Beginner tier's "no productive grammar
+beyond basic agreement" ceiling. Currently **one lesson**
+(`lesson-8-comparison`, unchanged content, just re-homed); no fabricated
+review lesson has been added to pad it out — a smaller, fully-verified unit
+beats a larger, padded one (same principle the Advanced tier states).
+- 1 lesson: comparison (`lesson-8-comparison`). A dedicated review lesson can
+  be added later as a genuine follow-up, not invented here.
+- Vocab: reuses the 4 existing `gram-*` comparison particles (`gram-se`,
+  `gram-aur-compare`, `gram-jada`, `gram-sabse`) — no new vocab.
+- **Exercise mix:** `multiple-choice`, `fill-blank`, `word-bank`, `matching`
+  (already authored, unchanged).
+
+#### 7. `unit-05-pronouns` — Voornaamwoorden (B1, `03-pronouns.md`)
 Completes the pronoun system beyond the basics' personal pronouns: possessive,
 demonstrative, interrogative, relative. Moved here from the Beginner tier
 (see [issue #241](https://github.com/VITAL-Development/sarnami-bol-naa/issues/241)):
@@ -236,7 +269,7 @@ tier's "no productive grammar beyond basic agreement" ceiling.
 - **Exercise mix:** `matching` (form ↔ meaning), `fill-blank` (choose the right
   pronoun in a sentence), `word-bank`, `multiple-choice`.
 
-#### 7. `unit-06-adverbs` — Bijwoorden (B1, `04-the-adverb.md`)
+#### 8. `unit-06-adverbs` — Bijwoorden (B1, `04-the-adverb.md`)
 Common adverbs of time, place, manner and degree, including the loanword
 adverbs the chapter discusses, with example sentences.
 - ~3–4 lessons grouped by category → review.
@@ -244,7 +277,7 @@ adverbs the chapter discusses, with example sentences.
 - **Exercise mix:** `matching` (adverb ↔ category/meaning), `fill-blank` and
   `word-bank` (place the adverb correctly in a sentence).
 
-#### 8. `unit-07-postpositions` — Achterzetsels (B1, `05-postpositions.md`)
+#### 9. `unit-07-postpositions` — Achterzetsels (B1, `05-postpositions.md`)
 Sarnami uses postpositions, not prepositions: the common ones and how they
 attach to nouns/pronouns.
 - ~3–4 lessons → review. Depends on nouns/pronouns.
@@ -252,7 +285,7 @@ attach to nouns/pronouns.
 - **Exercise mix:** `word-bank` is the workhorse (word order + attachment),
   plus `fill-blank` (choose the postposition) and `matching`.
 
-#### 9. `unit-09-conjunctions` — Voegwoorden (B1, `06-conjunctions.md`)
+#### 10. `unit-09-conjunctions` — Voegwoorden (B1, `06-conjunctions.md`)
 Coordinating and subordinating conjunctions; joining clauses. Pairs with the
 Advanced tier's reading unit. Several forms already live in
 `vocab/structuurwoorden.json` — reuse them, don't duplicate.
@@ -260,14 +293,14 @@ Advanced tier's reading unit. Several forms already live in
 - **Exercise mix:** `word-bank` (join two clauses), `fill-blank` (choose the
   conjunction), `matching`.
 
-#### 10. `unit-10-interjections` — Tussenwerpsels (B1, `07-interjections.md`)
+#### 11. `unit-10-interjections` — Tussenwerpsels (B1, `07-interjections.md`)
 Short, high-frequency, conversational: common exclamations and discourse
 particles. Some (`hāṁ`, `nā`) already exist in `vocab/greetings.json` — reuse.
 - ~2 lessons → review.
 - **Exercise mix:** `matching` (interjection ↔ situation/meaning), light
   `multiple-choice`.
 
-#### 11. `unit-08-verbs` — Werkwoorden (B2, `08-the-verb.md`)
+#### 12. `unit-08-verbs` — Werkwoorden (B2, `08-the-verb.md`)
 The largest chapter and the sentence-building spine. Conjugation across tenses
 and moods including the subjunctive (*aanvoegende wijs*). Split by difficulty.
 - **~6–7 lessons** (the one unit that runs longer): present → past → future →
@@ -279,7 +312,7 @@ and moods including the subjunctive (*aanvoegende wijs*). Split by difficulty.
   clause) dominate; `matching` (person ↔ ending), `multiple-choice` (which
   tense/mood).
 
-#### 12. `unit-11-loanwords` — Leenwoorden & nieuwvormingen (B2, `09-loan-words-and-neologisms.md`)
+#### 13. `unit-11-loanwords` — Leenwoorden & nieuwvormingen (B2, `09-loan-words-and-neologisms.md`)
 Dutch/Sranantongo/other loanwords and coined modern terms. A vocab-expansion
 unit; cross-check spellings per the verification discipline.
 - ~3 lessons grouped by source language → review.
@@ -298,8 +331,8 @@ unfamiliar material.*
 
 | # | Unit id | Title (nl) | CEFR | Source chapter | Status |
 |---|---------|------------|------|----------------|--------|
-| 13 | `unit-12-word-formation` | Woordvorming | C1 | `10-word-formation.md` | new |
-| 14 | `unit-13-reading` | Lezen: teksten & fabels | C1 | `11-texts.md` | new |
+| 14 | `unit-12-word-formation` | Woordvorming | C1 | `10-word-formation.md` | new |
+| 15 | `unit-13-reading` | Lezen: teksten & fabels | C1 | `11-texts.md` | new |
 
 This tier is deliberately the smallest and most likely to stay thin for a
 while — both units depend on the full Intermediate-tier grammar spine and
@@ -320,14 +353,14 @@ here as C2 material.
 
 ### Per-unit scope
 
-#### 13. `unit-12-word-formation` — Woordvorming (C1, `10-word-formation.md`)
+#### 14. `unit-12-word-formation` — Woordvorming (C1, `10-word-formation.md`)
 Derivational suffixes (incl. those of Arabic-Persian origin) and how words are
 built — recognising patterns to expand vocabulary. Best placed late.
 - ~3 lessons by suffix family → review.
 - **Exercise mix:** `matching` (suffix ↔ meaning), `multiple-choice` (which
   derived form), `fill-blank` (build the derived word). Meta over rote.
 
-#### 14. `unit-13-reading` — Lezen: teksten & fabels (C1, `11-texts.md`)
+#### 15. `unit-13-reading` — Lezen: teksten & fabels (C1, `11-texts.md`)
 Capstone/applied: the fables and reading passages (with Dutch translations)
 from the *BIJLAGEN*. Graded comprehension that reuses earlier vocab and grammar.
 - ~3–4 graded reading lessons → review; sits at the end.

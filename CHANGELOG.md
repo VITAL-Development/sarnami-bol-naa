@@ -19,6 +19,50 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Added
+
+- New unit `content/sarnami/units/unit-14-comparison.json` ("Vergelijking",
+  `order: 6`, `cefrLevel: "B1"`), split out of `unit-02-adjectives`'s
+  `lesson-8-comparison` (comparative/superlative particles `se`, `aur`,
+  `jādā`, `sab se`, `sab se jādā`) plus its lesson content
+  (`content/sarnami/lessons/unit-14-comparison.json`) — unchanged text/ids,
+  just re-homed into a new unit. The advisory-contract-review bot repeatedly
+  flagged (PR #263) that a full particle system, and `se` doubling as a
+  postposition, exceed the A2/Beginner tier's "no productive grammar beyond
+  basic agreement" ceiling per
+  `docs/contracts/lesson-plan-authoring-contract.md`'s tier table; splitting
+  it into its own B1 unit was the option chosen from the three laid out in
+  #288 (closes #288).
+
+### Changed
+
+- `unit-02-adjectives` keeps `cefrLevel: "A2"` and its lessons 6-7 (adjective
+  forms, gender/number agreement) unchanged, but no longer carries
+  `lesson-8-comparison` (moved above). Its review lesson
+  (`lesson-9-adjectives-review`) had two exercises reworked to stop drilling
+  the now-moved comparison particles: `l9-e2`'s `se`/`sab se` matching pairs
+  were swapped for two more already-taught adjective pairs, and `l9-e3`'s
+  word-bank sentence was swapped for `ex-6-5`'s already-verified sentence —
+  both drawn from content already authored elsewhere in this same unit, not
+  fabricated.
+- Reassigned unit `order` values to make room for `unit-14-comparison` at
+  `order: 6`, right after `unit-02-adjectives`: `unit-05-pronouns` 6 → 7,
+  `unit-06-adverbs` 7 → 8, `unit-07-postpositions` 8 → 9,
+  `unit-09-conjunctions` 9 → 10, `unit-10-interjections` 10 → 11,
+  `unit-08-verbs` 11 → 12, `unit-11-loanwords` 12 → 13,
+  `unit-12-word-formation` 13 → 14, `unit-13-reading` 14 → 15. Unit **ids**
+  are unchanged and no vocab/lesson/example/grammar-note id was removed or
+  renamed, so per `docs/versioning.md` this whole change (new unit + moved
+  lesson + `order` renumbering) is **additive (MINOR)**, not breaking —
+  every existing id still resolves, just reachable via a new unit for
+  `lesson-8-comparison`.
+- `authored_docs/lesson-plan.md`: added `unit-14-comparison` to the
+  Intermediate tier's unit-sequence table and per-unit scope, noted the split
+  in `unit-02-adjectives`'s entry, and bumped the Intermediate tier's unit
+  count (7 → 8) and every subsequent unit's `#` position.
+- `authored_docs/units/unit-02-adjectives-verification.md`: dropped the
+  `lesson-8-comparison` checklist item and noted the split.
+
 ## [0.7.0] - 2026-07-18
 
 ### Added
