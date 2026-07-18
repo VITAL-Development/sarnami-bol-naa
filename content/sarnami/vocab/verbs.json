@@ -52,7 +52,7 @@
     "id": "verb-ave",
     "word": "āve",
     "translations": { "nl": "komen", "en": "to come" },
-    "notes": "De stam is ā-. De beleefde bevelvorm is āvo! (komt u!). Āve wordt ook als hulpwerkwoord gebruikt: het laat zien dat een handeling net begint, of dat iets richting de spreker toe beweegt.",
+    "notes": "De stam is ā-. De beleefde bevelvorm is āvo! (komt u!). Āve wordt ook als hulpwerkwoord gebruikt. Het kan laten zien dat een handeling net begint. Het kan ook laten zien dat iets naar de spreker toe beweegt.",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
   {
@@ -122,14 +122,14 @@
     "id": "verb-cale",
     "word": "cale",
     "translations": { "nl": "lopen, gaan, bewegen", "en": "to walk, to go, to move" },
-    "notes": "De stam is cal-. De beleefde bevelvorm is caliye! (gaat u mee!). Cale wordt ook als hulpwerkwoord gebruikt om te laten zien dat een handeling doorgaat.",
+    "notes": "De stam is cal-. De beleefde bevelvorm is caliye! (gaat u mee!). Cale wordt ook als hulpwerkwoord gebruikt. Het laat dan zien dat een handeling doorgaat.",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
   {
     "id": "verb-baithe",
     "word": "baiṭhe",
     "translations": { "nl": "zitten, gaan zitten", "en": "to sit, to sit down" },
-    "notes": "De stam is baiṭh-. Baithe heeft geen lijdend voorwerp nodig (je zit niet iets). De doe-vorm baiṭhāve betekent 'doen zitten'. Baithe wordt ook als hulpwerkwoord gebruikt om te laten zien dat iemand iets met een duidelijk doel doet.",
+    "notes": "De stam is baiṭh-. Baithe heeft geen lijdend voorwerp nodig (je zit niet iets). De doe-vorm baiṭhāve betekent 'doen zitten'. Baithe wordt ook als hulpwerkwoord gebruikt. Het laat dan zien dat iemand iets met een duidelijk doel doet.",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
   {
