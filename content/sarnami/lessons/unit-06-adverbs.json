@@ -1,7 +1,87 @@
 [
   {
     "lessonId": "unit-06-adverbs-time-place",
-    "exampleSentences": [],
+    "exampleSentences": [
+      {
+        "id": "ex-tp-1",
+        "word": "Āj ham ām khāi lelī hai.",
+        "translations": {
+          "nl": "Ik heb vandaag een mango gegeten."
+        },
+        "vocabRefs": [
+          "adv-aaj",
+          "pron-ham",
+          "noun-am",
+          "verb-khai",
+          "verb-leve",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-tp-2",
+        "word": "Roj ū kuttā dekhe hai.",
+        "translations": {
+          "nl": "Hij ziet elke dag een hond."
+        },
+        "vocabRefs": [
+          "adv-roj",
+          "pron-u",
+          "noun-kutta",
+          "verb-dekhe",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-tp-4",
+        "word": "Bihān ham ghoṛā kīnab.",
+        "translations": {
+          "nl": "Ik zal morgen een paard kopen."
+        },
+        "vocabRefs": [
+          "adv-bihaan",
+          "pron-ham",
+          "noun-ghora",
+          "verb-kine"
+        ]
+      },
+      {
+        "id": "ex-tp-5",
+        "word": "Kāl ham kuttā dekhlī.",
+        "translations": {
+          "nl": "Ik zag gisteren een hond."
+        },
+        "vocabRefs": [
+          "adv-kaal",
+          "pron-ham",
+          "noun-kutta",
+          "verb-dekhe"
+        ]
+      },
+      {
+        "id": "ex-tp-6",
+        "word": "Kuttā bāhar hai.",
+        "translations": {
+          "nl": "De hond is buiten."
+        },
+        "vocabRefs": [
+          "noun-kutta",
+          "adv-baahar",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-tp-7",
+        "word": "Ghoṛā nicvāṁ hai.",
+        "translations": {
+          "nl": "Het paard is daarbeneden."
+        },
+        "vocabRefs": [
+          "noun-ghora",
+          "adv-nicce",
+          "gram-hai"
+        ]
+      }
+    ],
     "grammarNotes": [
       {
         "id": "gn-adv-time",
@@ -198,7 +278,108 @@
   },
   {
     "lessonId": "unit-06-adverbs-manner-degree",
-    "exampleSentences": [],
+    "exampleSentences": [
+      {
+        "id": "ex-md-1",
+        "word": "Ū dhīre bole hai.",
+        "translations": {
+          "nl": "Hij spreekt zacht."
+        },
+        "vocabRefs": [
+          "pron-u",
+          "adv-dhire",
+          "verb-bole",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-md-2",
+        "word": "Ū dhīre-dhīre cale hai.",
+        "translations": {
+          "nl": "Hij loopt langzaamaan."
+        },
+        "vocabRefs": [
+          "pron-u",
+          "adv-dhire-dhire",
+          "verb-cale",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-md-3",
+        "word": "Ham sacce bolilā.",
+        "translations": {
+          "nl": "Ik zeg het echt."
+        },
+        "vocabRefs": [
+          "pron-ham",
+          "adv-sacce",
+          "verb-bole"
+        ]
+      },
+      {
+        "id": "ex-md-5",
+        "word": "Ū bahut bole hai.",
+        "translations": {
+          "nl": "Hij praat veel."
+        },
+        "vocabRefs": [
+          "pron-u",
+          "adv-bahut",
+          "verb-bole",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-md-6",
+        "word": "Ham thorā se khāilā.",
+        "translations": {
+          "nl": "Ik eet een beetje."
+        },
+        "vocabRefs": [
+          "pron-ham",
+          "adv-thora-se",
+          "verb-khai"
+        ]
+      },
+      {
+        "id": "ex-md-8",
+        "word": "Kuttā habarā hai.",
+        "translations": {
+          "nl": "De hond is aan de overkant."
+        },
+        "vocabRefs": [
+          "noun-kutta",
+          "adv-habara",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-md-9",
+        "word": "Ghar kantī hai.",
+        "translations": {
+          "nl": "Het huis staat aan de zijkant."
+        },
+        "vocabRefs": [
+          "noun-ghar",
+          "adv-kanti",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-md-10",
+        "word": "Ū parsīs bole hai.",
+        "translations": {
+          "nl": "Hij zegt het precies zo."
+        },
+        "vocabRefs": [
+          "pron-u",
+          "adv-parsis",
+          "verb-bole",
+          "gram-hai"
+        ]
+      }
+    ],
     "grammarNotes": [
       {
         "id": "gn-adv-manner",
