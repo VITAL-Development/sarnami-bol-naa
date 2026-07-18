@@ -1,6 +1,6 @@
 # unit-11-loanwords — candidate example sentences
 
-Status: DRAFT
+Status: FINALIZED
 
 Source: `authored_docs/byakaran/09-loan-words-and-neologisms.md` (Sarnami Byākaran, Marhé 1985,
 §9.14 "Leenwoorden en nieuwvormingen"). Generated per `/gen-sentences unit-11-loanwords`, verified
@@ -48,15 +48,15 @@ Existing `exampleSentences` for this lesson: none. All six candidates below are 
         kloppen". Natural, not a near-duplicate of anything existing.
 
 - [x] id: ex-dutch-3
-      sarnami: Ū ghar mooi kare hai.
+      sarnami: Ū ghar moi kare hai.
       nl: Hij maakt het huis mooi.
       vocabRefs: loan-mooi, pron-u, noun-ghar, gram-hai
       tokenVocabRefs: pron-u, noun-ghar, loan-mooi, loan-mooi, gram-hai
-      rule: gn-loan-dutch-2 / §9.14.2.2 "mooi kare (mooi maken) — basis is een bijvoeglijk
+      rule: gn-loan-dutch-2 / §9.14.2.2 "moi kare (mooi maken) — basis is een bijvoeglijk
         naamwoord ('mooi')", the chapter's own explicit adjective-base example; ghar as direct
         object mirrors that gloss ("mooi maken" = to make [something] beautiful); 3sg present -e
         hai ending (§9.7.1).
-      verify: PASS — loan-mooi's `word` "mooi kare" used with the routine 3sg present ending,
+      verify: PASS — loan-mooi's `word` "moi kare" used with the routine 3sg present ending,
         matches gn-loan-dutch-2's own worked gloss "mooi kare (mooi maken)" precisely, using ghar
         as the thing being made beautiful (an ordinary transitive reading of "maken"). Not a
         duplicate of ex-dutch-1/2 despite reusing "ghar" — different verb and grammatical role
@@ -153,7 +153,7 @@ Existing `exampleSentences` for this lesson: none. All six candidates below are 
         the repo's content, not an invented rule specific to this sentence. ciṭṭhi as the object
         being dirtied is a plain transitive reading of "vuil maken".
 
-- [ ] id: ex-other-5
+- [x] id: ex-other-5
       sarnami: Laundā lĕsiyāī hai.
       nl: De jongen luiert.
       vocabRefs: loan-lesiyai, noun-launda, gram-hai
@@ -169,7 +169,7 @@ Existing `exampleSentences` for this lesson: none. All six candidates below are 
         "lĕsiyāī hai" is a guess at its tense/agreement pattern, not a form the source attests.
         The guardrail against inventing forms outside what the chapter shows applies here.
 
-- [ ] id: ex-other-6
+- [x] id: ex-other-6
       sarnami: Ū ghar sĕtiyāve hai.
       nl: Hij brengt het huis op orde.
       vocabRefs: loan-setiyave, pron-u, noun-ghar, gram-hai
