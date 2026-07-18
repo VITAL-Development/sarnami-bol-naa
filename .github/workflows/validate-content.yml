@@ -73,6 +73,135 @@ jobs:
       - name: Validate content contract
         run: node rarelang-server-tooling/scripts/validate-content.mjs .
 
+  validate-transliteration-rules:
+    name: validate-transliteration-rules (rarelang-server)
+    needs: fetch-rarelang-server
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Cost/time control, same idea as advisory-contract-review's changed-files
+      # gate below: settings/sarnami/transliteration-rules.json changes rarely,
+      # so most PRs shouldn't pay for a cache restore + node run at all.
+      - name: List changed transliteration-rules files
+        id: changed
+        run: |
+          files=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- settings/sarnami/transliteration-rules.json)
+          if [ -z "$files" ]; then
+            echo "any=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "any=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.changed.outputs.any == 'true'
+        with:
+          node-version: "22"
+
+      - name: Restore rarelang-server tooling
+        if: steps.changed.outputs.any == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: rarelang-server-tooling
+          key: ${{ needs.fetch-rarelang-server.outputs.cache-key }}
+          fail-on-cache-miss: true
+
+      # Two checks, not one, because neither alone covers the contract in
+      # rarelang-server's docs/contracts/schemas/transliteration-rules.schema.json:
+      # plain JSON Schema can express per-entry shape (required fields,
+      # non-empty strings, no extra properties) but can't express order-
+      # dependent rules across sibling array items — the longest-input-first
+      # ordering that greedy-longest-match depends on, and the no-duplicate-
+      # `input` rule. That schema-shaped half is checked here with a small
+      # inline structural check rather than pulling in a JSON-Schema-validator
+      # npm dependency for one file. The array-ordering half is checked by
+      # calling validateRuleTable() from rarelang-server's src/transliteration.mjs
+      # itself — the same function the transliteration engine assumes has
+      # already run — so this job is the authoritative source for both halves,
+      # matching the schema doc's own instruction that a content repo's CI
+      # "should run validateRuleTable, not just schema validation".
+      - name: Validate transliteration rule table
+        if: steps.changed.outputs.any == 'true'
+        run: |
+          node -e '
+            const fs = require("node:fs");
+            const path = "settings/sarnami/transliteration-rules.json";
+            const data = JSON.parse(fs.readFileSync(path, "utf-8"));
+
+            // --- (a) Lightweight structural check standing in for the full
+            // JSON Schema at rarelang-server-tooling/docs/contracts/schemas/
+            // transliteration-rules.schema.json. This covers required fields,
+            // additionalProperties, and per-entry shape only — it is NOT a
+            // substitute for validateRuleTable() below, which is the
+            // authoritative check for ordering/dedup that JSON Schema cannot
+            // express across sibling array items.
+            const errors = [];
+            const allowedTopLevel = new Set(["language", "escapeChar", "rules"]);
+            const allowedRuleKeys = new Set(["input", "output"]);
+
+            if (typeof data !== "object" || data === null || Array.isArray(data)) {
+              errors.push("root: must be an object");
+            } else {
+              for (const key of Object.keys(data)) {
+                if (!allowedTopLevel.has(key)) {
+                  errors.push(`root: unexpected property "${key}" (additionalProperties: false)`);
+                }
+              }
+              if (typeof data.language !== "string" || data.language.length === 0) {
+                errors.push(`"language" must be a non-empty string`);
+              }
+              if (
+                data.escapeChar !== undefined &&
+                (typeof data.escapeChar !== "string" || data.escapeChar.length !== 1)
+              ) {
+                errors.push(`"escapeChar" must be a single character string when present`);
+              }
+              if (!Array.isArray(data.rules) || data.rules.length === 0) {
+                errors.push(`"rules" must be a non-empty array`);
+              } else {
+                data.rules.forEach((rule, index) => {
+                  const label = `rules[${index}]`;
+                  if (typeof rule !== "object" || rule === null || Array.isArray(rule)) {
+                    errors.push(`${label}: must be an object`);
+                    return;
+                  }
+                  for (const key of Object.keys(rule)) {
+                    if (!allowedRuleKeys.has(key)) {
+                      errors.push(`${label}: unexpected property "${key}" (additionalProperties: false)`);
+                    }
+                  }
+                  if (typeof rule.input !== "string" || rule.input.length === 0) {
+                    errors.push(`${label}: "input" must be a non-empty string`);
+                  }
+                  if (typeof rule.output !== "string" || rule.output.length === 0) {
+                    errors.push(`${label}: "output" must be a non-empty string`);
+                  }
+                });
+              }
+            }
+
+            if (errors.length > 0) {
+              console.error("Structural (JSON Schema) violations in " + path + ":");
+              for (const e of errors) console.error("  " + e);
+              process.exit(1);
+            }
+            console.log("Structural check passed.");
+
+            // --- (b) Authoritative ordering/dedup check via rarelang-server'"'"'s
+            // own validateRuleTable().
+            import("./rarelang-server-tooling/src/transliteration.mjs").then(({ validateRuleTable }) => {
+              const violations = validateRuleTable(data.rules);
+              if (violations.length > 0) {
+                console.error("validateRuleTable() violations in " + path + ":");
+                for (const v of violations) console.error("  " + v);
+                process.exit(1);
+              }
+              console.log("validateRuleTable() passed.");
+            });
+          '
+
   contracts-discovery:
     name: contracts-discovery (deterministic)
     needs: fetch-rarelang-server

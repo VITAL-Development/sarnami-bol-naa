@@ -1,0 +1,17 @@
+{
+  "language": "sarnami",
+  "escapeChar": " ",
+  "rules": [
+    { "input": "aa", "output": "ā" },
+    { "input": "ii", "output": "ī" },
+    { "input": "uu", "output": "ū" },
+    { "input": "t,", "output": "ṭ" },
+    { "input": "d,", "output": "ḍ" },
+    { "input": "n,", "output": "ṇ" },
+    { "input": "r,", "output": "ṛ" },
+    { "input": "s,", "output": "ṣ" },
+    { "input": "m'", "output": "ṁ" },
+    { "input": "n'", "output": "ñ" },
+    { "input": "s'", "output": "ś" }
+  ]
+}
