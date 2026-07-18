@@ -55,15 +55,15 @@
         "id": "ex-2-1",
         "word": "Ham Sarnāmi bol-nā sikhe hai.",
         "translations": { "nl": "Ik leer Sarnami spreken." },
-        "vocabRefs": ["pron-ham"],
-        "tokenVocabRefs": ["pron-ham", null, null, null, null]
+        "vocabRefs": ["pron-ham", "about-sarnami", "verb-bolna", "verb-sikhe", "gram-hai-aux"],
+        "tokenVocabRefs": ["pron-ham", "about-sarnami", "verb-bolna", "verb-sikhe", "gram-hai-aux"]
       },
       {
         "id": "ex-2-2",
         "word": "Tū kaise hai?",
         "translations": { "nl": "Hoe gaat het met jou?" },
-        "vocabRefs": ["pron-tu"],
-        "tokenVocabRefs": ["pron-tu", null, null]
+        "vocabRefs": ["pron-tu", "gram-kaise", "gram-hai"],
+        "tokenVocabRefs": ["pron-tu", "gram-kaise", "gram-hai"]
       }
     ],
     "grammarNotes": [],
@@ -96,7 +96,8 @@
         "sentenceTemplate": "___ Sarnāmi bol-nā sikhe hai.",
         "correctAnswer": "Ham",
         "options": ["Ham", "Tū", "Āp", "Ū"],
-        "translations": { "nl": "Ik leer Sarnami spreken.", "en": "I am learning to speak Sarnami." }
+        "translations": { "nl": "Ik leer Sarnami spreken.", "en": "I am learning to speak Sarnami." },
+        "tokenVocabRefs": [null, "about-sarnami", "verb-bolna", "verb-sikhe", "gram-hai-aux"]
       }
     }
   },
@@ -107,22 +108,22 @@
         "id": "ex-3-1",
         "word": "Ī hamar ghar hai.",
         "translations": { "nl": "Dit is mijn huis." },
-        "vocabRefs": ["noun-ghar"],
-        "tokenVocabRefs": [null, null, "noun-ghar", null]
+        "vocabRefs": ["pron-i", "pron-hamar", "noun-ghar", "gram-hai"],
+        "tokenVocabRefs": ["pron-i", "pron-hamar", "noun-ghar", "gram-hai"]
       },
       {
         "id": "ex-3-2",
         "word": "Bappā kām kare hai.",
         "translations": { "nl": "Vader werkt." },
-        "vocabRefs": ["noun-bappa"],
-        "tokenVocabRefs": ["noun-bappa", null, null, null]
+        "vocabRefs": ["noun-bappa", "noun-kam", "verb-kare", "gram-hai-aux"],
+        "tokenVocabRefs": ["noun-bappa", "noun-kam", "verb-kare", "gram-hai-aux"]
       },
       {
         "id": "ex-3-3",
         "word": "Maiyā bajār se saudā kin lāve hai.",
         "translations": { "nl": "Moeder haalt boodschappen van de markt." },
-        "vocabRefs": ["noun-maiya"],
-        "tokenVocabRefs": ["noun-maiya", null, null, null, null, null, null]
+        "vocabRefs": ["noun-maiya", "noun-bajar", "post-se-locative", "noun-sauda", "verb-kine", "verb-lave", "gram-hai-aux"],
+        "tokenVocabRefs": ["noun-maiya", "noun-bajar", "post-se-locative", "noun-sauda", "verb-kine", "verb-lave", "gram-hai-aux"]
       }
     ],
     "grammarNotes": [],
@@ -186,8 +187,8 @@
         "id": "ex-4-4",
         "word": "Hamār bāp nā hai ghare.",
         "translations": { "nl": "Mijn vader is niet thuis." },
-        "vocabRefs": ["gram-na", "noun-bappa"],
-        "tokenVocabRefs": [null, "noun-bappa", "gram-na", null, null]
+        "vocabRefs": ["pron-hamar", "noun-bappa", "gram-na", "gram-hai", "adv-ghare"],
+        "tokenVocabRefs": ["pron-hamar", "noun-bappa", "gram-na", "gram-hai", "adv-ghare"]
       }
     ],
     "grammarNotes": [

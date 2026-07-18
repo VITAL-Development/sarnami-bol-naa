@@ -94,5 +94,24 @@
       "comparison",
       "book-p60"
     ]
+  },
+  {
+    "id": "gram-hai-aux",
+    "word": "hai",
+    "translations": {
+      "nl": "hulpwerkwoord (hove)",
+      "en": "auxiliary verb (hove)"
+    },
+    "notes": "Zelfde vorm als de koppel 'hai' (gram-hai), maar hier hulpwerkwoord na een hoofdwerkwoord in een periphrastische constructie (bv. 'kām kare hai' = werkt, 'kin lāve hai' = haalt) i.p.v. het koppelwerkwoord 'zijn'.",
+    "tags": ["grammar"]
+  },
+  {
+    "id": "gram-kaise",
+    "word": "kaise",
+    "translations": {
+      "nl": "hoe",
+      "en": "how"
+    },
+    "tags": ["grammar"]
   }
 ]
