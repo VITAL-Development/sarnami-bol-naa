@@ -1,7 +1,10 @@
 {
   "id": "unit-02-adjectives",
   "title": "Bijvoeglijke naamwoorden",
-  "titleTranslations": { "nl": "Bijvoeglijke naamwoorden", "en": "Adjectives" },
+  "titleTranslations": {
+    "nl": "Bijvoeglijke naamwoorden",
+    "en": "Adjectives"
+  },
   "description": "Vorm, geslacht, getal en vergelijking van het bijvoeglijk naamwoord.",
   "order": 5,
   "cefrLevel": "A2",
@@ -12,7 +15,10 @@
       "unitId": "unit-02-adjectives",
       "order": 1,
       "title": "Stam, lang en langer",
-      "titleTranslations": { "nl": "Stam, lang en langer", "en": "Stem, long and longer" },
+      "titleTranslations": {
+        "nl": "Stam, lang en langer",
+        "en": "Stem, long and longer"
+      },
       "description": "De drie vormen van het bijvoeglijk naamwoord.",
       "newVocab": [
         "adj-chota",
@@ -24,7 +30,11 @@
       "exampleSentenceRefs": [
         "ex-6-1",
         "ex-6-2",
-        "ex-6-3"
+        "ex-6-3",
+        "ex-6-4",
+        "ex-6-5",
+        "ex-6-6",
+        "ex-6-7"
       ],
       "grammarNoteRefs": [
         "gn-6-1"
@@ -59,7 +69,10 @@
       "unitId": "unit-02-adjectives",
       "order": 2,
       "title": "Geslacht en getal",
-      "titleTranslations": { "nl": "Geslacht en getal", "en": "Gender and number" },
+      "titleTranslations": {
+        "nl": "Geslacht en getal",
+        "en": "Gender and number"
+      },
       "description": "Hoe het bijvoeglijk naamwoord meegaat met het zelfstandig naamwoord.",
       "newVocab": [
         "adj-barka",
@@ -70,7 +83,10 @@
       "exampleSentenceRefs": [
         "ex-7-1",
         "ex-7-2",
-        "ex-7-3"
+        "ex-7-3",
+        "ex-7-4",
+        "ex-7-5",
+        "ex-7-6"
       ],
       "grammarNoteRefs": [
         "gn-7-1"
@@ -105,7 +121,10 @@
       "unitId": "unit-02-adjectives",
       "order": 3,
       "title": "Trappen van vergelijking",
-      "titleTranslations": { "nl": "Trappen van vergelijking", "en": "Degrees of comparison" },
+      "titleTranslations": {
+        "nl": "Trappen van vergelijking",
+        "en": "Degrees of comparison"
+      },
       "description": "Vergrotende en overtreffende trap in het Sarnami.",
       "newVocab": [
         "gram-se",
@@ -116,7 +135,10 @@
       "exampleSentenceRefs": [
         "ex-8-1",
         "ex-8-2",
-        "ex-8-3"
+        "ex-8-3",
+        "ex-8-4",
+        "ex-8-5",
+        "ex-8-6"
       ],
       "grammarNoteRefs": [
         "gn-8-1"
@@ -150,7 +172,10 @@
       "unitId": "unit-02-adjectives",
       "order": 4,
       "title": "Herhaling",
-      "titleTranslations": { "nl": "Herhaling", "en": "Review" },
+      "titleTranslations": {
+        "nl": "Herhaling",
+        "en": "Review"
+      },
       "description": "Alles uit Eenheid 2 nog eens herhalen.",
       "newVocab": [],
       "generatedSpec": {
@@ -170,8 +195,17 @@
           "gram-sabse"
         ],
         "grammarRefs": [],
-        "topics": ["adjective", "comparison", "degree"],
-        "kinds": ["multiple-choice", "matching", "word-bank", "fill-blank"],
+        "topics": [
+          "adjective",
+          "comparison",
+          "degree"
+        ],
+        "kinds": [
+          "multiple-choice",
+          "matching",
+          "word-bank",
+          "fill-blank"
+        ],
         "count": 6,
         "distractorScope": "topic"
       },
