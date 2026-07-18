@@ -38,7 +38,7 @@
     "id": "verb-khai",
     "word": "khāī",
     "translations": { "nl": "eten", "en": "to eat" },
-    "notes": "De stam is khā-: die eindigt op een klinker (klinkerstam), en de infinitief (woordenboekvorm) eindigt op -ī. De vervoeging wijkt af van de meeste werkwoorden. Tegenwoordige tijd (nu): ham khāilā, tū khā hai. 'Ik ben aan het eten': ham khāt bāṭī. De doe-vormen khiyāve en khavāve betekenen allebei 'te eten geven'.",
+    "notes": "De stam is khā-. Die stam eindigt op een klinker (klinkerstam). De infinitief (woordenboekvorm) eindigt op -ī. De vervoeging wijkt af van de meeste werkwoorden. Tegenwoordige tijd (nu): ham khāilā, tū khā hai. 'Ik ben aan het eten': ham khāt bāṭī. De doe-vormen khiyāve en khavāve betekenen allebei 'te eten geven'.",
     "tags": ["verb", "book-p53", "needs-verification"]
   },
   {
@@ -157,14 +157,14 @@
     "id": "verb-kate",
     "word": "kāṭe",
     "translations": { "nl": "snijden, hakken", "en": "to cut, to chop" },
-    "notes": "De stam is kāṭ-. Kate heeft een lijdend voorwerp nodig (je snijdt iets), zoals in lakaṛī kāṭe (hout hakken). Het hoort bij kaṭe, dat geen lijdend voorwerp nodig heeft en 'gesneden worden' betekent.",
+    "notes": "De stam is kāṭ-. Kate heeft een lijdend voorwerp nodig (je snijdt iets), zoals in lakaṛī kāṭe (hout hakken). Het hoort bij kaṭe. Kaṭe heeft geen lijdend voorwerp nodig en betekent 'gesneden worden'.",
     "tags": ["verb", "book-p65", "needs-verification"]
   },
   {
     "id": "verb-khele",
     "word": "khele",
     "translations": { "nl": "spelen", "en": "to play" },
-    "notes": "De stam is khel-. Voorbeeld van een wens-vorm (aanvoegende wijs, een vorm voor wensen of dingen die nog niet zeker zijn): Maiyā māṅge hai ki laṛkavan khele (moeder wil dat de kinderen spelen).",
+    "notes": "De stam is khel-. Dit is een voorbeeld van een wens-vorm (aanvoegende wijs). Die vorm gebruik je voor wensen of voor dingen die nog niet zeker zijn: Maiyā māṅge hai ki laṛkavan khele (moeder wil dat de kinderen spelen).",
     "tags": ["verb", "book-p63", "needs-verification"]
   },
   {
