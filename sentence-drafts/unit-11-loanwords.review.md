@@ -24,6 +24,7 @@ Existing `exampleSentences` for this lesson: none. All six candidates below are 
       sarnami: Ū bel kare hai.
       nl: Hij belt op.
       vocabRefs: loan-bel, pron-u, gram-hai
+      tokenVocabRefs: pron-u, loan-bel, loan-bel, gram-hai
       rule: §9.14.2.2 table row "bel kare/hove = (op-)bellen/(op-)gebeld worden" (active kare
         form); "kare hai" is the 3sg present of kar- (verb-kare), a regular consonant-stem verb,
         per the general present-tense paradigm in §9.7.1 ("ū paṛhe hai" model — kare's own
@@ -37,6 +38,7 @@ Existing `exampleSentences` for this lesson: none. All six candidates below are 
       sarnami: Tū ghar par klop kare hai.
       nl: Jij klopt op het huis.
       vocabRefs: loan-klop, pron-tu, noun-ghar, post-par, gram-hai
+      tokenVocabRefs: pron-tu, noun-ghar, post-par, loan-klop, loan-klop, gram-hai
       rule: §9.14.2.2 table row "klop kare/hove = kloppen/geklopt worden"; 2sg present -e hai
         ending (§9.7.1, same table row as "tū paṛhe hai"); "ghar par" = "op het huis" using
         post-par ("op").
@@ -49,6 +51,7 @@ Existing `exampleSentences` for this lesson: none. All six candidates below are 
       sarnami: Ū ghar mooi kare hai.
       nl: Hij maakt het huis mooi.
       vocabRefs: loan-mooi, pron-u, noun-ghar, gram-hai
+      tokenVocabRefs: pron-u, noun-ghar, loan-mooi, loan-mooi, gram-hai
       rule: gn-loan-dutch-2 / §9.14.2.2 "mooi kare (mooi maken) — basis is een bijvoeglijk
         naamwoord ('mooi')", the chapter's own explicit adjective-base example; ghar as direct
         object mirrors that gloss ("mooi maken" = to make [something] beautiful); 3sg present -e
@@ -63,6 +66,7 @@ Existing `exampleSentences` for this lesson: none. All six candidates below are 
       sarnami: Ham bhāī bekeur karlī.
       nl: Ik bekeurde mijn broer.
       vocabRefs: loan-bekeur, pron-ham, noun-bhai
+      tokenVocabRefs: pron-ham, noun-bhai, loan-bekeur, loan-bekeur
       rule: §9.14.2.2 table row "bekeur kare/hove = bekeuren/bekeurd worden"; 1sg past -lī ending
         on kar-, directly attested in verb-kare's own vocab notes ("O.v.t. ... rest van Suriname
         ham karlī").
@@ -75,6 +79,7 @@ Existing `exampleSentences` for this lesson: none. All six candidates below are 
       sarnami: Ū bahin wachti kare hai.
       nl: Hij wacht op zijn zus.
       vocabRefs: loan-wachti, pron-u, noun-bahin, gram-hai
+      tokenVocabRefs: pron-u, noun-bahin, loan-wachti, loan-wachti, gram-hai
       rule: §9.14.2.2 table row "wachti kare/hove = wachten/opgewacht worden"; loan-wachti's own
         vocab notes gloss it as "wachten/opwachten" (transitive "opwachten" sense), which supports
         a direct object here; 3sg present -e hai ending (§9.7.1).
@@ -87,6 +92,7 @@ Existing `exampleSentences` for this lesson: none. All six candidates below are 
       sarnami: Ū būṭū bhare hai.
       nl: Hij betaalt een boete.
       vocabRefs: loan-butu, pron-u, gram-hai
+      tokenVocabRefs: pron-u, loan-butu, loan-butu, gram-hai
       rule: §9.14.1 lists "būṭū bhare" verbatim as a fully established idiom ("een boete
         betalen"); "bhare hai" is the 3sg present of bhar- ("betalen/vullen", a regular
         consonant-stem verb per gn-loan-dutch-2's own gloss "bhare = betalen"), same -e hai
@@ -104,6 +110,7 @@ Existing `exampleSentences` for this lesson: none. All six candidates below are 
       sarnami: Ham ciṭṭhi don karilā.
       nl: Ik maak de brief af.
       vocabRefs: loan-don, pron-ham, noun-citthi
+      tokenVocabRefs: pron-ham, noun-citthi, loan-don, loan-don
       rule: §9.14.2.1 table row "don kare/hove = afmaken/klaar zijn (van done)"; 1sg present -ilā
         ending on kar- (§9.7.1 general paradigm, "ham paṛhilā" model row).
       verify: PASS — loan-don's `word` "don kare" used unchanged; "karilā" is the routine 1sg
@@ -115,6 +122,7 @@ Existing `exampleSentences` for this lesson: none. All six candidates below are 
       sarnami: Ū ghaṛī lās karis.
       nl: Hij verloor het horloge.
       vocabRefs: loan-las, pron-u, noun-ghari
+      tokenVocabRefs: pron-u, noun-ghari, loan-las, loan-las
       rule: §9.14.2.1 table row "lās kare/hove = verliezen/verloren raken (van lost)"; 3sg past
         -is ending on kar- (§9.7.2 general paradigm, "ū paṛhis" model row).
       verify: PASS — loan-las's `word` "lās kare" used unchanged; "karis" matches the §9.7.2 3sg
@@ -125,6 +133,7 @@ Existing `exampleSentences` for this lesson: none. All six candidates below are 
       sarnami: Ū ghar yūrū kare hai.
       nl: Hij huurt het huis.
       vocabRefs: loan-yuru, pron-u, noun-ghar, gram-hai
+      tokenVocabRefs: pron-u, noun-ghar, loan-yuru, loan-yuru, gram-hai
       rule: §9.14.2.3 table row "yūrū kare/hove = huren/verhuurd worden (van yuru uit het Ned.
         huren/huur)"; 3sg present -e hai ending (§9.7.1).
       verify: PASS — loan-yuru's `word` "yūrū kare" unchanged; standard 3sg present ending. ghar
@@ -135,6 +144,7 @@ Existing `exampleSentences` for this lesson: none. All six candidates below are 
       sarnami: Laundā ciṭṭhi morsū kare hai.
       nl: De jongen maakt de brief vuil.
       vocabRefs: loan-morsu, noun-launda, noun-citthi, gram-hai
+      tokenVocabRefs: noun-launda, noun-citthi, loan-morsu, loan-morsu, gram-hai
       rule: §9.14.2.3 table row "morsū kare/hove = vuil maken/vervuild raken"; 3sg present -e hai
         ending, subject is a full noun (laundā) rather than a pronoun — same SOV order and same
         3rd-person agreement as the ū-subject examples elsewhere in this draft.
@@ -147,6 +157,7 @@ Existing `exampleSentences` for this lesson: none. All six candidates below are 
       sarnami: Laundā lĕsiyāī hai.
       nl: De jongen luiert.
       vocabRefs: loan-lesiyai, noun-launda, gram-hai
+      tokenVocabRefs: noun-launda, loan-lesiyai, gram-hai
       rule: §9.14.1 / gn-loan-other-2: "lĕsiyāī = luieren", explicitly described as "volledig
         aangepast aan de Sarnami-werkwoordstructuur" (no longer takes kare/hove). Sentence treats
         the citation form + hai as a present-tense construction by analogy with the kare+hai
@@ -162,6 +173,7 @@ Existing `exampleSentences` for this lesson: none. All six candidates below are 
       sarnami: Ū ghar sĕtiyāve hai.
       nl: Hij brengt het huis op orde.
       vocabRefs: loan-setiyave, pron-u, noun-ghar, gram-hai
+      tokenVocabRefs: pron-u, noun-ghar, loan-setiyave, gram-hai
       rule: §9.14.1 / gn-loan-other-2: "sĕtiyāve = ordenen", also described as fully adapted (no
         kare/hove). Same citation-form-plus-hai construction as ex-other-5, by analogy.
       verify: FAIL — same problem as ex-other-5: no worked example in the chapter or vocab entry
