@@ -71,6 +71,24 @@ with the book, prefer the book's diacritic-correct form.
 prompt/example-sentence/grammar-note text lives in
 `content/sarnami/lessons/*.json`, keyed by `contentRef`.
 
+An `ExampleSentence`/`fill-blank` exercise may carry an optional
+`tokenVocabRefs: (string | null)[]` sibling to its sentence text (`word` /
+`sentenceTemplate`), one entry per `sentence.trim().split(/\s+/)` token,
+pointing at the matching `VocabItem.id` (or `null` for a word with no direct
+vocab entry — see api-contract.md's "Optional per-word translation refs"
+section, issue #67). It's authored incrementally, unit by unit (issue #229)
+— only map a token to a vocab id already listed in that sentence's own
+`vocabRefs`, don't introduce a new implicit vocab association a human
+author hasn't curated. Two things that look odd but are correct:
+- The same vocab id can repeat across consecutive entries — a multi-word
+  vocab entry (e.g. `"Rām Rām"`) spans multiple whitespace tokens, and each
+  of *those* tokens points back at that one vocab id.
+- `null` means "no tooltip for this token" (function word, inflected form,
+  punctuation-only, ...), not an error or a placeholder to fill in later.
+  If every token in a sentence would be `null`, omit `tokenVocabRefs`
+  entirely instead of authoring an all-`null` array — it conveys nothing a
+  reader/consumer can't already infer from the field being absent.
+
 ## Localization (nl/en)
 
 Content is authored Dutch-first — `defaultUiLanguage` in

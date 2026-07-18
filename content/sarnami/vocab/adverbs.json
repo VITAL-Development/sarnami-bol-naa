@@ -306,5 +306,12 @@
       "book-p86"
     ],
     "notes": "Leenwoord, uit het Nederlands ('precies'). Voorbeeld: 'Tū hamse parsīs-parsīs bataiye' = Je moet mij haarfijn vertellen."
+  },
+  {
+    "id": "adv-ghare",
+    "word": "ghare",
+    "translations": { "nl": "thuis", "en": "at home" },
+    "notes": "Hoort bij 'ghar' (huis, noun-ghar), maar 'ghare' betekent 'thuis'.",
+    "tags": ["adverb"]
   }
 ]

@@ -6,7 +6,7 @@
       "nl": "is / ben / bent (koppelwerkwoord 'zijn')",
       "en": "is / am / are (copula 'to be')"
     },
-    "notes": "Volledige vervoeging o.t.t.: ham hai, tū hai, ī/ū hai, ham log haiṁ, tū log hai, āp ho, ī/ū sab haiṁ.",
+    "notes": "Volledige vervoeging in de o.t.t. (onvoltooid tegenwoordige tijd, de gewone tegenwoordige tijd): ham hai, tū hai, ī/ū hai, ham log haiṁ, tū log hai, āp ho, ī/ū sab haiṁ.",
     "tags": [
       "grammar",
       "verb",
@@ -94,5 +94,24 @@
       "comparison",
       "book-p60"
     ]
+  },
+  {
+    "id": "gram-hai-aux",
+    "word": "hai",
+    "translations": {
+      "nl": "hulpwerkwoord (hove)",
+      "en": "auxiliary verb (hove)"
+    },
+    "notes": "Dit is dezelfde vorm als 'hai' (gram-hai, 'zijn'). Maar hier staat het achter een ander werkwoord, bijvoorbeeld 'kām kare hai' (werkt) of 'kin lāve hai' (haalt). Het betekent dan niet 'zijn' — het hoort gewoon bij dat andere werkwoord.",
+    "tags": ["grammar"]
+  },
+  {
+    "id": "gram-kaise",
+    "word": "kaise",
+    "translations": {
+      "nl": "hoe",
+      "en": "how"
+    },
+    "tags": ["grammar"]
   }
 ]

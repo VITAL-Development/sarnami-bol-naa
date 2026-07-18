@@ -169,5 +169,15 @@
       "postposition",
       "book-p87"
     ]
+  },
+  {
+    "id": "post-se-locative",
+    "word": "se",
+    "translations": {
+      "nl": "bij (voorzetsel locatie)",
+      "en": "at (locative preposition)"
+    },
+    "notes": "Dit 'se' betekent hier 'bij'. Zoals in 'bajār se saudā lāve' (haalt boodschappen bij de markt). Let op: 'post-se' en 'gram-se' zijn ook 'se', maar betekenen iets anders.",
+    "tags": ["postposition"]
   }
 ]
