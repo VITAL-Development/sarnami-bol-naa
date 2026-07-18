@@ -15,6 +15,14 @@
           "verb-khai",
           "verb-leve",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "adv-aaj",
+          "pron-ham",
+          "noun-am",
+          "verb-khai",
+          "verb-leve",
+          "gram-hai"
         ]
       },
       {
@@ -24,6 +32,13 @@
           "nl": "Hij ziet elke dag een hond."
         },
         "vocabRefs": [
+          "adv-roj",
+          "pron-u",
+          "noun-kutta",
+          "verb-dekhe",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
           "adv-roj",
           "pron-u",
           "noun-kutta",
@@ -42,6 +57,12 @@
           "pron-ham",
           "noun-ghora",
           "verb-kine"
+        ],
+        "tokenVocabRefs": [
+          "adv-bihaan",
+          "pron-ham",
+          "noun-ghora",
+          "verb-kine"
         ]
       },
       {
@@ -51,6 +72,12 @@
           "nl": "Ik zag gisteren een hond."
         },
         "vocabRefs": [
+          "adv-kaal",
+          "pron-ham",
+          "noun-kutta",
+          "verb-dekhe"
+        ],
+        "tokenVocabRefs": [
           "adv-kaal",
           "pron-ham",
           "noun-kutta",
@@ -67,6 +94,11 @@
           "noun-kutta",
           "adv-baahar",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-kutta",
+          "adv-baahar",
+          "gram-hai"
         ]
       },
       {
@@ -76,6 +108,11 @@
           "nl": "Het paard is daarbeneden."
         },
         "vocabRefs": [
+          "noun-ghora",
+          "adv-nicce",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
           "noun-ghora",
           "adv-nicce",
           "gram-hai"
@@ -290,6 +327,12 @@
           "adv-dhire",
           "verb-bole",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "adv-dhire",
+          "verb-bole",
+          "gram-hai"
         ]
       },
       {
@@ -299,6 +342,12 @@
           "nl": "Hij loopt langzaamaan."
         },
         "vocabRefs": [
+          "pron-u",
+          "adv-dhire-dhire",
+          "verb-cale",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
           "pron-u",
           "adv-dhire-dhire",
           "verb-cale",
@@ -315,6 +364,11 @@
           "pron-ham",
           "adv-sacce",
           "verb-bole"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          "adv-sacce",
+          "verb-bole"
         ]
       },
       {
@@ -324,6 +378,12 @@
           "nl": "Hij praat veel."
         },
         "vocabRefs": [
+          "pron-u",
+          "adv-bahut",
+          "verb-bole",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
           "pron-u",
           "adv-bahut",
           "verb-bole",
@@ -340,6 +400,12 @@
           "pron-ham",
           "adv-thora-se",
           "verb-khai"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          "adv-thora-se",
+          "adv-thora-se",
+          "verb-khai"
         ]
       },
       {
@@ -352,6 +418,11 @@
           "noun-kutta",
           "adv-habara",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-kutta",
+          "adv-habara",
+          "gram-hai"
         ]
       },
       {
@@ -361,6 +432,11 @@
           "nl": "Het huis staat aan de zijkant."
         },
         "vocabRefs": [
+          "noun-ghar",
+          "adv-kanti",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
           "noun-ghar",
           "adv-kanti",
           "gram-hai"
@@ -377,6 +453,12 @@
           "adv-parsis",
           "verb-bole",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "adv-parsis",
+          "verb-bole",
+          "gram-hai"
         ]
       }
     ],
@@ -384,7 +466,7 @@
       {
         "id": "gn-adv-manner",
         "title": "Bijwoorden van wijze",
-        "body": "Bijwoorden van wijze geven aan hóe iets gebeurt: dhīre (zacht, langzaam), sacce (echt, inderdaad) en sait (misschien). Veel wijze-bijwoorden eindigen op -e. Kenmerkend voor het Sarnami is verdubbeling: dhīre wordt dhīre-dhīre ('langzaamaan, geleidelijk'). Daarnaast bestaat er een rijke voorraad klanknabootsende verdubbelingen zoals ṭan-ṭan (metaalklank) en khaṭkhaṭāike (kloppend aan de deur).",
+        "body": "Bijwoorden van wijze geven aan hóe iets gebeurt: dhīre (zacht, langzaam), sacce (echt, inderdaad) en sait (misschien). Veel wijze-bijwoorden eindigen op -e. Kenmerkend voor het Sarnami is verdubbeling: dhīre wordt dhīre-dhīre ('langzaamaan, geleidelijk'). Er bestaan ook verdubbelingen die een geluid nabootsen — je noemt dat klanknabootsend. Bijvoorbeeld: ṭan-ṭan (een metaalklank) en khaṭkhaṭāike (het geluid van kloppen aan de deur).",
         "relatedVocab": [
           "adv-dhire",
           "adv-dhire-dhire",
