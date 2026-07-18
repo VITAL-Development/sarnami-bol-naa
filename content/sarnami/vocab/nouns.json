@@ -394,5 +394,12 @@
     "translations": { "nl": "hand", "en": "hand" },
     "notes": "Lange vorm hathvā. Uit het boek (§6.2.1): 'Ŏkare hāthe meṁ chūrī rahā' (Hij had een mes in zijn hand).",
     "tags": ["noun", "book", "needs-verification"]
+  },
+  {
+    "id": "noun-baris",
+    "word": "bariś",
+    "translations": { "nl": "regen", "en": "rain" },
+    "notes": "Educated guess op basis van de zinsvertaling ('Als het regent...'); niet geverifieerd tegen het boek.",
+    "tags": ["noun", "needs-verification"]
   }
 ]

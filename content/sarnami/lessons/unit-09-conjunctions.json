@@ -324,11 +324,12 @@
           "noun-ghar",
           "post-mem",
           "gram-hai",
-          "gram-hai-aux"
+          "gram-hai-aux",
+          "verb-jante"
         ],
         "tokenVocabRefs": [
           "pron-ham",
-          null,
+          "verb-jante",
           "gram-hai-aux",
           "struct-dat",
           "pron-u",
@@ -348,11 +349,12 @@
           "gram-na",
           "pron-ham",
           "gram-hove",
-          "verb-ave"
+          "verb-ave",
+          "noun-baris"
         ],
         "tokenVocabRefs": [
           "struct-als",
-          null,
+          "noun-baris",
           "gram-hove",
           "pron-ham",
           "gram-na",
@@ -370,7 +372,8 @@
           "pron-u",
           "gram-na",
           "verb-ave",
-          "gram-raha-aux"
+          "gram-raha-aux",
+          "adj-bimar"
         ],
         "tokenVocabRefs": [
           "pron-u",
@@ -379,7 +382,7 @@
           "struct-omdat",
           "struct-omdat",
           "pron-u",
-          null,
+          "adj-bimar",
           "gram-raha-aux"
         ]
       },
@@ -395,11 +398,12 @@
           "gram-na",
           "pron-ham",
           "gram-raha-aux",
-          "verb-ave"
+          "verb-ave",
+          "adj-bimar"
         ],
         "tokenVocabRefs": [
           "pron-u",
-          null,
+          "adj-bimar",
           "gram-raha-aux",
           "conj-zodat",
           "pron-ham",
@@ -420,12 +424,13 @@
           "noun-ghar",
           "gram-raha-aux",
           "post-mem",
-          "gram-hai"
+          "gram-hai",
+          "adj-bimar"
         ],
         "tokenVocabRefs": [
           "conj-ookal",
           "pron-u",
-          null,
+          "adj-bimar",
           "gram-raha-aux",
           "pron-ham",
           "noun-ghar",
@@ -499,7 +504,8 @@
           "pron-ham",
           "gram-na",
           "verb-ave",
-          "gram-hove"
+          "gram-hove",
+          "noun-baris"
         ],
         "tokenVocabRefs": [
           "pron-ham",
@@ -507,7 +513,7 @@
           "verb-ave",
           "struct-omdat",
           "struct-omdat",
-          null,
+          "noun-baris",
           "gram-hove"
         ]
       },
@@ -525,11 +531,12 @@
           "adj-chota",
           "adj-barhimya",
           "gram-hai",
-          "gram-hai-aux"
+          "gram-hai-aux",
+          "verb-jante"
         ],
         "tokenVocabRefs": [
           "pron-ham",
-          null,
+          "verb-jante",
           "gram-hai-aux",
           "struct-dat",
           "pron-u",
@@ -554,11 +561,13 @@
           "gram-hai",
           "verb-ave",
           "gram-raha-aux",
-          "gram-hai-aux"
+          "gram-hai-aux",
+          "verb-jante",
+          "adj-bimar"
         ],
         "tokenVocabRefs": [
           "pron-ham",
-          null,
+          "verb-jante",
           "gram-hai-aux",
           "struct-dat",
           "pron-u",
@@ -567,7 +576,7 @@
           "struct-omdat",
           "struct-omdat",
           "pron-u",
-          null,
+          "adj-bimar",
           "gram-raha-aux"
         ]
       }
@@ -661,7 +670,7 @@
         },
         "tokenVocabRefs": [
           "pron-ham",
-          null,
+          "verb-jante",
           "gram-hai-aux",
           "struct-dat",
           "pron-u",
@@ -811,7 +820,7 @@
           "verb-ave",
           "struct-omdat",
           "pron-u",
-          null,
+          "adj-bimar",
           "gram-raha-aux"
         ]
       }

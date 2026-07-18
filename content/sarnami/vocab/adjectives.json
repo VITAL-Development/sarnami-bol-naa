@@ -115,5 +115,12 @@
       "adjective",
       "book-p57"
     ]
+  },
+  {
+    "id": "adj-bimar",
+    "word": "bīmār",
+    "translations": { "nl": "ziek", "en": "sick, ill" },
+    "notes": "Educated guess op basis van de zinsvertaling ('omdat hij ziek was'); niet geverifieerd tegen het boek.",
+    "tags": ["adjective", "needs-verification"]
   }
 ]
