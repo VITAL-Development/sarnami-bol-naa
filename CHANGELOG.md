@@ -71,6 +71,16 @@ dated `## [X.Y.Z]` heading.
   review of `sentence-drafts/unit-08-verbs.review.md`. No ids removed or
   changed shape — purely additive. (#250)
 
+### Changed
+
+- `content/sarnami/vocab/verbs.json`: reworded the `notes` field of all 29
+  pre-existing entries out of dense linguistics-register Dutch (undefined
+  abbreviations like `o.t.t.`/`o.v.t.`/`o.t.t.t.`/`v.v.t.` and jargon like
+  `klinkerstam`, `causatief`, `lijdende vorm`, `aanvoegende wijs`) into
+  plain A2-level Dutch, defining any remaining technical term in-line on
+  first use — same-shape value edits only, no ids/fields/refs changed, per
+  `source-language-authoring-contract.md` §2/§3. (#274)
+
 ## [0.5.0] - 2026-07-15
 
 ### Changed
