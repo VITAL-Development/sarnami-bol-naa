@@ -1,5 +1,7 @@
 # unit-08-verbs — candidate example sentences
 
+Status: DRAFT
+
 Source: `authored_docs/byakaran/08-the-verb.md` (Sarnami Byākaran, Marhé 1985, chapter 9).
 Generated per `/gen-sentences unit-08-verbs`, verified per `/verify-sentences unit-08-verbs`
 (both passes performed manually while building this pipeline — see PR description). Checkboxes

@@ -29,7 +29,10 @@ two paths) — draft candidates aren't authored content and shouldn't be reviewe
 3. **Human review.** Read the draft. Tick `- [x]` on exactly the candidates you personally
    confirm are correct, natural Sarnami. Leave everything else unchecked — including anything
    marked `verify: FAIL`, and anything `PASS` that still looks off to you. The checkbox is the
-   real gate; `verify:` is input to your decision, not a substitute for it.
+   real gate; `verify:` is input to your decision, not a substitute for it. When you're done
+   reviewing — not after every individual tick, only once — change the file's `Status:` line
+   from `DRAFT` to `FINALIZED`. That line is the signal CI uses to know a review pass is
+   actually complete; see "Automatic extraction" below.
 4. **Extract.** Run:
    ```
    node scripts/extract-verified-sentences.mjs --unit <unit-id> --dry-run
@@ -39,12 +42,27 @@ two paths) — draft candidates aren't authored content and shouldn't be reviewe
    (`exampleSentences[]`) and `content/sarnami/units/<unit-id>.json`
    (`lessons[].exampleSentenceRefs`). Re-running is safe — ids already present are skipped.
 
+## Automatic extraction
+
+You don't have to run step 4 by hand. `extract-verified-sentences` in
+`.github/workflows/validate-content.yml` watches every PR that touches a `*.review.md` file
+here: once a file's `Status:` line reads `FINALIZED`, it runs the same extractor, validates the
+result against the content contract, and — for PRs on a branch of this repo (not a fork) —
+commits the generated `content/sarnami/**` diff straight back onto that PR. If validation fails,
+nothing is committed and the check goes red instead. Fork PRs can't be pushed back to
+automatically (`GITHUB_TOKEN` doesn't have write access to fork branches), so the job opens a
+follow-up issue asking a maintainer to run extraction manually instead.
+
 ## Checklist format
 
 One `##` section per lesson, one candidate per checkbox block. Field order doesn't matter but
 the field names below do — they're exactly what the extractor parses:
 
 ```markdown
+# unit-08-verbs — candidate example sentences
+
+Status: DRAFT
+
 ## lesson: unit-08-verbs-present  (grammar point: present tense, §9.7.1)
 
 - [ ] id: ex-pres-4
@@ -55,6 +73,9 @@ the field names below do — they're exactly what the extractor parses:
       verify: PASS — pass-2: ending + SOV order correct
 ```
 
+- `Status:` — `DRAFT` while candidates are still being generated/verified/reviewed;
+  `FINALIZED` once the human reviewer is done ticking. Flips exactly once, by hand, as the
+  reviewer's last action (see step 3 above and "Automatic extraction" below).
 - `id` — must look like `ex-<something>` and must not already exist in the target lesson.
 - `sarnami` — the full candidate sentence, diacritics exactly as sourced from the byakaran
   chapter or existing vocab/example sentences. Never normalize or drop diacritics (see

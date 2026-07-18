@@ -14,7 +14,9 @@ Claude Code directly, substituting `$1` for the unit id yourself.
 
 Generate candidate example sentences for the unit `$1` and write them to
 `sentence-drafts/$1.review.md`, following the format spec in `sentence-drafts/README.md` exactly
-(read that file first).
+(read that file first). Start the file with a `Status: DRAFT` line, before the first `##
+lesson:` heading — the human reviewer flips it to `FINALIZED` once review is complete; don't set
+it to `FINALIZED` yourself.
 
 ## Context to read
 
