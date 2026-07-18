@@ -1,6 +1,6 @@
 # unit-07-postpositions — candidate example sentences
 
-Status: DRAFT
+Status: FINALIZED
 
 Source: `authored_docs/byakaran/05-postpositions.md` (Sarnami Byākaran, Marhé 1985, chapter 6,
 printed pp. 86-88). Generated per `/gen-sentences unit-07-postpositions`, verified per
