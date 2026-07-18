@@ -1,7 +1,10 @@
 {
   "id": "unit-09-conjunctions",
   "title": "Voegwoorden",
-  "titleTranslations": { "nl": "Voegwoorden", "en": "Conjunctions" },
+  "titleTranslations": {
+    "nl": "Voegwoorden",
+    "en": "Conjunctions"
+  },
   "description": "Nevenschikkende voegwoorden verbinden twee gelijkwaardige delen van een zin, zoals 'en' of 'maar'. Onderschikkende voegwoorden beginnen een bijzin: een stuk van de zin dat niet alleen kan staan.",
   "order": 9,
   "cefrLevel": "B1",
@@ -12,7 +15,10 @@
       "unitId": "unit-09-conjunctions",
       "order": 1,
       "title": "Nevenschikkende voegwoorden",
-      "titleTranslations": { "nl": "Nevenschikkende voegwoorden", "en": "Coordinating conjunctions" },
+      "titleTranslations": {
+        "nl": "Nevenschikkende voegwoorden",
+        "en": "Coordinating conjunctions"
+      },
       "description": "Voegwoorden die zinsdelen nevenschikken.",
       "newVocab": [
         "struct-en",
@@ -25,7 +31,12 @@
       "exampleSentenceRefs": [
         "ex-09-1",
         "ex-09-2",
-        "ex-09-3"
+        "ex-09-3",
+        "ex-09-7",
+        "ex-09-8",
+        "ex-09-9",
+        "ex-09-10",
+        "ex-09-17"
       ],
       "grammarNoteRefs": [
         "gn-09-1"
@@ -59,7 +70,10 @@
       "unitId": "unit-09-conjunctions",
       "order": 2,
       "title": "Onderschikkende voegwoorden",
-      "titleTranslations": { "nl": "Onderschikkende voegwoorden", "en": "Subordinating conjunctions" },
+      "titleTranslations": {
+        "nl": "Onderschikkende voegwoorden",
+        "en": "Subordinating conjunctions"
+      },
       "description": "Voegwoorden die bijzinnen inleiden.",
       "newVocab": [
         "struct-dat",
@@ -76,7 +90,14 @@
       "exampleSentenceRefs": [
         "ex-09-4",
         "ex-09-5",
-        "ex-09-6"
+        "ex-09-6",
+        "ex-09-12",
+        "ex-09-13",
+        "ex-09-14",
+        "ex-09-15",
+        "ex-09-18",
+        "ex-09-19",
+        "ex-09-20"
       ],
       "grammarNoteRefs": [
         "gn-09-2",
@@ -111,7 +132,10 @@
       "unitId": "unit-09-conjunctions",
       "order": 3,
       "title": "Herhaling",
-      "titleTranslations": { "nl": "Herhaling", "en": "Review" },
+      "titleTranslations": {
+        "nl": "Herhaling",
+        "en": "Review"
+      },
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [

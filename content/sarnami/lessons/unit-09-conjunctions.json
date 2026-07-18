@@ -5,23 +5,131 @@
       {
         "id": "ex-09-1",
         "word": "Bhāī aur bahin ghar meṁ hai.",
-        "translations": { "nl": "Broer en zus zijn thuis." },
-        "vocabRefs": ["struct-en", "noun-bhai", "noun-bahin", "noun-ghar"],
-        "tokenVocabRefs": ["noun-bhai", "struct-en", "noun-bahin", "noun-ghar", null, null]
+        "translations": {
+          "nl": "Broer en zus zijn thuis."
+        },
+        "vocabRefs": [
+          "struct-en",
+          "noun-bhai",
+          "noun-bahin",
+          "noun-ghar"
+        ],
+        "tokenVocabRefs": [
+          "noun-bhai",
+          "struct-en",
+          "noun-bahin",
+          "noun-ghar",
+          null,
+          null
+        ]
       },
       {
         "id": "ex-09-2",
         "word": "Ū choṭā baki barhimyā hai.",
-        "translations": { "nl": "Hij is klein maar goed." },
-        "vocabRefs": ["struct-maar", "pron-u", "adj-chota", "adj-barhimya"],
-        "tokenVocabRefs": ["pron-u", "adj-chota", "struct-maar", "adj-barhimya", null]
+        "translations": {
+          "nl": "Hij is klein maar goed."
+        },
+        "vocabRefs": [
+          "struct-maar",
+          "pron-u",
+          "adj-chota",
+          "adj-barhimya"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "adj-chota",
+          "struct-maar",
+          "adj-barhimya",
+          null
+        ]
       },
       {
         "id": "ex-09-3",
         "word": "Kā bhāī kā bahin, sab ghar meṁ hai.",
-        "translations": { "nl": "Zowel broer als zus zijn thuis." },
-        "vocabRefs": ["conj-zowel-als", "noun-bhai", "noun-bahin", "noun-ghar"],
-        "tokenVocabRefs": ["conj-zowel-als", "noun-bhai", "conj-zowel-als", "noun-bahin", null, "noun-ghar", null, null]
+        "translations": {
+          "nl": "Zowel broer als zus zijn thuis."
+        },
+        "vocabRefs": [
+          "conj-zowel-als",
+          "noun-bhai",
+          "noun-bahin",
+          "noun-ghar"
+        ],
+        "tokenVocabRefs": [
+          "conj-zowel-als",
+          "noun-bhai",
+          "conj-zowel-als",
+          "noun-bahin",
+          null,
+          "noun-ghar",
+          null,
+          null
+        ]
+      },
+      {
+        "id": "ex-09-7",
+        "word": "Bhāī yā bahin ghar meṁ hai.",
+        "translations": {
+          "nl": "Broer of zus is thuis."
+        },
+        "vocabRefs": [
+          "struct-of",
+          "noun-bhai",
+          "noun-bahin",
+          "noun-ghar"
+        ]
+      },
+      {
+        "id": "ex-09-8",
+        "word": "Bhāī ghar meṁ hai, yā to bahin ghar meṁ hai.",
+        "translations": {
+          "nl": "Broer is thuis, of anders is zus thuis."
+        },
+        "vocabRefs": [
+          "conj-ofwel",
+          "noun-bhai",
+          "noun-bahin",
+          "noun-ghar"
+        ]
+      },
+      {
+        "id": "ex-09-9",
+        "word": "Nā bhāī nā bahin ghar meṁ hai.",
+        "translations": {
+          "nl": "Noch broer noch zus is thuis."
+        },
+        "vocabRefs": [
+          "conj-noch-noch",
+          "noun-bhai",
+          "noun-bahin",
+          "noun-ghar"
+        ]
+      },
+      {
+        "id": "ex-09-10",
+        "word": "Ghoṛā barkā aur lammā hai.",
+        "translations": {
+          "nl": "Het paard is groot en lang."
+        },
+        "vocabRefs": [
+          "struct-en",
+          "noun-ghora",
+          "adj-barka",
+          "adj-lamma"
+        ]
+      },
+      {
+        "id": "ex-09-17",
+        "word": "Kuttā karikkā baki barhimyā hai.",
+        "translations": {
+          "nl": "De hond is zwart maar goed."
+        },
+        "vocabRefs": [
+          "struct-maar",
+          "noun-kutta",
+          "adj-karikka",
+          "adj-barhimya"
+        ]
       }
     ],
     "grammarNotes": [
@@ -29,38 +137,108 @@
         "id": "gn-09-1",
         "title": "Nevenschikkende voegwoorden",
         "body": "Nevenschikkende voegwoorden verbinden gelijkwaardige zinnen of zinsdelen. De belangrijkste zijn aur ('en'; ook auro, au), baki ('maar') en yā ('of'; ook ki, ki to). Voor 'ofwel' gebruik je yā to. Twee voegwoorden komen in vaste paren voor (correlatief): kā … kā … ('zowel … als …') en nā … nā … ('noch … noch …'). Net als alle voegwoorden zijn ze onverbuigbaar.",
-        "relatedVocab": ["struct-en", "struct-maar", "struct-of", "conj-ofwel", "conj-zowel-als", "conj-noch-noch"]
+        "relatedVocab": [
+          "struct-en",
+          "struct-maar",
+          "struct-of",
+          "conj-ofwel",
+          "conj-zowel-als",
+          "conj-noch-noch"
+        ]
       }
     ],
     "exercises": {
       "c1-e1": {
         "kind": "matching",
         "pairs": [
-          { "left": "aur", "right": "en", "rightTranslations": { "nl": "en", "en": "and" } },
-          { "left": "baki", "right": "maar", "rightTranslations": { "nl": "maar", "en": "but" } },
-          { "left": "yā", "right": "of", "rightTranslations": { "nl": "of", "en": "or" } },
-          { "left": "yā to", "right": "of wel", "rightTranslations": { "nl": "of wel", "en": "or else" } },
-          { "left": "kā … kā …", "right": "zowel … als …", "rightTranslations": { "nl": "zowel … als …", "en": "both … and …" } }
+          {
+            "left": "aur",
+            "right": "en",
+            "rightTranslations": {
+              "nl": "en",
+              "en": "and"
+            }
+          },
+          {
+            "left": "baki",
+            "right": "maar",
+            "rightTranslations": {
+              "nl": "maar",
+              "en": "but"
+            }
+          },
+          {
+            "left": "yā",
+            "right": "of",
+            "rightTranslations": {
+              "nl": "of",
+              "en": "or"
+            }
+          },
+          {
+            "left": "yā to",
+            "right": "of wel",
+            "rightTranslations": {
+              "nl": "of wel",
+              "en": "or else"
+            }
+          },
+          {
+            "left": "kā … kā …",
+            "right": "zowel … als …",
+            "rightTranslations": {
+              "nl": "zowel … als …",
+              "en": "both … and …"
+            }
+          }
         ]
       },
       "c1-e2": {
         "kind": "fill-blank",
         "sentenceTemplate": "Bhāī ___ bahin ghar meṁ hai.",
         "correctAnswer": "aur",
-        "options": ["aur", "baki", "yā", "kāhe se"],
-        "translations": { "nl": "Broer en zus zijn thuis.", "en": "Brother and sister are at home." }
+        "options": [
+          "aur",
+          "baki",
+          "yā",
+          "kāhe se"
+        ],
+        "translations": {
+          "nl": "Broer en zus zijn thuis.",
+          "en": "Brother and sister are at home."
+        }
       },
       "c1-e3": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Hij is klein maar goed.", "en": "He is small but good." },
-        "correctTargetTokens": ["Ū", "choṭā", "baki", "barhimyā", "hai."],
-        "distractorTokens": ["aur", "yā"]
+        "promptTranslations": {
+          "nl": "Hij is klein maar goed.",
+          "en": "He is small but good."
+        },
+        "correctTargetTokens": [
+          "Ū",
+          "choṭā",
+          "baki",
+          "barhimyā",
+          "hai."
+        ],
+        "distractorTokens": [
+          "aur",
+          "yā"
+        ]
       },
       "c1-e4": {
         "kind": "multiple-choice",
         "prompt": "Welk voegwoord betekent 'maar'?",
-        "promptTranslations": { "nl": "Welk voegwoord betekent 'maar'?", "en": "Which conjunction means 'but'?" },
-        "options": ["baki", "aur", "yā", "kā"],
+        "promptTranslations": {
+          "nl": "Welk voegwoord betekent 'maar'?",
+          "en": "Which conjunction means 'but'?"
+        },
+        "options": [
+          "baki",
+          "aur",
+          "yā",
+          "kā"
+        ],
         "correctIndex": 0
       }
     }
@@ -71,23 +249,162 @@
       {
         "id": "ex-09-4",
         "word": "Ham jāntā hai ki ū ghar meṁ hai.",
-        "translations": { "nl": "Ik weet dat hij thuis is." },
-        "vocabRefs": ["struct-dat", "pron-ham", "pron-u", "noun-ghar"],
-        "tokenVocabRefs": ["pron-ham", null, null, "struct-dat", "pron-u", "noun-ghar", null, null]
+        "translations": {
+          "nl": "Ik weet dat hij thuis is."
+        },
+        "vocabRefs": [
+          "struct-dat",
+          "pron-ham",
+          "pron-u",
+          "noun-ghar"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          null,
+          null,
+          "struct-dat",
+          "pron-u",
+          "noun-ghar",
+          null,
+          null
+        ]
       },
       {
         "id": "ex-09-5",
         "word": "Jo bariś hoī, ham nā āb.",
-        "translations": { "nl": "Als het regent, kom ik niet." },
-        "vocabRefs": ["struct-als", "gram-na", "pron-ham"],
-        "tokenVocabRefs": ["struct-als", null, null, "pron-ham", "gram-na", null]
+        "translations": {
+          "nl": "Als het regent, kom ik niet."
+        },
+        "vocabRefs": [
+          "struct-als",
+          "gram-na",
+          "pron-ham"
+        ],
+        "tokenVocabRefs": [
+          "struct-als",
+          null,
+          null,
+          "pron-ham",
+          "gram-na",
+          null
+        ]
       },
       {
         "id": "ex-09-6",
         "word": "Ū nā āis, kāhe se ū bīmār rahā.",
-        "translations": { "nl": "Hij kwam niet, omdat hij ziek was." },
-        "vocabRefs": ["struct-omdat", "pron-u", "gram-na"],
-        "tokenVocabRefs": ["pron-u", "gram-na", null, "struct-omdat", "struct-omdat", "pron-u", null, null]
+        "translations": {
+          "nl": "Hij kwam niet, omdat hij ziek was."
+        },
+        "vocabRefs": [
+          "struct-omdat",
+          "pron-u",
+          "gram-na"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "gram-na",
+          null,
+          "struct-omdat",
+          "struct-omdat",
+          "pron-u",
+          null,
+          null
+        ]
+      },
+      {
+        "id": "ex-09-12",
+        "word": "Ū bīmār rahā, jaune ham nā āb.",
+        "translations": {
+          "nl": "Hij was ziek, zodat ik niet kwam."
+        },
+        "vocabRefs": [
+          "conj-zodat",
+          "pron-u",
+          "gram-na",
+          "pron-ham"
+        ]
+      },
+      {
+        "id": "ex-09-13",
+        "word": "Cāhe ū bīmār rahā, ham ghar meṁ hai.",
+        "translations": {
+          "nl": "Hoewel hij ziek was, ben ik thuis."
+        },
+        "vocabRefs": [
+          "conj-ookal",
+          "pron-u",
+          "pron-ham",
+          "noun-ghar"
+        ]
+      },
+      {
+        "id": "ex-09-14",
+        "word": "Jab talak ū ghar meṁ hai, ham nā āb.",
+        "translations": {
+          "nl": "Zolang hij thuis is, kom ik niet."
+        },
+        "vocabRefs": [
+          "conj-zolang",
+          "pron-u",
+          "noun-ghar",
+          "pron-ham",
+          "gram-na"
+        ]
+      },
+      {
+        "id": "ex-09-15",
+        "word": "Jab se bhāī ghar meṁ hai, ham barhimyā hai.",
+        "translations": {
+          "nl": "Sinds broer thuis is, ben ik goed."
+        },
+        "vocabRefs": [
+          "struct-sinds",
+          "noun-bhai",
+          "noun-ghar",
+          "pron-ham",
+          "adj-barhimya"
+        ]
+      },
+      {
+        "id": "ex-09-18",
+        "word": "Ham nā āb, kāhe se bariś hoī.",
+        "translations": {
+          "nl": "Ik kom niet, omdat het regent."
+        },
+        "vocabRefs": [
+          "struct-omdat",
+          "pron-ham",
+          "gram-na"
+        ]
+      },
+      {
+        "id": "ex-09-19",
+        "word": "Ham jāntā hai ki ū choṭā baki barhimyā hai.",
+        "translations": {
+          "nl": "Ik weet dat hij klein maar goed is."
+        },
+        "vocabRefs": [
+          "struct-dat",
+          "pron-ham",
+          "pron-u",
+          "struct-maar",
+          "adj-chota",
+          "adj-barhimya"
+        ]
+      },
+      {
+        "id": "ex-09-20",
+        "word": "Ham jāntā hai ki ū nā āis, kāhe se ū bīmār rahā.",
+        "translations": {
+          "nl": "Ik weet dat hij niet kwam, omdat hij ziek was."
+        },
+        "vocabRefs": [
+          "struct-dat",
+          "pron-ham",
+          "pron-u",
+          "struct-omdat",
+          "gram-na"
+        ]
       }
     ],
     "grammarNotes": [
@@ -95,44 +412,121 @@
         "id": "gn-09-2",
         "title": "Onderschikkende voegwoorden",
         "body": "Onderschikkende voegwoorden leiden een bijzin in die ondergeschikt is aan de hoofdzin. Veelgebruikt zijn ki ('dat'), jo ('als, indien'; ook ja), kāhe se ('omdat, want'; volledige vorm kāhe se ki), jaune ('opdat, zodat'; ook jame, jeme), jab se ('sinds, sedert') en jab talak ('zolang'; ook jab tak). Met cāhe druk je 'ook al / hoewel' uit.",
-        "relatedVocab": ["struct-dat", "struct-als", "struct-omdat", "conj-zodat", "conj-zolang", "conj-ookal", "struct-sinds"]
+        "relatedVocab": [
+          "struct-dat",
+          "struct-als",
+          "struct-omdat",
+          "conj-zodat",
+          "conj-zolang",
+          "conj-ookal",
+          "struct-sinds"
+        ]
       },
       {
         "id": "gn-09-3",
         "title": "Correlatieve paren en woordvolgorde",
         "body": "Sommige onderschikkende voegwoorden werken samen met een correlaat in de hoofdzin. Bij een voorwaarde staat jo … to ('indien … dan'): Jo bariś hoī, to ham nā āb ('Als het regent, dan kom ik niet'). Andere vaste verbindingen zijn nahīṁ to ('anders') en tabbo ('toch'). De bijzin met het voegwoord kan vóór of ná de hoofdzin staan; het correlaat (to, tab) opent dan de hoofdzin.",
-        "relatedVocab": ["struct-als", "struct-dan", "struct-anders", "struct-toch"]
+        "relatedVocab": [
+          "struct-als",
+          "struct-dan",
+          "struct-anders",
+          "struct-toch"
+        ]
       }
     ],
     "exercises": {
       "c2-e1": {
         "kind": "matching",
         "pairs": [
-          { "left": "ki", "right": "dat", "rightTranslations": { "nl": "dat", "en": "that" } },
-          { "left": "jo", "right": "als, indien", "rightTranslations": { "nl": "als, indien", "en": "if, in case" } },
-          { "left": "kāhe se", "right": "omdat, want", "rightTranslations": { "nl": "omdat, want", "en": "because, for" } },
-          { "left": "jaune", "right": "opdat, zodat", "rightTranslations": { "nl": "opdat, zodat", "en": "in order that, so that" } },
-          { "left": "jab se", "right": "sinds, sedert", "rightTranslations": { "nl": "sinds, sedert", "en": "since, ever since" } }
+          {
+            "left": "ki",
+            "right": "dat",
+            "rightTranslations": {
+              "nl": "dat",
+              "en": "that"
+            }
+          },
+          {
+            "left": "jo",
+            "right": "als, indien",
+            "rightTranslations": {
+              "nl": "als, indien",
+              "en": "if, in case"
+            }
+          },
+          {
+            "left": "kāhe se",
+            "right": "omdat, want",
+            "rightTranslations": {
+              "nl": "omdat, want",
+              "en": "because, for"
+            }
+          },
+          {
+            "left": "jaune",
+            "right": "opdat, zodat",
+            "rightTranslations": {
+              "nl": "opdat, zodat",
+              "en": "in order that, so that"
+            }
+          },
+          {
+            "left": "jab se",
+            "right": "sinds, sedert",
+            "rightTranslations": {
+              "nl": "sinds, sedert",
+              "en": "since, ever since"
+            }
+          }
         ]
       },
       "c2-e2": {
         "kind": "fill-blank",
         "sentenceTemplate": "Ham jāntā hai ___ ū ghar meṁ hai.",
         "correctAnswer": "ki",
-        "options": ["ki", "jo", "baki", "aur"],
-        "translations": { "nl": "Ik weet dat hij thuis is.", "en": "I know that he is at home." }
+        "options": [
+          "ki",
+          "jo",
+          "baki",
+          "aur"
+        ],
+        "translations": {
+          "nl": "Ik weet dat hij thuis is.",
+          "en": "I know that he is at home."
+        }
       },
       "c2-e3": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Als het regent, kom ik niet.", "en": "If it rains, I won't come." },
-        "correctTargetTokens": ["Jo", "bariś", "hoī,", "ham", "nā", "āb."],
-        "distractorTokens": ["ki", "baki"]
+        "promptTranslations": {
+          "nl": "Als het regent, kom ik niet.",
+          "en": "If it rains, I won't come."
+        },
+        "correctTargetTokens": [
+          "Jo",
+          "bariś",
+          "hoī,",
+          "ham",
+          "nā",
+          "āb."
+        ],
+        "distractorTokens": [
+          "ki",
+          "baki"
+        ]
       },
       "c2-e4": {
         "kind": "multiple-choice",
         "prompt": "Welk voegwoord gebruik je voor 'omdat'?",
-        "promptTranslations": { "nl": "Welk voegwoord gebruik je voor 'omdat'?", "en": "Which conjunction do you use for 'because'?" },
-        "options": ["kāhe se", "jaune", "jab se", "tabbo"],
+        "promptTranslations": {
+          "nl": "Welk voegwoord gebruik je voor 'omdat'?",
+          "en": "Which conjunction do you use for 'because'?"
+        },
+        "options": [
+          "kāhe se",
+          "jaune",
+          "jab se",
+          "tabbo"
+        ],
         "correctIndex": 0
       }
     }
@@ -145,32 +539,97 @@
       "rev-e1": {
         "kind": "multiple-choice",
         "prompt": "Welk van deze voegwoorden is nevenschikkend?",
-        "promptTranslations": { "nl": "Welk van deze voegwoorden is nevenschikkend?", "en": "Which of these conjunctions is coordinating?" },
-        "options": ["aur", "ki", "jaune", "kāhe se"],
+        "promptTranslations": {
+          "nl": "Welk van deze voegwoorden is nevenschikkend?",
+          "en": "Which of these conjunctions is coordinating?"
+        },
+        "options": [
+          "aur",
+          "ki",
+          "jaune",
+          "kāhe se"
+        ],
         "correctIndex": 0
       },
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "aur", "right": "en", "rightTranslations": { "nl": "en", "en": "and" } },
-          { "left": "baki", "right": "maar", "rightTranslations": { "nl": "maar", "en": "but" } },
-          { "left": "ki", "right": "dat", "rightTranslations": { "nl": "dat", "en": "that" } },
-          { "left": "jo", "right": "als, indien", "rightTranslations": { "nl": "als, indien", "en": "if, in case" } },
-          { "left": "kāhe se", "right": "omdat, want", "rightTranslations": { "nl": "omdat, want", "en": "because, for" } }
+          {
+            "left": "aur",
+            "right": "en",
+            "rightTranslations": {
+              "nl": "en",
+              "en": "and"
+            }
+          },
+          {
+            "left": "baki",
+            "right": "maar",
+            "rightTranslations": {
+              "nl": "maar",
+              "en": "but"
+            }
+          },
+          {
+            "left": "ki",
+            "right": "dat",
+            "rightTranslations": {
+              "nl": "dat",
+              "en": "that"
+            }
+          },
+          {
+            "left": "jo",
+            "right": "als, indien",
+            "rightTranslations": {
+              "nl": "als, indien",
+              "en": "if, in case"
+            }
+          },
+          {
+            "left": "kāhe se",
+            "right": "omdat, want",
+            "rightTranslations": {
+              "nl": "omdat, want",
+              "en": "because, for"
+            }
+          }
         ]
       },
       "rev-e3": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Zowel broer als zus zijn thuis.", "en": "Both brother and sister are at home." },
-        "correctTargetTokens": ["Kā", "bhāī", "kā", "bahin", "ghar", "meṁ", "hai."],
-        "distractorTokens": ["nā", "yā"]
+        "promptTranslations": {
+          "nl": "Zowel broer als zus zijn thuis.",
+          "en": "Both brother and sister are at home."
+        },
+        "correctTargetTokens": [
+          "Kā",
+          "bhāī",
+          "kā",
+          "bahin",
+          "ghar",
+          "meṁ",
+          "hai."
+        ],
+        "distractorTokens": [
+          "nā",
+          "yā"
+        ]
       },
       "rev-e4": {
         "kind": "fill-blank",
         "sentenceTemplate": "Ū nā āis, ___ ū bīmār rahā.",
         "correctAnswer": "kāhe se",
-        "options": ["kāhe se", "jaune", "yā to", "tabbo"],
-        "translations": { "nl": "Hij kwam niet, omdat hij ziek was.", "en": "He didn't come, because he was ill." }
+        "options": [
+          "kāhe se",
+          "jaune",
+          "yā to",
+          "tabbo"
+        ],
+        "translations": {
+          "nl": "Hij kwam niet, omdat hij ziek was.",
+          "en": "He didn't come, because he was ill."
+        }
       }
     }
   }
