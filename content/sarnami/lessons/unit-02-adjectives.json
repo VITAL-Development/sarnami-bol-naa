@@ -10,6 +10,14 @@
         },
         "vocabRefs": [
           "adj-chota"
+        ],
+        "tokenVocabRefs": [
+          null,
+          null,
+          "adj-chota",
+          null,
+          null,
+          null
         ]
       },
       {
@@ -20,6 +28,13 @@
         },
         "vocabRefs": [
           "adj-chota"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "adj-chota",
+          null,
+          null,
+          null
         ]
       },
       {
@@ -30,6 +45,13 @@
         },
         "vocabRefs": [
           "adj-lal"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "adj-lal",
+          null,
+          null,
+          null
         ]
       },
       {
@@ -41,6 +63,14 @@
         },
         "vocabRefs": [
           "adj-patar"
+        ],
+        "tokenVocabRefs": [
+          null,
+          null,
+          "adj-patar",
+          null,
+          null,
+          null
         ]
       },
       {
@@ -52,6 +82,13 @@
         },
         "vocabRefs": [
           "adj-patar"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "adj-patar",
+          null,
+          null,
+          null
         ]
       },
       {
@@ -63,6 +100,14 @@
         },
         "vocabRefs": [
           "adj-mitha"
+        ],
+        "tokenVocabRefs": [
+          null,
+          null,
+          "adj-mitha",
+          null,
+          null,
+          null
         ]
       },
       {
@@ -74,6 +119,13 @@
         },
         "vocabRefs": [
           "adj-mitha"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "adj-mitha",
+          null,
+          null,
+          null
         ]
       }
     ],
@@ -212,6 +264,11 @@
         },
         "vocabRefs": [
           "adj-barka"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "adj-barka",
+          null
         ]
       },
       {
@@ -222,6 +279,11 @@
         },
         "vocabRefs": [
           "adj-barka"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "adj-barka",
+          null
         ]
       },
       {
@@ -232,6 +294,10 @@
         },
         "vocabRefs": [
           "adj-karikka"
+        ],
+        "tokenVocabRefs": [
+          "adj-karikka",
+          null
         ]
       },
       {
@@ -243,6 +309,10 @@
         },
         "vocabRefs": [
           "adj-karikka"
+        ],
+        "tokenVocabRefs": [
+          "adj-karikka",
+          null
         ]
       },
       {
@@ -254,6 +324,10 @@
         },
         "vocabRefs": [
           "adj-chota"
+        ],
+        "tokenVocabRefs": [
+          "adj-chota",
+          null
         ]
       },
       {
@@ -265,6 +339,11 @@
         },
         "vocabRefs": [
           "adj-barka"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "adj-barka",
+          null
         ]
       }
     ],
@@ -395,6 +474,15 @@
         "vocabRefs": [
           "gram-se",
           "adj-barka"
+        ],
+        "tokenVocabRefs": [
+          null,
+          null,
+          null,
+          null,
+          "gram-se",
+          "adj-barka",
+          null
         ]
       },
       {
@@ -406,6 +494,16 @@
         "vocabRefs": [
           "gram-aur-compare",
           "adj-chota"
+        ],
+        "tokenVocabRefs": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "gram-aur-compare",
+          "adj-chota",
+          null
         ]
       },
       {
@@ -416,6 +514,16 @@
         },
         "vocabRefs": [
           "gram-sabse"
+        ],
+        "tokenVocabRefs": [
+          null,
+          null,
+          null,
+          "gram-sabse",
+          "gram-sabse",
+          null,
+          null,
+          null
         ]
       },
       {
@@ -429,6 +537,16 @@
           "gram-se",
           "gram-jada",
           "adj-barka"
+        ],
+        "tokenVocabRefs": [
+          null,
+          null,
+          null,
+          null,
+          "gram-se",
+          "gram-jada",
+          "adj-barka",
+          null
         ]
       },
       {
@@ -442,6 +560,15 @@
           "gram-sabse",
           "gram-jada",
           "adj-barka"
+        ],
+        "tokenVocabRefs": [
+          null,
+          null,
+          "gram-sabse",
+          "gram-sabse",
+          "gram-jada",
+          "adj-barka",
+          null
         ]
       },
       {
@@ -455,6 +582,16 @@
           "gram-se",
           "gram-aur-compare",
           "adj-barhimya"
+        ],
+        "tokenVocabRefs": [
+          null,
+          null,
+          null,
+          null,
+          "gram-se",
+          "gram-aur-compare",
+          "adj-barhimya",
+          null
         ]
       }
     ],
