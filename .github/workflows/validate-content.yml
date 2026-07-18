@@ -202,6 +202,48 @@ jobs:
             });
           '
 
+  validate-scs-word-list:
+    name: validate-scs-word-list (generated-file freshness)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Cost/time control, same pattern as validate-transliteration-rules
+      # above: most PRs don't touch vocab or this generator, so most runs
+      # should skip setup-node + the regenerate-and-diff check entirely.
+      # No rarelang-server tooling needed here — the generator only depends
+      # on this repo's own scripts/scs-transliterate.mjs.
+      - name: List changed vocab/word-list files
+        id: changed
+        run: |
+          files=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- 'content/sarnami/vocab/*.json' settings/sarnami/scs-word-list.json scripts/generate-scs-word-list.mjs scripts/scs-transliterate.mjs)
+          if [ -z "$files" ]; then
+            echo "any=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "any=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.changed.outputs.any == 'true'
+        with:
+          node-version: "22"
+
+      # settings/sarnami/scs-word-list.json (sarnami-bol-naa#244's SCS ->
+      # canonical dictionary-lookup pass) is a generated artifact, like a
+      # lockfile: mechanically derived from content/sarnami/vocab/**'s
+      # `word` fields via scripts/generate-scs-word-list.mjs. --check
+      # regenerates it in memory and fails if the committed file has
+      # drifted, so a PR that adds/edits vocab can't forget to regenerate it.
+      - name: Check settings/sarnami/scs-word-list.json is up to date
+        if: steps.changed.outputs.any == 'true'
+        run: node scripts/generate-scs-word-list.mjs --check
+
+      - name: Run generator unit tests
+        if: steps.changed.outputs.any == 'true'
+        run: node --test scripts/generate-scs-word-list.test.mjs
+
   contracts-discovery:
     name: contracts-discovery (deterministic)
     needs: fetch-rarelang-server
