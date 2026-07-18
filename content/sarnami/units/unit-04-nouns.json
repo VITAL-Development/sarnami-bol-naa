@@ -1,7 +1,10 @@
 {
   "id": "unit-04-nouns",
   "title": "Zelfstandige naamwoorden",
-  "titleTranslations": { "nl": "Zelfstandige naamwoorden", "en": "Nouns" },
+  "titleTranslations": {
+    "nl": "Zelfstandige naamwoorden",
+    "en": "Nouns"
+  },
   "description": "Geslacht, getal, naamval en telwoorden.",
   "order": 4,
   "cefrLevel": "A2",
@@ -12,7 +15,10 @@
       "unitId": "unit-04-nouns",
       "order": 1,
       "title": "Geslacht",
-      "titleTranslations": { "nl": "Geslacht", "en": "Gender" },
+      "titleTranslations": {
+        "nl": "Geslacht",
+        "en": "Gender"
+      },
       "description": "Het geslacht van zelfstandige naamwoorden.",
       "newVocab": [
         "noun-gadaha",
@@ -24,7 +30,9 @@
       ],
       "exampleSentenceRefs": [
         "ex-04-gender-1",
-        "ex-04-gender-2"
+        "ex-04-gender-2",
+        "ex-04-gender-3",
+        "ex-04-gender-4"
       ],
       "grammarNoteRefs": [
         "gn-04-gender-1",
@@ -54,7 +62,10 @@
       "unitId": "unit-04-nouns",
       "order": 2,
       "title": "Getal & meervoud",
-      "titleTranslations": { "nl": "Getal & meervoud", "en": "Number & plural" },
+      "titleTranslations": {
+        "nl": "Getal & meervoud",
+        "en": "Number & plural"
+      },
       "description": "Enkelvoud en meervoud, plus de korte en lange vorm.",
       "newVocab": [
         "noun-ghora",
@@ -66,7 +77,12 @@
       "exampleSentenceRefs": [
         "ex-04-number-1",
         "ex-04-number-2",
-        "ex-04-number-3"
+        "ex-04-number-3",
+        "ex-04-number-4",
+        "ex-04-number-5",
+        "ex-04-number-6",
+        "ex-04-number-7",
+        "ex-04-number-8"
       ],
       "grammarNoteRefs": [
         "gn-04-number-1",
@@ -101,7 +117,10 @@
       "unitId": "unit-04-nouns",
       "order": 3,
       "title": "Naamvallen",
-      "titleTranslations": { "nl": "Naamvallen", "en": "Cases" },
+      "titleTranslations": {
+        "nl": "Naamvallen",
+        "en": "Cases"
+      },
       "description": "Hoe zelfstandige naamwoorden veranderen bij het achterzetsel ke. De andere achterzetsels komen in de eenheid Achterzetsels.",
       "newVocab": [
         "noun-churi",
@@ -112,7 +131,12 @@
       "exampleSentenceRefs": [
         "ex-04-cases-1",
         "ex-04-cases-2",
-        "ex-04-cases-3"
+        "ex-04-cases-3",
+        "ex-04-cases-4",
+        "ex-04-cases-5",
+        "ex-04-cases-6",
+        "ex-04-cases-7",
+        "ex-04-cases-8"
       ],
       "grammarNoteRefs": [
         "gn-04-cases-1",
@@ -147,7 +171,10 @@
       "unitId": "unit-04-nouns",
       "order": 4,
       "title": "Telwoorden",
-      "titleTranslations": { "nl": "Telwoorden", "en": "Numerals" },
+      "titleTranslations": {
+        "nl": "Telwoorden",
+        "en": "Numerals"
+      },
       "description": "De hoofdtelwoorden uit dit hoofdstuk.",
       "newVocab": [
         "num-sunna",
@@ -165,7 +192,10 @@
       ],
       "exampleSentenceRefs": [
         "ex-04-num-1",
-        "ex-04-num-2"
+        "ex-04-num-2",
+        "ex-04-num-3",
+        "ex-04-num-4",
+        "ex-04-num-5"
       ],
       "grammarNoteRefs": [
         "gn-04-num-1",
@@ -200,7 +230,10 @@
       "unitId": "unit-04-nouns",
       "order": 5,
       "title": "Herhaling",
-      "titleTranslations": { "nl": "Herhaling", "en": "Review" },
+      "titleTranslations": {
+        "nl": "Herhaling",
+        "en": "Review"
+      },
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [
