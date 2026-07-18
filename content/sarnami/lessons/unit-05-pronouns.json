@@ -1,48 +1,197 @@
 [
   {
     "lessonId": "unit-05-pronouns-possessive",
-    "exampleSentences": [],
+    "exampleSentences": [
+      {
+        "id": "ex-poss-1",
+        "word": "Tor ghar dūr hai.",
+        "translations": {
+          "nl": "Jouw huis is ver."
+        },
+        "vocabRefs": [
+          "pron-tor",
+          "noun-ghar",
+          "adv-dur",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-poss-2",
+        "word": "Tŏṁhār ghar dūr nā hai.",
+        "translations": {
+          "nl": "Uw huis is niet ver."
+        },
+        "vocabRefs": [
+          "pron-tomhar",
+          "noun-ghar",
+          "adv-dur",
+          "gram-na",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-poss-3",
+        "word": "Āpke ghar dūr nā hai.",
+        "translations": {
+          "nl": "Uw huis is niet ver."
+        },
+        "vocabRefs": [
+          "pron-apke",
+          "noun-ghar",
+          "adv-dur",
+          "gram-na",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-poss-4",
+        "word": "Ekar ghar dūr hai.",
+        "translations": {
+          "nl": "Zijn/haar huis (dichtbij) is ver."
+        },
+        "vocabRefs": [
+          "pron-ekar",
+          "noun-ghar",
+          "adv-dur",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-poss-5",
+        "word": "Okar ghar dūr nā hai.",
+        "translations": {
+          "nl": "Zijn/haar huis (veraf) is niet ver."
+        },
+        "vocabRefs": [
+          "pron-okar",
+          "noun-ghar",
+          "adv-dur",
+          "gram-na",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-poss-6",
+        "word": "Ū hamare ghar meṁ hai.",
+        "translations": {
+          "nl": "Hij/zij is in mijn huis."
+        },
+        "vocabRefs": [
+          "pron-u",
+          "pron-hamar",
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
+        ]
+      }
+    ],
     "grammarNotes": [
       {
         "id": "gn-poss-1",
         "title": "Bezittelijke voornaamwoorden",
         "body": "Bezittelijke voornaamwoorden zeggen van wie iets is. Ze lijken op de persoonlijke voornaamwoorden. Er zit vaak kar of ke in. Kar of ke betekent 'van'. Bij ham (ik) hoort hamār (mijn). Bij tū (jij) hoort tor (jouw). Bij de 3e persoon zijn er twee vormen: ekar en okar. Beide betekenen 'zijn' of 'haar'. Gebruik ekar als de persoon of het ding dichtbij de spreker is. Gebruik okar als de persoon of het ding ver van de spreker is. Voorbeeld: 'Hamār ghar hiṁyā se dūr nā hai' — Mijn huis is niet ver van hier.",
-        "relatedVocab": ["pron-hamar", "pron-tor", "pron-ekar", "pron-okar"]
+        "relatedVocab": [
+          "pron-hamar",
+          "pron-tor",
+          "pron-ekar",
+          "pron-okar"
+        ]
       },
       {
         "id": "gn-poss-2",
         "title": "Beleefde vormen: tŏṁhār en āpke",
         "body": "Het Sarnami heeft ook beleefde vormen. Je gebruikt deze voor mensen die je niet goed kent, of voor oudere mensen. Bij de 2e persoon (jij/u) zijn er twee beleefde vormen: tŏṁhār en āpke. Beide betekenen 'uw'. Let op de tekens bij tŏṁhār: het rondje boven de o (ŏ) en de n-klank (ṁ). Vergelijk: tor ghar betekent 'jouw huis' en klinkt vertrouwelijk. Tŏṁhār ghar of āpke ghar betekent 'uw huis' en klinkt beleefd.",
-        "relatedVocab": ["pron-tomhar", "pron-apke"]
+        "relatedVocab": [
+          "pron-tomhar",
+          "pron-apke"
+        ]
       },
       {
         "id": "gn-poss-3",
         "title": "Uitbreiding met -e vóór een achterzetsel",
         "body": "Soms staat er een klein woordje ná het zelfstandig naamwoord, zoals meṁ (in), se (van/uit), ke (van) of par (op). Dit woordje heet een achterzetsel: het staat achter het woord in plaats van ervoor. Als er zo'n achterzetsel volgt, dan krijgen de bezittelijke voornaamwoorden er een extra -e bij. De betekenis blijft hetzelfde. Hamār wordt dan hamāre (of hamare). Tor wordt tore. Ekar wordt ĕkare. Okar wordt ŏkare. Voorbeeld: 'Ū hamāre ghar meṁ rahat rahā' — Hij/zij woonde in mijn huis.",
-        "relatedVocab": ["pron-hamar", "pron-tor"]
+        "relatedVocab": [
+          "pron-hamar",
+          "pron-tor"
+        ]
       }
     ],
     "exercises": {
       "poss-e1": {
         "kind": "matching",
         "pairs": [
-          { "left": "hamār", "right": "mijn", "rightTranslations": { "nl": "mijn", "en": "my" } },
-          { "left": "tor", "right": "jouw", "rightTranslations": { "nl": "jouw", "en": "your" } },
-          { "left": "tŏṁhār", "right": "uw (beleefd)", "rightTranslations": { "nl": "uw (beleefd)", "en": "your (polite)" } },
-          { "left": "ekar", "right": "zijn/haar (dichtbij)", "rightTranslations": { "nl": "zijn/haar (dichtbij)", "en": "his/her (near)" } },
-          { "left": "okar", "right": "zijn/haar (veraf)", "rightTranslations": { "nl": "zijn/haar (veraf)", "en": "his/her (far)" } }
+          {
+            "left": "hamār",
+            "right": "mijn",
+            "rightTranslations": {
+              "nl": "mijn",
+              "en": "my"
+            }
+          },
+          {
+            "left": "tor",
+            "right": "jouw",
+            "rightTranslations": {
+              "nl": "jouw",
+              "en": "your"
+            }
+          },
+          {
+            "left": "tŏṁhār",
+            "right": "uw (beleefd)",
+            "rightTranslations": {
+              "nl": "uw (beleefd)",
+              "en": "your (polite)"
+            }
+          },
+          {
+            "left": "ekar",
+            "right": "zijn/haar (dichtbij)",
+            "rightTranslations": {
+              "nl": "zijn/haar (dichtbij)",
+              "en": "his/her (near)"
+            }
+          },
+          {
+            "left": "okar",
+            "right": "zijn/haar (veraf)",
+            "rightTranslations": {
+              "nl": "zijn/haar (veraf)",
+              "en": "his/her (far)"
+            }
+          }
         ]
       },
       "poss-e2": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent 'hamār'?",
-        "promptTranslations": { "nl": "Wat betekent 'hamār'?", "en": "What does 'hamār' mean?" },
-        "options": ["mijn", "jouw", "zijn/haar", "uw"],
+        "promptTranslations": {
+          "nl": "Wat betekent 'hamār'?",
+          "en": "What does 'hamār' mean?"
+        },
+        "options": [
+          "mijn",
+          "jouw",
+          "zijn/haar",
+          "uw"
+        ],
         "optionTranslations": [
-          { "nl": "mijn", "en": "my" },
-          { "nl": "jouw", "en": "your" },
-          { "nl": "zijn/haar", "en": "his/her" },
-          { "nl": "uw", "en": "your (polite)" }
+          {
+            "nl": "mijn",
+            "en": "my"
+          },
+          {
+            "nl": "jouw",
+            "en": "your"
+          },
+          {
+            "nl": "zijn/haar",
+            "en": "his/her"
+          },
+          {
+            "nl": "uw",
+            "en": "your (polite)"
+          }
         ],
         "correctIndex": 0
       },
@@ -50,121 +199,408 @@
         "kind": "fill-blank",
         "sentenceTemplate": "___ ghar hiṁyā se dūr nā hai.",
         "correctAnswer": "Hamār",
-        "options": ["Hamār", "Tor", "Ekar", "Okar"],
-        "translations": { "nl": "Mijn huis is niet ver van hier.", "en": "My house is not far from here." }
+        "options": [
+          "Hamār",
+          "Tor",
+          "Ekar",
+          "Okar"
+        ],
+        "translations": {
+          "nl": "Mijn huis is niet ver van hier.",
+          "en": "My house is not far from here."
+        }
       },
       "poss-e6": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Hij/zij woonde in jouw huis.", "en": "He/she lived in your house." },
-        "correctTargetTokens": ["Ū", "tor", "ghar", "meṁ", "rahat", "rahā."],
-        "distractorTokens": ["hamār", "okar"]
+        "promptTranslations": {
+          "nl": "Hij/zij woonde in jouw huis.",
+          "en": "He/she lived in your house."
+        },
+        "correctTargetTokens": [
+          "Ū",
+          "tor",
+          "ghar",
+          "meṁ",
+          "rahat",
+          "rahā."
+        ],
+        "distractorTokens": [
+          "hamār",
+          "okar"
+        ]
       }
     }
   },
   {
     "lessonId": "unit-05-pronouns-demonstrative",
-    "exampleSentences": [],
+    "exampleSentences": [
+      {
+        "id": "ex-dem-1",
+        "word": "Ī kuttā hamār hai.",
+        "translations": {
+          "nl": "Deze hond is van mij."
+        },
+        "vocabRefs": [
+          "pron-i",
+          "noun-kutta",
+          "pron-hamar",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-dem-2",
+        "word": "Ū ghoṛā okar hai.",
+        "translations": {
+          "nl": "Dat paard is van hem/haar."
+        },
+        "vocabRefs": [
+          "pron-u",
+          "noun-ghora",
+          "pron-okar",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-dem-3",
+        "word": "Ham eke dekhilā.",
+        "translations": {
+          "nl": "Ik zie hem/haar (dichtbij)."
+        },
+        "vocabRefs": [
+          "pron-ham",
+          "pron-eke",
+          "verb-dekhe"
+        ]
+      },
+      {
+        "id": "ex-dem-4",
+        "word": "Ham oke dekhilā.",
+        "translations": {
+          "nl": "Ik zie hem/haar (veraf)."
+        },
+        "vocabRefs": [
+          "pron-ham",
+          "pron-oke",
+          "verb-dekhe"
+        ]
+      },
+      {
+        "id": "ex-dem-5",
+        "word": "Inhan ghar meṁ hai.",
+        "translations": {
+          "nl": "Zij (beleefd/meervoud, dichtbij) zijn in het huis."
+        },
+        "vocabRefs": [
+          "pron-inhan",
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-dem-6",
+        "word": "Unhan ghar meṁ hai.",
+        "translations": {
+          "nl": "Zij (beleefd/meervoud, veraf) zijn in het huis."
+        },
+        "vocabRefs": [
+          "pron-unhan",
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
+        ]
+      }
+    ],
     "grammarNotes": [
       {
         "id": "gn-dem-1",
         "title": "Aanwijzend: ī (dit) en ū (dat)",
         "body": "Aanwijzende voornaamwoorden wijzen iets aan, zoals 'dit' of 'dat'. Het Sarnami heeft er twee: ī en ū. Gebruik ī voor iets dichtbij: 'dit' of 'deze'. Gebruik ū voor iets verder weg: 'dat' of 'die'. Dezelfde woorden betekenen ook 'hij', 'zij' of 'het'. Je kunt ī en ū sterker maken met vāl of vālā erachter. Voorbeeld: ī vālā betekent 'deze hier!'",
-        "relatedVocab": ["pron-i", "pron-u"]
+        "relatedVocab": [
+          "pron-i",
+          "pron-u"
+        ]
       },
       {
         "id": "gn-dem-2",
         "title": "Verbogen vormen: eke en oke",
         "body": "Het onderwerp van een zin is het deel dat de handeling doet. ī en ū veranderen van vorm als ze niet het onderwerp zijn. Dat gebeurt bijvoorbeeld als iemand iets aan hen geeft, of als de handeling hen raakt. We noemen dit een voorwerp in de zin. Bij ī wordt dat eke (hem/haar, dichtbij). Bij ū wordt dat oke (hem/haar, veraf). Voorbeeld: 'Oke tū etnā bisvās na karal kariye' — Je moet hem/haar niet zoveel vertrouwen.",
-        "relatedVocab": ["pron-eke", "pron-oke"]
+        "relatedVocab": [
+          "pron-eke",
+          "pron-oke"
+        ]
       },
       {
         "id": "gn-dem-3",
         "title": "Beleefdheid en meervoud: inhan en unhan",
         "body": "Voor het meervoud en voor beleefdheid gebruikt het Sarnami inhan (zij, dichtbij) en unhan (zij, veraf). Er is nog een andere manier om het meervoud te maken: je zet sab(han), log(an) of loṅ achter ī of ū. Voorbeeld: ī sab betekent 'zij'.",
-        "relatedVocab": ["pron-inhan", "pron-unhan"]
+        "relatedVocab": [
+          "pron-inhan",
+          "pron-unhan"
+        ]
       }
     ],
     "exercises": {
       "dem-e1": {
         "kind": "matching",
         "pairs": [
-          { "left": "ī", "right": "dit / deze (dichtbij)", "rightTranslations": { "nl": "dit / deze (dichtbij)", "en": "this / these (near)" } },
-          { "left": "ū", "right": "dat / die (veraf)", "rightTranslations": { "nl": "dat / die (veraf)", "en": "that / those (far)" } },
-          { "left": "eke", "right": "hem/haar (dichtbij)", "rightTranslations": { "nl": "hem/haar (dichtbij)", "en": "him/her (near)" } },
-          { "left": "oke", "right": "hem/haar (veraf)", "rightTranslations": { "nl": "hem/haar (veraf)", "en": "him/her (far)" } },
-          { "left": "inhan", "right": "zij (beleefd/meervoud)", "rightTranslations": { "nl": "zij (beleefd/meervoud)", "en": "they (polite/plural)" } }
+          {
+            "left": "ī",
+            "right": "dit / deze (dichtbij)",
+            "rightTranslations": {
+              "nl": "dit / deze (dichtbij)",
+              "en": "this / these (near)"
+            }
+          },
+          {
+            "left": "ū",
+            "right": "dat / die (veraf)",
+            "rightTranslations": {
+              "nl": "dat / die (veraf)",
+              "en": "that / those (far)"
+            }
+          },
+          {
+            "left": "eke",
+            "right": "hem/haar (dichtbij)",
+            "rightTranslations": {
+              "nl": "hem/haar (dichtbij)",
+              "en": "him/her (near)"
+            }
+          },
+          {
+            "left": "oke",
+            "right": "hem/haar (veraf)",
+            "rightTranslations": {
+              "nl": "hem/haar (veraf)",
+              "en": "him/her (far)"
+            }
+          },
+          {
+            "left": "inhan",
+            "right": "zij (beleefd/meervoud)",
+            "rightTranslations": {
+              "nl": "zij (beleefd/meervoud)",
+              "en": "they (polite/plural)"
+            }
+          }
         ]
       },
       "dem-e2": {
         "kind": "multiple-choice",
         "prompt": "Welk aanwijzend voornaamwoord gebruik je voor iets dat dichtbij de spreker is?",
-        "promptTranslations": { "nl": "Welk aanwijzend voornaamwoord gebruik je voor iets dat dichtbij de spreker is?", "en": "Which demonstrative pronoun do you use for something that is near the speaker?" },
-        "options": ["ī", "ū", "oke", "unhan"],
+        "promptTranslations": {
+          "nl": "Welk aanwijzend voornaamwoord gebruik je voor iets dat dichtbij de spreker is?",
+          "en": "Which demonstrative pronoun do you use for something that is near the speaker?"
+        },
+        "options": [
+          "ī",
+          "ū",
+          "oke",
+          "unhan"
+        ],
         "correctIndex": 0
       },
       "dem-e3": {
         "kind": "fill-blank",
         "sentenceTemplate": "___ ghar dūr nā hai.",
         "correctAnswer": "Ī",
-        "options": ["Ī", "Ū", "Eke", "Oke"],
-        "translations": { "nl": "Dit huis is niet ver.", "en": "This house is not far." }
+        "options": [
+          "Ī",
+          "Ū",
+          "Eke",
+          "Oke"
+        ],
+        "translations": {
+          "nl": "Dit huis is niet ver.",
+          "en": "This house is not far."
+        }
       },
       "dem-e6": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Dit huis is van mij.", "en": "This house is mine." },
-        "correctTargetTokens": ["Ī", "ghar", "hamār", "hai."],
-        "distractorTokens": ["Ū", "tor"]
+        "promptTranslations": {
+          "nl": "Dit huis is van mij.",
+          "en": "This house is mine."
+        },
+        "correctTargetTokens": [
+          "Ī",
+          "ghar",
+          "hamār",
+          "hai."
+        ],
+        "distractorTokens": [
+          "Ū",
+          "tor"
+        ]
       }
     }
   },
   {
     "lessonId": "unit-05-pronouns-interrogative-relative",
-    "exampleSentences": [],
+    "exampleSentences": [
+      {
+        "id": "ex-ir-1",
+        "word": "Ke āil hai?",
+        "translations": {
+          "nl": "Wie is er gekomen?"
+        },
+        "vocabRefs": [
+          "pron-ke",
+          "verb-ave",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-ir-2",
+        "word": "Kaun āil hai?",
+        "translations": {
+          "nl": "Wie is er gekomen?"
+        },
+        "vocabRefs": [
+          "pron-kaun",
+          "verb-ave",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-ir-4",
+        "word": "Kekar kuttā hai?",
+        "translations": {
+          "nl": "Wiens hond is het?"
+        },
+        "vocabRefs": [
+          "pron-kekar",
+          "noun-kutta",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-ir-5",
+        "word": "Ī ghar jaun barkā hai hamār hai.",
+        "translations": {
+          "nl": "Dit huis, dat groot is, is van mij."
+        },
+        "vocabRefs": [
+          "pron-i",
+          "noun-ghar",
+          "pron-jaun",
+          "adj-barka",
+          "gram-hai",
+          "pron-hamar"
+        ]
+      }
+    ],
     "grammarNotes": [
       {
         "id": "gn-int-1",
         "title": "Vragend: ke, kaun en kā",
         "body": "Vragende voornaamwoorden gebruik je om iets te vragen. Je vraagt naar personen met ke (wie) of kaun (wie, welke). Gebruik ke als je de persoon goed kent. Gebruik kaun als de persoon minder bekend is, of als je beleefd wilt klinken. Kaun kan ook vóór een zelfstandig naamwoord staan, zoals in 'welk boek'. Je vraagt naar dingen met kā (wat). Voorbeeld: 'Ke āil hai?' — Wie is er gekomen? Voorbeeld: 'Kā lāis hai?' — Wat heeft hij meegebracht?",
-        "relatedVocab": ["pron-ke", "pron-kaun", "pron-ka"]
+        "relatedVocab": [
+          "pron-ke",
+          "pron-kaun",
+          "pron-ka"
+        ]
       },
       {
         "id": "gn-int-2",
         "title": "kaunci en kekar",
         "body": "Er is nog een woord voor 'wat': kaunci. Dit woord komt van kaun (wie, welke) en cīj (ding). Samen betekenen ze 'wat voor een ding?'. Om te vragen van wie iets is, gebruik je kekar. Kekar staat vóór een zelfstandig naamwoord. Voorbeeld: 'Tū kekar jūtā pahinle bāṭe?' — Wiens schoenen heb je aan? Voor het meervoud herhaal je het woord. Bijvoorbeeld: ke-ke, kaune-kaune, kekar-kekar.",
-        "relatedVocab": ["pron-kaunci", "pron-kekar"]
+        "relatedVocab": [
+          "pron-kaunci",
+          "pron-kekar"
+        ]
       },
       {
         "id": "gn-rel-1",
         "title": "Betrekkelijk: jaun, je en jekar",
         "body": "Betrekkelijke voornaamwoorden verbinden twee delen van een zin. Ze verwijzen terug naar iets dat je net genoemd hebt, zoals 'die' of 'welke' in het Nederlands. Jaun (die, welke) gebruik je voor mensen én voor dingen. Je (die, wie) gebruik je alleen voor mensen. De bezittelijke vorm van je is jekar (van wie, wiens). Voorbeeld: 'Ū adamiyā jaun humvā cale hai hamār māmā hai' — De man die daar loopt, is mijn oom.",
-        "relatedVocab": ["pron-jaun", "pron-je", "pron-jekar"]
+        "relatedVocab": [
+          "pron-jaun",
+          "pron-je",
+          "pron-jekar"
+        ]
       }
     ],
     "exercises": {
       "ir-e1": {
         "kind": "matching",
         "pairs": [
-          { "left": "ke", "right": "wie (vertrouwelijk)", "rightTranslations": { "nl": "wie (vertrouwelijk)", "en": "who (familiar)" } },
-          { "left": "kaun", "right": "wie / welke (afstandelijk)", "rightTranslations": { "nl": "wie / welke (afstandelijk)", "en": "who / which (distant)" } },
-          { "left": "kā", "right": "wat", "rightTranslations": { "nl": "wat", "en": "what" } },
-          { "left": "jaun", "right": "die / welke", "rightTranslations": { "nl": "die / welke", "en": "that / which" } },
-          { "left": "je", "right": "die / wie (personen)", "rightTranslations": { "nl": "die / wie (personen)", "en": "that / who (persons)" } }
+          {
+            "left": "ke",
+            "right": "wie (vertrouwelijk)",
+            "rightTranslations": {
+              "nl": "wie (vertrouwelijk)",
+              "en": "who (familiar)"
+            }
+          },
+          {
+            "left": "kaun",
+            "right": "wie / welke (afstandelijk)",
+            "rightTranslations": {
+              "nl": "wie / welke (afstandelijk)",
+              "en": "who / which (distant)"
+            }
+          },
+          {
+            "left": "kā",
+            "right": "wat",
+            "rightTranslations": {
+              "nl": "wat",
+              "en": "what"
+            }
+          },
+          {
+            "left": "jaun",
+            "right": "die / welke",
+            "rightTranslations": {
+              "nl": "die / welke",
+              "en": "that / which"
+            }
+          },
+          {
+            "left": "je",
+            "right": "die / wie (personen)",
+            "rightTranslations": {
+              "nl": "die / wie (personen)",
+              "en": "that / who (persons)"
+            }
+          }
         ]
       },
       "ir-e2": {
         "kind": "multiple-choice",
         "prompt": "Welk vragend voornaamwoord gebruik je om naar een ding te vragen?",
-        "promptTranslations": { "nl": "Welk vragend voornaamwoord gebruik je om naar een ding te vragen?", "en": "Which interrogative pronoun do you use to ask about a thing?" },
-        "options": ["kā", "ke", "kaun", "jaun"],
+        "promptTranslations": {
+          "nl": "Welk vragend voornaamwoord gebruik je om naar een ding te vragen?",
+          "en": "Which interrogative pronoun do you use to ask about a thing?"
+        },
+        "options": [
+          "kā",
+          "ke",
+          "kaun",
+          "jaun"
+        ],
         "correctIndex": 0
       },
       "ir-e3": {
         "kind": "fill-blank",
         "sentenceTemplate": "___ āil hai?",
         "correctAnswer": "Ke",
-        "options": ["Ke", "Kā", "Jaun", "Jekar"],
-        "translations": { "nl": "Wie is er gekomen?", "en": "Who has come?" },
-        "tokenVocabRefs": [null, "verb-ave", "gram-hai"]
+        "options": [
+          "Ke",
+          "Kā",
+          "Jaun",
+          "Jekar"
+        ],
+        "translations": {
+          "nl": "Wie is er gekomen?",
+          "en": "Who has come?"
+        },
+        "tokenVocabRefs": [
+          null,
+          "verb-ave",
+          "gram-hai"
+        ]
       }
     }
   },
@@ -176,38 +612,111 @@
       "rev-e1": {
         "kind": "multiple-choice",
         "prompt": "Welk voornaamwoord betekent 'jouw'?",
-        "promptTranslations": { "nl": "Welk voornaamwoord betekent 'jouw'?", "en": "Which pronoun means 'your'?" },
-        "options": ["tor", "hamār", "ekar", "okar"],
+        "promptTranslations": {
+          "nl": "Welk voornaamwoord betekent 'jouw'?",
+          "en": "Which pronoun means 'your'?"
+        },
+        "options": [
+          "tor",
+          "hamār",
+          "ekar",
+          "okar"
+        ],
         "correctIndex": 0
       },
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "hamār", "right": "mijn", "rightTranslations": { "nl": "mijn", "en": "my" } },
-          { "left": "ī", "right": "dit / deze", "rightTranslations": { "nl": "dit / deze", "en": "this / these" } },
-          { "left": "ke", "right": "wie", "rightTranslations": { "nl": "wie", "en": "who" } },
-          { "left": "jaun", "right": "die / welke", "rightTranslations": { "nl": "die / welke", "en": "that / which" } },
-          { "left": "okar", "right": "zijn/haar (veraf)", "rightTranslations": { "nl": "zijn/haar (veraf)", "en": "his/her (far)" } }
+          {
+            "left": "hamār",
+            "right": "mijn",
+            "rightTranslations": {
+              "nl": "mijn",
+              "en": "my"
+            }
+          },
+          {
+            "left": "ī",
+            "right": "dit / deze",
+            "rightTranslations": {
+              "nl": "dit / deze",
+              "en": "this / these"
+            }
+          },
+          {
+            "left": "ke",
+            "right": "wie",
+            "rightTranslations": {
+              "nl": "wie",
+              "en": "who"
+            }
+          },
+          {
+            "left": "jaun",
+            "right": "die / welke",
+            "rightTranslations": {
+              "nl": "die / welke",
+              "en": "that / which"
+            }
+          },
+          {
+            "left": "okar",
+            "right": "zijn/haar (veraf)",
+            "rightTranslations": {
+              "nl": "zijn/haar (veraf)",
+              "en": "his/her (far)"
+            }
+          }
         ]
       },
       "rev-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Mijn huis is niet ver van hier.", "en": "My house is not far from here." },
-        "correctTargetTokens": ["Hamār", "ghar", "hiṁyā", "se", "dūr", "nā", "hai."],
-        "distractorTokens": ["tor", "okar"]
+        "promptTranslations": {
+          "nl": "Mijn huis is niet ver van hier.",
+          "en": "My house is not far from here."
+        },
+        "correctTargetTokens": [
+          "Hamār",
+          "ghar",
+          "hiṁyā",
+          "se",
+          "dūr",
+          "nā",
+          "hai."
+        ],
+        "distractorTokens": [
+          "tor",
+          "okar"
+        ]
       },
       "rev-e5": {
         "kind": "fill-blank",
         "sentenceTemplate": "Ū ___ ghar meṁ rahat rahā.",
         "correctAnswer": "tor",
-        "options": ["tor", "ke", "kā", "jaun"],
-        "translations": { "nl": "Hij/zij woonde in jouw huis.", "en": "He/she lived in your house." }
+        "options": [
+          "tor",
+          "ke",
+          "kā",
+          "jaun"
+        ],
+        "translations": {
+          "nl": "Hij/zij woonde in jouw huis.",
+          "en": "He/she lived in your house."
+        }
       },
       "rev-e7": {
         "kind": "multiple-choice",
         "prompt": "Welk betrekkelijk voornaamwoord wordt alleen voor personen gebruikt?",
-        "promptTranslations": { "nl": "Welk betrekkelijk voornaamwoord wordt alleen voor personen gebruikt?", "en": "Which relative pronoun is used only for persons?" },
-        "options": ["je", "jaun", "kā", "ī"],
+        "promptTranslations": {
+          "nl": "Welk betrekkelijk voornaamwoord wordt alleen voor personen gebruikt?",
+          "en": "Which relative pronoun is used only for persons?"
+        },
+        "options": [
+          "je",
+          "jaun",
+          "kā",
+          "ī"
+        ],
         "correctIndex": 0
       }
     }
