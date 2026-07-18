@@ -1,7 +1,10 @@
 {
   "id": "unit-08-verbs",
   "title": "Werkwoorden",
-  "titleTranslations": { "nl": "Werkwoorden", "en": "Verbs" },
+  "titleTranslations": {
+    "nl": "Werkwoorden",
+    "en": "Verbs"
+  },
   "description": "Vervoeging in tijden en wijzen. Ook de aanvoegende wijs komt aan bod: een werkwoordsvorm voor een wens, mogelijkheid of twijfel, in plaats van een vaststaand feit.",
   "order": 11,
   "cefrLevel": "B2",
@@ -12,7 +15,10 @@
       "unitId": "unit-08-verbs",
       "order": 1,
       "title": "Tegenwoordige tijd",
-      "titleTranslations": { "nl": "Tegenwoordige tijd", "en": "Present tense" },
+      "titleTranslations": {
+        "nl": "Tegenwoordige tijd",
+        "en": "Present tense"
+      },
       "description": "Vervoeging in de tegenwoordige tijd.",
       "newVocab": [
         "verb-parhe",
@@ -24,13 +30,40 @@
         "gram-hai",
         "gram-na"
       ],
-      "exampleSentenceRefs": ["ex-pres-1", "ex-pres-2", "ex-pres-3"],
-      "grammarNoteRefs": ["gn-pres-1", "gn-pres-2", "gn-pres-3"],
+      "exampleSentenceRefs": [
+        "ex-pres-1",
+        "ex-pres-2",
+        "ex-pres-3",
+        "ex-pres-4",
+        "ex-pres-5"
+      ],
+      "grammarNoteRefs": [
+        "gn-pres-1",
+        "gn-pres-2",
+        "gn-pres-3"
+      ],
       "exercises": [
-        { "id": "pres-e1", "kind": "multiple-choice", "contentRef": "pres-e1", "promptVocabRef": "verb-parhe" },
-        { "id": "pres-e2", "kind": "matching", "contentRef": "pres-e2" },
-        { "id": "pres-e3", "kind": "fill-blank", "contentRef": "pres-e3" },
-        { "id": "pres-e4", "kind": "word-bank", "contentRef": "pres-e4" }
+        {
+          "id": "pres-e1",
+          "kind": "multiple-choice",
+          "contentRef": "pres-e1",
+          "promptVocabRef": "verb-parhe"
+        },
+        {
+          "id": "pres-e2",
+          "kind": "matching",
+          "contentRef": "pres-e2"
+        },
+        {
+          "id": "pres-e3",
+          "kind": "fill-blank",
+          "contentRef": "pres-e3"
+        },
+        {
+          "id": "pres-e4",
+          "kind": "word-bank",
+          "contentRef": "pres-e4"
+        }
       ],
       "xpReward": 10
     },
@@ -39,7 +72,10 @@
       "unitId": "unit-08-verbs",
       "order": 2,
       "title": "Verleden tijd",
-      "titleTranslations": { "nl": "Verleden tijd", "en": "Past tense" },
+      "titleTranslations": {
+        "nl": "Verleden tijd",
+        "en": "Past tense"
+      },
       "description": "Vervoeging in de verleden tijd.",
       "newVocab": [
         "verb-jai",
@@ -49,13 +85,38 @@
         "verb-likhe",
         "verb-khele"
       ],
-      "exampleSentenceRefs": ["ex-past-1", "ex-past-2", "ex-past-3"],
-      "grammarNoteRefs": ["gn-past-1", "gn-past-2", "gn-past-3"],
+      "exampleSentenceRefs": [
+        "ex-past-1",
+        "ex-past-2",
+        "ex-past-3",
+        "ex-past-4"
+      ],
+      "grammarNoteRefs": [
+        "gn-past-1",
+        "gn-past-2",
+        "gn-past-3"
+      ],
       "exercises": [
-        { "id": "past-e1", "kind": "multiple-choice", "contentRef": "past-e1" },
-        { "id": "past-e2", "kind": "matching", "contentRef": "past-e2" },
-        { "id": "past-e3", "kind": "fill-blank", "contentRef": "past-e3" },
-        { "id": "past-e4", "kind": "word-bank", "contentRef": "past-e4" }
+        {
+          "id": "past-e1",
+          "kind": "multiple-choice",
+          "contentRef": "past-e1"
+        },
+        {
+          "id": "past-e2",
+          "kind": "matching",
+          "contentRef": "past-e2"
+        },
+        {
+          "id": "past-e3",
+          "kind": "fill-blank",
+          "contentRef": "past-e3"
+        },
+        {
+          "id": "past-e4",
+          "kind": "word-bank",
+          "contentRef": "past-e4"
+        }
       ],
       "xpReward": 10
     },
@@ -64,7 +125,10 @@
       "unitId": "unit-08-verbs",
       "order": 3,
       "title": "Toekomende tijd",
-      "titleTranslations": { "nl": "Toekomende tijd", "en": "Future tense" },
+      "titleTranslations": {
+        "nl": "Toekomende tijd",
+        "en": "Future tense"
+      },
       "description": "Vervoeging in de toekomende tijd.",
       "newVocab": [
         "verb-leve",
@@ -74,13 +138,39 @@
         "verb-khoje",
         "verb-samjhe"
       ],
-      "exampleSentenceRefs": ["ex-fut-1", "ex-fut-2", "ex-fut-3"],
-      "grammarNoteRefs": ["gn-fut-1", "gn-fut-2", "gn-fut-3"],
+      "exampleSentenceRefs": [
+        "ex-fut-1",
+        "ex-fut-2",
+        "ex-fut-3",
+        "ex-fut-4",
+        "ex-fut-5"
+      ],
+      "grammarNoteRefs": [
+        "gn-fut-1",
+        "gn-fut-2",
+        "gn-fut-3"
+      ],
       "exercises": [
-        { "id": "fut-e1", "kind": "multiple-choice", "contentRef": "fut-e1" },
-        { "id": "fut-e2", "kind": "matching", "contentRef": "fut-e2" },
-        { "id": "fut-e3", "kind": "fill-blank", "contentRef": "fut-e3" },
-        { "id": "fut-e4", "kind": "word-bank", "contentRef": "fut-e4" }
+        {
+          "id": "fut-e1",
+          "kind": "multiple-choice",
+          "contentRef": "fut-e1"
+        },
+        {
+          "id": "fut-e2",
+          "kind": "matching",
+          "contentRef": "fut-e2"
+        },
+        {
+          "id": "fut-e3",
+          "kind": "fill-blank",
+          "contentRef": "fut-e3"
+        },
+        {
+          "id": "fut-e4",
+          "kind": "word-bank",
+          "contentRef": "fut-e4"
+        }
       ],
       "xpReward": 10
     },
@@ -89,7 +179,10 @@
       "unitId": "unit-08-verbs",
       "order": 4,
       "title": "Gebiedende wijs",
-      "titleTranslations": { "nl": "Gebiedende wijs", "en": "Imperative" },
+      "titleTranslations": {
+        "nl": "Gebiedende wijs",
+        "en": "Imperative"
+      },
       "description": "De gebiedende wijs.",
       "newVocab": [
         "verb-cale",
@@ -99,13 +192,41 @@
         "verb-rove",
         "verb-siye"
       ],
-      "exampleSentenceRefs": ["ex-imp-1", "ex-imp-2", "ex-imp-3"],
-      "grammarNoteRefs": ["gn-imp-1", "gn-imp-2", "gn-imp-3"],
+      "exampleSentenceRefs": [
+        "ex-imp-1",
+        "ex-imp-2",
+        "ex-imp-3",
+        "ex-imp-4",
+        "ex-imp-5",
+        "ex-imp-6"
+      ],
+      "grammarNoteRefs": [
+        "gn-imp-1",
+        "gn-imp-2",
+        "gn-imp-3"
+      ],
       "exercises": [
-        { "id": "imp-e1", "kind": "multiple-choice", "contentRef": "imp-e1", "promptVocabRef": "verb-dekhe" },
-        { "id": "imp-e2", "kind": "matching", "contentRef": "imp-e2" },
-        { "id": "imp-e3", "kind": "fill-blank", "contentRef": "imp-e3" },
-        { "id": "imp-e4", "kind": "word-bank", "contentRef": "imp-e4" }
+        {
+          "id": "imp-e1",
+          "kind": "multiple-choice",
+          "contentRef": "imp-e1",
+          "promptVocabRef": "verb-dekhe"
+        },
+        {
+          "id": "imp-e2",
+          "kind": "matching",
+          "contentRef": "imp-e2"
+        },
+        {
+          "id": "imp-e3",
+          "kind": "fill-blank",
+          "contentRef": "imp-e3"
+        },
+        {
+          "id": "imp-e4",
+          "kind": "word-bank",
+          "contentRef": "imp-e4"
+        }
       ],
       "xpReward": 10
     },
@@ -114,7 +235,10 @@
       "unitId": "unit-08-verbs",
       "order": 5,
       "title": "Aanvoegende wijs",
-      "titleTranslations": { "nl": "Aanvoegende wijs", "en": "Subjunctive" },
+      "titleTranslations": {
+        "nl": "Aanvoegende wijs",
+        "en": "Subjunctive"
+      },
       "description": "De aanvoegende wijs.",
       "newVocab": [
         "verb-pahine",
@@ -124,13 +248,39 @@
         "verb-mare-hit",
         "verb-kate"
       ],
-      "exampleSentenceRefs": ["ex-subj-1", "ex-subj-2", "ex-subj-3"],
-      "grammarNoteRefs": ["gn-subj-1", "gn-subj-2", "gn-subj-3"],
+      "exampleSentenceRefs": [
+        "ex-subj-1",
+        "ex-subj-2",
+        "ex-subj-3",
+        "ex-subj-4",
+        "ex-subj-5"
+      ],
+      "grammarNoteRefs": [
+        "gn-subj-1",
+        "gn-subj-2",
+        "gn-subj-3"
+      ],
       "exercises": [
-        { "id": "subj-e1", "kind": "multiple-choice", "contentRef": "subj-e1" },
-        { "id": "subj-e2", "kind": "matching", "contentRef": "subj-e2" },
-        { "id": "subj-e3", "kind": "fill-blank", "contentRef": "subj-e3" },
-        { "id": "subj-e4", "kind": "word-bank", "contentRef": "subj-e4" }
+        {
+          "id": "subj-e1",
+          "kind": "multiple-choice",
+          "contentRef": "subj-e1"
+        },
+        {
+          "id": "subj-e2",
+          "kind": "matching",
+          "contentRef": "subj-e2"
+        },
+        {
+          "id": "subj-e3",
+          "kind": "fill-blank",
+          "contentRef": "subj-e3"
+        },
+        {
+          "id": "subj-e4",
+          "kind": "word-bank",
+          "contentRef": "subj-e4"
+        }
       ],
       "xpReward": 10
     },
@@ -139,15 +289,38 @@
       "unitId": "unit-08-verbs",
       "order": 6,
       "title": "Herhaling",
-      "titleTranslations": { "nl": "Herhaling", "en": "Review" },
+      "titleTranslations": {
+        "nl": "Herhaling",
+        "en": "Review"
+      },
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [
-        { "id": "rev-e1", "kind": "multiple-choice", "contentRef": "rev-e1" },
-        { "id": "rev-e2", "kind": "matching", "contentRef": "rev-e2" },
-        { "id": "rev-e3", "kind": "fill-blank", "contentRef": "rev-e3" },
-        { "id": "rev-e4", "kind": "word-bank", "contentRef": "rev-e4" },
-        { "id": "rev-e5", "kind": "multiple-choice", "contentRef": "rev-e5" }
+        {
+          "id": "rev-e1",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e1"
+        },
+        {
+          "id": "rev-e2",
+          "kind": "matching",
+          "contentRef": "rev-e2"
+        },
+        {
+          "id": "rev-e3",
+          "kind": "fill-blank",
+          "contentRef": "rev-e3"
+        },
+        {
+          "id": "rev-e4",
+          "kind": "word-bank",
+          "contentRef": "rev-e4"
+        },
+        {
+          "id": "rev-e5",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e5"
+        }
       ],
       "xpReward": 15
     }

@@ -5,20 +5,56 @@
       {
         "id": "ex-pres-1",
         "word": "Ham kitāb paṛhilā.",
-        "translations": { "nl": "Ik lees een boek." },
-        "vocabRefs": ["verb-parhe"]
+        "translations": {
+          "nl": "Ik lees een boek."
+        },
+        "vocabRefs": [
+          "verb-parhe"
+        ]
       },
       {
         "id": "ex-pres-2",
         "word": "Tū kā kare hai?",
-        "translations": { "nl": "Wat doe je?" },
-        "vocabRefs": ["verb-kare", "gram-hai"]
+        "translations": {
+          "nl": "Wat doe je?"
+        },
+        "vocabRefs": [
+          "verb-kare",
+          "gram-hai"
+        ]
       },
       {
         "id": "ex-pres-3",
         "word": "Ham bhāt khāilā.",
-        "translations": { "nl": "Ik eet rijst." },
-        "vocabRefs": ["verb-khai"]
+        "translations": {
+          "nl": "Ik eet rijst."
+        },
+        "vocabRefs": [
+          "verb-khai"
+        ]
+      },
+      {
+        "id": "ex-pres-4",
+        "word": "Ham ghoṛā dekhilā.",
+        "translations": {
+          "nl": "Ik zie een paard."
+        },
+        "vocabRefs": [
+          "verb-dekhe",
+          "noun-ghora"
+        ]
+      },
+      {
+        "id": "ex-pres-5",
+        "word": "Ū ciṭṭhi likhe hai.",
+        "translations": {
+          "nl": "Hij schrijft een brief."
+        },
+        "vocabRefs": [
+          "verb-likhe",
+          "noun-citthi",
+          "gram-hai"
+        ]
       }
     ],
     "grammarNotes": [
@@ -26,51 +62,126 @@
         "id": "gn-pres-1",
         "title": "De stam en de infinitief",
         "body": "Een werkwoord heeft vier mogelijke infinitiefuitgangen (-ve, -e, -ye en -ī); welke uitgang voorkomt hangt af van de laatste klank van de stam. De stam vind je door die uitgang weg te laten: paṛhe → paṛh, khāī → khā, pīye → pī, dhove → dho. Achter de stam komen bij de vervoeging de persoons- en tijdsuitgangen.",
-        "relatedVocab": ["verb-parhe", "verb-khai", "verb-piye", "verb-dhove"]
+        "relatedVocab": [
+          "verb-parhe",
+          "verb-khai",
+          "verb-piye",
+          "verb-dhove"
+        ]
       },
       {
         "id": "gn-pres-2",
         "title": "Tegenwoordige tijd (o.t.t.)",
         "body": "De tegenwoordige tijd van paṛhe (lezen): ham paṛhilā, tū paṛhe hai, ū paṛhe hai, ham log paṛhilā, tū log paṛhe hai, āp paṛhe ho, ū sab paṛhe haiṁ. Het koppelwerkwoord hai (zijn) vervoegt mee (zie gram-hai). Is duidelijk wie het onderwerp is, dan mag het persoonlijk voornaamwoord wegvallen: 'Tū kā kare hai? — Paṛhilā!' (Wat doe je? — Ik lees!).",
-        "relatedVocab": ["verb-parhe", "verb-kare", "gram-hai"]
+        "relatedVocab": [
+          "verb-parhe",
+          "verb-kare",
+          "gram-hai"
+        ]
       },
       {
         "id": "gn-pres-3",
         "title": "Ik ben aan het lezen",
         "body": "Naast 'ham paṛhilā' (ik lees) bestaat een vorm die benadrukt dat de handeling op dit moment aan de gang is: het tegenwoordig deelwoord op -at + bāṭī/hai: ham paṛhat bāṭī (hai). Nog sterker: ham paṛh rahal bāṭī. Het verschil is als tussen het Engelse 'I read' en 'I am reading'. Ontkennen doe je met nā vóór het werkwoord: Ham nā paṛhilā. Vraag naar plaats: Tū kahāṁ paṛhe hai? (Waar lees je?).",
-        "relatedVocab": ["verb-parhe", "gram-na", "gram-kaham"]
+        "relatedVocab": [
+          "verb-parhe",
+          "gram-na",
+          "gram-kaham"
+        ]
       }
     ],
     "exercises": {
       "pres-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat is de stam van het werkwoord 'paṛhe' (lezen)?",
-        "promptTranslations": { "nl": "Wat is de stam van het werkwoord 'paṛhe' (lezen)?", "en": "What is the stem of the verb 'paṛhe' (to read)?" },
-        "options": ["paṛh", "paṛhe", "paṛhilā", "paṛhab"],
+        "promptTranslations": {
+          "nl": "Wat is de stam van het werkwoord 'paṛhe' (lezen)?",
+          "en": "What is the stem of the verb 'paṛhe' (to read)?"
+        },
+        "options": [
+          "paṛh",
+          "paṛhe",
+          "paṛhilā",
+          "paṛhab"
+        ],
         "correctIndex": 0
       },
       "pres-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "paṛh", "right": "lezen", "rightTranslations": { "nl": "lezen", "en": "to read" } },
-          { "left": "kar", "right": "doen", "rightTranslations": { "nl": "doen", "en": "to do" } },
-          { "left": "bol", "right": "zeggen", "rightTranslations": { "nl": "zeggen", "en": "to say" } },
-          { "left": "dekh", "right": "kijken", "rightTranslations": { "nl": "kijken", "en": "to look" } },
-          { "left": "sun", "right": "luisteren", "rightTranslations": { "nl": "luisteren", "en": "to listen" } }
+          {
+            "left": "paṛh",
+            "right": "lezen",
+            "rightTranslations": {
+              "nl": "lezen",
+              "en": "to read"
+            }
+          },
+          {
+            "left": "kar",
+            "right": "doen",
+            "rightTranslations": {
+              "nl": "doen",
+              "en": "to do"
+            }
+          },
+          {
+            "left": "bol",
+            "right": "zeggen",
+            "rightTranslations": {
+              "nl": "zeggen",
+              "en": "to say"
+            }
+          },
+          {
+            "left": "dekh",
+            "right": "kijken",
+            "rightTranslations": {
+              "nl": "kijken",
+              "en": "to look"
+            }
+          },
+          {
+            "left": "sun",
+            "right": "luisteren",
+            "rightTranslations": {
+              "nl": "luisteren",
+              "en": "to listen"
+            }
+          }
         ]
       },
       "pres-e3": {
         "kind": "fill-blank",
         "sentenceTemplate": "Ham kitāb ___ .",
         "correctAnswer": "paṛhilā",
-        "options": ["paṛhilā", "paṛhlī", "paṛhab", "paṛho"],
-        "translations": { "nl": "Ik lees een boek.", "en": "I am reading a book." }
+        "options": [
+          "paṛhilā",
+          "paṛhlī",
+          "paṛhab",
+          "paṛho"
+        ],
+        "translations": {
+          "nl": "Ik lees een boek.",
+          "en": "I am reading a book."
+        }
       },
       "pres-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Wat doe je?", "en": "What are you doing?" },
-        "correctTargetTokens": ["Tū", "kā", "kare", "hai?"],
-        "distractorTokens": ["karlī", "karab"]
+        "promptTranslations": {
+          "nl": "Wat doe je?",
+          "en": "What are you doing?"
+        },
+        "correctTargetTokens": [
+          "Tū",
+          "kā",
+          "kare",
+          "hai?"
+        ],
+        "distractorTokens": [
+          "karlī",
+          "karab"
+        ]
       }
     }
   },
@@ -80,20 +191,43 @@
       {
         "id": "ex-past-1",
         "word": "Prem ālū kīnis hai.",
-        "translations": { "nl": "Prem heeft aardappelen gekocht." },
-        "vocabRefs": ["verb-kine"]
+        "translations": {
+          "nl": "Prem heeft aardappelen gekocht."
+        },
+        "vocabRefs": [
+          "verb-kine"
+        ]
       },
       {
         "id": "ex-past-2",
         "word": "Ū ghare gail.",
-        "translations": { "nl": "Hij ging naar huis." },
-        "vocabRefs": ["verb-jai"]
+        "translations": {
+          "nl": "Hij ging naar huis."
+        },
+        "vocabRefs": [
+          "verb-jai"
+        ]
       },
       {
         "id": "ex-past-3",
         "word": "Ham ciṭṭhi likhlī.",
-        "translations": { "nl": "Ik schreef een brief." },
-        "vocabRefs": ["verb-likhe"]
+        "translations": {
+          "nl": "Ik schreef een brief."
+        },
+        "vocabRefs": [
+          "verb-likhe"
+        ]
+      },
+      {
+        "id": "ex-past-4",
+        "word": "Tū ghar dekhle.",
+        "translations": {
+          "nl": "Je zag een huis."
+        },
+        "vocabRefs": [
+          "verb-dekhe",
+          "noun-ghar"
+        ]
       }
     ],
     "grammarNotes": [
@@ -101,51 +235,100 @@
         "id": "gn-past-1",
         "title": "Verleden tijd (o.v.t.)",
         "body": "De verleden tijd van paṛhe (lezen): ham paṛhlī, tū paṛhle, ū paṛhis (in Nickerie ook paṛhil), ham log paṛhlī, tū log paṛhle, āp paṛhlo, ū sab paṛhleṁ. In Nickerie komen de vormen op -in voor (ham paṛhin). De 3e persoon enkelvoud eindigt op -is: ū kīnis (hij kocht), ū paṛhis (hij las).",
-        "relatedVocab": ["verb-parhe", "verb-kine"]
+        "relatedVocab": [
+          "verb-parhe",
+          "verb-kine"
+        ]
       },
       {
         "id": "gn-past-2",
         "title": "Onregelmatig: jāī → gail-",
         "body": "Het werkwoord jāī (gaan) heeft een onregelmatige verleden tijd op gail-: ham gailī, tū gaile, ū gail (ook gai), ham log gailī, tū log gaile, āp gailo, ū sab gaileṁ. De tegenwoordige tijd is wél regelmatig: ham jāilā, tū jā hai.",
-        "relatedVocab": ["verb-jai"]
+        "relatedVocab": [
+          "verb-jai"
+        ]
       },
       {
         "id": "gn-past-3",
         "title": "Voltooid en 'was aan het ...'",
         "body": "De voltooide tijd (v.t.t., 'ik heb gelezen') maak je met de verleden vorm + hai: ham paṛhlī hai. Om aan te geven dat je in het verleden ergens mee bezig wás, gebruik je het deelwoord op -at + rahlī: ham paṛhat rahlī (ik was aan het lezen), ham sūtat rahlī (ik lag te slapen).",
-        "relatedVocab": ["verb-parhe", "verb-sute"]
+        "relatedVocab": [
+          "verb-parhe",
+          "verb-sute"
+        ]
       }
     ],
     "exercises": {
       "past-e1": {
         "kind": "multiple-choice",
         "prompt": "Welke vorm is de verleden tijd (o.v.t.) 'ik las'?",
-        "promptTranslations": { "nl": "Welke vorm is de verleden tijd (o.v.t.) 'ik las'?", "en": "Which form is the past tense (simple past) 'I read'?" },
-        "options": ["ham paṛhlī", "ham paṛhilā", "ham paṛhab", "ham paṛhiye"],
+        "promptTranslations": {
+          "nl": "Welke vorm is de verleden tijd (o.v.t.) 'ik las'?",
+          "en": "Which form is the past tense (simple past) 'I read'?"
+        },
+        "options": [
+          "ham paṛhlī",
+          "ham paṛhilā",
+          "ham paṛhab",
+          "ham paṛhiye"
+        ],
         "correctIndex": 0
       },
       "past-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "ham", "right": "paṛhlī" },
-          { "left": "tū", "right": "paṛhle" },
-          { "left": "ū", "right": "paṛhis" },
-          { "left": "āp", "right": "paṛhlo" },
-          { "left": "ū sab", "right": "paṛhleṁ" }
+          {
+            "left": "ham",
+            "right": "paṛhlī"
+          },
+          {
+            "left": "tū",
+            "right": "paṛhle"
+          },
+          {
+            "left": "ū",
+            "right": "paṛhis"
+          },
+          {
+            "left": "āp",
+            "right": "paṛhlo"
+          },
+          {
+            "left": "ū sab",
+            "right": "paṛhleṁ"
+          }
         ]
       },
       "past-e3": {
         "kind": "fill-blank",
         "sentenceTemplate": "Ū ghare ___ .",
         "correctAnswer": "gail",
-        "options": ["gail", "jāī", "jāilā", "gailo"],
-        "translations": { "nl": "Hij ging naar huis.", "en": "He went home." }
+        "options": [
+          "gail",
+          "jāī",
+          "jāilā",
+          "gailo"
+        ],
+        "translations": {
+          "nl": "Hij ging naar huis.",
+          "en": "He went home."
+        }
       },
       "past-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Ik schreef een brief.", "en": "I wrote a letter." },
-        "correctTargetTokens": ["Ham", "ciṭṭhi", "likhlī."],
-        "distractorTokens": ["likhab", "likhilā"]
+        "promptTranslations": {
+          "nl": "Ik schreef een brief.",
+          "en": "I wrote a letter."
+        },
+        "correctTargetTokens": [
+          "Ham",
+          "ciṭṭhi",
+          "likhlī."
+        ],
+        "distractorTokens": [
+          "likhab",
+          "likhilā"
+        ]
       }
     }
   },
@@ -155,20 +338,54 @@
       {
         "id": "ex-fut-1",
         "word": "Ham toke ek kitāb debe.",
-        "translations": { "nl": "Ik zal je een boek geven." },
-        "vocabRefs": ["verb-deve"]
+        "translations": {
+          "nl": "Ik zal je een boek geven."
+        },
+        "vocabRefs": [
+          "verb-deve"
+        ]
       },
       {
         "id": "ex-fut-2",
         "word": "Tū hamse pūchiye.",
-        "translations": { "nl": "Je zult het mij vragen." },
-        "vocabRefs": ["verb-puche"]
+        "translations": {
+          "nl": "Je zult het mij vragen."
+        },
+        "vocabRefs": [
+          "verb-puche"
+        ]
       },
       {
         "id": "ex-fut-3",
         "word": "Ū jaldī samjhī.",
-        "translations": { "nl": "Hij zal het snel begrijpen." },
-        "vocabRefs": ["verb-samjhe"]
+        "translations": {
+          "nl": "Hij zal het snel begrijpen."
+        },
+        "vocabRefs": [
+          "verb-samjhe"
+        ]
+      },
+      {
+        "id": "ex-fut-4",
+        "word": "Ham peṛ dekhab.",
+        "translations": {
+          "nl": "Ik zal een boom zien."
+        },
+        "vocabRefs": [
+          "verb-dekhe",
+          "noun-per"
+        ]
+      },
+      {
+        "id": "ex-fut-5",
+        "word": "Ū ciṭṭhi likhī.",
+        "translations": {
+          "nl": "Hij zal een brief schrijven."
+        },
+        "vocabRefs": [
+          "verb-likhe",
+          "noun-citthi"
+        ]
       }
     ],
     "grammarNotes": [
@@ -176,51 +393,100 @@
         "id": "gn-fut-1",
         "title": "Toekomende tijd (o.t.t.t.)",
         "body": "De toekomende tijd van paṛhe (lezen): ham paṛhab (of paṛhbe), tū paṛhiye, ū paṛhī (-gā), ham log paṛhab, tū log paṛhiye, āp paṛhiyo, ū sab paṛhiyeṁ. De 1e persoon gaat uit op -ab/-be, de 3e persoon enkelvoud op -ī, eventueel versterkt met -gā (ū paṛhī-gā).",
-        "relatedVocab": ["verb-parhe", "verb-puche"]
+        "relatedVocab": [
+          "verb-parhe",
+          "verb-puche"
+        ]
       },
       {
         "id": "gn-fut-2",
         "title": "De toekomst van hove (zullen zijn)",
         "body": "Het hulpwerkwoord hove (zijn/worden) heeft in de toekomende tijd: ham hobe (hŏibe), tū hŏiye, ū hoī (-gā), enzovoort. Hiermee bouw je samengestelde toekomsttijden: 'Tū jab ghare aiye, tab ham sūtat hŏibe' (Wanneer je thuiskomt, zal ik misschien al slapen).",
-        "relatedVocab": ["gram-hai"]
+        "relatedVocab": [
+          "gram-hai"
+        ]
       },
       {
         "id": "gn-fut-3",
         "title": "-y-vormen en -h-vormen",
         "body": "Naast de -y-vormen (paṛhiye, hŏiye) bestaan oudere -h-vormen (paṛhihe, hŏihe). Deze -h-vormen zijn ouder en kunnen zonder betekenisverschil door de gebruikelijker -y-vormen vervangen worden.",
-        "relatedVocab": ["verb-samjhe", "verb-khoje"]
+        "relatedVocab": [
+          "verb-samjhe",
+          "verb-khoje"
+        ]
       }
     ],
     "exercises": {
       "fut-e1": {
         "kind": "multiple-choice",
         "prompt": "Welke vorm drukt de toekomende tijd 'ik zal lezen' uit?",
-        "promptTranslations": { "nl": "Welke vorm drukt de toekomende tijd 'ik zal lezen' uit?", "en": "Which form expresses the future tense 'I will read'?" },
-        "options": ["ham paṛhab", "ham paṛhlī", "ham paṛhilā", "ham paṛhat rahlī"],
+        "promptTranslations": {
+          "nl": "Welke vorm drukt de toekomende tijd 'ik zal lezen' uit?",
+          "en": "Which form expresses the future tense 'I will read'?"
+        },
+        "options": [
+          "ham paṛhab",
+          "ham paṛhlī",
+          "ham paṛhilā",
+          "ham paṛhat rahlī"
+        ],
         "correctIndex": 0
       },
       "fut-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "ham", "right": "paṛhab" },
-          { "left": "tū", "right": "paṛhiye" },
-          { "left": "ū", "right": "paṛhī" },
-          { "left": "āp", "right": "paṛhiyo" },
-          { "left": "ū sab", "right": "paṛhiyeṁ" }
+          {
+            "left": "ham",
+            "right": "paṛhab"
+          },
+          {
+            "left": "tū",
+            "right": "paṛhiye"
+          },
+          {
+            "left": "ū",
+            "right": "paṛhī"
+          },
+          {
+            "left": "āp",
+            "right": "paṛhiyo"
+          },
+          {
+            "left": "ū sab",
+            "right": "paṛhiyeṁ"
+          }
         ]
       },
       "fut-e3": {
         "kind": "fill-blank",
         "sentenceTemplate": "Ham toke ek kitāb ___ .",
         "correctAnswer": "debe",
-        "options": ["debe", "deis", "delī", "deve"],
-        "translations": { "nl": "Ik zal je een boek geven.", "en": "I will give you a book." }
+        "options": [
+          "debe",
+          "deis",
+          "delī",
+          "deve"
+        ],
+        "translations": {
+          "nl": "Ik zal je een boek geven.",
+          "en": "I will give you a book."
+        }
       },
       "fut-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Hij zal het snel begrijpen.", "en": "He will understand it quickly." },
-        "correctTargetTokens": ["Ū", "jaldī", "samjhī."],
-        "distractorTokens": ["samjhis", "samjhilā"]
+        "promptTranslations": {
+          "nl": "Hij zal het snel begrijpen.",
+          "en": "He will understand it quickly."
+        },
+        "correctTargetTokens": [
+          "Ū",
+          "jaldī",
+          "samjhī."
+        ],
+        "distractorTokens": [
+          "samjhis",
+          "samjhilā"
+        ]
       }
     }
   },
@@ -230,20 +496,65 @@
       {
         "id": "ex-imp-1",
         "word": "Jaldī cal!",
-        "translations": { "nl": "Loop snel!" },
-        "vocabRefs": ["verb-cale"]
+        "translations": {
+          "nl": "Loop snel!"
+        },
+        "vocabRefs": [
+          "verb-cale"
+        ]
       },
       {
         "id": "ex-imp-2",
         "word": "Kapaṛā dhovo!",
-        "translations": { "nl": "Was de kleren!" },
-        "vocabRefs": ["verb-dhove"]
+        "translations": {
+          "nl": "Was de kleren!"
+        },
+        "vocabRefs": [
+          "verb-dhove"
+        ]
       },
       {
         "id": "ex-imp-3",
         "word": "Āvo aur baiṭho!",
-        "translations": { "nl": "Kom en ga zitten!" },
-        "vocabRefs": ["verb-ave", "verb-baithe"]
+        "translations": {
+          "nl": "Kom en ga zitten!"
+        },
+        "vocabRefs": [
+          "verb-ave",
+          "verb-baithe"
+        ]
+      },
+      {
+        "id": "ex-imp-4",
+        "word": "Ghar dekh!",
+        "translations": {
+          "nl": "Kijk naar het huis!"
+        },
+        "vocabRefs": [
+          "verb-dekhe",
+          "noun-ghar"
+        ]
+      },
+      {
+        "id": "ex-imp-5",
+        "word": "Sun!",
+        "translations": {
+          "nl": "Luister!"
+        },
+        "vocabRefs": [
+          "verb-sune"
+        ]
+      },
+      {
+        "id": "ex-imp-6",
+        "word": "Ghare jā!",
+        "translations": {
+          "nl": "Ga naar huis!"
+        },
+        "vocabRefs": [
+          "verb-jai",
+          "noun-ghar"
+        ]
       }
     ],
     "grammarNotes": [
@@ -251,51 +562,122 @@
         "id": "gn-imp-1",
         "title": "Gebiedende wijs — vertrouwelijk",
         "body": "Tegen kinderen, minderen en gelijken (tū) gebruik je de kale stam van het werkwoord als gebod: paṛh! (lees!), dekh! (kijk!), sun! (luister!), jā! (ga!), cal! (loop!), uṭh! (sta op!). Het persoonlijk voornaamwoord valt meestal weg.",
-        "relatedVocab": ["verb-cale", "verb-uthe"]
+        "relatedVocab": [
+          "verb-cale",
+          "verb-uthe"
+        ]
       },
       {
         "id": "gn-imp-2",
         "title": "Beleefde -ă vorm",
         "body": "Iets beleefder is de vorm met een korte -ă achter de stam: paṛhă! (lees eens!), bolă! (vertel eens!), dekhă! (kijk eens!), baiṭhă! (ga eens zitten!). Deze vorm verzacht het bevel tot een vriendelijk verzoek.",
-        "relatedVocab": ["verb-baithe", "verb-rove"]
+        "relatedVocab": [
+          "verb-baithe",
+          "verb-rove"
+        ]
       },
       {
         "id": "gn-imp-3",
         "title": "Formeel en meervoud",
         "body": "Tegen ouderen, meerderen of meerdere personen (tū log, āp) gebruik je -o: paṛho! (leest u!), dekho!, āvo! (komt u!), baiṭho! (gaat u zitten!), dhovo! (wast u!). De meest beleefde vormen gaan uit op -iye of -ihe: paṛhiye!, likhiye!, sīye → siye!, en dīhe (geeft u!).",
-        "relatedVocab": ["verb-baithe", "verb-dhove", "verb-siye"]
+        "relatedVocab": [
+          "verb-baithe",
+          "verb-dhove",
+          "verb-siye"
+        ]
       }
     ],
     "exercises": {
       "imp-e1": {
         "kind": "multiple-choice",
         "prompt": "Hoe luidt de vertrouwelijke gebiedende wijs (tegen een kind) van 'dekhe' (kijken)?",
-        "promptTranslations": { "nl": "Hoe luidt de vertrouwelijke gebiedende wijs (tegen een kind) van 'dekhe' (kijken)?", "en": "What is the familiar imperative (to a child) of 'dekhe' (to look)?" },
-        "options": ["dekh!", "dekho!", "dekhiye!", "dekhat"],
+        "promptTranslations": {
+          "nl": "Hoe luidt de vertrouwelijke gebiedende wijs (tegen een kind) van 'dekhe' (kijken)?",
+          "en": "What is the familiar imperative (to a child) of 'dekhe' (to look)?"
+        },
+        "options": [
+          "dekh!",
+          "dekho!",
+          "dekhiye!",
+          "dekhat"
+        ],
         "correctIndex": 0
       },
       "imp-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "paṛh!", "right": "lees!", "rightTranslations": { "nl": "lees!", "en": "read!" } },
-          { "left": "sun!", "right": "luister!", "rightTranslations": { "nl": "luister!", "en": "listen!" } },
-          { "left": "jā!", "right": "ga!", "rightTranslations": { "nl": "ga!", "en": "go!" } },
-          { "left": "baiṭho!", "right": "gaat u zitten!", "rightTranslations": { "nl": "gaat u zitten!", "en": "sit down! (polite)" } },
-          { "left": "āvo!", "right": "komt u!", "rightTranslations": { "nl": "komt u!", "en": "come! (polite)" } }
+          {
+            "left": "paṛh!",
+            "right": "lees!",
+            "rightTranslations": {
+              "nl": "lees!",
+              "en": "read!"
+            }
+          },
+          {
+            "left": "sun!",
+            "right": "luister!",
+            "rightTranslations": {
+              "nl": "luister!",
+              "en": "listen!"
+            }
+          },
+          {
+            "left": "jā!",
+            "right": "ga!",
+            "rightTranslations": {
+              "nl": "ga!",
+              "en": "go!"
+            }
+          },
+          {
+            "left": "baiṭho!",
+            "right": "gaat u zitten!",
+            "rightTranslations": {
+              "nl": "gaat u zitten!",
+              "en": "sit down! (polite)"
+            }
+          },
+          {
+            "left": "āvo!",
+            "right": "komt u!",
+            "rightTranslations": {
+              "nl": "komt u!",
+              "en": "come! (polite)"
+            }
+          }
         ]
       },
       "imp-e3": {
         "kind": "fill-blank",
         "sentenceTemplate": "Kapaṛā ___ !",
         "correctAnswer": "dhovo",
-        "options": ["dhovo", "dhove", "dhoilā", "dhovī"],
-        "translations": { "nl": "Was de kleren!", "en": "Wash the clothes!" }
+        "options": [
+          "dhovo",
+          "dhove",
+          "dhoilā",
+          "dhovī"
+        ],
+        "translations": {
+          "nl": "Was de kleren!",
+          "en": "Wash the clothes!"
+        }
       },
       "imp-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Kom en ga zitten!", "en": "Come and sit down!" },
-        "correctTargetTokens": ["Āvo", "aur", "baiṭho!"],
-        "distractorTokens": ["baiṭhat", "āvat"]
+        "promptTranslations": {
+          "nl": "Kom en ga zitten!",
+          "en": "Come and sit down!"
+        },
+        "correctTargetTokens": [
+          "Āvo",
+          "aur",
+          "baiṭho!"
+        ],
+        "distractorTokens": [
+          "baiṭhat",
+          "āvat"
+        ]
       }
     }
   },
@@ -305,20 +687,54 @@
       {
         "id": "ex-subj-1",
         "word": "Maiyā māṅge hai ki laṛkavan khele.",
-        "translations": { "nl": "Moeder wil dat de kinderen spelen." },
-        "vocabRefs": ["verb-khele"]
+        "translations": {
+          "nl": "Moeder wil dat de kinderen spelen."
+        },
+        "vocabRefs": [
+          "verb-khele"
+        ]
       },
       {
         "id": "ex-subj-2",
         "word": "Ū māṅge hai ki ham nācī.",
-        "translations": { "nl": "Hij wil dat ik dans." },
-        "vocabRefs": ["verb-nace"]
+        "translations": {
+          "nl": "Hij wil dat ik dans."
+        },
+        "vocabRefs": [
+          "verb-nace"
+        ]
       },
       {
         "id": "ex-subj-3",
         "word": "Ham cāhilā ki tū sundar kapaṛā pahine.",
-        "translations": { "nl": "Ik wil dat jij mooie kleren draagt." },
-        "vocabRefs": ["verb-pahine"]
+        "translations": {
+          "nl": "Ik wil dat jij mooie kleren draagt."
+        },
+        "vocabRefs": [
+          "verb-pahine"
+        ]
+      },
+      {
+        "id": "ex-subj-4",
+        "word": "Ū māṅge hai ki ham peṛ dekhī.",
+        "translations": {
+          "nl": "Hij wil dat ik een boom zie."
+        },
+        "vocabRefs": [
+          "verb-dekhe",
+          "noun-per"
+        ]
+      },
+      {
+        "id": "ex-subj-5",
+        "word": "Ham cāhilā ki tū ciṭṭhi likhe.",
+        "translations": {
+          "nl": "Ik wil dat jij een brief schrijft."
+        },
+        "vocabRefs": [
+          "verb-likhe",
+          "noun-citthi"
+        ]
       }
     ],
     "grammarNotes": [
@@ -326,26 +742,41 @@
         "id": "gn-subj-1",
         "title": "Aanvoegende wijs (dat ik ...)",
         "body": "De aanvoegende wijs drukt een wens, aansporing, mogelijkheid, twijfel of onzekerheid uit. Van paṛhe (lezen): ham paṛhī, tū paṛh(e), ū paṛhe, ham log paṛhī (jā), tū log paṛhe, āp paṛho, ū sab paṛheṁ. Ze volgt vaak op māṅge hai ki (wil dat): 'Maiyā māṅge hai ki laṛkavan khele' (Moeder wil dat de kinderen spelen).",
-        "relatedVocab": ["verb-parhe", "verb-nace", "verb-khele"]
+        "relatedVocab": [
+          "verb-parhe",
+          "verb-nace",
+          "verb-khele"
+        ]
       },
       {
         "id": "gn-subj-2",
         "title": "Dat ik zou ...",
         "body": "Voor de onvervulde of voorwaardelijke vorm ('dat ik zou lezen') geldt: ham paṛhtī, tū paṛhte, ū paṛhat, ham log paṛhtī (-jā), tū log paṛhte (-jā), āp paṛhto, ū sab paṛhteṁ. Voorbeeld: 'Tū to bolat rahe ki tū gariyā kinte' (Je zei immers dat je de wagen zou kopen).",
-        "relatedVocab": ["verb-pahine", "verb-mare-hit"]
+        "relatedVocab": [
+          "verb-pahine",
+          "verb-mare-hit"
+        ]
       },
       {
         "id": "gn-subj-3",
         "title": "Overgankelijk maken (causatief)",
         "body": "Onovergankelijke werkwoorden worden overgankelijk gemaakt door de stamklinker te verlengen — soms met verstemhebbing van de slotmedeklinker — of door -āv- achter de stam: mare (sterven) → māre (doden), kaṭe (gesneden worden) → kāṭe (snijden), rove (huilen) → rŏvāve (doen huilen), nāce (dansen) → nacāve (doen dansen), haṁse (lachen) → haṁsāve (doen lachen).",
-        "relatedVocab": ["verb-mare-die", "verb-mare-hit", "verb-kate", "verb-hamse"]
+        "relatedVocab": [
+          "verb-mare-die",
+          "verb-mare-hit",
+          "verb-kate",
+          "verb-hamse"
+        ]
       }
     ],
     "exercises": {
       "subj-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat drukt de aanvoegende wijs vooral uit?",
-        "promptTranslations": { "nl": "Wat drukt de aanvoegende wijs vooral uit?", "en": "What does the subjunctive mainly express?" },
+        "promptTranslations": {
+          "nl": "Wat drukt de aanvoegende wijs vooral uit?",
+          "en": "What does the subjunctive mainly express?"
+        },
         "options": [
           "een wens of mogelijkheid",
           "een voltooide handeling in het verleden",
@@ -353,35 +784,83 @@
           "een vraag naar de plaats"
         ],
         "optionTranslations": [
-          { "nl": "een wens of mogelijkheid", "en": "a wish or possibility" },
-          { "nl": "een voltooide handeling in het verleden", "en": "a completed action in the past" },
-          { "nl": "een streng bevel", "en": "a strict command" },
-          { "nl": "een vraag naar de plaats", "en": "a question about location" }
+          {
+            "nl": "een wens of mogelijkheid",
+            "en": "a wish or possibility"
+          },
+          {
+            "nl": "een voltooide handeling in het verleden",
+            "en": "a completed action in the past"
+          },
+          {
+            "nl": "een streng bevel",
+            "en": "a strict command"
+          },
+          {
+            "nl": "een vraag naar de plaats",
+            "en": "a question about location"
+          }
         ],
         "correctIndex": 0
       },
       "subj-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "ham", "right": "paṛhī" },
-          { "left": "tū", "right": "paṛhe" },
-          { "left": "āp", "right": "paṛho" },
-          { "left": "ū sab", "right": "paṛheṁ" },
-          { "left": "ham log", "right": "paṛhī jā" }
+          {
+            "left": "ham",
+            "right": "paṛhī"
+          },
+          {
+            "left": "tū",
+            "right": "paṛhe"
+          },
+          {
+            "left": "āp",
+            "right": "paṛho"
+          },
+          {
+            "left": "ū sab",
+            "right": "paṛheṁ"
+          },
+          {
+            "left": "ham log",
+            "right": "paṛhī jā"
+          }
         ]
       },
       "subj-e3": {
         "kind": "fill-blank",
         "sentenceTemplate": "Ū māṅge hai ki ham ___ .",
         "correctAnswer": "nācī",
-        "options": ["nācī", "nāclī", "nācab", "nācat"],
-        "translations": { "nl": "Hij wil dat ik dans.", "en": "He wants me to dance." }
+        "options": [
+          "nācī",
+          "nāclī",
+          "nācab",
+          "nācat"
+        ],
+        "translations": {
+          "nl": "Hij wil dat ik dans.",
+          "en": "He wants me to dance."
+        }
       },
       "subj-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Moeder wil dat de kinderen spelen.", "en": "Mother wants the children to play." },
-        "correctTargetTokens": ["Maiyā", "māṅge", "hai", "ki", "laṛkavan", "khele."],
-        "distractorTokens": ["khelis", "khelab"]
+        "promptTranslations": {
+          "nl": "Moeder wil dat de kinderen spelen.",
+          "en": "Mother wants the children to play."
+        },
+        "correctTargetTokens": [
+          "Maiyā",
+          "māṅge",
+          "hai",
+          "ki",
+          "laṛkavan",
+          "khele."
+        ],
+        "distractorTokens": [
+          "khelis",
+          "khelab"
+        ]
       }
     }
   },
@@ -393,38 +872,108 @@
       "rev-e1": {
         "kind": "multiple-choice",
         "prompt": "Welke vorm is de toekomende tijd 'ik zal lezen'?",
-        "promptTranslations": { "nl": "Welke vorm is de toekomende tijd 'ik zal lezen'?", "en": "Which form is the future tense 'I will read'?" },
-        "options": ["ham paṛhab", "ham paṛhlī", "ham paṛhilā", "paṛh!"],
+        "promptTranslations": {
+          "nl": "Welke vorm is de toekomende tijd 'ik zal lezen'?",
+          "en": "Which form is the future tense 'I will read'?"
+        },
+        "options": [
+          "ham paṛhab",
+          "ham paṛhlī",
+          "ham paṛhilā",
+          "paṛh!"
+        ],
         "correctIndex": 0
       },
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "tegenwoordige tijd", "right": "ham paṛhilā", "leftTranslations": { "nl": "tegenwoordige tijd", "en": "present tense" } },
-          { "left": "verleden tijd", "right": "ham paṛhlī", "leftTranslations": { "nl": "verleden tijd", "en": "past tense" } },
-          { "left": "toekomende tijd", "right": "ham paṛhab", "leftTranslations": { "nl": "toekomende tijd", "en": "future tense" } },
-          { "left": "gebiedende wijs", "right": "paṛh!", "leftTranslations": { "nl": "gebiedende wijs", "en": "imperative" } },
-          { "left": "aanvoegende wijs", "right": "ham paṛhī", "leftTranslations": { "nl": "aanvoegende wijs", "en": "subjunctive" } }
+          {
+            "left": "tegenwoordige tijd",
+            "right": "ham paṛhilā",
+            "leftTranslations": {
+              "nl": "tegenwoordige tijd",
+              "en": "present tense"
+            }
+          },
+          {
+            "left": "verleden tijd",
+            "right": "ham paṛhlī",
+            "leftTranslations": {
+              "nl": "verleden tijd",
+              "en": "past tense"
+            }
+          },
+          {
+            "left": "toekomende tijd",
+            "right": "ham paṛhab",
+            "leftTranslations": {
+              "nl": "toekomende tijd",
+              "en": "future tense"
+            }
+          },
+          {
+            "left": "gebiedende wijs",
+            "right": "paṛh!",
+            "leftTranslations": {
+              "nl": "gebiedende wijs",
+              "en": "imperative"
+            }
+          },
+          {
+            "left": "aanvoegende wijs",
+            "right": "ham paṛhī",
+            "leftTranslations": {
+              "nl": "aanvoegende wijs",
+              "en": "subjunctive"
+            }
+          }
         ]
       },
       "rev-e3": {
         "kind": "fill-blank",
         "sentenceTemplate": "Ū kalha ghare ___ .",
         "correctAnswer": "gail",
-        "options": ["gail", "jāī", "jāilā", "jaī"],
-        "translations": { "nl": "Hij ging gisteren naar huis.", "en": "He went home yesterday." }
+        "options": [
+          "gail",
+          "jāī",
+          "jāilā",
+          "jaī"
+        ],
+        "translations": {
+          "nl": "Hij ging gisteren naar huis.",
+          "en": "He went home yesterday."
+        }
       },
       "rev-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Wat doe je?", "en": "What are you doing?" },
-        "correctTargetTokens": ["Tū", "kā", "kare", "hai?"],
-        "distractorTokens": ["karlī", "karab"]
+        "promptTranslations": {
+          "nl": "Wat doe je?",
+          "en": "What are you doing?"
+        },
+        "correctTargetTokens": [
+          "Tū",
+          "kā",
+          "kare",
+          "hai?"
+        ],
+        "distractorTokens": [
+          "karlī",
+          "karab"
+        ]
       },
       "rev-e5": {
         "kind": "multiple-choice",
         "prompt": "Wat is de stam van het werkwoord 'khāī' (eten)?",
-        "promptTranslations": { "nl": "Wat is de stam van het werkwoord 'khāī' (eten)?", "en": "What is the stem of the verb 'khāī' (to eat)?" },
-        "options": ["khā", "khāī", "khāilā", "khāt"],
+        "promptTranslations": {
+          "nl": "Wat is de stam van het werkwoord 'khāī' (eten)?",
+          "en": "What is the stem of the verb 'khāī' (to eat)?"
+        },
+        "options": [
+          "khā",
+          "khāī",
+          "khāilā",
+          "khāt"
+        ],
         "correctIndex": 0
       }
     }

@@ -238,3 +238,108 @@ jobs:
             body="**Advisory contract review didn't post a comment.**"$'\n\n'"The step completed without producing one, most likely because this PR modifies \`.github/workflows/validate-content.yml\` itself: GitHub's OIDC token exchange for \`claude-code-action\` refuses to authenticate when a PR's workflow file differs from the version committed on the default branch (\`main\`) — a guard against a PR altering its own workflow to exfiltrate \`CLAUDE_CODE_OAUTH_TOKEN\`. This is expected and resolves once this workflow file on \`main\` matches; it does not indicate a problem with this PR's content changes. See the [workflow run]($RUN_URL) for details."
           fi
           gh pr comment "${{ github.event.pull_request.number }}" --body "$body"
+
+  extract-verified-sentences:
+    name: extract-verified-sentences (finalized reviews only)
+    needs: fetch-rarelang-server
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+
+      # Trigger for this whole job: a sentence-drafts/*.review.md changed in this PR AND its
+      # `Status:` line reads FINALIZED (see sentence-drafts/README.md). Every push before that —
+      # generation, verification, partial ticking — is a no-op here; the FINALIZED line is the
+      # reviewer's explicit, one-time signal that review is actually done, not an inferred guess
+      # from which lines changed.
+      - name: List finalized review files
+        id: finalized
+        run: |
+          files=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- 'sentence-drafts/*.review.md')
+          finalized=""
+          for f in $files; do
+            if grep -qx "Status: FINALIZED" "$f"; then
+              finalized="$finalized $f"
+            fi
+          done
+          finalized="${finalized# }"
+          echo "files=$finalized" >> "$GITHUB_OUTPUT"
+          if [ -z "$finalized" ]; then
+            echo "any=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "any=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.finalized.outputs.any == 'true'
+        with:
+          node-version: "22"
+
+      - name: Restore rarelang-server tooling
+        if: steps.finalized.outputs.any == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: rarelang-server-tooling
+          key: ${{ needs.fetch-rarelang-server.outputs.cache-key }}
+          fail-on-cache-miss: true
+
+      - name: Run extractor for finalized units
+        if: steps.finalized.outputs.any == 'true'
+        run: |
+          for f in ${{ steps.finalized.outputs.files }}; do
+            unit=$(basename "$f" .review.md)
+            node scripts/extract-verified-sentences.mjs --unit "$unit"
+          done
+
+      # Same deterministic gate every PR already goes through in the validate-content job above —
+      # reused here so generated content is held to the exact same contract as hand-authored
+      # content. Nothing is committed if this fails.
+      - name: Validate content contract
+        if: steps.finalized.outputs.any == 'true'
+        run: node rarelang-server-tooling/scripts/validate-content.mjs .
+
+      # Same-repo PRs: commit the generated content/sarnami/** diff straight back onto this PR's
+      # own branch, so the reviewed checklist and its extracted JSON land in one merge. Safe to
+      # run on every push once FINALIZED — the extractor is idempotent, and this step no-ops if
+      # there's nothing new to commit.
+      - name: Commit extracted content back to this PR
+        if: steps.finalized.outputs.any == 'true' && github.event.pull_request.head.repo.full_name == github.repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/sarnami
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+          else
+            git commit -m "Extract verified sentences [bot]"
+            git push origin "HEAD:${{ github.event.pull_request.head.ref }}"
+          fi
+
+      # Fork PRs: GITHUB_TOKEN can't push back to a fork's branch, so hand off to a maintainer
+      # instead of silently doing nothing. The issue is the actionable item; closing it is the
+      # maintainer's job once they push the extracted content (e.g. with "Closes #<n>" on that
+      # commit/PR), per this repo's usual issue/PR-linking convention.
+      - name: Open follow-up issue for fork PR
+        if: steps.finalized.outputs.any == 'true' && github.event.pull_request.head.repo.full_name != github.repository
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          FINALIZED_FILES: ${{ steps.finalized.outputs.files }}
+        run: |
+          cat > /tmp/issue-body.md <<EOF
+          Review finalized (\`Status: FINALIZED\`) on a fork PR -- \`GITHUB_TOKEN\` can't push back to a fork's branch, so extraction needs to be run manually.
+          Related to #${PR_NUMBER}
+          - [ ] Run \`node scripts/extract-verified-sentences.mjs --unit <unit-id>\` locally against the PR branch, for each finalized file below
+          - [ ] Validate with \`node rarelang-server-tooling/scripts/validate-content.mjs .\`
+          - [ ] Push the result (to the PR branch, or a follow-up commit) and include "Closes #<this-issue-number>" so this issue auto-closes
+          Finalized files: ${FINALIZED_FILES}
+          EOF
+          issue_url=$(gh issue create --repo "${{ github.repository }}" --title "Extract sentences from PR #${PR_NUMBER} (fork, needs maintainer)" --body-file /tmp/issue-body.md)
+          gh pr comment "${PR_NUMBER}" --body "Review finalized. This PR is from a fork, so I can't push the extracted content myself -- opened $issue_url for a maintainer to run it manually."
