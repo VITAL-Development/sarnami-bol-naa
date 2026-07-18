@@ -9,13 +9,15 @@
           "nl": "Ik heb dit in de Veda's gelezen."
         },
         "vocabRefs": [
-          "post-mem"
+          "post-mem",
+          "pron-ham",
+          "pron-i"
         ],
         "tokenVocabRefs": [
           null,
           "post-mem",
-          null,
-          null,
+          "pron-ham",
+          "pron-i",
           null,
           null,
           null
@@ -49,14 +51,15 @@
         "vocabRefs": [
           "post-ke-bahar",
           "noun-ghar",
-          "pron-u"
+          "pron-u",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
           "pron-u",
           "noun-ghar",
           "post-ke-bahar",
           "post-ke-bahar",
-          null
+          "gram-hai"
         ]
       },
       {
@@ -69,7 +72,14 @@
         "vocabRefs": [
           "post-par",
           "noun-am",
-          "noun-per"
+          "noun-per",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-am",
+          "noun-per",
+          "post-par",
+          "gram-hai"
         ]
       },
       {
@@ -82,7 +92,15 @@
         "vocabRefs": [
           "post-ke-uppar",
           "noun-per",
-          "noun-ghar"
+          "noun-ghar",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-per",
+          "noun-ghar",
+          "post-ke-uppar",
+          "post-ke-uppar",
+          "gram-hai"
         ]
       },
       {
@@ -95,7 +113,15 @@
         "vocabRefs": [
           "post-ke-nicce",
           "noun-kutta",
-          "noun-ghar"
+          "noun-ghar",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-kutta",
+          "noun-ghar",
+          "post-ke-nicce",
+          "post-ke-nicce",
+          "gram-hai"
         ]
       },
       {
@@ -119,7 +145,15 @@
         "vocabRefs": [
           "post-ke-bhittar",
           "noun-am",
-          "noun-ghar"
+          "noun-ghar",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-am",
+          "noun-ghar",
+          "post-ke-bhittar",
+          "post-ke-bhittar",
+          "gram-hai"
         ]
       }
     ],
@@ -148,7 +182,7 @@
       {
         "id": "gn-post-3",
         "title": "Samengestelde achterzetsels met ke",
-        "body": "Naast de primaire achterzetsels bestaan er samengestelde vormen die met ke worden gebouwd: ke uppar (boven), ke nicce (onder), ke bhittar (binnen), ke bāhar (buiten). Ze geven vaak een plaats aan. Soms kan de ke wegvallen, maar in de standaardvorm staat hij er wel: ghar ke uppar (boven het huis).",
+        "body": "Er bestaan ook samengestelde achterzetsels. Je bouwt ze met ke: ke uppar (boven), ke nicce (onder), ke bhittar (binnen), ke bāhar (buiten). Ze geven vaak een plaats aan. Soms valt de ke weg. In de standaardvorm staat hij er wel: ghar ke uppar (boven het huis).",
         "relatedVocab": [
           "post-ke-uppar",
           "post-ke-nicce",
@@ -253,8 +287,8 @@
         "tokenVocabRefs": [
           null,
           "post-mem",
-          null,
-          null,
+          "pron-ham",
+          "pron-i",
           null,
           null,
           null
@@ -292,14 +326,16 @@
         "vocabRefs": [
           "post-ke-bina",
           "pron-tu",
-          "pron-ham"
+          "pron-ham",
+          "gram-na",
+          "verb-jai"
         ],
         "tokenVocabRefs": [
           "pron-tu",
           "post-ke-bina",
           "pron-ham",
-          null,
-          null
+          "gram-na",
+          "verb-jai"
         ]
       },
       {
@@ -311,13 +347,14 @@
         "vocabRefs": [
           "post-ke-sath",
           "pron-tu",
-          "pron-ham"
+          "pron-ham",
+          "verb-jai"
         ],
         "tokenVocabRefs": [
           "pron-ham",
           "pron-tu",
           "post-ke-sath",
-          null
+          "verb-jai"
         ]
       },
       {
@@ -327,13 +364,15 @@
           "nl": "Hij had een mes in zijn hand."
         },
         "vocabRefs": [
-          "post-mem"
+          "post-mem",
+          "pron-okar",
+          "noun-churi"
         ],
         "tokenVocabRefs": [
-          null,
+          "pron-okar",
           null,
           "post-mem",
-          null,
+          "noun-churi",
           null
         ]
       },
@@ -347,7 +386,16 @@
         "vocabRefs": [
           "post-ke-bina",
           "pron-ekar",
-          "pron-ham"
+          "pron-ham",
+          "gram-na",
+          "verb-jai"
+        ],
+        "tokenVocabRefs": [
+          "pron-ekar",
+          "post-ke-bina",
+          "pron-ham",
+          "gram-na",
+          "verb-jai"
         ]
       },
       {
@@ -360,7 +408,16 @@
         "vocabRefs": [
           "post-ke-bina",
           "pron-okar",
-          "pron-ham"
+          "pron-ham",
+          "gram-na",
+          "verb-jai"
+        ],
+        "tokenVocabRefs": [
+          "pron-okar",
+          "post-ke-bina",
+          "pron-ham",
+          "gram-na",
+          "verb-jai"
         ]
       },
       {
@@ -373,7 +430,14 @@
         "vocabRefs": [
           "post-ke-sath",
           "pron-ekar",
-          "pron-ham"
+          "pron-ham",
+          "verb-jai"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          "pron-ekar",
+          "post-ke-sath",
+          "verb-jai"
         ]
       },
       {
@@ -386,7 +450,15 @@
         "vocabRefs": [
           "post-ke-lage",
           "noun-kutta",
-          "noun-ghar"
+          "noun-ghar",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-kutta",
+          "noun-ghar",
+          "post-ke-lage",
+          "post-ke-lage",
+          "gram-hai"
         ]
       },
       {
@@ -399,7 +471,15 @@
         "vocabRefs": [
           "post-ke-age",
           "noun-kutta",
-          "noun-ghar"
+          "noun-ghar",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-kutta",
+          "noun-ghar",
+          "post-ke-age",
+          "post-ke-age",
+          "gram-hai"
         ]
       },
       {
@@ -412,7 +492,15 @@
         "vocabRefs": [
           "post-ke-piche",
           "noun-kutta",
-          "noun-ghar"
+          "noun-ghar",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-kutta",
+          "noun-ghar",
+          "post-ke-piche",
+          "post-ke-piche",
+          "gram-hai"
         ]
       },
       {
@@ -425,7 +513,14 @@
         "vocabRefs": [
           "post-ke-sath",
           "pron-okar",
-          "pron-ham"
+          "pron-ham",
+          "verb-jai"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          "pron-okar",
+          "post-ke-sath",
+          "verb-jai"
         ]
       }
     ],
@@ -455,7 +550,7 @@
       {
         "id": "gn-post-6",
         "title": "De uitgang -e",
-        "body": "Een achterzetsel kan een uitgang -e geven aan het naamwoord dat er direct vóór staat (en aan bijbehorende voornaamwoorden). Zo bestaat naast okar hāth meṁ ook de vorm ŏkare hāthe meṁ (in zijn hand). Deze -e is niet verplicht en mag ook worden weggelaten.",
+        "body": "Een achterzetsel kan een uitgang -e geven aan het woord dat er direct vóór staat. Dat geldt ook voor het voornaamwoord erbij. Zo bestaat naast okar hāth meṁ ook de vorm ŏkare hāthe meṁ (in zijn hand). Deze -e is niet verplicht. Je mag hem ook weglaten.",
         "relatedVocab": [
           "post-mem"
         ]
@@ -558,8 +653,8 @@
           "pron-tu",
           "post-ke-bina",
           "pron-ham",
-          null,
-          null
+          "gram-na",
+          "verb-jai"
         ]
       },
       "att-e4": {
@@ -715,8 +810,8 @@
         "tokenVocabRefs": [
           null,
           "post-mem",
-          null,
-          null,
+          "pron-ham",
+          "pron-i",
           null,
           null,
           null
