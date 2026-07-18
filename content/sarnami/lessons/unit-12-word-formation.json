@@ -98,7 +98,7 @@
       {
         "id": "gn-wf-1",
         "title": "Afleiden met achtervoegsels",
-        "body": "Met voor- en achtervoegsels maak je van bestaande woorden en woordstammen nieuwe woorden. Vier veelvoorkomende achtervoegsels: -akkaṛ vormt een gewoontedoener (ghum- 'rondtrekken' → ghumakkaṛ 'een zwerver'); -ār vormt een beroepsnaam (lŏhā 'ijzer' → lŏhār 'een smid'); -āī vormt een abstract zelfstandig naamwoord, vaak te vertalen met '-heid' of een handeling (sāf 'schoon' → safāī 'netheid'); -vāl(-ā) betekent 'degene met of van X' (ṭopī 'hoed' → ṭopī-vālā 'de man met de hoed'). Herken je het achtervoegsel, dan raad je vaak de betekenis van een onbekend woord.",
+        "body": "Met voor- en achtervoegsels maak je van bestaande woorden en woordstammen nieuwe woorden. Er zijn vier veelvoorkomende achtervoegsels. -akkaṛ maakt van een woord iemand die iets gewoonlijk doet. Bijvoorbeeld: ghum- ('rondtrekken') wordt ghumakkaṛ ('een zwerver'). -ār maakt een beroepsnaam. Bijvoorbeeld: lŏhā ('ijzer') wordt lŏhār ('een smid'). -āī maakt een zelfstandig naamwoord, vaak met de betekenis '-heid' of een handeling. Bijvoorbeeld: sāf ('schoon') wordt safāī ('netheid'). -vāl(-ā) betekent 'degene met of van X'. Bijvoorbeeld: ṭopī ('hoed') wordt ṭopī-vālā ('de man met de hoed'). Herken je het achtervoegsel, dan raad je vaak de betekenis van een onbekend woord.",
         "relatedVocab": [
           "wf-ghumakkar",
           "wf-lohar",
@@ -352,7 +352,7 @@
       {
         "id": "gn-wf-2",
         "title": "Achtervoegsels van Arabisch-Perzische oorsprong",
-        "body": "Een deel van de Sarnami-woordvorming komt uit het Arabisch en Perzisch. Het achtervoegsel -dār betekent 'bezittend, houder van' (dukān 'winkel' → dukāndār 'een winkelier'; imān 'eer' → imāndār 'eerlijk'); -gar vormt een maker of doener (jādū 'toverkunst' → jādūgar 'een goochelaar'; kār 'werk' → kārīgar 'een vakman'); -khānā betekent 'huis, plaats' (davā 'medicijn' → davā-khānā 'een apotheek'; chap 'druk' → chapkhānā 'een drukkerij').",
+        "body": "Een deel van de Sarnami-woordvorming komt uit het Arabisch en Perzisch. Het achtervoegsel -dār betekent 'bezittend, houder van'. Bijvoorbeeld: dukān ('winkel') wordt dukāndār ('een winkelier'). Nog een voorbeeld: imān ('eer') wordt imāndār ('eerlijk'). -gar maakt een maker of doener. Bijvoorbeeld: jādū ('toverkunst') wordt jādūgar ('een goochelaar'). Nog een voorbeeld: kār ('werk') wordt kārīgar ('een vakman'). -khānā betekent 'huis, plaats'. Bijvoorbeeld: davā ('medicijn') wordt davā-khānā ('een apotheek'). Nog een voorbeeld: chap ('druk') wordt chapkhānā ('een drukkerij').",
         "relatedVocab": [
           "wf-imandar",
           "wf-jadugar",
@@ -362,7 +362,7 @@
       {
         "id": "gn-wf-3",
         "title": "Voorvoegsels van Arabisch-Perzische oorsprong",
-        "body": "Dezelfde bron levert ook ontkennende voorvoegsels. Het voorvoegsel be- betekent 'zonder, -loos' (cain 'rust' → becain 'radeloos'); nā- betekent 'on-, niet' (lāyak 'geschikt' → nā-lāyak 'ongeschikt'); bad- betekent 'slecht-' (nām 'naam' → badnāmī 'oneer'). Met deze voorvoegsels vorm je makkelijk het tegendeel van een woord.",
+        "body": "Dezelfde bron levert ook voorvoegsels die het tegendeel van een woord maken. Het voorvoegsel be- betekent 'zonder, -loos'. Bijvoorbeeld: cain ('rust') wordt becain ('radeloos'). nā- betekent 'on-, niet'. Bijvoorbeeld: lāyak ('geschikt') wordt nā-lāyak ('ongeschikt'). bad- betekent 'slecht-'. Bijvoorbeeld: nām ('naam') wordt badnāmī ('oneer'). Met deze voorvoegsels vorm je makkelijk het tegendeel van een woord.",
         "relatedVocab": [
           "wf-becain",
           "wf-nalayak"
