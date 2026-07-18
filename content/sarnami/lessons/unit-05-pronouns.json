@@ -13,6 +13,12 @@
           "noun-ghar",
           "adv-dur",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-tor",
+          "noun-ghar",
+          "adv-dur",
+          "gram-hai"
         ]
       },
       {
@@ -22,6 +28,13 @@
           "nl": "Uw huis is niet ver."
         },
         "vocabRefs": [
+          "pron-tomhar",
+          "noun-ghar",
+          "adv-dur",
+          "gram-na",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
           "pron-tomhar",
           "noun-ghar",
           "adv-dur",
@@ -41,6 +54,13 @@
           "adv-dur",
           "gram-na",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-apke",
+          "noun-ghar",
+          "adv-dur",
+          "gram-na",
+          "gram-hai"
         ]
       },
       {
@@ -50,6 +70,12 @@
           "nl": "Zijn/haar huis (dichtbij) is ver."
         },
         "vocabRefs": [
+          "pron-ekar",
+          "noun-ghar",
+          "adv-dur",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
           "pron-ekar",
           "noun-ghar",
           "adv-dur",
@@ -68,6 +94,13 @@
           "adv-dur",
           "gram-na",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-okar",
+          "noun-ghar",
+          "adv-dur",
+          "gram-na",
+          "gram-hai"
         ]
       },
       {
@@ -77,6 +110,13 @@
           "nl": "Hij/zij is in mijn huis."
         },
         "vocabRefs": [
+          "pron-u",
+          "pron-hamar",
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
           "pron-u",
           "pron-hamar",
           "noun-ghar",
@@ -245,6 +285,12 @@
           "noun-kutta",
           "pron-hamar",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-i",
+          "noun-kutta",
+          "pron-hamar",
+          "gram-hai"
         ]
       },
       {
@@ -254,6 +300,12 @@
           "nl": "Dat paard is van hem/haar."
         },
         "vocabRefs": [
+          "pron-u",
+          "noun-ghora",
+          "pron-okar",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
           "pron-u",
           "noun-ghora",
           "pron-okar",
@@ -270,6 +322,11 @@
           "pron-ham",
           "pron-eke",
           "verb-dekhe"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          "pron-eke",
+          "verb-dekhe"
         ]
       },
       {
@@ -279,6 +336,11 @@
           "nl": "Ik zie hem/haar (veraf)."
         },
         "vocabRefs": [
+          "pron-ham",
+          "pron-oke",
+          "verb-dekhe"
+        ],
+        "tokenVocabRefs": [
           "pron-ham",
           "pron-oke",
           "verb-dekhe"
@@ -295,6 +357,12 @@
           "noun-ghar",
           "post-mem",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-inhan",
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
         ]
       },
       {
@@ -304,6 +372,12 @@
           "nl": "Zij (beleefd/meervoud, veraf) zijn in het huis."
         },
         "vocabRefs": [
+          "pron-unhan",
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
           "pron-unhan",
           "noun-ghar",
           "post-mem",
@@ -448,6 +522,11 @@
           "pron-ke",
           "verb-ave",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-ke",
+          "verb-ave",
+          "gram-hai"
         ]
       },
       {
@@ -460,6 +539,11 @@
           "pron-kaun",
           "verb-ave",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-kaun",
+          "verb-ave",
+          "gram-hai"
         ]
       },
       {
@@ -469,6 +553,11 @@
           "nl": "Wiens hond is het?"
         },
         "vocabRefs": [
+          "pron-kekar",
+          "noun-kutta",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
           "pron-kekar",
           "noun-kutta",
           "gram-hai"
@@ -487,6 +576,15 @@
           "adj-barka",
           "gram-hai",
           "pron-hamar"
+        ],
+        "tokenVocabRefs": [
+          "pron-i",
+          "noun-ghar",
+          "pron-jaun",
+          "adj-barka",
+          "gram-hai",
+          "pron-hamar",
+          "gram-hai"
         ]
       }
     ],
