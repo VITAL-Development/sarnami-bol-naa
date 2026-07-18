@@ -577,16 +577,19 @@
           "nl": "Rustam heeft het paard vastgehouden."
         },
         "vocabRefs": [
+          "noun-rustam",
           "noun-ghora",
           "post-ke",
+          "verb-pakare",
+          "verb-leve",
           "gram-hai-aux"
         ],
         "tokenVocabRefs": [
-          null,
+          "noun-rustam",
           "noun-ghora",
           "post-ke",
-          null,
-          null,
+          "verb-pakare",
+          "verb-leve",
           "gram-hai-aux"
         ]
       },
@@ -755,18 +758,24 @@
           "nl": "De koning had 7 dieven laten vermoorden."
         },
         "vocabRefs": [
+          "noun-raja",
           "num-sat",
-          "post-ke"
+          "gram-go",
+          "sound-cor",
+          "post-ke",
+          "verb-mare-hit",
+          "verb-deve",
+          "gram-raha-aux"
         ],
         "tokenVocabRefs": [
-          null,
+          "noun-raja",
           "num-sat",
-          null,
-          null,
+          "gram-go",
+          "sound-cor",
           "post-ke",
-          null,
-          null,
-          null
+          "verb-mare-hit",
+          "verb-deve",
+          "gram-raha-aux"
         ]
       },
       {

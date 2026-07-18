@@ -342,5 +342,18 @@
     "word": "Ram",
     "translations": { "nl": "Ram (jongensnaam)", "en": "Ram (boy's name)" },
     "tags": ["noun", "proper-noun"]
+  },
+  {
+    "id": "noun-rustam",
+    "word": "Rustam",
+    "translations": { "nl": "Rustam (jongensnaam)", "en": "Rustam (boy's name)" },
+    "tags": ["noun", "proper-noun"]
+  },
+  {
+    "id": "noun-raja",
+    "word": "rajā",
+    "translations": { "nl": "koning", "en": "king" },
+    "notes": "Lange vorm rajavā.",
+    "tags": ["noun"]
   }
 ]

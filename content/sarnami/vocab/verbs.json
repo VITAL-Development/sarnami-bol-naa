@@ -235,5 +235,12 @@
     "translations": { "nl": "drinken", "en": "to drink" },
     "notes": "Komt voor in de samengestelde vorm dai de (te drinken geven), met deve (verb-deve) als hulpwerkwoord.",
     "tags": ["verb"]
+  },
+  {
+    "id": "verb-pakare",
+    "word": "pakaṛe",
+    "translations": { "nl": "pakken, vastgrijpen", "en": "to catch, to grab, to hold" },
+    "notes": "Stam: pakaṛ-. Komt voor in de samengestelde vorm pakaṛ leis (vastgepakt), met leve (verb-leve) als hulpwerkwoord.",
+    "tags": ["verb"]
   }
 ]
