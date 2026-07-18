@@ -1,7 +1,10 @@
 {
   "id": "unit-13-reading",
   "title": "Lezen: teksten & fabels",
-  "titleTranslations": { "nl": "Lezen: teksten & fabels", "en": "Reading: texts & fables" },
+  "titleTranslations": {
+    "nl": "Lezen: teksten & fabels",
+    "en": "Reading: texts & fables"
+  },
   "description": "Leesteksten en fabels, van makkelijk naar moeilijk. De teksten komen uit de bijlagen.",
   "order": 14,
   "cefrLevel": "C1",
@@ -12,7 +15,10 @@
       "unitId": "unit-13-reading",
       "order": 1,
       "title": "Tekst 1",
-      "titleTranslations": { "nl": "Tekst 1", "en": "Text 1" },
+      "titleTranslations": {
+        "nl": "Tekst 1",
+        "en": "Text 1"
+      },
       "description": "Eerste leestekst met begripsvragen.",
       "newVocab": [
         "read-nati",
@@ -27,20 +33,50 @@
         "gn-text1-3"
       ],
       "exercises": [
-        { "id": "t1-e1", "kind": "multiple-choice", "contentRef": "t1-e1" },
-        { "id": "t1-e2", "kind": "multiple-choice", "contentRef": "t1-e2" },
-        { "id": "t1-e3", "kind": "multiple-choice", "contentRef": "t1-e3" },
-        { "id": "t1-e4", "kind": "fill-blank", "contentRef": "t1-e4" },
-        { "id": "t1-e5", "kind": "word-bank", "contentRef": "t1-e5" }
+        {
+          "id": "t1-e1",
+          "kind": "multiple-choice",
+          "contentRef": "t1-e1"
+        },
+        {
+          "id": "t1-e2",
+          "kind": "multiple-choice",
+          "contentRef": "t1-e2"
+        },
+        {
+          "id": "t1-e3",
+          "kind": "multiple-choice",
+          "contentRef": "t1-e3"
+        },
+        {
+          "id": "t1-e4",
+          "kind": "fill-blank",
+          "contentRef": "t1-e4"
+        },
+        {
+          "id": "t1-e5",
+          "kind": "word-bank",
+          "contentRef": "t1-e5"
+        }
       ],
-      "xpReward": 10
+      "xpReward": 10,
+      "exampleSentenceRefs": [
+        "ex-read1-1",
+        "ex-read1-2",
+        "ex-read1-3",
+        "ex-read1-4",
+        "ex-read1-5"
+      ]
     },
     {
       "id": "unit-13-reading-text-2",
       "unitId": "unit-13-reading",
       "order": 2,
       "title": "Tekst 2",
-      "titleTranslations": { "nl": "Tekst 2", "en": "Text 2" },
+      "titleTranslations": {
+        "nl": "Tekst 2",
+        "en": "Text 2"
+      },
       "description": "Tweede leestekst met begripsvragen.",
       "newVocab": [
         "read-beta",
@@ -55,20 +91,50 @@
         "gn-text2-3"
       ],
       "exercises": [
-        { "id": "t2-e1", "kind": "multiple-choice", "contentRef": "t2-e1" },
-        { "id": "t2-e2", "kind": "multiple-choice", "contentRef": "t2-e2" },
-        { "id": "t2-e3", "kind": "multiple-choice", "contentRef": "t2-e3" },
-        { "id": "t2-e4", "kind": "matching", "contentRef": "t2-e4" },
-        { "id": "t2-e5", "kind": "fill-blank", "contentRef": "t2-e5" }
+        {
+          "id": "t2-e1",
+          "kind": "multiple-choice",
+          "contentRef": "t2-e1"
+        },
+        {
+          "id": "t2-e2",
+          "kind": "multiple-choice",
+          "contentRef": "t2-e2"
+        },
+        {
+          "id": "t2-e3",
+          "kind": "multiple-choice",
+          "contentRef": "t2-e3"
+        },
+        {
+          "id": "t2-e4",
+          "kind": "matching",
+          "contentRef": "t2-e4"
+        },
+        {
+          "id": "t2-e5",
+          "kind": "fill-blank",
+          "contentRef": "t2-e5"
+        }
       ],
-      "xpReward": 10
+      "xpReward": 10,
+      "exampleSentenceRefs": [
+        "ex-read2-1",
+        "ex-read2-2",
+        "ex-read2-3",
+        "ex-read2-4",
+        "ex-read2-5"
+      ]
     },
     {
       "id": "unit-13-reading-text-3",
       "unitId": "unit-13-reading",
       "order": 3,
       "title": "Tekst 3",
-      "titleTranslations": { "nl": "Tekst 3", "en": "Text 3" },
+      "titleTranslations": {
+        "nl": "Tekst 3",
+        "en": "Text 3"
+      },
       "description": "Derde leestekst met begripsvragen.",
       "newVocab": [
         "read-siyar",
@@ -83,28 +149,76 @@
         "gn-text3-3"
       ],
       "exercises": [
-        { "id": "t3-e1", "kind": "multiple-choice", "contentRef": "t3-e1" },
-        { "id": "t3-e2", "kind": "multiple-choice", "contentRef": "t3-e2" },
-        { "id": "t3-e3", "kind": "multiple-choice", "contentRef": "t3-e3" },
-        { "id": "t3-e4", "kind": "word-bank", "contentRef": "t3-e4" },
-        { "id": "t3-e5", "kind": "matching", "contentRef": "t3-e5" }
+        {
+          "id": "t3-e1",
+          "kind": "multiple-choice",
+          "contentRef": "t3-e1"
+        },
+        {
+          "id": "t3-e2",
+          "kind": "multiple-choice",
+          "contentRef": "t3-e2"
+        },
+        {
+          "id": "t3-e3",
+          "kind": "multiple-choice",
+          "contentRef": "t3-e3"
+        },
+        {
+          "id": "t3-e4",
+          "kind": "word-bank",
+          "contentRef": "t3-e4"
+        },
+        {
+          "id": "t3-e5",
+          "kind": "matching",
+          "contentRef": "t3-e5"
+        }
       ],
-      "xpReward": 10
+      "xpReward": 10,
+      "exampleSentenceRefs": [
+        "ex-read3-1",
+        "ex-read3-2",
+        "ex-read3-3"
+      ]
     },
     {
       "id": "unit-13-reading-review",
       "unitId": "unit-13-reading",
       "order": 4,
       "title": "Herhaling",
-      "titleTranslations": { "nl": "Herhaling", "en": "Review" },
+      "titleTranslations": {
+        "nl": "Herhaling",
+        "en": "Review"
+      },
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [
-        { "id": "rev-e1", "kind": "multiple-choice", "contentRef": "rev-e1" },
-        { "id": "rev-e2", "kind": "matching", "contentRef": "rev-e2" },
-        { "id": "rev-e4", "kind": "word-bank", "contentRef": "rev-e4" },
-        { "id": "rev-e5", "kind": "fill-blank", "contentRef": "rev-e5" },
-        { "id": "rev-e7", "kind": "multiple-choice", "contentRef": "rev-e7" }
+        {
+          "id": "rev-e1",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e1"
+        },
+        {
+          "id": "rev-e2",
+          "kind": "matching",
+          "contentRef": "rev-e2"
+        },
+        {
+          "id": "rev-e4",
+          "kind": "word-bank",
+          "contentRef": "rev-e4"
+        },
+        {
+          "id": "rev-e5",
+          "kind": "fill-blank",
+          "contentRef": "rev-e5"
+        },
+        {
+          "id": "rev-e7",
+          "kind": "multiple-choice",
+          "contentRef": "rev-e7"
+        }
       ],
       "xpReward": 15
     }
