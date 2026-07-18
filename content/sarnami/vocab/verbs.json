@@ -228,5 +228,12 @@
     "translations": { "nl": "halen", "en": "to fetch, to bring" },
     "notes": "Lijkt op 'āve' (verb-ave, komen), maar 'lāve' betekent 'halen' (iets meebrengen).",
     "tags": ["verb"]
+  },
+  {
+    "id": "verb-dai",
+    "word": "dai",
+    "translations": { "nl": "drinken", "en": "to drink" },
+    "notes": "Komt voor in de samengestelde vorm dai de (te drinken geven), met deve (verb-deve) als hulpwerkwoord.",
+    "tags": ["verb"]
   }
 ]

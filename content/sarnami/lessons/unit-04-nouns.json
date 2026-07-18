@@ -212,12 +212,14 @@
           "nl": "Het paard eet."
         },
         "vocabRefs": [
-          "noun-ghora"
+          "noun-ghora",
+          "verb-khai",
+          "gram-ba-aux"
         ],
         "tokenVocabRefs": [
           "noun-ghora",
-          null,
-          null
+          "verb-khai",
+          "gram-ba-aux"
         ]
       },
       {
@@ -227,12 +229,14 @@
           "nl": "De paarden eten."
         },
         "vocabRefs": [
-          "noun-ghora"
+          "noun-ghora",
+          "verb-khai",
+          "gram-ba-aux"
         ],
         "tokenVocabRefs": [
           "noun-ghora",
-          null,
-          null
+          "verb-khai",
+          "gram-ba-aux"
         ]
       },
       {
@@ -242,13 +246,16 @@
           "nl": "Ram eet manje."
         },
         "vocabRefs": [
-          "noun-am"
+          "noun-ram",
+          "noun-am",
+          "verb-khai",
+          "gram-hai-aux"
         ],
         "tokenVocabRefs": [
-          null,
+          "noun-ram",
           "noun-am",
-          null,
-          null
+          "verb-khai",
+          "gram-hai-aux"
         ]
       },
       {
@@ -288,12 +295,14 @@
           "nl": "Dit is de neus."
         },
         "vocabRefs": [
-          "noun-nak"
+          "pron-i",
+          "noun-nak",
+          "gram-hai-aux"
         ],
         "tokenVocabRefs": [
-          null,
+          "pron-i",
           "noun-nak",
-          null
+          "gram-hai-aux"
         ]
       },
       {
@@ -303,12 +312,14 @@
           "nl": "Dat is de boom."
         },
         "vocabRefs": [
-          "noun-per"
+          "pron-u",
+          "noun-per",
+          "gram-hai-aux"
         ],
         "tokenVocabRefs": [
-          null,
+          "pron-u",
           "noun-per",
-          null
+          "gram-hai-aux"
         ]
       },
       {
@@ -318,13 +329,16 @@
           "nl": "Ram eet de manjes."
         },
         "vocabRefs": [
-          "noun-am"
+          "noun-ram",
+          "noun-am",
+          "verb-khai",
+          "gram-hai-aux"
         ],
         "tokenVocabRefs": [
-          null,
+          "noun-ram",
           "noun-am",
-          null,
-          null
+          "verb-khai",
+          "gram-hai-aux"
         ]
       }
     ],
@@ -433,13 +447,16 @@
           "nl": "Snijd de vrucht met een mes!"
         },
         "vocabRefs": [
-          "noun-churi"
+          "noun-phal",
+          "noun-churi",
+          "post-se",
+          "verb-kate"
         ],
         "tokenVocabRefs": [
-          null,
+          "noun-phal",
           "noun-churi",
-          null,
-          null
+          "post-se",
+          "verb-kate"
         ]
       },
       {
@@ -449,14 +466,18 @@
           "nl": "Geef de koe water te drinken."
         },
         "vocabRefs": [
-          "noun-gai"
+          "noun-gai",
+          "post-ke",
+          "noun-pani",
+          "verb-dai",
+          "verb-deve"
         ],
         "tokenVocabRefs": [
           "noun-gai",
-          null,
-          null,
-          null,
-          null
+          "post-ke",
+          "noun-pani",
+          "verb-dai",
+          "verb-deve"
         ]
       },
       {
@@ -466,15 +487,20 @@
           "nl": "Ik zit op de rug van een paard."
         },
         "vocabRefs": [
-          "noun-ghora"
+          "pron-ham",
+          "noun-ghora",
+          "post-ke",
+          "noun-pithi",
+          "post-par",
+          "verb-baithe"
         ],
         "tokenVocabRefs": [
-          null,
+          "pron-ham",
           "noun-ghora",
-          null,
-          null,
-          null,
-          null
+          "post-ke",
+          "noun-pithi",
+          "post-par",
+          "verb-baithe"
         ]
       },
       {
@@ -484,15 +510,18 @@
           "nl": "Ik lees de brief van de dochter."
         },
         "vocabRefs": [
+          "pron-ham",
           "noun-beti",
-          "noun-citthi"
+          "post-ke",
+          "noun-citthi",
+          "verb-parhe"
         ],
         "tokenVocabRefs": [
-          null,
+          "pron-ham",
           "noun-beti",
-          null,
+          "post-ke",
           "noun-citthi",
-          null
+          "verb-parhe"
         ]
       },
       {
@@ -502,15 +531,20 @@
           "nl": "Haal gras voor de koeien."
         },
         "vocabRefs": [
-          "noun-gai"
+          "noun-gai",
+          "post-ke",
+          "noun-khartin",
+          "noun-ghams",
+          "verb-lave",
+          "verb-deve"
         ],
         "tokenVocabRefs": [
           "noun-gai",
-          null,
-          null,
-          null,
-          null,
-          null
+          "post-ke",
+          "noun-khartin",
+          "noun-ghams",
+          "verb-lave",
+          "verb-deve"
         ]
       },
       {
@@ -520,15 +554,20 @@
           "nl": "Ik zit op de ruggen van de paarden."
         },
         "vocabRefs": [
-          "noun-ghora"
+          "pron-ham",
+          "noun-ghora",
+          "post-ke",
+          "noun-pithi",
+          "post-par",
+          "verb-baithe"
         ],
         "tokenVocabRefs": [
-          null,
+          "pron-ham",
           "noun-ghora",
-          null,
-          null,
-          null,
-          null
+          "post-ke",
+          "noun-pithi",
+          "post-par",
+          "verb-baithe"
         ]
       },
       {
@@ -538,15 +577,17 @@
           "nl": "Rustam heeft het paard vastgehouden."
         },
         "vocabRefs": [
-          "noun-ghora"
+          "noun-ghora",
+          "post-ke",
+          "gram-hai-aux"
         ],
         "tokenVocabRefs": [
           null,
           "noun-ghora",
+          "post-ke",
           null,
           null,
-          null,
-          null
+          "gram-hai-aux"
         ]
       },
       {
@@ -556,15 +597,18 @@
           "nl": "Ik zie het mes van de dochter."
         },
         "vocabRefs": [
+          "pron-ham",
           "noun-beti",
-          "noun-churi"
+          "post-ke",
+          "noun-churi",
+          "verb-dekhe"
         ],
         "tokenVocabRefs": [
-          null,
+          "pron-ham",
           "noun-beti",
-          null,
+          "post-ke",
           "noun-churi",
-          null
+          "verb-dekhe"
         ]
       }
     ],
@@ -690,16 +734,18 @@
           "nl": "Moeder heeft twee ringen gekocht."
         },
         "vocabRefs": [
+          "noun-maiya",
           "num-dui",
-          "noun-maiya"
+          "verb-kine",
+          "gram-hai-aux"
         ],
         "tokenVocabRefs": [
           "noun-maiya",
           "num-dui",
           null,
           null,
-          null,
-          null
+          "verb-kine",
+          "gram-hai-aux"
         ]
       },
       {
@@ -709,14 +755,15 @@
           "nl": "De koning had 7 dieven laten vermoorden."
         },
         "vocabRefs": [
-          "num-sat"
+          "num-sat",
+          "post-ke"
         ],
         "tokenVocabRefs": [
           null,
           "num-sat",
           null,
           null,
-          null,
+          "post-ke",
           null,
           null,
           null

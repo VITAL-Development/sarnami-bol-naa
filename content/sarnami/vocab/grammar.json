@@ -121,7 +121,17 @@
       "nl": "zijn (bestaan, ergens zijn)",
       "en": "to be (existential/locative)"
     },
-    "notes": "Bāteṃ is de meervoudsvorm van bā. Je gebruikt dit werkwoord op twee manieren. Manier 1: het zegt dat iets ergens is, bijvoorbeeld ghar meṃ bāteṃ (zijn thuis). Manier 2: het hoort bij een ander werkwoord. Dan vorm je daarmee een duur-vorm of een voltooide vorm, bijvoorbeeld khāt bā (is aan het eten) of ṭurle bā (heeft geplukt).",
+    "notes": "Bāteṃ is de meervoudsvorm van bā. Dit werkwoord zegt dat iets ergens is, bijvoorbeeld ghar meṃ bāteṃ (zijn thuis).",
+    "tags": ["grammar"]
+  },
+  {
+    "id": "gram-ba-aux",
+    "word": "bā",
+    "translations": {
+      "nl": "hulpwerkwoord (bate)",
+      "en": "auxiliary verb (bate)"
+    },
+    "notes": "Dit is dezelfde vorm als 'bā' (gram-ba, 'zijn'). Maar hier staat het achter een ander werkwoord, bijvoorbeeld khāt bā (is aan het eten) of ṭurle bā (heeft geplukt). Het betekent dan niet 'zijn' — het hoort gewoon bij dat andere werkwoord.",
     "tags": ["grammar"]
   }
 ]
