@@ -5,7 +5,7 @@
   "source": "content/sarnami/vocab/*.json (word tokens, mechanically transliterated to SCS via scripts/scs-transliterate.mjs)",
   "notes": "Word-level SCS-plain-Latin -> canonical-diacritical dictionary for the first pass of sarnami-bol-naa#244's combined input flow (dictionary lookup first, settings/sarnami/transliteration-rules.json digraph rule table as fallback for anything not listed here). `ambiguous: true` means more than one canonical spelling collapses to the same SCS spelling (e.g. n/ṇ/ñ/ṅ/ṁ all fold to plain \"n\") — a consuming widget must surface these as an inline choice, never silently pick one, per the issue's step 3. `sourceIds` cites a content/sarnami/vocab id per canonical spelling for traceability, not a scoring signal. This file's coverage is bounded to today's vocab bank — new coinages/names fall through to the rule table until vocab grows.",
   "stats": {
-    "totalEntries": 276,
+    "totalEntries": 282,
     "ambiguousEntries": 3
   },
   "entries": [
@@ -17,6 +17,16 @@
       "ambiguous": false,
       "sourceIds": [
         "int-accha"
+      ]
+    },
+    {
+      "scs": "adami",
+      "canonical": [
+        "adamī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-adami"
       ]
     },
     {
@@ -246,7 +256,7 @@
       ],
       "ambiguous": false,
       "sourceIds": [
-        "read-bakari"
+        "noun-bakari"
       ]
     },
     {
@@ -770,6 +780,16 @@
       ]
     },
     {
+      "scs": "dhani",
+      "canonical": [
+        "dhanī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adj-dhani"
+      ]
+    },
+    {
       "scs": "dhire",
       "canonical": [
         "dhīre"
@@ -837,6 +857,16 @@
       "ambiguous": false,
       "sourceIds": [
         "adv-dur"
+      ]
+    },
+    {
+      "scs": "ego",
+      "canonical": [
+        "ego"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "gram-ego"
       ]
     },
     {
@@ -1077,6 +1107,16 @@
       "ambiguous": false,
       "sourceIds": [
         "adv-hardam"
+      ]
+    },
+    {
+      "scs": "hariya",
+      "canonical": [
+        "hariyā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-hariya"
       ]
     },
     {
@@ -1757,6 +1797,16 @@
       "ambiguous": false,
       "sourceIds": [
         "wf-macharivala"
+      ]
+    },
+    {
+      "scs": "mahes",
+      "canonical": [
+        "mahes"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-mahes"
       ]
     },
     {
@@ -2503,6 +2553,16 @@
       "ambiguous": false,
       "sourceIds": [
         "adj-sojha"
+      ]
+    },
+    {
+      "scs": "somth",
+      "canonical": [
+        "somth"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-somth"
       ]
     },
     {

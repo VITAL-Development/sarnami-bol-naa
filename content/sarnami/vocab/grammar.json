@@ -192,5 +192,15 @@
       "book",
       "needs-verification"
     ]
+  },
+  {
+    "id": "gram-ego",
+    "word": "ego",
+    "translations": {
+      "nl": "een (onbepaald lidwoord)",
+      "en": "a/an (indefinite article)"
+    },
+    "notes": "Combinatie van ek ('een') en go (telwoordpartikel). Uit het boek (§2.2-2.3, p.55): 'ego choṭā laundā' (een kleine jongen).",
+    "tags": ["grammar", "book-p55"]
   }
 ]

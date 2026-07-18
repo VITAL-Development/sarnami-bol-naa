@@ -12,11 +12,13 @@
           "adj-chota",
           "noun-ghar",
           "verb-kine",
-          "gram-hai"
+          "gram-hai",
+          "noun-mahes",
+          "gram-ego"
         ],
         "tokenVocabRefs": [
-          null,
-          null,
+          "noun-mahes",
+          "gram-ego",
           "adj-chota",
           "noun-ghar",
           "verb-kine",
@@ -33,10 +35,11 @@
           "adj-chota",
           "noun-ghar",
           "verb-kine",
-          "gram-hai"
+          "gram-hai",
+          "noun-mahes"
         ],
         "tokenVocabRefs": [
-          null,
+          "noun-mahes",
           "adj-chota",
           "noun-ghar",
           "verb-kine",
@@ -52,12 +55,14 @@
         "vocabRefs": [
           "adj-lal",
           "verb-pahine",
-          "gram-hai"
+          "gram-hai",
+          "noun-hariya",
+          "noun-somth"
         ],
         "tokenVocabRefs": [
-          null,
+          "noun-hariya",
           "adj-lal",
-          null,
+          "noun-somth",
           "verb-pahine",
           "gram-hai"
         ]
@@ -73,11 +78,13 @@
           "adj-patar",
           "noun-churi",
           "verb-kine",
-          "gram-hai"
+          "gram-hai",
+          "noun-mahes",
+          "gram-ego"
         ],
         "tokenVocabRefs": [
-          null,
-          null,
+          "noun-mahes",
+          "gram-ego",
           "adj-patar",
           "noun-churi",
           "verb-kine",
@@ -95,10 +102,11 @@
           "adj-patar",
           "noun-churi",
           "verb-kine",
-          "gram-hai"
+          "gram-hai",
+          "noun-mahes"
         ],
         "tokenVocabRefs": [
-          null,
+          "noun-mahes",
           "adj-patar",
           "noun-churi",
           "verb-kine",
@@ -116,11 +124,13 @@
           "adj-mitha",
           "noun-am",
           "verb-kine",
-          "gram-hai"
+          "gram-hai",
+          "noun-mahes",
+          "gram-ego"
         ],
         "tokenVocabRefs": [
-          null,
-          null,
+          "noun-mahes",
+          "gram-ego",
           "adj-mitha",
           "noun-am",
           "verb-kine",
@@ -138,10 +148,11 @@
           "adj-mitha",
           "noun-am",
           "verb-kine",
-          "gram-hai"
+          "gram-hai",
+          "noun-mahes"
         ],
         "tokenVocabRefs": [
-          null,
+          "noun-mahes",
           "adj-mitha",
           "noun-am",
           "verb-kine",
@@ -284,10 +295,11 @@
         },
         "vocabRefs": [
           "adj-barka",
-          "noun-per"
+          "noun-per",
+          "gram-ego"
         ],
         "tokenVocabRefs": [
-          null,
+          "gram-ego",
           "adj-barka",
           "noun-per"
         ]
@@ -316,11 +328,12 @@
           "nl": "De zwarte geit."
         },
         "vocabRefs": [
-          "adj-karikka"
+          "adj-karikka",
+          "noun-bakari"
         ],
         "tokenVocabRefs": [
           "adj-karikka",
-          null
+          "noun-bakari"
         ]
       },
       {
@@ -552,16 +565,19 @@
           "gram-sabse",
           "post-mem",
           "pron-i",
-          "gram-hai"
+          "gram-hai",
+          "noun-sarnam",
+          "adj-dhani",
+          "noun-adami"
         ],
         "tokenVocabRefs": [
-          null,
+          "noun-sarnam",
           "post-mem",
           "pron-i",
           "gram-sabse",
           "gram-sabse",
-          null,
-          null,
+          "adj-dhani",
+          "noun-adami",
           "gram-hai"
         ]
       },

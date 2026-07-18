@@ -401,5 +401,47 @@
     "translations": { "nl": "regen", "en": "rain" },
     "notes": "Educated guess op basis van de zinsvertaling ('Als het regent...'); niet geverifieerd tegen het boek.",
     "tags": ["noun", "needs-verification"]
+  },
+  {
+    "id": "noun-mahes",
+    "word": "Mahes",
+    "translations": { "nl": "Mahes (jongensnaam)", "en": "Mahes (boy's name)" },
+    "notes": "Vaste voorbeeldnaam uit het boek (§2.2-2.3, p.55): 'Mahes ego choṭā ghar kīnis hai'.",
+    "tags": ["noun", "proper-noun", "book-p55"]
+  },
+  {
+    "id": "noun-hariya",
+    "word": "Hariyā",
+    "translations": { "nl": "Hari (jongensnaam)", "en": "Hari (boy's name)" },
+    "notes": "Vaste voorbeeldnaam uit het boek (§2.5, p.56): 'Hariyā lāl somth pahine hai'.",
+    "tags": ["noun", "proper-noun", "book-p56"]
+  },
+  {
+    "id": "noun-somth",
+    "word": "somth",
+    "translations": { "nl": "overhemd", "en": "shirt" },
+    "notes": "Uit het boek (§2.5, p.56): 'Hariyā lāl somth pahine hai' (Hari draagt een rood overhemd).",
+    "tags": ["noun", "book-p56"]
+  },
+  {
+    "id": "noun-sarnam",
+    "word": "Sarnām",
+    "translations": { "nl": "Suriname", "en": "Suriname" },
+    "notes": "Uit het boek (§2.13, p.59-61): 'Sarnām meṁ ī sab se dhanī adamī hai' (In Suriname is hij de rijkste man).",
+    "tags": ["noun", "proper-noun", "book-p59"]
+  },
+  {
+    "id": "noun-adami",
+    "word": "adamī",
+    "translations": { "nl": "man, mens", "en": "man, person" },
+    "notes": "Uit het boek (§2.13, p.59-61): 'sab se dhanī adamī' (de rijkste man).",
+    "tags": ["noun", "book-p59"]
+  },
+  {
+    "id": "noun-bakari",
+    "word": "bakarī",
+    "translations": { "nl": "geit", "en": "goat" },
+    "notes": "Uit het boek (§2.7.1, p.57): 'karikkanī bakariyā' (de zwarte geit) — bakariyā is de vrouwelijke/lange vorm.",
+    "tags": ["noun", "book-p57"]
   }
 ]
