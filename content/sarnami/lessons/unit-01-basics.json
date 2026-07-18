@@ -180,8 +180,8 @@
         "id": "ex-4-3",
         "word": "Ū kahāṁ hai?",
         "translations": { "nl": "Waar is hij/zij?" },
-        "vocabRefs": ["gram-kaham", "pron-u"],
-        "tokenVocabRefs": ["pron-u", "gram-kaham", null]
+        "vocabRefs": ["gram-kaham", "pron-u", "gram-hai"],
+        "tokenVocabRefs": ["pron-u", "gram-kaham", "gram-hai"]
       },
       {
         "id": "ex-4-4",
@@ -271,7 +271,7 @@
         "correctAnswer": "nā",
         "options": ["nā", "kahāṁ", "hai", "ham"],
         "translations": { "nl": "Mijn vader is niet thuis.", "en": "My father is not home." },
-        "tokenVocabRefs": [null, "noun-bappa", null, null, null]
+        "tokenVocabRefs": ["pron-hamar", "noun-bappa", null, "gram-hai", "adv-ghare"]
       }
     }
   }
