@@ -90,5 +90,18 @@
       "sarnamibhasa",
       "book-p50"
     ]
+  },
+  {
+    "id": "conj-aur",
+    "word": "aur",
+    "translations": {
+      "nl": "en",
+      "en": "and"
+    },
+    "notes": "Nevenschikkend voegwoord. Niet te verwarren met gram-aur-compare, dat 'aur' gebruikt bij de vergrotende trap.",
+    "tags": [
+      "conjunction",
+      "coordinating"
+    ]
   }
 ]

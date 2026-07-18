@@ -9,16 +9,19 @@
           "nl": "Dat is een ezel, dit is een ezelin."
         },
         "vocabRefs": [
+          "pron-u",
           "noun-gadaha",
+          "gram-hai",
+          "pron-i",
           "noun-gadahi"
         ],
         "tokenVocabRefs": [
-          null,
+          "pron-u",
           "noun-gadaha",
-          null,
-          null,
+          "gram-hai",
+          "pron-i",
           "noun-gadahi",
-          null
+          "gram-hai"
         ]
       },
       {
@@ -29,15 +32,19 @@
         },
         "vocabRefs": [
           "noun-nana",
-          "noun-nani"
+          "conj-aur",
+          "noun-nani",
+          "noun-ghar",
+          "post-mem",
+          "gram-ba"
         ],
         "tokenVocabRefs": [
           "noun-nana",
-          null,
+          "conj-aur",
           "noun-nani",
-          null,
-          null,
-          null
+          "noun-ghar",
+          "post-mem",
+          "gram-ba"
         ]
       },
       {
@@ -47,16 +54,19 @@
           "nl": "Dat is een jongen, dit is een meisje."
         },
         "vocabRefs": [
+          "pron-u",
           "noun-launda",
+          "gram-hai",
+          "pron-i",
           "noun-chaumri"
         ],
         "tokenVocabRefs": [
-          null,
+          "pron-u",
           "noun-launda",
-          null,
-          null,
+          "gram-hai",
+          "pron-i",
           "noun-chaumri",
-          null
+          "gram-hai"
         ]
       },
       {
@@ -66,16 +76,19 @@
           "nl": "Dat is een grootvader, dit is een grootmoeder."
         },
         "vocabRefs": [
+          "pron-u",
           "noun-nana",
+          "gram-hai",
+          "pron-i",
           "noun-nani"
         ],
         "tokenVocabRefs": [
-          null,
+          "pron-u",
           "noun-nana",
-          null,
-          null,
+          "gram-hai",
+          "pron-i",
           "noun-nani",
-          null
+          "gram-hai"
         ]
       }
     ],
@@ -319,7 +332,7 @@
       {
         "id": "gn-04-number-1",
         "title": "Korte en lange vorm (onbepaald / bepaald)",
-        "body": "Een zelfstandig naamwoord heeft meestal twee vormen: een korte vorm en een lange vorm. De korte vorm is onbepaald. Dat betekent 'een huis' in plaats van 'het huis'. Bijvoorbeeld: ghar betekent 'een huis'. De lange vorm is bepaald. Dat betekent 'het huis' in plaats van 'een huis'. Je maakt de lange vorm met de uitgang -vā, -iyā of -yā. Soms verandert daarbij ook de klank van het woord een beetje. Voorbeeld: ghar wordt gharvā ('het huis'). Nog een voorbeeld: ghoṛā wordt ghŏṛvā ('het paard'). En: nāk wordt nakiyā ('de neus'). En: beṭī wordt biṭiyā ('de dochter'). Zet je het woordje ī of ū voor de lange vorm, dan betekent het 'deze' of 'die': ū gharvā betekent 'dat huis'.",
+        "body": "Een zelfstandig naamwoord heeft meestal twee vormen: een korte vorm en een lange vorm. De korte vorm is onbepaald. Dat betekent 'een huis' in plaats van 'het huis'. Bijvoorbeeld: ghar betekent 'een huis'. De lange vorm is bepaald. Dat betekent 'het huis' in plaats van 'een huis'. Je maakt de lange vorm met de uitgang -vā, -iyā of -yā. Soms verandert daarbij ook de klank van het woord een beetje. Voorbeeld: ghar wordt gharvā ('het huis'). Nog een voorbeeld: ghoṛā wordt ghŏṛvā ('het paard'). En: nāk wordt nakiyā ('de neus'). En: beṭī wordt biṭiyā ('de dochter'). Als je ī of ū voor de lange vorm zet, betekent het 'deze' of 'die'. Ū gharvā betekent bijvoorbeeld 'dat huis'.",
         "relatedVocab": [
           "noun-ghora",
           "noun-nak",
@@ -329,7 +342,7 @@
       {
         "id": "gn-04-number-2",
         "title": "Meervoud met -(a)n",
-        "body": "Het meervoud wordt gevormd door de uitgang -(a)n achter het woord te plaatsen: ghoṛā → ghoṛan ('paarden'), ghŏṛvā → ghŏṛvan. De korte enkelvoudsvorm kan zelf ook als meervoud dienen; de context maakt dan duidelijk of het om één of meer gaat. Vergelijk Ghŏṛvā khāt bā ('het paard eet') met Ghŏṛvan khāt bāteṃ ('de paarden eten'): ook de werkwoordsvorm gaat mee in het meervoud.",
+        "body": "Je maakt het meervoud met de uitgang -(a)n achter het woord: ghoṛā → ghoṛan ('paarden'), ghŏṛvā → ghŏṛvan. De korte enkelvoudsvorm kan ook meervoud betekenen. Dan bepaalt de context of het om één ding gaat of om meer. Vergelijk Ghŏṛvā khāt bā ('het paard eet') met Ghŏṛvan khāt bāteṃ ('de paarden eten'): ook de werkwoordsvorm gaat mee in het meervoud.",
         "relatedVocab": [
           "noun-ghora",
           "noun-kutta"
