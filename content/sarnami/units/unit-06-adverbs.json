@@ -68,7 +68,15 @@
           "contentRef": "tp-e9"
         }
       ],
-      "xpReward": 10
+      "xpReward": 10,
+      "exampleSentenceRefs": [
+        "ex-tp-1",
+        "ex-tp-2",
+        "ex-tp-4",
+        "ex-tp-5",
+        "ex-tp-6",
+        "ex-tp-7"
+      ]
     },
     {
       "id": "unit-06-adverbs-manner-degree",
@@ -129,7 +137,17 @@
           "contentRef": "md-e9"
         }
       ],
-      "xpReward": 10
+      "xpReward": 10,
+      "exampleSentenceRefs": [
+        "ex-md-1",
+        "ex-md-2",
+        "ex-md-3",
+        "ex-md-5",
+        "ex-md-6",
+        "ex-md-8",
+        "ex-md-9",
+        "ex-md-10"
+      ]
     },
     {
       "id": "unit-06-adverbs-review",
