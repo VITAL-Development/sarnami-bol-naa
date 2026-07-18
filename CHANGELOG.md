@@ -19,6 +19,24 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Added
+
+- `settings/sarnami/scs-word-list.json`: generated SCS-plain-Latin →
+  canonical-diacritical word-level dictionary (`scripts/generate-scs-word-list.mjs`),
+  the dictionary-lookup pass called for by #244's combined input flow (first
+  pass, with the existing `transliteration-rules.json` digraph rule table as
+  fallback for anything not listed here). Mechanically derived from
+  `content/sarnami/vocab/*.json`'s `word` fields by reusing the existing,
+  native-speaker-sourced `toScs` mapping in `scripts/scs-transliterate.mjs`
+  (previously TTS-only) rather than a second stripping rule. Collisions
+  where more than one canonical spelling folds to the same SCS spelling are
+  marked `ambiguous: true` with every candidate listed, per the issue's "don't
+  silently guess" requirement — 2 found in the current vocab bank
+  (`mare`/`māre`, `nani`/`nānī`). Regenerate-and-diff checked in CI
+  (`validate-scs-word-list`) so it can't drift from the vocab it's derived
+  from, gated to only run when vocab or the generator itself changes. New
+  file, additive; no existing shape changed. (part of #244)
+
 ## [0.6.0] - 2026-07-18
 
 ### Changed

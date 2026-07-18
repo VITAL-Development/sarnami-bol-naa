@@ -1,0 +1,2537 @@
+{
+  "language": "sarnami",
+  "generated": true,
+  "generatedBy": "scripts/generate-scs-word-list.mjs",
+  "source": "content/sarnami/vocab/*.json (word tokens, mechanically transliterated to SCS via scripts/scs-transliterate.mjs)",
+  "notes": "Word-level SCS-plain-Latin -> canonical-diacritical dictionary for the first pass of sarnami-bol-naa#244's combined input flow (dictionary lookup first, settings/sarnami/transliteration-rules.json digraph rule table as fallback for anything not listed here). `ambiguous: true` means more than one canonical spelling collapses to the same SCS spelling (e.g. n/ṇ/ñ/ṅ/ṁ all fold to plain \"n\") — a consuming widget must surface these as an inline choice, never silently pick one, per the issue's step 3. `sourceIds` cites a content/sarnami/vocab id per canonical spelling for traceability, not a scoring signal. This file's coverage is bounded to today's vocab bank — new coinages/names fall through to the rule table until vocab grows.",
+  "stats": {
+    "totalEntries": 252,
+    "ambiguousEntries": 2
+  },
+  "entries": [
+    {
+      "scs": "accha",
+      "canonical": [
+        "acchā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "int-accha"
+      ]
+    },
+    {
+      "scs": "age",
+      "canonical": [
+        "āge"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "post-ke-age"
+      ]
+    },
+    {
+      "scs": "aina",
+      "canonical": [
+        "ainā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "sound-aina"
+      ]
+    },
+    {
+      "scs": "aj",
+      "canonical": [
+        "āj"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-aaj"
+      ]
+    },
+    {
+      "scs": "akkil",
+      "canonical": [
+        "akkil"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "read-akkil"
+      ]
+    },
+    {
+      "scs": "albat",
+      "canonical": [
+        "albat"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "int-albat"
+      ]
+    },
+    {
+      "scs": "am",
+      "canonical": [
+        "ām"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-am"
+      ]
+    },
+    {
+      "scs": "ap",
+      "canonical": [
+        "āp"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-ap"
+      ]
+    },
+    {
+      "scs": "apke",
+      "canonical": [
+        "āpke"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-apke"
+      ]
+    },
+    {
+      "scs": "ath",
+      "canonical": [
+        "āṭh"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "num-ath"
+      ]
+    },
+    {
+      "scs": "aur",
+      "canonical": [
+        "aur"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "gram-aur-compare"
+      ]
+    },
+    {
+      "scs": "aurat",
+      "canonical": [
+        "aurat"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "sound-aurat"
+      ]
+    },
+    {
+      "scs": "avadhi",
+      "canonical": [
+        "avadhī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "about-avadhi"
+      ]
+    },
+    {
+      "scs": "ave",
+      "canonical": [
+        "āve"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-ave"
+      ]
+    },
+    {
+      "scs": "aya",
+      "canonical": [
+        "ayā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "int-aya"
+      ]
+    },
+    {
+      "scs": "bacao",
+      "canonical": [
+        "bacāo"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "int-bacao"
+      ]
+    },
+    {
+      "scs": "bahar",
+      "canonical": [
+        "bāhar"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-baahar"
+      ]
+    },
+    {
+      "scs": "bahin",
+      "canonical": [
+        "bahin"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-bahin"
+      ]
+    },
+    {
+      "scs": "bahut",
+      "canonical": [
+        "bahut"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-bahut"
+      ]
+    },
+    {
+      "scs": "baithe",
+      "canonical": [
+        "baiṭhe"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-baithe"
+      ]
+    },
+    {
+      "scs": "bajar",
+      "canonical": [
+        "bajār"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-bajar"
+      ]
+    },
+    {
+      "scs": "bakari",
+      "canonical": [
+        "bakarī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "read-bakari"
+      ]
+    },
+    {
+      "scs": "baki",
+      "canonical": [
+        "baki"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "struct-maar"
+      ]
+    },
+    {
+      "scs": "bap",
+      "canonical": [
+        "bāp"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "read-bap"
+      ]
+    },
+    {
+      "scs": "bap-re-bap",
+      "canonical": [
+        "bāp-re-bāp"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "int-bap-re-bap"
+      ]
+    },
+    {
+      "scs": "bappa",
+      "canonical": [
+        "bappā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-bappa"
+      ]
+    },
+    {
+      "scs": "barhimya",
+      "canonical": [
+        "barhimyā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adj-barhimya"
+      ]
+    },
+    {
+      "scs": "barka",
+      "canonical": [
+        "barkā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adj-barka"
+      ]
+    },
+    {
+      "scs": "becain",
+      "canonical": [
+        "becain"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "wf-becain"
+      ]
+    },
+    {
+      "scs": "bekeur",
+      "canonical": [
+        "bekeur"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-bekeur"
+      ]
+    },
+    {
+      "scs": "bel",
+      "canonical": [
+        "bel"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-bel"
+      ]
+    },
+    {
+      "scs": "beledig",
+      "canonical": [
+        "beledig"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-beledig"
+      ]
+    },
+    {
+      "scs": "beta",
+      "canonical": [
+        "beṭā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "read-beta"
+      ]
+    },
+    {
+      "scs": "beti",
+      "canonical": [
+        "beṭī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-beti"
+      ]
+    },
+    {
+      "scs": "bhai",
+      "canonical": [
+        "bhāī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-bhai"
+      ]
+    },
+    {
+      "scs": "bhala",
+      "canonical": [
+        "bhalā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "int-bhala"
+      ]
+    },
+    {
+      "scs": "bhare",
+      "canonical": [
+        "bhare"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-butu"
+      ]
+    },
+    {
+      "scs": "bhasha",
+      "canonical": [
+        "bhāṣā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "sound-bhasa"
+      ]
+    },
+    {
+      "scs": "bhittar",
+      "canonical": [
+        "bhittar"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "post-ke-bhittar"
+      ]
+    },
+    {
+      "scs": "bhojpuri",
+      "canonical": [
+        "bhojpurī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "about-bhojpuri"
+      ]
+    },
+    {
+      "scs": "bhuja",
+      "canonical": [
+        "bhūjā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "read-bhuja"
+      ]
+    },
+    {
+      "scs": "bihan",
+      "canonical": [
+        "bihān"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-bihaan"
+      ]
+    },
+    {
+      "scs": "bilkul",
+      "canonical": [
+        "bilkul"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-bilkul"
+      ]
+    },
+    {
+      "scs": "bina",
+      "canonical": [
+        "binā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "post-ke-bina"
+      ]
+    },
+    {
+      "scs": "bol-na",
+      "canonical": [
+        "bol-nā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-bolna"
+      ]
+    },
+    {
+      "scs": "bole",
+      "canonical": [
+        "bole"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-bole"
+      ]
+    },
+    {
+      "scs": "boro",
+      "canonical": [
+        "boro"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-boro"
+      ]
+    },
+    {
+      "scs": "butu",
+      "canonical": [
+        "būṭū"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-butu"
+      ]
+    },
+    {
+      "scs": "cahe",
+      "canonical": [
+        "cāhe"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "conj-ookal"
+      ]
+    },
+    {
+      "scs": "cale",
+      "canonical": [
+        "cale"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-cale"
+      ]
+    },
+    {
+      "scs": "car",
+      "canonical": [
+        "cār"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "num-car"
+      ]
+    },
+    {
+      "scs": "chapkhana",
+      "canonical": [
+        "chapkhānā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "wf-chapkhana"
+      ]
+    },
+    {
+      "scs": "chau",
+      "canonical": [
+        "chau"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "num-chau"
+      ]
+    },
+    {
+      "scs": "chaumri",
+      "canonical": [
+        "chaumṛī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-chaumri"
+      ]
+    },
+    {
+      "scs": "chota",
+      "canonical": [
+        "choṭā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adj-chota"
+      ]
+    },
+    {
+      "scs": "churi",
+      "canonical": [
+        "chūrī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-churi"
+      ]
+    },
+    {
+      "scs": "citthi",
+      "canonical": [
+        "ciṭṭhi"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-citthi"
+      ]
+    },
+    {
+      "scs": "cor",
+      "canonical": [
+        "cor"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "sound-cor"
+      ]
+    },
+    {
+      "scs": "cor-cor",
+      "canonical": [
+        "cor-cor"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "int-cor-cor"
+      ]
+    },
+    {
+      "scs": "cup",
+      "canonical": [
+        "cup"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "int-cup"
+      ]
+    },
+    {
+      "scs": "dar",
+      "canonical": [
+        "ḍar"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "sound-dar"
+      ]
+    },
+    {
+      "scs": "das",
+      "canonical": [
+        "das"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "num-das"
+      ]
+    },
+    {
+      "scs": "dava-khana",
+      "canonical": [
+        "davā-khānā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "wf-davakhana"
+      ]
+    },
+    {
+      "scs": "dekhe",
+      "canonical": [
+        "dekhe"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-dekhe"
+      ]
+    },
+    {
+      "scs": "devanagari",
+      "canonical": [
+        "devanāgarī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "about-devanagari"
+      ]
+    },
+    {
+      "scs": "deve",
+      "canonical": [
+        "deve"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-deve"
+      ]
+    },
+    {
+      "scs": "dhan",
+      "canonical": [
+        "dhan"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "read-dhan"
+      ]
+    },
+    {
+      "scs": "dhanbad",
+      "canonical": [
+        "dhanbād"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "greet-dhanyavad"
+      ]
+    },
+    {
+      "scs": "dhire",
+      "canonical": [
+        "dhīre"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-dhire"
+      ]
+    },
+    {
+      "scs": "dhire-dhire",
+      "canonical": [
+        "dhīre-dhīre"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-dhire-dhire"
+      ]
+    },
+    {
+      "scs": "dhove",
+      "canonical": [
+        "dhove"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-dhove"
+      ]
+    },
+    {
+      "scs": "don",
+      "canonical": [
+        "don"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-don"
+      ]
+    },
+    {
+      "scs": "dui",
+      "canonical": [
+        "dūi"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "num-dui"
+      ]
+    },
+    {
+      "scs": "dukandar",
+      "canonical": [
+        "dukāndār"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "wf-dukandar"
+      ]
+    },
+    {
+      "scs": "dur",
+      "canonical": [
+        "dūr"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-dur"
+      ]
+    },
+    {
+      "scs": "ek",
+      "canonical": [
+        "ek"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "num-ek"
+      ]
+    },
+    {
+      "scs": "ekar",
+      "canonical": [
+        "ekar"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-ekar"
+      ]
+    },
+    {
+      "scs": "eke",
+      "canonical": [
+        "eke"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-eke"
+      ]
+    },
+    {
+      "scs": "gadaha",
+      "canonical": [
+        "gadahā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-gadaha"
+      ]
+    },
+    {
+      "scs": "gadahi",
+      "canonical": [
+        "gadahī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-gadahi"
+      ]
+    },
+    {
+      "scs": "gai",
+      "canonical": [
+        "gāī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-gai"
+      ]
+    },
+    {
+      "scs": "garib",
+      "canonical": [
+        "garīb"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "sound-garib"
+      ]
+    },
+    {
+      "scs": "ghar",
+      "canonical": [
+        "ghar"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-ghar"
+      ]
+    },
+    {
+      "scs": "ghare",
+      "canonical": [
+        "ghare"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-ghare"
+      ]
+    },
+    {
+      "scs": "ghari",
+      "canonical": [
+        "ghaṛī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-ghari"
+      ]
+    },
+    {
+      "scs": "ghora",
+      "canonical": [
+        "ghoṛā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-ghora"
+      ]
+    },
+    {
+      "scs": "ghumakkar",
+      "canonical": [
+        "ghumakkaṛ"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "wf-ghumakkar"
+      ]
+    },
+    {
+      "scs": "girmit",
+      "canonical": [
+        "girmiṭ"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "about-girmit"
+      ]
+    },
+    {
+      "scs": "habara",
+      "canonical": [
+        "habarā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-habara"
+      ]
+    },
+    {
+      "scs": "hai",
+      "canonical": [
+        "hai"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "gram-hai"
+      ]
+    },
+    {
+      "scs": "ham",
+      "canonical": [
+        "ham"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-ham"
+      ]
+    },
+    {
+      "scs": "hamar",
+      "canonical": [
+        "hamār"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-hamar"
+      ]
+    },
+    {
+      "scs": "hambog",
+      "canonical": [
+        "hambog"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-hambog"
+      ]
+    },
+    {
+      "scs": "han",
+      "canonical": [
+        "hāṁ"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "greet-ja"
+      ]
+    },
+    {
+      "scs": "hanse",
+      "canonical": [
+        "haṁse"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-hamse"
+      ]
+    },
+    {
+      "scs": "hardam",
+      "canonical": [
+        "hardam"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-hardam"
+      ]
+    },
+    {
+      "scs": "hay-hay",
+      "canonical": [
+        "hāy-hāy"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "int-hay-hay"
+      ]
+    },
+    {
+      "scs": "he",
+      "canonical": [
+        "he"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "int-he"
+      ]
+    },
+    {
+      "scs": "help",
+      "canonical": [
+        "help"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-help"
+      ]
+    },
+    {
+      "scs": "hindustani",
+      "canonical": [
+        "hindustani"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "about-hindustani"
+      ]
+    },
+    {
+      "scs": "ho",
+      "canonical": [
+        "ho"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "int-ho"
+      ]
+    },
+    {
+      "scs": "i",
+      "canonical": [
+        "ī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-i"
+      ]
+    },
+    {
+      "scs": "imandar",
+      "canonical": [
+        "imāndār"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "wf-imandar"
+      ]
+    },
+    {
+      "scs": "inhan",
+      "canonical": [
+        "inhan"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-inhan"
+      ]
+    },
+    {
+      "scs": "insan",
+      "canonical": [
+        "insān"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "sound-insan"
+      ]
+    },
+    {
+      "scs": "ja",
+      "canonical": [
+        "jā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "greet-moi-jahe"
+      ]
+    },
+    {
+      "scs": "jab",
+      "canonical": [
+        "jab"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "conj-zolang"
+      ]
+    },
+    {
+      "scs": "jada",
+      "canonical": [
+        "jādā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "gram-jada"
+      ]
+    },
+    {
+      "scs": "jadugar",
+      "canonical": [
+        "jādūgar"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "wf-jadugar"
+      ]
+    },
+    {
+      "scs": "jai",
+      "canonical": [
+        "jāī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-jai"
+      ]
+    },
+    {
+      "scs": "jangal",
+      "canonical": [
+        "jangal"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "read-jangal"
+      ]
+    },
+    {
+      "scs": "jaun",
+      "canonical": [
+        "jaun"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-jaun"
+      ]
+    },
+    {
+      "scs": "jaune",
+      "canonical": [
+        "jaune"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "conj-zodat"
+      ]
+    },
+    {
+      "scs": "je",
+      "canonical": [
+        "je"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-je"
+      ]
+    },
+    {
+      "scs": "jekar",
+      "canonical": [
+        "jekar"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-jekar"
+      ]
+    },
+    {
+      "scs": "jhanda",
+      "canonical": [
+        "jhaṇḍā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "sound-jhanda"
+      ]
+    },
+    {
+      "scs": "jo",
+      "canonical": [
+        "jo"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "struct-als"
+      ]
+    },
+    {
+      "scs": "ka",
+      "canonical": [
+        "kā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "conj-zowel-als"
+      ]
+    },
+    {
+      "scs": "kabhi",
+      "canonical": [
+        "kabhī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "struct-nooit"
+      ]
+    },
+    {
+      "scs": "kahan",
+      "canonical": [
+        "kahāṁ"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "gram-kaham"
+      ]
+    },
+    {
+      "scs": "kahe",
+      "canonical": [
+        "kāhe"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "struct-omdat"
+      ]
+    },
+    {
+      "scs": "kaiman",
+      "canonical": [
+        "kaiman"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "read-kaiman"
+      ]
+    },
+    {
+      "scs": "kainci",
+      "canonical": [
+        "kaiñcī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "sound-kainci"
+      ]
+    },
+    {
+      "scs": "kaise",
+      "canonical": [
+        "kaise"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "gram-kaise"
+      ]
+    },
+    {
+      "scs": "kal",
+      "canonical": [
+        "kāl"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-kaal"
+      ]
+    },
+    {
+      "scs": "kam",
+      "canonical": [
+        "kām"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-kam"
+      ]
+    },
+    {
+      "scs": "kanti",
+      "canonical": [
+        "kantī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-kanti"
+      ]
+    },
+    {
+      "scs": "kare",
+      "canonical": [
+        "kare"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-bel"
+      ]
+    },
+    {
+      "scs": "karigar",
+      "canonical": [
+        "kārīgar"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "wf-karigar"
+      ]
+    },
+    {
+      "scs": "karikka",
+      "canonical": [
+        "karikkā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adj-karikka"
+      ]
+    },
+    {
+      "scs": "kate",
+      "canonical": [
+        "kāṭe"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-kate"
+      ]
+    },
+    {
+      "scs": "kaun",
+      "canonical": [
+        "kaun"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-kaun"
+      ]
+    },
+    {
+      "scs": "kaunci",
+      "canonical": [
+        "kaunci"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-kaunci"
+      ]
+    },
+    {
+      "scs": "ke",
+      "canonical": [
+        "ke"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "post-ke"
+      ]
+    },
+    {
+      "scs": "kekar",
+      "canonical": [
+        "kekar"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-kekar"
+      ]
+    },
+    {
+      "scs": "khai",
+      "canonical": [
+        "khāī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-khai"
+      ]
+    },
+    {
+      "scs": "khele",
+      "canonical": [
+        "khele"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-khele"
+      ]
+    },
+    {
+      "scs": "khet",
+      "canonical": [
+        "khet"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "sound-khet"
+      ]
+    },
+    {
+      "scs": "khoje",
+      "canonical": [
+        "khoje"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-khoje"
+      ]
+    },
+    {
+      "scs": "ki",
+      "canonical": [
+        "ki"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "struct-dat"
+      ]
+    },
+    {
+      "scs": "kine",
+      "canonical": [
+        "kīne"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-kine"
+      ]
+    },
+    {
+      "scs": "klop",
+      "canonical": [
+        "klop"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-klop"
+      ]
+    },
+    {
+      "scs": "kutta",
+      "canonical": [
+        "kuttā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-kutta"
+      ]
+    },
+    {
+      "scs": "lagbhag",
+      "canonical": [
+        "lagbhag"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "struct-ongeveer"
+      ]
+    },
+    {
+      "scs": "lage",
+      "canonical": [
+        "lage"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "post-ke-lage"
+      ]
+    },
+    {
+      "scs": "lal",
+      "canonical": [
+        "lāl"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adj-lal"
+      ]
+    },
+    {
+      "scs": "lalla",
+      "canonical": [
+        "lalla"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "about-lalla-rookh"
+      ]
+    },
+    {
+      "scs": "lamma",
+      "canonical": [
+        "lammā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adj-lamma"
+      ]
+    },
+    {
+      "scs": "lanka",
+      "canonical": [
+        "laṅkā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "sound-lanka"
+      ]
+    },
+    {
+      "scs": "larka",
+      "canonical": [
+        "laṛkā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "sound-larka"
+      ]
+    },
+    {
+      "scs": "las",
+      "canonical": [
+        "lās"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-las"
+      ]
+    },
+    {
+      "scs": "launda",
+      "canonical": [
+        "laundā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-launda"
+      ]
+    },
+    {
+      "scs": "lave",
+      "canonical": [
+        "lāve"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-lave"
+      ]
+    },
+    {
+      "scs": "lesiyai",
+      "canonical": [
+        "lĕsiyāī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-lesiyai"
+      ]
+    },
+    {
+      "scs": "leve",
+      "canonical": [
+        "leve"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-leve"
+      ]
+    },
+    {
+      "scs": "likhe",
+      "canonical": [
+        "likhe"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-likhe"
+      ]
+    },
+    {
+      "scs": "log",
+      "canonical": [
+        "log"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-hamlog"
+      ]
+    },
+    {
+      "scs": "lohar",
+      "canonical": [
+        "lŏhār"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "wf-lohar"
+      ]
+    },
+    {
+      "scs": "luru",
+      "canonical": [
+        "lūrū"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-luru"
+      ]
+    },
+    {
+      "scs": "machari-vala",
+      "canonical": [
+        "macharī-vālā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "wf-macharivala"
+      ]
+    },
+    {
+      "scs": "mai-bap",
+      "canonical": [
+        "māī-bāp"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-maibap"
+      ]
+    },
+    {
+      "scs": "maiya",
+      "canonical": [
+        "maiyā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-maiya"
+      ]
+    },
+    {
+      "scs": "mare",
+      "canonical": [
+        "mare",
+        "māre"
+      ],
+      "ambiguous": true,
+      "sourceIds": [
+        "verb-mare-hit",
+        "verb-mare-die"
+      ]
+    },
+    {
+      "scs": "men",
+      "canonical": [
+        "meṁ"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "post-mem"
+      ]
+    },
+    {
+      "scs": "mitha",
+      "canonical": [
+        "mīṭhā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adj-mitha"
+      ]
+    },
+    {
+      "scs": "moi",
+      "canonical": [
+        "moi"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "greet-moi-jahe"
+      ]
+    },
+    {
+      "scs": "mooi",
+      "canonical": [
+        "mooi"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-mooi"
+      ]
+    },
+    {
+      "scs": "morsu",
+      "canonical": [
+        "morsū"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-morsu"
+      ]
+    },
+    {
+      "scs": "na",
+      "canonical": [
+        "nā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "conj-noch-noch"
+      ]
+    },
+    {
+      "scs": "na-layak",
+      "canonical": [
+        "nā-lāyak"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "wf-nalayak"
+      ]
+    },
+    {
+      "scs": "nace",
+      "canonical": [
+        "nāce"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-nace"
+      ]
+    },
+    {
+      "scs": "nagicce",
+      "canonical": [
+        "nagicce"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-nagicce"
+      ]
+    },
+    {
+      "scs": "nahin",
+      "canonical": [
+        "nahīṁ"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "struct-anders"
+      ]
+    },
+    {
+      "scs": "nak",
+      "canonical": [
+        "nāk"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-nak"
+      ]
+    },
+    {
+      "scs": "nana",
+      "canonical": [
+        "nānā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-nana"
+      ]
+    },
+    {
+      "scs": "nani",
+      "canonical": [
+        "nanī",
+        "nānī"
+      ],
+      "ambiguous": true,
+      "sourceIds": [
+        "noun-nani",
+        "read-nani"
+      ]
+    },
+    {
+      "scs": "nati",
+      "canonical": [
+        "nātī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "read-nati"
+      ]
+    },
+    {
+      "scs": "nau",
+      "canonical": [
+        "nau"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "num-nau"
+      ]
+    },
+    {
+      "scs": "naukar",
+      "canonical": [
+        "naukar"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "read-naukar"
+      ]
+    },
+    {
+      "scs": "nicce",
+      "canonical": [
+        "nicce"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-nicce"
+      ]
+    },
+    {
+      "scs": "oho",
+      "canonical": [
+        "oho"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "int-oho"
+      ]
+    },
+    {
+      "scs": "okar",
+      "canonical": [
+        "okar"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-okar"
+      ]
+    },
+    {
+      "scs": "oke",
+      "canonical": [
+        "oke"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-oke"
+      ]
+    },
+    {
+      "scs": "pahile",
+      "canonical": [
+        "pahile"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "struct-eerst"
+      ]
+    },
+    {
+      "scs": "pahine",
+      "canonical": [
+        "pahine"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-pahine"
+      ]
+    },
+    {
+      "scs": "paṃc",
+      "canonical": [
+        "pāṃc"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "num-panc"
+      ]
+    },
+    {
+      "scs": "pap",
+      "canonical": [
+        "pāp"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "read-pap"
+      ]
+    },
+    {
+      "scs": "par",
+      "canonical": [
+        "par"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "post-par"
+      ]
+    },
+    {
+      "scs": "parhai",
+      "canonical": [
+        "paṛhāī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "wf-parhai"
+      ]
+    },
+    {
+      "scs": "parhe",
+      "canonical": [
+        "paṛhe"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-parhe"
+      ]
+    },
+    {
+      "scs": "parsis",
+      "canonical": [
+        "parsīs"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-parsis"
+      ]
+    },
+    {
+      "scs": "patar",
+      "canonical": [
+        "pātar"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adj-patar"
+      ]
+    },
+    {
+      "scs": "per",
+      "canonical": [
+        "peṛ"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-per"
+      ]
+    },
+    {
+      "scs": "pharyam",
+      "canonical": [
+        "pharyam"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-pharyam"
+      ]
+    },
+    {
+      "scs": "phir",
+      "canonical": [
+        "phir"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "struct-weer"
+      ]
+    },
+    {
+      "scs": "phul",
+      "canonical": [
+        "phul"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "sound-phul"
+      ]
+    },
+    {
+      "scs": "piche",
+      "canonical": [
+        "piche"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "post-ke-piche"
+      ]
+    },
+    {
+      "scs": "piyakkar",
+      "canonical": [
+        "piyakkaṛ"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "wf-piyakkar"
+      ]
+    },
+    {
+      "scs": "piye",
+      "canonical": [
+        "pīye"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-piye"
+      ]
+    },
+    {
+      "scs": "pranam",
+      "canonical": [
+        "pranām"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "greet-pranam"
+      ]
+    },
+    {
+      "scs": "puche",
+      "canonical": [
+        "pūche"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-puche"
+      ]
+    },
+    {
+      "scs": "ram",
+      "canonical": [
+        "rām"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "greet-ram-ram"
+      ]
+    },
+    {
+      "scs": "riwors",
+      "canonical": [
+        "riwŏrs"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-riwors"
+      ]
+    },
+    {
+      "scs": "roj",
+      "canonical": [
+        "roj"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-roj"
+      ]
+    },
+    {
+      "scs": "rookh",
+      "canonical": [
+        "rookh"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "about-lalla-rookh"
+      ]
+    },
+    {
+      "scs": "roti",
+      "canonical": [
+        "roṭī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "sound-roti"
+      ]
+    },
+    {
+      "scs": "rove",
+      "canonical": [
+        "rove"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-rove"
+      ]
+    },
+    {
+      "scs": "sab",
+      "canonical": [
+        "sab"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "gram-sabse"
+      ]
+    },
+    {
+      "scs": "sabas",
+      "canonical": [
+        "sābās"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "int-sabas"
+      ]
+    },
+    {
+      "scs": "sacce",
+      "canonical": [
+        "sacce"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-sacce"
+      ]
+    },
+    {
+      "scs": "safai",
+      "canonical": [
+        "safāī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "wf-safai"
+      ]
+    },
+    {
+      "scs": "sait",
+      "canonical": [
+        "sait"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-sait"
+      ]
+    },
+    {
+      "scs": "samjhe",
+      "canonical": [
+        "samjhe"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-samjhe"
+      ]
+    },
+    {
+      "scs": "sarnam",
+      "canonical": [
+        "sarnām"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "about-sarnam"
+      ]
+    },
+    {
+      "scs": "sarnami",
+      "canonical": [
+        "sarnāmī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "about-sarnami"
+      ]
+    },
+    {
+      "scs": "sat",
+      "canonical": [
+        "sāt"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "num-sat"
+      ]
+    },
+    {
+      "scs": "sath",
+      "canonical": [
+        "sāth"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "post-ke-sath"
+      ]
+    },
+    {
+      "scs": "sau",
+      "canonical": [
+        "sau"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "num-sau"
+      ]
+    },
+    {
+      "scs": "sauda",
+      "canonical": [
+        "saudā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-sauda"
+      ]
+    },
+    {
+      "scs": "se",
+      "canonical": [
+        "se"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-thora-se"
+      ]
+    },
+    {
+      "scs": "setiyave",
+      "canonical": [
+        "sĕtiyāve"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-setiyave"
+      ]
+    },
+    {
+      "scs": "shanti",
+      "canonical": [
+        "śānti"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "sound-shanti"
+      ]
+    },
+    {
+      "scs": "sikhe",
+      "canonical": [
+        "sikhe"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-sikhe"
+      ]
+    },
+    {
+      "scs": "siyar",
+      "canonical": [
+        "siyar"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "read-siyar"
+      ]
+    },
+    {
+      "scs": "siye",
+      "canonical": [
+        "sīye"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-siye"
+      ]
+    },
+    {
+      "scs": "sojha",
+      "canonical": [
+        "sojhā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adj-sojha"
+      ]
+    },
+    {
+      "scs": "sonar",
+      "canonical": [
+        "sŏnār"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "wf-sonar"
+      ]
+    },
+    {
+      "scs": "sune",
+      "canonical": [
+        "sune"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-sune"
+      ]
+    },
+    {
+      "scs": "sunna",
+      "canonical": [
+        "sunnā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "num-sunna"
+      ]
+    },
+    {
+      "scs": "sute",
+      "canonical": [
+        "sūte"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-sute"
+      ]
+    },
+    {
+      "scs": "tab",
+      "canonical": [
+        "tab"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "struct-dan"
+      ]
+    },
+    {
+      "scs": "tabbo",
+      "canonical": [
+        "tabbo"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "struct-toch"
+      ]
+    },
+    {
+      "scs": "tagat",
+      "canonical": [
+        "tagat"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "read-tagat"
+      ]
+    },
+    {
+      "scs": "talak",
+      "canonical": [
+        "talak"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "conj-zolang"
+      ]
+    },
+    {
+      "scs": "thora",
+      "canonical": [
+        "thorā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-thora-se"
+      ]
+    },
+    {
+      "scs": "tin",
+      "canonical": [
+        "tīn"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "num-tin"
+      ]
+    },
+    {
+      "scs": "to",
+      "canonical": [
+        "to"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "conj-ofwel"
+      ]
+    },
+    {
+      "scs": "tonhar",
+      "canonical": [
+        "tŏṁhār"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-tomhar"
+      ]
+    },
+    {
+      "scs": "topi-vala",
+      "canonical": [
+        "ṭopī-vālā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "wf-topivala"
+      ]
+    },
+    {
+      "scs": "tor",
+      "canonical": [
+        "tor"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-tor"
+      ]
+    },
+    {
+      "scs": "triki",
+      "canonical": [
+        "trīkī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-triki"
+      ]
+    },
+    {
+      "scs": "tu",
+      "canonical": [
+        "tū"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-tu"
+      ]
+    },
+    {
+      "scs": "u",
+      "canonical": [
+        "ū"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-u"
+      ]
+    },
+    {
+      "scs": "uitleg",
+      "canonical": [
+        "uitleg"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-uitleg"
+      ]
+    },
+    {
+      "scs": "ulta",
+      "canonical": [
+        "ultā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "sound-ulta"
+      ]
+    },
+    {
+      "scs": "unhan",
+      "canonical": [
+        "unhan"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "pron-unhan"
+      ]
+    },
+    {
+      "scs": "uppar",
+      "canonical": [
+        "uppar"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "adv-uppar"
+      ]
+    },
+    {
+      "scs": "uthe",
+      "canonical": [
+        "uṭhe"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-uthe"
+      ]
+    },
+    {
+      "scs": "vah-vah",
+      "canonical": [
+        "vāh-vāh"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "int-vah-vah"
+      ]
+    },
+    {
+      "scs": "wachti",
+      "canonical": [
+        "wachti"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-wachti"
+      ]
+    },
+    {
+      "scs": "ya",
+      "canonical": [
+        "yā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "conj-ofwel"
+      ]
+    },
+    {
+      "scs": "yuru",
+      "canonical": [
+        "yūrū"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "loan-yuru"
+      ]
+    }
+  ]
+}
