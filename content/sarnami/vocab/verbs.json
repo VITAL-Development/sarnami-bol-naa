@@ -208,5 +208,25 @@
     "translations": { "nl": "vragen", "en": "to ask" },
     "notes": "Stam: pūch-. Nadrukvorm met -hi: puchahi (helemaal vragen).",
     "tags": ["verb", "book-p65", "needs-verification"]
+  },
+  {
+    "id": "verb-bolna",
+    "word": "bol-nā",
+    "translations": { "nl": "spreken", "en": "to speak" },
+    "notes": "Dit is de vorm op '-nā', zoals in 'bol-nā sikhe hai' (leert spreken). 'Bole' (verb-bole) is de andere vorm van hetzelfde werkwoord.",
+    "tags": ["verb"]
+  },
+  {
+    "id": "verb-sikhe",
+    "word": "sikhe",
+    "translations": { "nl": "leren", "en": "to learn" },
+    "tags": ["verb"]
+  },
+  {
+    "id": "verb-lave",
+    "word": "lāve",
+    "translations": { "nl": "halen", "en": "to fetch, to bring" },
+    "notes": "Lijkt op 'āve' (verb-ave, komen), maar 'lāve' betekent 'halen' (iets meebrengen).",
+    "tags": ["verb"]
   }
 ]

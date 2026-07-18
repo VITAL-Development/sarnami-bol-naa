@@ -288,5 +288,23 @@
       "book-p28",
       "needs-verification"
     ]
+  },
+  {
+    "id": "noun-kam",
+    "word": "kām",
+    "translations": { "nl": "werk", "en": "work" },
+    "tags": ["noun"]
+  },
+  {
+    "id": "noun-bajar",
+    "word": "bajār",
+    "translations": { "nl": "markt", "en": "market" },
+    "tags": ["noun"]
+  },
+  {
+    "id": "noun-sauda",
+    "word": "saudā",
+    "translations": { "nl": "boodschappen", "en": "groceries, shopping" },
+    "tags": ["noun"]
   }
 ]

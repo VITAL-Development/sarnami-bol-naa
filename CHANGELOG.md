@@ -19,6 +19,24 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Added
+
+- `content/sarnami/lessons/unit-01-basics.json`: authored `tokenVocabRefs`
+  (per-word vocab-id mapping, api-contract.md §"Optional per-word
+  translation refs", issue #67) on every example sentence and fill-blank
+  exercise, powering a per-word translation tooltip in the learner-facing
+  app (issue #229). Additive — other lessons don't have it yet and can pick
+  it up incrementally per the same pattern.
+- New vocab entries needed to give every token in `unit-01-basics.json` a
+  full tooltip mapping (native-speaker-reviewed glosses):
+  `verb-bolna` (bol-nā), `verb-sikhe` (sikhe), `verb-lave` (lāve) in
+  `vocab/verbs.json`; `gram-hai-aux` (hai as an auxiliary, distinct from
+  the copula `gram-hai`) and `gram-kaise` (kaise) in `vocab/grammar.json`;
+  `noun-kam` (kām), `noun-bajar` (bajār), `noun-sauda` (saudā) in
+  `vocab/nouns.json`; `post-se-locative` (se, locative sense, distinct from
+  `post-se`/`gram-se`) in `vocab/postpositions.json`; `adv-ghare` (ghare)
+  in `vocab/adverbs.json`.
+
 ## [0.5.0] - 2026-07-15
 
 ### Changed
