@@ -47,7 +47,7 @@ and a second 1sg with different verbs.
       verify: PASS — "tū ... -le" matches the §9.7.2 table row for tū exactly. ghar matches
         noun-ghar's `word`.
 
-- [ ] id: ex-past-5
+- [x] id: ex-past-5
       sarnami: Ham kuttā sunlī.
       nl: Ik hoorde de hond.
       vocabRefs: verb-sune, noun-kutta
