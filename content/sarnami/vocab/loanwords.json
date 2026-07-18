@@ -12,7 +12,7 @@
       "book-p70",
       "needs-verification"
     ],
-    "notes": "Nederlands leenwoord. De Nederlandse werkwoordstam 'bel' wordt met het hulpwerkwoord kare (doen, actief) of hove (worden, passief) tot een Sarnami-werkwoord gemaakt: bel kare = opbellen, bel hove = opgebeld worden."
+    "notes": "Nederlands leenwoord. Stam 'bel' + kare/hove: bel kare = opbellen, bel hove = opgebeld worden."
   },
   {
     "id": "loan-klop",
@@ -117,7 +117,7 @@
       "book-p70",
       "needs-verification"
     ],
-    "notes": "Nederlands leenwoord. Hier is de basis een bijvoeglijk naamwoord ('mooi') + kare/hove: mooi kare = mooi maken, mooi hove = mooi worden."
+    "notes": "Nederlands leenwoord. Stam 'mooi' + kare/hove: mooi kare = mooi maken, mooi hove = mooi worden."
   },
   {
     "id": "loan-luru",
@@ -147,7 +147,7 @@
       "book-p69",
       "needs-verification"
     ],
-    "notes": "Volledig ingeburgerde ontlening: būṭū (uit Ned. 'boete' via het Sranantongo 'butu') + bhare (betalen/vullen) = een boete betalen."
+    "notes": "Oud leenwoord, al lang gewoon in het Sarnami. būṭū (van Ned. 'boete', via Sranantongo 'butu') + bhare (betalen/vullen) = een boete betalen."
   },
   {
     "id": "loan-don",
@@ -297,7 +297,7 @@
       "book-p69",
       "needs-verification"
     ],
-    "notes": "Volledig ingeburgerde nieuwvorming: van het Eng. 'lazy' via het Sranantongo 'lesi'. Volledig aangepast aan de Sarnami-werkwoordstructuur (geen kare/hove meer nodig)."
+    "notes": "Dit woord komt van het Engelse 'lazy', via het Sranantongo 'lesi'. Het is nu een gewoon Sarnami-werkwoord. Je hebt kare of hove niet meer nodig."
   },
   {
     "id": "loan-setiyave",
@@ -313,6 +313,6 @@
       "book-p69",
       "needs-verification"
     ],
-    "notes": "Volledig ingeburgerde nieuwvorming: van het Eng. 'to set' via het Sranantongo 'seti'. Volledig aangepast aan de Sarnami-werkwoordstructuur."
+    "notes": "Dit woord komt van het Engelse 'to set', via het Sranantongo 'seti'. Het is nu een gewoon Sarnami-werkwoord."
   }
 ]
