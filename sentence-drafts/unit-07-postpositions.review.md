@@ -80,6 +80,36 @@ plus one attempt at a bare noun-genitive use of *ke* that verification could not
         scene, not a strained one). Not a near-duplicate of ex-p1-6 — different postposition
         (opposite of "ke uppar"), different subject/object pair.
 
+- [x] id: ex-p1-8
+      sarnami: Apane bāp se ī batiyā bol diye.
+      nl: Je moet dit aan je vader vertellen.
+      en: You must tell this to your father.
+      vocabRefs: post-se
+      rule: primary postposition "se" (§6.2 table row: "se — met, door, aan, uit"), the book's own
+        §6.4 worked example 2 (printed p.88) quoted verbatim, demonstrating the "aan" (to) sense of
+        se — same convention already used by ex-p2-3, which is itself a verbatim quote of the
+        adjacent §6.4 worked example 1.
+      verify: PASS — "se" matches the primary-postposition table row exactly and the sentence is
+        the book's own worked example, quoted verbatim rather than adapted (same low-risk approach
+        already accepted for ex-p2-3). Not a near-duplicate of ex-p2-3 — different §6.4 example,
+        different sense of the achterzetsel involved. post-se was unused by all 9 existing
+        candidates in this unit; this is the first sentence to exercise it.
+
+- [x] id: ex-p1-9
+      sarnami: Ām ghar ke bhittar hai.
+      nl: De mango is binnen in het huis.
+      en: The mango is inside the house.
+      vocabRefs: post-ke-bhittar, noun-am, noun-ghar
+      rule: reuses the book-table-attested compound "ke bhittar" (§6.2 table row: "ke bhittar —
+        binnen, in"), already used with a different subject/verb in ex-p1-2 ("Ham ghar ke bhittar
+        bāṭī"); this generalizes to a new noun+postposition pairing (ām + ke bhittar) not yet
+        exercised, using the same "Subject + Noun+ke+X + hai" pattern as ex-p1-3/ex-p1-4/ex-p1-6/
+        ex-p1-7.
+      verify: PASS — "ke bhittar" matches the §6.2 table row exactly (book-p87). ām/ghar match
+        noun-am/noun-ghar's `word` fields exactly. Plausible scene (fruit kept inside the house).
+        Not a near-duplicate of ex-p1-2 — different subject (ām vs ham) and different verb (hai,
+        matching this lesson's other locative-hai sentences, vs ex-p1-2's bāṭī).
+
 ## lesson: unit-07-postpositions-attachment  (grammar point: ke-compounds with pronouns and the ke-drop rule, §6.3)
 
 Existing `exampleSentences` cover *ke binā* with *tor* (`ex-p2-1`) and *ke sāth* with *tor*
@@ -169,3 +199,19 @@ newVocab compounds (*ke lage*, *ke āge*, *ke piche*) via the §6.2 table.
         carries no needs-verification tag, so this is the most confidently sourced of the three
         ke-lage/ke-āge/ke-piche compounds. kuttā/ghar match their vocab `word` fields. Completes
         the front/near/behind spatial contrast set with ex-p2-7 and ex-p2-8.
+
+- [x] id: ex-p2-10
+      sarnami: Ham okar sāth jāb.
+      nl: Ik ga samen met hem/haar (verder weg).
+      en: I will go together with him/her (further away).
+      vocabRefs: post-ke-sath, pron-okar, pron-ham
+      rule: generalizes the §6.3 ke-drop rule to "ke sāth" with the far-demonstrative 3sg
+        possessive pronoun "okar" (§6.3 table row "okar binā — zonder hem, -haar", pronoun form
+        generalized to sāth per this unit's own `gn-post-5` note), completing the near/far pair
+        started by ex-p2-6 (ekar) — the same deliberate near/far contrast already used for
+        ex-p2-4/ex-p2-5 with binā.
+      verify: PASS — "okar" matches pron-okar's `word` and the §6.3 table row exactly, same
+        ke-drop reasoning as ex-p2-4/ex-p2-5/ex-p2-6. Frame and verb ("jāb") identical to the
+        already-attested ex-p2-2/ex-p2-6, so no new form is invented. Not a near-duplicate of
+        ex-p2-6 — completes the ekar/okar near/far contrast for "ke sāth" that ex-p2-6 alone left
+        half-done, mirroring the pattern already used for "ke binā".
