@@ -6,13 +6,15 @@
         "id": "ex-1-1",
         "word": "Rām Rām, kaise hai?",
         "translations": { "nl": "Hallo, hoe gaat het?" },
-        "vocabRefs": ["greet-ram-ram", "greet-kaise-hai"]
+        "vocabRefs": ["greet-ram-ram", "greet-kaise-hai"],
+        "tokenVocabRefs": ["greet-ram-ram", "greet-ram-ram", "greet-kaise-hai", "greet-kaise-hai"]
       },
       {
         "id": "ex-1-2",
         "word": "Moi jā hai, dhanbād.",
         "translations": { "nl": "Het gaat goed, bedankt." },
-        "vocabRefs": ["greet-moi-jahe", "greet-dhanyavad"]
+        "vocabRefs": ["greet-moi-jahe", "greet-dhanyavad"],
+        "tokenVocabRefs": ["greet-moi-jahe", "greet-moi-jahe", "greet-moi-jahe", "greet-dhanyavad"]
       }
     ],
     "grammarNotes": [],
@@ -41,7 +43,8 @@
         "sentenceTemplate": "Moi ___ hai.",
         "correctAnswer": "jā",
         "options": ["jā", "kaise", "Rām", "dhanbād"],
-        "translations": { "nl": "Het gaat goed.", "en": "It's going well." }
+        "translations": { "nl": "Het gaat goed.", "en": "It's going well." },
+        "tokenVocabRefs": ["greet-moi-jahe", null, "greet-moi-jahe"]
       }
     }
   },
@@ -52,13 +55,15 @@
         "id": "ex-2-1",
         "word": "Ham Sarnāmi bol-nā sikhe hai.",
         "translations": { "nl": "Ik leer Sarnami spreken." },
-        "vocabRefs": ["pron-ham"]
+        "vocabRefs": ["pron-ham"],
+        "tokenVocabRefs": ["pron-ham", null, null, null, null]
       },
       {
         "id": "ex-2-2",
         "word": "Tū kaise hai?",
         "translations": { "nl": "Hoe gaat het met jou?" },
-        "vocabRefs": ["pron-tu"]
+        "vocabRefs": ["pron-tu"],
+        "tokenVocabRefs": ["pron-tu", null, null]
       }
     ],
     "grammarNotes": [],
@@ -91,7 +96,8 @@
         "sentenceTemplate": "___ Sarnāmi bol-nā sikhe hai.",
         "correctAnswer": "Ham",
         "options": ["Ham", "Tū", "Āp", "Ū"],
-        "translations": { "nl": "Ik leer Sarnami spreken.", "en": "I am learning to speak Sarnami." }
+        "translations": { "nl": "Ik leer Sarnami spreken.", "en": "I am learning to speak Sarnami." },
+        "tokenVocabRefs": [null, null, null, null, null]
       }
     }
   },
@@ -102,19 +108,22 @@
         "id": "ex-3-1",
         "word": "Ī hamar ghar hai.",
         "translations": { "nl": "Dit is mijn huis." },
-        "vocabRefs": ["noun-ghar"]
+        "vocabRefs": ["noun-ghar"],
+        "tokenVocabRefs": [null, null, "noun-ghar", null]
       },
       {
         "id": "ex-3-2",
         "word": "Bappā kām kare hai.",
         "translations": { "nl": "Vader werkt." },
-        "vocabRefs": ["noun-bappa"]
+        "vocabRefs": ["noun-bappa"],
+        "tokenVocabRefs": ["noun-bappa", null, null, null]
       },
       {
         "id": "ex-3-3",
         "word": "Maiyā bajār se saudā kin lāve hai.",
         "translations": { "nl": "Moeder haalt boodschappen van de markt." },
-        "vocabRefs": ["noun-maiya"]
+        "vocabRefs": ["noun-maiya"],
+        "tokenVocabRefs": ["noun-maiya", null, null, null, null, null, null]
       }
     ],
     "grammarNotes": [],
@@ -157,25 +166,29 @@
         "id": "ex-4-1",
         "word": "Ham hai. Tū hai. Ī/ū hai.",
         "translations": { "nl": "Ik ben. Jij bent. Hij/zij is." },
-        "vocabRefs": ["gram-hai", "pron-ham", "pron-tu", "pron-u"]
+        "vocabRefs": ["gram-hai", "pron-ham", "pron-tu", "pron-u"],
+        "tokenVocabRefs": ["pron-ham", "gram-hai", "pron-tu", "gram-hai", "pron-u", "gram-hai"]
       },
       {
         "id": "ex-4-2",
         "word": "Ham log haiṁ. Tū log hai. Āp ho.",
         "translations": { "nl": "Wij zijn. Jullie zijn. U bent." },
-        "vocabRefs": ["gram-hai", "pron-hamlog", "pron-ap"]
+        "vocabRefs": ["gram-hai", "pron-hamlog", "pron-ap"],
+        "tokenVocabRefs": ["pron-hamlog", "pron-hamlog", "gram-hai", null, null, "gram-hai", "pron-ap", "gram-hai"]
       },
       {
         "id": "ex-4-3",
         "word": "Ū kahāṁ hai?",
         "translations": { "nl": "Waar is hij/zij?" },
-        "vocabRefs": ["gram-kaham", "pron-u"]
+        "vocabRefs": ["gram-kaham", "pron-u"],
+        "tokenVocabRefs": ["pron-u", "gram-kaham", null]
       },
       {
         "id": "ex-4-4",
         "word": "Hamār bāp nā hai ghare.",
         "translations": { "nl": "Mijn vader is niet thuis." },
-        "vocabRefs": ["gram-na", "noun-bappa"]
+        "vocabRefs": ["gram-na", "noun-bappa"],
+        "tokenVocabRefs": [null, "noun-bappa", "gram-na", null, null]
       }
     ],
     "grammarNotes": [
@@ -199,7 +212,8 @@
         "sentenceTemplate": "Ham log ___ .",
         "correctAnswer": "haiṁ",
         "options": ["haiṁ", "hai", "ho", "nā"],
-        "translations": { "nl": "Wij zijn.", "en": "We are." }
+        "translations": { "nl": "Wij zijn.", "en": "We are." },
+        "tokenVocabRefs": ["pron-hamlog", "pron-hamlog", null, null]
       },
       "l4-e3": {
         "kind": "word-bank",
@@ -256,7 +270,8 @@
         "sentenceTemplate": "Hamār bāp ___ hai ghare.",
         "correctAnswer": "nā",
         "options": ["nā", "kahāṁ", "hai", "ham"],
-        "translations": { "nl": "Mijn vader is niet thuis.", "en": "My father is not home." }
+        "translations": { "nl": "Mijn vader is niet thuis.", "en": "My father is not home." },
+        "tokenVocabRefs": [null, "noun-bappa", null, null, null]
       }
     }
   }

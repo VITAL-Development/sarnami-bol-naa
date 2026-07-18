@@ -19,6 +19,15 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Added
+
+- `content/sarnami/lessons/unit-01-basics.json`: authored `tokenVocabRefs`
+  (per-word vocab-id mapping, api-contract.md §"Optional per-word
+  translation refs", issue #67) on every example sentence and fill-blank
+  exercise, powering a per-word translation tooltip in the learner-facing
+  app (issue #229). Additive — other lessons don't have it yet and can pick
+  it up incrementally per the same pattern.
+
 ## [0.5.0] - 2026-07-15
 
 ### Changed
