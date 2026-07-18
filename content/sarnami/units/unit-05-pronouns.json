@@ -1,7 +1,10 @@
 {
   "id": "unit-05-pronouns",
   "title": "Voornaamwoorden",
-  "titleTranslations": { "nl": "Voornaamwoorden", "en": "Pronouns" },
+  "titleTranslations": {
+    "nl": "Voornaamwoorden",
+    "en": "Pronouns"
+  },
   "description": "Bezittelijke, aanwijzende, vragende en betrekkelijke voornaamwoorden.",
   "order": 6,
   "cefrLevel": "B1",
@@ -12,7 +15,10 @@
       "unitId": "unit-05-pronouns",
       "order": 1,
       "title": "Bezittelijke voornaamwoorden",
-      "titleTranslations": { "nl": "Bezittelijke voornaamwoorden", "en": "Possessive pronouns" },
+      "titleTranslations": {
+        "nl": "Bezittelijke voornaamwoorden",
+        "en": "Possessive pronouns"
+      },
       "description": "Bezittelijke voornaamwoorden in het Sarnami.",
       "newVocab": [
         "pron-hamar",
@@ -49,14 +55,25 @@
           "contentRef": "poss-e6"
         }
       ],
-      "xpReward": 10
+      "xpReward": 10,
+      "exampleSentenceRefs": [
+        "ex-poss-1",
+        "ex-poss-2",
+        "ex-poss-3",
+        "ex-poss-4",
+        "ex-poss-5",
+        "ex-poss-6"
+      ]
     },
     {
       "id": "unit-05-pronouns-demonstrative",
       "unitId": "unit-05-pronouns",
       "order": 2,
       "title": "Aanwijzende voornaamwoorden",
-      "titleTranslations": { "nl": "Aanwijzende voornaamwoorden", "en": "Demonstrative pronouns" },
+      "titleTranslations": {
+        "nl": "Aanwijzende voornaamwoorden",
+        "en": "Demonstrative pronouns"
+      },
       "description": "Aanwijzende voornaamwoorden.",
       "newVocab": [
         "pron-i",
@@ -92,14 +109,25 @@
           "contentRef": "dem-e6"
         }
       ],
-      "xpReward": 10
+      "xpReward": 10,
+      "exampleSentenceRefs": [
+        "ex-dem-1",
+        "ex-dem-2",
+        "ex-dem-3",
+        "ex-dem-4",
+        "ex-dem-5",
+        "ex-dem-6"
+      ]
     },
     {
       "id": "unit-05-pronouns-interrogative-relative",
       "unitId": "unit-05-pronouns",
       "order": 3,
       "title": "Vragende & betrekkelijke voornaamwoorden",
-      "titleTranslations": { "nl": "Vragende & betrekkelijke voornaamwoorden", "en": "Interrogative & relative pronouns" },
+      "titleTranslations": {
+        "nl": "Vragende & betrekkelijke voornaamwoorden",
+        "en": "Interrogative & relative pronouns"
+      },
       "description": "Vragende en betrekkelijke voornaamwoorden.",
       "newVocab": [
         "pron-ke",
@@ -133,14 +161,23 @@
           "contentRef": "ir-e3"
         }
       ],
-      "xpReward": 10
+      "xpReward": 10,
+      "exampleSentenceRefs": [
+        "ex-ir-1",
+        "ex-ir-2",
+        "ex-ir-4",
+        "ex-ir-5"
+      ]
     },
     {
       "id": "unit-05-pronouns-review",
       "unitId": "unit-05-pronouns",
       "order": 4,
       "title": "Herhaling",
-      "titleTranslations": { "nl": "Herhaling", "en": "Review" },
+      "titleTranslations": {
+        "nl": "Herhaling",
+        "en": "Review"
+      },
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [
