@@ -123,7 +123,7 @@
       {
         "id": "gn-adv-time",
         "title": "Bijwoorden van tijd",
-        "body": "Een bijwoord zegt iets extra's over een werkwoord, een bijvoeglijk naamwoord of een ander bijwoord. Een bijwoord verandert nooit van vorm, ook niet bij een ander onderwerp; dat is anders dan bij een bijvoeglijk naamwoord. Bijwoorden van tijd zeggen wanneer iets gebeurt: āj (vandaag), bihān (morgen), kāl (gisteren), roj (dagelijks) en hardam (altijd). Ze staan vaak vooraan in de zin. Voorbeeld: 'Āj ham jādā khāi lelī hai' = Ik heb vandaag te veel gegeten.",
+        "body": "Een bijwoord zegt iets extra's over een werkwoord, een bijvoeglijk naamwoord (een woord dat iets beschrijft, zoals 'groot' of 'klein') of een ander bijwoord. Een bijwoord verandert nooit van vorm, ook niet bij een ander onderwerp. Dat is anders bij een bijvoeglijk naamwoord. Bijwoorden van tijd zeggen wanneer iets gebeurt: āj (vandaag), bihān (morgen), kāl (gisteren), roj (dagelijks) en hardam (altijd). Ze staan vaak vooraan in de zin. Voorbeeld: 'Āj ham jādā khāi lelī hai' = Ik heb vandaag te veel gegeten.",
         "relatedVocab": [
           "adv-aaj",
           "adv-bihaan",
@@ -477,7 +477,7 @@
       {
         "id": "gn-adv-degree",
         "title": "Bijwoorden van graad en hoeveelheid",
-        "body": "Bijwoorden van graad geven aan in welke máte iets geldt: bahut (veel, erg), thorā se (weinig, een beetje) en bilkul (helemaal). Sommige hoeveelheidswoorden zijn eigenlijk bijvoeglijke naamwoorden die ook als bijwoord kunnen optreden. Voorbeeld: 'Rāmlalvā āj bahut batiyā hai' = Ramlal praat vandaag veel.",
+        "body": "Bijwoorden van graad geven aan in welke máte iets geldt: bahut (veel, erg), thorā se (weinig, een beetje) en bilkul (helemaal). Sommige hoeveelheidswoorden zijn eigenlijk bijvoeglijke naamwoorden. Zulke woorden kun je ook als bijwoord gebruiken. Voorbeeld: 'Rāmlalvā āj bahut batiyā hai' = Ramlal praat vandaag veel.",
         "relatedVocab": [
           "adv-bahut",
           "adv-thora-se",
@@ -487,7 +487,7 @@
       {
         "id": "gn-adv-loan",
         "title": "Leenwoord-bijwoorden",
-        "body": "Het Sarnami heeft ook bijwoorden die uit andere talen komen; dit heten leenwoorden. Uit het Sranan Tongo komen habarā ('aan de overkant') en kantī ('langs'). Habarā komt oorspronkelijk van het Engelse woord 'over'. Kantī komt van het Nederlandse woord 'kant'. Uit het Nederlands komt ook parsīs ('precies, toevallig, eigenlijk'). Deze leenwoorden kun je verdubbelen, net als Sarnami-bijwoorden die al langer bestaan: habarī-habarā ('tegenover elkaar'), kantī-kantī ('aan de zijkant').",
+        "body": "Het Sarnami heeft ook bijwoorden die uit andere talen komen. Dit heten leenwoorden. Uit het Sranan Tongo komen habarā ('aan de overkant') en kantī ('langs'). Habarā komt oorspronkelijk van het Engelse woord 'over'. Kantī komt van het Nederlandse woord 'kant'. Uit het Nederlands komt ook parsīs ('precies, toevallig, eigenlijk'). Deze leenwoorden kun je verdubbelen. Dat kan ook bij bijwoorden die al langer in het Sarnami bestaan. Bijvoorbeeld: habarī-habarā ('tegenover elkaar'), kantī-kantī ('aan de zijkant').",
         "relatedVocab": [
           "adv-habara",
           "adv-kanti",
