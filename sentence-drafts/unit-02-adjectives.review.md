@@ -1,6 +1,6 @@
 # unit-02-adjectives — candidate example sentences
 
-Status: DRAFT
+Status: FINALIZED
 
 Source: `authored_docs/byakaran/adjective-verified.md` (Sarnami Byākaran, Marhé 1985, p.55-61,
 image-verified transcription — trusted over `02-the-noun.md`'s raw OCR for this topic).
@@ -62,9 +62,9 @@ form = definite (`Mahes chŏṭkā gharvā kīnis hai`). Existing `exampleSenten
         adj-mitha's `notes`: "Lange vorm: miṭhkā"). amvā matches noun-am's `notes` ("Lange vorm
         amvā") exactly.
 
-- [ ] id: ex-6-8
+- [x] id: ex-6-8
       sarnami: Mahes ego sojhā chūrī kīnis hai.
-      nl: Mahes heeft een rechte mes gekocht.
+      nl: Mahes heeft een recht mes gekocht.
       en: Mahes bought a straight knife.
       vocabRefs: adj-sojha
       rule: stem/indefinite adjective form (§2.1 table row: sojhā), same ex-6-1 pattern.
@@ -122,7 +122,7 @@ a different noun, and one deliberately-invalid extrapolation.
         verbatim in noun-ghora's `notes` ("meervoud ghoṛan/ghŏṛvan"). Not a duplicate of ex-7-2
         (different noun).
 
-- [ ] id: ex-7-7
+- [x] id: ex-7-7
       sarnami: Ū karikkāvan bakariyan.
       nl: Die zwarte geiten.
       en: Those black goats.
@@ -182,7 +182,7 @@ full sentence.
         `word` exactly. Cross-lesson vocab reuse (barhimya is lesson-7's), same pattern as
         unit-08's own worked example did for verb vocab.
 
-- [ ] id: ex-8-7
+- [x] id: ex-8-7
       sarnami: Ū barhimyā-se-barhimyā laundā hai.
       nl: Hij is de allerbeste jongen.
       en: He is the very best boy.
