@@ -135,7 +135,7 @@ applied to manner, degree, and loanword vocabulary.
       verify: PASS — "sacce" matches adv-sacce's `word` and §5.1.3 table row exactly. "ham
         ... -ilā" matches the §9.7.1 table row for ham (paṛhilā model).
 
-- [ ] id: ex-md-4
+- [x] id: ex-md-4
       sarnami: Sait ham peṛ dekhilā.
       nl: Misschien zie ik een boom.
       vocabRefs: adv-sait, pron-ham, noun-per, verb-dekhe
