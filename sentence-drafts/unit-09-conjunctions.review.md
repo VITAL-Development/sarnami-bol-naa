@@ -1,6 +1,6 @@
 # unit-09-conjunctions — candidate example sentences
 
-Status: DRAFT
+Status: FINALIZED
 
 Source: `authored_docs/byakaran/06-conjunctions.md` (Sarnami Byākaran, Marhé 1985, chapter 7,
 "Het voegwoord"). Generated per `/gen-sentences unit-09-conjunctions`, verified per
