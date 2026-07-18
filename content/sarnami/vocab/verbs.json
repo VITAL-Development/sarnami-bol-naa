@@ -242,5 +242,11 @@
     "translations": { "nl": "pakken, vastgrijpen", "en": "to catch, to grab, to hold" },
     "notes": "Stam: pakaṛ-. Komt voor in de samengestelde vorm pakaṛ leis (vastgepakt), met leve (verb-leve) als hulpwerkwoord.",
     "tags": ["verb"]
+  },
+  {
+    "id": "verb-turle",
+    "word": "ṭurle",
+    "translations": { "nl": "plukken", "en": "to pluck" },
+    "tags": ["verb"]
   }
 ]

@@ -355,5 +355,23 @@
     "translations": { "nl": "koning", "en": "king" },
     "notes": "Lange vorm rajavā.",
     "tags": ["noun"]
+  },
+  {
+    "id": "noun-gopal",
+    "word": "Gopāl",
+    "translations": { "nl": "Gopal (jongensnaam)", "en": "Gopal (boy's name)" },
+    "tags": ["noun", "proper-noun"]
+  },
+  {
+    "id": "noun-sita",
+    "word": "Sitā",
+    "translations": { "nl": "Sita (meisjesnaam)", "en": "Sita (girl's name)" },
+    "tags": ["noun", "proper-noun"]
+  },
+  {
+    "id": "noun-anguthi",
+    "word": "aṅguṭṭhī",
+    "translations": { "nl": "ring", "en": "ring" },
+    "tags": ["noun"]
   }
 ]

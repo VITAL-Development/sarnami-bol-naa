@@ -265,12 +265,14 @@
           "nl": "Een hond eet."
         },
         "vocabRefs": [
-          "noun-kutta"
+          "noun-kutta",
+          "verb-khai",
+          "gram-ba-aux"
         ],
         "tokenVocabRefs": [
           "noun-kutta",
-          null,
-          null
+          "verb-khai",
+          "gram-ba-aux"
         ]
       },
       {
@@ -280,12 +282,14 @@
           "nl": "Honden eten."
         },
         "vocabRefs": [
-          "noun-kutta"
+          "noun-kutta",
+          "verb-khai",
+          "gram-ba-aux"
         ],
         "tokenVocabRefs": [
           "noun-kutta",
-          null,
-          null
+          "verb-khai",
+          "gram-ba-aux"
         ]
       },
       {
@@ -718,16 +722,20 @@
           "nl": "Gopal heeft drie manjes geplukt."
         },
         "vocabRefs": [
+          "noun-gopal",
           "num-tin",
-          "noun-am"
+          "gram-go",
+          "noun-am",
+          "verb-turle",
+          "gram-ba-aux"
         ],
         "tokenVocabRefs": [
-          null,
+          "noun-gopal",
           "num-tin",
-          null,
+          "gram-go",
           "noun-am",
-          null,
-          null
+          "verb-turle",
+          "gram-ba-aux"
         ]
       },
       {
@@ -739,14 +747,16 @@
         "vocabRefs": [
           "noun-maiya",
           "num-dui",
+          "gram-go",
+          "noun-anguthi",
           "verb-kine",
           "gram-hai-aux"
         ],
         "tokenVocabRefs": [
           "noun-maiya",
           "num-dui",
-          null,
-          null,
+          "gram-go",
+          "noun-anguthi",
           "verb-kine",
           "gram-hai-aux"
         ]
@@ -785,15 +795,18 @@
           "nl": "Sita heeft een mes gekocht."
         },
         "vocabRefs": [
-          "num-ek",
-          "noun-churi"
-        ],
-        "tokenVocabRefs": [
-          null,
+          "noun-sita",
           "num-ek",
           "noun-churi",
-          null,
-          null
+          "verb-kine",
+          "gram-hai-aux"
+        ],
+        "tokenVocabRefs": [
+          "noun-sita",
+          "num-ek",
+          "noun-churi",
+          "verb-kine",
+          "gram-hai-aux"
         ]
       },
       {
@@ -803,17 +816,20 @@
           "nl": "Moeder heeft tien manjes gekocht."
         },
         "vocabRefs": [
+          "noun-maiya",
           "num-das",
+          "gram-go",
           "noun-am",
-          "noun-maiya"
+          "verb-kine",
+          "gram-hai-aux"
         ],
         "tokenVocabRefs": [
           "noun-maiya",
           "num-das",
-          null,
+          "gram-go",
           "noun-am",
-          null,
-          null
+          "verb-kine",
+          "gram-hai-aux"
         ]
       }
     ],
