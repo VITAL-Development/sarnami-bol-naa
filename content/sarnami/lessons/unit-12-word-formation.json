@@ -98,7 +98,7 @@
       {
         "id": "gn-wf-1",
         "title": "Afleiden met achtervoegsels",
-        "body": "Met voor- en achtervoegsels maak je van bestaande woorden en woordstammen nieuwe woorden. Er zijn vier veelvoorkomende achtervoegsels. -akkaṛ maakt van een woord iemand die iets gewoonlijk doet. Bijvoorbeeld: ghum- ('rondtrekken') wordt ghumakkaṛ ('een zwerver'). -ār maakt een beroepsnaam. Bijvoorbeeld: lŏhā ('ijzer') wordt lŏhār ('een smid'). -āī maakt een zelfstandig naamwoord, vaak met de betekenis '-heid' of een handeling. Bijvoorbeeld: sāf ('schoon') wordt safāī ('netheid'). -vāl(-ā) betekent 'degene met of van X'. Bijvoorbeeld: ṭopī ('hoed') wordt ṭopī-vālā ('de man met de hoed'). Herken je het achtervoegsel, dan raad je vaak de betekenis van een onbekend woord.",
+        "body": "Met voor- en achtervoegsels maak je van bestaande woorden en woordstammen nieuwe woorden. Er zijn vier veelvoorkomende achtervoegsels. -akkaṛ maakt van een woord iemand die iets gewoonlijk doet. Bijvoorbeeld: ghum- ('rondtrekken') wordt ghumakkaṛ ('een zwerver'). -ār maakt een beroepsnaam. Bijvoorbeeld: lŏhā ('ijzer') wordt lŏhār ('een smid'). -āī maakt een zelfstandig naamwoord (een woord voor een ding of begrip), vaak met de betekenis '-heid' of een handeling. Bijvoorbeeld: sāf ('schoon') wordt safāī ('netheid'). -vāl(-ā) betekent 'degene met of van X'. Bijvoorbeeld: ṭopī ('hoed') wordt ṭopī-vālā ('de man met de hoed'). Herken je het achtervoegsel, dan raad je vaak de betekenis van een onbekend woord.",
         "relatedVocab": [
           "wf-ghumakkar",
           "wf-lohar",
@@ -129,9 +129,9 @@
           },
           {
             "left": "-āī",
-            "right": "een abstract begrip (-heid)",
+            "right": "iets abstracts (-heid)",
             "rightTranslations": {
-              "nl": "een abstract begrip (-heid)",
+              "nl": "iets abstracts (-heid)",
               "en": "an abstract concept (-ness)"
             }
           },
@@ -162,9 +162,9 @@
       },
       "sfx-e3": {
         "kind": "multiple-choice",
-        "prompt": "Met welk achtervoegsel vorm je een abstract begrip zoals safāī ('netheid')?",
+        "prompt": "Met welk achtervoegsel vorm je een woord voor iets abstracts, zoals safāī ('netheid')?",
         "promptTranslations": {
-          "nl": "Met welk achtervoegsel vorm je een abstract begrip zoals safāī ('netheid')?",
+          "nl": "Met welk achtervoegsel vorm je een woord voor iets abstracts, zoals safāī ('netheid')?",
           "en": "With which suffix do you form an abstract concept like safāī ('cleanliness')?"
         },
         "options": [
@@ -550,9 +550,9 @@
           },
           {
             "left": "-āī",
-            "right": "een abstract begrip (-heid)",
+            "right": "iets abstracts (-heid)",
             "rightTranslations": {
-              "nl": "een abstract begrip (-heid)",
+              "nl": "iets abstracts (-heid)",
               "en": "an abstract concept (-ness)"
             }
           },

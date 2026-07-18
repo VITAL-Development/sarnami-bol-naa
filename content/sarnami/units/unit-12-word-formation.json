@@ -5,7 +5,7 @@
     "nl": "Woordvorming",
     "en": "Word formation"
   },
-  "description": "Afleidingssuffixen en hoe woorden gevormd worden.",
+  "description": "Achtervoegsels waarmee je nieuwe woorden vormt.",
   "order": 13,
   "cefrLevel": "C1",
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/10-word-formation.md",
@@ -19,7 +19,7 @@
         "nl": "Afleidingssuffixen",
         "en": "Derivational suffixes"
       },
-      "description": "Afleidingssuffixen en hoe woorden gebouwd worden.",
+      "description": "Achtervoegsels en hoe je daarmee woorden bouwt.",
       "newVocab": [
         "wf-ghumakkar",
         "wf-piyakkar",
