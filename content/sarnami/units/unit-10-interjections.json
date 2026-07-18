@@ -64,7 +64,21 @@
           "contentRef": "int-e6"
         }
       ],
-      "xpReward": 10
+      "xpReward": 10,
+      "exampleSentenceRefs": [
+        "ex-int-1",
+        "ex-int-2",
+        "ex-int-3",
+        "ex-int-6",
+        "ex-int-7",
+        "ex-int-8",
+        "ex-int-9",
+        "ex-int-10",
+        "ex-int-11",
+        "ex-int-12",
+        "ex-int-13",
+        "ex-int-14"
+      ]
     },
     {
       "id": "unit-10-interjections-review",

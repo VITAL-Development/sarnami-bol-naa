@@ -1,67 +1,306 @@
 [
   {
     "lessonId": "unit-10-interjections-interjections",
-    "exampleSentences": [],
+    "exampleSentences": [
+      {
+        "id": "ex-int-1",
+        "word": "He dekh!",
+        "translations": {
+          "nl": "Zie hier!"
+        },
+        "vocabRefs": [
+          "int-he",
+          "verb-dekhe"
+        ]
+      },
+      {
+        "id": "ex-int-2",
+        "word": "Ho dekh!",
+        "translations": {
+          "nl": "Zie daar!"
+        },
+        "vocabRefs": [
+          "int-ho",
+          "verb-dekhe"
+        ]
+      },
+      {
+        "id": "ex-int-3",
+        "word": "Sābās!",
+        "translations": {
+          "nl": "Bravo!"
+        },
+        "vocabRefs": [
+          "int-sabas"
+        ]
+      },
+      {
+        "id": "ex-int-6",
+        "word": "Acchā!",
+        "translations": {
+          "nl": "Goed, oké!"
+        },
+        "vocabRefs": [
+          "int-accha"
+        ]
+      },
+      {
+        "id": "ex-int-7",
+        "word": "Cup!",
+        "translations": {
+          "nl": "Stil!"
+        },
+        "vocabRefs": [
+          "int-cup"
+        ]
+      },
+      {
+        "id": "ex-int-8",
+        "word": "Ayā!",
+        "translations": {
+          "nl": "Au!"
+        },
+        "vocabRefs": [
+          "int-aya"
+        ]
+      },
+      {
+        "id": "ex-int-9",
+        "word": "Bāp-re-bāp!",
+        "translations": {
+          "nl": "Lieve hemel!"
+        },
+        "vocabRefs": [
+          "int-bap-re-bap"
+        ]
+      },
+      {
+        "id": "ex-int-10",
+        "word": "Vāh-vāh!",
+        "translations": {
+          "nl": "Bravo, prachtig!"
+        },
+        "vocabRefs": [
+          "int-vah-vah"
+        ]
+      },
+      {
+        "id": "ex-int-11",
+        "word": "Albat!",
+        "translations": {
+          "nl": "Warempel, inderdaad!"
+        },
+        "vocabRefs": [
+          "int-albat"
+        ]
+      },
+      {
+        "id": "ex-int-12",
+        "word": "Cor-cor!",
+        "translations": {
+          "nl": "Houd de dief!"
+        },
+        "vocabRefs": [
+          "int-cor-cor"
+        ]
+      },
+      {
+        "id": "ex-int-13",
+        "word": "Hāy-hāy!",
+        "translations": {
+          "nl": "Ach!"
+        },
+        "vocabRefs": [
+          "int-hay-hay"
+        ]
+      },
+      {
+        "id": "ex-int-14",
+        "word": "Oho!",
+        "translations": {
+          "nl": "Och-och!"
+        },
+        "vocabRefs": [
+          "int-oho"
+        ]
+      }
+    ],
     "grammarNotes": [
       {
         "id": "gn-int-1",
         "title": "Wat zijn tussenwerpsels?",
         "body": "Tussenwerpsels zijn losse woorden waarmee je gevoelens en stemmingen uit: onverschilligheid, verdriet, schrik, vreugde, woede, verbazing of een waarschuwing. Vaak zijn het betekenisloze klanken die moeilijk op schrift zijn weer te geven, en een vertaling is meestal maar bij benadering mogelijk. Zo betekent acchā 'goed, oké!', bacāo 'help!' en sābās 'bravo!'.",
-        "relatedVocab": ["int-accha", "int-bacao", "int-sabas"]
+        "relatedVocab": [
+          "int-accha",
+          "int-bacao",
+          "int-sabas"
+        ]
       },
       {
         "id": "gn-int-2",
         "title": "Aandacht trekken: he en ho",
         "body": "Om iemand aan te spreken gebruik je he voor iemand dichtbij en ho voor iemand veraf. Uit deze twee zijn de wijzende vormen afgeleid: hĕdde (= he dekh! 'zie hier!') en hŏdde (= ho dekh! 'zie daar!'). Andere aandachttrekkers zijn bhalā ('zeg!, kijk aan!') en de alarmkreet cor-cor ('houd de dief!').",
-        "relatedVocab": ["int-he", "int-ho", "int-bhala", "int-cor-cor"]
+        "relatedVocab": [
+          "int-he",
+          "int-ho",
+          "int-bhala",
+          "int-cor-cor"
+        ]
       },
       {
         "id": "gn-int-3",
         "title": "Partikels en leenwoorden",
         "body": "Naast echte uitroepen kent het Sarnami korte gesprekspartikels die nadruk of aansporing geven, zoals to ('toch?, nietwaar?'). Een deel van de tussenwerpsels is ontleend: uit het Sranan Tongo (o.a. mān 'joh, ach', boi 'sjonge-sjonge!') en uit het Nederlands (o.a. tò 'toch?'). De reeds bekende hāṁ ('ja') en nā ('nee') horen ook bij deze groep.",
-        "relatedVocab": ["int-to"]
+        "relatedVocab": [
+          "int-to"
+        ]
       }
     ],
     "exercises": {
       "int-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent 'acchā'?",
-        "promptTranslations": { "nl": "Wat betekent 'acchā'?", "en": "What does 'acchā' mean?" },
-        "options": ["goed, oké!", "help!", "stil!", "au!"],
+        "promptTranslations": {
+          "nl": "Wat betekent 'acchā'?",
+          "en": "What does 'acchā' mean?"
+        },
+        "options": [
+          "goed, oké!",
+          "help!",
+          "stil!",
+          "au!"
+        ],
         "optionTranslations": [
-          { "nl": "goed, oké!", "en": "good, okay!" },
-          { "nl": "help!", "en": "help!" },
-          { "nl": "stil!", "en": "quiet!" },
-          { "nl": "au!", "en": "ow!" }
+          {
+            "nl": "goed, oké!",
+            "en": "good, okay!"
+          },
+          {
+            "nl": "help!",
+            "en": "help!"
+          },
+          {
+            "nl": "stil!",
+            "en": "quiet!"
+          },
+          {
+            "nl": "au!",
+            "en": "ow!"
+          }
         ],
         "correctIndex": 0
       },
       "int-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "acchā", "right": "goed, oké!", "rightTranslations": { "nl": "goed, oké!", "en": "good, okay!" } },
-          { "left": "ayā", "right": "au!", "rightTranslations": { "nl": "au!", "en": "ow!" } },
-          { "left": "bacāo", "right": "help!", "rightTranslations": { "nl": "help!", "en": "help!" } },
-          { "left": "cup", "right": "stil!", "rightTranslations": { "nl": "stil!", "en": "quiet!" } },
-          { "left": "sābās", "right": "bravo!", "rightTranslations": { "nl": "bravo!", "en": "bravo!" } },
-          { "left": "albat", "right": "warempel, inderdaad", "rightTranslations": { "nl": "warempel, inderdaad", "en": "truly, indeed" } }
+          {
+            "left": "acchā",
+            "right": "goed, oké!",
+            "rightTranslations": {
+              "nl": "goed, oké!",
+              "en": "good, okay!"
+            }
+          },
+          {
+            "left": "ayā",
+            "right": "au!",
+            "rightTranslations": {
+              "nl": "au!",
+              "en": "ow!"
+            }
+          },
+          {
+            "left": "bacāo",
+            "right": "help!",
+            "rightTranslations": {
+              "nl": "help!",
+              "en": "help!"
+            }
+          },
+          {
+            "left": "cup",
+            "right": "stil!",
+            "rightTranslations": {
+              "nl": "stil!",
+              "en": "quiet!"
+            }
+          },
+          {
+            "left": "sābās",
+            "right": "bravo!",
+            "rightTranslations": {
+              "nl": "bravo!",
+              "en": "bravo!"
+            }
+          },
+          {
+            "left": "albat",
+            "right": "warempel, inderdaad",
+            "rightTranslations": {
+              "nl": "warempel, inderdaad",
+              "en": "truly, indeed"
+            }
+          }
         ]
       },
       "int-e5": {
         "kind": "multiple-choice",
         "prompt": "Welke uitroep gebruik je om anderen op een dief te wijzen?",
-        "promptTranslations": { "nl": "Welke uitroep gebruik je om anderen op een dief te wijzen?", "en": "Which exclamation do you use to alert others to a thief?" },
-        "options": ["cor-cor", "he", "ho", "oho"],
+        "promptTranslations": {
+          "nl": "Welke uitroep gebruik je om anderen op een dief te wijzen?",
+          "en": "Which exclamation do you use to alert others to a thief?"
+        },
+        "options": [
+          "cor-cor",
+          "he",
+          "ho",
+          "oho"
+        ],
         "correctIndex": 0
       },
       "int-e6": {
         "kind": "matching",
         "pairs": [
-          { "left": "bāp-re-bāp", "right": "verbazing / lieve hemel!", "rightTranslations": { "nl": "verbazing / lieve hemel!", "en": "astonishment / good heavens!" } },
-          { "left": "hāy-hāy", "right": "verdriet / ach!", "rightTranslations": { "nl": "verdriet / ach!", "en": "grief / alas!" } },
-          { "left": "oho", "right": "medeleven / och-och!", "rightTranslations": { "nl": "medeleven / och-och!", "en": "sympathy / oh dear!" } },
-          { "left": "bhalā", "right": "verrassing / zeg!", "rightTranslations": { "nl": "verrassing / zeg!", "en": "surprise / say!" } },
-          { "left": "to", "right": "nadruk / toch?", "rightTranslations": { "nl": "nadruk / toch?", "en": "emphasis / right?" } }
+          {
+            "left": "bāp-re-bāp",
+            "right": "verbazing / lieve hemel!",
+            "rightTranslations": {
+              "nl": "verbazing / lieve hemel!",
+              "en": "astonishment / good heavens!"
+            }
+          },
+          {
+            "left": "hāy-hāy",
+            "right": "verdriet / ach!",
+            "rightTranslations": {
+              "nl": "verdriet / ach!",
+              "en": "grief / alas!"
+            }
+          },
+          {
+            "left": "oho",
+            "right": "medeleven / och-och!",
+            "rightTranslations": {
+              "nl": "medeleven / och-och!",
+              "en": "sympathy / oh dear!"
+            }
+          },
+          {
+            "left": "bhalā",
+            "right": "verrassing / zeg!",
+            "rightTranslations": {
+              "nl": "verrassing / zeg!",
+              "en": "surprise / say!"
+            }
+          },
+          {
+            "left": "to",
+            "right": "nadruk / toch?",
+            "rightTranslations": {
+              "nl": "nadruk / toch?",
+              "en": "emphasis / right?"
+            }
+          }
         ]
       }
     }
@@ -74,23 +313,78 @@
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "hāṁ", "right": "ja", "rightTranslations": { "nl": "ja", "en": "yes" } },
-          { "left": "nā", "right": "nee", "rightTranslations": { "nl": "nee", "en": "no" } },
-          { "left": "acchā", "right": "goed, oké!", "rightTranslations": { "nl": "goed, oké!", "en": "good, okay!" } },
-          { "left": "sābās", "right": "bravo!", "rightTranslations": { "nl": "bravo!", "en": "bravo!" } },
-          { "left": "bacāo", "right": "help!", "rightTranslations": { "nl": "help!", "en": "help!" } }
+          {
+            "left": "hāṁ",
+            "right": "ja",
+            "rightTranslations": {
+              "nl": "ja",
+              "en": "yes"
+            }
+          },
+          {
+            "left": "nā",
+            "right": "nee",
+            "rightTranslations": {
+              "nl": "nee",
+              "en": "no"
+            }
+          },
+          {
+            "left": "acchā",
+            "right": "goed, oké!",
+            "rightTranslations": {
+              "nl": "goed, oké!",
+              "en": "good, okay!"
+            }
+          },
+          {
+            "left": "sābās",
+            "right": "bravo!",
+            "rightTranslations": {
+              "nl": "bravo!",
+              "en": "bravo!"
+            }
+          },
+          {
+            "left": "bacāo",
+            "right": "help!",
+            "rightTranslations": {
+              "nl": "help!",
+              "en": "help!"
+            }
+          }
         ]
       },
       "rev-e3": {
         "kind": "multiple-choice",
         "prompt": "Wat betekent het tussenwerpsel 'hāṁ'?",
-        "promptTranslations": { "nl": "Wat betekent het tussenwerpsel 'hāṁ'?", "en": "What does the interjection 'hāṁ' mean?" },
-        "options": ["ja", "nee", "help!", "stil!"],
+        "promptTranslations": {
+          "nl": "Wat betekent het tussenwerpsel 'hāṁ'?",
+          "en": "What does the interjection 'hāṁ' mean?"
+        },
+        "options": [
+          "ja",
+          "nee",
+          "help!",
+          "stil!"
+        ],
         "optionTranslations": [
-          { "nl": "ja", "en": "yes" },
-          { "nl": "nee", "en": "no" },
-          { "nl": "help!", "en": "help!" },
-          { "nl": "stil!", "en": "quiet!" }
+          {
+            "nl": "ja",
+            "en": "yes"
+          },
+          {
+            "nl": "nee",
+            "en": "no"
+          },
+          {
+            "nl": "help!",
+            "en": "help!"
+          },
+          {
+            "nl": "stil!",
+            "en": "quiet!"
+          }
         ],
         "correctIndex": 0
       },
@@ -98,14 +392,32 @@
         "kind": "fill-blank",
         "sentenceTemplate": "___! — zo maan je iemand tot stilte.",
         "correctAnswer": "Cup",
-        "options": ["Cup", "Sābās", "Ayā", "Ho"],
-        "translations": { "nl": "Stil!", "en": "Quiet!" }
+        "options": [
+          "Cup",
+          "Sābās",
+          "Ayā",
+          "Ho"
+        ],
+        "translations": {
+          "nl": "Stil!",
+          "en": "Quiet!"
+        }
       },
       "rev-e5": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Lieve hemel! (zet de delen in de juiste volgorde)", "en": "Good heavens! (put the parts in the right order)" },
-        "correctTargetTokens": ["bāp", "re", "bāp"],
-        "distractorTokens": ["ho", "hāy"]
+        "promptTranslations": {
+          "nl": "Lieve hemel! (zet de delen in de juiste volgorde)",
+          "en": "Good heavens! (put the parts in the right order)"
+        },
+        "correctTargetTokens": [
+          "bāp",
+          "re",
+          "bāp"
+        ],
+        "distractorTokens": [
+          "ho",
+          "hāy"
+        ]
       }
     }
   }
