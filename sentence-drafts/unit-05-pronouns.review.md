@@ -1,6 +1,6 @@
 # unit-05-pronouns — candidate example sentences
 
-Status: DRAFT
+Status: FINALIZED
 
 Source: `authored_docs/byakaran/03-pronouns.md` (Sarnami Byākaran, Marhé 1985, chapter 4 —
 "Het voornaamwoord"). Generated per `/gen-sentences unit-05-pronouns`, verified per
@@ -184,7 +184,7 @@ would be inventing a sentence shape from the paradigm alone, which the guardrail
         sentence, so this isn't a near-duplicate in a bad sense — it directly demonstrates the
         ke/kaun contrast gn-int-1 teaches.
 
-- [ ] id: ex-ir-3
+- [x] id: ex-ir-3
       sarnami: Ī kā hai?
       nl: Wat is dit?
       vocabRefs: pron-i, pron-ka, gram-hai
@@ -221,7 +221,7 @@ would be inventing a sentence shape from the paradigm alone, which the guardrail
         non-persons ("gebruikt voor personen en niet-personen", §4.3), so "ghar" as the head noun
         is valid. All words match their vocab `word` fields exactly.
 
-- [ ] id: ex-ir-6
+- [x] id: ex-ir-6
       sarnami: Ū laundā je barkā hai hamār bhāī hai.
       nl: Die jongen, die groot is, is mijn broer.
       vocabRefs: pron-u, noun-launda, pron-je, adj-barka, gram-hai, pron-hamar, noun-bhai
