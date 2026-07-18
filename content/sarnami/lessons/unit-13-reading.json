@@ -87,7 +87,7 @@
       {
         "id": "gn-text1-3",
         "title": "Sleutelwoorden",
-        "body": "De kern van de plot draait om een paar nieuwe zelfstandige naamwoorden: bakarī (geit), peṛ (boom, waarin de jongen klimt) en bhūjā (het geroosterde graan dat hij opeet). Terwijl hij in de peṛ zit, ziet hij de geiten hun bek bewegen (ze herkauwen) en denkt ten onrechte dat ze hem treiteren — met rampzalige gevolgen. Het huis (ghar) van de nānī brandt uiteindelijk tot as af.",
+        "body": "De kern van de plot draait om een paar nieuwe zelfstandige naamwoorden: bakarī (geit), peṛ (boom, waarin de jongen klimt) en bhūjā (het geroosterde graan dat hij opeet). De jongen zit in de peṛ. Hij ziet de geiten hun bek bewegen — ze herkauwen. Maar de jongen denkt dat ze hem plagen. Dat loopt slecht af: het huis (ghar) van de nānī brandt uiteindelijk helemaal af.",
         "relatedVocab": [
           "read-bakari",
           "read-per",
@@ -171,14 +171,14 @@
           "en": "Why did the boy hit the goats with a stick?"
         },
         "options": [
-          "hij dacht ten onrechte dat ze hem treiterden, terwijl ze herkauwden",
+          "hij dacht dat ze hem plaagden, maar ze bewogen alleen hun bek (herkauwden)",
           "ze waren weggelopen naar een ander veld",
           "ze hadden zijn bhūjā opgegeten",
           "de nānī had het hem opgedragen"
         ],
         "optionTranslations": [
           {
-            "nl": "hij dacht ten onrechte dat ze hem treiterden, terwijl ze herkauwden",
+            "nl": "hij dacht dat ze hem plaagden, maar ze bewogen alleen hun bek (herkauwden)",
             "en": "he wrongly thought they were mocking him, while they were chewing the cud"
           },
           {
@@ -312,7 +312,7 @@
       {
         "id": "gn-text2-3",
         "title": "Sleutelwoorden en afloop",
-        "body": "Als het geld op is en er hongersnood komt, moet de zoon bij een vreemde de varkens hoeden. Hij komt tot inkeer, keert terug en bekent: 'Bhagavān ke aur tohare āge hamse bhārī pāp bhail' — 'tegenover God en u heb ik een grote zonde (pāp) begaan'. De vader onthaalt hem toch feestelijk, tot ergernis van de oudere broer, die er juist op wijst dat hij altijd trouw als een naukar (bediende) heeft gediend.",
+        "body": "Het geld raakt op. Er komt honger in het land. De zoon moet bij een vreemde de varkens hoeden. Dan bedenkt hij zich. Hij gaat terug naar huis en zegt: 'Bhagavān ke aur tohare āge hamse bhārī pāp bhail' — 'tegenover God en u heb ik een grote zonde (pāp) begaan'. De vader viert toch een feest voor hem. De oudere broer is daar boos over. Hij zegt dat hij altijd trouw als een naukar (bediende) heeft gediend.",
         "relatedVocab": [
           "read-pap",
           "read-naukar",
