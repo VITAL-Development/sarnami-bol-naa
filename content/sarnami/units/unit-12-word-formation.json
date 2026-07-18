@@ -1,8 +1,11 @@
 {
   "id": "unit-12-word-formation",
   "title": "Woordvorming",
-  "titleTranslations": { "nl": "Woordvorming", "en": "Word formation" },
-  "description": "Afleidingssuffixen en hoe woorden gevormd worden.",
+  "titleTranslations": {
+    "nl": "Woordvorming",
+    "en": "Word formation"
+  },
+  "description": "Achtervoegsels waarmee je nieuwe woorden vormt.",
   "order": 13,
   "cefrLevel": "C1",
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/10-word-formation.md",
@@ -12,8 +15,11 @@
       "unitId": "unit-12-word-formation",
       "order": 1,
       "title": "Afleidingssuffixen",
-      "titleTranslations": { "nl": "Afleidingssuffixen", "en": "Derivational suffixes" },
-      "description": "Afleidingssuffixen en hoe woorden gebouwd worden.",
+      "titleTranslations": {
+        "nl": "Afleidingssuffixen",
+        "en": "Derivational suffixes"
+      },
+      "description": "Achtervoegsels en hoe je daarmee woorden bouwt.",
       "newVocab": [
         "wf-ghumakkar",
         "wf-piyakkar",
@@ -54,14 +60,24 @@
           "contentRef": "sfx-e5"
         }
       ],
-      "xpReward": 10
+      "xpReward": 10,
+      "exampleSentenceRefs": [
+        "ex-sfx-1",
+        "ex-sfx-2",
+        "ex-sfx-3",
+        "ex-sfx-4",
+        "ex-sfx-6"
+      ]
     },
     {
       "id": "unit-12-word-formation-arabic-persian",
       "unitId": "unit-12-word-formation",
       "order": 2,
       "title": "Arabisch-Perzische suffixen",
-      "titleTranslations": { "nl": "Arabisch-Perzische suffixen", "en": "Arabic-Persian suffixes" },
+      "titleTranslations": {
+        "nl": "Arabisch-Perzische suffixen",
+        "en": "Arabic-Persian suffixes"
+      },
       "description": "Suffixen van Arabisch-Perzische oorsprong.",
       "newVocab": [
         "wf-imandar",
@@ -104,14 +120,25 @@
           "contentRef": "ap-e5"
         }
       ],
-      "xpReward": 10
+      "xpReward": 10,
+      "exampleSentenceRefs": [
+        "ex-ap-1",
+        "ex-ap-2",
+        "ex-ap-3",
+        "ex-ap-4",
+        "ex-ap-5",
+        "ex-ap-6"
+      ]
     },
     {
       "id": "unit-12-word-formation-review",
       "unitId": "unit-12-word-formation",
       "order": 3,
       "title": "Herhaling",
-      "titleTranslations": { "nl": "Herhaling", "en": "Review" },
+      "titleTranslations": {
+        "nl": "Herhaling",
+        "en": "Review"
+      },
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [
