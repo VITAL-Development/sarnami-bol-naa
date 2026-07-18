@@ -163,7 +163,8 @@
         "sentenceTemplate": "___ āil hai?",
         "correctAnswer": "Ke",
         "options": ["Ke", "Kā", "Jaun", "Jekar"],
-        "translations": { "nl": "Wie is er gekomen?", "en": "Who has come?" }
+        "translations": { "nl": "Wie is er gekomen?", "en": "Who has come?" },
+        "tokenVocabRefs": [null, "verb-ave", "gram-hai"]
       }
     }
   },
