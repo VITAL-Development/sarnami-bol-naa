@@ -1,19 +1,103 @@
 [
   {
     "lessonId": "unit-11-loanwords-dutch",
-    "exampleSentences": [],
+    "exampleSentences": [
+      {
+        "id": "ex-dutch-1",
+        "word": "Ū bel kare hai.",
+        "translations": {
+          "nl": "Hij belt op."
+        },
+        "vocabRefs": [
+          "loan-bel",
+          "pron-u",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-dutch-2",
+        "word": "Tū ghar par klop kare hai.",
+        "translations": {
+          "nl": "Jij klopt op het huis."
+        },
+        "vocabRefs": [
+          "loan-klop",
+          "pron-tu",
+          "noun-ghar",
+          "post-par",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-dutch-3",
+        "word": "Ū ghar moi kare hai.",
+        "translations": {
+          "nl": "Hij maakt het huis mooi."
+        },
+        "vocabRefs": [
+          "loan-mooi",
+          "pron-u",
+          "noun-ghar",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-dutch-4",
+        "word": "Ham bhāī bekeur karlī.",
+        "translations": {
+          "nl": "Ik bekeurde mijn broer."
+        },
+        "vocabRefs": [
+          "loan-bekeur",
+          "pron-ham",
+          "noun-bhai"
+        ]
+      },
+      {
+        "id": "ex-dutch-5",
+        "word": "Ū bahin wachti kare hai.",
+        "translations": {
+          "nl": "Hij wacht op zijn zus."
+        },
+        "vocabRefs": [
+          "loan-wachti",
+          "pron-u",
+          "noun-bahin",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-dutch-6",
+        "word": "Ū būṭū bhare hai.",
+        "translations": {
+          "nl": "Hij betaalt een boete."
+        },
+        "vocabRefs": [
+          "loan-butu",
+          "pron-u",
+          "gram-hai"
+        ]
+      }
+    ],
     "grammarNotes": [
       {
         "id": "gn-loan-dutch-1",
         "title": "Leenwoorden met kare en hove",
         "body": "Het Sarnami leent volop werkwoorden uit de omringende talen. Nederlandse werkwoorden worden ingepast met twee hulpwerkwoorden: kare (doen) voor de bedrijvende vorm en hove (worden/zijn) voor de lijdende vorm. Zo wordt van de stam 'bel' → bel kare (opbellen) en bel hove (opgebeld worden), en van 'help' → help kare (helpen) en help hove (geholpen worden). Op dezelfde manier: klop kare, uitleg kare, beledig kare, bekeur kare, wachti kare.",
-        "relatedVocab": ["loan-bel", "loan-help", "loan-klop"]
+        "relatedVocab": [
+          "loan-bel",
+          "loan-help",
+          "loan-klop"
+        ]
       },
       {
         "id": "gn-loan-dutch-2",
         "title": "Niet alleen werkwoorden",
         "body": "De basis hoeft geen werkwoord te zijn. Bij mooi kare (mooi maken) / mooi hove (mooi worden) is de basis een bijvoeglijk naamwoord. Sommige ontleningen zijn zo ingeburgerd dat ze het oorspronkelijke Sarnami-woord volledig hebben vervangen. Een enkele keer wordt een ander hulpwerkwoord gebruikt: būṭū bhare betekent 'een boete betalen' (būṭū uit het Nederlandse 'boete' via het Sranantongo butu, met bhare = betalen).",
-        "relatedVocab": ["loan-mooi", "loan-butu"]
+        "relatedVocab": [
+          "loan-mooi",
+          "loan-butu"
+        ]
       }
     ],
     "exercises": {
@@ -31,10 +115,22 @@
           "wachten"
         ],
         "optionTranslations": [
-          { "nl": "opbellen", "en": "to call up" },
-          { "nl": "kloppen", "en": "to knock" },
-          { "nl": "helpen", "en": "to help" },
-          { "nl": "wachten", "en": "to wait" }
+          {
+            "nl": "opbellen",
+            "en": "to call up"
+          },
+          {
+            "nl": "kloppen",
+            "en": "to knock"
+          },
+          {
+            "nl": "helpen",
+            "en": "to help"
+          },
+          {
+            "nl": "wachten",
+            "en": "to wait"
+          }
         ],
         "correctIndex": 0
       },
@@ -56,30 +152,123 @@
       "dutch-e3": {
         "kind": "matching",
         "pairs": [
-          { "left": "klop kare", "right": "kloppen", "rightTranslations": { "nl": "kloppen", "en": "to knock" } },
-          { "left": "uitleg kare", "right": "uitleggen", "rightTranslations": { "nl": "uitleggen", "en": "to explain" } },
-          { "left": "help kare", "right": "helpen", "rightTranslations": { "nl": "helpen", "en": "to help" } },
-          { "left": "wachti kare", "right": "wachten", "rightTranslations": { "nl": "wachten", "en": "to wait" } },
-          { "left": "mooi kare", "right": "mooi maken", "rightTranslations": { "nl": "mooi maken", "en": "to make beautiful" } }
+          {
+            "left": "klop kare",
+            "right": "kloppen",
+            "rightTranslations": {
+              "nl": "kloppen",
+              "en": "to knock"
+            }
+          },
+          {
+            "left": "uitleg kare",
+            "right": "uitleggen",
+            "rightTranslations": {
+              "nl": "uitleggen",
+              "en": "to explain"
+            }
+          },
+          {
+            "left": "help kare",
+            "right": "helpen",
+            "rightTranslations": {
+              "nl": "helpen",
+              "en": "to help"
+            }
+          },
+          {
+            "left": "wachti kare",
+            "right": "wachten",
+            "rightTranslations": {
+              "nl": "wachten",
+              "en": "to wait"
+            }
+          },
+          {
+            "left": "mooi kare",
+            "right": "mooi maken",
+            "rightTranslations": {
+              "nl": "mooi maken",
+              "en": "to make beautiful"
+            }
+          }
         ]
       }
     }
   },
   {
     "lessonId": "unit-11-loanwords-other",
-    "exampleSentences": [],
+    "exampleSentences": [
+      {
+        "id": "ex-other-1",
+        "word": "Ham ciṭṭhi don karilā.",
+        "translations": {
+          "nl": "Ik maak de brief af."
+        },
+        "vocabRefs": [
+          "loan-don",
+          "pron-ham",
+          "noun-citthi"
+        ]
+      },
+      {
+        "id": "ex-other-2",
+        "word": "Ū ghaṛī lās karis.",
+        "translations": {
+          "nl": "Hij verloor het horloge."
+        },
+        "vocabRefs": [
+          "loan-las",
+          "pron-u",
+          "noun-ghari"
+        ]
+      },
+      {
+        "id": "ex-other-3",
+        "word": "Ū ghar yūrū kare hai.",
+        "translations": {
+          "nl": "Hij huurt het huis."
+        },
+        "vocabRefs": [
+          "loan-yuru",
+          "pron-u",
+          "noun-ghar",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-other-4",
+        "word": "Laundā ciṭṭhi morsū kare hai.",
+        "translations": {
+          "nl": "De jongen maakt de brief vuil."
+        },
+        "vocabRefs": [
+          "loan-morsu",
+          "noun-launda",
+          "noun-citthi",
+          "gram-hai"
+        ]
+      }
+    ],
     "grammarNotes": [
       {
         "id": "gn-loan-other-1",
         "title": "Uit het Engels en het Sranantongo",
         "body": "Ook uit het Engels en het Sranantongo zijn werkwoorden geleend, weer met kare en hove: don kare (afmaken, van 'done'), lās kare (verliezen, van 'lost'), boro kare (boren), trīkī kare (strijken), yūrū kare (huren), morsū kare (vuil maken). Opvallend: veel Sranantongo-woorden gaan zelf terug op het Nederlands — boro < boren, yūrū < huren, morsū < morsen — en bereikten het Sarnami dus via een omweg.",
-        "relatedVocab": ["loan-don", "loan-boro", "loan-yuru"]
+        "relatedVocab": [
+          "loan-don",
+          "loan-boro",
+          "loan-yuru"
+        ]
       },
       {
         "id": "gn-loan-other-2",
         "title": "Nieuwvormingen en volksetymologie",
         "body": "Sommige ontleningen zijn zo volledig aangepast aan de Sarnami-werkwoordstructuur dat ze nauwelijks nog als leenwoord herkenbaar zijn en geen kare/hove meer nodig hebben: lĕsiyāī (luieren, van het Eng. 'lazy' via het Sranan lesi) en sĕtiyāve (ordenen, van het Eng. 'to set' via seti). Verwant is girmiṭ (van 'agreement'), een bekend voorbeeld van volksetymologie.",
-        "relatedVocab": ["loan-lesiyai", "loan-setiyave"]
+        "relatedVocab": [
+          "loan-lesiyai",
+          "loan-setiyave"
+        ]
       }
     ],
     "exercises": {
@@ -112,21 +301,68 @@
           "huren"
         ],
         "optionTranslations": [
-          { "nl": "luieren", "en": "to laze" },
-          { "nl": "ordenen", "en": "to arrange" },
-          { "nl": "strijken", "en": "to iron" },
-          { "nl": "huren", "en": "to rent" }
+          {
+            "nl": "luieren",
+            "en": "to laze"
+          },
+          {
+            "nl": "ordenen",
+            "en": "to arrange"
+          },
+          {
+            "nl": "strijken",
+            "en": "to iron"
+          },
+          {
+            "nl": "huren",
+            "en": "to rent"
+          }
         ],
         "correctIndex": 0
       },
       "other-e3": {
         "kind": "matching",
         "pairs": [
-          { "left": "lās kare", "right": "verliezen", "rightTranslations": { "nl": "verliezen", "en": "to lose" } },
-          { "left": "boro kare", "right": "boren", "rightTranslations": { "nl": "boren", "en": "to drill" } },
-          { "left": "yūrū kare", "right": "huren", "rightTranslations": { "nl": "huren", "en": "to rent" } },
-          { "left": "trīkī kare", "right": "strijken", "rightTranslations": { "nl": "strijken", "en": "to iron" } },
-          { "left": "sĕtiyāve", "right": "ordenen", "rightTranslations": { "nl": "ordenen", "en": "to arrange" } }
+          {
+            "left": "lās kare",
+            "right": "verliezen",
+            "rightTranslations": {
+              "nl": "verliezen",
+              "en": "to lose"
+            }
+          },
+          {
+            "left": "boro kare",
+            "right": "boren",
+            "rightTranslations": {
+              "nl": "boren",
+              "en": "to drill"
+            }
+          },
+          {
+            "left": "yūrū kare",
+            "right": "huren",
+            "rightTranslations": {
+              "nl": "huren",
+              "en": "to rent"
+            }
+          },
+          {
+            "left": "trīkī kare",
+            "right": "strijken",
+            "rightTranslations": {
+              "nl": "strijken",
+              "en": "to iron"
+            }
+          },
+          {
+            "left": "sĕtiyāve",
+            "right": "ordenen",
+            "rightTranslations": {
+              "nl": "ordenen",
+              "en": "to arrange"
+            }
+          }
         ]
       }
     }
@@ -154,25 +390,77 @@
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "bel kare", "right": "opbellen", "rightTranslations": { "nl": "opbellen", "en": "to call up" } },
-          { "left": "boro kare", "right": "boren", "rightTranslations": { "nl": "boren", "en": "to drill" } },
-          { "left": "don kare", "right": "afmaken", "rightTranslations": { "nl": "afmaken", "en": "to finish" } },
-          { "left": "lĕsiyāī", "right": "luieren", "rightTranslations": { "nl": "luieren", "en": "to laze" } },
-          { "left": "būṭū bhare", "right": "een boete betalen", "rightTranslations": { "nl": "een boete betalen", "en": "to pay a fine" } }
+          {
+            "left": "bel kare",
+            "right": "opbellen",
+            "rightTranslations": {
+              "nl": "opbellen",
+              "en": "to call up"
+            }
+          },
+          {
+            "left": "boro kare",
+            "right": "boren",
+            "rightTranslations": {
+              "nl": "boren",
+              "en": "to drill"
+            }
+          },
+          {
+            "left": "don kare",
+            "right": "afmaken",
+            "rightTranslations": {
+              "nl": "afmaken",
+              "en": "to finish"
+            }
+          },
+          {
+            "left": "lĕsiyāī",
+            "right": "luieren",
+            "rightTranslations": {
+              "nl": "luieren",
+              "en": "to laze"
+            }
+          },
+          {
+            "left": "būṭū bhare",
+            "right": "een boete betalen",
+            "rightTranslations": {
+              "nl": "een boete betalen",
+              "en": "to pay a fine"
+            }
+          }
         ]
       },
       "rev-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Hoe zeg je 'kloppen' (leenwoord met het hulpwerkwoord voor de bedrijvende vorm)?", "en": "How do you say 'to knock' (loanword with the auxiliary verb for the active form)?" },
-        "correctTargetTokens": ["klop", "kare"],
-        "distractorTokens": ["hove", "bel"]
+        "promptTranslations": {
+          "nl": "Hoe zeg je 'kloppen' (leenwoord met het hulpwerkwoord voor de bedrijvende vorm)?",
+          "en": "How do you say 'to knock' (loanword with the auxiliary verb for the active form)?"
+        },
+        "correctTargetTokens": [
+          "klop",
+          "kare"
+        ],
+        "distractorTokens": [
+          "hove",
+          "bel"
+        ]
       },
       "rev-e5": {
         "kind": "fill-blank",
         "sentenceTemplate": "'Huren' heet in het Sarnami ___ kare.",
         "correctAnswer": "yūrū",
-        "options": ["yūrū", "boro", "trīkī", "morsū"],
-        "translations": { "nl": "'Huren' heet in het Sarnami yūrū kare.", "en": "'To rent' in Sarnami is yūrū kare." }
+        "options": [
+          "yūrū",
+          "boro",
+          "trīkī",
+          "morsū"
+        ],
+        "translations": {
+          "nl": "'Huren' heet in het Sarnami yūrū kare.",
+          "en": "'To rent' in Sarnami is yūrū kare."
+        }
       },
       "rev-e7": {
         "kind": "multiple-choice",

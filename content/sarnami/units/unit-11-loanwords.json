@@ -53,7 +53,15 @@
           "contentRef": "dutch-e3"
         }
       ],
-      "xpReward": 10
+      "xpReward": 10,
+      "exampleSentenceRefs": [
+        "ex-dutch-1",
+        "ex-dutch-2",
+        "ex-dutch-3",
+        "ex-dutch-4",
+        "ex-dutch-5",
+        "ex-dutch-6"
+      ]
     },
     {
       "id": "unit-11-loanwords-other",
@@ -99,7 +107,13 @@
           "contentRef": "other-e3"
         }
       ],
-      "xpReward": 10
+      "xpReward": 10,
+      "exampleSentenceRefs": [
+        "ex-other-1",
+        "ex-other-2",
+        "ex-other-3",
+        "ex-other-4"
+      ]
     },
     {
       "id": "unit-11-loanwords-review",
