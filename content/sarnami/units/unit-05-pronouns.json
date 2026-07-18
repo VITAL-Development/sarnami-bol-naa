@@ -3,8 +3,8 @@
   "title": "Voornaamwoorden",
   "titleTranslations": { "nl": "Voornaamwoorden", "en": "Pronouns" },
   "description": "Bezittelijke, aanwijzende, vragende en betrekkelijke voornaamwoorden.",
-  "order": 5,
-  "cefrLevel": "A2",
+  "order": 6,
+  "cefrLevel": "B1",
   "bookChapterRef": "Sarnami Byākaran (Marhé, 1985) — authored_docs/byakaran/03-pronouns.md",
   "lessons": [
     {
