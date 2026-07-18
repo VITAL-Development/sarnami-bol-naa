@@ -12,15 +12,17 @@
           "struct-en",
           "noun-bhai",
           "noun-bahin",
-          "noun-ghar"
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
           "noun-bhai",
           "struct-en",
           "noun-bahin",
           "noun-ghar",
-          null,
-          null
+          "post-mem",
+          "gram-hai"
         ]
       },
       {
@@ -33,14 +35,15 @@
           "struct-maar",
           "pron-u",
           "adj-chota",
-          "adj-barhimya"
+          "adj-barhimya",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
           "pron-u",
           "adj-chota",
           "struct-maar",
           "adj-barhimya",
-          null
+          "gram-hai"
         ]
       },
       {
@@ -53,7 +56,9 @@
           "conj-zowel-als",
           "noun-bhai",
           "noun-bahin",
-          "noun-ghar"
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
           "conj-zowel-als",
@@ -62,8 +67,8 @@
           "noun-bahin",
           null,
           "noun-ghar",
-          null,
-          null
+          "post-mem",
+          "gram-hai"
         ]
       },
       {
@@ -256,17 +261,19 @@
           "struct-dat",
           "pron-ham",
           "pron-u",
-          "noun-ghar"
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
           "pron-ham",
           null,
-          null,
+          "gram-hai",
           "struct-dat",
           "pron-u",
           "noun-ghar",
-          null,
-          null
+          "post-mem",
+          "gram-hai"
         ]
       },
       {
