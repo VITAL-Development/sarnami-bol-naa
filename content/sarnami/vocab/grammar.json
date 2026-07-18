@@ -163,5 +163,34 @@
     },
     "notes": "Bhojpuri-vorm van 'zijn' (naast bāṭe, bā(-y)), gebruikt in de rest van Suriname naast de Nickerie-vorm hai. Uit het boek §9.2.1.1.",
     "tags": ["grammar", "verb", "book", "needs-verification"]
+  },
+  {
+    "id": "gram-hove",
+    "word": "hove",
+    "translations": {
+      "nl": "worden / gebeuren",
+      "en": "to become / to happen"
+    },
+    "notes": "Citeervorm van het werkwoord dat 'worden'/'gebeuren' uitdrukt (onderscheiden van hai/hove als koppelwerkwoord 'zijn'). Toekomende tijd 3e persoon enkelvoud: hoī (-gā) — bv. bariś hoī 'het zal regenen'.",
+    "tags": [
+      "grammar",
+      "verb",
+      "book",
+      "needs-verification"
+    ]
+  },
+  {
+    "id": "gram-sab",
+    "word": "sab",
+    "translations": {
+      "nl": "allemaal",
+      "en": "all"
+    },
+    "notes": "Verzamelend/meervoudig woordje, los van de overtreffende trap sab se. Voorbeeld: sab ghar meṁ hai (allemaal thuis zijn).",
+    "tags": [
+      "grammar",
+      "book",
+      "needs-verification"
+    ]
   }
 ]

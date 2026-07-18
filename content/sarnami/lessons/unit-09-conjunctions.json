@@ -58,14 +58,15 @@
           "noun-bahin",
           "noun-ghar",
           "post-mem",
-          "gram-hai"
+          "gram-hai",
+          "gram-sab"
         ],
         "tokenVocabRefs": [
           "conj-zowel-als",
           "noun-bhai",
           "conj-zowel-als",
           "noun-bahin",
-          null,
+          "gram-sab",
           "noun-ghar",
           "post-mem",
           "gram-hai"
@@ -81,7 +82,17 @@
           "struct-of",
           "noun-bhai",
           "noun-bahin",
-          "noun-ghar"
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-bhai",
+          "struct-of",
+          "noun-bahin",
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
         ]
       },
       {
@@ -94,7 +105,21 @@
           "conj-ofwel",
           "noun-bhai",
           "noun-bahin",
-          "noun-ghar"
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-bhai",
+          "noun-ghar",
+          "post-mem",
+          "gram-hai",
+          "conj-ofwel",
+          "conj-ofwel",
+          "noun-bahin",
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
         ]
       },
       {
@@ -107,7 +132,18 @@
           "conj-noch-noch",
           "noun-bhai",
           "noun-bahin",
-          "noun-ghar"
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "conj-noch-noch",
+          "noun-bhai",
+          "conj-noch-noch",
+          "noun-bahin",
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
         ]
       },
       {
@@ -120,7 +156,15 @@
           "struct-en",
           "noun-ghora",
           "adj-barka",
-          "adj-lamma"
+          "adj-lamma",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-ghora",
+          "adj-barka",
+          "struct-en",
+          "adj-lamma",
+          "gram-hai"
         ]
       },
       {
@@ -133,7 +177,15 @@
           "struct-maar",
           "noun-kutta",
           "adj-karikka",
-          "adj-barhimya"
+          "adj-barhimya",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-kutta",
+          "adj-karikka",
+          "struct-maar",
+          "adj-barhimya",
+          "gram-hai"
         ]
       }
     ],
@@ -211,7 +263,15 @@
         "translations": {
           "nl": "Broer en zus zijn thuis.",
           "en": "Brother and sister are at home."
-        }
+        },
+        "tokenVocabRefs": [
+          "noun-bhai",
+          "struct-en",
+          "noun-bahin",
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
+        ]
       },
       "c1-e3": {
         "kind": "word-bank",
@@ -263,12 +323,13 @@
           "pron-u",
           "noun-ghar",
           "post-mem",
-          "gram-hai"
+          "gram-hai",
+          "gram-hai-aux"
         ],
         "tokenVocabRefs": [
           "pron-ham",
           null,
-          "gram-hai",
+          "gram-hai-aux",
           "struct-dat",
           "pron-u",
           "noun-ghar",
@@ -285,15 +346,17 @@
         "vocabRefs": [
           "struct-als",
           "gram-na",
-          "pron-ham"
+          "pron-ham",
+          "gram-hove",
+          "verb-ave"
         ],
         "tokenVocabRefs": [
           "struct-als",
           null,
-          null,
+          "gram-hove",
           "pron-ham",
           "gram-na",
-          null
+          "verb-ave"
         ]
       },
       {
@@ -305,17 +368,19 @@
         "vocabRefs": [
           "struct-omdat",
           "pron-u",
-          "gram-na"
+          "gram-na",
+          "verb-ave",
+          "gram-raha-aux"
         ],
         "tokenVocabRefs": [
           "pron-u",
           "gram-na",
-          null,
+          "verb-ave",
           "struct-omdat",
           "struct-omdat",
           "pron-u",
           null,
-          null
+          "gram-raha-aux"
         ]
       },
       {
@@ -328,7 +393,18 @@
           "conj-zodat",
           "pron-u",
           "gram-na",
-          "pron-ham"
+          "pron-ham",
+          "gram-raha-aux",
+          "verb-ave"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          null,
+          "gram-raha-aux",
+          "conj-zodat",
+          "pron-ham",
+          "gram-na",
+          "verb-ave"
         ]
       },
       {
@@ -341,7 +417,20 @@
           "conj-ookal",
           "pron-u",
           "pron-ham",
-          "noun-ghar"
+          "noun-ghar",
+          "gram-raha-aux",
+          "post-mem",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "conj-ookal",
+          "pron-u",
+          null,
+          "gram-raha-aux",
+          "pron-ham",
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
         ]
       },
       {
@@ -355,7 +444,21 @@
           "pron-u",
           "noun-ghar",
           "pron-ham",
-          "gram-na"
+          "gram-na",
+          "post-mem",
+          "gram-hai",
+          "verb-ave"
+        ],
+        "tokenVocabRefs": [
+          "conj-zolang",
+          "conj-zolang",
+          "pron-u",
+          "noun-ghar",
+          "post-mem",
+          "gram-hai",
+          "pron-ham",
+          "gram-na",
+          "verb-ave"
         ]
       },
       {
@@ -369,7 +472,20 @@
           "noun-bhai",
           "noun-ghar",
           "pron-ham",
-          "adj-barhimya"
+          "adj-barhimya",
+          "post-mem",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "struct-sinds",
+          "struct-sinds",
+          "noun-bhai",
+          "noun-ghar",
+          "post-mem",
+          "gram-hai",
+          "pron-ham",
+          "adj-barhimya",
+          "gram-hai"
         ]
       },
       {
@@ -381,7 +497,18 @@
         "vocabRefs": [
           "struct-omdat",
           "pron-ham",
-          "gram-na"
+          "gram-na",
+          "verb-ave",
+          "gram-hove"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          "gram-na",
+          "verb-ave",
+          "struct-omdat",
+          "struct-omdat",
+          null,
+          "gram-hove"
         ]
       },
       {
@@ -396,7 +523,20 @@
           "pron-u",
           "struct-maar",
           "adj-chota",
-          "adj-barhimya"
+          "adj-barhimya",
+          "gram-hai",
+          "gram-hai-aux"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          null,
+          "gram-hai-aux",
+          "struct-dat",
+          "pron-u",
+          "adj-chota",
+          "struct-maar",
+          "adj-barhimya",
+          "gram-hai"
         ]
       },
       {
@@ -410,7 +550,25 @@
           "pron-ham",
           "pron-u",
           "struct-omdat",
-          "gram-na"
+          "gram-na",
+          "gram-hai",
+          "verb-ave",
+          "gram-raha-aux",
+          "gram-hai-aux"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          null,
+          "gram-hai-aux",
+          "struct-dat",
+          "pron-u",
+          "gram-na",
+          "verb-ave",
+          "struct-omdat",
+          "struct-omdat",
+          "pron-u",
+          null,
+          "gram-raha-aux"
         ]
       }
     ],
@@ -500,7 +658,17 @@
         "translations": {
           "nl": "Ik weet dat hij thuis is.",
           "en": "I know that he is at home."
-        }
+        },
+        "tokenVocabRefs": [
+          "pron-ham",
+          null,
+          "gram-hai-aux",
+          "struct-dat",
+          "pron-u",
+          "noun-ghar",
+          "post-mem",
+          "gram-hai"
+        ]
       },
       "c2-e3": {
         "kind": "word-bank",
@@ -636,7 +804,16 @@
         "translations": {
           "nl": "Hij kwam niet, omdat hij ziek was.",
           "en": "He didn't come, because he was ill."
-        }
+        },
+        "tokenVocabRefs": [
+          "pron-u",
+          "gram-na",
+          "verb-ave",
+          "struct-omdat",
+          "pron-u",
+          null,
+          "gram-raha-aux"
+        ]
       }
     }
   }
