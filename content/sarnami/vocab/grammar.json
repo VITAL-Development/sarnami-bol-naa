@@ -153,5 +153,15 @@
     },
     "notes": "Rahā (en de vorm rahe) hoort achter een ander werkwoord. Samen vormen ze de voltooid verleden tijd: 'had gedaan'. Bijvoorbeeld: nā samajhle rahā (had niet begrepen).",
     "tags": ["grammar"]
+  },
+  {
+    "id": "gram-bati",
+    "word": "bāṭī",
+    "translations": {
+      "nl": "ben / heb (bestaan)",
+      "en": "am / have (existential)"
+    },
+    "notes": "Bhojpuri-vorm van 'zijn' (naast bāṭe, bā(-y)), gebruikt in de rest van Suriname naast de Nickerie-vorm hai. Uit het boek §9.2.1.1.",
+    "tags": ["grammar", "verb", "book", "needs-verification"]
   }
 ]

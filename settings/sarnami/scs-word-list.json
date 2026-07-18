@@ -5,8 +5,8 @@
   "source": "content/sarnami/vocab/*.json (word tokens, mechanically transliterated to SCS via scripts/scs-transliterate.mjs)",
   "notes": "Word-level SCS-plain-Latin -> canonical-diacritical dictionary for the first pass of sarnami-bol-naa#244's combined input flow (dictionary lookup first, settings/sarnami/transliteration-rules.json digraph rule table as fallback for anything not listed here). `ambiguous: true` means more than one canonical spelling collapses to the same SCS spelling (e.g. n/ṇ/ñ/ṅ/ṁ all fold to plain \"n\") — a consuming widget must surface these as an inline choice, never silently pick one, per the issue's step 3. `sourceIds` cites a content/sarnami/vocab id per canonical spelling for traceability, not a scoring signal. This file's coverage is bounded to today's vocab bank — new coinages/names fall through to the rule table until vocab grows.",
   "stats": {
-    "totalEntries": 252,
-    "ambiguousEntries": 2
+    "totalEntries": 272,
+    "ambiguousEntries": 3
   },
   "entries": [
     {
@@ -80,6 +80,16 @@
       ]
     },
     {
+      "scs": "angutthi",
+      "canonical": [
+        "aṅguṭṭhī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-anguthi"
+      ]
+    },
+    {
       "scs": "ap",
       "canonical": [
         "āp"
@@ -116,7 +126,7 @@
       ],
       "ambiguous": false,
       "sourceIds": [
-        "gram-aur-compare"
+        "conj-aur"
       ]
     },
     {
@@ -157,6 +167,16 @@
       "ambiguous": false,
       "sourceIds": [
         "int-aya"
+      ]
+    },
+    {
+      "scs": "ba",
+      "canonical": [
+        "bā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "gram-ba"
       ]
     },
     {
@@ -290,6 +310,26 @@
       ]
     },
     {
+      "scs": "bati",
+      "canonical": [
+        "bāṭī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "gram-bati"
+      ]
+    },
+    {
+      "scs": "batiya",
+      "canonical": [
+        "batiyā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-batiya"
+      ]
+    },
+    {
       "scs": "becain",
       "canonical": [
         "becain"
@@ -297,6 +337,16 @@
       "ambiguous": false,
       "sourceIds": [
         "wf-becain"
+      ]
+    },
+    {
+      "scs": "bed",
+      "canonical": [
+        "bed"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-bed"
       ]
     },
     {
@@ -610,6 +660,16 @@
       ]
     },
     {
+      "scs": "dai",
+      "canonical": [
+        "dai"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-dai"
+      ]
+    },
+    {
       "scs": "dar",
       "canonical": [
         "ḍar"
@@ -830,6 +890,16 @@
       ]
     },
     {
+      "scs": "ghans",
+      "canonical": [
+        "ghāṁs"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-ghams"
+      ]
+    },
+    {
       "scs": "ghar",
       "canonical": [
         "ghar"
@@ -887,6 +957,26 @@
       "ambiguous": false,
       "sourceIds": [
         "about-girmit"
+      ]
+    },
+    {
+      "scs": "go",
+      "canonical": [
+        "go"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "gram-go"
+      ]
+    },
+    {
+      "scs": "gopal",
+      "canonical": [
+        "gopāl"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-gopal"
       ]
     },
     {
@@ -967,6 +1057,16 @@
       "ambiguous": false,
       "sourceIds": [
         "adv-hardam"
+      ]
+    },
+    {
+      "scs": "hath",
+      "canonical": [
+        "hāth"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-hath"
       ]
     },
     {
@@ -1367,6 +1467,16 @@
       "ambiguous": false,
       "sourceIds": [
         "verb-khai"
+      ]
+    },
+    {
+      "scs": "khartin",
+      "canonical": [
+        "khartin"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-khartin"
       ]
     },
     {
@@ -1864,6 +1974,16 @@
       ]
     },
     {
+      "scs": "pakare",
+      "canonical": [
+        "pakaṛe"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-pakare"
+      ]
+    },
+    {
       "scs": "paṃc",
       "canonical": [
         "pāṃc"
@@ -1871,6 +1991,16 @@
       "ambiguous": false,
       "sourceIds": [
         "num-panc"
+      ]
+    },
+    {
+      "scs": "pani",
+      "canonical": [
+        "pānī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-pani"
       ]
     },
     {
@@ -1944,6 +2074,16 @@
       ]
     },
     {
+      "scs": "phal",
+      "canonical": [
+        "phal"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-phal"
+      ]
+    },
+    {
       "scs": "pharyam",
       "canonical": [
         "pharyam"
@@ -1981,6 +2121,16 @@
       "ambiguous": false,
       "sourceIds": [
         "post-ke-piche"
+      ]
+    },
+    {
+      "scs": "pithi",
+      "canonical": [
+        "pīṭhī"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-pithi"
       ]
     },
     {
@@ -2024,13 +2174,35 @@
       ]
     },
     {
-      "scs": "ram",
+      "scs": "raha",
       "canonical": [
-        "rām"
+        "rahā"
       ],
       "ambiguous": false,
       "sourceIds": [
-        "greet-ram-ram"
+        "gram-raha-aux"
+      ]
+    },
+    {
+      "scs": "raja",
+      "canonical": [
+        "rajā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-raja"
+      ]
+    },
+    {
+      "scs": "ram",
+      "canonical": [
+        "ram",
+        "rām"
+      ],
+      "ambiguous": true,
+      "sourceIds": [
+        "greet-ram-ram",
+        "noun-ram"
       ]
     },
     {
@@ -2081,6 +2253,16 @@
       "ambiguous": false,
       "sourceIds": [
         "verb-rove"
+      ]
+    },
+    {
+      "scs": "rustam",
+      "canonical": [
+        "rustam"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-rustam"
       ]
     },
     {
@@ -2241,6 +2423,16 @@
       "ambiguous": false,
       "sourceIds": [
         "verb-sikhe"
+      ]
+    },
+    {
+      "scs": "sita",
+      "canonical": [
+        "sitā"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "noun-sita"
       ]
     },
     {
@@ -2431,6 +2623,16 @@
       "ambiguous": false,
       "sourceIds": [
         "pron-tu"
+      ]
+    },
+    {
+      "scs": "turle",
+      "canonical": [
+        "ṭurle"
+      ],
+      "ambiguous": false,
+      "sourceIds": [
+        "verb-turle"
       ]
     },
     {

@@ -5,47 +5,205 @@
       {
         "id": "ex-p1-1",
         "word": "Bed meṁ ham ī batiyā parhle bāṭī.",
-        "translations": { "nl": "Ik heb dit in de Veda's gelezen." },
-        "vocabRefs": ["post-mem"]
+        "translations": {
+          "nl": "Ik heb dit in de Veda's gelezen."
+        },
+        "vocabRefs": [
+          "post-mem",
+          "pron-ham",
+          "pron-i",
+          "noun-bed",
+          "noun-batiya",
+          "verb-parhe",
+          "gram-bati"
+        ],
+        "tokenVocabRefs": [
+          "noun-bed",
+          "post-mem",
+          "pron-ham",
+          "pron-i",
+          "noun-batiya",
+          "verb-parhe",
+          "gram-bati"
+        ]
       },
       {
         "id": "ex-p1-2",
         "word": "Ham ghar ke bhittar bāṭī.",
-        "translations": { "nl": "Ik ben binnen in huis." },
-        "vocabRefs": ["post-ke-bhittar", "noun-ghar", "pron-ham"]
+        "translations": {
+          "nl": "Ik ben binnen in huis."
+        },
+        "vocabRefs": [
+          "post-ke-bhittar",
+          "noun-ghar",
+          "pron-ham",
+          "gram-bati"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          "noun-ghar",
+          "post-ke-bhittar",
+          "post-ke-bhittar",
+          "gram-bati"
+        ]
       },
       {
         "id": "ex-p1-3",
         "word": "Ū ghar ke bāhar hai.",
-        "translations": { "nl": "Hij is buiten het huis." },
-        "vocabRefs": ["post-ke-bahar", "noun-ghar", "pron-u"]
+        "translations": {
+          "nl": "Hij is buiten het huis."
+        },
+        "vocabRefs": [
+          "post-ke-bahar",
+          "noun-ghar",
+          "pron-u",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "noun-ghar",
+          "post-ke-bahar",
+          "post-ke-bahar",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-p1-4",
+        "word": "Ām peṛ par hai.",
+        "translations": {
+          "nl": "De mango is aan de boom.",
+          "en": "The mango is on the tree."
+        },
+        "vocabRefs": [
+          "post-par",
+          "noun-am",
+          "noun-per",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-am",
+          "noun-per",
+          "post-par",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-p1-6",
+        "word": "Peṛ ghar ke uppar hai.",
+        "translations": {
+          "nl": "De boom staat boven het huis.",
+          "en": "The tree is above the house."
+        },
+        "vocabRefs": [
+          "post-ke-uppar",
+          "noun-per",
+          "noun-ghar",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-per",
+          "noun-ghar",
+          "post-ke-uppar",
+          "post-ke-uppar",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-p1-7",
+        "word": "Kuttā ghar ke nicce hai.",
+        "translations": {
+          "nl": "De hond is onder het huis.",
+          "en": "The dog is under the house."
+        },
+        "vocabRefs": [
+          "post-ke-nicce",
+          "noun-kutta",
+          "noun-ghar",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-kutta",
+          "noun-ghar",
+          "post-ke-nicce",
+          "post-ke-nicce",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-p1-8",
+        "word": "Apane bāp se ī batiyā bol diye.",
+        "translations": {
+          "nl": "Je moet dit aan je vader vertellen.",
+          "en": "You must tell this to your father."
+        },
+        "vocabRefs": [
+          "post-se"
+        ]
+      },
+      {
+        "id": "ex-p1-9",
+        "word": "Ām ghar ke bhittar hai.",
+        "translations": {
+          "nl": "De mango is binnen in het huis.",
+          "en": "The mango is inside the house."
+        },
+        "vocabRefs": [
+          "post-ke-bhittar",
+          "noun-am",
+          "noun-ghar",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-am",
+          "noun-ghar",
+          "post-ke-bhittar",
+          "post-ke-bhittar",
+          "gram-hai"
+        ]
       }
     ],
     "grammarNotes": [
       {
         "id": "gn-post-1",
         "title": "Achterzetsel, geen voorzetsel",
-        "body": "Het Sarnami plaatst het achterzetsel ACHTER het woord waar het bij hoort — anders dan het Nederlands, dat een voorzetsel ervóór zet. Zo wordt 'in huis' letterlijk 'huis in': ghar meṁ. En 'op het huis' wordt ghar par. Onthoud dus: eerst het naam- of voornaamwoord, dan het achterzetsel.",
-        "relatedVocab": ["post-mem", "post-par", "noun-ghar"]
+        "body": "Het Sarnami plaatst het achterzetsel ACHTER het woord. Het Nederlands doet dat anders: daar komt het voorzetsel VÓÓR het woord. Zo wordt 'in huis' letterlijk 'huis in': ghar meṁ. En 'op het huis' wordt ghar par. Onthoud dus: eerst het naam- of voornaamwoord, dan het achterzetsel.",
+        "relatedVocab": [
+          "post-mem",
+          "post-par",
+          "noun-ghar"
+        ]
       },
       {
         "id": "gn-post-2",
         "title": "De primaire achterzetsels",
         "body": "Er zijn vier korte, primaire achterzetsels: meṁ (in), se (met, door, uit, aan), par of pe (op) en ke (van, aan). Ze bestaan uit één woordje en staan direct achter het naamwoord. Het achterzetsel se is bijzonder veelzijdig en dekt meerdere Nederlandse voorzetsels tegelijk.",
-        "relatedVocab": ["post-mem", "post-se", "post-par", "post-ke"]
+        "relatedVocab": [
+          "post-mem",
+          "post-se",
+          "post-par",
+          "post-ke"
+        ]
       },
       {
         "id": "gn-post-3",
         "title": "Samengestelde achterzetsels met ke",
-        "body": "Naast de primaire achterzetsels bestaan er samengestelde vormen die met ke worden gebouwd: ke uppar (boven), ke nicce (onder), ke bhittar (binnen), ke bāhar (buiten). Ze geven vaak een plaats aan. Soms kan de ke wegvallen, maar in de standaardvorm staat hij er wel: ghar ke uppar (boven het huis).",
-        "relatedVocab": ["post-ke-uppar", "post-ke-nicce", "post-ke-bhittar", "post-ke-bahar"]
+        "body": "Er bestaan ook samengestelde achterzetsels. Je bouwt ze met ke: ke uppar (boven), ke nicce (onder), ke bhittar (binnen), ke bāhar (buiten). Ze geven vaak een plaats aan. Soms valt de ke weg. In de standaardvorm staat hij er wel: ghar ke uppar (boven het huis).",
+        "relatedVocab": [
+          "post-ke-uppar",
+          "post-ke-nicce",
+          "post-ke-bhittar",
+          "post-ke-bahar"
+        ]
       }
     ],
     "exercises": {
       "com-e1": {
         "kind": "multiple-choice",
         "prompt": "Waar staat het achterzetsel in het Sarnami?",
-        "promptTranslations": { "nl": "Waar staat het achterzetsel in het Sarnami?", "en": "Where does the postposition go in Sarnami?" },
+        "promptTranslations": {
+          "nl": "Waar staat het achterzetsel in het Sarnami?",
+          "en": "Where does the postposition go in Sarnami?"
+        },
         "options": [
           "achter het woord waar het bij hoort",
           "vóór het woord, net als in het Nederlands",
@@ -53,35 +211,111 @@
           "het Sarnami kent geen achterzetsels"
         ],
         "optionTranslations": [
-          { "nl": "achter het woord waar het bij hoort", "en": "after the word it belongs to" },
-          { "nl": "vóór het woord, net als in het Nederlands", "en": "before the word, just like in Dutch" },
-          { "nl": "altijd aan het begin van de zin", "en": "always at the beginning of the sentence" },
-          { "nl": "het Sarnami kent geen achterzetsels", "en": "Sarnami has no postpositions" }
+          {
+            "nl": "achter het woord waar het bij hoort",
+            "en": "after the word it belongs to"
+          },
+          {
+            "nl": "vóór het woord, net als in het Nederlands",
+            "en": "before the word, just like in Dutch"
+          },
+          {
+            "nl": "altijd aan het begin van de zin",
+            "en": "always at the beginning of the sentence"
+          },
+          {
+            "nl": "het Sarnami kent geen achterzetsels",
+            "en": "Sarnami has no postpositions"
+          }
         ],
         "correctIndex": 0
       },
       "com-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "meṁ", "right": "in", "rightTranslations": { "nl": "in", "en": "in" } },
-          { "left": "se", "right": "met, door", "rightTranslations": { "nl": "met, door", "en": "with, by" } },
-          { "left": "par", "right": "op", "rightTranslations": { "nl": "op", "en": "on" } },
-          { "left": "ke uppar", "right": "boven", "rightTranslations": { "nl": "boven", "en": "above" } },
-          { "left": "ke nicce", "right": "onder", "rightTranslations": { "nl": "onder", "en": "under" } }
+          {
+            "left": "meṁ",
+            "right": "in",
+            "rightTranslations": {
+              "nl": "in",
+              "en": "in"
+            }
+          },
+          {
+            "left": "se",
+            "right": "met, door",
+            "rightTranslations": {
+              "nl": "met, door",
+              "en": "with, by"
+            }
+          },
+          {
+            "left": "par",
+            "right": "op",
+            "rightTranslations": {
+              "nl": "op",
+              "en": "on"
+            }
+          },
+          {
+            "left": "ke uppar",
+            "right": "boven",
+            "rightTranslations": {
+              "nl": "boven",
+              "en": "above"
+            }
+          },
+          {
+            "left": "ke nicce",
+            "right": "onder",
+            "rightTranslations": {
+              "nl": "onder",
+              "en": "under"
+            }
+          }
         ]
       },
       "com-e3": {
         "kind": "fill-blank",
         "sentenceTemplate": "Bed ___ ham ī batiyā parhle bāṭī.",
         "correctAnswer": "meṁ",
-        "options": ["meṁ", "se", "par", "ke"],
-        "translations": { "nl": "Ik heb dit in de Veda's gelezen.", "en": "I have read this in the Vedas." }
+        "options": [
+          "meṁ",
+          "se",
+          "par",
+          "ke"
+        ],
+        "translations": {
+          "nl": "Ik heb dit in de Veda's gelezen.",
+          "en": "I have read this in the Vedas."
+        },
+        "tokenVocabRefs": [
+          "noun-bed",
+          "post-mem",
+          "pron-ham",
+          "pron-i",
+          "noun-batiya",
+          "verb-parhe",
+          "gram-bati"
+        ]
       },
       "com-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Hij is buiten het huis.", "en": "He is outside the house." },
-        "correctTargetTokens": ["Ū", "ghar", "ke", "bāhar", "hai."],
-        "distractorTokens": ["bhittar", "meṁ"]
+        "promptTranslations": {
+          "nl": "Hij is buiten het huis.",
+          "en": "He is outside the house."
+        },
+        "correctTargetTokens": [
+          "Ū",
+          "ghar",
+          "ke",
+          "bāhar",
+          "hai."
+        ],
+        "distractorTokens": [
+          "bhittar",
+          "meṁ"
+        ]
       }
     }
   },
@@ -91,20 +325,210 @@
       {
         "id": "ex-p2-1",
         "word": "Tor binā ham na jāb.",
-        "translations": { "nl": "Zonder jou ga ik niet." },
-        "vocabRefs": ["post-ke-bina", "pron-tu", "pron-ham"]
+        "translations": {
+          "nl": "Zonder jou ga ik niet."
+        },
+        "vocabRefs": [
+          "post-ke-bina",
+          "pron-tu",
+          "pron-ham",
+          "gram-na",
+          "verb-jai"
+        ],
+        "tokenVocabRefs": [
+          "pron-tu",
+          "post-ke-bina",
+          "pron-ham",
+          "gram-na",
+          "verb-jai"
+        ]
       },
       {
         "id": "ex-p2-2",
         "word": "Ham tor sāth jāb.",
-        "translations": { "nl": "Ik ga samen met jou." },
-        "vocabRefs": ["post-ke-sath", "pron-tu", "pron-ham"]
+        "translations": {
+          "nl": "Ik ga samen met jou."
+        },
+        "vocabRefs": [
+          "post-ke-sath",
+          "pron-tu",
+          "pron-ham",
+          "verb-jai"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          "pron-tu",
+          "post-ke-sath",
+          "verb-jai"
+        ]
       },
       {
         "id": "ex-p2-3",
         "word": "Ŏkare hāthe meṁ chūrī rahā.",
-        "translations": { "nl": "Hij had een mes in zijn hand." },
-        "vocabRefs": ["post-mem"]
+        "translations": {
+          "nl": "Hij had een mes in zijn hand."
+        },
+        "vocabRefs": [
+          "post-mem",
+          "pron-okar",
+          "noun-churi",
+          "gram-raha-aux",
+          "noun-hath"
+        ],
+        "tokenVocabRefs": [
+          "pron-okar",
+          "noun-hath",
+          "post-mem",
+          "noun-churi",
+          "gram-raha-aux"
+        ]
+      },
+      {
+        "id": "ex-p2-4",
+        "word": "Ekar binā ham na jāb.",
+        "translations": {
+          "nl": "Zonder hem/haar (dichtbij) ga ik niet.",
+          "en": "Without him/her (nearby) I will not go."
+        },
+        "vocabRefs": [
+          "post-ke-bina",
+          "pron-ekar",
+          "pron-ham",
+          "gram-na",
+          "verb-jai"
+        ],
+        "tokenVocabRefs": [
+          "pron-ekar",
+          "post-ke-bina",
+          "pron-ham",
+          "gram-na",
+          "verb-jai"
+        ]
+      },
+      {
+        "id": "ex-p2-5",
+        "word": "Okar binā ham na jāb.",
+        "translations": {
+          "nl": "Zonder hem/haar (verder weg) ga ik niet.",
+          "en": "Without him/her (further away) I will not go."
+        },
+        "vocabRefs": [
+          "post-ke-bina",
+          "pron-okar",
+          "pron-ham",
+          "gram-na",
+          "verb-jai"
+        ],
+        "tokenVocabRefs": [
+          "pron-okar",
+          "post-ke-bina",
+          "pron-ham",
+          "gram-na",
+          "verb-jai"
+        ]
+      },
+      {
+        "id": "ex-p2-6",
+        "word": "Ham ekar sāth jāb.",
+        "translations": {
+          "nl": "Ik ga samen met hem/haar (dichtbij).",
+          "en": "I will go together with him/her (nearby)."
+        },
+        "vocabRefs": [
+          "post-ke-sath",
+          "pron-ekar",
+          "pron-ham",
+          "verb-jai"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          "pron-ekar",
+          "post-ke-sath",
+          "verb-jai"
+        ]
+      },
+      {
+        "id": "ex-p2-7",
+        "word": "Kuttā ghar ke lage hai.",
+        "translations": {
+          "nl": "De hond is bij het huis.",
+          "en": "The dog is near the house."
+        },
+        "vocabRefs": [
+          "post-ke-lage",
+          "noun-kutta",
+          "noun-ghar",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-kutta",
+          "noun-ghar",
+          "post-ke-lage",
+          "post-ke-lage",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-p2-8",
+        "word": "Kuttā ghar ke āge hai.",
+        "translations": {
+          "nl": "De hond is voor het huis.",
+          "en": "The dog is in front of the house."
+        },
+        "vocabRefs": [
+          "post-ke-age",
+          "noun-kutta",
+          "noun-ghar",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-kutta",
+          "noun-ghar",
+          "post-ke-age",
+          "post-ke-age",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-p2-9",
+        "word": "Kuttā ghar ke piche hai.",
+        "translations": {
+          "nl": "De hond is achter het huis.",
+          "en": "The dog is behind the house."
+        },
+        "vocabRefs": [
+          "post-ke-piche",
+          "noun-kutta",
+          "noun-ghar",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-kutta",
+          "noun-ghar",
+          "post-ke-piche",
+          "post-ke-piche",
+          "gram-hai"
+        ]
+      },
+      {
+        "id": "ex-p2-10",
+        "word": "Ham okar sāth jāb.",
+        "translations": {
+          "nl": "Ik ga samen met hem/haar (verder weg).",
+          "en": "I will go together with him/her (further away)."
+        },
+        "vocabRefs": [
+          "post-ke-sath",
+          "pron-okar",
+          "pron-ham",
+          "verb-jai"
+        ],
+        "tokenVocabRefs": [
+          "pron-ham",
+          "pron-okar",
+          "post-ke-sath",
+          "verb-jai"
+        ]
       }
     ],
     "grammarNotes": [
@@ -112,26 +536,41 @@
         "id": "gn-post-4",
         "title": "Vastzitten aan het zelfstandig naamwoord",
         "body": "Een achterzetsel volgt direct op het naamwoord waar het bij hoort. Bij de samengestelde vormen komt het hele blokje erachter: ghar ke lage (bij het huis), ghar ke āge (vóór het huis), ghar ke piche (achter het huis). De volgorde ligt vast — naamwoord eerst, dan het achterzetsel.",
-        "relatedVocab": ["post-ke-lage", "post-ke-age", "post-ke-piche", "noun-ghar"]
+        "relatedVocab": [
+          "post-ke-lage",
+          "post-ke-age",
+          "post-ke-piche",
+          "noun-ghar"
+        ]
       },
       {
         "id": "gn-post-5",
         "title": "Met voornaamwoorden valt ke weg",
-        "body": "Staat een achterzetsel bij een persoonlijk voornaamwoord (ham, tū, ī, ū), dan neemt dat voornaamwoord de bezittelijke vorm aan en valt de ke weg. Zo wordt 'zonder mij' hamār binā (niet 'ham ke binā'), 'zonder jou' tor binā, en 'zonder hem/haar' ekar binā of okar binā. Hetzelfde patroon geldt voor de andere samengestelde achterzetsels: tor sāth (samen met jou).",
-        "relatedVocab": ["post-ke-bina", "post-ke-sath", "pron-ham", "pron-tu"]
+        "body": "Als een achterzetsel bij een persoonlijk voornaamwoord staat (ham, tū, ī, ū), verandert dat voornaamwoord. Het krijgt dan zijn bezittelijke vorm: de vorm die 'van mij', 'van jou' of 'van hem/haar' betekent. De ke valt daarbij weg. Zo wordt 'zonder mij' hamār binā (niet 'ham ke binā'), 'zonder jou' tor binā, en 'zonder hem/haar' ekar binā of okar binā. Hetzelfde patroon geldt voor de andere samengestelde achterzetsels: tor sāth (samen met jou).",
+        "relatedVocab": [
+          "post-ke-bina",
+          "post-ke-sath",
+          "pron-ham",
+          "pron-tu"
+        ]
       },
       {
         "id": "gn-post-6",
         "title": "De uitgang -e",
-        "body": "Een achterzetsel kan een uitgang -e geven aan het naamwoord dat er direct vóór staat (en aan bijbehorende voornaamwoorden). Zo bestaat naast okar hāth meṁ ook de vorm ŏkare hāthe meṁ (in zijn hand). Deze -e is niet verplicht en mag ook worden weggelaten.",
-        "relatedVocab": ["post-mem"]
+        "body": "Een achterzetsel kan een uitgang -e geven aan het woord dat er direct vóór staat. Dat geldt ook voor het voornaamwoord erbij. Zo bestaat naast okar hāth meṁ ook de vorm ŏkare hāthe meṁ (in zijn hand). Deze -e is niet verplicht. Je mag hem ook weglaten.",
+        "relatedVocab": [
+          "post-mem"
+        ]
       }
     ],
     "exercises": {
       "att-e1": {
         "kind": "multiple-choice",
         "prompt": "Wat gebeurt er met 'ke' als een achterzetsel bij een voornaamwoord staat, zoals in 'zonder mij'?",
-        "promptTranslations": { "nl": "Wat gebeurt er met 'ke' als een achterzetsel bij een voornaamwoord staat, zoals in 'zonder mij'?", "en": "What happens to 'ke' when a postposition is used with a pronoun, as in 'without me'?" },
+        "promptTranslations": {
+          "nl": "Wat gebeurt er met 'ke' als een achterzetsel bij een voornaamwoord staat, zoals in 'zonder mij'?",
+          "en": "What happens to 'ke' when a postposition is used with a pronoun, as in 'without me'?"
+        },
         "options": [
           "ke valt weg en het voornaamwoord wordt bezittelijk: hamār binā",
           "ke blijft altijd staan: ham ke binā",
@@ -139,41 +578,124 @@
           "er verandert helemaal niets"
         ],
         "optionTranslations": [
-          { "nl": "ke valt weg en het voornaamwoord wordt bezittelijk: hamār binā", "en": "ke drops and the pronoun becomes possessive: hamār binā" },
-          { "nl": "ke blijft altijd staan: ham ke binā", "en": "ke always stays: ham ke binā" },
-          { "nl": "het hele achterzetsel verdwijnt", "en": "the whole postposition disappears" },
-          { "nl": "er verandert helemaal niets", "en": "nothing changes at all" }
+          {
+            "nl": "ke valt weg en het voornaamwoord wordt bezittelijk: hamār binā",
+            "en": "ke drops and the pronoun becomes possessive: hamār binā"
+          },
+          {
+            "nl": "ke blijft altijd staan: ham ke binā",
+            "en": "ke always stays: ham ke binā"
+          },
+          {
+            "nl": "het hele achterzetsel verdwijnt",
+            "en": "the whole postposition disappears"
+          },
+          {
+            "nl": "er verandert helemaal niets",
+            "en": "nothing changes at all"
+          }
         ],
         "correctIndex": 0
       },
       "att-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "ke sāth", "right": "(samen) met", "rightTranslations": { "nl": "(samen) met", "en": "(together) with" } },
-          { "left": "ke binā", "right": "zonder", "rightTranslations": { "nl": "zonder", "en": "without" } },
-          { "left": "ke lage", "right": "bij, dichtbij", "rightTranslations": { "nl": "bij, dichtbij", "en": "near, close by" } },
-          { "left": "ke āge", "right": "vóór", "rightTranslations": { "nl": "vóór", "en": "in front of" } },
-          { "left": "ke piche", "right": "achter", "rightTranslations": { "nl": "achter", "en": "behind" } }
+          {
+            "left": "ke sāth",
+            "right": "(samen) met",
+            "rightTranslations": {
+              "nl": "(samen) met",
+              "en": "(together) with"
+            }
+          },
+          {
+            "left": "ke binā",
+            "right": "zonder",
+            "rightTranslations": {
+              "nl": "zonder",
+              "en": "without"
+            }
+          },
+          {
+            "left": "ke lage",
+            "right": "bij, dichtbij",
+            "rightTranslations": {
+              "nl": "bij, dichtbij",
+              "en": "near, close by"
+            }
+          },
+          {
+            "left": "ke āge",
+            "right": "vóór",
+            "rightTranslations": {
+              "nl": "vóór",
+              "en": "in front of"
+            }
+          },
+          {
+            "left": "ke piche",
+            "right": "achter",
+            "rightTranslations": {
+              "nl": "achter",
+              "en": "behind"
+            }
+          }
         ]
       },
       "att-e3": {
         "kind": "fill-blank",
         "sentenceTemplate": "Tor ___ ham na jāb.",
         "correctAnswer": "binā",
-        "options": ["binā", "sāth", "lage", "āge"],
-        "translations": { "nl": "Zonder jou ga ik niet.", "en": "Without you I will not go." }
+        "options": [
+          "binā",
+          "sāth",
+          "lage",
+          "āge"
+        ],
+        "translations": {
+          "nl": "Zonder jou ga ik niet.",
+          "en": "Without you I will not go."
+        },
+        "tokenVocabRefs": [
+          "pron-tu",
+          "post-ke-bina",
+          "pron-ham",
+          "gram-na",
+          "verb-jai"
+        ]
       },
       "att-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Ik ga samen met jou.", "en": "I am going together with you." },
-        "correctTargetTokens": ["Ham", "tor", "sāth", "jāb."],
-        "distractorTokens": ["ke", "binā"]
+        "promptTranslations": {
+          "nl": "Ik ga samen met jou.",
+          "en": "I am going together with you."
+        },
+        "correctTargetTokens": [
+          "Ham",
+          "tor",
+          "sāth",
+          "jāb."
+        ],
+        "distractorTokens": [
+          "ke",
+          "binā"
+        ]
       },
       "att-e5": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "vóór het huis", "en": "in front of the house" },
-        "correctTargetTokens": ["ghar", "ke", "āge"],
-        "distractorTokens": ["piche", "lage"]
+        "promptTranslations": {
+          "nl": "vóór het huis",
+          "en": "in front of the house"
+        },
+        "correctTargetTokens": [
+          "ghar",
+          "ke",
+          "āge"
+        ],
+        "distractorTokens": [
+          "piche",
+          "lage"
+        ]
       }
     }
   },
@@ -185,7 +707,10 @@
       "rev-e1": {
         "kind": "multiple-choice",
         "prompt": "Waarom heet het in het Sarnami een 'achterzetsel' en niet een 'voorzetsel'?",
-        "promptTranslations": { "nl": "Waarom heet het in het Sarnami een 'achterzetsel' en niet een 'voorzetsel'?", "en": "Why is it called a 'postposition' in Sarnami and not a 'preposition'?" },
+        "promptTranslations": {
+          "nl": "Waarom heet het in het Sarnami een 'achterzetsel' en niet een 'voorzetsel'?",
+          "en": "Why is it called a 'postposition' in Sarnami and not a 'preposition'?"
+        },
         "options": [
           "omdat het achter het woord staat waar het bij hoort",
           "omdat het altijd achteraan de zin komt",
@@ -193,40 +718,119 @@
           "omdat het alleen bij werkwoorden voorkomt"
         ],
         "optionTranslations": [
-          { "nl": "omdat het achter het woord staat waar het bij hoort", "en": "because it goes after the word it belongs to" },
-          { "nl": "omdat het altijd achteraan de zin komt", "en": "because it always comes at the end of the sentence" },
-          { "nl": "omdat het uit twee delen bestaat", "en": "because it consists of two parts" },
-          { "nl": "omdat het alleen bij werkwoorden voorkomt", "en": "because it only occurs with verbs" }
+          {
+            "nl": "omdat het achter het woord staat waar het bij hoort",
+            "en": "because it goes after the word it belongs to"
+          },
+          {
+            "nl": "omdat het altijd achteraan de zin komt",
+            "en": "because it always comes at the end of the sentence"
+          },
+          {
+            "nl": "omdat het uit twee delen bestaat",
+            "en": "because it consists of two parts"
+          },
+          {
+            "nl": "omdat het alleen bij werkwoorden voorkomt",
+            "en": "because it only occurs with verbs"
+          }
         ],
         "correctIndex": 0
       },
       "rev-e2": {
         "kind": "matching",
         "pairs": [
-          { "left": "meṁ", "right": "in", "rightTranslations": { "nl": "in", "en": "in" } },
-          { "left": "se", "right": "met, door", "rightTranslations": { "nl": "met, door", "en": "with, by" } },
-          { "left": "ke uppar", "right": "boven", "rightTranslations": { "nl": "boven", "en": "above" } },
-          { "left": "ke binā", "right": "zonder", "rightTranslations": { "nl": "zonder", "en": "without" } },
-          { "left": "ke sāth", "right": "(samen) met", "rightTranslations": { "nl": "(samen) met", "en": "(together) with" } }
+          {
+            "left": "meṁ",
+            "right": "in",
+            "rightTranslations": {
+              "nl": "in",
+              "en": "in"
+            }
+          },
+          {
+            "left": "se",
+            "right": "met, door",
+            "rightTranslations": {
+              "nl": "met, door",
+              "en": "with, by"
+            }
+          },
+          {
+            "left": "ke uppar",
+            "right": "boven",
+            "rightTranslations": {
+              "nl": "boven",
+              "en": "above"
+            }
+          },
+          {
+            "left": "ke binā",
+            "right": "zonder",
+            "rightTranslations": {
+              "nl": "zonder",
+              "en": "without"
+            }
+          },
+          {
+            "left": "ke sāth",
+            "right": "(samen) met",
+            "rightTranslations": {
+              "nl": "(samen) met",
+              "en": "(together) with"
+            }
+          }
         ]
       },
       "rev-e4": {
         "kind": "word-bank",
-        "promptTranslations": { "nl": "Hij is buiten het huis.", "en": "He is outside the house." },
-        "correctTargetTokens": ["Ū", "ghar", "ke", "bāhar", "hai."],
-        "distractorTokens": ["bhittar", "meṁ"]
+        "promptTranslations": {
+          "nl": "Hij is buiten het huis.",
+          "en": "He is outside the house."
+        },
+        "correctTargetTokens": [
+          "Ū",
+          "ghar",
+          "ke",
+          "bāhar",
+          "hai."
+        ],
+        "distractorTokens": [
+          "bhittar",
+          "meṁ"
+        ]
       },
       "rev-e5": {
         "kind": "fill-blank",
         "sentenceTemplate": "Bed ___ ham ī batiyā parhle bāṭī.",
         "correctAnswer": "meṁ",
-        "options": ["meṁ", "se", "par", "ke"],
-        "translations": { "nl": "Ik heb dit in de Veda's gelezen.", "en": "I have read this in the Vedas." }
+        "options": [
+          "meṁ",
+          "se",
+          "par",
+          "ke"
+        ],
+        "translations": {
+          "nl": "Ik heb dit in de Veda's gelezen.",
+          "en": "I have read this in the Vedas."
+        },
+        "tokenVocabRefs": [
+          "noun-bed",
+          "post-mem",
+          "pron-ham",
+          "pron-i",
+          "noun-batiya",
+          "verb-parhe",
+          "gram-bati"
+        ]
       },
       "rev-e7": {
         "kind": "multiple-choice",
         "prompt": "Hoe zeg je 'zonder mij' in het Sarnami?",
-        "promptTranslations": { "nl": "Hoe zeg je 'zonder mij' in het Sarnami?", "en": "How do you say 'without me' in Sarnami?" },
+        "promptTranslations": {
+          "nl": "Hoe zeg je 'zonder mij' in het Sarnami?",
+          "en": "How do you say 'without me' in Sarnami?"
+        },
         "options": [
           "hamār binā",
           "ham ke binā",

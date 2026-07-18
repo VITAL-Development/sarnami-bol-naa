@@ -1,7 +1,10 @@
 {
   "id": "unit-07-postpositions",
   "title": "Achterzetsels",
-  "titleTranslations": { "nl": "Achterzetsels", "en": "Postpositions" },
+  "titleTranslations": {
+    "nl": "Achterzetsels",
+    "en": "Postpositions"
+  },
   "description": "De gangbare achterzetsels en hoe ze aan naam- en voornaamwoorden vastzitten.",
   "order": 8,
   "cefrLevel": "B1",
@@ -12,7 +15,10 @@
       "unitId": "unit-07-postpositions",
       "order": 1,
       "title": "Gangbare achterzetsels",
-      "titleTranslations": { "nl": "Gangbare achterzetsels", "en": "Common postpositions" },
+      "titleTranslations": {
+        "nl": "Gangbare achterzetsels",
+        "en": "Common postpositions"
+      },
       "description": "De meest voorkomende achterzetsels.",
       "newVocab": [
         "post-mem",
@@ -27,7 +33,12 @@
       "exampleSentenceRefs": [
         "ex-p1-1",
         "ex-p1-2",
-        "ex-p1-3"
+        "ex-p1-3",
+        "ex-p1-4",
+        "ex-p1-6",
+        "ex-p1-7",
+        "ex-p1-8",
+        "ex-p1-9"
       ],
       "grammarNoteRefs": [
         "gn-post-1",
@@ -63,7 +74,10 @@
       "unitId": "unit-07-postpositions",
       "order": 2,
       "title": "Vastzitten aan woorden",
-      "titleTranslations": { "nl": "Vastzitten aan woorden", "en": "Attaching to words" },
+      "titleTranslations": {
+        "nl": "Vastzitten aan woorden",
+        "en": "Attaching to words"
+      },
       "description": "Hoe achterzetsels aan naam- en voornaamwoorden vastzitten.",
       "newVocab": [
         "post-ke-sath",
@@ -75,7 +89,14 @@
       "exampleSentenceRefs": [
         "ex-p2-1",
         "ex-p2-2",
-        "ex-p2-3"
+        "ex-p2-3",
+        "ex-p2-4",
+        "ex-p2-5",
+        "ex-p2-6",
+        "ex-p2-7",
+        "ex-p2-8",
+        "ex-p2-9",
+        "ex-p2-10"
       ],
       "grammarNoteRefs": [
         "gn-post-4",
@@ -116,7 +137,10 @@
       "unitId": "unit-07-postpositions",
       "order": 3,
       "title": "Herhaling",
-      "titleTranslations": { "nl": "Herhaling", "en": "Review" },
+      "titleTranslations": {
+        "nl": "Herhaling",
+        "en": "Review"
+      },
       "description": "Alles uit deze eenheid nog eens herhalen.",
       "newVocab": [],
       "exercises": [
