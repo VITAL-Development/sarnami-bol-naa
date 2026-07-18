@@ -13,6 +13,12 @@
           "noun-bhai",
           "pron-hamar",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-hamar",
+          "noun-bhai",
+          "wf-ghumakkar",
+          "gram-hai"
         ]
       },
       {
@@ -26,6 +32,12 @@
           "noun-bappa",
           "pron-hamar",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-hamar",
+          "noun-bappa",
+          "wf-lohar",
+          "gram-hai"
         ]
       },
       {
@@ -37,6 +49,11 @@
         "vocabRefs": [
           "wf-sonar",
           "pron-u",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "wf-sonar",
           "gram-hai"
         ]
       },
@@ -51,6 +68,12 @@
           "noun-ghar",
           "post-mem",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "noun-ghar",
+          "post-mem",
+          "wf-safai",
+          "gram-hai"
         ]
       },
       {
@@ -62,6 +85,11 @@
         "vocabRefs": [
           "wf-topivala",
           "pron-u",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "wf-topivala",
           "gram-hai"
         ]
       }
@@ -223,6 +251,12 @@
           "noun-bappa",
           "pron-hamar",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-hamar",
+          "noun-bappa",
+          "wf-imandar",
+          "gram-hai"
         ]
       },
       {
@@ -235,6 +269,11 @@
           "wf-dukandar",
           "pron-u",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "wf-dukandar",
+          "gram-hai"
         ]
       },
       {
@@ -246,6 +285,11 @@
         "vocabRefs": [
           "wf-jadugar",
           "pron-u",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "wf-jadugar",
           "gram-hai"
         ]
       },
@@ -260,6 +304,13 @@
           "noun-ghar",
           "post-ke-lage",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "wf-davakhana",
+          "noun-ghar",
+          "post-ke-lage",
+          "post-ke-lage",
+          "gram-hai"
         ]
       },
       {
@@ -272,6 +323,11 @@
           "wf-becain",
           "pron-u",
           "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "wf-becain",
+          "gram-hai"
         ]
       },
       {
@@ -283,6 +339,11 @@
         "vocabRefs": [
           "wf-nalayak",
           "pron-u",
+          "gram-hai"
+        ],
+        "tokenVocabRefs": [
+          "pron-u",
+          "wf-nalayak",
           "gram-hai"
         ]
       }
