@@ -19,6 +19,8 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+## [0.6.0] - 2026-07-18
+
 ### Changed
 
 - `content/sarnami/units/unit-05-pronouns.json`: reclassified `cefrLevel` from
@@ -55,6 +57,19 @@ dated `## [X.Y.Z]` heading.
   `scripts/generate-audio.mjs` uses when calling rarelang-server's
   `POST /audio/generate` (rarelang-server#79/#80). Additive, no shape change
   to existing fields.
+- `settings/sarnami/transliteration-rules.json`: new rule table per the
+  finalized cross-repo transliteration contract (rarelang-server#83), gated
+  in CI by a new `validate-transliteration-rules` job against both the JSON
+  Schema and `validateRuleTable()` from rarelang-server. New optional file;
+  old consumers that don't read it are unaffected. (part of #244)
+- `content/sarnami/units/unit-08-verbs.json` and
+  `content/sarnami/lessons/unit-08-verbs.json`: 10 new example
+  sentences/exercises plus `en` translations added to existing entries,
+  drafted via a new Byākaran-derived sentence-generation pipeline (LLM
+  draft → independent re-check → human review checklist →
+  `scripts/extract-verified-sentences.mjs`) and extracted after human
+  review of `sentence-drafts/unit-08-verbs.review.md`. No ids removed or
+  changed shape — purely additive. (#250)
 
 ## [0.5.0] - 2026-07-15
 
