@@ -346,6 +346,12 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # This job's own branches get pushed to by the extract-verified-sentences
+          # bot commit and re-run by maintainers, both of which make the triggering
+          # actor github-actions[bot] — without this, claude-code-action's actor
+          # guard rejects the run outright with "Workflow initiated by non-human
+          # actor" before it ever gets to post an advisory comment.
+          allowed_bots: "github-actions[bot]"
           prompt: |
             You are doing a single-pass advisory review. Do not search the repository
             or use any tool beyond reading the specific files listed below — this is a
