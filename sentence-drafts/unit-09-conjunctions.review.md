@@ -84,6 +84,20 @@ as scaffolding for the still-uncovered items in the same table row set.
         noun. It doesn't demonstrate baki in a new way or introduce a meaningfully new
         vocabulary combination — fails the novelty check.
 
+- [x] id: ex-09-17
+      sarnami: Kuttā karikkā baki barhimyā hai.
+      nl: De hond is zwart maar goed.
+      vocabRefs: struct-maar, noun-kutta, adj-karikka, adj-barhimya
+      rule: §7.1.1 table row "baki | maar"; mirrors ex-09-2's "X baki Y hai" adjective+copula
+        shape with the subject changed to noun-kutta and the adjective pair changed to
+        adj-karikka + adj-barhimya (choṭā replaced by karikkā), a pairing not used in ex-09-2 or
+        ex-09-11.
+      verify: PASS — baki matches struct-maar's `word` exactly. Kuttā/karikkā/barhimyā match
+        noun-kutta's, adj-karikka's, adj-barhimya's `word` fields exactly. Unlike ex-09-11
+        (identical choṭā/barhimyā pair, only the subject swapped), this candidate changes both
+        the subject and one of the two adjectives, producing a genuinely new adjective pairing
+        under baki — not a near-duplicate of ex-09-2 or the already-failed ex-09-11.
+
 ## lesson: unit-09-conjunctions-subordinating  (grammar point: subordinating conjunctions, §7.1.2)
 
 §7.1.2's table and grammar notes (gn-09-2, gn-09-3) cover several conjunctions with no worked
@@ -177,3 +191,55 @@ added).
 vaste verbindingen zijn nahīṁ to ('anders') en tabbo ('toch')") with no worked example and no
 indication of its word order or clause position. There isn't enough in the chapter to safely
 generate a sentence rather than guess.
+
+## Top-up candidates (added 2026-07-18, second pass)
+
+The 8 PASS+ticked candidates above (plus ex-09-17, added into the coordinating section above)
+cover most of this unit's still-uncovered `newVocab` items. `struct-anders` (nahīṁ to),
+`struct-toch` (tabbo) and `struct-dan` (tab, per ex-09-11/ex-09-16's own conservative FAIL
+reasoning) remain out of safe reach with this repo's current vocab and the chapter's worked
+examples, so the candidates below (for the `unit-09-conjunctions-subordinating` lesson) are
+additional *variety* demonstrations for already-covered conjunctions instead: clause
+recombinations that reuse this unit's own already-verified example sentences verbatim (same
+reuse technique as ex-09-12–ex-09-15), so no new verb inflection is invented anywhere.
+
+- [x] id: ex-09-18
+      sarnami: Ham nā āb, kāhe se bariś hoī.
+      nl: Ik kom niet, omdat het regent.
+      vocabRefs: struct-omdat, pron-ham, gram-na
+      rule: §7.1.2 table row "kāhe (se) (ki) | want, omdat"; reuses ex-09-5's exact clause pair
+        ("ham nā āb" / "bariś hoī") verbatim, recombined under kāhe se instead of jo, with clause
+        order reversed — same clause-recombination technique already used for ex-09-12/ex-09-14.
+      verify: PASS — kāhe se matches struct-omdat's `word` exactly. Both clauses are
+        character-for-character reused from ex-09-5's already-verified sentence, so no new verb
+        form is introduced. Semantically distinct from ex-09-5 (states the rain as the stated
+        cause of not coming, not a hypothetical condition) and from ex-09-6 (which uses different
+        clauses — ū nā āis / ū bīmār rahā — for the same conjunction), so this is legitimate
+        variety, not a near-duplicate of either.
+
+- [x] id: ex-09-19
+      sarnami: Ham jāntā hai ki ū choṭā baki barhimyā hai.
+      nl: Ik weet dat hij klein maar goed is.
+      vocabRefs: struct-dat, pron-ham, pron-u, struct-maar, adj-chota, adj-barhimya
+      rule: §7.1.2 table row "ki, kī | dat"; reuses ex-09-4's "Ham jāntā hai ki [clause]" frame
+        and ex-09-2's full clause "Ū choṭā baki barhimyā hai" verbatim as the embedded ki-clause.
+      verify: PASS — ki matches struct-dat's `word` exactly. Both the frame and the embedded
+        clause are character-for-character reused from this unit's own verified examples
+        (ex-09-4, ex-09-2); no new inflection invented. Distinct from ex-09-4 (a different
+        embedded clause: an adjective-predicate description rather than the locative "ghar meṁ
+        hai" clause) — a legitimate new demonstration of ki governing a different kind of
+        embedded clause.
+
+- [x] id: ex-09-20
+      sarnami: Ham jāntā hai ki ū nā āis, kāhe se ū bīmār rahā.
+      nl: Ik weet dat hij niet kwam, omdat hij ziek was.
+      vocabRefs: struct-dat, pron-ham, pron-u, struct-omdat, gram-na
+      rule: §7.1.2 table row "ki, kī | dat"; nests ex-09-4's "Ham jāntā hai ki [clause]" frame
+        around ex-09-6's full two-clause sentence ("Ū nā āis, kāhe se ū bīmār rahā") verbatim,
+        demonstrating ki taking an embedded clause that itself contains another subordinating
+        conjunction.
+      verify: PASS — ki matches struct-dat's `word` exactly; the embedded clause is ex-09-6's own
+        already-verified sentence reused verbatim (kāhe se matches struct-omdat's `word`
+        exactly). No new inflected form is introduced anywhere. Structurally novel (a nested
+        conjunction clause) and distinct from every existing example, including ex-09-19 (whose
+        embedded clause uses baki/adjectives rather than a second subordinate conjunction).
