@@ -96,8 +96,7 @@
         "sentenceTemplate": "___ Sarnāmi bol-nā sikhe hai.",
         "correctAnswer": "Ham",
         "options": ["Ham", "Tū", "Āp", "Ū"],
-        "translations": { "nl": "Ik leer Sarnami spreken.", "en": "I am learning to speak Sarnami." },
-        "tokenVocabRefs": [null, null, null, null, null]
+        "translations": { "nl": "Ik leer Sarnami spreken.", "en": "I am learning to speak Sarnami." }
       }
     }
   },
@@ -194,7 +193,7 @@
     "grammarNotes": [
       {
         "id": "gn-4-1",
-        "title": "Vervoeging van 'hai' (zijn) in de o.t.t.",
+        "title": "Vervoeging van 'hai' (zijn) in de o.t.t. (onvoltooid tegenwoordige tijd, de gewone tegenwoordige tijd)",
         "body": "ham hai (ik ben) — tū hai (jij bent) — ī/ū hai (hij/zij is) — ham log haiṁ (wij zijn) — tū log hai (jullie zijn) — āp ho (u bent) — ī/ū sab haiṁ (zij zijn).",
         "relatedVocab": ["gram-hai"]
       }
