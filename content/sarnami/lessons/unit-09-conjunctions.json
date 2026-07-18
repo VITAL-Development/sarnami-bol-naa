@@ -6,19 +6,22 @@
         "id": "ex-09-1",
         "word": "Bhāī aur bahin ghar meṁ hai.",
         "translations": { "nl": "Broer en zus zijn thuis." },
-        "vocabRefs": ["struct-en", "noun-bhai", "noun-bahin", "noun-ghar"]
+        "vocabRefs": ["struct-en", "noun-bhai", "noun-bahin", "noun-ghar"],
+        "tokenVocabRefs": ["noun-bhai", "struct-en", "noun-bahin", "noun-ghar", null, null]
       },
       {
         "id": "ex-09-2",
         "word": "Ū choṭā baki barhimyā hai.",
         "translations": { "nl": "Hij is klein maar goed." },
-        "vocabRefs": ["struct-maar", "pron-u", "adj-chota", "adj-barhimya"]
+        "vocabRefs": ["struct-maar", "pron-u", "adj-chota", "adj-barhimya"],
+        "tokenVocabRefs": ["pron-u", "adj-chota", "struct-maar", "adj-barhimya", null]
       },
       {
         "id": "ex-09-3",
         "word": "Kā bhāī kā bahin, sab ghar meṁ hai.",
         "translations": { "nl": "Zowel broer als zus zijn thuis." },
-        "vocabRefs": ["conj-zowel-als", "noun-bhai", "noun-bahin", "noun-ghar"]
+        "vocabRefs": ["conj-zowel-als", "noun-bhai", "noun-bahin", "noun-ghar"],
+        "tokenVocabRefs": ["conj-zowel-als", "noun-bhai", "conj-zowel-als", "noun-bahin", null, "noun-ghar", null, null]
       }
     ],
     "grammarNotes": [
@@ -69,19 +72,22 @@
         "id": "ex-09-4",
         "word": "Ham jāntā hai ki ū ghar meṁ hai.",
         "translations": { "nl": "Ik weet dat hij thuis is." },
-        "vocabRefs": ["struct-dat", "pron-ham", "pron-u", "noun-ghar"]
+        "vocabRefs": ["struct-dat", "pron-ham", "pron-u", "noun-ghar"],
+        "tokenVocabRefs": ["pron-ham", null, null, "struct-dat", "pron-u", "noun-ghar", null, null]
       },
       {
         "id": "ex-09-5",
         "word": "Jo bariś hoī, ham nā āb.",
         "translations": { "nl": "Als het regent, kom ik niet." },
-        "vocabRefs": ["struct-als", "gram-na", "pron-ham"]
+        "vocabRefs": ["struct-als", "gram-na", "pron-ham"],
+        "tokenVocabRefs": ["struct-als", null, null, "pron-ham", "gram-na", null]
       },
       {
         "id": "ex-09-6",
         "word": "Ū nā āis, kāhe se ū bīmār rahā.",
         "translations": { "nl": "Hij kwam niet, omdat hij ziek was." },
-        "vocabRefs": ["struct-omdat", "pron-u", "gram-na"]
+        "vocabRefs": ["struct-omdat", "pron-u", "gram-na"],
+        "tokenVocabRefs": ["pron-u", "gram-na", null, "struct-omdat", "struct-omdat", "pron-u", null, null]
       }
     ],
     "grammarNotes": [
