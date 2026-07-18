@@ -11,6 +11,14 @@
         "vocabRefs": [
           "noun-gadaha",
           "noun-gadahi"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "noun-gadaha",
+          null,
+          null,
+          "noun-gadahi",
+          null
         ]
       },
       {
@@ -22,6 +30,14 @@
         "vocabRefs": [
           "noun-nana",
           "noun-nani"
+        ],
+        "tokenVocabRefs": [
+          "noun-nana",
+          null,
+          "noun-nani",
+          null,
+          null,
+          null
         ]
       },
       {
@@ -33,6 +49,14 @@
         "vocabRefs": [
           "noun-launda",
           "noun-chaumri"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "noun-launda",
+          null,
+          null,
+          "noun-chaumri",
+          null
         ]
       },
       {
@@ -44,6 +68,14 @@
         "vocabRefs": [
           "noun-nana",
           "noun-nani"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "noun-nana",
+          null,
+          null,
+          "noun-nani",
+          null
         ]
       }
     ],
@@ -168,6 +200,11 @@
         },
         "vocabRefs": [
           "noun-ghora"
+        ],
+        "tokenVocabRefs": [
+          "noun-ghora",
+          null,
+          null
         ]
       },
       {
@@ -178,6 +215,11 @@
         },
         "vocabRefs": [
           "noun-ghora"
+        ],
+        "tokenVocabRefs": [
+          "noun-ghora",
+          null,
+          null
         ]
       },
       {
@@ -188,6 +230,12 @@
         },
         "vocabRefs": [
           "noun-am"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "noun-am",
+          null,
+          null
         ]
       },
       {
@@ -198,6 +246,11 @@
         },
         "vocabRefs": [
           "noun-kutta"
+        ],
+        "tokenVocabRefs": [
+          "noun-kutta",
+          null,
+          null
         ]
       },
       {
@@ -208,6 +261,11 @@
         },
         "vocabRefs": [
           "noun-kutta"
+        ],
+        "tokenVocabRefs": [
+          "noun-kutta",
+          null,
+          null
         ]
       },
       {
@@ -218,6 +276,11 @@
         },
         "vocabRefs": [
           "noun-nak"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "noun-nak",
+          null
         ]
       },
       {
@@ -228,6 +291,11 @@
         },
         "vocabRefs": [
           "noun-per"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "noun-per",
+          null
         ]
       },
       {
@@ -238,6 +306,12 @@
         },
         "vocabRefs": [
           "noun-am"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "noun-am",
+          null,
+          null
         ]
       }
     ],
@@ -347,6 +421,12 @@
         },
         "vocabRefs": [
           "noun-churi"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "noun-churi",
+          null,
+          null
         ]
       },
       {
@@ -357,6 +437,13 @@
         },
         "vocabRefs": [
           "noun-gai"
+        ],
+        "tokenVocabRefs": [
+          "noun-gai",
+          null,
+          null,
+          null,
+          null
         ]
       },
       {
@@ -367,6 +454,14 @@
         },
         "vocabRefs": [
           "noun-ghora"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "noun-ghora",
+          null,
+          null,
+          null,
+          null
         ]
       },
       {
@@ -378,6 +473,13 @@
         "vocabRefs": [
           "noun-beti",
           "noun-citthi"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "noun-beti",
+          null,
+          "noun-citthi",
+          null
         ]
       },
       {
@@ -388,6 +490,14 @@
         },
         "vocabRefs": [
           "noun-gai"
+        ],
+        "tokenVocabRefs": [
+          "noun-gai",
+          null,
+          null,
+          null,
+          null,
+          null
         ]
       },
       {
@@ -398,6 +508,14 @@
         },
         "vocabRefs": [
           "noun-ghora"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "noun-ghora",
+          null,
+          null,
+          null,
+          null
         ]
       },
       {
@@ -408,6 +526,14 @@
         },
         "vocabRefs": [
           "noun-ghora"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "noun-ghora",
+          null,
+          null,
+          null,
+          null
         ]
       },
       {
@@ -419,6 +545,13 @@
         "vocabRefs": [
           "noun-beti",
           "noun-churi"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "noun-beti",
+          null,
+          "noun-churi",
+          null
         ]
       }
     ],
@@ -527,6 +660,14 @@
         "vocabRefs": [
           "num-tin",
           "noun-am"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "num-tin",
+          null,
+          "noun-am",
+          null,
+          null
         ]
       },
       {
@@ -538,6 +679,14 @@
         "vocabRefs": [
           "num-dui",
           "noun-maiya"
+        ],
+        "tokenVocabRefs": [
+          "noun-maiya",
+          "num-dui",
+          null,
+          null,
+          null,
+          null
         ]
       },
       {
@@ -548,6 +697,16 @@
         },
         "vocabRefs": [
           "num-sat"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "num-sat",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
         ]
       },
       {
@@ -559,6 +718,13 @@
         "vocabRefs": [
           "num-ek",
           "noun-churi"
+        ],
+        "tokenVocabRefs": [
+          null,
+          "num-ek",
+          "noun-churi",
+          null,
+          null
         ]
       },
       {
@@ -571,6 +737,14 @@
           "num-das",
           "noun-am",
           "noun-maiya"
+        ],
+        "tokenVocabRefs": [
+          "noun-maiya",
+          "num-das",
+          null,
+          "noun-am",
+          null,
+          null
         ]
       }
     ],
