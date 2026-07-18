@@ -89,3 +89,98 @@ Existing `exampleSentences` for this lesson: none. No numbering to continue from
         gesprekspartikel", not where in a clause it attaches or that it can follow bhalā. There is
         no source evidence for this specific combination or word order; treating "not sure" as
         FAIL per the verify pass's instructions.
+
+- [x] id: ex-int-6
+      sarnami: Acchā!
+      nl: Goed, oké!
+      vocabRefs: int-accha
+      rule: §8.1 table lists "acchā! — goed, o.k.!" as its own bare exclamation, used exactly as
+        the book presents it — same standalone-exclamation pattern already verified for ex-int-3
+        (sābās).
+      verify: PASS — matches the book's own table row exactly, in isolation. int-accha's word
+        ("acchā") matches. Not a compound or invented context, just the table's own bare entry —
+        the same treatment already accepted for ex-int-3.
+
+- [x] id: ex-int-7
+      sarnami: Cup!
+      nl: Stil!
+      vocabRefs: int-cup
+      rule: §8.1 table lists "cup! — stil!" as its own bare exclamation, used exactly as the book
+        presents it — same standalone-exclamation pattern as ex-int-3/ex-int-6.
+      verify: PASS — matches the book's own table row exactly, in isolation. int-cup's word
+        ("cup") matches. No compounding or invented frame.
+
+- [x] id: ex-int-8
+      sarnami: Ayā!
+      nl: Au!
+      vocabRefs: int-aya
+      rule: §8.1 table lists "ayā! — au!" as its own bare exclamation, used exactly as the book
+        presents it — same standalone-exclamation pattern as ex-int-3/ex-int-6/ex-int-7.
+      verify: PASS — matches the book's own table row exactly, in isolation. int-aya's word
+        ("ayā") matches. No compounding or invented frame.
+
+- [x] id: ex-int-9
+      sarnami: Bāp-re-bāp!
+      nl: Lieve hemel!
+      vocabRefs: int-bap-re-bap
+      rule: §8.1 table lists "bāp-re-bāp! — lieve hemel!" as its own single (hyphenated) bare
+        exclamation, used exactly as the book presents it — the hyphenation is the book's own
+        fixed form (compare sābās treated as one indivisible exclamation in ex-int-3), not an
+        invented multi-word combination.
+      verify: PASS — matches the book's own table row exactly, in isolation. int-bap-re-bap's
+        word ("bāp-re-bāp") matches exactly, including the hyphenation. Not two interjections
+        strung together (unlike the rejected ex-int-4) — it is a single table entry treated as
+        one fixed exclamation.
+
+- [x] id: ex-int-10
+      sarnami: Vāh-vāh!
+      nl: Bravo, prachtig!
+      vocabRefs: int-vah-vah
+      rule: §8.1 table lists "vāh-vāh! — bravo!" as its own single (hyphenated) bare exclamation,
+        used exactly as the book presents it — same fixed-hyphenated-entry treatment as ex-int-9.
+      verify: PASS — matches the book's own table row exactly, in isolation. int-vah-vah's word
+        ("vāh-vāh") matches exactly. Distinct vocab entry from int-sabas (also "bravo!" in Dutch,
+        but a different attested Sarnami word) — not a duplicate of ex-int-3, just the chapter's
+        other bravo-exclamation.
+
+- [x] id: ex-int-11
+      sarnami: Albat!
+      nl: Warempel, inderdaad!
+      vocabRefs: int-albat
+      rule: §8.1 table lists "albat! — warempel, inderdaad" as its own bare exclamation, used
+        exactly as the book presents it — same standalone-exclamation pattern as ex-int-3.
+      verify: PASS — matches the book's own table row exactly, in isolation. int-albat's word
+        ("albat") matches. No compounding or invented frame.
+
+- [x] id: ex-int-12
+      sarnami: Cor-cor!
+      nl: Houd de dief!
+      vocabRefs: int-cor-cor
+      rule: §8.1 table lists "cor-cor! — houdt de dief!" as its own bare exclamation, used exactly
+        as the book presents it. This is the same vocab item as the rejected ex-int-4, but here
+        used alone rather than strung together with bacāo — the standalone use is exactly the
+        book's own table row, unlike the invented two-interjection utterance that failed
+        ex-int-4.
+      verify: PASS — matches the book's own table row exactly, in isolation. int-cor-cor's word
+        ("cor-cor") matches. Using it alone (not combined with bacāo, unlike the rejected
+        ex-int-4) removes the exact defect that caused ex-int-4 to FAIL.
+
+- [x] id: ex-int-13
+      sarnami: Hāy-hāy!
+      nl: Ach!
+      vocabRefs: int-hay-hay
+      rule: §8.1 table lists "hāy-hāy! — ach!" as its own single (hyphenated) bare exclamation,
+        used exactly as the book presents it — same fixed-hyphenated-entry treatment as
+        ex-int-9/ex-int-10.
+      verify: PASS — matches the book's own table row exactly, in isolation. int-hay-hay's word
+        ("hāy-hāy") matches exactly. Not to be confused with the separate table row "hāy re —
+        jammer!" (a different, unused vocab item) — this candidate only uses hāy-hāy as attested.
+
+- [x] id: ex-int-14
+      sarnami: Oho!
+      nl: Och-och!
+      vocabRefs: int-oho
+      rule: §8.1 table lists "oho! — och-och!" as its own bare exclamation, used exactly as the
+        book presents it — same standalone-exclamation pattern as ex-int-3.
+      verify: PASS — matches the book's own table row exactly, in isolation. int-oho's word
+        ("oho") matches. No compounding or invented frame.
