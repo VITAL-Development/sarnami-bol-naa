@@ -9,15 +9,18 @@
           "nl": "Mahes heeft een huisje gekocht."
         },
         "vocabRefs": [
-          "adj-chota"
+          "adj-chota",
+          "noun-ghar",
+          "verb-kine",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
           null,
           null,
           "adj-chota",
-          null,
-          null,
-          null
+          "noun-ghar",
+          "verb-kine",
+          "gram-hai"
         ]
       },
       {
@@ -27,14 +30,17 @@
           "nl": "Mahes heeft het huisje gekocht."
         },
         "vocabRefs": [
-          "adj-chota"
+          "adj-chota",
+          "noun-ghar",
+          "verb-kine",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
           null,
           "adj-chota",
-          null,
-          null,
-          null
+          "noun-ghar",
+          "verb-kine",
+          "gram-hai"
         ]
       },
       {
@@ -44,14 +50,16 @@
           "nl": "Hari draagt een rood overhemd."
         },
         "vocabRefs": [
-          "adj-lal"
+          "adj-lal",
+          "verb-pahine",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
           null,
           "adj-lal",
           null,
-          null,
-          null
+          "verb-pahine",
+          "gram-hai"
         ]
       },
       {
@@ -62,15 +70,18 @@
           "en": "Mahes bought a thin knife."
         },
         "vocabRefs": [
-          "adj-patar"
+          "adj-patar",
+          "noun-churi",
+          "verb-kine",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
           null,
           null,
           "adj-patar",
-          null,
-          null,
-          null
+          "noun-churi",
+          "verb-kine",
+          "gram-hai"
         ]
       },
       {
@@ -81,14 +92,17 @@
           "en": "Mahes bought the thin knife."
         },
         "vocabRefs": [
-          "adj-patar"
+          "adj-patar",
+          "noun-churi",
+          "verb-kine",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
           null,
           "adj-patar",
-          null,
-          null,
-          null
+          "noun-churi",
+          "verb-kine",
+          "gram-hai"
         ]
       },
       {
@@ -99,15 +113,18 @@
           "en": "Mahes bought a tasty mango."
         },
         "vocabRefs": [
-          "adj-mitha"
+          "adj-mitha",
+          "noun-am",
+          "verb-kine",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
           null,
           null,
           "adj-mitha",
-          null,
-          null,
-          null
+          "noun-am",
+          "verb-kine",
+          "gram-hai"
         ]
       },
       {
@@ -118,14 +135,17 @@
           "en": "Mahes bought the tasty mango."
         },
         "vocabRefs": [
-          "adj-mitha"
+          "adj-mitha",
+          "noun-am",
+          "verb-kine",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
           null,
           "adj-mitha",
-          null,
-          null,
-          null
+          "noun-am",
+          "verb-kine",
+          "gram-hai"
         ]
       }
     ],
@@ -263,12 +283,13 @@
           "nl": "Een grote boom."
         },
         "vocabRefs": [
-          "adj-barka"
+          "adj-barka",
+          "noun-per"
         ],
         "tokenVocabRefs": [
           null,
           "adj-barka",
-          null
+          "noun-per"
         ]
       },
       {
@@ -278,12 +299,14 @@
           "nl": "Die grote bomen."
         },
         "vocabRefs": [
-          "adj-barka"
+          "adj-barka",
+          "pron-u",
+          "noun-per"
         ],
         "tokenVocabRefs": [
-          null,
+          "pron-u",
           "adj-barka",
-          null
+          "noun-per"
         ]
       },
       {
@@ -308,11 +331,12 @@
           "en": "The black cow."
         },
         "vocabRefs": [
-          "adj-karikka"
+          "adj-karikka",
+          "noun-gai"
         ],
         "tokenVocabRefs": [
           "adj-karikka",
-          null
+          "noun-gai"
         ]
       },
       {
@@ -323,11 +347,12 @@
           "en": "The small girl."
         },
         "vocabRefs": [
-          "adj-chota"
+          "adj-chota",
+          "noun-chaumri"
         ],
         "tokenVocabRefs": [
           "adj-chota",
-          null
+          "noun-chaumri"
         ]
       },
       {
@@ -338,12 +363,14 @@
           "en": "Those big horses."
         },
         "vocabRefs": [
-          "adj-barka"
+          "adj-barka",
+          "pron-u",
+          "noun-ghora"
         ],
         "tokenVocabRefs": [
-          null,
+          "pron-u",
           "adj-barka",
-          null
+          "noun-ghora"
         ]
       }
     ],
@@ -351,7 +378,7 @@
       {
         "id": "gn-7-1",
         "title": "Meervoud en vrouwelijke vorm",
-        "body": "Bijvoeglijke naamwoorden nemen het getal (enkelvoud/meervoud) over van het zelfstandig naamwoord dat ze bepalen: ū barkāvā perva (die grote boom) wordt ū barkāvan pervan (die grote bomen) in het meervoud. Bij vrouwelijke zelfstandige naamwoorden krijgt het bijvoeglijk naamwoord vaak de uitgang -ī: karikkanī bakariyā (de zwarte geit), lalkanī sariyā (de rode sari).",
+        "body": "Een bijvoeglijk naamwoord neemt het getal (enkelvoud/meervoud) over van het zelfstandig naamwoord. Bijvoorbeeld: ū barkāvā perva (die grote boom) wordt in het meervoud ū barkāvan pervan (die grote bomen). Bij een vrouwelijk zelfstandig naamwoord krijgt het bijvoeglijk naamwoord vaak de uitgang -ī. Bijvoorbeeld: karikkanī bakariyā (de zwarte geit), lalkanī sariyā (de rode sari).",
         "relatedVocab": [
           "adj-barka",
           "adj-karikka"
@@ -473,16 +500,20 @@
         },
         "vocabRefs": [
           "gram-se",
-          "adj-barka"
+          "adj-barka",
+          "pron-hamar",
+          "noun-ghar",
+          "pron-tor",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
-          null,
-          null,
-          null,
-          null,
+          "pron-hamar",
+          "noun-ghar",
+          "pron-tor",
+          "noun-ghar",
           "gram-se",
           "adj-barka",
-          null
+          "gram-hai"
         ]
       },
       {
@@ -493,17 +524,22 @@
         },
         "vocabRefs": [
           "gram-aur-compare",
-          "adj-chota"
+          "adj-chota",
+          "pron-hamar",
+          "noun-ghari",
+          "pron-tor",
+          "gram-se",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
-          null,
-          null,
-          null,
-          null,
-          null,
+          "pron-hamar",
+          "noun-ghari",
+          "pron-tor",
+          "noun-ghari",
+          "gram-se",
           "gram-aur-compare",
           "adj-chota",
-          null
+          "gram-hai"
         ]
       },
       {
@@ -513,17 +549,20 @@
           "nl": "In Suriname is hij de rijkste man."
         },
         "vocabRefs": [
-          "gram-sabse"
+          "gram-sabse",
+          "post-mem",
+          "pron-i",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
           null,
-          null,
-          null,
+          "post-mem",
+          "pron-i",
           "gram-sabse",
           "gram-sabse",
           null,
           null,
-          null
+          "gram-hai"
         ]
       },
       {
@@ -536,17 +575,21 @@
         "vocabRefs": [
           "gram-se",
           "gram-jada",
-          "adj-barka"
+          "adj-barka",
+          "pron-hamar",
+          "noun-ghar",
+          "pron-tor",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
-          null,
-          null,
-          null,
-          null,
+          "pron-hamar",
+          "noun-ghar",
+          "pron-tor",
+          "noun-ghar",
           "gram-se",
           "gram-jada",
           "adj-barka",
-          null
+          "gram-hai"
         ]
       },
       {
@@ -559,16 +602,19 @@
         "vocabRefs": [
           "gram-sabse",
           "gram-jada",
-          "adj-barka"
+          "adj-barka",
+          "pron-i",
+          "noun-ghora",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
-          null,
-          null,
+          "pron-i",
+          "noun-ghora",
           "gram-sabse",
           "gram-sabse",
           "gram-jada",
           "adj-barka",
-          null
+          "gram-hai"
         ]
       },
       {
@@ -581,17 +627,21 @@
         "vocabRefs": [
           "gram-se",
           "gram-aur-compare",
-          "adj-barhimya"
+          "adj-barhimya",
+          "pron-hamar",
+          "noun-kutta",
+          "pron-tor",
+          "gram-hai"
         ],
         "tokenVocabRefs": [
-          null,
-          null,
-          null,
-          null,
+          "pron-hamar",
+          "noun-kutta",
+          "pron-tor",
+          "noun-kutta",
           "gram-se",
           "gram-aur-compare",
           "adj-barhimya",
-          null
+          "gram-hai"
         ]
       }
     ],
