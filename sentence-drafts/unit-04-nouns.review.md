@@ -1,6 +1,6 @@
 # unit-04-nouns — candidate example sentences
 
-Status: DRAFT
+Status: FINALIZED
 
 Source: `authored_docs/byakaran/02-the-noun.md` (Sarnami Byākaran, Marhé 1985, chapter "Het
 zelfstandig naamwoord"). Generated per `/gen-sentences unit-04-nouns`, verified per
@@ -49,7 +49,7 @@ candidate that turned out to be a low-value near-duplicate on verification.
         contrast vs. that sentence's "X aur Y ghar meṃ bāteṃ" frame) — legitimate grammatical
         variety on the same vocab pair, not a restatement.
 
-- [ ] id: ex-04-gender-5
+- [x] id: ex-04-gender-5
       sarnami: Gadahā aur gadahī ghar meṃ bāteṃ.
       nl: De ezel en de ezelin zijn thuis.
       vocabRefs: noun-gadaha, noun-gadahi
@@ -215,7 +215,7 @@ new sentences built from the same attested frame with different numerals from th
 
 - [x] id: ex-04-num-3
       sarnami: Rajavā sāt go cor ke marvā deis rahā.
-      nl: De koning had 7 dieven laten terechtstellen.
+      nl: De koning had 7 dieven laten vermoorden.
       vocabRefs: num-sat
       rule: numeral + counter -go (§3.1.3, worked example 1)
       verify: PASS — direct, verbatim quote of the book's own §3.1.3 example ("Rajavā sāt
