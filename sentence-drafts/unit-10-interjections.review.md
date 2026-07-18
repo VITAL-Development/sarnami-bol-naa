@@ -1,6 +1,6 @@
 # unit-10-interjections — candidate example sentences
 
-Status: DRAFT
+Status: FINALIZED
 
 Source: `authored_docs/byakaran/07-interjections.md` (Sarnami Byākaran, Marhé 1985, chapter 8).
 Generated per `/gen-sentences unit-10-interjections`, verified per
@@ -63,7 +63,7 @@ Existing `exampleSentences` for this lesson: none. No numbering to continue from
         utterance is the book's own attested form (compare gn-int-1's own framing: "vaak zijn
         het betekenisloze klanken" used standalone).
 
-- [ ] id: ex-int-4
+- [x] id: ex-int-4
       sarnami: Cor-cor! Bacāo!
       nl: Houd de dief! Help!
       vocabRefs: int-cor-cor, int-bacao
