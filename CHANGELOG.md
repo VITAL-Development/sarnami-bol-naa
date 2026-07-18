@@ -19,6 +19,8 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+## [0.7.0] - 2026-07-18
+
 ### Added
 
 - `settings/sarnami/scs-word-list.json`: generated SCS-plain-Latin →
@@ -36,6 +38,40 @@ dated `## [X.Y.Z]` heading.
   (`validate-scs-word-list`) so it can't drift from the vocab it's derived
   from, gated to only run when vocab or the generator itself changes. New
   file, additive; no existing shape changed. (part of #244)
+- `content/sarnami/lessons/unit-04-nouns.json` and
+  `content/sarnami/lessons/unit-05-pronouns.json`: authored `tokenVocabRefs`
+  on every example sentence/fill-blank exercise (16 sentences in unit-05,
+  a follow-up to #266 once `extract-verified-sentences` had promoted its
+  drafts) — every token maps to an existing or newly-added vocab id, no
+  nulls. New backing vocab added across `vocab/{grammar,nouns,pronouns,
+  verbs}.json`. (#278, and a follow-up commit for unit-05)
+- Extracted verified example sentences/exercises via the Byākaran-derived
+  sentence-generation pipeline (LLM draft → independent re-check → human
+  review → `scripts/extract-verified-sentences.mjs`, same process as
+  unit-08-verbs in #250) into 10 more units — `content/sarnami/{units,
+  lessons}/unit-{02-adjectives,04-nouns,05-pronouns,06-adverbs,
+  07-postpositions,09-conjunctions,10-interjections,11-loanwords,
+  12-word-formation,13-reading}.json` — plus backing vocab entries in
+  `vocab/{adjectives,conjunctions,grammar,nouns,verbs}.json`. Verified no
+  ids removed across every affected file — purely additive. (#262, #263,
+  #264, #265, #266, #267, #268, #269, #270, #271)
+
+### Changed
+
+- `content/sarnami/vocab/verbs.json`: reworded the `notes` field of all 29
+  pre-existing entries out of dense linguistics-register Dutch (undefined
+  abbreviations like `o.t.t.`/`o.v.t.`/`o.t.t.t.`/`v.v.t.` and jargon like
+  `klinkerstam`, `causatief`, `lijdende vorm`, `aanvoegende wijs`) into
+  plain A2-level Dutch, defining any remaining technical term in-line on
+  first use — same-shape value edits only, no ids/fields/refs changed, per
+  `source-language-authoring-contract.md` §2/§3. (#274)
+- `content/sarnami/vocab/unit-11-loanwords.json` renamed to
+  `content/sarnami/vocab/loanwords.json`, matching every other vocab
+  file's naming convention. Same 21 ids, unchanged — vocab files are
+  discovered by glob, not by a hardcoded filename, so this is non-breaking.
+  Also simplified its `notes` field to A2-level Dutch (dropped/defined
+  `Stam`, `hulpwerkwoord`, `Sarnami-werkwoordstructuur`, etc.), same-shape
+  value edits only. (#279)
 
 ## [0.6.0] - 2026-07-18
 
@@ -88,16 +124,6 @@ dated `## [X.Y.Z]` heading.
   `scripts/extract-verified-sentences.mjs`) and extracted after human
   review of `sentence-drafts/unit-08-verbs.review.md`. No ids removed or
   changed shape — purely additive. (#250)
-
-### Changed
-
-- `content/sarnami/vocab/verbs.json`: reworded the `notes` field of all 29
-  pre-existing entries out of dense linguistics-register Dutch (undefined
-  abbreviations like `o.t.t.`/`o.v.t.`/`o.t.t.t.`/`v.v.t.` and jargon like
-  `klinkerstam`, `causatief`, `lijdende vorm`, `aanvoegende wijs`) into
-  plain A2-level Dutch, defining any remaining technical term in-line on
-  first use — same-shape value edits only, no ids/fields/refs changed, per
-  `source-language-authoring-contract.md` §2/§3. (#274)
 
 ## [0.5.0] - 2026-07-15
 
