@@ -366,14 +366,15 @@
         "vocabRefs": [
           "post-mem",
           "pron-okar",
-          "noun-churi"
+          "noun-churi",
+          "gram-raha-aux"
         ],
         "tokenVocabRefs": [
           "pron-okar",
           null,
           "post-mem",
           "noun-churi",
-          null
+          "gram-raha-aux"
         ]
       },
       {
