@@ -65,9 +65,9 @@ jobs:
       - name: Resolve rarelang main SHA
         id: resolve
         env:
-          RARELANG_SERVER_TOKEN: ${{ secrets.RARELANG_SERVER_TOKEN }}
+          RARELANG_TOKEN: ${{ secrets.RARELANG_TOKEN }}
         run: |
-          sha=$(git ls-remote "https://x-access-token:${RARELANG_SERVER_TOKEN}@github.com/VITAL-Development/rarelang.git" refs/heads/main | cut -f1)
+          sha=$(git ls-remote "https://x-access-token:${RARELANG_TOKEN}@github.com/VITAL-Development/rarelang.git" refs/heads/main | cut -f1)
           echo "cache-key=rarelang-contracts-tooling-${sha}" >> "$GITHUB_OUTPUT"
 
       - name: Cache rarelang contracts tooling
@@ -80,8 +80,8 @@ jobs:
       - name: Clone rarelang (cache miss)
         if: steps.cache.outputs.cache-hit != 'true'
         env:
-          RARELANG_SERVER_TOKEN: ${{ secrets.RARELANG_SERVER_TOKEN }}
-        run: git clone --depth 1 "https://x-access-token:${RARELANG_SERVER_TOKEN}@github.com/VITAL-Development/rarelang.git" rarelang-contracts-tooling
+          RARELANG_TOKEN: ${{ secrets.RARELANG_TOKEN }}
+        run: git clone --depth 1 "https://x-access-token:${RARELANG_TOKEN}@github.com/VITAL-Development/rarelang.git" rarelang-contracts-tooling
 
   validate-content:
     name: validate-content (rarelang-server)
