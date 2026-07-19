@@ -148,15 +148,16 @@ const VOWELS = {
   //     after the ो, so तोंहार is not silently losing the nasal quality
   //     -- no override added.
   //   - loan-riwors "riwŏrs" (< English "reverse"), loan-lesiyai
-  //     "lĕsiyāī", loan-setiyave "sĕtiyāve": owner decision (round 3) --
-  //     KEEP the nasal marking on these loanwords (candrabindu on the
-  //     breve syllable) rather than defaulting to non-nasal, since
-  //     etymology alone couldn't settle it either way. See the
-  //     RAW_WORD_OVERRIDES entries below, which add an explicit ँ next to
-  //     the breve's matra. All three vocab entries already carry the
-  //     `needs-verification` tag (content/sarnami/vocab/loanwords.json),
-  //     which is the right place to flag this as owner-decided-but-not-yet
-  //     native-speaker-confirmed -- no additional code-level flag needed.
+  //     "lĕsiyāī", loan-setiyave "sĕtiyāve": etymology alone couldn't
+  //     settle nasality either way (round 2). Owner tried keeping nasal
+  //     marking in round 3, then corrected all three back via direct PR
+  //     spelling corrections in round 4 -- riwors to the up-to-date
+  //     standard Hindi loanword spelling रिवर्स (not nasal, not even a
+  //     phonetic rendering of "riwŏrs" anymore), lesiyai/setiyave back to
+  //     plain non-nasal spellings (setiyave restructured to सेती-आवे). See
+  //     the RAW_WORD_OVERRIDES entries below. All three vocab entries
+  //     already carry the `needs-verification` tag
+  //     (content/sarnami/vocab/loanwords.json).
   ĕ: { indep: "ए", matra: "े" },
   ŏ: { indep: "ओ", matra: "ो" },
   // Untested: 0 occurrences in the current vocab (see /tmp scan during
@@ -232,10 +233,6 @@ const CONSONANTS = {
 const ANUSVARA = "ं";
 const VISARGA = "ः"; // untested (0 occurrences)
 const VIRAMA = "्";
-// Used only in RAW_WORD_OVERRIDES, to mark the owner-decided nasal breve
-// vowels in loan-riwors/loan-lesiyai/loan-setiyave (round 3) -- see the ĕ/ŏ
-// VOWELS comment above.
-const CANDRABINDU = "ँ";
 
 const NASAL_KEYS = { ṁ: "nasal", ṃ: "nasal", ḥ: "visarga" };
 
@@ -387,24 +384,28 @@ export const RAW_WORD_OVERRIDES = {
   // Owner's rule: Dutch word-final/medial "g" -> ख़ ("kh") in Sarnami.
   "uitleg kare": "आोतलेख करे",
   "beledig kare": "बलएडेख करे",
-  "wachti kare": "ववक्ती करे",
+  // Owner's round-4 PR comment: round-3's "ववक्ती" had a typo (doubled व).
+  "wachti kare": "वक्ती करे",
   "bekeur kare": "बकर करे",
   // loan-bel, loan-klop, loan-help: no Dutch digraph present (single short
   // vowels) -- the mechanical tokenizer's output is already a reasonable
   // rendering of Dutch short vowels, not part of the digraph problem.
 
-  // Group 3 -- ĕ/ŏ nasal loanwords (round 3 owner decision): etymology
-  // research (round 2) couldn't settle whether these three recent
-  // loanword-derived coinages are nasal, since they have no inherited
-  // Bhojpuri/Sanskrit etymology to appeal to. Owner's call: keep the nasal
-  // marking rather than defaulting to non-nasal. Each starts from this
-  // module's own mechanical output for the word (confirmed against the
-  // round-2 research report) with an explicit candrabindu added on the
-  // breve syllable; all three vocab entries already carry the
-  // `needs-verification` tag (content/sarnami/vocab/loanwords.json).
-  "riwŏrs kare": `रिवो${CANDRABINDU}र्स करे`,
-  lĕsiyāī: `ले${CANDRABINDU}सियाई`,
-  sĕtiyāve: `से${CANDRABINDU}तियावे`,
+  // Group 3 -- ĕ/ŏ loanwords (round 4 owner corrections, superseding round
+  // 3's candrabindu-nasal spellings): all three vocab entries already carry
+  // the `needs-verification` tag (content/sarnami/vocab/loanwords.json).
+  //
+  // Owner's round-4 correction: "riwors" (< English "reverse") gets the
+  // up-to-date standard Hindi spelling for this loanword, रिवर्स -- not a
+  // phonetic transliteration of the Sarnami-authored "riwŏrs" spelling.
+  "riwŏrs kare": "रिवर्स करे",
+  // Owner's round-4 correction: reverts round 3's nasal marking back to
+  // plain लेसियाई.
+  lĕsiyāī: "लेसियाई",
+  // Owner's round-4 correction: सेती-आवे -- long-ī ती (not short-i ति) and
+  // a hyphen break before आवे, replacing round 3's से...तियावे shape
+  // (and reverting its nasal marking).
+  sĕtiyāve: "सेती-आवे",
 };
 
 /** Sarnami diacritic `word` -> Devanagari spelling, for Piper TTS input. */

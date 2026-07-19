@@ -117,8 +117,8 @@ test("owner's direct fix: uitleg kare (Dutch g -> ख़)", () => {
   assert.equal(toDevanagari("uitleg kare"), "आोतलेख करे");
 });
 
-test("owner's direct fix: wachti kare", () => {
-  assert.equal(toDevanagari("wachti kare"), "ववक्ती करे");
+test("owner's round-4 fix: wachti kare (round-3 had a doubled-व typo)", () => {
+  assert.equal(toDevanagari("wachti kare"), "वक्ती करे");
 });
 
 test("owner's direct fix: bekeur kare", () => {
@@ -129,16 +129,16 @@ test("owner's direct fix: beledig kare (Dutch g -> ख़)", () => {
   assert.equal(toDevanagari("beledig kare"), "बलएडेख करे");
 });
 
-// --- round-3 nasal loanwords (owner decision: keep nasality) ---------------
+// --- round-4 ĕ/ŏ loanwords (owner reverted round-3's nasal marking) --------
 
-test("loan-riwors keeps nasal marking on the breve ŏ (owner decision)", () => {
-  assert.equal(toDevanagari("riwŏrs kare"), "रिवोँर्स करे");
+test("loan-riwors: owner's round-4 fix uses the up-to-date Hindi spelling", () => {
+  assert.equal(toDevanagari("riwŏrs kare"), "रिवर्स करे");
 });
 
-test("loan-lesiyai keeps nasal marking on the breve ĕ (owner decision)", () => {
-  assert.equal(toDevanagari("lĕsiyāī"), "लेँसियाई");
+test("loan-lesiyai: owner's round-4 fix reverts nasal marking", () => {
+  assert.equal(toDevanagari("lĕsiyāī"), "लेसियाई");
 });
 
-test("loan-setiyave keeps nasal marking on the breve ĕ (owner decision)", () => {
-  assert.equal(toDevanagari("sĕtiyāve"), "सेँतियावे");
+test("loan-setiyave: owner's round-4 fix restructures to सेती-आवे", () => {
+  assert.equal(toDevanagari("sĕtiyāve"), "सेती-आवे");
 });

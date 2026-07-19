@@ -91,7 +91,7 @@
 | loan-uitleg | uitleg kare | आोतलेख करे |
 | loan-beledig | beledig kare | बलएडेख करे |
 | loan-bekeur | bekeur kare | बकर करे |
-| loan-wachti | wachti kare | ववक्ती करे |
+| loan-wachti | wachti kare | वक्ती करे |
 | loan-help | help kare | हेल्प करे |
 | loan-mooi | mooi kare | मोई करे |
 | loan-luru | lūrū kare | लूरू करे |
@@ -100,13 +100,13 @@
 | loan-las | lās kare | लास करे |
 | loan-hambog | hambog kare | हम्बोग करे |
 | loan-pharyam | pharyam kare | फर्यम करे |
-| loan-riwors | riwŏrs kare | रिवोँर्स करे |
+| loan-riwors | riwŏrs kare | रिवर्स करे |
 | loan-boro | boro kare | बोरो करे |
 | loan-triki | trīkī kare | त्रीकी करे |
 | loan-yuru | yūrū kare | यूरू करे |
 | loan-morsu | morsū kare | मोर्सू करे |
-| loan-lesiyai | lĕsiyāī | लेँसियाई |
-| loan-setiyave | sĕtiyāve | सेँतियावे |
+| loan-lesiyai | lĕsiyāī | लेसियाई |
+| loan-setiyave | sĕtiyāve | सेती-आवे |
 | noun-ghar | ghar | घर |
 | noun-ghari | ghaṛī | घड़ी |
 | noun-maibap | māī-bāp | माई-बाप |
