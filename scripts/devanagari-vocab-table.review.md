@@ -1,12 +1,12 @@
 | id | word | devanagari |
 |---|---|---|
-| about-sarnami | Sarnāmī | सर्नामी |
-| about-sarnam | Sarnām | सर्नाम |
+| about-sarnami | Sarnāmī | सर्रनामी |
+| about-sarnam | Sarnām | सरनाम् |
 | about-hindustani | Hindustani | हिन्दुस्तनि |
 | about-bhojpuri | Bhojpurī | भोज्पुरी |
 | about-avadhi | Avadhī | अवधी |
 | about-girmit | girmiṭ | गिर्मिट |
-| about-lalla-rookh | Lalla Rookh | लल्ल रोओख |
+| about-lalla-rookh | Lalla Rookh | लल्ला रूख |
 | about-devanagari | devanāgarī | देवनागरी |
 | adj-chota | choṭā | छोटा |
 | adj-lal | lāl | लाल |
@@ -88,12 +88,12 @@
 | int-to | to | तो |
 | loan-bel | bel kare | बेल करे |
 | loan-klop | klop kare | क्लोप करे |
-| loan-uitleg | uitleg kare | उइत्लेग करे |
+| loan-uitleg | uitleg kare | उईत्लेग करे |
 | loan-beledig | beledig kare | बेलेदिग करे |
-| loan-bekeur | bekeur kare | बेकेउर करे |
-| loan-wachti | wachti kare | वछ्ति करे |
+| loan-bekeur | bekeur kare | बेकूर करे |
+| loan-wachti | wachti kare | वख़्ति करे |
 | loan-help | help kare | हेल्प करे |
-| loan-mooi | mooi kare | मोओइ करे |
+| loan-mooi | mooi kare | मोई करे |
 | loan-luru | lūrū kare | लूरू करे |
 | loan-butu | būṭū bhare | बूटू भरे |
 | loan-don | don kare | दोन करे |
@@ -150,7 +150,7 @@
 | noun-mahes | Mahes | महेस |
 | noun-hariya | Hariyā | हरिया |
 | noun-somth | somth | सोम्थ |
-| noun-sarnam | Sarnām | सर्नाम |
+| noun-sarnam | Sarnām | सरनाम् |
 | noun-adami | adamī | अदमी |
 | noun-bakari | bakarī | बकरी |
 | num-sunna | sunnā | सुन्ना |
@@ -217,7 +217,7 @@
 | read-kaiman | kaiman | कैमन |
 | read-akkil | akkil | अक्किल |
 | read-tagat | tagat | तगत |
-| read-jangal | jangal | जन्गल |
+| read-jangal | jangal | जंगल |
 | sound-am | ām | आम |
 | sound-insan | insān | इन्सान |
 | sound-ulta | ultā | उल्ता |

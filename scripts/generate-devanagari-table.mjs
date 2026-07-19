@@ -57,9 +57,13 @@ export function generate(vocabDir = VOCAB_DIR) {
   const loanwordIds = entries
     .filter((e) => e.file === "loanwords.json")
     .map((e) => e.id);
-  const breveVowelIds = entries
-    .filter((e) => /[ĕŏ]/.test(e.word))
-    .map((e) => e.id);
+  // Round 2: etymology research resolved wf-lohar/wf-sonar (confirmed
+  // non-nasal) and pron-tomhar (confirmed nasal, already correctly audible
+  // via its own explicit ṁ token) -- see devanagari-transliterate.mjs's
+  // VOWELS comment. Only these three remain genuinely unresolved by
+  // etymology (recent loanword-derived coinages with no inherited
+  // Bhojpuri/Sanskrit etymon to appeal to).
+  const breveVowelUnresolvedIds = ["loan-riwors", "loan-lesiyai", "loan-setiyave"];
   const anusvaraIds = entries
     .filter((e) => /[ṁṃ]/.test(e.word))
     .map((e) => e.id);
@@ -77,21 +81,33 @@ export function generate(vocabDir = VOCAB_DIR) {
     needsReview: {
       loanwordDutchOrthography: {
         note:
-          "content/sarnami/vocab/loanwords.json words are spelled with Dutch " +
-          "digraphs (oo/ui/eu/...), not this repo's Sarnami diacritic scheme " +
-          "-- toDevanagari() has no Dutch-digraph handling and produces " +
-          "very likely wrong output for these (e.g. 'mooi' -> मोओइ). Needs " +
-          "a Sarnami speaker's judgment on whether these are pronounced " +
-          "with Dutch or nativized phonology.",
+          "Round 2: content/sarnami/vocab/loanwords.json's 8 loan-dutch " +
+          "entries were reviewed word-by-word. mooi/uitleg/wachti/bekeur " +
+          "now go through a targeted RAW_WORD_OVERRIDES fix (mooi is the " +
+          "owner's own direct correction; uitleg/wachti are phoneme-" +
+          "verified against espeak-ng; bekeur is a LOW-CONFIDENCE candidate " +
+          "still needing a Dutch-speaker audio A/B on its eu-vowel nucleus). " +
+          "bel/klop/help have no Dutch digraph and are left mechanical. " +
+          "beledig's word-final/medial 'g' (Dutch has no [ɡ] stop phoneme; " +
+          "phoneme-verified as [x], same as wachti's ch) is flagged as a " +
+          "candidate substitution but deliberately NOT applied -- see " +
+          "devanagari-transliterate.mjs's RAW_WORD_OVERRIDES comment for why.",
         ids: loanwordIds,
       },
       breveVowelNasalizationAmbiguous: {
         note:
-          "ĕ/ŏ words: source doc defines the breve as marking a nasalized " +
-          "vowel, but corpus usage (lohar/sonar, ordinary non-nasal Hindi-" +
-          "cognate words) contradicts that. Currently mapped to plain e/o " +
-          "(no nasal mark) -- see devanagari-transliterate.mjs VOWELS comment.",
-        ids: breveVowelIds,
+          "Round 2: etymology research resolved most of this category. " +
+          "wf-lohar/wf-sonar are CONFIRMED non-nasal (Sanskrit -kāra " +
+          "agentive suffix has no nasal in its NIA history) -- current " +
+          "plain-e/o mapping is correct, not a guess. pron-tomhar is " +
+          "CONFIRMED nasal (tumhārā's genuine historical -mh- cluster) and " +
+          "already renders audibly nasal via its own explicit ṁ->anusvara " +
+          "token, unrelated to the breve itself. Only the three loanword-" +
+          "derived coinages below remain genuinely unresolved -- recent " +
+          "borrowings have no inherited Bhojpuri/Sanskrit etymon for the " +
+          "breve to reflect, so etymology can't settle them; left at the " +
+          "non-nasal default pending an empirical Piper-audio decision.",
+        ids: breveVowelUnresolvedIds,
       },
       anusvaraVsCandrabindu: {
         note:
@@ -103,14 +119,23 @@ export function generate(vocabDir = VOCAB_DIR) {
       },
       midWordVirama: {
         note:
-          "Every word is transliterated phonemically-literally: a consonant " +
-          "directly followed by another consonant in the source romanization " +
-          "always gets an explicit virama, even where canonical Hindi " +
-          "spelling would omit it and rely on a reader's own mid-word " +
-          "schwa-deletion (e.g. sound-larka 'laṛkā' -> लड़्का, not the " +
-          "canonical लड़का). Very likely phonemically equivalent through " +
-          "Piper's phonemizer, but flagged since it looks non-standard. See " +
-          "devanagari-transliterate.mjs header comment.",
+          "Round 2: empirically verified via espeak-ng phonemization + " +
+          "multi-sample Piper/ASR round-trips (see devanagari-" +
+          "transliterate.mjs's mid-word-virama header comment for the full " +
+          "breakdown). The mechanical 'always virama between consonants' " +
+          "default is CONFIRMED correct for geminates and for ordinary " +
+          "non-place-mismatched clusters (e.g. sound-larka 'laṛkā' -> " +
+          "लड़्का, not canonical लड़का, is very likely phonemically " +
+          "equivalent through Piper's phonemizer). Two narrow overrides " +
+          "were added: (a) a plain nasal before a heterorganic stop (न् " +
+          "before velar ग, e.g. reading-jangal) now uses anusvara instead, " +
+          "matching how Piper's phonemizer place-assimilates the " +
+          "conventional spelling; (b) an unstressed word-initial CV-schwa " +
+          "syllable containing र्+consonant (सर्- in about-sarnami/about-" +
+          "sarnam) is fragile in Piper audio even though espeak assigns it " +
+          "a real phoneme -- fixed via the owner's own direct " +
+          "RAW_WORD_OVERRIDES for those two words; not mechanized further " +
+          "since only 2 confirmed instances exist in the current vocab.",
         ids: [],
       },
     },

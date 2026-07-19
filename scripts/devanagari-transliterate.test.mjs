@@ -73,11 +73,58 @@ test("non-letter characters (space, hyphen, ?) pass through untouched", () => {
 });
 
 test("case is ignored -- capitalized proper nouns transliterate the same as lowercase", () => {
-  assert.equal(toDevanagari("Sarnām"), toDevanagari("sarnām"));
+  assert.equal(toDevanagari("Ghar"), toDevanagari("ghar"));
 });
 
 // --- known-uncertain cases (documented, not silently "fixed") --------------
 
 test("breve vowels ĕ/ŏ currently map to plain e/o (no nasal mark) -- see VOWELS comment", () => {
   assert.equal(toDevanagari("lŏhār"), "लोहार");
+  assert.equal(toDevanagari("sŏnār"), "सोनार");
+});
+
+// --- heterorganic nasal + stop -> anusvara (round 2 empirical finding) -----
+
+test("plain n before a velar stop uses anusvara, not an explicit non-homorganic nasal+virama", () => {
+  assert.equal(toDevanagari("jangal"), "जंगल");
+});
+
+test("already-homorganic ṅ before a velar stop is untouched by the n-before-velar rule", () => {
+  assert.equal(toDevanagari("Laṅkā"), "लङ्का");
+});
+
+// --- round-2 RAW_WORD_OVERRIDES: owner's direct PR fixes --------------------
+
+test("owner's direct fix: Sarnāmī doubles र to survive the unstressed-syllable cluster", () => {
+  assert.equal(toDevanagari("Sarnāmī"), "सर्रनामी");
+});
+
+test("owner's direct fix: Sarnām relocates the virama onto the final म", () => {
+  assert.equal(toDevanagari("Sarnām"), "सरनाम्");
+});
+
+test("owner's direct fix: Lalla Rookh gets an overt ा matra and long-ū रूख", () => {
+  assert.equal(toDevanagari("Lalla Rookh"), "लल्ला रूख");
+});
+
+test("owner's direct fix: mooi kare's Dutch oo+i renders as ो + independent ई", () => {
+  assert.equal(toDevanagari("mooi kare"), "मोई करे");
+});
+
+// --- round-2 Dutch-loanword digraph overrides -------------------------------
+
+test("Dutch ui digraph: offglide is independent ई, not इ (uitleg kare)", () => {
+  assert.equal(toDevanagari("uitleg kare"), "उईत्लेग करे");
+});
+
+test("Dutch ch (/x/) maps to nukta ख़, not the affricate छ (wachti kare)", () => {
+  assert.equal(toDevanagari("wachti kare"), "वख़्ति करे");
+});
+
+test("Dutch eu digraph override (low-confidence candidate, flagged for audio A/B)", () => {
+  assert.equal(toDevanagari("bekeur kare"), "बेकूर करे");
+});
+
+test("beledig kare is deliberately left mechanical (Dutch g->x substitution not applied)", () => {
+  assert.equal(toDevanagari("beledig kare"), "बेलेदिग करे");
 });
