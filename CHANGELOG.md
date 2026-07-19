@@ -22,22 +22,25 @@ dated `## [X.Y.Z]` heading.
 ### Added
 
 - `content/sarnami/audio/*.mp3`: generated pronunciation audio for all 312
-  `content/sarnami/vocab/*.json` entries via rarelang-server's
-  `POST /audio/generate` (`facebook/mms-tts-hns`), using
-  `scripts/generate-audio.mjs` (#251) against a real deployed server for the
-  first time. Each vocab entry's `word` is transliterated to SCS
-  plain-Latin before synthesis (that model's vocabulary doesn't cover
-  Sarnami's diacritics — see `scripts/scs-transliterate.mjs`), and the
-  resulting `.wav` is transcoded to `.mp3` (`libmp3lame -q:a 4`, mono) to
-  match `audio.format` in `settings/sarnami/language-settings.json` before
-  committing — raw `.wav` output isn't shipped. Every vocab entry now
-  carries an additive `audioUrl` field (`/audio/sarnami/<id>.mp3`, per
-  `audio.baseUrl`). Automated sanity-checked (via `ffprobe`/`ffmpeg`
-  duration + `volumedetect` non-silence checks on a ~18-file sample, plus a
-  full-set duration pass — no zero-length or wildly-off-duration outliers)
-  but **not** verified by ear; a human listening pass is still recommended.
-  New optional field + new files, additive; no existing shape changed.
-  (#280)
+  `content/sarnami/vocab/*.json` entries with Piper TTS
+  (`hi_IN-rohan-medium` voice, Devanagari input), superseding an earlier
+  `facebook/mms-tts-hns` batch (that model's tokenizer only covers 30
+  flattened-Latin characters and silently drops most of this repo's
+  Sarnami diacritics — see #293). Each vocab entry's `word` is
+  transliterated to Devanagari first (`scripts/devanagari-transliterate.mjs`,
+  #293), synthesized deterministically (`--noise-scale 0 --noise-w-scale 0`,
+  since Piper's default per-call noise made single-sample checks
+  unreliable in earlier testing), and transcoded to `.mp3`
+  (`libmp3lame -q:a 4`, mono) to match `audio.format` in
+  `settings/sarnami/language-settings.json` — raw `.wav` output isn't
+  shipped. `audio.ttsModel` updated to
+  `rhasspy/piper-voices:hi_IN-rohan-medium`. Every vocab entry's
+  `audioUrl` field (`/audio/sarnami/<id>.mp3`, per `audio.baseUrl`) is
+  unchanged from the earlier batch. Verified via an `mms-1b-all`
+  (hin adapter) ASR round-trip across the full set plus a human listening
+  spot-check — see PR description for the flagged-word list and
+  methodology. New optional field + new files, additive; no existing shape
+  changed. (#280)
 
 ## [0.7.0] - 2026-07-18
 

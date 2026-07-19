@@ -36,7 +36,7 @@ import { spawnSync } from "node:child_process";
 import { toDevanagari } from "./devanagari-transliterate.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT = path.resolve(__dirname, "..");
+export const REPO_ROOT = path.resolve(__dirname, "..");
 const VOCAB_DIR = path.join(REPO_ROOT, "content", "sarnami", "vocab");
 
 // The 6 words used in this repo's earlier hns/Piper comparison testing
@@ -72,11 +72,11 @@ const DEFAULT_SMOKE_TEST_IDS = [
 // to discover and apply more of these across the full 312-word vocab, and
 // should account for Piper's per-call noise -- a single ASR pass isn't
 // enough to trust a fix; see the report for the multi-sample methodology.
-const KNOWN_WORKAROUNDS = {
+export const KNOWN_WORKAROUNDS = {
   "adj-sojha": "सो झा",
 };
 
-function readVocabEntries(vocabDir = VOCAB_DIR) {
+export function readVocabEntries(vocabDir = VOCAB_DIR) {
   const files = readdirSync(vocabDir).filter((f) => f.endsWith(".json")).sort();
   const entries = [];
   for (const file of files) {
@@ -89,11 +89,12 @@ function readVocabEntries(vocabDir = VOCAB_DIR) {
   return entries;
 }
 
-function synthesize({ piperBin, modelPath, text, outFile }) {
-  const result = spawnSync(piperBin, ["--model", modelPath, "--output_file", outFile], {
-    input: text,
-    encoding: "utf-8",
-  });
+export function synthesize({ piperBin, modelPath, text, outFile, extraArgs = [] }) {
+  const result = spawnSync(
+    piperBin,
+    ["--model", modelPath, "--output_file", outFile, ...extraArgs],
+    { input: text, encoding: "utf-8" },
+  );
   if (result.status !== 0) {
     throw new Error(
       `piper failed (exit ${result.status}) for "${text}" -> ${outFile}:\n${result.stderr}`,
