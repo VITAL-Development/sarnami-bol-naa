@@ -125,15 +125,17 @@ which clones `rarelang-server` (private; auths via `RARELANG_SERVER_TOKEN`)
 and runs its `validate-content` CLI against `content/sarnami/` +
 `settings/sarnami/` — the same content-repository contract the backend
 server's loader expects, checked here instead of only surfacing downstream
-after a tag is cut. `contracts.lock.json` pins the sha256 of the upstream
-contract docs last reviewed; a `contracts-discovery` job flags when
-rarelang-server changes one of those docs so a human/agentic follow-up can
-assess drift (a deliberate, non-automatic gate — like bumping a dependency
-lockfile). A separate `advisory-contract-review` job runs a cost-bounded
-Claude Code pass (only on diffs touching `content/`/`authored_docs`, capped
-turns, non-blocking) for the two judgment-shaped contracts that aren't
-schema-checkable: CEFR-tier correctness and the A2 Dutch-readability
-ceiling.
+after a tag is cut. The workflow separately clones `rarelang` (private, also
+a sibling repo; auths via its own token), which is where the contract docs
+and `scripts/contracts-manifest.mjs` now live. `contracts.lock.json` pins
+the sha256 of the upstream contract docs last reviewed; a
+`contracts-discovery` job flags when rarelang changes one of those docs so a
+human/agentic follow-up can assess drift (a deliberate, non-automatic gate —
+like bumping a dependency lockfile). A separate `advisory-contract-review`
+job runs a cost-bounded Claude Code pass (only on diffs touching
+`content/`/`authored_docs`, capped turns, non-blocking) for the two
+judgment-shaped contracts that aren't schema-checkable: CEFR-tier
+correctness and the A2 Dutch-readability ceiling.
 
 ## Branding
 
