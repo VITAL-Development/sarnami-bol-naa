@@ -1,0 +1,1626 @@
+{
+  "generated": true,
+  "generatedBy": "scripts/generate-devanagari-table.mjs",
+  "purpose": "Review artifact for sarnami-bol-naa issue #280 part 1/2 (Piper TTS migration off facebook/mms-tts-hns). NOT consumed by any server or app. toDevanagari() output for every content/sarnami/vocab/*.json entry, for a human reviewer to check before part 2 spends real audio-generation time on it.",
+  "stats": {
+    "totalEntries": 312,
+    "errors": 0
+  },
+  "needsReview": {
+    "loanwordDutchOrthography": {
+      "note": "Round 2: content/sarnami/vocab/loanwords.json's 8 loan-dutch entries were reviewed word-by-word. mooi/uitleg/wachti/bekeur now go through a targeted RAW_WORD_OVERRIDES fix (mooi is the owner's own direct correction; uitleg/wachti are phoneme-verified against espeak-ng; bekeur is a LOW-CONFIDENCE candidate still needing a Dutch-speaker audio A/B on its eu-vowel nucleus). bel/klop/help have no Dutch digraph and are left mechanical. beledig's word-final/medial 'g' (Dutch has no [ɡ] stop phoneme; phoneme-verified as [x], same as wachti's ch) is flagged as a candidate substitution but deliberately NOT applied -- see devanagari-transliterate.mjs's RAW_WORD_OVERRIDES comment for why.",
+      "ids": [
+        "loan-bel",
+        "loan-klop",
+        "loan-uitleg",
+        "loan-beledig",
+        "loan-bekeur",
+        "loan-wachti",
+        "loan-help",
+        "loan-mooi",
+        "loan-luru",
+        "loan-butu",
+        "loan-don",
+        "loan-las",
+        "loan-hambog",
+        "loan-pharyam",
+        "loan-riwors",
+        "loan-boro",
+        "loan-triki",
+        "loan-yuru",
+        "loan-morsu",
+        "loan-lesiyai",
+        "loan-setiyave"
+      ]
+    },
+    "breveVowelNasalizationAmbiguous": {
+      "note": "Round 2: etymology research resolved most of this category. wf-lohar/wf-sonar are CONFIRMED non-nasal (Sanskrit -kāra agentive suffix has no nasal in its NIA history) -- current plain-e/o mapping is correct, not a guess. pron-tomhar is CONFIRMED nasal (tumhārā's genuine historical -mh- cluster) and already renders audibly nasal via its own explicit ṁ->anusvara token, unrelated to the breve itself. Only the three loanword-derived coinages below remain genuinely unresolved -- recent borrowings have no inherited Bhojpuri/Sanskrit etymon for the breve to reflect, so etymology can't settle them; left at the non-nasal default pending an empirical Piper-audio decision.",
+      "ids": [
+        "loan-riwors",
+        "loan-lesiyai",
+        "loan-setiyave"
+      ]
+    },
+    "anusvaraVsCandrabindu": {
+      "note": "ṁ/ṃ words: standardized on anusvara (ं) everywhere rather than the historically-conventional chandrabindu (ँ) some of these (hāṁ, kahāṁ, ...) would take in a dictionary. Not a pronunciation difference for TTS, just a spelling-convention simplification.",
+      "ids": [
+        "gram-kaham",
+        "greet-ja",
+        "noun-ghams",
+        "num-panc",
+        "post-mem",
+        "pron-tomhar",
+        "struct-anders",
+        "struct-in",
+        "verb-hamse"
+      ]
+    },
+    "midWordVirama": {
+      "note": "Round 2: empirically verified via espeak-ng phonemization + multi-sample Piper/ASR round-trips (see devanagari-transliterate.mjs's mid-word-virama header comment for the full breakdown). The mechanical 'always virama between consonants' default is CONFIRMED correct for geminates and for ordinary non-place-mismatched clusters (e.g. sound-larka 'laṛkā' -> लड़्का, not canonical लड़का, is very likely phonemically equivalent through Piper's phonemizer). Two narrow overrides were added: (a) a plain nasal before a heterorganic stop (न् before velar ग, e.g. reading-jangal) now uses anusvara instead, matching how Piper's phonemizer place-assimilates the conventional spelling; (b) an unstressed word-initial CV-schwa syllable containing र्+consonant (सर्- in about-sarnami/about-sarnam) is fragile in Piper audio even though espeak assigns it a real phoneme -- fixed via the owner's own direct RAW_WORD_OVERRIDES for those two words; not mechanized further since only 2 confirmed instances exist in the current vocab.",
+      "ids": []
+    }
+  },
+  "errors": [],
+  "entries": [
+    {
+      "id": "about-sarnami",
+      "word": "Sarnāmī",
+      "devanagari": "सरनामी"
+    },
+    {
+      "id": "about-sarnam",
+      "word": "Sarnām",
+      "devanagari": "सरनाम्"
+    },
+    {
+      "id": "about-hindustani",
+      "word": "Hindustani",
+      "devanagari": "हिन्दुस्तनि"
+    },
+    {
+      "id": "about-bhojpuri",
+      "word": "Bhojpurī",
+      "devanagari": "भोज्पुरी"
+    },
+    {
+      "id": "about-avadhi",
+      "word": "Avadhī",
+      "devanagari": "अवधी"
+    },
+    {
+      "id": "about-girmit",
+      "word": "girmiṭ",
+      "devanagari": "गिर्मिट"
+    },
+    {
+      "id": "about-lalla-rookh",
+      "word": "Lalla Rookh",
+      "devanagari": "लल्ला रूख"
+    },
+    {
+      "id": "about-devanagari",
+      "word": "devanāgarī",
+      "devanagari": "देवनागरी"
+    },
+    {
+      "id": "adj-chota",
+      "word": "choṭā",
+      "devanagari": "छोटा"
+    },
+    {
+      "id": "adj-lal",
+      "word": "lāl",
+      "devanagari": "लाल"
+    },
+    {
+      "id": "adj-sojha",
+      "word": "sojhā",
+      "devanagari": "सोझा"
+    },
+    {
+      "id": "adj-patar",
+      "word": "pātar",
+      "devanagari": "पातर"
+    },
+    {
+      "id": "adj-mitha",
+      "word": "mīṭhā",
+      "devanagari": "मीठा"
+    },
+    {
+      "id": "adj-barka",
+      "word": "barkā",
+      "devanagari": "बर्का"
+    },
+    {
+      "id": "adj-lamma",
+      "word": "lammā",
+      "devanagari": "लम्मा"
+    },
+    {
+      "id": "adj-barhimya",
+      "word": "barhimyā",
+      "devanagari": "बर्हिम्या"
+    },
+    {
+      "id": "adj-karikka",
+      "word": "karikkā",
+      "devanagari": "करिक्का"
+    },
+    {
+      "id": "adj-bimar",
+      "word": "bīmār",
+      "devanagari": "बीमार"
+    },
+    {
+      "id": "adj-dhani",
+      "word": "dhanī",
+      "devanagari": "धनी"
+    },
+    {
+      "id": "adv-aaj",
+      "word": "āj",
+      "devanagari": "आज"
+    },
+    {
+      "id": "adv-bihaan",
+      "word": "bihān",
+      "devanagari": "बिहान"
+    },
+    {
+      "id": "adv-kaal",
+      "word": "kāl",
+      "devanagari": "काल"
+    },
+    {
+      "id": "adv-roj",
+      "word": "roj",
+      "devanagari": "रोज"
+    },
+    {
+      "id": "adv-hardam",
+      "word": "hardam",
+      "devanagari": "हर्दम"
+    },
+    {
+      "id": "adv-uppar",
+      "word": "uppar",
+      "devanagari": "उप्पर"
+    },
+    {
+      "id": "adv-nicce",
+      "word": "nicce",
+      "devanagari": "निच्चे"
+    },
+    {
+      "id": "adv-dur",
+      "word": "dūr",
+      "devanagari": "दूर"
+    },
+    {
+      "id": "adv-nagicce",
+      "word": "nagicce",
+      "devanagari": "नगिच्चे"
+    },
+    {
+      "id": "adv-baahar",
+      "word": "bāhar",
+      "devanagari": "बाहर"
+    },
+    {
+      "id": "adv-dhire",
+      "word": "dhīre",
+      "devanagari": "धीरे"
+    },
+    {
+      "id": "adv-dhire-dhire",
+      "word": "dhīre-dhīre",
+      "devanagari": "धीरे-धीरे"
+    },
+    {
+      "id": "adv-sacce",
+      "word": "sacce",
+      "devanagari": "सच्चे"
+    },
+    {
+      "id": "adv-sait",
+      "word": "sait",
+      "devanagari": "सैत"
+    },
+    {
+      "id": "adv-bahut",
+      "word": "bahut",
+      "devanagari": "बहुत"
+    },
+    {
+      "id": "adv-thora-se",
+      "word": "thorā se",
+      "devanagari": "थोरा से"
+    },
+    {
+      "id": "adv-bilkul",
+      "word": "bilkul",
+      "devanagari": "बिल्कुल"
+    },
+    {
+      "id": "adv-habara",
+      "word": "habarā",
+      "devanagari": "हबरा"
+    },
+    {
+      "id": "adv-kanti",
+      "word": "kantī",
+      "devanagari": "कन्ती"
+    },
+    {
+      "id": "adv-parsis",
+      "word": "parsīs",
+      "devanagari": "पर्सीस"
+    },
+    {
+      "id": "adv-ghare",
+      "word": "ghare",
+      "devanagari": "घरे"
+    },
+    {
+      "id": "conj-ofwel",
+      "word": "yā to",
+      "devanagari": "या तो"
+    },
+    {
+      "id": "conj-zowel-als",
+      "word": "kā … kā …",
+      "devanagari": "का … का …"
+    },
+    {
+      "id": "conj-noch-noch",
+      "word": "nā … nā …",
+      "devanagari": "ना … ना …"
+    },
+    {
+      "id": "conj-zodat",
+      "word": "jaune",
+      "devanagari": "जौने"
+    },
+    {
+      "id": "conj-ookal",
+      "word": "cāhe",
+      "devanagari": "चाहे"
+    },
+    {
+      "id": "conj-zolang",
+      "word": "jab talak",
+      "devanagari": "जब तलक"
+    },
+    {
+      "id": "conj-aur",
+      "word": "aur",
+      "devanagari": "और"
+    },
+    {
+      "id": "gram-hai",
+      "word": "hai",
+      "devanagari": "है"
+    },
+    {
+      "id": "gram-na",
+      "word": "nā",
+      "devanagari": "ना"
+    },
+    {
+      "id": "gram-kaham",
+      "word": "kahāṁ",
+      "devanagari": "कहां"
+    },
+    {
+      "id": "gram-se",
+      "word": "se",
+      "devanagari": "से"
+    },
+    {
+      "id": "gram-aur-compare",
+      "word": "aur",
+      "devanagari": "और"
+    },
+    {
+      "id": "gram-jada",
+      "word": "jādā",
+      "devanagari": "जादा"
+    },
+    {
+      "id": "gram-sabse",
+      "word": "sab se",
+      "devanagari": "सब से"
+    },
+    {
+      "id": "gram-hai-aux",
+      "word": "hai",
+      "devanagari": "है"
+    },
+    {
+      "id": "gram-kaise",
+      "word": "kaise",
+      "devanagari": "कैसे"
+    },
+    {
+      "id": "gram-ba",
+      "word": "bā",
+      "devanagari": "बा"
+    },
+    {
+      "id": "gram-ba-aux",
+      "word": "bā",
+      "devanagari": "बा"
+    },
+    {
+      "id": "gram-go",
+      "word": "go",
+      "devanagari": "गो"
+    },
+    {
+      "id": "gram-raha-aux",
+      "word": "rahā",
+      "devanagari": "रहा"
+    },
+    {
+      "id": "gram-bati",
+      "word": "bāṭī",
+      "devanagari": "बाटी"
+    },
+    {
+      "id": "gram-hove",
+      "word": "hove",
+      "devanagari": "होवे"
+    },
+    {
+      "id": "gram-sab",
+      "word": "sab",
+      "devanagari": "सब"
+    },
+    {
+      "id": "gram-ego",
+      "word": "ego",
+      "devanagari": "एगो"
+    },
+    {
+      "id": "greet-ram-ram",
+      "word": "Rām Rām",
+      "devanagari": "राम राम"
+    },
+    {
+      "id": "greet-pranam",
+      "word": "Pranām",
+      "devanagari": "प्रनाम"
+    },
+    {
+      "id": "greet-kaise-hai",
+      "word": "Kaise hai?",
+      "devanagari": "कैसे है?"
+    },
+    {
+      "id": "greet-moi-jahe",
+      "word": "Moi jā hai",
+      "devanagari": "मोइ जा है"
+    },
+    {
+      "id": "greet-dhanyavad",
+      "word": "Dhanbād",
+      "devanagari": "धन्बाद"
+    },
+    {
+      "id": "greet-ja",
+      "word": "hāṁ",
+      "devanagari": "हां"
+    },
+    {
+      "id": "greet-nee",
+      "word": "nā",
+      "devanagari": "ना"
+    },
+    {
+      "id": "int-accha",
+      "word": "acchā",
+      "devanagari": "अच्छा"
+    },
+    {
+      "id": "int-he",
+      "word": "he",
+      "devanagari": "हे"
+    },
+    {
+      "id": "int-ho",
+      "word": "ho",
+      "devanagari": "हो"
+    },
+    {
+      "id": "int-cup",
+      "word": "cup",
+      "devanagari": "चुप"
+    },
+    {
+      "id": "int-aya",
+      "word": "ayā",
+      "devanagari": "अया"
+    },
+    {
+      "id": "int-bacao",
+      "word": "bacāo",
+      "devanagari": "बचाओ"
+    },
+    {
+      "id": "int-bhala",
+      "word": "bhalā",
+      "devanagari": "भला"
+    },
+    {
+      "id": "int-bap-re-bap",
+      "word": "bāp-re-bāp",
+      "devanagari": "बाप-रे-बाप"
+    },
+    {
+      "id": "int-sabas",
+      "word": "sābās",
+      "devanagari": "साबास"
+    },
+    {
+      "id": "int-vah-vah",
+      "word": "vāh-vāh",
+      "devanagari": "वाह-वाह"
+    },
+    {
+      "id": "int-albat",
+      "word": "albat",
+      "devanagari": "अल्बत"
+    },
+    {
+      "id": "int-cor-cor",
+      "word": "cor-cor",
+      "devanagari": "चोर-चोर"
+    },
+    {
+      "id": "int-hay-hay",
+      "word": "hāy-hāy",
+      "devanagari": "हाय-हाय"
+    },
+    {
+      "id": "int-oho",
+      "word": "oho",
+      "devanagari": "ओहो"
+    },
+    {
+      "id": "int-to",
+      "word": "to",
+      "devanagari": "तो"
+    },
+    {
+      "id": "loan-bel",
+      "word": "bel kare",
+      "devanagari": "बेल करे"
+    },
+    {
+      "id": "loan-klop",
+      "word": "klop kare",
+      "devanagari": "क्लोप करे"
+    },
+    {
+      "id": "loan-uitleg",
+      "word": "uitleg kare",
+      "devanagari": "आोतलेख करे"
+    },
+    {
+      "id": "loan-beledig",
+      "word": "beledig kare",
+      "devanagari": "बलएडेख करे"
+    },
+    {
+      "id": "loan-bekeur",
+      "word": "bekeur kare",
+      "devanagari": "बकर करे"
+    },
+    {
+      "id": "loan-wachti",
+      "word": "wachti kare",
+      "devanagari": "वक्ती करे"
+    },
+    {
+      "id": "loan-help",
+      "word": "help kare",
+      "devanagari": "हेल्प करे"
+    },
+    {
+      "id": "loan-mooi",
+      "word": "mooi kare",
+      "devanagari": "मोई करे"
+    },
+    {
+      "id": "loan-luru",
+      "word": "lūrū kare",
+      "devanagari": "लूरू करे"
+    },
+    {
+      "id": "loan-butu",
+      "word": "būṭū bhare",
+      "devanagari": "बूटू भरे"
+    },
+    {
+      "id": "loan-don",
+      "word": "don kare",
+      "devanagari": "दोन करे"
+    },
+    {
+      "id": "loan-las",
+      "word": "lās kare",
+      "devanagari": "लास करे"
+    },
+    {
+      "id": "loan-hambog",
+      "word": "hambog kare",
+      "devanagari": "हम्बोग करे"
+    },
+    {
+      "id": "loan-pharyam",
+      "word": "pharyam kare",
+      "devanagari": "फर्यम करे"
+    },
+    {
+      "id": "loan-riwors",
+      "word": "riwŏrs kare",
+      "devanagari": "रिवर्स करे"
+    },
+    {
+      "id": "loan-boro",
+      "word": "boro kare",
+      "devanagari": "बोरो करे"
+    },
+    {
+      "id": "loan-triki",
+      "word": "trīkī kare",
+      "devanagari": "त्रीकी करे"
+    },
+    {
+      "id": "loan-yuru",
+      "word": "yūrū kare",
+      "devanagari": "यूरू करे"
+    },
+    {
+      "id": "loan-morsu",
+      "word": "morsū kare",
+      "devanagari": "मोर्सू करे"
+    },
+    {
+      "id": "loan-lesiyai",
+      "word": "lĕsiyāī",
+      "devanagari": "लेसियाई"
+    },
+    {
+      "id": "loan-setiyave",
+      "word": "sĕtiyāve",
+      "devanagari": "सेती-आवे"
+    },
+    {
+      "id": "noun-ghar",
+      "word": "ghar",
+      "devanagari": "घर"
+    },
+    {
+      "id": "noun-ghari",
+      "word": "ghaṛī",
+      "devanagari": "घड़ी"
+    },
+    {
+      "id": "noun-maibap",
+      "word": "māī-bāp",
+      "devanagari": "माई-बाप"
+    },
+    {
+      "id": "noun-bhai",
+      "word": "bhāī",
+      "devanagari": "भाई"
+    },
+    {
+      "id": "noun-bahin",
+      "word": "bahin",
+      "devanagari": "बहिन"
+    },
+    {
+      "id": "noun-maiya",
+      "word": "maiyā",
+      "devanagari": "मैया"
+    },
+    {
+      "id": "noun-bappa",
+      "word": "bappā",
+      "devanagari": "बप्पा"
+    },
+    {
+      "id": "noun-beti",
+      "word": "beṭī",
+      "devanagari": "बेटी"
+    },
+    {
+      "id": "noun-citthi",
+      "word": "ciṭṭhi",
+      "devanagari": "चिट्ठि"
+    },
+    {
+      "id": "noun-kutta",
+      "word": "kuttā",
+      "devanagari": "कुत्ता"
+    },
+    {
+      "id": "noun-ghora",
+      "word": "ghoṛā",
+      "devanagari": "घोड़ा"
+    },
+    {
+      "id": "noun-per",
+      "word": "peṛ",
+      "devanagari": "पेड़"
+    },
+    {
+      "id": "noun-am",
+      "word": "ām",
+      "devanagari": "आम"
+    },
+    {
+      "id": "noun-gai",
+      "word": "gāī",
+      "devanagari": "गाई"
+    },
+    {
+      "id": "noun-gadaha",
+      "word": "gadahā",
+      "devanagari": "गदहा"
+    },
+    {
+      "id": "noun-gadahi",
+      "word": "gadahī",
+      "devanagari": "गदही"
+    },
+    {
+      "id": "noun-launda",
+      "word": "laundā",
+      "devanagari": "लौन्दा"
+    },
+    {
+      "id": "noun-chaumri",
+      "word": "chaumṛī",
+      "devanagari": "छौम्ड़ी"
+    },
+    {
+      "id": "noun-nana",
+      "word": "nānā",
+      "devanagari": "नाना"
+    },
+    {
+      "id": "noun-nani",
+      "word": "nanī",
+      "devanagari": "ननी"
+    },
+    {
+      "id": "noun-nak",
+      "word": "nāk",
+      "devanagari": "नाक"
+    },
+    {
+      "id": "noun-churi",
+      "word": "chūrī",
+      "devanagari": "छूरी"
+    },
+    {
+      "id": "noun-kam",
+      "word": "kām",
+      "devanagari": "काम"
+    },
+    {
+      "id": "noun-bajar",
+      "word": "bajār",
+      "devanagari": "बजार"
+    },
+    {
+      "id": "noun-sauda",
+      "word": "saudā",
+      "devanagari": "सौदा"
+    },
+    {
+      "id": "noun-phal",
+      "word": "phal",
+      "devanagari": "फल"
+    },
+    {
+      "id": "noun-pani",
+      "word": "pānī",
+      "devanagari": "पानी"
+    },
+    {
+      "id": "noun-pithi",
+      "word": "pīṭhī",
+      "devanagari": "पीठी"
+    },
+    {
+      "id": "noun-khartin",
+      "word": "khartin",
+      "devanagari": "खर्तिन"
+    },
+    {
+      "id": "noun-ghams",
+      "word": "ghāṁs",
+      "devanagari": "घांस"
+    },
+    {
+      "id": "noun-ram",
+      "word": "Ram",
+      "devanagari": "रम"
+    },
+    {
+      "id": "noun-rustam",
+      "word": "Rustam",
+      "devanagari": "रुस्तम"
+    },
+    {
+      "id": "noun-raja",
+      "word": "rajā",
+      "devanagari": "रजा"
+    },
+    {
+      "id": "noun-gopal",
+      "word": "Gopāl",
+      "devanagari": "गोपाल"
+    },
+    {
+      "id": "noun-sita",
+      "word": "Sitā",
+      "devanagari": "सिता"
+    },
+    {
+      "id": "noun-anguthi",
+      "word": "aṅguṭṭhī",
+      "devanagari": "अङ्गुट्ठी"
+    },
+    {
+      "id": "noun-bed",
+      "word": "Bed",
+      "devanagari": "बेद"
+    },
+    {
+      "id": "noun-batiya",
+      "word": "batiyā",
+      "devanagari": "बतिया"
+    },
+    {
+      "id": "noun-hath",
+      "word": "hāth",
+      "devanagari": "हाथ"
+    },
+    {
+      "id": "noun-baris",
+      "word": "bariś",
+      "devanagari": "बरिश"
+    },
+    {
+      "id": "noun-mahes",
+      "word": "Mahes",
+      "devanagari": "महेस"
+    },
+    {
+      "id": "noun-hariya",
+      "word": "Hariyā",
+      "devanagari": "हरिया"
+    },
+    {
+      "id": "noun-somth",
+      "word": "somth",
+      "devanagari": "सोम्थ"
+    },
+    {
+      "id": "noun-sarnam",
+      "word": "Sarnām",
+      "devanagari": "सरनाम्"
+    },
+    {
+      "id": "noun-adami",
+      "word": "adamī",
+      "devanagari": "अदमी"
+    },
+    {
+      "id": "noun-bakari",
+      "word": "bakarī",
+      "devanagari": "बकरी"
+    },
+    {
+      "id": "num-sunna",
+      "word": "sunnā",
+      "devanagari": "सुन्ना"
+    },
+    {
+      "id": "num-ek",
+      "word": "ek",
+      "devanagari": "एक"
+    },
+    {
+      "id": "num-dui",
+      "word": "dūi",
+      "devanagari": "दूइ"
+    },
+    {
+      "id": "num-tin",
+      "word": "tīn",
+      "devanagari": "तीन"
+    },
+    {
+      "id": "num-car",
+      "word": "cār",
+      "devanagari": "चार"
+    },
+    {
+      "id": "num-panc",
+      "word": "pāṃc",
+      "devanagari": "पांच"
+    },
+    {
+      "id": "num-chau",
+      "word": "chau",
+      "devanagari": "छौ"
+    },
+    {
+      "id": "num-sat",
+      "word": "sāt",
+      "devanagari": "सात"
+    },
+    {
+      "id": "num-ath",
+      "word": "āṭh",
+      "devanagari": "आठ"
+    },
+    {
+      "id": "num-nau",
+      "word": "nau",
+      "devanagari": "नौ"
+    },
+    {
+      "id": "num-das",
+      "word": "das",
+      "devanagari": "दस"
+    },
+    {
+      "id": "num-sau",
+      "word": "sau",
+      "devanagari": "सौ"
+    },
+    {
+      "id": "post-mem",
+      "word": "meṁ",
+      "devanagari": "में"
+    },
+    {
+      "id": "post-se",
+      "word": "se",
+      "devanagari": "से"
+    },
+    {
+      "id": "post-par",
+      "word": "par",
+      "devanagari": "पर"
+    },
+    {
+      "id": "post-ke",
+      "word": "ke",
+      "devanagari": "के"
+    },
+    {
+      "id": "post-ke-uppar",
+      "word": "ke uppar",
+      "devanagari": "के उप्पर"
+    },
+    {
+      "id": "post-ke-nicce",
+      "word": "ke nicce",
+      "devanagari": "के निच्चे"
+    },
+    {
+      "id": "post-ke-bhittar",
+      "word": "ke bhittar",
+      "devanagari": "के भित्तर"
+    },
+    {
+      "id": "post-ke-bahar",
+      "word": "ke bāhar",
+      "devanagari": "के बाहर"
+    },
+    {
+      "id": "post-ke-sath",
+      "word": "ke sāth",
+      "devanagari": "के साथ"
+    },
+    {
+      "id": "post-ke-bina",
+      "word": "ke binā",
+      "devanagari": "के बिना"
+    },
+    {
+      "id": "post-ke-lage",
+      "word": "ke lage",
+      "devanagari": "के लगे"
+    },
+    {
+      "id": "post-ke-age",
+      "word": "ke āge",
+      "devanagari": "के आगे"
+    },
+    {
+      "id": "post-ke-piche",
+      "word": "ke piche",
+      "devanagari": "के पिछे"
+    },
+    {
+      "id": "post-se-locative",
+      "word": "se",
+      "devanagari": "से"
+    },
+    {
+      "id": "pron-ham",
+      "word": "ham",
+      "devanagari": "हम"
+    },
+    {
+      "id": "pron-tu",
+      "word": "tū",
+      "devanagari": "तू"
+    },
+    {
+      "id": "pron-ap",
+      "word": "āp",
+      "devanagari": "आप"
+    },
+    {
+      "id": "pron-u",
+      "word": "ū",
+      "devanagari": "ऊ"
+    },
+    {
+      "id": "pron-hamlog",
+      "word": "ham log",
+      "devanagari": "हम लोग"
+    },
+    {
+      "id": "pron-hamar",
+      "word": "hamār",
+      "devanagari": "हमार"
+    },
+    {
+      "id": "pron-tor",
+      "word": "tor",
+      "devanagari": "तोर"
+    },
+    {
+      "id": "pron-tomhar",
+      "word": "tŏṁhār",
+      "devanagari": "तोंहार"
+    },
+    {
+      "id": "pron-apke",
+      "word": "āpke",
+      "devanagari": "आप्के"
+    },
+    {
+      "id": "pron-ekar",
+      "word": "ekar",
+      "devanagari": "एकर"
+    },
+    {
+      "id": "pron-okar",
+      "word": "okar",
+      "devanagari": "ओकर"
+    },
+    {
+      "id": "pron-i",
+      "word": "ī",
+      "devanagari": "ई"
+    },
+    {
+      "id": "pron-eke",
+      "word": "eke",
+      "devanagari": "एके"
+    },
+    {
+      "id": "pron-oke",
+      "word": "oke",
+      "devanagari": "ओके"
+    },
+    {
+      "id": "pron-inhan",
+      "word": "inhan",
+      "devanagari": "इन्हन"
+    },
+    {
+      "id": "pron-unhan",
+      "word": "unhan",
+      "devanagari": "उन्हन"
+    },
+    {
+      "id": "pron-ke",
+      "word": "ke",
+      "devanagari": "के"
+    },
+    {
+      "id": "pron-kaun",
+      "word": "kaun",
+      "devanagari": "कौन"
+    },
+    {
+      "id": "pron-ka",
+      "word": "kā",
+      "devanagari": "का"
+    },
+    {
+      "id": "pron-kaunci",
+      "word": "kaunci",
+      "devanagari": "कौन्चि"
+    },
+    {
+      "id": "pron-kekar",
+      "word": "kekar",
+      "devanagari": "केकर"
+    },
+    {
+      "id": "pron-jaun",
+      "word": "jaun",
+      "devanagari": "जौन"
+    },
+    {
+      "id": "pron-je",
+      "word": "je",
+      "devanagari": "जे"
+    },
+    {
+      "id": "pron-jekar",
+      "word": "jekar",
+      "devanagari": "जेकर"
+    },
+    {
+      "id": "read-nani",
+      "word": "nānī",
+      "devanagari": "नानी"
+    },
+    {
+      "id": "read-nati",
+      "word": "nātī",
+      "devanagari": "नाती"
+    },
+    {
+      "id": "read-bakari",
+      "word": "bakarī",
+      "devanagari": "बकरी"
+    },
+    {
+      "id": "read-per",
+      "word": "peṛ",
+      "devanagari": "पेड़"
+    },
+    {
+      "id": "read-bhuja",
+      "word": "bhūjā",
+      "devanagari": "भूजा"
+    },
+    {
+      "id": "read-beta",
+      "word": "beṭā",
+      "devanagari": "बेटा"
+    },
+    {
+      "id": "read-bap",
+      "word": "bāp",
+      "devanagari": "बाप"
+    },
+    {
+      "id": "read-dhan",
+      "word": "dhan",
+      "devanagari": "धन"
+    },
+    {
+      "id": "read-naukar",
+      "word": "naukar",
+      "devanagari": "नौकर"
+    },
+    {
+      "id": "read-pap",
+      "word": "pāp",
+      "devanagari": "पाप"
+    },
+    {
+      "id": "read-siyar",
+      "word": "siyar",
+      "devanagari": "सियर"
+    },
+    {
+      "id": "read-kaiman",
+      "word": "kaiman",
+      "devanagari": "कैमन"
+    },
+    {
+      "id": "read-akkil",
+      "word": "akkil",
+      "devanagari": "अक्किल"
+    },
+    {
+      "id": "read-tagat",
+      "word": "tagat",
+      "devanagari": "तगत"
+    },
+    {
+      "id": "read-jangal",
+      "word": "jangal",
+      "devanagari": "जंगल"
+    },
+    {
+      "id": "sound-am",
+      "word": "ām",
+      "devanagari": "आम"
+    },
+    {
+      "id": "sound-insan",
+      "word": "insān",
+      "devanagari": "इन्सान"
+    },
+    {
+      "id": "sound-ulta",
+      "word": "ultā",
+      "devanagari": "उल्ता"
+    },
+    {
+      "id": "sound-aina",
+      "word": "ainā",
+      "devanagari": "ऐना"
+    },
+    {
+      "id": "sound-aurat",
+      "word": "aurat",
+      "devanagari": "औरत"
+    },
+    {
+      "id": "sound-kaun",
+      "word": "kaun",
+      "devanagari": "कौन"
+    },
+    {
+      "id": "sound-khet",
+      "word": "khet",
+      "devanagari": "खेत"
+    },
+    {
+      "id": "sound-cor",
+      "word": "cor",
+      "devanagari": "चोर"
+    },
+    {
+      "id": "sound-churi",
+      "word": "chūrī",
+      "devanagari": "छूरी"
+    },
+    {
+      "id": "sound-phul",
+      "word": "phul",
+      "devanagari": "फुल"
+    },
+    {
+      "id": "sound-garib",
+      "word": "garīb",
+      "devanagari": "गरीब"
+    },
+    {
+      "id": "sound-roti",
+      "word": "roṭī",
+      "devanagari": "रोटी"
+    },
+    {
+      "id": "sound-dar",
+      "word": "ḍar",
+      "devanagari": "डर"
+    },
+    {
+      "id": "sound-larka",
+      "word": "laṛkā",
+      "devanagari": "लड़्का"
+    },
+    {
+      "id": "sound-jhanda",
+      "word": "jhaṇḍā",
+      "devanagari": "झण्डा"
+    },
+    {
+      "id": "sound-kainci",
+      "word": "kaiñcī",
+      "devanagari": "कैञ्ची"
+    },
+    {
+      "id": "sound-lanka",
+      "word": "Laṅkā",
+      "devanagari": "लङ्का"
+    },
+    {
+      "id": "sound-bhasa",
+      "word": "bhāṣā",
+      "devanagari": "भाषा"
+    },
+    {
+      "id": "sound-shanti",
+      "word": "śānti",
+      "devanagari": "शान्ति"
+    },
+    {
+      "id": "struct-en",
+      "word": "aur",
+      "devanagari": "और"
+    },
+    {
+      "id": "struct-maar",
+      "word": "baki",
+      "devanagari": "बकि"
+    },
+    {
+      "id": "struct-of",
+      "word": "yā",
+      "devanagari": "या"
+    },
+    {
+      "id": "struct-dat",
+      "word": "ki",
+      "devanagari": "कि"
+    },
+    {
+      "id": "struct-als",
+      "word": "jo",
+      "devanagari": "जो"
+    },
+    {
+      "id": "struct-dan",
+      "word": "tab",
+      "devanagari": "तब"
+    },
+    {
+      "id": "struct-omdat",
+      "word": "kāhe se",
+      "devanagari": "काहे से"
+    },
+    {
+      "id": "struct-anders",
+      "word": "nahīṁ to",
+      "devanagari": "नहीं तो"
+    },
+    {
+      "id": "struct-sinds",
+      "word": "jab se",
+      "devanagari": "जब से"
+    },
+    {
+      "id": "struct-toch",
+      "word": "tabbo",
+      "devanagari": "तब्बो"
+    },
+    {
+      "id": "struct-altijd",
+      "word": "hardam",
+      "devanagari": "हर्दम"
+    },
+    {
+      "id": "struct-nooit",
+      "word": "kabhī nā",
+      "devanagari": "कभी ना"
+    },
+    {
+      "id": "struct-weer",
+      "word": "phir",
+      "devanagari": "फिर"
+    },
+    {
+      "id": "struct-eerst",
+      "word": "pahile",
+      "devanagari": "पहिले"
+    },
+    {
+      "id": "struct-dichtbij",
+      "word": "nagicce",
+      "devanagari": "नगिच्चे"
+    },
+    {
+      "id": "struct-ver",
+      "word": "dūr",
+      "devanagari": "दूर"
+    },
+    {
+      "id": "struct-ongeveer",
+      "word": "lagbhag",
+      "devanagari": "लग्भग"
+    },
+    {
+      "id": "struct-misschien",
+      "word": "sait",
+      "devanagari": "सैत"
+    },
+    {
+      "id": "struct-in",
+      "word": "meṁ",
+      "devanagari": "में"
+    },
+    {
+      "id": "struct-op",
+      "word": "par",
+      "devanagari": "पर"
+    },
+    {
+      "id": "struct-van-aan",
+      "word": "ke",
+      "devanagari": "के"
+    },
+    {
+      "id": "struct-zonder",
+      "word": "ke binā",
+      "devanagari": "के बिना"
+    },
+    {
+      "id": "verb-parhe",
+      "word": "paṛhe",
+      "devanagari": "पढ़े"
+    },
+    {
+      "id": "verb-kare",
+      "word": "kare",
+      "devanagari": "करे"
+    },
+    {
+      "id": "verb-bole",
+      "word": "bole",
+      "devanagari": "बोले"
+    },
+    {
+      "id": "verb-dekhe",
+      "word": "dekhe",
+      "devanagari": "देखे"
+    },
+    {
+      "id": "verb-sune",
+      "word": "sune",
+      "devanagari": "सुने"
+    },
+    {
+      "id": "verb-khai",
+      "word": "khāī",
+      "devanagari": "खाई"
+    },
+    {
+      "id": "verb-jai",
+      "word": "jāī",
+      "devanagari": "जाई"
+    },
+    {
+      "id": "verb-ave",
+      "word": "āve",
+      "devanagari": "आवे"
+    },
+    {
+      "id": "verb-sute",
+      "word": "sūte",
+      "devanagari": "सूते"
+    },
+    {
+      "id": "verb-kine",
+      "word": "kīne",
+      "devanagari": "कीने"
+    },
+    {
+      "id": "verb-leve",
+      "word": "leve",
+      "devanagari": "लेवे"
+    },
+    {
+      "id": "verb-deve",
+      "word": "deve",
+      "devanagari": "देवे"
+    },
+    {
+      "id": "verb-dhove",
+      "word": "dhove",
+      "devanagari": "धोवे"
+    },
+    {
+      "id": "verb-rove",
+      "word": "rove",
+      "devanagari": "रोवे"
+    },
+    {
+      "id": "verb-piye",
+      "word": "pīye",
+      "devanagari": "पीये"
+    },
+    {
+      "id": "verb-siye",
+      "word": "sīye",
+      "devanagari": "सीये"
+    },
+    {
+      "id": "verb-likhe",
+      "word": "likhe",
+      "devanagari": "लिखे"
+    },
+    {
+      "id": "verb-cale",
+      "word": "cale",
+      "devanagari": "चले"
+    },
+    {
+      "id": "verb-baithe",
+      "word": "baiṭhe",
+      "devanagari": "बैठे"
+    },
+    {
+      "id": "verb-uthe",
+      "word": "uṭhe",
+      "devanagari": "उठे"
+    },
+    {
+      "id": "verb-nace",
+      "word": "nāce",
+      "devanagari": "नाचे"
+    },
+    {
+      "id": "verb-hamse",
+      "word": "haṁse",
+      "devanagari": "हंसे"
+    },
+    {
+      "id": "verb-kate",
+      "word": "kāṭe",
+      "devanagari": "काटे"
+    },
+    {
+      "id": "verb-khele",
+      "word": "khele",
+      "devanagari": "खेले"
+    },
+    {
+      "id": "verb-mare-hit",
+      "word": "māre",
+      "devanagari": "मारे"
+    },
+    {
+      "id": "verb-mare-die",
+      "word": "mare",
+      "devanagari": "मरे"
+    },
+    {
+      "id": "verb-pahine",
+      "word": "pahine",
+      "devanagari": "पहिने"
+    },
+    {
+      "id": "verb-samjhe",
+      "word": "samjhe",
+      "devanagari": "सम्झे"
+    },
+    {
+      "id": "verb-khoje",
+      "word": "khoje",
+      "devanagari": "खोजे"
+    },
+    {
+      "id": "verb-puche",
+      "word": "pūche",
+      "devanagari": "पूछे"
+    },
+    {
+      "id": "verb-bolna",
+      "word": "bol-nā",
+      "devanagari": "बोल-ना"
+    },
+    {
+      "id": "verb-sikhe",
+      "word": "sikhe",
+      "devanagari": "सिखे"
+    },
+    {
+      "id": "verb-lave",
+      "word": "lāve",
+      "devanagari": "लावे"
+    },
+    {
+      "id": "verb-dai",
+      "word": "dai",
+      "devanagari": "दै"
+    },
+    {
+      "id": "verb-pakare",
+      "word": "pakaṛe",
+      "devanagari": "पकड़े"
+    },
+    {
+      "id": "verb-turle",
+      "word": "ṭurle",
+      "devanagari": "टुर्ले"
+    },
+    {
+      "id": "verb-jante",
+      "word": "jāntā",
+      "devanagari": "जान्ता"
+    },
+    {
+      "id": "wf-ghumakkar",
+      "word": "ghumakkaṛ",
+      "devanagari": "घुमक्कड़"
+    },
+    {
+      "id": "wf-piyakkar",
+      "word": "piyakkaṛ",
+      "devanagari": "पियक्कड़"
+    },
+    {
+      "id": "wf-lohar",
+      "word": "lŏhār",
+      "devanagari": "लोहार"
+    },
+    {
+      "id": "wf-sonar",
+      "word": "sŏnār",
+      "devanagari": "सोनार"
+    },
+    {
+      "id": "wf-parhai",
+      "word": "paṛhāī",
+      "devanagari": "पढ़ाई"
+    },
+    {
+      "id": "wf-safai",
+      "word": "safāī",
+      "devanagari": "सफ़ाई"
+    },
+    {
+      "id": "wf-topivala",
+      "word": "ṭopī-vālā",
+      "devanagari": "टोपी-वाला"
+    },
+    {
+      "id": "wf-macharivala",
+      "word": "macharī-vālā",
+      "devanagari": "मछरी-वाला"
+    },
+    {
+      "id": "wf-imandar",
+      "word": "imāndār",
+      "devanagari": "इमान्दार"
+    },
+    {
+      "id": "wf-dukandar",
+      "word": "dukāndār",
+      "devanagari": "दुकान्दार"
+    },
+    {
+      "id": "wf-jadugar",
+      "word": "jādūgar",
+      "devanagari": "जादूगर"
+    },
+    {
+      "id": "wf-karigar",
+      "word": "kārīgar",
+      "devanagari": "कारीगर"
+    },
+    {
+      "id": "wf-davakhana",
+      "word": "davā-khānā",
+      "devanagari": "दवा-खाना"
+    },
+    {
+      "id": "wf-chapkhana",
+      "word": "chapkhānā",
+      "devanagari": "छप्खाना"
+    },
+    {
+      "id": "wf-becain",
+      "word": "becain",
+      "devanagari": "बेचैन"
+    },
+    {
+      "id": "wf-nalayak",
+      "word": "nā-lāyak",
+      "devanagari": "ना-लायक"
+    }
+  ]
+}
