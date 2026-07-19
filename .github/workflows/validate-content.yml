@@ -40,6 +40,49 @@ jobs:
           RARELANG_SERVER_TOKEN: ${{ secrets.RARELANG_SERVER_TOKEN }}
         run: git clone --depth 1 "https://x-access-token:${RARELANG_SERVER_TOKEN}@github.com/VITAL-Development/rarelang-server.git" rarelang-server-tooling
 
+  fetch-rarelang-contracts:
+    name: fetch rarelang contracts tooling
+    runs-on: ubuntu-latest
+    outputs:
+      cache-key: ${{ steps.resolve.outputs.cache-key }}
+    steps:
+      # The contract docs + contracts-manifest.mjs previously lived in
+      # rarelang-server, but have since moved to their own sibling repo,
+      # `rarelang` (also private). Mirrors fetch-rarelang-server's structure
+      # exactly, just against a different repo.
+      #
+      # TOKEN CAVEAT (flag for a human reviewer): RARELANG_SERVER_TOKEN below
+      # is a PLACEHOLDER. Per fetch-rarelang-server's own comment above, that
+      # PAT is "scoped to read-only access on that one repo" (rarelang-server)
+      # — it will very likely NOT have access to clone `rarelang`, a separate
+      # private repo. This job will probably fail authentication until a repo
+      # admin creates a new PAT scoped to read-only access on
+      # VITAL-Development/rarelang and stores it as a new secret (suggested
+      # name: RARELANG_CONTRACTS_TOKEN), and this job (and the env vars below)
+      # are updated to reference it instead. This cannot be done by CI tooling
+      # or an agent — it requires a human with repo-admin access to create the
+      # GitHub secret.
+      - name: Resolve rarelang main SHA
+        id: resolve
+        env:
+          RARELANG_SERVER_TOKEN: ${{ secrets.RARELANG_SERVER_TOKEN }}
+        run: |
+          sha=$(git ls-remote "https://x-access-token:${RARELANG_SERVER_TOKEN}@github.com/VITAL-Development/rarelang.git" refs/heads/main | cut -f1)
+          echo "cache-key=rarelang-contracts-tooling-${sha}" >> "$GITHUB_OUTPUT"
+
+      - name: Cache rarelang contracts tooling
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: rarelang-contracts-tooling
+          key: ${{ steps.resolve.outputs.cache-key }}
+
+      - name: Clone rarelang (cache miss)
+        if: steps.cache.outputs.cache-hit != 'true'
+        env:
+          RARELANG_SERVER_TOKEN: ${{ secrets.RARELANG_SERVER_TOKEN }}
+        run: git clone --depth 1 "https://x-access-token:${RARELANG_SERVER_TOKEN}@github.com/VITAL-Development/rarelang.git" rarelang-contracts-tooling
+
   validate-content:
     name: validate-content (rarelang-server)
     needs: fetch-rarelang-server
@@ -246,7 +289,7 @@ jobs:
 
   contracts-discovery:
     name: contracts-discovery (deterministic)
-    needs: fetch-rarelang-server
+    needs: fetch-rarelang-contracts
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -255,21 +298,21 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Restore rarelang-server tooling
+      - name: Restore rarelang contracts tooling
         uses: actions/cache/restore@v4
         with:
-          path: rarelang-server-tooling
-          key: ${{ needs.fetch-rarelang-server.outputs.cache-key }}
+          path: rarelang-contracts-tooling
+          key: ${{ needs.fetch-rarelang-contracts.outputs.cache-key }}
           fail-on-cache-miss: true
 
       # Deterministic half of "dynamically discover new/changed contracts"
       # (rarelang-server#53, this repo's #204): a plain sha256 diff between
-      # rarelang-server's current contract docs and the hashes we last
+      # rarelang's current contract docs and the hashes we last
       # reviewed (contracts.lock.json). No LLM needed to notice a contract
       # doc changed — only reviewing *what* changed is a human/agentic call.
       - name: Diff upstream contracts against contracts.lock.json
         run: |
-          node rarelang-server-tooling/scripts/contracts-manifest.mjs > /tmp/upstream-manifest.json
+          node rarelang-contracts-tooling/scripts/contracts-manifest.mjs > /tmp/upstream-manifest.json
           node -e '
             const fs = require("node:fs");
             const upstream = JSON.parse(fs.readFileSync("/tmp/upstream-manifest.json", "utf-8"));
@@ -277,21 +320,21 @@ jobs:
             const docs = Object.keys(upstream);
             const drift = docs.filter((doc) => lock[doc]?.hash !== upstream[doc].hash);
             if (drift.length > 0) {
-              console.error("Upstream rarelang-server contract doc(s) changed since contracts.lock.json was last reviewed:");
+              console.error("Upstream rarelang contract doc(s) changed since contracts.lock.json was last reviewed:");
               for (const doc of drift) {
                 const lockedVersion = lock[doc]?.version ?? "(missing)";
                 const lockedHash = lock[doc]?.hash ?? "(missing)";
                 console.error(`  ${doc}: locked=${lockedVersion} (${lockedHash}) upstream=${upstream[doc].version} (${upstream[doc].hash})`);
               }
-              console.error("\nReview the change at https://github.com/VITAL-Development/rarelang-server/blob/main/" + drift[0] + ", then update contracts.lock.json to match.");
+              console.error("\nReview the change at https://github.com/VITAL-Development/rarelang/blob/main/" + drift[0] + ", then update contracts.lock.json to match.");
               process.exit(1);
             }
-            console.log("contracts.lock.json is up to date with rarelang-server main.");
+            console.log("contracts.lock.json is up to date with rarelang main.");
           '
 
   advisory-contract-review:
     name: advisory-contract-review (agentic, non-blocking)
-    needs: fetch-rarelang-server
+    needs: fetch-rarelang-contracts
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     permissions:
@@ -319,12 +362,12 @@ jobs:
             echo "any=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Restore rarelang-server tooling
+      - name: Restore rarelang contracts tooling
         if: steps.changed.outputs.any == 'true'
         uses: actions/cache/restore@v4
         with:
-          path: rarelang-server-tooling
-          key: ${{ needs.fetch-rarelang-server.outputs.cache-key }}
+          path: rarelang-contracts-tooling
+          key: ${{ needs.fetch-rarelang-contracts.outputs.cache-key }}
           fail-on-cache-miss: true
 
       # Advisory-only half of the Option C fork (rarelang-server#53, #204):
@@ -359,8 +402,8 @@ jobs:
 
             Read only:
             - The changed files from this PR: ${{ steps.changed.outputs.files }}
-            - rarelang-server-tooling/docs/contracts/lesson-plan-authoring-contract.md (CEFR tier rules, cefrLevel field)
-            - rarelang-server-tooling/docs/contracts/source-language-authoring-contract.md (A2 ceiling on Dutch authoring text)
+            - rarelang-contracts-tooling/docs/contracts/lesson-plan-authoring-contract.md (CEFR tier rules, cefrLevel field)
+            - rarelang-contracts-tooling/docs/contracts/source-language-authoring-contract.md (A2 ceiling on Dutch authoring text)
 
             Evaluate the changed files against those two contracts only:
             1. If a unit sets `cefrLevel`, does its actual vocab/grammar difficulty plausibly
