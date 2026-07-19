@@ -101,23 +101,22 @@
 // unusual bare-ल-with-no-following-letter shape. Flagged as a follow-up,
 // not fixed wholesale.
 //
-// PARTIALLY RESOLVED (round 2) -- Dutch-orthography loanwords:
-// content/sarnami/vocab/loanwords.json's loan-dutch entries (mooi, uitleg,
-// klop, beledig, bekeur, wachti, bel, help) are spelled with *Dutch*
-// digraphs (oo, ui, eu, ch, ...), not this repo's IAST-derived Sarnami
-// diacritic scheme, and this module's mechanical tokenizer still has no
-// general Dutch-digraph handling -- letter-by-letter it would still shatter
-// e.g. "oo" into two hiatus vowels. Rather than build a generic Dutch-
-// phonology path into the tokenizer (risking regressions on the 300+
-// already-correct Sarnami-spelled entries for a pattern that only occurs in
-// this one 8-word loan-dutch subset), the specific words that actually
-// contain a problematic digraph are handled via targeted
-// RAW_WORD_OVERRIDES entries below (mooi/uitleg/wachti/bekeur), calibrated
-// against the owner's own mooi correction. bel/klop/help have no digraph
-// and are left mechanical; beledig's digraph-adjacent "g as Dutch fricative"
-// question is flagged but deliberately NOT applied (see the override
-// comment). See the generation report for the full reasoning and remaining
-// uncertainty (bekeur's eu-nucleus choice, beledig's g).
+// RESOLVED (round 3) -- Dutch-orthography loanwords: content/sarnami/
+// vocab/loanwords.json's loan-dutch entries (mooi, uitleg, klop, beledig,
+// bekeur, wachti, bel, help) are spelled with *Dutch* digraphs (oo, ui, eu,
+// ch, ...), not this repo's IAST-derived Sarnami diacritic scheme, and this
+// module's mechanical tokenizer still has no general Dutch-digraph handling
+// -- letter-by-letter it would still shatter e.g. "oo" into two hiatus
+// vowels. Rather than build a generic Dutch-phonology path into the
+// tokenizer (risking regressions on the 300+ already-correct Sarnami-spelled
+// entries for a pattern that only occurs in this one 8-word loan-dutch
+// subset), the specific words that actually contain a problematic digraph
+// are handled via targeted RAW_WORD_OVERRIDES entries below. mooi/uitleg/
+// wachti/bekeur/beledig are all owner-provided ground truth (round 3): per
+// the owner, Dutch word-final/medial "g" is usually rendered as "kh" in
+// Sarnami -- see uitleg and beledig below, both spelled with ख़ where the
+// Dutch source has "g". bel/klop/help have no digraph and are left
+// mechanical.
 
 const VOWELS = {
   a: { indep: "अ", matra: "" },
@@ -130,10 +129,10 @@ const VOWELS = {
   ai: { indep: "ऐ", matra: "ै" },
   o: { indep: "ओ", matra: "ो" },
   au: { indep: "औ", matra: "ौ" },
-  // PARTIALLY RESOLVED (round 2, etymology research) -- see report /
-  // RAW_WORD_OVERRIDES below. The source doc defines the breve vowels as
-  // *nasalized* short e/o (rows "ए, एँ" -> े/ेँ and "ओ, ओँ" -> ो/ोँ, i.e.
-  // matra + candrabindu). This repo's ĕ/ŏ words split into three groups:
+  // RESOLVED (round 3) -- see report / RAW_WORD_OVERRIDES below. The source
+  // doc defines the breve vowels as *nasalized* short e/o (rows "ए, एँ" ->
+  // े/ेँ and "ओ, ओँ" -> ो/ोँ, i.e. matra + candrabindu). This repo's ĕ/ŏ
+  // words split into three groups:
   //   - wf-lohar "lŏhār" / wf-sonar "sŏnār": CONFIRMED non-nasal. Both
   //     descend from the Sanskrit -kāra agentive suffix (lohakāra,
   //     suvarṇakāra), which has no nasal consonant anywhere in its
@@ -147,16 +146,17 @@ const VOWELS = {
   //     without any special-casing of ŏ itself: the word's own explicit
   //     ṁ token (see NASAL_KEYS below) already produces an anusvara right
   //     after the ो, so तोंहार is not silently losing the nasal quality
-  //     -- no override added. (Whether the *breve* should additionally
-  //     carry its own candrabindu, per a leftward-nasal-harmony reading,
-  //     is untested and left as a documentation flag, not a code change,
-  //     to avoid an unverified double-nasal-mark spelling.)
+  //     -- no override added.
   //   - loan-riwors "riwŏrs" (< English "reverse"), loan-lesiyai
-  //     "lĕsiyāī", loan-setiyave "sĕtiyāve": UNRESOLVED. All three are
-  //     recent loanword-derived coinages with no inherited Bhojpuri/
-  //     Sanskrit etymology to appeal to -- etymology genuinely can't
-  //     settle these. Left at this module's non-nasal default pending an
-  //     empirical Piper-audio decision; flagged in the generation report.
+  //     "lĕsiyāī", loan-setiyave "sĕtiyāve": owner decision (round 3) --
+  //     KEEP the nasal marking on these loanwords (candrabindu on the
+  //     breve syllable) rather than defaulting to non-nasal, since
+  //     etymology alone couldn't settle it either way. See the
+  //     RAW_WORD_OVERRIDES entries below, which add an explicit ँ next to
+  //     the breve's matra. All three vocab entries already carry the
+  //     `needs-verification` tag (content/sarnami/vocab/loanwords.json),
+  //     which is the right place to flag this as owner-decided-but-not-yet
+  //     native-speaker-confirmed -- no additional code-level flag needed.
   ĕ: { indep: "ए", matra: "े" },
   ŏ: { indep: "ओ", matra: "ो" },
   // Untested: 0 occurrences in the current vocab (see /tmp scan during
@@ -232,6 +232,10 @@ const CONSONANTS = {
 const ANUSVARA = "ं";
 const VISARGA = "ः"; // untested (0 occurrences)
 const VIRAMA = "्";
+// Used only in RAW_WORD_OVERRIDES, to mark the owner-decided nasal breve
+// vowels in loan-riwors/loan-lesiyai/loan-setiyave (round 3) -- see the ĕ/ŏ
+// VOWELS comment above.
+const CANDRABINDU = "ँ";
 
 const NASAL_KEYS = { ṁ: "nasal", ṃ: "nasal", ḥ: "visarga" };
 
@@ -375,49 +379,32 @@ export const RAW_WORD_OVERRIDES = {
   // the loan-dutch tagged entries). This module's mechanical tokenizer has
   // no Dutch-digraph handling (see the module header comment) and shatters
   // Dutch spelling-doubled long vowels / diphthongs into spurious
-  // Devanagari vowel hiatus. Calibrated against the owner's own mooi fix
-  // above (oo -> ो, i/j-offglide -> ई not इ) and phoneme-verified via
-  // espeak-ng where noted; NOT every entry below is equally certain -- see
-  // each note and the generation report's needsReview section.
+  // Devanagari vowel hiatus. Owner-provided ground truth (round 3),
+  // superseding the round-2 research candidates -- applied verbatim:
   //
   // Owner-confirmed anchor: oo -> ो, offglide -> ई (independent ī, not i).
   "mooi kare": "मोई करे",
-  // "ui" /œy/: offglide=ई is grounded in the mooi anchor; the उ nucleus is
-  // an unverified approximation (Devanagari has no letter for Dutch's
-  // rounded-schwa-to-/y/ diphthong) -- flagged for an audio check.
-  "uitleg kare": "उईत्लेग करे",
-  // Dutch "ch" = /x/ (voiceless velar/uvular fricative), NOT the Devanagari
-  // छ palatal affricate this module's CONSONANTS table maps IAST "ch" to
-  // for genuine Sarnami words (a false-friend collision with Dutch
-  // orthography). ख़ (kha + nukta, U+0959) is phoneme-verified via
-  // piper's own espeak-ng phonemizer to produce a genuine [x] fricative,
-  // where छ gives [cʰ] (wrong place+manner) and ख (no nukta) gives [kʰ]
-  // (right place, wrong manner -- no frication). High confidence on the
-  // phoneme claim; the acoustic model's nukta-letter fidelity on this
-  // specific Piper voice is untested -- recommend a human listen-check.
-  "wachti kare": "वख़्ति करे",
-  // "eu" /øː/ (front rounded -- Devanagari has no matching vowel at all, a
-  // pure approximation either way). LOW CONFIDENCE, genuinely unresolved:
-  // leaning ू (long-ū) for consistency with how this same loanwords.json
-  // corpus already resolves other Dutch rounded vowels (lūrū/yūrū/morsū
-  // all use ū), over े (e), which is the phonetically-closer front vowel
-  // but breaks that in-corpus pattern. espeak phonemization doesn't
-  // discriminate between the two candidates (both produce a single
-  // plausible monophthong, no anomaly either way). Recommend an actual
-  // Piper-audio A/B by a Dutch speaker before treating this as settled.
-  "bekeur kare": "बेकूर करे",
-  // NOTE: loan-beledig ("beledig kare") is deliberately left UNCHANGED
-  // (mechanical बेलेदिग करे) despite word-final/medial Dutch "g" also being
-  // realized as [x] in Dutch (same fricative as "ch" above, phoneme-
-  // verified: बेलेदिख़ -> [...x] vs बेलेदिग -> [...ɡ]). This is the most
-  // speculative candidate substitution surfaced in the round-2 research --
-  // ग "looks fine" as a reading and this would change an
-  // established-looking word rather than fix an obviously broken one -- so
-  // it's presented as a candidate for the repo owner's judgment (see the
-  // generation report), not committed here.
+  // Owner's rule: Dutch word-final/medial "g" -> ख़ ("kh") in Sarnami.
+  "uitleg kare": "आोतलेख करे",
+  "beledig kare": "बलएडेख करे",
+  "wachti kare": "ववक्ती करे",
+  "bekeur kare": "बकर करे",
   // loan-bel, loan-klop, loan-help: no Dutch digraph present (single short
   // vowels) -- the mechanical tokenizer's output is already a reasonable
   // rendering of Dutch short vowels, not part of the digraph problem.
+
+  // Group 3 -- ĕ/ŏ nasal loanwords (round 3 owner decision): etymology
+  // research (round 2) couldn't settle whether these three recent
+  // loanword-derived coinages are nasal, since they have no inherited
+  // Bhojpuri/Sanskrit etymology to appeal to. Owner's call: keep the nasal
+  // marking rather than defaulting to non-nasal. Each starts from this
+  // module's own mechanical output for the word (confirmed against the
+  // round-2 research report) with an explicit candrabindu added on the
+  // breve syllable; all three vocab entries already carry the
+  // `needs-verification` tag (content/sarnami/vocab/loanwords.json).
+  "riwŏrs kare": `रिवो${CANDRABINDU}र्स करे`,
+  lĕsiyāī: `ले${CANDRABINDU}सियाई`,
+  sĕtiyāve: `से${CANDRABINDU}तियावे`,
 };
 
 /** Sarnami diacritic `word` -> Devanagari spelling, for Piper TTS input. */

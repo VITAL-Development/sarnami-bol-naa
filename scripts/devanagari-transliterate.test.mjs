@@ -111,20 +111,34 @@ test("owner's direct fix: mooi kare's Dutch oo+i renders as ो + independent �
   assert.equal(toDevanagari("mooi kare"), "मोई करे");
 });
 
-// --- round-2 Dutch-loanword digraph overrides -------------------------------
+// --- round-3 Dutch-loanword overrides (owner-provided ground truth) --------
 
-test("Dutch ui digraph: offglide is independent ई, not इ (uitleg kare)", () => {
-  assert.equal(toDevanagari("uitleg kare"), "उईत्लेग करे");
+test("owner's direct fix: uitleg kare (Dutch g -> ख़)", () => {
+  assert.equal(toDevanagari("uitleg kare"), "आोतलेख करे");
 });
 
-test("Dutch ch (/x/) maps to nukta ख़, not the affricate छ (wachti kare)", () => {
-  assert.equal(toDevanagari("wachti kare"), "वख़्ति करे");
+test("owner's direct fix: wachti kare", () => {
+  assert.equal(toDevanagari("wachti kare"), "ववक्ती करे");
 });
 
-test("Dutch eu digraph override (low-confidence candidate, flagged for audio A/B)", () => {
-  assert.equal(toDevanagari("bekeur kare"), "बेकूर करे");
+test("owner's direct fix: bekeur kare", () => {
+  assert.equal(toDevanagari("bekeur kare"), "बकर करे");
 });
 
-test("beledig kare is deliberately left mechanical (Dutch g->x substitution not applied)", () => {
-  assert.equal(toDevanagari("beledig kare"), "बेलेदिग करे");
+test("owner's direct fix: beledig kare (Dutch g -> ख़)", () => {
+  assert.equal(toDevanagari("beledig kare"), "बलएडेख करे");
+});
+
+// --- round-3 nasal loanwords (owner decision: keep nasality) ---------------
+
+test("loan-riwors keeps nasal marking on the breve ŏ (owner decision)", () => {
+  assert.equal(toDevanagari("riwŏrs kare"), "रिवोँर्स करे");
+});
+
+test("loan-lesiyai keeps nasal marking on the breve ĕ (owner decision)", () => {
+  assert.equal(toDevanagari("lĕsiyāī"), "लेँसियाई");
+});
+
+test("loan-setiyave keeps nasal marking on the breve ĕ (owner decision)", () => {
+  assert.equal(toDevanagari("sĕtiyāve"), "सेँतियावे");
 });
