@@ -1,0 +1,51 @@
+[
+  {
+    "id": "about-sarnami",
+    "word": "Sarnāmī",
+    "devanagari": "सर्नामी",
+    "outFile": "/home/rohan/coding-projects/sarnami-bol-naa/.claude/worktrees/piper-tts-280/scratch/piper-smoke-test/about-sarnami.wav",
+    "variant": "default"
+  },
+  {
+    "id": "adj-sojha",
+    "word": "sojhā",
+    "devanagari": "सोझा",
+    "outFile": "/home/rohan/coding-projects/sarnami-bol-naa/.claude/worktrees/piper-tts-280/scratch/piper-smoke-test/adj-sojha.wav",
+    "variant": "default"
+  },
+  {
+    "id": "adj-sojha",
+    "word": "sojhā",
+    "devanagari": "सो झा",
+    "outFile": "/home/rohan/coding-projects/sarnami-bol-naa/.claude/worktrees/piper-tts-280/scratch/piper-smoke-test/adj-sojha.workaround.wav",
+    "variant": "workaround"
+  },
+  {
+    "id": "noun-sarnam",
+    "word": "Sarnām",
+    "devanagari": "सर्नाम",
+    "outFile": "/home/rohan/coding-projects/sarnami-bol-naa/.claude/worktrees/piper-tts-280/scratch/piper-smoke-test/noun-sarnam.wav",
+    "variant": "default"
+  },
+  {
+    "id": "struct-eerst",
+    "word": "pahile",
+    "devanagari": "पहिले",
+    "outFile": "/home/rohan/coding-projects/sarnami-bol-naa/.claude/worktrees/piper-tts-280/scratch/piper-smoke-test/struct-eerst.wav",
+    "variant": "default"
+  },
+  {
+    "id": "verb-sikhe",
+    "word": "sikhe",
+    "devanagari": "सिखे",
+    "outFile": "/home/rohan/coding-projects/sarnami-bol-naa/.claude/worktrees/piper-tts-280/scratch/piper-smoke-test/verb-sikhe.wav",
+    "variant": "default"
+  },
+  {
+    "id": "greet-nee",
+    "word": "nā",
+    "devanagari": "ना",
+    "outFile": "/home/rohan/coding-projects/sarnami-bol-naa/.claude/worktrees/piper-tts-280/scratch/piper-smoke-test/greet-nee.wav",
+    "variant": "default"
+  }
+]
