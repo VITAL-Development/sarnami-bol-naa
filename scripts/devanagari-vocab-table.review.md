@@ -1,6 +1,6 @@
 | id | word | devanagari |
 |---|---|---|
-| about-sarnami | Sarnāmī | सर्रनामी |
+| about-sarnami | Sarnāmī | सरनामी |
 | about-sarnam | Sarnām | सरनाम् |
 | about-hindustani | Hindustani | हिन्दुस्तनि |
 | about-bhojpuri | Bhojpurī | भोज्पुरी |

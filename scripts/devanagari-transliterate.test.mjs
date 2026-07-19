@@ -95,8 +95,8 @@ test("already-homorganic ṅ before a velar stop is untouched by the n-before-ve
 
 // --- round-2 RAW_WORD_OVERRIDES: owner's direct PR fixes --------------------
 
-test("owner's direct fix: Sarnāmī doubles र to survive the unstressed-syllable cluster", () => {
-  assert.equal(toDevanagari("Sarnāmī"), "सर्रनामी");
+test("owner's round-5 fix: Sarnāmī gives र its own syllable (सरनामी, no conjunct)", () => {
+  assert.equal(toDevanagari("Sarnāmī"), "सरनामी");
 });
 
 test("owner's direct fix: Sarnām relocates the virama onto the final म", () => {

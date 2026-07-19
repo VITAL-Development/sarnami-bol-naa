@@ -354,12 +354,17 @@ function transliterateRun(run) {
 // truth, applied verbatim:
 export const RAW_WORD_OVERRIDES = {
   // सर्नामी (mechanical, र्+न unstressed-syllable cluster) dropped the र in
-  // Piper+ASR round-trip testing; doubling it into its own syllable (र्र)
-  // fixed it. See the मिड-word-virama empirical findings: र्+consonant is
-  // specifically fragile in an UNSTRESSED word-initial CV-schwa syllable
-  // (सर्- here), not र्+consonant clusters generally (contrast the stressed
-  // गिर्मिट, which tested fine unmodified).
-  Sarnāmī: "सर्रनामी",
+  // Piper+ASR round-trip testing. Round 2 first tried doubling it into its
+  // own syllable (सर्रनामी); owner's round-5 PR comment retracted that in
+  // favor of simply giving र its own inherent-vowel syllable instead of
+  // clustering it with a virama at all -- सरनामी (स-र-नामी), no र् conjunct.
+  // See the मिड-word-virama empirical findings: र्+consonant is specifically
+  // fragile in an UNSTRESSED word-initial CV-schwa syllable (सर्- here), not
+  // र्+consonant clusters generally (contrast the stressed गिर्मिट, which
+  // tested fine unmodified) -- both सरनामी and the doubled सर्रनामी avoid
+  // that fragile cluster, just via different spellings; owner prefers the
+  // plain form.
+  Sarnāmī: "सरनामी",
   // Same unstressed सर्- fragility as above; here the owner's fix relocates
   // the virama onto the word-final म instead of doubling र.
   Sarnām: "सरनाम्",
