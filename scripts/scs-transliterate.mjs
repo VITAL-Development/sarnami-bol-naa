@@ -8,7 +8,7 @@
 // ñ ṅ ṁ ṛ ś ṣ ĕ ŏ ē ō ă. Out-of-vocabulary characters are silently dropped to
 // `<unk>` rather than rejected, so feeding this model our authored diacritic
 // `word` fields directly produces mispronounced audio with no error to
-// signal it (see rarelang-server's docs/contracts/api-contract.md, "Choosing
+// signal it (see rarelang's docs/contracts/api-contract.md, "Choosing
 // a model and preparing text"). SCS is this language's own real-world
 // solution to exactly this problem — a spelling meant to be readable without
 // diacritics — so it doubles as the right input form for this model.
