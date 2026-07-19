@@ -168,9 +168,26 @@ subsections. Extends the basics nouns.
   `bookChapterRef` (`05-postpositions.md`) is the dedicated source for it.
 
 #### 5. `unit-02-adjectives` — Bijvoeglijke naamwoorden (A2, `adjective-verified.md`) *(exists)*
-Already authored and verified: adjective agreement and usage. No new
-authoring needed beyond keeping its `order`/`cefrLevel` in step with this
-sequence.
+Already authored and verified: adjective forms, gender/number agreement, and
+comparative/superlative formation (`lesson-8-comparison`; particles `se`,
+`aur`, `jādā`, `sab se`, `sab se jādā`). No new authoring needed beyond
+keeping its `order`/`cefrLevel` in step with this sequence.
+**Revisited (issue #288 → #291):** the advisory-contract-review bot
+repeatedly flagged this lesson against the shared contract's "no productive
+grammar beyond basic agreement" A2 ceiling, reading its particle-based
+comparison as the kind of "case or particle system" the contract reserves
+for Intermediate. #291 initially split it into a new B1 unit on that basis,
+but on review the comparative/superlative *paradigm itself* — the Sarnami
+equivalent of English "-er/-est", a closed base/comparative/superlative
+triad rather than an open-ended particle system — sits squarely in the A2
+descriptor mainstream ESL/CEFR curricula use (comparatives/superlatives are
+introduced at A2, refined at B1+), and the lesson's own grammar note
+(`gn-8-1`) teaches `se`/`aur`/`jādā`/`sab se`/`sab se jādā` as one formation
+rule, not a layered system with an advanced subset. There is no B1-level
+subset to split out, so the lesson stays here, unsplit, at A2; the shared
+contract has a clarifying carve-out for this (see
+[rarelang#lesson-plan-authoring-contract.md](https://github.com/VITAL-Development/rarelang/blob/main/docs/contracts/lesson-plan-authoring-contract.md)
+v2.1.0+).
 
 ---
 

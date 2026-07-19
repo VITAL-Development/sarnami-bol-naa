@@ -19,6 +19,37 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Changed (no shipped-content diff vs. `v0.7.0`)
+
+- **#291 revisited its own approach and reverted the split it introduced.**
+  #291 initially split `unit-02-adjectives`'s `lesson-8-comparison`
+  (comparative/superlative particles `se`, `aur`, `jādā`, `sab se`, `sab se
+  jādā`) out into a new `unit-14-comparison` (B1), reasoning that a full
+  particle system exceeds the A2/Beginner tier's "no productive grammar
+  beyond basic agreement" ceiling — the option chosen from the three #288
+  laid out. On review (prompted by
+  [PR feedback](https://github.com/VITAL-Development/sarnami-bol-naa/pull/291#discussion_r3611340173)),
+  that split didn't hold up: `gn-8-1` teaches `se`/`aur`/`jādā`/`sab se`/`sab
+  se jādā` as **one** formation rule, not a basic/advanced pair, and
+  mainstream CEFR-aligned curricula place comparative/superlative morphology
+  (the Sarnami equivalent of English "-er"/"-est") at A2, not B1 — there is
+  no B1-tier subset of this lesson to split out. `unit-14-comparison` and its
+  lesson content are removed again; `unit-02-adjectives` (still A2) keeps
+  `lesson-8-comparison` exactly as it shipped in `v0.7.0`, unchanged. Unit
+  `order` values for everything after the since-removed `unit-14-comparison`
+  slot are shifted back down by one (`unit-05-pronouns` 7 → 6,
+  `unit-06-adverbs` 8 → 7, `unit-07-postpositions` 9 → 8,
+  `unit-09-conjunctions` 10 → 9, `unit-10-interjections` 11 → 10,
+  `unit-08-verbs` 12 → 11, `unit-11-loanwords` 13 → 12,
+  `unit-12-word-formation` 14 → 13, `unit-13-reading` 15 → 14). Net effect
+  versus the last release: none — every id, unit, and `order` value matches
+  `v0.7.0`. Closes #288 by concluding no split was warranted; see
+  `authored_docs/units/unit-02-adjectives-verification.md` and
+  `authored_docs/lesson-plan.md` for the updated rationale, and the
+  companion `rarelang` contract PR for the tier-table clarification this
+  surfaced (particle-marked comparative/superlative morphology is
+  A2-compatible).
+
 ## [0.7.0] - 2026-07-18
 
 ### Added
