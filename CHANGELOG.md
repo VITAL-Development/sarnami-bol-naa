@@ -19,49 +19,36 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
-### Added
+### Changed (no shipped-content diff vs. `v0.7.0`)
 
-- New unit `content/sarnami/units/unit-14-comparison.json` ("Vergelijking",
-  `order: 6`, `cefrLevel: "B1"`), split out of `unit-02-adjectives`'s
-  `lesson-8-comparison` (comparative/superlative particles `se`, `aur`,
-  `jādā`, `sab se`, `sab se jādā`) plus its lesson content
-  (`content/sarnami/lessons/unit-14-comparison.json`) — unchanged text/ids,
-  just re-homed into a new unit. The advisory-contract-review bot repeatedly
-  flagged (PR #263) that a full particle system, and `se` doubling as a
-  postposition, exceed the A2/Beginner tier's "no productive grammar beyond
-  basic agreement" ceiling per
-  `docs/contracts/lesson-plan-authoring-contract.md`'s tier table; splitting
-  it into its own B1 unit was the option chosen from the three laid out in
-  #288 (closes #288).
-
-### Changed
-
-- `unit-02-adjectives` keeps `cefrLevel: "A2"` and its lessons 6-7 (adjective
-  forms, gender/number agreement) unchanged, but no longer carries
-  `lesson-8-comparison` (moved above). Its review lesson
-  (`lesson-9-adjectives-review`) had two exercises reworked to stop drilling
-  the now-moved comparison particles: `l9-e2`'s `se`/`sab se` matching pairs
-  were swapped for two more already-taught adjective pairs, and `l9-e3`'s
-  word-bank sentence was swapped for `ex-6-5`'s already-verified sentence —
-  both drawn from content already authored elsewhere in this same unit, not
-  fabricated.
-- Reassigned unit `order` values to make room for `unit-14-comparison` at
-  `order: 6`, right after `unit-02-adjectives`: `unit-05-pronouns` 6 → 7,
-  `unit-06-adverbs` 7 → 8, `unit-07-postpositions` 8 → 9,
-  `unit-09-conjunctions` 9 → 10, `unit-10-interjections` 10 → 11,
-  `unit-08-verbs` 11 → 12, `unit-11-loanwords` 12 → 13,
-  `unit-12-word-formation` 13 → 14, `unit-13-reading` 14 → 15. Unit **ids**
-  are unchanged and no vocab/lesson/example/grammar-note id was removed or
-  renamed, so per `docs/versioning.md` this whole change (new unit + moved
-  lesson + `order` renumbering) is **additive (MINOR)**, not breaking —
-  every existing id still resolves, just reachable via a new unit for
-  `lesson-8-comparison`.
-- `authored_docs/lesson-plan.md`: added `unit-14-comparison` to the
-  Intermediate tier's unit-sequence table and per-unit scope, noted the split
-  in `unit-02-adjectives`'s entry, and bumped the Intermediate tier's unit
-  count (7 → 8) and every subsequent unit's `#` position.
-- `authored_docs/units/unit-02-adjectives-verification.md`: dropped the
-  `lesson-8-comparison` checklist item and noted the split.
+- **#291 revisited its own approach and reverted the split it introduced.**
+  #291 initially split `unit-02-adjectives`'s `lesson-8-comparison`
+  (comparative/superlative particles `se`, `aur`, `jādā`, `sab se`, `sab se
+  jādā`) out into a new `unit-14-comparison` (B1), reasoning that a full
+  particle system exceeds the A2/Beginner tier's "no productive grammar
+  beyond basic agreement" ceiling — the option chosen from the three #288
+  laid out. On review (prompted by
+  [PR feedback](https://github.com/VITAL-Development/sarnami-bol-naa/pull/291#discussion_r3611340173)),
+  that split didn't hold up: `gn-8-1` teaches `se`/`aur`/`jādā`/`sab se`/`sab
+  se jādā` as **one** formation rule, not a basic/advanced pair, and
+  mainstream CEFR-aligned curricula place comparative/superlative morphology
+  (the Sarnami equivalent of English "-er"/"-est") at A2, not B1 — there is
+  no B1-tier subset of this lesson to split out. `unit-14-comparison` and its
+  lesson content are removed again; `unit-02-adjectives` (still A2) keeps
+  `lesson-8-comparison` exactly as it shipped in `v0.7.0`, unchanged. Unit
+  `order` values for everything after the since-removed `unit-14-comparison`
+  slot are shifted back down by one (`unit-05-pronouns` 7 → 6,
+  `unit-06-adverbs` 8 → 7, `unit-07-postpositions` 9 → 8,
+  `unit-09-conjunctions` 10 → 9, `unit-10-interjections` 11 → 10,
+  `unit-08-verbs` 12 → 11, `unit-11-loanwords` 13 → 12,
+  `unit-12-word-formation` 14 → 13, `unit-13-reading` 15 → 14). Net effect
+  versus the last release: none — every id, unit, and `order` value matches
+  `v0.7.0`. Closes #288 by concluding no split was warranted; see
+  `authored_docs/units/unit-02-adjectives-verification.md` and
+  `authored_docs/lesson-plan.md` for the updated rationale, and the
+  companion `rarelang` contract PR for the tier-table clarification this
+  surfaced (particle-marked comparative/superlative morphology is
+  A2-compatible).
 
 ## [0.7.0] - 2026-07-18
 
