@@ -5,8 +5,8 @@
     "hash": "sha256:03f7d1b84d016b481ae148d89d387c3e29a847b9ca416c9f1e6ebc621b2966c4"
   },
   "docs/contracts/lesson-plan-authoring-contract.md": {
-    "version": "2.0.0",
-    "hash": "sha256:00c88023cbd2d82b5271c616134a284e63e399954eec2372a0b38e90a6741ed7"
+    "version": "2.1.0",
+    "hash": "sha256:5028bc76598e55172fb0878a80e5ffcc70e6209d4bf07189f38d8f4fc96f2c38"
   },
   "docs/contracts/source-language-authoring-contract.md": {
     "version": "1.0.0",
