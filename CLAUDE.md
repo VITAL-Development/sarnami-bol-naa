@@ -4,17 +4,16 @@
 
 This repo is **content and branding only** — Sarnami's
 knowledge base (`content/sarnami/`, `settings/sarnami/`) — not an app. The
-generic engine that used to live here was extracted into separate standalone
-repos (a frontend app and a backend server) as part of the platform's rebrand.
+generic frontend app and backend server that consume this content live in
+separate standalone repos.
 
-**There is no `npm run dev`/`npm run build`/`npm test`/`package.json` here
-anymore.** Don't look for `src/`, `vite.config.ts`, or a deploy pipeline —
-they're gone, moved to those repos. PWA icon generation moved to
-the frontend app too — `branding.icons` paths returned by
-`GET /settings` are relative and resolve against that app's own origin, so
-the generated files need to live in its `public/`, not here. `git log
-<removed-path>` still resolves to that path's original history in this
-repo, if you need it.
+**There is no `npm run dev`/`npm run build`/`npm test`/`package.json` here.**
+Don't look for `src/`, `vite.config.ts`, or a deploy pipeline — this repo
+doesn't have one, and never generates PWA icons itself — `branding.icons`
+paths returned by `GET /settings` are relative and resolve against the
+frontend app's own origin, so the generated files live in its `public/`,
+not here. `git log <removed-path>` still resolves to that path's original
+history in this repo, if you need it.
 
 ## Layout
 
@@ -121,16 +120,18 @@ goes in `settings/sarnami/ui/`, authored content glosses go in the
 ## CI content validation
 
 Every PR and manual dispatch runs `.github/workflows/validate-content.yml`,
-which clones `rarelang-server` (private; auths via `RARELANG_SERVER_TOKEN`)
-and runs its `validate-content` CLI against `content/sarnami/` +
-`settings/sarnami/` — the same content-repository contract the backend
-server's loader expects, checked here instead of only surfacing downstream
-after a tag is cut. The workflow separately clones `rarelang` (private, also
-a sibling repo; auths via its own token), which is where the contract docs
-and `scripts/contracts-manifest.mjs` now live. `contracts.lock.json` pins
+which clones the shared learning-platform backend engine (private; a CI
+token is used to authenticate cloning it) and runs its `validate-content`
+CLI against `content/sarnami/` + `settings/sarnami/` — the same
+content-repository contract the backend server's loader expects, checked
+here instead of only surfacing downstream after a tag is cut. The workflow
+separately clones the private contracts repo (also a sibling repo; auths via
+its own token), which is where the contract docs and
+`scripts/contracts-manifest.mjs` live. `contracts.lock.json` pins
 the sha256 of the upstream contract docs last reviewed; a
-`contracts-discovery` job flags when rarelang changes one of those docs so a
-human/agentic follow-up can assess drift (a deliberate, non-automatic gate —
+`contracts-discovery` job flags when the contracts repo changes one of those
+docs so a human/agentic follow-up can assess drift (a deliberate,
+non-automatic gate —
 like bumping a dependency lockfile). A separate `advisory-contract-review`
 job runs a cost-bounded Claude Code pass (only on diffs touching
 `content/`/`authored_docs`, capped turns, non-blocking) for the two
@@ -154,3 +155,17 @@ built/deployed independently, and this repo's content reaches
 the backend server via a git-sync sidecar, not a copy baked
 into any image. The full deployment topology lives with the backend server,
 not here.
+
+## Shared platform context (abstracted — this repo is public)
+
+This repo is one piece of a small set of coupled repos, most of which are private. In abstract terms:
+- Traffic to backend services in this ecosystem goes through a private reverse-proxy gateway that routes
+  by origin and gates access with a shared-secret header; any caller holding secrets does so via a
+  server-side relay, never in client-side JS.
+- A private contracts repo defines the shared HTTP API / content-authoring contracts that a private
+  generic frontend engine and a private generic backend engine both implement against.
+- The private backend engine serves content by cloning pinned per-language content repos (this repo is
+  one of them) at a fixed version tag, and persists user session/progress state server-side.
+
+Do not name the private repos, image paths, hostnames, or issue numbers of that private infrastructure in
+this file — describe behavior in the abstract terms above instead.
