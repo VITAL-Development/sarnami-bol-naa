@@ -6,6 +6,7 @@
       "nl": "goed!, oké!",
       "en": "good!, okay!"
     },
+    "audioUrl": "/audio/sarnami/int-accha.mp3",
     "tags": [
       "interjection",
       "book-p50"
@@ -19,6 +20,7 @@
       "nl": "hé! (om aandacht te trekken)",
       "en": "hey! (to get attention)"
     },
+    "audioUrl": "/audio/sarnami/int-he.mp3",
     "tags": [
       "interjection",
       "book-p50",
@@ -33,6 +35,7 @@
       "nl": "hé! (iemand van veraf roepen)",
       "en": "hey! (to call someone from afar)"
     },
+    "audioUrl": "/audio/sarnami/int-ho.mp3",
     "tags": [
       "interjection",
       "book-p50",
@@ -47,6 +50,7 @@
       "nl": "stil!",
       "en": "quiet!"
     },
+    "audioUrl": "/audio/sarnami/int-cup.mp3",
     "tags": [
       "interjection",
       "book-p50",
@@ -61,6 +65,7 @@
       "nl": "au! (bij pijn)",
       "en": "ow! (when in pain)"
     },
+    "audioUrl": "/audio/sarnami/int-aya.mp3",
     "tags": [
       "interjection",
       "book-p50",
@@ -75,6 +80,7 @@
       "nl": "help!",
       "en": "help!"
     },
+    "audioUrl": "/audio/sarnami/int-bacao.mp3",
     "tags": [
       "interjection",
       "book-p50",
@@ -89,6 +95,7 @@
       "nl": "zeg!, kijk aan!",
       "en": "say!, well now!"
     },
+    "audioUrl": "/audio/sarnami/int-bhala.mp3",
     "tags": [
       "interjection",
       "book-p50",
@@ -103,6 +110,7 @@
       "nl": "lieve hemel!",
       "en": "good heavens!"
     },
+    "audioUrl": "/audio/sarnami/int-bap-re-bap.mp3",
     "tags": [
       "interjection",
       "book-p50",
@@ -117,6 +125,7 @@
       "nl": "bravo!",
       "en": "bravo!"
     },
+    "audioUrl": "/audio/sarnami/int-sabas.mp3",
     "tags": [
       "interjection",
       "book-p50",
@@ -131,6 +140,7 @@
       "nl": "bravo!, prachtig!",
       "en": "bravo!, wonderful!"
     },
+    "audioUrl": "/audio/sarnami/int-vah-vah.mp3",
     "tags": [
       "interjection",
       "book-p50",
@@ -145,6 +155,7 @@
       "nl": "warempel, inderdaad",
       "en": "truly, indeed"
     },
+    "audioUrl": "/audio/sarnami/int-albat.mp3",
     "tags": [
       "interjection",
       "book-p50",
@@ -159,6 +170,7 @@
       "nl": "houd de dief!",
       "en": "stop the thief!"
     },
+    "audioUrl": "/audio/sarnami/int-cor-cor.mp3",
     "tags": [
       "interjection",
       "book-p50",
@@ -173,6 +185,7 @@
       "nl": "ach! (bij verdriet)",
       "en": "alas! (in grief)"
     },
+    "audioUrl": "/audio/sarnami/int-hay-hay.mp3",
     "tags": [
       "interjection",
       "book-p50",
@@ -187,6 +200,7 @@
       "nl": "och-och! (medeleven)",
       "en": "oh dear! (sympathy)"
     },
+    "audioUrl": "/audio/sarnami/int-oho.mp3",
     "tags": [
       "interjection",
       "book-p50",
@@ -201,6 +215,7 @@
       "nl": "toch?, nietwaar?",
       "en": "right?, isn't it?"
     },
+    "audioUrl": "/audio/sarnami/int-to.mp3",
     "tags": [
       "interjection",
       "book-p50"

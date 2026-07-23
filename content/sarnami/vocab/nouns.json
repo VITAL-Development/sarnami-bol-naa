@@ -6,6 +6,7 @@
       "nl": "huis",
       "en": "house"
     },
+    "audioUrl": "/audio/sarnami/noun-ghar.mp3",
     "tags": [
       "noun",
       "book-p22"
@@ -18,6 +19,7 @@
       "nl": "klok",
       "en": "clock"
     },
+    "audioUrl": "/audio/sarnami/noun-ghari.mp3",
     "tags": [
       "noun",
       "book-p41"
@@ -30,6 +32,7 @@
       "nl": "ouders",
       "en": "parents"
     },
+    "audioUrl": "/audio/sarnami/noun-maibap.mp3",
     "tags": [
       "noun",
       "book-p22"
@@ -42,6 +45,7 @@
       "nl": "broer",
       "en": "brother"
     },
+    "audioUrl": "/audio/sarnami/noun-bhai.mp3",
     "tags": [
       "noun",
       "book-p31"
@@ -54,6 +58,7 @@
       "nl": "zus",
       "en": "sister"
     },
+    "audioUrl": "/audio/sarnami/noun-bahin.mp3",
     "tags": [
       "noun",
       "book-p22"
@@ -66,6 +71,7 @@
       "nl": "moeder",
       "en": "mother"
     },
+    "audioUrl": "/audio/sarnami/noun-maiya.mp3",
     "tags": [
       "noun",
       "book-p22"
@@ -78,6 +84,7 @@
       "nl": "vader",
       "en": "father"
     },
+    "audioUrl": "/audio/sarnami/noun-bappa.mp3",
     "tags": [
       "noun",
       "book-p22"
@@ -90,6 +97,7 @@
       "nl": "dochter",
       "en": "daughter"
     },
+    "audioUrl": "/audio/sarnami/noun-beti.mp3",
     "notes": "Lange (bepaalde) vorm biṭiyā. Eigendom van unit-04-nouns.",
     "tags": [
       "noun",
@@ -103,6 +111,7 @@
       "nl": "brief",
       "en": "letter"
     },
+    "audioUrl": "/audio/sarnami/noun-citthi.mp3",
     "notes": "Eigendom van unit-04-nouns.",
     "tags": [
       "noun",
@@ -116,6 +125,7 @@
       "nl": "hond",
       "en": "dog"
     },
+    "audioUrl": "/audio/sarnami/noun-kutta.mp3",
     "notes": "Dentale tt, slot-macron ā.",
     "tags": [
       "noun",
@@ -130,6 +140,7 @@
       "nl": "paard",
       "en": "horse"
     },
+    "audioUrl": "/audio/sarnami/noun-ghora.mp3",
     "notes": "Lange vorm ghŏṛvā, meervoud ghoṛan/ghŏṛvan.",
     "tags": [
       "noun",
@@ -144,6 +155,7 @@
       "nl": "boom",
       "en": "tree"
     },
+    "audioUrl": "/audio/sarnami/noun-per.mp3",
     "tags": [
       "noun",
       "book-p22",
@@ -157,6 +169,7 @@
       "nl": "manje (mango)",
       "en": "mango"
     },
+    "audioUrl": "/audio/sarnami/noun-am.mp3",
     "notes": "Lange vorm amvā, meervoud amvan.",
     "tags": [
       "noun",
@@ -171,6 +184,7 @@
       "nl": "koe",
       "en": "cow"
     },
+    "audioUrl": "/audio/sarnami/noun-gai.mp3",
     "notes": "Lange vorm gaiyā.",
     "tags": [
       "noun",
@@ -185,6 +199,7 @@
       "nl": "ezel",
       "en": "donkey"
     },
+    "audioUrl": "/audio/sarnami/noun-gadaha.mp3",
     "notes": "Slot-macron ā. Vrouwelijke vorm gadahī.",
     "tags": [
       "noun",
@@ -199,6 +214,7 @@
       "nl": "ezelin",
       "en": "female donkey"
     },
+    "audioUrl": "/audio/sarnami/noun-gadahi.mp3",
     "notes": "Vrouwelijke vorm van gadahā.",
     "tags": [
       "noun",
@@ -213,6 +229,7 @@
       "nl": "jongen",
       "en": "boy"
     },
+    "audioUrl": "/audio/sarnami/noun-launda.mp3",
     "notes": "Let op: laundī (met -ī) betekent níet 'meisje' maar 'hoertje' (1.3.3.1.1).",
     "tags": [
       "noun",
@@ -227,6 +244,7 @@
       "nl": "meisje",
       "en": "girl"
     },
+    "audioUrl": "/audio/sarnami/noun-chaumri.mp3",
     "notes": "De -ā-vorm chaumṛā betekent 'vlegel'.",
     "tags": [
       "noun",
@@ -241,6 +259,7 @@
       "nl": "grootvader (moeders vader)",
       "en": "grandfather (mother's father)"
     },
+    "audioUrl": "/audio/sarnami/noun-nana.mp3",
     "notes": "Vrouwelijke vorm nanī.",
     "tags": [
       "noun",
@@ -255,6 +274,7 @@
       "nl": "grootmoeder (moeders moeder)",
       "en": "grandmother (mother's mother)"
     },
+    "audioUrl": "/audio/sarnami/noun-nani.mp3",
     "notes": "Vrouwelijke tegenhanger van nānā.",
     "tags": [
       "noun",
@@ -269,6 +289,7 @@
       "nl": "neus",
       "en": "nose"
     },
+    "audioUrl": "/audio/sarnami/noun-nak.mp3",
     "tags": [
       "noun",
       "book-p22",
@@ -282,6 +303,7 @@
       "nl": "mes",
       "en": "knife"
     },
+    "audioUrl": "/audio/sarnami/noun-churi.mp3",
     "notes": "Lange vorm churiyā.",
     "tags": [
       "noun",
@@ -293,66 +315,77 @@
     "id": "noun-kam",
     "word": "kām",
     "translations": { "nl": "werk", "en": "work" },
+    "audioUrl": "/audio/sarnami/noun-kam.mp3",
     "tags": ["noun"]
   },
   {
     "id": "noun-bajar",
     "word": "bajār",
     "translations": { "nl": "markt", "en": "market" },
+    "audioUrl": "/audio/sarnami/noun-bajar.mp3",
     "tags": ["noun"]
   },
   {
     "id": "noun-sauda",
     "word": "saudā",
     "translations": { "nl": "boodschappen", "en": "groceries, shopping" },
+    "audioUrl": "/audio/sarnami/noun-sauda.mp3",
     "tags": ["noun"]
   },
   {
     "id": "noun-phal",
     "word": "phal",
     "translations": { "nl": "vrucht", "en": "fruit" },
+    "audioUrl": "/audio/sarnami/noun-phal.mp3",
     "tags": ["noun"]
   },
   {
     "id": "noun-pani",
     "word": "pānī",
     "translations": { "nl": "water", "en": "water" },
+    "audioUrl": "/audio/sarnami/noun-pani.mp3",
     "tags": ["noun"]
   },
   {
     "id": "noun-pithi",
     "word": "pīṭhī",
     "translations": { "nl": "rug", "en": "back" },
+    "audioUrl": "/audio/sarnami/noun-pithi.mp3",
     "tags": ["noun"]
   },
   {
     "id": "noun-khartin",
     "word": "khartin",
     "translations": { "nl": "behoefte", "en": "need" },
+    "audioUrl": "/audio/sarnami/noun-khartin.mp3",
     "tags": ["noun"]
   },
   {
     "id": "noun-ghams",
     "word": "ghāṁs",
     "translations": { "nl": "gras", "en": "grass" },
+    "audioUrl": "/audio/sarnami/noun-ghams.mp3",
     "tags": ["noun"]
   },
   {
     "id": "noun-ram",
     "word": "Ram",
     "translations": { "nl": "Ram (jongensnaam)", "en": "Ram (boy's name)" },
+    "audioUrl": "/audio/sarnami/noun-ram.mp3",
     "tags": ["noun", "proper-noun"]
   },
   {
     "id": "noun-rustam",
     "word": "Rustam",
     "translations": { "nl": "Rustam (jongensnaam)", "en": "Rustam (boy's name)" },
+    "audioUrl": "/audio/sarnami/noun-rustam.mp3",
     "tags": ["noun", "proper-noun"]
   },
   {
     "id": "noun-raja",
     "word": "rajā",
     "translations": { "nl": "koning", "en": "king" },
+    "audioUrl": "/audio/sarnami/noun-raja.mp3",
     "notes": "Lange vorm rajavā.",
     "tags": ["noun"]
   },
@@ -360,24 +393,28 @@
     "id": "noun-gopal",
     "word": "Gopāl",
     "translations": { "nl": "Gopal (jongensnaam)", "en": "Gopal (boy's name)" },
+    "audioUrl": "/audio/sarnami/noun-gopal.mp3",
     "tags": ["noun", "proper-noun"]
   },
   {
     "id": "noun-sita",
     "word": "Sitā",
     "translations": { "nl": "Sita (meisjesnaam)", "en": "Sita (girl's name)" },
+    "audioUrl": "/audio/sarnami/noun-sita.mp3",
     "tags": ["noun", "proper-noun"]
   },
   {
     "id": "noun-anguthi",
     "word": "aṅguṭṭhī",
     "translations": { "nl": "ring", "en": "ring" },
+    "audioUrl": "/audio/sarnami/noun-anguthi.mp3",
     "tags": ["noun"]
   },
   {
     "id": "noun-bed",
     "word": "Bed",
     "translations": { "nl": "de Veda's", "en": "the Vedas" },
+    "audioUrl": "/audio/sarnami/noun-bed.mp3",
     "notes": "Uit het boek (introductie-vocabulaire en §6.2.1): 'Bed meṁ ham ī batiyā parhle bāṭī' (Ik heb dit in de Veda's gelezen).",
     "tags": ["noun", "proper-noun", "book", "needs-verification"]
   },
@@ -385,6 +422,7 @@
     "id": "noun-batiya",
     "word": "batiyā",
     "translations": { "nl": "ding, zaak", "en": "thing, matter" },
+    "audioUrl": "/audio/sarnami/noun-batiya.mp3",
     "notes": "Explicietere vorm naast het voornaamwoord ī ('dit'): 'ham ī batiyā parhle bāṭī' (ik heb dit [ding] gelezen). Uit het boek, §6.2.1.",
     "tags": ["noun", "book", "needs-verification"]
   },
@@ -392,6 +430,7 @@
     "id": "noun-hath",
     "word": "hāth",
     "translations": { "nl": "hand", "en": "hand" },
+    "audioUrl": "/audio/sarnami/noun-hath.mp3",
     "notes": "Lange vorm hathvā. Uit het boek (§6.2.1): 'Ŏkare hāthe meṁ chūrī rahā' (Hij had een mes in zijn hand).",
     "tags": ["noun", "book", "needs-verification"]
   },
@@ -399,6 +438,7 @@
     "id": "noun-baris",
     "word": "bariś",
     "translations": { "nl": "regen", "en": "rain" },
+    "audioUrl": "/audio/sarnami/noun-baris.mp3",
     "notes": "Educated guess op basis van de zinsvertaling ('Als het regent...'); niet geverifieerd tegen het boek.",
     "tags": ["noun", "needs-verification"]
   },
@@ -406,6 +446,7 @@
     "id": "noun-mahes",
     "word": "Mahes",
     "translations": { "nl": "Mahes (jongensnaam)", "en": "Mahes (boy's name)" },
+    "audioUrl": "/audio/sarnami/noun-mahes.mp3",
     "notes": "Vaste voorbeeldnaam uit het boek (§2.2-2.3, p.55): 'Mahes ego choṭā ghar kīnis hai'.",
     "tags": ["noun", "proper-noun", "book-p55"]
   },
@@ -413,6 +454,7 @@
     "id": "noun-hariya",
     "word": "Hariyā",
     "translations": { "nl": "Hari (jongensnaam)", "en": "Hari (boy's name)" },
+    "audioUrl": "/audio/sarnami/noun-hariya.mp3",
     "notes": "Vaste voorbeeldnaam uit het boek (§2.5, p.56): 'Hariyā lāl somth pahine hai'.",
     "tags": ["noun", "proper-noun", "book-p56"]
   },
@@ -420,6 +462,7 @@
     "id": "noun-somth",
     "word": "somth",
     "translations": { "nl": "overhemd", "en": "shirt" },
+    "audioUrl": "/audio/sarnami/noun-somth.mp3",
     "notes": "Uit het boek (§2.5, p.56): 'Hariyā lāl somth pahine hai' (Hari draagt een rood overhemd).",
     "tags": ["noun", "book-p56"]
   },
@@ -427,6 +470,7 @@
     "id": "noun-sarnam",
     "word": "Sarnām",
     "translations": { "nl": "Suriname", "en": "Suriname" },
+    "audioUrl": "/audio/sarnami/noun-sarnam.mp3",
     "notes": "Uit het boek (§2.13, p.59-61): 'Sarnām meṁ ī sab se dhanī adamī hai' (In Suriname is hij de rijkste man).",
     "tags": ["noun", "proper-noun", "book-p59"]
   },
@@ -434,6 +478,7 @@
     "id": "noun-adami",
     "word": "adamī",
     "translations": { "nl": "man, mens", "en": "man, person" },
+    "audioUrl": "/audio/sarnami/noun-adami.mp3",
     "notes": "Uit het boek (§2.13, p.59-61): 'sab se dhanī adamī' (de rijkste man).",
     "tags": ["noun", "book-p59"]
   },
@@ -441,6 +486,7 @@
     "id": "noun-bakari",
     "word": "bakarī",
     "translations": { "nl": "geit", "en": "goat" },
+    "audioUrl": "/audio/sarnami/noun-bakari.mp3",
     "notes": "Uit het boek (§2.7.1, p.57): 'karikkanī bakariyā' (de zwarte geit) — bakariyā is de vrouwelijke/lange vorm.",
     "tags": ["noun", "book-p57"]
   }

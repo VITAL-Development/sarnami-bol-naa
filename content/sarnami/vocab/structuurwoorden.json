@@ -6,6 +6,7 @@
       "nl": "en",
       "en": "and"
     },
+    "audioUrl": "/audio/sarnami/struct-en.mp3",
     "notes": "Nevenschikkend voegwoord. Ook: auro, auru, au, a.",
     "tags": [
       "conjunction",
@@ -20,6 +21,7 @@
       "nl": "maar",
       "en": "but"
     },
+    "audioUrl": "/audio/sarnami/struct-maar.mp3",
     "tags": [
       "conjunction",
       "sarnamibhasa",
@@ -33,6 +35,7 @@
       "nl": "of",
       "en": "or"
     },
+    "audioUrl": "/audio/sarnami/struct-of.mp3",
     "notes": "Ook: ki, ki to.",
     "tags": [
       "conjunction",
@@ -47,6 +50,7 @@
       "nl": "dat (voegwoord)",
       "en": "that (conjunction)"
     },
+    "audioUrl": "/audio/sarnami/struct-dat.mp3",
     "notes": "Onderschikkend voegwoord; ki heeft ook de betekenis 'of'. Ook: kī.",
     "tags": [
       "conjunction",
@@ -61,6 +65,7 @@
       "nl": "als, indien",
       "en": "if, in case"
     },
+    "audioUrl": "/audio/sarnami/struct-als.mp3",
     "notes": "Ook: ja. Correlaat: jo … to (indien … dan).",
     "tags": [
       "conjunction",
@@ -75,6 +80,7 @@
       "nl": "dan (gevolg)",
       "en": "then (consequence)"
     },
+    "audioUrl": "/audio/sarnami/struct-dan.mp3",
     "notes": "Correlaat van jo … to.",
     "tags": [
       "conjunction",
@@ -89,6 +95,7 @@
       "nl": "omdat, want",
       "en": "because, for"
     },
+    "audioUrl": "/audio/sarnami/struct-omdat.mp3",
     "notes": "Volledige vorm: kāhe (se) (ki).",
     "tags": [
       "conjunction",
@@ -103,6 +110,7 @@
       "nl": "anders",
       "en": "otherwise"
     },
+    "audioUrl": "/audio/sarnami/struct-anders.mp3",
     "tags": [
       "conjunction",
       "sarnamibhasa",
@@ -116,6 +124,7 @@
       "nl": "sinds, sedert",
       "en": "since, ever since"
     },
+    "audioUrl": "/audio/sarnami/struct-sinds.mp3",
     "tags": [
       "conjunction",
       "sarnamibhasa",
@@ -129,6 +138,7 @@
       "nl": "toch",
       "en": "still, yet"
     },
+    "audioUrl": "/audio/sarnami/struct-toch.mp3",
     "tags": [
       "conjunction",
       "sarnamibhasa",
@@ -141,6 +151,7 @@
     "translations": {
       "nl": "altijd"
     },
+    "audioUrl": "/audio/sarnami/struct-altijd.mp3",
     "notes": "Ook: roj-nit.",
     "tags": [
       "adverb",
@@ -154,6 +165,7 @@
     "translations": {
       "nl": "nooit"
     },
+    "audioUrl": "/audio/sarnami/struct-nooit.mp3",
     "tags": [
       "adverb",
       "sarnamibhasa",
@@ -166,6 +178,7 @@
     "translations": {
       "nl": "weer, opnieuw"
     },
+    "audioUrl": "/audio/sarnami/struct-weer.mp3",
     "notes": "Ook: phin, phiro, phino.",
     "tags": [
       "adverb",
@@ -179,6 +192,7 @@
     "translations": {
       "nl": "eerst"
     },
+    "audioUrl": "/audio/sarnami/struct-eerst.mp3",
     "tags": [
       "adverb",
       "sarnamibhasa",
@@ -191,6 +205,7 @@
     "translations": {
       "nl": "dichtbij"
     },
+    "audioUrl": "/audio/sarnami/struct-dichtbij.mp3",
     "tags": [
       "adverb",
       "sarnamibhasa",
@@ -203,6 +218,7 @@
     "translations": {
       "nl": "ver"
     },
+    "audioUrl": "/audio/sarnami/struct-ver.mp3",
     "tags": [
       "adverb",
       "sarnamibhasa",
@@ -215,6 +231,7 @@
     "translations": {
       "nl": "ongeveer"
     },
+    "audioUrl": "/audio/sarnami/struct-ongeveer.mp3",
     "tags": [
       "adverb",
       "sarnamibhasa",
@@ -227,6 +244,7 @@
     "translations": {
       "nl": "misschien"
     },
+    "audioUrl": "/audio/sarnami/struct-misschien.mp3",
     "tags": [
       "adverb",
       "sarnamibhasa",
@@ -239,6 +257,7 @@
     "translations": {
       "nl": "in"
     },
+    "audioUrl": "/audio/sarnami/struct-in.mp3",
     "notes": "Achterzetsel: staat achter het woord waarmee het verbonden is.",
     "tags": [
       "postposition",
@@ -252,6 +271,7 @@
     "translations": {
       "nl": "op"
     },
+    "audioUrl": "/audio/sarnami/struct-op.mp3",
     "notes": "Ook: pe. Achterzetsel.",
     "tags": [
       "postposition",
@@ -265,6 +285,7 @@
     "translations": {
       "nl": "van, aan"
     },
+    "audioUrl": "/audio/sarnami/struct-van-aan.mp3",
     "notes": "Achterzetsel; vormt ook samengestelde achterzetsels (ke uppar, ke bāhar, ...).",
     "tags": [
       "postposition",
@@ -278,6 +299,7 @@
     "translations": {
       "nl": "zonder"
     },
+    "audioUrl": "/audio/sarnami/struct-zonder.mp3",
     "tags": [
       "postposition",
       "sarnamibhasa",

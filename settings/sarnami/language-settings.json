@@ -30,7 +30,7 @@
     "baseUrl": "/audio/sarnami/",
     "format": "mp3",
     "voice": "single-speaker-tts",
-    "ttsModel": "facebook/mms-tts-hns"
+    "ttsModel": "rhasspy/piper-voices:hi_IN-rohan-medium"
   },
   "branding": {
     "appName": "Sarnami Bol Naa",

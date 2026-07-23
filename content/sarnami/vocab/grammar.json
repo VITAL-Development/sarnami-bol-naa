@@ -6,6 +6,7 @@
       "nl": "is / ben / bent (koppelwerkwoord 'zijn')",
       "en": "is / am / are (copula 'to be')"
     },
+    "audioUrl": "/audio/sarnami/gram-hai.mp3",
     "notes": "Volledige vervoeging in de o.t.t. (onvoltooid tegenwoordige tijd, de gewone tegenwoordige tijd): ham hai, tū hai, ī/ū hai, ham log haiṁ, tū log hai, āp ho, ī/ū sab haiṁ.",
     "tags": [
       "grammar",
@@ -20,6 +21,7 @@
       "nl": "niet",
       "en": "not"
     },
+    "audioUrl": "/audio/sarnami/gram-na.mp3",
     "tags": [
       "grammar",
       "negation",
@@ -33,6 +35,7 @@
       "nl": "waar",
       "en": "where"
     },
+    "audioUrl": "/audio/sarnami/gram-kaham.mp3",
     "tags": [
       "grammar",
       "question-word",
@@ -46,6 +49,7 @@
       "nl": "dan (bij vergelijking)",
       "en": "than (in comparison)"
     },
+    "audioUrl": "/audio/sarnami/gram-se.mp3",
     "notes": "Vormt de vergelijkende vorm (zoals 'groter dan' in het Nederlands): ...se barkā hai (is groter dan...).",
     "tags": [
       "grammar",
@@ -60,6 +64,7 @@
       "nl": "nog (meer)",
       "en": "even (more)"
     },
+    "audioUrl": "/audio/sarnami/gram-aur-compare.mp3",
     "notes": "Versterkt de vergelijkende vorm, samen met of in plaats van 'se'.",
     "tags": [
       "grammar",
@@ -74,6 +79,7 @@
       "nl": "meer",
       "en": "more"
     },
+    "audioUrl": "/audio/sarnami/gram-jada.mp3",
     "notes": "Versterkt de vergelijkende vorm; sab se jādā vormt een sterke overtreffende vorm (zoals 'de allergrootste').",
     "tags": [
       "grammar",
@@ -88,6 +94,7 @@
       "nl": "de meest-",
       "en": "the most-"
     },
+    "audioUrl": "/audio/sarnami/gram-sabse.mp3",
     "notes": "Vormt de overtreffende vorm (zoals 'de grootste' in het Nederlands): sab se dhanī (de rijkste).",
     "tags": [
       "grammar",
@@ -102,6 +109,7 @@
       "nl": "hulpwerkwoord (hove)",
       "en": "auxiliary verb (hove)"
     },
+    "audioUrl": "/audio/sarnami/gram-hai-aux.mp3",
     "notes": "Dit is dezelfde vorm als het woordje 'hai' ('zijn'). Maar hier staat het achter een ander werkwoord, bijvoorbeeld 'kām kare hai' (werkt) of 'kin lāve hai' (haalt). Het betekent dan niet 'zijn' — het hoort gewoon bij dat andere werkwoord.",
     "tags": ["grammar"]
   },
@@ -112,6 +120,7 @@
       "nl": "hoe",
       "en": "how"
     },
+    "audioUrl": "/audio/sarnami/gram-kaise.mp3",
     "tags": ["grammar"]
   },
   {
@@ -121,6 +130,7 @@
       "nl": "zijn (bestaan, ergens zijn)",
       "en": "to be (existential/locative)"
     },
+    "audioUrl": "/audio/sarnami/gram-ba.mp3",
     "notes": "Bāteṃ is de meervoudsvorm van bā. Dit werkwoord zegt dat iets ergens is, bijvoorbeeld ghar meṃ bāteṃ (zijn thuis).",
     "tags": ["grammar"]
   },
@@ -131,6 +141,7 @@
       "nl": "hulpwerkwoord (bate)",
       "en": "auxiliary verb (bate)"
     },
+    "audioUrl": "/audio/sarnami/gram-ba-aux.mp3",
     "notes": "Dit is dezelfde vorm als het woordje 'bā' ('zijn'). Maar hier staat het achter een ander werkwoord, bijvoorbeeld khāt bā (is aan het eten) of ṭurle bā (heeft geplukt). Het betekent dan niet 'zijn' — het hoort gewoon bij dat andere werkwoord.",
     "tags": ["grammar"]
   },
@@ -141,6 +152,7 @@
       "nl": "telwoordpartikel",
       "en": "numeral counter particle"
     },
+    "audioUrl": "/audio/sarnami/gram-go.mp3",
     "notes": "Dit woordje komt na een telwoord als je dingen telt, bijvoorbeeld sāt go cor (7 dieven). Het heeft zelf geen betekenis; het hoort gewoon bij het telwoord. Andere vormen van dit partikel zijn -ṭho, -ṭhe en -ṭhi.",
     "tags": ["grammar"]
   },
@@ -151,6 +163,7 @@
       "nl": "hulpwerkwoord (voltooid verleden tijd)",
       "en": "auxiliary verb (past perfect)"
     },
+    "audioUrl": "/audio/sarnami/gram-raha-aux.mp3",
     "notes": "Rahā (en de vorm rahe) hoort achter een ander werkwoord. Samen vormen ze de voltooid verleden tijd: 'had gedaan'. Bijvoorbeeld: nā samajhle rahā (had niet begrepen).",
     "tags": ["grammar"]
   },
@@ -161,6 +174,7 @@
       "nl": "ben / heb (bestaan)",
       "en": "am / have (existential)"
     },
+    "audioUrl": "/audio/sarnami/gram-bati.mp3",
     "notes": "Bhojpuri-vorm van 'zijn' (naast bāṭe, bā(-y)), gebruikt in de rest van Suriname naast de Nickerie-vorm hai. Uit het boek §9.2.1.1.",
     "tags": ["grammar", "verb", "book", "needs-verification"]
   },
@@ -171,6 +185,7 @@
       "nl": "worden / gebeuren",
       "en": "to become / to happen"
     },
+    "audioUrl": "/audio/sarnami/gram-hove.mp3",
     "notes": "Dit werkwoord betekent 'worden' of 'gebeuren' — dus niet 'zijn' zoals hai. De vorm voor 'hij/zij zal ...' is hoī. Bijvoorbeeld: bariś hoī betekent 'het zal regenen'.",
     "tags": [
       "grammar",
@@ -186,6 +201,7 @@
       "nl": "allemaal",
       "en": "all"
     },
+    "audioUrl": "/audio/sarnami/gram-sab.mp3",
     "notes": "Dit woordje betekent 'allemaal'. Het is iets anders dan sab se, dat 'het meest-' betekent (bijvoorbeeld sab se dhanī, 'de rijkste'). Voorbeeld: sab ghar meṁ hai betekent 'allemaal thuis zijn'.",
     "tags": [
       "grammar",
@@ -200,6 +216,7 @@
       "nl": "een (onbepaald lidwoord)",
       "en": "a/an (indefinite article)"
     },
+    "audioUrl": "/audio/sarnami/gram-ego.mp3",
     "notes": "Combinatie van ek ('een') en go (telwoordpartikel). Uit het boek (§2.2-2.3, p.55): 'ego choṭā laundā' (een kleine jongen).",
     "tags": ["grammar", "book-p55"]
   }

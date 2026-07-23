@@ -36,7 +36,7 @@ import { spawnSync } from "node:child_process";
 import { toDevanagari } from "./devanagari-transliterate.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT = path.resolve(__dirname, "..");
+export const REPO_ROOT = path.resolve(__dirname, "..");
 const VOCAB_DIR = path.join(REPO_ROOT, "content", "sarnami", "vocab");
 
 // The 6 words used in this repo's earlier hns/Piper comparison testing
@@ -72,11 +72,33 @@ const DEFAULT_SMOKE_TEST_IDS = [
 // to discover and apply more of these across the full 312-word vocab, and
 // should account for Piper's per-call noise -- a single ASR pass isn't
 // enough to trust a fix; see the report for the multi-sample methodology.
-const KNOWN_WORKAROUNDS = {
+export const KNOWN_WORKAROUNDS = {
   "adj-sojha": "सो झा",
+
+  // Owner's direct corrections (2026-07-20) after listening to the part-2
+  // ASR-flagged-word artifact for #280/#290. These are the owner's own
+  // typed spellings, not derived from the earlier candidate proposals --
+  // applied verbatim, same as every other owner-reviewed spelling in this
+  // repo (see devanagari-transliterate.mjs's RAW_WORD_OVERRIDES header for
+  // the established "apply verbatim" convention). read-pap and sound-khet
+  // were left unmarked in the owner's corrections, meaning the mechanical
+  // toDevanagari() output was judged correct for those two.
+  "adj-barhimya": "बर हिम्या",
+  "wf-chapkhana": "छप खाना",
+  "noun-anguthi": "अं गुट्ठी",
+  "pron-unhan": "उन हन",
+  "noun-somth": "सोम् थ",
+  "noun-citthi": "छीथी",
+  "sound-kainci": "काईनचि",
+  "noun-chaumri": "चौड़ीई",
+  "int-oho": "औहौऔ",
+  "adj-karikka": "करेकका",
+  "about-girmit": "गीईरमीईट",
+  "noun-gadaha": "ग द हा",
+  "pron-inhan": "ईन हण",
 };
 
-function readVocabEntries(vocabDir = VOCAB_DIR) {
+export function readVocabEntries(vocabDir = VOCAB_DIR) {
   const files = readdirSync(vocabDir).filter((f) => f.endsWith(".json")).sort();
   const entries = [];
   for (const file of files) {
@@ -89,11 +111,12 @@ function readVocabEntries(vocabDir = VOCAB_DIR) {
   return entries;
 }
 
-function synthesize({ piperBin, modelPath, text, outFile }) {
-  const result = spawnSync(piperBin, ["--model", modelPath, "--output_file", outFile], {
-    input: text,
-    encoding: "utf-8",
-  });
+export function synthesize({ piperBin, modelPath, text, outFile, extraArgs = [] }) {
+  const result = spawnSync(
+    piperBin,
+    ["--model", modelPath, "--output_file", outFile, ...extraArgs],
+    { input: text, encoding: "utf-8" },
+  );
   if (result.status !== 0) {
     throw new Error(
       `piper failed (exit ${result.status}) for "${text}" -> ${outFile}:\n${result.stderr}`,

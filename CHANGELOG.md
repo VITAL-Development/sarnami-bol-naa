@@ -19,6 +19,32 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Added
+
+- `content/sarnami/audio/*.mp3`: generated pronunciation audio for all 312
+  `content/sarnami/vocab/*.json` entries with Piper TTS
+  (`hi_IN-rohan-medium` voice, Devanagari input), superseding an earlier
+  `facebook/mms-tts-hns` batch (that model's tokenizer only covers 30
+  flattened-Latin characters and silently drops most of this repo's
+  Sarnami diacritics — see #293). Each vocab entry's `word` is
+  transliterated to Devanagari first (`scripts/devanagari-transliterate.mjs`,
+  #293), synthesized deterministically (`--noise-scale 0 --noise-w-scale 0`,
+  since Piper's default per-call noise made single-sample checks
+  unreliable in earlier testing), and transcoded to `.mp3`
+  (`libmp3lame -q:a 4`, mono) to match `audio.format` in
+  `settings/sarnami/language-settings.json` — raw `.wav` output isn't
+  shipped. `audio.ttsModel` updated to
+  `rhasspy/piper-voices:hi_IN-rohan-medium`. Every vocab entry's
+  `audioUrl` field (`/audio/sarnami/<id>.mp3`, per `audio.baseUrl`) is
+  unchanged from the earlier batch. Verified via an `mms-1b-all`
+  (hin adapter) ASR round-trip across the full set, plus the native-speaker
+  owner's own corrections for 13 words (applied via `KNOWN_WORKAROUNDS`,
+  reflecting how these words are actually pronounced in spoken Sarnami —
+  which is less strict than Hindi and diverges from the mechanical
+  transliteration in places — rather than a purely mechanical rendering)
+  — see PR description for the flagged-word list and methodology. New
+  optional field + new files, additive; no existing shape changed. (#280)
+
 ### Changed (no shipped-content diff vs. `v0.7.0`)
 
 - **#291 revisited its own approach and reverted the split it introduced.**

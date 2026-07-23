@@ -6,6 +6,7 @@
       "nl": "vandaag",
       "en": "today"
     },
+    "audioUrl": "/audio/sarnami/adv-aaj.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -21,6 +22,7 @@
       "nl": "morgen",
       "en": "tomorrow"
     },
+    "audioUrl": "/audio/sarnami/adv-bihaan.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -37,6 +39,7 @@
       "nl": "gisteren",
       "en": "yesterday"
     },
+    "audioUrl": "/audio/sarnami/adv-kaal.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -53,6 +56,7 @@
       "nl": "dagelijks, elke dag",
       "en": "daily, every day"
     },
+    "audioUrl": "/audio/sarnami/adv-roj.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -68,6 +72,7 @@
       "nl": "altijd",
       "en": "always"
     },
+    "audioUrl": "/audio/sarnami/adv-hardam.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -83,6 +88,7 @@
       "nl": "boven, bovenop",
       "en": "above, on top"
     },
+    "audioUrl": "/audio/sarnami/adv-uppar.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -98,6 +104,7 @@
       "nl": "beneden, onder",
       "en": "below, under"
     },
+    "audioUrl": "/audio/sarnami/adv-nicce.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -114,6 +121,7 @@
       "nl": "ver, ver weg",
       "en": "far, far away"
     },
+    "audioUrl": "/audio/sarnami/adv-dur.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -129,6 +137,7 @@
       "nl": "dichtbij, in de buurt",
       "en": "nearby, close by"
     },
+    "audioUrl": "/audio/sarnami/adv-nagicce.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -144,6 +153,7 @@
       "nl": "buiten",
       "en": "outside"
     },
+    "audioUrl": "/audio/sarnami/adv-baahar.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -159,6 +169,7 @@
       "nl": "zacht, langzaam",
       "en": "softly, slowly"
     },
+    "audioUrl": "/audio/sarnami/adv-dhire.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -175,6 +186,7 @@
       "nl": "langzaamaan, geleidelijk",
       "en": "little by little, gradually"
     },
+    "audioUrl": "/audio/sarnami/adv-dhire-dhire.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -191,6 +203,7 @@
       "nl": "echt, inderdaad, werkelijk",
       "en": "really, indeed, truly"
     },
+    "audioUrl": "/audio/sarnami/adv-sacce.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -206,6 +219,7 @@
       "nl": "misschien",
       "en": "maybe, perhaps"
     },
+    "audioUrl": "/audio/sarnami/adv-sait.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -221,6 +235,7 @@
       "nl": "veel, erg",
       "en": "much, very"
     },
+    "audioUrl": "/audio/sarnami/adv-bahut.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -236,6 +251,7 @@
       "nl": "weinig, een beetje",
       "en": "little, a bit"
     },
+    "audioUrl": "/audio/sarnami/adv-thora-se.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -251,6 +267,7 @@
       "nl": "helemaal, volkomen",
       "en": "completely, entirely"
     },
+    "audioUrl": "/audio/sarnami/adv-bilkul.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -265,6 +282,7 @@
       "nl": "aan de overkant",
       "en": "on the other side"
     },
+    "audioUrl": "/audio/sarnami/adv-habara.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -282,6 +300,7 @@
       "nl": "langs, aan de zijkant",
       "en": "alongside, to the side"
     },
+    "audioUrl": "/audio/sarnami/adv-kanti.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -298,6 +317,7 @@
       "nl": "precies, toevallig, eigenlijk",
       "en": "exactly, by chance, actually"
     },
+    "audioUrl": "/audio/sarnami/adv-parsis.mp3",
     "tags": [
       "adverbs",
       "adverb",
@@ -311,6 +331,7 @@
     "id": "adv-ghare",
     "word": "ghare",
     "translations": { "nl": "thuis", "en": "at home" },
+    "audioUrl": "/audio/sarnami/adv-ghare.mp3",
     "notes": "Hoort bij 'ghar' (huis, noun-ghar), maar 'ghare' betekent 'thuis'.",
     "tags": ["adverb"]
   }

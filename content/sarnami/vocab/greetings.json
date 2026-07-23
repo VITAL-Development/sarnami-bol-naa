@@ -6,6 +6,7 @@
       "nl": "hallo / gegroet",
       "en": "hello / greetings"
     },
+    "audioUrl": "/audio/sarnami/greet-ram-ram.mp3",
     "tags": [
       "greeting",
       "native-speaker"
@@ -19,6 +20,7 @@
       "nl": "eerbiedige groet (tegen ouderen)",
       "en": "respectful greeting (to elders)"
     },
+    "audioUrl": "/audio/sarnami/greet-pranam.mp3",
     "tags": [
       "greeting",
       "native-speaker"
@@ -32,6 +34,7 @@
       "nl": "Hoe gaat het?",
       "en": "How are you?"
     },
+    "audioUrl": "/audio/sarnami/greet-kaise-hai.mp3",
     "tags": [
       "greeting",
       "baatsiekh"
@@ -44,6 +47,7 @@
       "nl": "Het gaat goed",
       "en": "It's going well"
     },
+    "audioUrl": "/audio/sarnami/greet-moi-jahe.mp3",
     "tags": [
       "greeting",
       "baatsiekh",
@@ -58,6 +62,7 @@
       "nl": "bedankt / dank u",
       "en": "thanks / thank you"
     },
+    "audioUrl": "/audio/sarnami/greet-dhanyavad.mp3",
     "tags": [
       "greeting",
       "baatsiekh"
@@ -70,6 +75,7 @@
     "translations": {
       "nl": "ja"
     },
+    "audioUrl": "/audio/sarnami/greet-ja.mp3",
     "tags": [
       "greeting",
       "baatsiekh",
@@ -82,6 +88,7 @@
     "translations": {
       "nl": "nee"
     },
+    "audioUrl": "/audio/sarnami/greet-nee.mp3",
     "tags": [
       "greeting",
       "baatsiekh",
