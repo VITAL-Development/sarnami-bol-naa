@@ -19,6 +19,8 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+## [0.8.0] - 2026-07-23
+
 ### Added
 
 - `content/sarnami/audio/*.mp3`: generated pronunciation audio for all 312
