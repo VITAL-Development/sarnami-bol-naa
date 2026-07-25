@@ -69,6 +69,13 @@ git-sync deployment pins to a tag instead of tracking
 `main`. Content/schema changes per release are recorded in
 [`CHANGELOG.md`](CHANGELOG.md).
 
+## Design docs
+
+- [`docs/dictionary-growth-design.md`](docs/dictionary-growth-design.md) —
+  proposed (not yet implemented) design for capturing, reviewing, and
+  promoting SCS-transliteration rule-table-fallback usages into
+  `settings/sarnami/scs-word-list.json` ([#282](https://github.com/VITAL-Development/sarnami-bol-naa/issues/282)).
+
 ## History
 
 This repo's git history predates the rebrand — it includes the original
