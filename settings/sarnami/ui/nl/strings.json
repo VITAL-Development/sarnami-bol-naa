@@ -63,5 +63,16 @@
     "wordBank": "Zet de zin in elkaar",
     "multipleChoice": "Meerkeuze",
     "matching": "Sleep bij elkaar horende paren naar elkaar toe"
+  },
+  "auth": {
+    "signIn": "Inloggen",
+    "signInPrompt": "Log in om je voortgang op al je apparaten te bewaren",
+    "signInWithGoogle": "Doorgaan met Google",
+    "signInWithApple": "Doorgaan met Apple",
+    "signInWithMicrosoft": "Doorgaan met Microsoft",
+    "signInUnavailable": "Inloggen is niet beschikbaar in deze omgeving.",
+    "signedInAs": "Ingelogd als {name}",
+    "signOut": "Uitloggen",
+    "loginFailed": "Inloggen is niet gelukt — probeer het opnieuw."
   }
 }

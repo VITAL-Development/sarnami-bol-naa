@@ -63,5 +63,16 @@
     "wordBank": "Build the sentence",
     "multipleChoice": "Multiple choice",
     "matching": "Drag matching pairs together"
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signInPrompt": "Sign in to sync your progress across devices",
+    "signInWithGoogle": "Continue with Google",
+    "signInWithApple": "Continue with Apple",
+    "signInWithMicrosoft": "Continue with Microsoft",
+    "signInUnavailable": "Sign-in isn't available in this environment.",
+    "signedInAs": "Signed in as {name}",
+    "signOut": "Sign out",
+    "loginFailed": "Sign-in didn't work — please try again."
   }
 }
