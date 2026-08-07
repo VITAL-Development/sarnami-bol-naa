@@ -19,6 +19,21 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Added
+
+- `settings/sarnami/language-settings.json`: new optional `audio.elevenLabsVoiceId`
+  field (`"XNJDyPyJ8r4J7de0WJwB"`, the ElevenLabs account voice id for "Sudhir -
+  Warm & Expressive Hindi Voice"), plus an updated `audio.voice` label
+  (`"elevenlabs-sudhir"`). Consumed by
+  [rarelang-server#131](https://github.com/VITAL-Development/rarelang-server/pull/131)
+  to route this language's realtime `GET /audio/tts` to the ElevenLabs
+  `eleven_multilingual_v2` tier instead of the Piper `tts-sidecar` fallback.
+  `audio.ttsModel` is unchanged and still names the Piper backup-tier model;
+  consumers that don't recognize `elevenLabsVoiceId` ignore it. Settings-only —
+  no changes to `content/sarnami/audio/*.mp3` or vocab JSON in this release; see
+  [#300](https://github.com/VITAL-Development/sarnami-bol-naa/issues/300) for the
+  full ElevenLabs static-audio regeneration this unblocks.
+
 ## [0.8.0] - 2026-07-23
 
 ### Added
