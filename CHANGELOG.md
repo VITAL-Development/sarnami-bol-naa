@@ -19,6 +19,8 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+## [0.10.0] - 2026-08-07
+
 ### Added
 
 - Every `content/sarnami/vocab/*.json` item: new optional `devanagari` field,
