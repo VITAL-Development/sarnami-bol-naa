@@ -29,8 +29,9 @@
   "audio": {
     "baseUrl": "/audio/sarnami/",
     "format": "mp3",
-    "voice": "single-speaker-tts",
-    "ttsModel": "rhasspy/piper-voices:hi_IN-rohan-medium"
+    "voice": "elevenlabs-sudhir",
+    "ttsModel": "rhasspy/piper-voices:hi_IN-rohan-medium",
+    "elevenLabsVoiceId": "XNJDyPyJ8r4J7de0WJwB"
   },
   "branding": {
     "appName": "Sarnami Bol Naa",
