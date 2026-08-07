@@ -330,9 +330,14 @@
   {
     "id": "adv-ghare",
     "word": "ghare",
-    "translations": { "nl": "thuis", "en": "at home" },
+    "translations": {
+      "nl": "thuis",
+      "en": "at home"
+    },
     "audioUrl": "/audio/sarnami/adv-ghare.mp3",
     "notes": "Hoort bij 'ghar' (huis, noun-ghar), maar 'ghare' betekent 'thuis'.",
-    "tags": ["adverb"]
+    "tags": [
+      "adverb"
+    ]
   }
 ]

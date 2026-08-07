@@ -128,10 +128,16 @@
   {
     "id": "adj-bimar",
     "word": "bīmār",
-    "translations": { "nl": "ziek", "en": "sick, ill" },
+    "translations": {
+      "nl": "ziek",
+      "en": "sick, ill"
+    },
     "audioUrl": "/audio/sarnami/adj-bimar.mp3",
     "notes": "Educated guess op basis van de zinsvertaling ('omdat hij ziek was'); niet geverifieerd tegen het boek.",
-    "tags": ["adjective", "needs-verification"]
+    "tags": [
+      "adjective",
+      "needs-verification"
+    ]
   },
   {
     "id": "adj-dhani",
