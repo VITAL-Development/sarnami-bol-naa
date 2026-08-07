@@ -12,7 +12,8 @@
       "verb",
       "book-p57",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "पढ़े"
   },
   {
     "id": "verb-kare",
@@ -27,7 +28,8 @@
       "verb",
       "book-p57",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "करे"
   },
   {
     "id": "verb-bole",
@@ -42,7 +44,8 @@
       "verb",
       "book-p63",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "बोले"
   },
   {
     "id": "verb-dekhe",
@@ -57,7 +60,8 @@
       "verb",
       "book-p57",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "देखे"
   },
   {
     "id": "verb-sune",
@@ -72,7 +76,8 @@
       "verb",
       "book-p63",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "सुने"
   },
   {
     "id": "verb-khai",
@@ -87,7 +92,8 @@
       "verb",
       "book-p53",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "खाई"
   },
   {
     "id": "verb-jai",
@@ -102,7 +108,8 @@
       "verb",
       "book-p53",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "जाई"
   },
   {
     "id": "verb-ave",
@@ -117,7 +124,8 @@
       "verb",
       "book-p63",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "आवे"
   },
   {
     "id": "verb-sute",
@@ -132,7 +140,8 @@
       "verb",
       "book-p53",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "सूते"
   },
   {
     "id": "verb-kine",
@@ -147,7 +156,8 @@
       "verb",
       "book-p53",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "कीने"
   },
   {
     "id": "verb-leve",
@@ -162,7 +172,8 @@
       "verb",
       "book-p53",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "लेवे"
   },
   {
     "id": "verb-deve",
@@ -177,7 +188,8 @@
       "verb",
       "book-p53",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "देवे"
   },
   {
     "id": "verb-dhove",
@@ -192,7 +204,8 @@
       "verb",
       "book-p53",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "धोवे"
   },
   {
     "id": "verb-rove",
@@ -207,7 +220,8 @@
       "verb",
       "book-p65",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "रोवे"
   },
   {
     "id": "verb-piye",
@@ -222,7 +236,8 @@
       "verb",
       "book-p53",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "पीये"
   },
   {
     "id": "verb-siye",
@@ -237,7 +252,8 @@
       "verb",
       "book-p53",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "सीये"
   },
   {
     "id": "verb-likhe",
@@ -252,7 +268,8 @@
       "verb",
       "book-p63",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "लिखे"
   },
   {
     "id": "verb-cale",
@@ -267,7 +284,8 @@
       "verb",
       "book-p63",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "चले"
   },
   {
     "id": "verb-baithe",
@@ -282,7 +300,8 @@
       "verb",
       "book-p65",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "बैठे"
   },
   {
     "id": "verb-uthe",
@@ -297,7 +316,8 @@
       "verb",
       "book-p63",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "उठे"
   },
   {
     "id": "verb-nace",
@@ -312,7 +332,8 @@
       "verb",
       "book-p65",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "नाचे"
   },
   {
     "id": "verb-hamse",
@@ -327,7 +348,8 @@
       "verb",
       "book-p65",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "हंसे"
   },
   {
     "id": "verb-kate",
@@ -342,7 +364,8 @@
       "verb",
       "book-p65",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "काटे"
   },
   {
     "id": "verb-khele",
@@ -357,7 +380,8 @@
       "verb",
       "book-p63",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "खेले"
   },
   {
     "id": "verb-mare-hit",
@@ -372,7 +396,8 @@
       "verb",
       "book-p65",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "मारे"
   },
   {
     "id": "verb-mare-die",
@@ -387,7 +412,8 @@
       "verb",
       "book-p65",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "मरे"
   },
   {
     "id": "verb-pahine",
@@ -402,7 +428,8 @@
       "verb",
       "book-p57",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "पहिने"
   },
   {
     "id": "verb-samjhe",
@@ -417,7 +444,8 @@
       "verb",
       "book-p57",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "सम्झे"
   },
   {
     "id": "verb-khoje",
@@ -432,7 +460,8 @@
       "verb",
       "book-p57",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "खोजे"
   },
   {
     "id": "verb-puche",
@@ -447,7 +476,8 @@
       "verb",
       "book-p65",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "पूछे"
   },
   {
     "id": "verb-bolna",
@@ -460,7 +490,8 @@
     "notes": "Dit is de vorm op '-nā', zoals in 'bol-nā sikhe hai' (leert spreken). 'Bole' (verb-bole) is de andere vorm van hetzelfde werkwoord.",
     "tags": [
       "verb"
-    ]
+    ],
+    "devanagari": "बोल-ना"
   },
   {
     "id": "verb-sikhe",
@@ -472,7 +503,8 @@
     "audioUrl": "/audio/sarnami/verb-sikhe.mp3",
     "tags": [
       "verb"
-    ]
+    ],
+    "devanagari": "सिखे"
   },
   {
     "id": "verb-lave",
@@ -485,7 +517,8 @@
     "notes": "Lijkt op 'āve' (verb-ave, komen), maar 'lāve' betekent 'halen' (iets meebrengen).",
     "tags": [
       "verb"
-    ]
+    ],
+    "devanagari": "लावे"
   },
   {
     "id": "verb-dai",
@@ -498,7 +531,8 @@
     "notes": "Komt voor in de samengestelde vorm dai de (te drinken geven), met deve (verb-deve) als hulpwerkwoord.",
     "tags": [
       "verb"
-    ]
+    ],
+    "devanagari": "दै"
   },
   {
     "id": "verb-pakare",
@@ -511,7 +545,8 @@
     "notes": "Stam: pakaṛ-. Komt voor in de samengestelde vorm pakaṛ leis (vastgepakt), met leve (verb-leve) als hulpwerkwoord.",
     "tags": [
       "verb"
-    ]
+    ],
+    "devanagari": "पकड़े"
   },
   {
     "id": "verb-turle",
@@ -523,7 +558,8 @@
     "audioUrl": "/audio/sarnami/verb-turle.mp3",
     "tags": [
       "verb"
-    ]
+    ],
+    "devanagari": "टुर्ले"
   },
   {
     "id": "verb-jante",
@@ -537,6 +573,7 @@
     "tags": [
       "verb",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "जान्ता"
   }
 ]

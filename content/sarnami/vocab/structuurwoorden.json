@@ -12,7 +12,8 @@
       "conjunction",
       "sarnamibhasa",
       "book-p49"
-    ]
+    ],
+    "devanagari": "और"
   },
   {
     "id": "struct-maar",
@@ -26,7 +27,8 @@
       "conjunction",
       "sarnamibhasa",
       "book-p49"
-    ]
+    ],
+    "devanagari": "बकि"
   },
   {
     "id": "struct-of",
@@ -41,7 +43,8 @@
       "conjunction",
       "sarnamibhasa",
       "book-p49"
-    ]
+    ],
+    "devanagari": "या"
   },
   {
     "id": "struct-dat",
@@ -56,7 +59,8 @@
       "conjunction",
       "sarnamibhasa",
       "book-p49"
-    ]
+    ],
+    "devanagari": "कि"
   },
   {
     "id": "struct-als",
@@ -71,7 +75,8 @@
       "conjunction",
       "sarnamibhasa",
       "book-p49"
-    ]
+    ],
+    "devanagari": "जो"
   },
   {
     "id": "struct-dan",
@@ -86,7 +91,8 @@
       "conjunction",
       "sarnamibhasa",
       "book-p49"
-    ]
+    ],
+    "devanagari": "तब"
   },
   {
     "id": "struct-omdat",
@@ -101,7 +107,8 @@
       "conjunction",
       "sarnamibhasa",
       "book-p50"
-    ]
+    ],
+    "devanagari": "काहे से"
   },
   {
     "id": "struct-anders",
@@ -115,7 +122,8 @@
       "conjunction",
       "sarnamibhasa",
       "book-p50"
-    ]
+    ],
+    "devanagari": "नहीं तो"
   },
   {
     "id": "struct-sinds",
@@ -129,7 +137,8 @@
       "conjunction",
       "sarnamibhasa",
       "book-p50"
-    ]
+    ],
+    "devanagari": "जब से"
   },
   {
     "id": "struct-toch",
@@ -143,7 +152,8 @@
       "conjunction",
       "sarnamibhasa",
       "book-p50"
-    ]
+    ],
+    "devanagari": "तब्बो"
   },
   {
     "id": "struct-altijd",
@@ -157,7 +167,8 @@
       "adverb",
       "sarnamibhasa",
       "book-p79"
-    ]
+    ],
+    "devanagari": "हर्दम"
   },
   {
     "id": "struct-nooit",
@@ -170,7 +181,8 @@
       "adverb",
       "sarnamibhasa",
       "book-p79"
-    ]
+    ],
+    "devanagari": "कभी ना"
   },
   {
     "id": "struct-weer",
@@ -184,7 +196,8 @@
       "adverb",
       "sarnamibhasa",
       "book-p79"
-    ]
+    ],
+    "devanagari": "फिर"
   },
   {
     "id": "struct-eerst",
@@ -197,7 +210,8 @@
       "adverb",
       "sarnamibhasa",
       "book-p79"
-    ]
+    ],
+    "devanagari": "पहिले"
   },
   {
     "id": "struct-dichtbij",
@@ -210,7 +224,8 @@
       "adverb",
       "sarnamibhasa",
       "book-p79"
-    ]
+    ],
+    "devanagari": "नगिच्चे"
   },
   {
     "id": "struct-ver",
@@ -223,7 +238,8 @@
       "adverb",
       "sarnamibhasa",
       "book-p79"
-    ]
+    ],
+    "devanagari": "दूर"
   },
   {
     "id": "struct-ongeveer",
@@ -236,7 +252,8 @@
       "adverb",
       "sarnamibhasa",
       "book-p79"
-    ]
+    ],
+    "devanagari": "लग्भग"
   },
   {
     "id": "struct-misschien",
@@ -249,7 +266,8 @@
       "adverb",
       "sarnamibhasa",
       "book-p79"
-    ]
+    ],
+    "devanagari": "सैत"
   },
   {
     "id": "struct-in",
@@ -263,7 +281,8 @@
       "postposition",
       "sarnamibhasa",
       "book-p86"
-    ]
+    ],
+    "devanagari": "में"
   },
   {
     "id": "struct-op",
@@ -277,7 +296,8 @@
       "postposition",
       "sarnamibhasa",
       "book-p86"
-    ]
+    ],
+    "devanagari": "पर"
   },
   {
     "id": "struct-van-aan",
@@ -291,7 +311,8 @@
       "postposition",
       "sarnamibhasa",
       "book-p86"
-    ]
+    ],
+    "devanagari": "के"
   },
   {
     "id": "struct-zonder",
@@ -304,6 +325,7 @@
       "postposition",
       "sarnamibhasa",
       "book-p86"
-    ]
+    ],
+    "devanagari": "के बिना"
   }
 ]

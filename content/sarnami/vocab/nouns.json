@@ -10,7 +10,8 @@
     "tags": [
       "noun",
       "book-p22"
-    ]
+    ],
+    "devanagari": "घर"
   },
   {
     "id": "noun-ghari",
@@ -23,7 +24,8 @@
     "tags": [
       "noun",
       "book-p41"
-    ]
+    ],
+    "devanagari": "घड़ी"
   },
   {
     "id": "noun-maibap",
@@ -36,7 +38,8 @@
     "tags": [
       "noun",
       "book-p22"
-    ]
+    ],
+    "devanagari": "माई-बाप"
   },
   {
     "id": "noun-bhai",
@@ -49,7 +52,8 @@
     "tags": [
       "noun",
       "book-p31"
-    ]
+    ],
+    "devanagari": "भाई"
   },
   {
     "id": "noun-bahin",
@@ -62,7 +66,8 @@
     "tags": [
       "noun",
       "book-p22"
-    ]
+    ],
+    "devanagari": "बहिन"
   },
   {
     "id": "noun-maiya",
@@ -75,7 +80,8 @@
     "tags": [
       "noun",
       "book-p22"
-    ]
+    ],
+    "devanagari": "मैया"
   },
   {
     "id": "noun-bappa",
@@ -88,7 +94,8 @@
     "tags": [
       "noun",
       "book-p22"
-    ]
+    ],
+    "devanagari": "बप्पा"
   },
   {
     "id": "noun-beti",
@@ -102,7 +109,8 @@
     "tags": [
       "noun",
       "book-p25"
-    ]
+    ],
+    "devanagari": "बेटी"
   },
   {
     "id": "noun-citthi",
@@ -116,7 +124,8 @@
     "tags": [
       "noun",
       "book-p22"
-    ]
+    ],
+    "devanagari": "चिट्ठि"
   },
   {
     "id": "noun-kutta",
@@ -131,7 +140,8 @@
       "noun",
       "book-p22",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "कुत्ता"
   },
   {
     "id": "noun-ghora",
@@ -146,7 +156,8 @@
       "noun",
       "book-p24",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "घोड़ा"
   },
   {
     "id": "noun-per",
@@ -160,7 +171,8 @@
       "noun",
       "book-p22",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "पेड़"
   },
   {
     "id": "noun-am",
@@ -175,7 +187,8 @@
       "noun",
       "book-p28",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "आम"
   },
   {
     "id": "noun-gai",
@@ -190,7 +203,8 @@
       "noun",
       "book-p28",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "गाई"
   },
   {
     "id": "noun-gadaha",
@@ -205,7 +219,8 @@
       "noun",
       "book-p26",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "गदहा"
   },
   {
     "id": "noun-gadahi",
@@ -220,7 +235,8 @@
       "noun",
       "book-p26",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "गदही"
   },
   {
     "id": "noun-launda",
@@ -235,7 +251,8 @@
       "noun",
       "book-p26",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "लौन्दा"
   },
   {
     "id": "noun-chaumri",
@@ -250,7 +267,8 @@
       "noun",
       "book-p26",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "छौम्ड़ी"
   },
   {
     "id": "noun-nana",
@@ -265,7 +283,8 @@
       "noun",
       "book-p26",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "नाना"
   },
   {
     "id": "noun-nani",
@@ -280,7 +299,8 @@
       "noun",
       "book-p26",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "ननी"
   },
   {
     "id": "noun-nak",
@@ -294,7 +314,8 @@
       "noun",
       "book-p22",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "नाक"
   },
   {
     "id": "noun-churi",
@@ -309,7 +330,8 @@
       "noun",
       "book-p28",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "छूरी"
   },
   {
     "id": "noun-kam",
@@ -321,7 +343,8 @@
     "audioUrl": "/audio/sarnami/noun-kam.mp3",
     "tags": [
       "noun"
-    ]
+    ],
+    "devanagari": "काम"
   },
   {
     "id": "noun-bajar",
@@ -333,7 +356,8 @@
     "audioUrl": "/audio/sarnami/noun-bajar.mp3",
     "tags": [
       "noun"
-    ]
+    ],
+    "devanagari": "बजार"
   },
   {
     "id": "noun-sauda",
@@ -345,7 +369,8 @@
     "audioUrl": "/audio/sarnami/noun-sauda.mp3",
     "tags": [
       "noun"
-    ]
+    ],
+    "devanagari": "सौदा"
   },
   {
     "id": "noun-phal",
@@ -357,7 +382,8 @@
     "audioUrl": "/audio/sarnami/noun-phal.mp3",
     "tags": [
       "noun"
-    ]
+    ],
+    "devanagari": "फल"
   },
   {
     "id": "noun-pani",
@@ -369,7 +395,8 @@
     "audioUrl": "/audio/sarnami/noun-pani.mp3",
     "tags": [
       "noun"
-    ]
+    ],
+    "devanagari": "पानी"
   },
   {
     "id": "noun-pithi",
@@ -381,7 +408,8 @@
     "audioUrl": "/audio/sarnami/noun-pithi.mp3",
     "tags": [
       "noun"
-    ]
+    ],
+    "devanagari": "पीठी"
   },
   {
     "id": "noun-khartin",
@@ -393,7 +421,8 @@
     "audioUrl": "/audio/sarnami/noun-khartin.mp3",
     "tags": [
       "noun"
-    ]
+    ],
+    "devanagari": "खर्तिन"
   },
   {
     "id": "noun-ghams",
@@ -405,7 +434,8 @@
     "audioUrl": "/audio/sarnami/noun-ghams.mp3",
     "tags": [
       "noun"
-    ]
+    ],
+    "devanagari": "घांस"
   },
   {
     "id": "noun-ram",
@@ -418,7 +448,8 @@
     "tags": [
       "noun",
       "proper-noun"
-    ]
+    ],
+    "devanagari": "रम"
   },
   {
     "id": "noun-rustam",
@@ -431,7 +462,8 @@
     "tags": [
       "noun",
       "proper-noun"
-    ]
+    ],
+    "devanagari": "रुस्तम"
   },
   {
     "id": "noun-raja",
@@ -444,7 +476,8 @@
     "notes": "Lange vorm rajavā.",
     "tags": [
       "noun"
-    ]
+    ],
+    "devanagari": "रजा"
   },
   {
     "id": "noun-gopal",
@@ -457,7 +490,8 @@
     "tags": [
       "noun",
       "proper-noun"
-    ]
+    ],
+    "devanagari": "गोपाल"
   },
   {
     "id": "noun-sita",
@@ -470,7 +504,8 @@
     "tags": [
       "noun",
       "proper-noun"
-    ]
+    ],
+    "devanagari": "सिता"
   },
   {
     "id": "noun-anguthi",
@@ -482,7 +517,8 @@
     "audioUrl": "/audio/sarnami/noun-anguthi.mp3",
     "tags": [
       "noun"
-    ]
+    ],
+    "devanagari": "अङ्गुट्ठी"
   },
   {
     "id": "noun-bed",
@@ -498,7 +534,8 @@
       "proper-noun",
       "book",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "बेद"
   },
   {
     "id": "noun-batiya",
@@ -513,7 +550,8 @@
       "noun",
       "book",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "बतिया"
   },
   {
     "id": "noun-hath",
@@ -528,7 +566,8 @@
       "noun",
       "book",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "हाथ"
   },
   {
     "id": "noun-baris",
@@ -542,7 +581,8 @@
     "tags": [
       "noun",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "बरिश"
   },
   {
     "id": "noun-mahes",
@@ -557,7 +597,8 @@
       "noun",
       "proper-noun",
       "book-p55"
-    ]
+    ],
+    "devanagari": "महेस"
   },
   {
     "id": "noun-hariya",
@@ -572,7 +613,8 @@
       "noun",
       "proper-noun",
       "book-p56"
-    ]
+    ],
+    "devanagari": "हरिया"
   },
   {
     "id": "noun-somth",
@@ -586,7 +628,8 @@
     "tags": [
       "noun",
       "book-p56"
-    ]
+    ],
+    "devanagari": "सोम्थ"
   },
   {
     "id": "noun-sarnam",
@@ -601,7 +644,8 @@
       "noun",
       "proper-noun",
       "book-p59"
-    ]
+    ],
+    "devanagari": "सरनाम्"
   },
   {
     "id": "noun-adami",
@@ -615,7 +659,8 @@
     "tags": [
       "noun",
       "book-p59"
-    ]
+    ],
+    "devanagari": "अदमी"
   },
   {
     "id": "noun-bakari",
@@ -629,6 +674,7 @@
     "tags": [
       "noun",
       "book-p57"
-    ]
+    ],
+    "devanagari": "बकरी"
   }
 ]

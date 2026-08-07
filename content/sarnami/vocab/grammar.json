@@ -12,7 +12,8 @@
       "grammar",
       "verb",
       "book-p97"
-    ]
+    ],
+    "devanagari": "है"
   },
   {
     "id": "gram-na",
@@ -26,7 +27,8 @@
       "grammar",
       "negation",
       "book-p16"
-    ]
+    ],
+    "devanagari": "ना"
   },
   {
     "id": "gram-kaham",
@@ -40,7 +42,8 @@
       "grammar",
       "question-word",
       "book-p53"
-    ]
+    ],
+    "devanagari": "कहां"
   },
   {
     "id": "gram-se",
@@ -55,7 +58,8 @@
       "grammar",
       "comparison",
       "book-p60"
-    ]
+    ],
+    "devanagari": "से"
   },
   {
     "id": "gram-aur-compare",
@@ -70,7 +74,8 @@
       "grammar",
       "comparison",
       "book-p60"
-    ]
+    ],
+    "devanagari": "और"
   },
   {
     "id": "gram-jada",
@@ -85,7 +90,8 @@
       "grammar",
       "comparison",
       "book-p60"
-    ]
+    ],
+    "devanagari": "जादा"
   },
   {
     "id": "gram-sabse",
@@ -100,7 +106,8 @@
       "grammar",
       "comparison",
       "book-p60"
-    ]
+    ],
+    "devanagari": "सब से"
   },
   {
     "id": "gram-hai-aux",
@@ -113,7 +120,8 @@
     "notes": "Dit is dezelfde vorm als het woordje 'hai' ('zijn'). Maar hier staat het achter een ander werkwoord, bijvoorbeeld 'kām kare hai' (werkt) of 'kin lāve hai' (haalt). Het betekent dan niet 'zijn' — het hoort gewoon bij dat andere werkwoord.",
     "tags": [
       "grammar"
-    ]
+    ],
+    "devanagari": "है"
   },
   {
     "id": "gram-kaise",
@@ -125,7 +133,8 @@
     "audioUrl": "/audio/sarnami/gram-kaise.mp3",
     "tags": [
       "grammar"
-    ]
+    ],
+    "devanagari": "कैसे"
   },
   {
     "id": "gram-ba",
@@ -138,7 +147,8 @@
     "notes": "Bāteṃ is de meervoudsvorm van bā. Dit werkwoord zegt dat iets ergens is, bijvoorbeeld ghar meṃ bāteṃ (zijn thuis).",
     "tags": [
       "grammar"
-    ]
+    ],
+    "devanagari": "बा"
   },
   {
     "id": "gram-ba-aux",
@@ -151,7 +161,8 @@
     "notes": "Dit is dezelfde vorm als het woordje 'bā' ('zijn'). Maar hier staat het achter een ander werkwoord, bijvoorbeeld khāt bā (is aan het eten) of ṭurle bā (heeft geplukt). Het betekent dan niet 'zijn' — het hoort gewoon bij dat andere werkwoord.",
     "tags": [
       "grammar"
-    ]
+    ],
+    "devanagari": "बा"
   },
   {
     "id": "gram-go",
@@ -164,7 +175,8 @@
     "notes": "Dit woordje komt na een telwoord als je dingen telt, bijvoorbeeld sāt go cor (7 dieven). Het heeft zelf geen betekenis; het hoort gewoon bij het telwoord. Andere vormen van dit partikel zijn -ṭho, -ṭhe en -ṭhi.",
     "tags": [
       "grammar"
-    ]
+    ],
+    "devanagari": "गो"
   },
   {
     "id": "gram-raha-aux",
@@ -177,7 +189,8 @@
     "notes": "Rahā (en de vorm rahe) hoort achter een ander werkwoord. Samen vormen ze de voltooid verleden tijd: 'had gedaan'. Bijvoorbeeld: nā samajhle rahā (had niet begrepen).",
     "tags": [
       "grammar"
-    ]
+    ],
+    "devanagari": "रहा"
   },
   {
     "id": "gram-bati",
@@ -193,7 +206,8 @@
       "verb",
       "book",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "बाटी"
   },
   {
     "id": "gram-hove",
@@ -209,7 +223,8 @@
       "verb",
       "book",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "होवे"
   },
   {
     "id": "gram-sab",
@@ -224,7 +239,8 @@
       "grammar",
       "book",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "सब"
   },
   {
     "id": "gram-ego",
@@ -238,6 +254,7 @@
     "tags": [
       "grammar",
       "book-p55"
-    ]
+    ],
+    "devanagari": "एगो"
   }
 ]

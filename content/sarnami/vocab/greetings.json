@@ -11,7 +11,8 @@
       "greeting",
       "native-speaker"
     ],
-    "notes": "Traditionele Hindostaanse groet, gebruikt onder gelijken — casual/alledaags, in tegenstelling tot het formelere Pranām. Bevestigd als gangbaar in het Sarnami door een moedertaalspreker."
+    "notes": "Traditionele Hindostaanse groet, gebruikt onder gelijken — casual/alledaags, in tegenstelling tot het formelere Pranām. Bevestigd als gangbaar in het Sarnami door een moedertaalspreker.",
+    "devanagari": "राम राम"
   },
   {
     "id": "greet-pranam",
@@ -25,7 +26,8 @@
       "greeting",
       "native-speaker"
     ],
-    "notes": "Eerbiedige/formele groet, vooral richting ouderen of gerespecteerde personen — formeler dan Rām Rām. Bevestigd als gangbaar in het Sarnami door een moedertaalspreker."
+    "notes": "Eerbiedige/formele groet, vooral richting ouderen of gerespecteerde personen — formeler dan Rām Rām. Bevestigd als gangbaar in het Sarnami door een moedertaalspreker.",
+    "devanagari": "प्रनाम"
   },
   {
     "id": "greet-kaise-hai",
@@ -38,7 +40,8 @@
     "tags": [
       "greeting",
       "baatsiekh"
-    ]
+    ],
+    "devanagari": "कैसे है?"
   },
   {
     "id": "greet-moi-jahe",
@@ -53,7 +56,8 @@
       "baatsiekh",
       "book"
     ],
-    "notes": "Vervangt de eerdere ongeverifieerde gok 'Ham ṭhīk hai'. Ontkennende vorm: 'Nā moi jā hai' (het gaat niet goed)."
+    "notes": "Vervangt de eerdere ongeverifieerde gok 'Ham ṭhīk hai'. Ontkennende vorm: 'Nā moi jā hai' (het gaat niet goed).",
+    "devanagari": "मोइ जा है"
   },
   {
     "id": "greet-dhanyavad",
@@ -67,7 +71,8 @@
       "greeting",
       "baatsiekh"
     ],
-    "notes": "Waarschijnlijk een ingekorte, informele uitspraak van het meer formele Hindi-achtige Dhanyavād (niet zelf in het boek geattesteerd, maar wel breed gebruikelijk)."
+    "notes": "Waarschijnlijk een ingekorte, informele uitspraak van het meer formele Hindi-achtige Dhanyavād (niet zelf in het boek geattesteerd, maar wel breed gebruikelijk).",
+    "devanagari": "धन्बाद"
   },
   {
     "id": "greet-ja",
@@ -80,7 +85,8 @@
       "greeting",
       "baatsiekh",
       "book"
-    ]
+    ],
+    "devanagari": "हां"
   },
   {
     "id": "greet-nee",
@@ -93,6 +99,7 @@
       "greeting",
       "baatsiekh",
       "book"
-    ]
+    ],
+    "devanagari": "ना"
   }
 ]

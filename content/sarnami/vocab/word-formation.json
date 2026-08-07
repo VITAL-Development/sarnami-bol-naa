@@ -13,7 +13,8 @@
       "book-p72",
       "needs-verification"
     ],
-    "notes": "Afleiding met het achtervoegsel -akkaṛ (gewoontedoener), gevormd van de stam ghum- ('rondtrekken')."
+    "notes": "Afleiding met het achtervoegsel -akkaṛ (gewoontedoener), gevormd van de stam ghum- ('rondtrekken').",
+    "devanagari": "घुमक्कड़"
   },
   {
     "id": "wf-piyakkar",
@@ -29,7 +30,8 @@
       "book-p72",
       "needs-verification"
     ],
-    "notes": "Afleiding met -akkaṛ (gewoontedoener), van piy- ('drinken')."
+    "notes": "Afleiding met -akkaṛ (gewoontedoener), van piy- ('drinken').",
+    "devanagari": "पियक्कड़"
   },
   {
     "id": "wf-lohar",
@@ -45,7 +47,8 @@
       "book-p72",
       "needs-verification"
     ],
-    "notes": "Beroepsnaam met het achtervoegsel -ār, van lŏhā ('ijzer')."
+    "notes": "Beroepsnaam met het achtervoegsel -ār, van lŏhā ('ijzer').",
+    "devanagari": "लोहार"
   },
   {
     "id": "wf-sonar",
@@ -61,7 +64,8 @@
       "book-p72",
       "needs-verification"
     ],
-    "notes": "Beroepsnaam met -ār, van sŏnā ('goud')."
+    "notes": "Beroepsnaam met -ār, van sŏnā ('goud').",
+    "devanagari": "सोनार"
   },
   {
     "id": "wf-parhai",
@@ -77,7 +81,8 @@
       "book-p72",
       "needs-verification"
     ],
-    "notes": "Abstract zelfstandig naamwoord met het achtervoegsel -āī, van paṛh- ('lezen, studeren')."
+    "notes": "Abstract zelfstandig naamwoord met het achtervoegsel -āī, van paṛh- ('lezen, studeren').",
+    "devanagari": "पढ़ाई"
   },
   {
     "id": "wf-safai",
@@ -93,7 +98,8 @@
       "book-p72",
       "needs-verification"
     ],
-    "notes": "Abstract zelfstandig naamwoord met -āī, van sāf ('schoon')."
+    "notes": "Abstract zelfstandig naamwoord met -āī, van sāf ('schoon').",
+    "devanagari": "सफ़ाई"
   },
   {
     "id": "wf-topivala",
@@ -109,7 +115,8 @@
       "book-p72",
       "needs-verification"
     ],
-    "notes": "Vorming met het achtervoegsel -vāl(-ā) ('degene met/van X'), van ṭopī ('hoed')."
+    "notes": "Vorming met het achtervoegsel -vāl(-ā) ('degene met/van X'), van ṭopī ('hoed').",
+    "devanagari": "टोपी-वाला"
   },
   {
     "id": "wf-macharivala",
@@ -125,7 +132,8 @@
       "book-p72",
       "needs-verification"
     ],
-    "notes": "Vorming met -vāl(-ā), van macharī ('vis')."
+    "notes": "Vorming met -vāl(-ā), van macharī ('vis').",
+    "devanagari": "मछरी-वाला"
   },
   {
     "id": "wf-imandar",
@@ -142,7 +150,8 @@
       "book-p74",
       "needs-verification"
     ],
-    "notes": "Afleiding met het Arabisch-Perzische achtervoegsel -dār ('bezittend, houder van'), van imān ('eer, geloof')."
+    "notes": "Afleiding met het Arabisch-Perzische achtervoegsel -dār ('bezittend, houder van'), van imān ('eer, geloof').",
+    "devanagari": "इमान्दार"
   },
   {
     "id": "wf-dukandar",
@@ -159,7 +168,8 @@
       "book-p74",
       "needs-verification"
     ],
-    "notes": "Afleiding met -dār ('houder van'), van dukān ('winkel')."
+    "notes": "Afleiding met -dār ('houder van'), van dukān ('winkel').",
+    "devanagari": "दुकान्दार"
   },
   {
     "id": "wf-jadugar",
@@ -176,7 +186,8 @@
       "book-p74",
       "needs-verification"
     ],
-    "notes": "Afleiding met het achtervoegsel -gar ('maker, doener'), van jādū ('toverkunst')."
+    "notes": "Afleiding met het achtervoegsel -gar ('maker, doener'), van jādū ('toverkunst').",
+    "devanagari": "जादूगर"
   },
   {
     "id": "wf-karigar",
@@ -193,7 +204,8 @@
       "book-p74",
       "needs-verification"
     ],
-    "notes": "Afleiding met -gar ('maker, doener'), van kār ('werk')."
+    "notes": "Afleiding met -gar ('maker, doener'), van kār ('werk').",
+    "devanagari": "कारीगर"
   },
   {
     "id": "wf-davakhana",
@@ -210,7 +222,8 @@
       "book-p74",
       "needs-verification"
     ],
-    "notes": "Samenstelling met het achtervoegsel -khānā ('huis, plaats'), van davā ('medicijn')."
+    "notes": "Samenstelling met het achtervoegsel -khānā ('huis, plaats'), van davā ('medicijn').",
+    "devanagari": "दवा-खाना"
   },
   {
     "id": "wf-chapkhana",
@@ -227,7 +240,8 @@
       "book-p74",
       "needs-verification"
     ],
-    "notes": "Samenstelling met -khānā ('huis, plaats'), van chap ('druk')."
+    "notes": "Samenstelling met -khānā ('huis, plaats'), van chap ('druk').",
+    "devanagari": "छप्खाना"
   },
   {
     "id": "wf-becain",
@@ -244,7 +258,8 @@
       "book-p74",
       "needs-verification"
     ],
-    "notes": "Afleiding met het Arabisch-Perzische voorvoegsel be- ('zonder, -loos'), van cain ('rust')."
+    "notes": "Afleiding met het Arabisch-Perzische voorvoegsel be- ('zonder, -loos'), van cain ('rust').",
+    "devanagari": "बेचैन"
   },
   {
     "id": "wf-nalayak",
@@ -261,6 +276,7 @@
       "book-p74",
       "needs-verification"
     ],
-    "notes": "Afleiding met het ontkennende voorvoegsel nā- ('on-, niet'), van lāyak ('geschikt, bekwaam')."
+    "notes": "Afleiding met het ontkennende voorvoegsel nā- ('on-, niet'), van lāyak ('geschikt, bekwaam').",
+    "devanagari": "ना-लायक"
   }
 ]

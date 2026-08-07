@@ -11,7 +11,8 @@
     "tags": [
       "adjective",
       "book-p55"
-    ]
+    ],
+    "devanagari": "छोटा"
   },
   {
     "id": "adj-lal",
@@ -25,7 +26,8 @@
     "tags": [
       "adjective",
       "book-p55"
-    ]
+    ],
+    "devanagari": "लाल"
   },
   {
     "id": "adj-sojha",
@@ -39,7 +41,8 @@
     "tags": [
       "adjective",
       "book-p55"
-    ]
+    ],
+    "devanagari": "सोझा"
   },
   {
     "id": "adj-patar",
@@ -53,7 +56,8 @@
     "tags": [
       "adjective",
       "book-p55"
-    ]
+    ],
+    "devanagari": "पातर"
   },
   {
     "id": "adj-mitha",
@@ -67,7 +71,8 @@
     "tags": [
       "adjective",
       "book-p55"
-    ]
+    ],
+    "devanagari": "मीठा"
   },
   {
     "id": "adj-barka",
@@ -81,7 +86,8 @@
     "tags": [
       "adjective",
       "book-p57"
-    ]
+    ],
+    "devanagari": "बर्का"
   },
   {
     "id": "adj-lamma",
@@ -95,7 +101,8 @@
     "tags": [
       "adjective",
       "book-p56"
-    ]
+    ],
+    "devanagari": "लम्मा"
   },
   {
     "id": "adj-barhimya",
@@ -109,7 +116,8 @@
     "tags": [
       "adjective",
       "book-p56"
-    ]
+    ],
+    "devanagari": "बर्हिम्या"
   },
   {
     "id": "adj-karikka",
@@ -123,7 +131,8 @@
     "tags": [
       "adjective",
       "book-p57"
-    ]
+    ],
+    "devanagari": "करिक्का"
   },
   {
     "id": "adj-bimar",
@@ -137,7 +146,8 @@
     "tags": [
       "adjective",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "बीमार"
   },
   {
     "id": "adj-dhani",
@@ -151,6 +161,7 @@
     "tags": [
       "adjective",
       "book-p59"
-    ]
+    ],
+    "devanagari": "धनी"
   }
 ]
