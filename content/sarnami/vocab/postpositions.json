@@ -12,7 +12,8 @@
       "postposition",
       "book-p86",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "में"
   },
   {
     "id": "post-se",
@@ -25,7 +26,8 @@
     "tags": [
       "postposition",
       "book-p86"
-    ]
+    ],
+    "devanagari": "से"
   },
   {
     "id": "post-par",
@@ -40,7 +42,8 @@
       "postposition",
       "book-p86",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "पर"
   },
   {
     "id": "post-ke",
@@ -54,7 +57,8 @@
     "tags": [
       "postposition",
       "book-p86"
-    ]
+    ],
+    "devanagari": "के"
   },
   {
     "id": "post-ke-uppar",
@@ -68,7 +72,8 @@
     "tags": [
       "postposition",
       "book-p87"
-    ]
+    ],
+    "devanagari": "के उप्पर"
   },
   {
     "id": "post-ke-nicce",
@@ -81,7 +86,8 @@
     "tags": [
       "postposition",
       "book-p87"
-    ]
+    ],
+    "devanagari": "के निच्चे"
   },
   {
     "id": "post-ke-bhittar",
@@ -94,7 +100,8 @@
     "tags": [
       "postposition",
       "book-p87"
-    ]
+    ],
+    "devanagari": "के भित्तर"
   },
   {
     "id": "post-ke-bahar",
@@ -108,7 +115,8 @@
     "tags": [
       "postposition",
       "book-p87"
-    ]
+    ],
+    "devanagari": "के बाहर"
   },
   {
     "id": "post-ke-sath",
@@ -123,7 +131,8 @@
       "postposition",
       "book-p87",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "के साथ"
   },
   {
     "id": "post-ke-bina",
@@ -138,7 +147,8 @@
       "postposition",
       "book-p87",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "के बिना"
   },
   {
     "id": "post-ke-lage",
@@ -153,7 +163,8 @@
       "postposition",
       "book-p87",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "के लगे"
   },
   {
     "id": "post-ke-age",
@@ -168,7 +179,8 @@
       "postposition",
       "book-p87",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "के आगे"
   },
   {
     "id": "post-ke-piche",
@@ -181,7 +193,8 @@
     "tags": [
       "postposition",
       "book-p87"
-    ]
+    ],
+    "devanagari": "के पिछे"
   },
   {
     "id": "post-se-locative",
@@ -192,6 +205,9 @@
     },
     "audioUrl": "/audio/sarnami/post-se-locative.mp3",
     "notes": "Dit 'se' betekent hier 'bij'. Zoals in 'bajār se saudā lāve' (haalt boodschappen bij de markt). Let op: 'post-se' en 'gram-se' zijn ook 'se', maar betekenen iets anders.",
-    "tags": ["postposition"]
+    "tags": [
+      "postposition"
+    ],
+    "devanagari": "से"
   }
 ]

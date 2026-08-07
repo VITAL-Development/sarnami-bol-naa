@@ -10,7 +10,8 @@
     "tags": [
       "noun",
       "book-p22"
-    ]
+    ],
+    "devanagari": "घर"
   },
   {
     "id": "noun-ghari",
@@ -23,7 +24,8 @@
     "tags": [
       "noun",
       "book-p41"
-    ]
+    ],
+    "devanagari": "घड़ी"
   },
   {
     "id": "noun-maibap",
@@ -36,7 +38,8 @@
     "tags": [
       "noun",
       "book-p22"
-    ]
+    ],
+    "devanagari": "माई-बाप"
   },
   {
     "id": "noun-bhai",
@@ -49,7 +52,8 @@
     "tags": [
       "noun",
       "book-p31"
-    ]
+    ],
+    "devanagari": "भाई"
   },
   {
     "id": "noun-bahin",
@@ -62,7 +66,8 @@
     "tags": [
       "noun",
       "book-p22"
-    ]
+    ],
+    "devanagari": "बहिन"
   },
   {
     "id": "noun-maiya",
@@ -75,7 +80,8 @@
     "tags": [
       "noun",
       "book-p22"
-    ]
+    ],
+    "devanagari": "मैया"
   },
   {
     "id": "noun-bappa",
@@ -88,7 +94,8 @@
     "tags": [
       "noun",
       "book-p22"
-    ]
+    ],
+    "devanagari": "बप्पा"
   },
   {
     "id": "noun-beti",
@@ -102,7 +109,8 @@
     "tags": [
       "noun",
       "book-p25"
-    ]
+    ],
+    "devanagari": "बेटी"
   },
   {
     "id": "noun-citthi",
@@ -116,7 +124,8 @@
     "tags": [
       "noun",
       "book-p22"
-    ]
+    ],
+    "devanagari": "चिट्ठि"
   },
   {
     "id": "noun-kutta",
@@ -131,7 +140,8 @@
       "noun",
       "book-p22",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "कुत्ता"
   },
   {
     "id": "noun-ghora",
@@ -146,7 +156,8 @@
       "noun",
       "book-p24",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "घोड़ा"
   },
   {
     "id": "noun-per",
@@ -160,7 +171,8 @@
       "noun",
       "book-p22",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "पेड़"
   },
   {
     "id": "noun-am",
@@ -175,7 +187,8 @@
       "noun",
       "book-p28",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "आम"
   },
   {
     "id": "noun-gai",
@@ -190,7 +203,8 @@
       "noun",
       "book-p28",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "गाई"
   },
   {
     "id": "noun-gadaha",
@@ -205,7 +219,8 @@
       "noun",
       "book-p26",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "गदहा"
   },
   {
     "id": "noun-gadahi",
@@ -220,7 +235,8 @@
       "noun",
       "book-p26",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "गदही"
   },
   {
     "id": "noun-launda",
@@ -235,7 +251,8 @@
       "noun",
       "book-p26",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "लौन्दा"
   },
   {
     "id": "noun-chaumri",
@@ -250,7 +267,8 @@
       "noun",
       "book-p26",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "छौम्ड़ी"
   },
   {
     "id": "noun-nana",
@@ -265,7 +283,8 @@
       "noun",
       "book-p26",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "नाना"
   },
   {
     "id": "noun-nani",
@@ -280,7 +299,8 @@
       "noun",
       "book-p26",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "ननी"
   },
   {
     "id": "noun-nak",
@@ -294,7 +314,8 @@
       "noun",
       "book-p22",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "नाक"
   },
   {
     "id": "noun-churi",
@@ -309,185 +330,351 @@
       "noun",
       "book-p28",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "छूरी"
   },
   {
     "id": "noun-kam",
     "word": "kām",
-    "translations": { "nl": "werk", "en": "work" },
+    "translations": {
+      "nl": "werk",
+      "en": "work"
+    },
     "audioUrl": "/audio/sarnami/noun-kam.mp3",
-    "tags": ["noun"]
+    "tags": [
+      "noun"
+    ],
+    "devanagari": "काम"
   },
   {
     "id": "noun-bajar",
     "word": "bajār",
-    "translations": { "nl": "markt", "en": "market" },
+    "translations": {
+      "nl": "markt",
+      "en": "market"
+    },
     "audioUrl": "/audio/sarnami/noun-bajar.mp3",
-    "tags": ["noun"]
+    "tags": [
+      "noun"
+    ],
+    "devanagari": "बजार"
   },
   {
     "id": "noun-sauda",
     "word": "saudā",
-    "translations": { "nl": "boodschappen", "en": "groceries, shopping" },
+    "translations": {
+      "nl": "boodschappen",
+      "en": "groceries, shopping"
+    },
     "audioUrl": "/audio/sarnami/noun-sauda.mp3",
-    "tags": ["noun"]
+    "tags": [
+      "noun"
+    ],
+    "devanagari": "सौदा"
   },
   {
     "id": "noun-phal",
     "word": "phal",
-    "translations": { "nl": "vrucht", "en": "fruit" },
+    "translations": {
+      "nl": "vrucht",
+      "en": "fruit"
+    },
     "audioUrl": "/audio/sarnami/noun-phal.mp3",
-    "tags": ["noun"]
+    "tags": [
+      "noun"
+    ],
+    "devanagari": "फल"
   },
   {
     "id": "noun-pani",
     "word": "pānī",
-    "translations": { "nl": "water", "en": "water" },
+    "translations": {
+      "nl": "water",
+      "en": "water"
+    },
     "audioUrl": "/audio/sarnami/noun-pani.mp3",
-    "tags": ["noun"]
+    "tags": [
+      "noun"
+    ],
+    "devanagari": "पानी"
   },
   {
     "id": "noun-pithi",
     "word": "pīṭhī",
-    "translations": { "nl": "rug", "en": "back" },
+    "translations": {
+      "nl": "rug",
+      "en": "back"
+    },
     "audioUrl": "/audio/sarnami/noun-pithi.mp3",
-    "tags": ["noun"]
+    "tags": [
+      "noun"
+    ],
+    "devanagari": "पीठी"
   },
   {
     "id": "noun-khartin",
     "word": "khartin",
-    "translations": { "nl": "behoefte", "en": "need" },
+    "translations": {
+      "nl": "behoefte",
+      "en": "need"
+    },
     "audioUrl": "/audio/sarnami/noun-khartin.mp3",
-    "tags": ["noun"]
+    "tags": [
+      "noun"
+    ],
+    "devanagari": "खर्तिन"
   },
   {
     "id": "noun-ghams",
     "word": "ghāṁs",
-    "translations": { "nl": "gras", "en": "grass" },
+    "translations": {
+      "nl": "gras",
+      "en": "grass"
+    },
     "audioUrl": "/audio/sarnami/noun-ghams.mp3",
-    "tags": ["noun"]
+    "tags": [
+      "noun"
+    ],
+    "devanagari": "घांस"
   },
   {
     "id": "noun-ram",
     "word": "Ram",
-    "translations": { "nl": "Ram (jongensnaam)", "en": "Ram (boy's name)" },
+    "translations": {
+      "nl": "Ram (jongensnaam)",
+      "en": "Ram (boy's name)"
+    },
     "audioUrl": "/audio/sarnami/noun-ram.mp3",
-    "tags": ["noun", "proper-noun"]
+    "tags": [
+      "noun",
+      "proper-noun"
+    ],
+    "devanagari": "रम"
   },
   {
     "id": "noun-rustam",
     "word": "Rustam",
-    "translations": { "nl": "Rustam (jongensnaam)", "en": "Rustam (boy's name)" },
+    "translations": {
+      "nl": "Rustam (jongensnaam)",
+      "en": "Rustam (boy's name)"
+    },
     "audioUrl": "/audio/sarnami/noun-rustam.mp3",
-    "tags": ["noun", "proper-noun"]
+    "tags": [
+      "noun",
+      "proper-noun"
+    ],
+    "devanagari": "रुस्तम"
   },
   {
     "id": "noun-raja",
     "word": "rajā",
-    "translations": { "nl": "koning", "en": "king" },
+    "translations": {
+      "nl": "koning",
+      "en": "king"
+    },
     "audioUrl": "/audio/sarnami/noun-raja.mp3",
     "notes": "Lange vorm rajavā.",
-    "tags": ["noun"]
+    "tags": [
+      "noun"
+    ],
+    "devanagari": "रजा"
   },
   {
     "id": "noun-gopal",
     "word": "Gopāl",
-    "translations": { "nl": "Gopal (jongensnaam)", "en": "Gopal (boy's name)" },
+    "translations": {
+      "nl": "Gopal (jongensnaam)",
+      "en": "Gopal (boy's name)"
+    },
     "audioUrl": "/audio/sarnami/noun-gopal.mp3",
-    "tags": ["noun", "proper-noun"]
+    "tags": [
+      "noun",
+      "proper-noun"
+    ],
+    "devanagari": "गोपाल"
   },
   {
     "id": "noun-sita",
     "word": "Sitā",
-    "translations": { "nl": "Sita (meisjesnaam)", "en": "Sita (girl's name)" },
+    "translations": {
+      "nl": "Sita (meisjesnaam)",
+      "en": "Sita (girl's name)"
+    },
     "audioUrl": "/audio/sarnami/noun-sita.mp3",
-    "tags": ["noun", "proper-noun"]
+    "tags": [
+      "noun",
+      "proper-noun"
+    ],
+    "devanagari": "सिता"
   },
   {
     "id": "noun-anguthi",
     "word": "aṅguṭṭhī",
-    "translations": { "nl": "ring", "en": "ring" },
+    "translations": {
+      "nl": "ring",
+      "en": "ring"
+    },
     "audioUrl": "/audio/sarnami/noun-anguthi.mp3",
-    "tags": ["noun"]
+    "tags": [
+      "noun"
+    ],
+    "devanagari": "अङ्गुट्ठी"
   },
   {
     "id": "noun-bed",
     "word": "Bed",
-    "translations": { "nl": "de Veda's", "en": "the Vedas" },
+    "translations": {
+      "nl": "de Veda's",
+      "en": "the Vedas"
+    },
     "audioUrl": "/audio/sarnami/noun-bed.mp3",
     "notes": "Uit het boek (introductie-vocabulaire en §6.2.1): 'Bed meṁ ham ī batiyā parhle bāṭī' (Ik heb dit in de Veda's gelezen).",
-    "tags": ["noun", "proper-noun", "book", "needs-verification"]
+    "tags": [
+      "noun",
+      "proper-noun",
+      "book",
+      "needs-verification"
+    ],
+    "devanagari": "बेद"
   },
   {
     "id": "noun-batiya",
     "word": "batiyā",
-    "translations": { "nl": "ding, zaak", "en": "thing, matter" },
+    "translations": {
+      "nl": "ding, zaak",
+      "en": "thing, matter"
+    },
     "audioUrl": "/audio/sarnami/noun-batiya.mp3",
     "notes": "Explicietere vorm naast het voornaamwoord ī ('dit'): 'ham ī batiyā parhle bāṭī' (ik heb dit [ding] gelezen). Uit het boek, §6.2.1.",
-    "tags": ["noun", "book", "needs-verification"]
+    "tags": [
+      "noun",
+      "book",
+      "needs-verification"
+    ],
+    "devanagari": "बतिया"
   },
   {
     "id": "noun-hath",
     "word": "hāth",
-    "translations": { "nl": "hand", "en": "hand" },
+    "translations": {
+      "nl": "hand",
+      "en": "hand"
+    },
     "audioUrl": "/audio/sarnami/noun-hath.mp3",
     "notes": "Lange vorm hathvā. Uit het boek (§6.2.1): 'Ŏkare hāthe meṁ chūrī rahā' (Hij had een mes in zijn hand).",
-    "tags": ["noun", "book", "needs-verification"]
+    "tags": [
+      "noun",
+      "book",
+      "needs-verification"
+    ],
+    "devanagari": "हाथ"
   },
   {
     "id": "noun-baris",
     "word": "bariś",
-    "translations": { "nl": "regen", "en": "rain" },
+    "translations": {
+      "nl": "regen",
+      "en": "rain"
+    },
     "audioUrl": "/audio/sarnami/noun-baris.mp3",
     "notes": "Educated guess op basis van de zinsvertaling ('Als het regent...'); niet geverifieerd tegen het boek.",
-    "tags": ["noun", "needs-verification"]
+    "tags": [
+      "noun",
+      "needs-verification"
+    ],
+    "devanagari": "बरिश"
   },
   {
     "id": "noun-mahes",
     "word": "Mahes",
-    "translations": { "nl": "Mahes (jongensnaam)", "en": "Mahes (boy's name)" },
+    "translations": {
+      "nl": "Mahes (jongensnaam)",
+      "en": "Mahes (boy's name)"
+    },
     "audioUrl": "/audio/sarnami/noun-mahes.mp3",
     "notes": "Vaste voorbeeldnaam uit het boek (§2.2-2.3, p.55): 'Mahes ego choṭā ghar kīnis hai'.",
-    "tags": ["noun", "proper-noun", "book-p55"]
+    "tags": [
+      "noun",
+      "proper-noun",
+      "book-p55"
+    ],
+    "devanagari": "महेस"
   },
   {
     "id": "noun-hariya",
     "word": "Hariyā",
-    "translations": { "nl": "Hari (jongensnaam)", "en": "Hari (boy's name)" },
+    "translations": {
+      "nl": "Hari (jongensnaam)",
+      "en": "Hari (boy's name)"
+    },
     "audioUrl": "/audio/sarnami/noun-hariya.mp3",
     "notes": "Vaste voorbeeldnaam uit het boek (§2.5, p.56): 'Hariyā lāl somth pahine hai'.",
-    "tags": ["noun", "proper-noun", "book-p56"]
+    "tags": [
+      "noun",
+      "proper-noun",
+      "book-p56"
+    ],
+    "devanagari": "हरिया"
   },
   {
     "id": "noun-somth",
     "word": "somth",
-    "translations": { "nl": "overhemd", "en": "shirt" },
+    "translations": {
+      "nl": "overhemd",
+      "en": "shirt"
+    },
     "audioUrl": "/audio/sarnami/noun-somth.mp3",
     "notes": "Uit het boek (§2.5, p.56): 'Hariyā lāl somth pahine hai' (Hari draagt een rood overhemd).",
-    "tags": ["noun", "book-p56"]
+    "tags": [
+      "noun",
+      "book-p56"
+    ],
+    "devanagari": "सोम्थ"
   },
   {
     "id": "noun-sarnam",
     "word": "Sarnām",
-    "translations": { "nl": "Suriname", "en": "Suriname" },
+    "translations": {
+      "nl": "Suriname",
+      "en": "Suriname"
+    },
     "audioUrl": "/audio/sarnami/noun-sarnam.mp3",
     "notes": "Uit het boek (§2.13, p.59-61): 'Sarnām meṁ ī sab se dhanī adamī hai' (In Suriname is hij de rijkste man).",
-    "tags": ["noun", "proper-noun", "book-p59"]
+    "tags": [
+      "noun",
+      "proper-noun",
+      "book-p59"
+    ],
+    "devanagari": "सरनाम्"
   },
   {
     "id": "noun-adami",
     "word": "adamī",
-    "translations": { "nl": "man, mens", "en": "man, person" },
+    "translations": {
+      "nl": "man, mens",
+      "en": "man, person"
+    },
     "audioUrl": "/audio/sarnami/noun-adami.mp3",
     "notes": "Uit het boek (§2.13, p.59-61): 'sab se dhanī adamī' (de rijkste man).",
-    "tags": ["noun", "book-p59"]
+    "tags": [
+      "noun",
+      "book-p59"
+    ],
+    "devanagari": "अदमी"
   },
   {
     "id": "noun-bakari",
     "word": "bakarī",
-    "translations": { "nl": "geit", "en": "goat" },
+    "translations": {
+      "nl": "geit",
+      "en": "goat"
+    },
     "audioUrl": "/audio/sarnami/noun-bakari.mp3",
     "notes": "Uit het boek (§2.7.1, p.57): 'karikkanī bakariyā' (de zwarte geit) — bakariyā is de vrouwelijke/lange vorm.",
-    "tags": ["noun", "book-p57"]
+    "tags": [
+      "noun",
+      "book-p57"
+    ],
+    "devanagari": "बकरी"
   }
 ]

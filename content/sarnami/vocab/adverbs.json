@@ -13,7 +13,8 @@
       "time",
       "book-p79"
     ],
-    "notes": "Bijwoord van tijd. Voorbeeld: 'Āj ham jādā khāi lelī hai' = Ik heb vandaag te veel gegeten."
+    "notes": "Bijwoord van tijd. Voorbeeld: 'Āj ham jādā khāi lelī hai' = Ik heb vandaag te veel gegeten.",
+    "devanagari": "आज"
   },
   {
     "id": "adv-bihaan",
@@ -30,7 +31,8 @@
       "book-p79",
       "needs-verification"
     ],
-    "notes": "Bijwoord van tijd."
+    "notes": "Bijwoord van tijd.",
+    "devanagari": "बिहान"
   },
   {
     "id": "adv-kaal",
@@ -47,7 +49,8 @@
       "book-p79",
       "needs-verification"
     ],
-    "notes": "Bijwoord van tijd, genoemd naast de variant kalhimyām ('gisteren')."
+    "notes": "Bijwoord van tijd, genoemd naast de variant kalhimyām ('gisteren').",
+    "devanagari": "काल"
   },
   {
     "id": "adv-roj",
@@ -63,7 +66,8 @@
       "time",
       "book-p79"
     ],
-    "notes": "Bijwoord van tijd."
+    "notes": "Bijwoord van tijd.",
+    "devanagari": "रोज"
   },
   {
     "id": "adv-hardam",
@@ -79,7 +83,8 @@
       "time",
       "book-p79"
     ],
-    "notes": "Bijwoord van tijd."
+    "notes": "Bijwoord van tijd.",
+    "devanagari": "हर्दम"
   },
   {
     "id": "adv-uppar",
@@ -95,7 +100,8 @@
       "place",
       "book-p80"
     ],
-    "notes": "Bijwoord van plaats."
+    "notes": "Bijwoord van plaats.",
+    "devanagari": "उप्पर"
   },
   {
     "id": "adv-nicce",
@@ -112,7 +118,8 @@
       "book-p80",
       "needs-verification"
     ],
-    "notes": "Bijwoord van plaats."
+    "notes": "Bijwoord van plaats.",
+    "devanagari": "निच्चे"
   },
   {
     "id": "adv-dur",
@@ -128,7 +135,8 @@
       "place",
       "book-p80"
     ],
-    "notes": "Bijwoord van plaats."
+    "notes": "Bijwoord van plaats.",
+    "devanagari": "दूर"
   },
   {
     "id": "adv-nagicce",
@@ -144,7 +152,8 @@
       "place",
       "book-p80"
     ],
-    "notes": "Bijwoord van plaats. Tegenpool van dūr ('ver')."
+    "notes": "Bijwoord van plaats. Tegenpool van dūr ('ver').",
+    "devanagari": "नगिच्चे"
   },
   {
     "id": "adv-baahar",
@@ -160,7 +169,8 @@
       "place",
       "book-p80"
     ],
-    "notes": "Bijwoord van plaats. Tegenpool van bhittar ('binnen'); samen bhittar-bāhar ('binnen en buiten')."
+    "notes": "Bijwoord van plaats. Tegenpool van bhittar ('binnen'); samen bhittar-bāhar ('binnen en buiten').",
+    "devanagari": "बाहर"
   },
   {
     "id": "adv-dhire",
@@ -177,7 +187,8 @@
       "book-p81",
       "needs-verification"
     ],
-    "notes": "Bijwoord van wijze. Ook dhīre se ('zachtjes')."
+    "notes": "Bijwoord van wijze. Ook dhīre se ('zachtjes').",
+    "devanagari": "धीरे"
   },
   {
     "id": "adv-dhire-dhire",
@@ -194,7 +205,8 @@
       "reduplication",
       "book-p81"
     ],
-    "notes": "Verdubbeld bijwoord van wijze. Verdubbeling van dhīre."
+    "notes": "Verdubbeld bijwoord van wijze. Verdubbeling van dhīre.",
+    "devanagari": "धीरे-धीरे"
   },
   {
     "id": "adv-sacce",
@@ -210,7 +222,8 @@
       "manner",
       "book-p81"
     ],
-    "notes": "Bijwoord van wijze."
+    "notes": "Bijwoord van wijze.",
+    "devanagari": "सच्चे"
   },
   {
     "id": "adv-sait",
@@ -226,7 +239,8 @@
       "manner",
       "book-p81"
     ],
-    "notes": "Bijwoord van wijze."
+    "notes": "Bijwoord van wijze.",
+    "devanagari": "सैत"
   },
   {
     "id": "adv-bahut",
@@ -242,7 +256,8 @@
       "degree",
       "book-p84"
     ],
-    "notes": "Bijvoeglijk naamwoord van hoeveelheid dat ook als bijwoord van graad optreedt. Voorbeeld: 'Rāmlalvā āj bahut batiyā hai' = Ramlal praat vandaag veel."
+    "notes": "Bijvoeglijk naamwoord van hoeveelheid dat ook als bijwoord van graad optreedt. Voorbeeld: 'Rāmlalvā āj bahut batiyā hai' = Ramlal praat vandaag veel.",
+    "devanagari": "बहुत"
   },
   {
     "id": "adv-thora-se",
@@ -258,7 +273,8 @@
       "degree",
       "book-p84"
     ],
-    "notes": "Hoeveelheidswoord dat ook als bijwoord van graad optreedt. Tegenpool van bahut ('veel')."
+    "notes": "Hoeveelheidswoord dat ook als bijwoord van graad optreedt. Tegenpool van bahut ('veel').",
+    "devanagari": "थोरा से"
   },
   {
     "id": "adv-bilkul",
@@ -273,7 +289,8 @@
       "adverb",
       "degree",
       "book-p84"
-    ]
+    ],
+    "devanagari": "बिल्कुल"
   },
   {
     "id": "adv-habara",
@@ -291,7 +308,8 @@
       "book-p86",
       "needs-verification"
     ],
-    "notes": "Leenwoord, uit het Sranan Tongo 'abra' (van Eng. 'over'). Verdubbeld habarī-habarā = 'tegenover elkaar'."
+    "notes": "Leenwoord, uit het Sranan Tongo 'abra' (van Eng. 'over'). Verdubbeld habarī-habarā = 'tegenover elkaar'.",
+    "devanagari": "हबरा"
   },
   {
     "id": "adv-kanti",
@@ -308,7 +326,8 @@
       "loanword",
       "book-p86"
     ],
-    "notes": "Leenwoord, uit het Ned. 'kant' via het Sranan Tongo. Verdubbeld kantī-kantī = 'aan de zijkant'."
+    "notes": "Leenwoord, uit het Ned. 'kant' via het Sranan Tongo. Verdubbeld kantī-kantī = 'aan de zijkant'.",
+    "devanagari": "कन्ती"
   },
   {
     "id": "adv-parsis",
@@ -325,14 +344,21 @@
       "loanword",
       "book-p86"
     ],
-    "notes": "Leenwoord, uit het Nederlands ('precies'). Voorbeeld: 'Tū hamse parsīs-parsīs bataiye' = Je moet mij haarfijn vertellen."
+    "notes": "Leenwoord, uit het Nederlands ('precies'). Voorbeeld: 'Tū hamse parsīs-parsīs bataiye' = Je moet mij haarfijn vertellen.",
+    "devanagari": "पर्सीस"
   },
   {
     "id": "adv-ghare",
     "word": "ghare",
-    "translations": { "nl": "thuis", "en": "at home" },
+    "translations": {
+      "nl": "thuis",
+      "en": "at home"
+    },
     "audioUrl": "/audio/sarnami/adv-ghare.mp3",
     "notes": "Hoort bij 'ghar' (huis, noun-ghar), maar 'ghare' betekent 'thuis'.",
-    "tags": ["adverb"]
+    "tags": [
+      "adverb"
+    ],
+    "devanagari": "घरे"
   }
 ]

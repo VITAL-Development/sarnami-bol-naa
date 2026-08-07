@@ -13,7 +13,8 @@
       "book-p19",
       "needs-verification"
     ],
-    "notes": "Contrasteert met de korte a in 'ab' (nu)."
+    "notes": "Contrasteert met de korte a in 'ab' (nu).",
+    "devanagari": "आम"
   },
   {
     "id": "sound-insan",
@@ -29,7 +30,8 @@
       "book-p19",
       "needs-verification"
     ],
-    "notes": "Boekpagina bij benadering."
+    "notes": "Boekpagina bij benadering.",
+    "devanagari": "इन्सान"
   },
   {
     "id": "sound-ulta",
@@ -45,7 +47,8 @@
       "book-p19",
       "needs-verification"
     ],
-    "notes": "Boekpagina bij benadering."
+    "notes": "Boekpagina bij benadering.",
+    "devanagari": "उल्ता"
   },
   {
     "id": "sound-aina",
@@ -61,7 +64,8 @@
       "book-p19",
       "needs-verification"
     ],
-    "notes": "Boekpagina bij benadering."
+    "notes": "Boekpagina bij benadering.",
+    "devanagari": "ऐना"
   },
   {
     "id": "sound-aurat",
@@ -77,7 +81,8 @@
       "book-p19",
       "needs-verification"
     ],
-    "notes": "Boekpagina bij benadering."
+    "notes": "Boekpagina bij benadering.",
+    "devanagari": "औरत"
   },
   {
     "id": "sound-kaun",
@@ -93,7 +98,8 @@
       "book-p20",
       "needs-verification"
     ],
-    "notes": "Vormt een minimaal contrast met de geaspireerde kh in 'khet'."
+    "notes": "Vormt een minimaal contrast met de geaspireerde kh in 'khet'.",
+    "devanagari": "कौन"
   },
   {
     "id": "sound-khet",
@@ -109,7 +115,8 @@
       "book-p20",
       "needs-verification"
     ],
-    "notes": "Contrasteert met de niet-geaspireerde k in 'kaun'. boekpagina bij benadering."
+    "notes": "Contrasteert met de niet-geaspireerde k in 'kaun'. boekpagina bij benadering.",
+    "devanagari": "खेत"
   },
   {
     "id": "sound-cor",
@@ -125,7 +132,8 @@
       "book-p20",
       "needs-verification"
     ],
-    "notes": "Contrasteert met de geaspireerde ch in 'chūrī'. boekpagina bij benadering."
+    "notes": "Contrasteert met de geaspireerde ch in 'chūrī'. boekpagina bij benadering.",
+    "devanagari": "चोर"
   },
   {
     "id": "sound-churi",
@@ -141,7 +149,8 @@
       "book-p20",
       "needs-verification"
     ],
-    "notes": "Contrasteert met de niet-geaspireerde c in 'cor'. boekpagina bij benadering."
+    "notes": "Contrasteert met de niet-geaspireerde c in 'cor'. boekpagina bij benadering.",
+    "devanagari": "छूरी"
   },
   {
     "id": "sound-phul",
@@ -157,7 +166,8 @@
       "book-p21",
       "needs-verification"
     ],
-    "notes": "Boekpagina bij benadering."
+    "notes": "Boekpagina bij benadering.",
+    "devanagari": "फुल"
   },
   {
     "id": "sound-garib",
@@ -173,7 +183,8 @@
       "book-p20",
       "needs-verification"
     ],
-    "notes": "Boekpagina bij benadering."
+    "notes": "Boekpagina bij benadering.",
+    "devanagari": "गरीब"
   },
   {
     "id": "sound-roti",
@@ -190,7 +201,8 @@
       "book-p21",
       "needs-verification"
     ],
-    "notes": "Contrasteert met de dentale t in 'tarkārī' (groente). boekpagina bij benadering."
+    "notes": "Contrasteert met de dentale t in 'tarkārī' (groente). boekpagina bij benadering.",
+    "devanagari": "रोटी"
   },
   {
     "id": "sound-dar",
@@ -207,7 +219,8 @@
       "book-p21",
       "needs-verification"
     ],
-    "notes": "Contrasteert met de retroflexe flap ṛ in 'laṛkā'. boekpagina bij benadering."
+    "notes": "Contrasteert met de retroflexe flap ṛ in 'laṛkā'. boekpagina bij benadering.",
+    "devanagari": "डर"
   },
   {
     "id": "sound-larka",
@@ -224,7 +237,8 @@
       "book-p21",
       "needs-verification"
     ],
-    "notes": "In de populaire SCS-spelling geschreven als 'larka'. boekpagina bij benadering."
+    "notes": "In de populaire SCS-spelling geschreven als 'larka'. boekpagina bij benadering.",
+    "devanagari": "लड़्का"
   },
   {
     "id": "sound-jhanda",
@@ -242,7 +256,8 @@
       "book-p21",
       "needs-verification"
     ],
-    "notes": "Boekpagina bij benadering."
+    "notes": "Boekpagina bij benadering.",
+    "devanagari": "झण्डा"
   },
   {
     "id": "sound-kainci",
@@ -259,7 +274,8 @@
       "book-p20",
       "needs-verification"
     ],
-    "notes": "Boekpagina bij benadering."
+    "notes": "Boekpagina bij benadering.",
+    "devanagari": "कैञ्ची"
   },
   {
     "id": "sound-lanka",
@@ -277,7 +293,8 @@
       "book-p20",
       "needs-verification"
     ],
-    "notes": "Boekpagina bij benadering."
+    "notes": "Boekpagina bij benadering.",
+    "devanagari": "लङ्का"
   },
   {
     "id": "sound-bhasa",
@@ -294,7 +311,8 @@
       "book-p21",
       "needs-verification"
     ],
-    "notes": "Populair 'bhasa/bhasha'. boekpagina bij benadering."
+    "notes": "Populair 'bhasa/bhasha'. boekpagina bij benadering.",
+    "devanagari": "भाषा"
   },
   {
     "id": "sound-shanti",
@@ -311,6 +329,7 @@
       "book-p21",
       "needs-verification"
     ],
-    "notes": "Populair 'shanti'. boekpagina bij benadering."
+    "notes": "Populair 'shanti'. boekpagina bij benadering.",
+    "devanagari": "शान्ति"
   }
 ]

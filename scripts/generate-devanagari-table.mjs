@@ -16,7 +16,19 @@
 // regenerated on every content change (yet).
 //
 // Usage:
-//   node scripts/generate-devanagari-table.mjs
+//   node scripts/generate-devanagari-table.mjs           # write the review table (unchanged)
+//   node scripts/generate-devanagari-table.mjs --write    # merge `devanagari` into
+//                                                          # every content/sarnami/vocab/*.json item
+//   node scripts/generate-devanagari-table.mjs --check    # exit non-zero if any vocab
+//                                                          # item's committed `devanagari`
+//                                                          # doesn't match toDevanagari(word)
+//
+// --write/--check exist for issue #300 (the /dev/transliteration review page needs a
+// committed baseline to display before PR-B spends ElevenLabs tokens). Unlike the
+// review-table output above, `devanagari` here is a real, served content field
+// (content/sarnami/vocab -> rarelang-server's GET /content, verbatim passthrough) --
+// --check is meant to run in CI (validate-content.yml) so the field can never silently
+// drift from what toDevanagari() actually computes.
 
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
@@ -28,6 +40,66 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
 const VOCAB_DIR = path.join(REPO_ROOT, "content", "sarnami", "vocab");
 const OUTPUT_PATH = path.join(__dirname, "devanagari-vocab-table.review.json");
+
+function readVocabFiles(vocabDir = VOCAB_DIR) {
+  return readdirSync(vocabDir)
+    .filter((f) => f.endsWith(".json"))
+    .sort()
+    .map((file) => ({
+      file,
+      fullPath: path.join(vocabDir, file),
+      items: JSON.parse(readFileSync(path.join(vocabDir, file), "utf-8")),
+    }));
+}
+
+// Merges the mechanically-computed `devanagari` into every vocab item and writes
+// each file back with `JSON.stringify(items, null, 2) + "\n"`. Only safe to run on
+// vocab files that already round-trip that formatting exactly (verified separately,
+// see the sibling reformat commit) -- this does not attempt to preserve any other
+// hand-authored formatting.
+export function writeDevanagariField(vocabDir = VOCAB_DIR) {
+  const errors = [];
+  let written = 0;
+  for (const { file, fullPath, items } of readVocabFiles(vocabDir)) {
+    const next = items.map((item) => {
+      if (typeof item.word !== "string") return item;
+      try {
+        return { ...item, devanagari: toDevanagari(item.word) };
+      } catch (e) {
+        errors.push({ id: item.id, word: item.word, file, error: e.message });
+        return item;
+      }
+    });
+    writeFileSync(fullPath, JSON.stringify(next, null, 2) + "\n");
+    written++;
+  }
+  return { filesWritten: written, errors };
+}
+
+// Recomputes `devanagari` for every vocab item and reports any mismatch against the
+// committed value (including items missing the field entirely). Does not write.
+export function checkDevanagariField(vocabDir = VOCAB_DIR) {
+  const mismatches = [];
+  const errors = [];
+  let checked = 0;
+  for (const { file, items } of readVocabFiles(vocabDir)) {
+    for (const item of items) {
+      if (typeof item.word !== "string") continue;
+      checked++;
+      let expected;
+      try {
+        expected = toDevanagari(item.word);
+      } catch (e) {
+        errors.push({ id: item.id, word: item.word, file, error: e.message });
+        continue;
+      }
+      if (item.devanagari !== expected) {
+        mismatches.push({ id: item.id, word: item.word, file, expected, actual: item.devanagari ?? null });
+      }
+    }
+  }
+  return { checked, mismatches, errors };
+}
 
 function readVocabEntries(vocabDir = VOCAB_DIR) {
   const files = readdirSync(vocabDir).filter((f) => f.endsWith(".json")).sort();
@@ -153,6 +225,40 @@ function toMarkdownTable(rows) {
 }
 
 function main() {
+  const args = process.argv.slice(2);
+
+  if (args.includes("--write")) {
+    const { filesWritten, errors } = writeDevanagariField();
+    if (errors.length > 0) {
+      console.error(`toDevanagari() failed for ${errors.length} item(s):`);
+      for (const e of errors) console.error(`  ${e.file} ${e.id} ("${e.word}"): ${e.error}`);
+      process.exitCode = 1;
+      return;
+    }
+    console.log(`Wrote devanagari into ${filesWritten} vocab file(s).`);
+    return;
+  }
+
+  if (args.includes("--check")) {
+    const { checked, mismatches, errors } = checkDevanagariField();
+    if (errors.length > 0) {
+      console.error(`toDevanagari() failed for ${errors.length} item(s):`);
+      for (const e of errors) console.error(`  ${e.file} ${e.id} ("${e.word}"): ${e.error}`);
+    }
+    if (mismatches.length > 0) {
+      console.error(`${mismatches.length} vocab item(s) have a stale/missing devanagari field:`);
+      for (const m of mismatches) {
+        console.error(`  ${m.file} ${m.id} ("${m.word}"): committed=${JSON.stringify(m.actual)} expected=${JSON.stringify(m.expected)}`);
+      }
+    }
+    if (errors.length > 0 || mismatches.length > 0) {
+      process.exitCode = 1;
+      return;
+    }
+    console.log(`devanagari field is current for all ${checked} vocab items.`);
+    return;
+  }
+
   const output = generate();
   writeFileSync(OUTPUT_PATH, JSON.stringify(output, null, 2) + "\n");
   const mdPath = OUTPUT_PATH.replace(/\.json$/, ".md");

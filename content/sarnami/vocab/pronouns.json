@@ -10,7 +10,8 @@
     "tags": [
       "pronoun",
       "book-p68"
-    ]
+    ],
+    "devanagari": "हम"
   },
   {
     "id": "pron-tu",
@@ -23,7 +24,8 @@
     "tags": [
       "pronoun",
       "book-p69"
-    ]
+    ],
+    "devanagari": "तू"
   },
   {
     "id": "pron-ap",
@@ -36,7 +38,8 @@
     "tags": [
       "pronoun",
       "book-p69"
-    ]
+    ],
+    "devanagari": "आप"
   },
   {
     "id": "pron-u",
@@ -51,7 +54,8 @@
       "pronoun",
       "demonstrative",
       "book-p23"
-    ]
+    ],
+    "devanagari": "ऊ"
   },
   {
     "id": "pron-hamlog",
@@ -64,7 +68,8 @@
     "tags": [
       "pronoun",
       "book-p68"
-    ]
+    ],
+    "devanagari": "हम लोग"
   },
   {
     "id": "pron-hamar",
@@ -79,7 +84,8 @@
       "pronoun",
       "possessive",
       "book-p68"
-    ]
+    ],
+    "devanagari": "हमार"
   },
   {
     "id": "pron-tor",
@@ -94,7 +100,8 @@
       "pronoun",
       "possessive",
       "book-p69"
-    ]
+    ],
+    "devanagari": "तोर"
   },
   {
     "id": "pron-tomhar",
@@ -110,7 +117,8 @@
       "possessive",
       "book-p69",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "तोंहार"
   },
   {
     "id": "pron-apke",
@@ -125,7 +133,8 @@
       "possessive",
       "book-p69",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "आप्के"
   },
   {
     "id": "pron-ekar",
@@ -140,7 +149,8 @@
       "pronoun",
       "possessive",
       "book-p70"
-    ]
+    ],
+    "devanagari": "एकर"
   },
   {
     "id": "pron-okar",
@@ -155,7 +165,8 @@
       "pronoun",
       "possessive",
       "book-p70"
-    ]
+    ],
+    "devanagari": "ओकर"
   },
   {
     "id": "pron-i",
@@ -171,7 +182,8 @@
       "demonstrative",
       "book-p70",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "ई"
   },
   {
     "id": "pron-eke",
@@ -187,7 +199,8 @@
       "demonstrative",
       "book-p70",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "एके"
   },
   {
     "id": "pron-oke",
@@ -203,7 +216,8 @@
       "demonstrative",
       "book-p70",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "ओके"
   },
   {
     "id": "pron-inhan",
@@ -219,7 +233,8 @@
       "demonstrative",
       "book-p71",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "इन्हन"
   },
   {
     "id": "pron-unhan",
@@ -235,7 +250,8 @@
       "demonstrative",
       "book-p71",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "उन्हन"
   },
   {
     "id": "pron-ke",
@@ -250,7 +266,8 @@
       "pronoun",
       "interrogative",
       "book-p75"
-    ]
+    ],
+    "devanagari": "के"
   },
   {
     "id": "pron-kaun",
@@ -265,7 +282,8 @@
       "pronoun",
       "interrogative",
       "book-p75"
-    ]
+    ],
+    "devanagari": "कौन"
   },
   {
     "id": "pron-ka",
@@ -280,7 +298,8 @@
       "pronoun",
       "interrogative",
       "book-p75"
-    ]
+    ],
+    "devanagari": "का"
   },
   {
     "id": "pron-kaunci",
@@ -295,7 +314,8 @@
       "pronoun",
       "interrogative",
       "book-p75"
-    ]
+    ],
+    "devanagari": "कौन्चि"
   },
   {
     "id": "pron-kekar",
@@ -309,7 +329,8 @@
       "pronoun",
       "interrogative",
       "book-p76"
-    ]
+    ],
+    "devanagari": "केकर"
   },
   {
     "id": "pron-jaun",
@@ -324,7 +345,8 @@
       "pronoun",
       "relative",
       "book-p72"
-    ]
+    ],
+    "devanagari": "जौन"
   },
   {
     "id": "pron-je",
@@ -339,7 +361,8 @@
       "pronoun",
       "relative",
       "book-p72"
-    ]
+    ],
+    "devanagari": "जे"
   },
   {
     "id": "pron-jekar",
@@ -355,6 +378,7 @@
       "relative",
       "book-p72",
       "needs-verification"
-    ]
+    ],
+    "devanagari": "जेकर"
   }
 ]

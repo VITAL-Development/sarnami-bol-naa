@@ -287,6 +287,102 @@ jobs:
         if: steps.changed.outputs.any == 'true'
         run: node --test scripts/generate-scs-word-list.test.mjs
 
+  validate-devanagari:
+    name: validate-devanagari (generated-field freshness)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Same cost/time control as validate-scs-word-list above: most PRs
+      # don't touch vocab or the generator, so most runs should skip
+      # setup-node + the recompute-and-diff check entirely.
+      - name: List changed vocab/generator files
+        id: changed
+        run: |
+          files=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- 'content/sarnami/vocab/*.json' scripts/generate-devanagari-table.mjs scripts/devanagari-transliterate.mjs)
+          if [ -z "$files" ]; then
+            echo "any=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "any=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.changed.outputs.any == 'true'
+        with:
+          node-version: "22"
+
+      # content/sarnami/vocab/*.json's `devanagari` field (issue #300) is a
+      # generated field, like scs-word-list.json above: mechanically derived
+      # from each item's `word` via toDevanagari() in
+      # scripts/devanagari-transliterate.mjs. --check recomputes it in
+      # memory and fails if any item's committed value has drifted, so a PR
+      # that adds/edits vocab (or the transliterator itself) can't forget to
+      # regenerate it. This is what makes /dev/transliteration's displayed
+      # baseline (rarelang-pwa) trustworthy — see devanagari-drift-check
+      # below for the other half (agreement with rarelang-server's copy of
+      # the same transliterator, which is what issue #300's ElevenLabs batch
+      # actually calls).
+      - name: Check devanagari field is up to date
+        if: steps.changed.outputs.any == 'true'
+        run: node scripts/generate-devanagari-table.mjs --check
+
+  devanagari-drift-check:
+    name: devanagari-drift-check (rarelang-server vendor copy)
+    needs: fetch-rarelang-server
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # rarelang-server/src/tts/preprocess/sarnami-devanagari.mjs is a
+      # hand-synced verbatim copy of this repo's
+      # scripts/devanagari-transliterate.mjs (its own header says so
+      # explicitly) -- it's what the realtime GET /audio/tts route and
+      # issue #300's ElevenLabs batch actually run against a romanized word,
+      # per #300's D2. Unlike the ASCII typing-aid transliterator
+      # (rarelang-pwa's transliteration.lock.json +
+      # transliteration-drift-check), this pair had NO lock and NO CI check
+      # before issue #300 -- meaning a fix landed only in this repo's
+      # RAW_WORD_OVERRIDES could pass validate-devanagari above, show up
+      # correctly on /dev/transliteration, and still ship the OLD, unfixed
+      # spelling to ElevenLabs. This job closes that gap by failing loudly
+      # whenever the two copies disagree, so a correction is caught before
+      # it can ship as silently-wrong (and permanently cached) audio.
+      #
+      # Only the module body is compared -- rarelang-server's copy carries a
+      # ~17-line header (attribution + "keep in sync by hand" note) that
+      # this original file doesn't have; that's the one legitimate
+      # difference. Everything from its "Original header:" marker onward is
+      # verbatim.
+      - name: Restore rarelang-server tooling
+        uses: actions/cache/restore@v4
+        with:
+          path: rarelang-server-tooling
+          key: ${{ needs.fetch-rarelang-server.outputs.cache-key }}
+          fail-on-cache-miss: true
+
+      - name: Diff vendored sarnami-devanagari.mjs body against the source module
+        run: |
+          vendored=rarelang-server-tooling/src/tts/preprocess/sarnami-devanagari.mjs
+          if [ ! -f "$vendored" ]; then
+            echo "::error::$vendored not found in rarelang-server -- has it moved or been renamed? Update this job's path." >&2
+            exit 1
+          fi
+          header_lines=$(grep -n '^// Original header:$' "$vendored" | head -1 | cut -d: -f1)
+          if [ -z "$header_lines" ]; then
+            echo "::error::Could not find the '// Original header:' marker in $vendored -- its header comment has changed shape. Re-check by hand whether the two copies still match, then update this job." >&2
+            exit 1
+          fi
+          # The marker line itself, plus the blank comment line after it,
+          # are still header -- body starts two lines past the marker.
+          body_start=$((header_lines + 2))
+          if ! diff -u <(tail -n "+${body_start}" "$vendored") scripts/devanagari-transliterate.mjs; then
+            echo "::error::rarelang-server's sarnami-devanagari.mjs has diverged from this repo's scripts/devanagari-transliterate.mjs (diff above). If this repo's copy was just corrected (e.g. a RAW_WORD_OVERRIDES fix), the fix must ALSO land in rarelang-server and be deployed BEFORE the devanagari field here is regenerated and BEFORE issue #300's ElevenLabs batch runs -- otherwise ElevenLabs synthesizes the old, unfixed spelling. See this job's step comment for why." >&2
+            exit 1
+          fi
+          echo "rarelang-server's sarnami-devanagari.mjs body matches scripts/devanagari-transliterate.mjs exactly."
+
   contracts-discovery:
     name: contracts-discovery (deterministic)
     needs: fetch-rarelang-contracts

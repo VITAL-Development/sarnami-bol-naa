@@ -13,7 +13,8 @@
       "book-p7",
       "needs-verification"
     ],
-    "notes": "Betekent 'Surinaams / Surinaamse taal' en is afgeleid van Sarnām."
+    "notes": "Betekent 'Surinaams / Surinaamse taal' en is afgeleid van Sarnām.",
+    "devanagari": "सरनामी"
   },
   {
     "id": "about-sarnam",
@@ -29,7 +30,8 @@
       "book-p7",
       "needs-verification"
     ],
-    "notes": "De Brits-Indische contractarbeiders konden de naam 'Suriname' moeilijk uitspreken. Zij zeiden Sarnām. In het Hindi, Urdu, Bhojpuri en Avadhi betekent Sarnām/Sarnāmī ook 'de beroemde (naam)'. Het bijvoeglijk naamwoord Sarnami komt van Sarnām."
+    "notes": "De Brits-Indische contractarbeiders konden de naam 'Suriname' moeilijk uitspreken. Zij zeiden Sarnām. In het Hindi, Urdu, Bhojpuri en Avadhi betekent Sarnām/Sarnāmī ook 'de beroemde (naam)'. Het bijvoeglijk naamwoord Sarnami komt van Sarnām.",
+    "devanagari": "सरनाम्"
   },
   {
     "id": "about-hindustani",
@@ -45,7 +47,8 @@
       "book-p7",
       "needs-verification"
     ],
-    "notes": "Sprekers noemen hun taal ook Hindustani of Sarnami-Hindustani. Surinamers bedoelen daarmee iets anders dan Indiërs. Voor Indiërs is Hindustani de omgangstaal van Noord-India, gebaseerd op Hindi en Urdu."
+    "notes": "Sprekers noemen hun taal ook Hindustani of Sarnami-Hindustani. Surinamers bedoelen daarmee iets anders dan Indiërs. Voor Indiërs is Hindustani de omgangstaal van Noord-India, gebaseerd op Hindi en Urdu.",
+    "devanagari": "हिन्दुस्तनि"
   },
   {
     "id": "about-bhojpuri",
@@ -61,7 +64,8 @@
       "book-p13",
       "needs-verification"
     ],
-    "notes": "Het Sarnami komt vooral van het Bhojpuri en het Avadhi. Het Bhojpuri is daarbij de belangrijkste taal."
+    "notes": "Het Sarnami komt vooral van het Bhojpuri en het Avadhi. Het Bhojpuri is daarbij de belangrijkste taal.",
+    "devanagari": "भोज्पुरी"
   },
   {
     "id": "about-avadhi",
@@ -77,7 +81,8 @@
       "book-p13",
       "needs-verification"
     ],
-    "notes": "Avadhi is naast het Bhojpuri de tweede taal waar het Sarnami vandaan komt. Het is ook de taal van de populaire Ramayana van Tulsidas."
+    "notes": "Avadhi is naast het Bhojpuri de tweede taal waar het Sarnami vandaan komt. Het is ook de taal van de populaire Ramayana van Tulsidas.",
+    "devanagari": "अवधी"
   },
   {
     "id": "about-girmit",
@@ -92,7 +97,8 @@
       "book-p26",
       "needs-verification"
     ],
-    "notes": "Dit woord komt van het Engelse 'agreement' (overeenkomst). Girmiṭ kāṭe betekent 'een moeilijke tijd doormaken'. Het verwijst vooral naar het vijfjarige contract, dat als vernederend werd ervaren."
+    "notes": "Dit woord komt van het Engelse 'agreement' (overeenkomst). Girmiṭ kāṭe betekent 'een moeilijke tijd doormaken'. Het verwijst vooral naar het vijfjarige contract, dat als vernederend werd ervaren.",
+    "devanagari": "गिर्मिट"
   },
   {
     "id": "about-lalla-rookh",
@@ -108,7 +114,8 @@
       "book-p10",
       "needs-verification"
     ],
-    "notes": "Dit was het eerste schip met Brits-Indische contractarbeiders. Het kwam op 5 juni 1873 aan met de eerste 398 mensen. Deze dag heet nu de Immigratiedag."
+    "notes": "Dit was het eerste schip met Brits-Indische contractarbeiders. Het kwam op 5 juni 1873 aan met de eerste 398 mensen. Deze dag heet nu de Immigratiedag.",
+    "devanagari": "लल्ला रूख"
   },
   {
     "id": "about-devanagari",
@@ -124,6 +131,7 @@
       "book-p29",
       "needs-verification"
     ],
-    "notes": "Het devanagari-schrift (देवनागरी) is een oud schrift. Het Sarnami wordt hiermee geschreven. Daarnaast gebruikt de grammatica ook een wetenschappelijke romanisatie met diacritische tekens (streepjes en puntjes op letters)."
+    "notes": "Het devanagari-schrift (देवनागरी) is een oud schrift. Het Sarnami wordt hiermee geschreven. Daarnaast gebruikt de grammatica ook een wetenschappelijke romanisatie met diacritische tekens (streepjes en puntjes op letters).",
+    "devanagari": "देवनागरी"
   }
 ]

@@ -11,7 +11,8 @@
       "interjection",
       "book-p50"
     ],
-    "notes": "Bevestigende uitroep."
+    "notes": "Bevestigende uitroep.",
+    "devanagari": "अच्छा"
   },
   {
     "id": "int-he",
@@ -26,7 +27,8 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Roep om iemand dichtbij aan te spreken of de aandacht te trekken; vergelijk de afleiding hĕdde (= he dekh! 'zie hier!')."
+    "notes": "Roep om iemand dichtbij aan te spreken of de aandacht te trekken; vergelijk de afleiding hĕdde (= he dekh! 'zie hier!').",
+    "devanagari": "हे"
   },
   {
     "id": "int-ho",
@@ -41,7 +43,8 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Roep om iemand op afstand aan te spreken; vergelijk de afleiding hŏdde (= ho dekh! 'zie daar!'). Staat naast he (dichtbij)."
+    "notes": "Roep om iemand op afstand aan te spreken; vergelijk de afleiding hŏdde (= ho dekh! 'zie daar!'). Staat naast he (dichtbij).",
+    "devanagari": "हो"
   },
   {
     "id": "int-cup",
@@ -56,7 +59,8 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Bevel om te zwijgen."
+    "notes": "Bevel om te zwijgen.",
+    "devanagari": "चुप"
   },
   {
     "id": "int-aya",
@@ -71,7 +75,8 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uitroep van pijn of schrik."
+    "notes": "Uitroep van pijn of schrik.",
+    "devanagari": "अया"
   },
   {
     "id": "int-bacao",
@@ -86,7 +91,8 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Noodkreet."
+    "notes": "Noodkreet.",
+    "devanagari": "बचाओ"
   },
   {
     "id": "int-bhala",
@@ -101,7 +107,8 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uitroep van verrassing of om de aandacht te richten. Diacritisch correcte vorm (macron ā)."
+    "notes": "Uitroep van verrassing of om de aandacht te richten. Diacritisch correcte vorm (macron ā).",
+    "devanagari": "भला"
   },
   {
     "id": "int-bap-re-bap",
@@ -116,7 +123,8 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uitroep van verbazing of ontzetting (letterlijk 'vader-toch-vader')."
+    "notes": "Uitroep van verbazing of ontzetting (letterlijk 'vader-toch-vader').",
+    "devanagari": "बाप-रे-बाप"
   },
   {
     "id": "int-sabas",
@@ -131,7 +139,8 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uitroep van lof of aanmoediging."
+    "notes": "Uitroep van lof of aanmoediging.",
+    "devanagari": "साबास"
   },
   {
     "id": "int-vah-vah",
@@ -146,7 +155,8 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uitroep van bewondering."
+    "notes": "Uitroep van bewondering.",
+    "devanagari": "वाह-वाह"
   },
   {
     "id": "int-albat",
@@ -161,7 +171,8 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Bevestigend partikel."
+    "notes": "Bevestigend partikel.",
+    "devanagari": "अल्बत"
   },
   {
     "id": "int-cor-cor",
@@ -176,7 +187,8 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Alarmkreet bij diefstal (van cor 'dief')."
+    "notes": "Alarmkreet bij diefstal (van cor 'dief').",
+    "devanagari": "चोर-चोर"
   },
   {
     "id": "int-hay-hay",
@@ -191,7 +203,8 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uitroep van verdriet of weeklacht; vergelijk hāy re ('jammer!')."
+    "notes": "Uitroep van verdriet of weeklacht; vergelijk hāy re ('jammer!').",
+    "devanagari": "हाय-हाय"
   },
   {
     "id": "int-oho",
@@ -206,7 +219,8 @@
       "book-p50",
       "needs-verification"
     ],
-    "notes": "Uitroep van medeleven of milde verbazing."
+    "notes": "Uitroep van medeleven of milde verbazing.",
+    "devanagari": "ओहो"
   },
   {
     "id": "int-to",
@@ -220,6 +234,7 @@
       "interjection",
       "book-p50"
     ],
-    "notes": "Nadrukgevend/aansporend gesprekspartikel."
+    "notes": "Nadrukgevend/aansporend gesprekspartikel.",
+    "devanagari": "तो"
   }
 ]
