@@ -14,7 +14,8 @@
       "needs-verification"
     ],
     "notes": "Contrasteert met de korte a in 'ab' (nu).",
-    "devanagari": "आम"
+    "devanagari": "आम",
+    "ttsText": "आम"
   },
   {
     "id": "sound-insan",
@@ -31,7 +32,8 @@
       "needs-verification"
     ],
     "notes": "Boekpagina bij benadering.",
-    "devanagari": "इन्सान"
+    "devanagari": "इन्सान",
+    "ttsText": "इन्सान"
   },
   {
     "id": "sound-ulta",
@@ -48,7 +50,8 @@
       "needs-verification"
     ],
     "notes": "Boekpagina bij benadering.",
-    "devanagari": "उल्ता"
+    "devanagari": "उल्ता",
+    "ttsText": "उल्ता"
   },
   {
     "id": "sound-aina",
@@ -65,7 +68,8 @@
       "needs-verification"
     ],
     "notes": "Boekpagina bij benadering.",
-    "devanagari": "आईना"
+    "devanagari": "आईना",
+    "ttsText": "आईना"
   },
   {
     "id": "sound-aurat",
@@ -82,7 +86,8 @@
       "needs-verification"
     ],
     "notes": "Boekpagina bij benadering.",
-    "devanagari": "औरत"
+    "devanagari": "औरत",
+    "ttsText": "औरत"
   },
   {
     "id": "sound-kaun",
@@ -99,7 +104,8 @@
       "needs-verification"
     ],
     "notes": "Vormt een minimaal contrast met de geaspireerde kh in 'khet'.",
-    "devanagari": "कौन"
+    "devanagari": "कौन",
+    "ttsText": "कौन"
   },
   {
     "id": "sound-khet",
@@ -116,7 +122,8 @@
       "needs-verification"
     ],
     "notes": "Contrasteert met de niet-geaspireerde k in 'kaun'. boekpagina bij benadering.",
-    "devanagari": "खेत"
+    "devanagari": "खेत",
+    "ttsText": "खेत"
   },
   {
     "id": "sound-cor",
@@ -133,7 +140,8 @@
       "needs-verification"
     ],
     "notes": "Contrasteert met de geaspireerde ch in 'chūrī'. boekpagina bij benadering.",
-    "devanagari": "चोर"
+    "devanagari": "चोर",
+    "ttsText": "चोर"
   },
   {
     "id": "sound-churi",
@@ -150,7 +158,8 @@
       "needs-verification"
     ],
     "notes": "Contrasteert met de niet-geaspireerde c in 'cor'. boekpagina bij benadering.",
-    "devanagari": "छूरी"
+    "devanagari": "छूरी",
+    "ttsText": "छूरी"
   },
   {
     "id": "sound-phul",
@@ -167,7 +176,8 @@
       "needs-verification"
     ],
     "notes": "Boekpagina bij benadering.",
-    "devanagari": "फूल"
+    "devanagari": "फूल",
+    "ttsText": "फूल"
   },
   {
     "id": "sound-garib",
@@ -184,7 +194,8 @@
       "needs-verification"
     ],
     "notes": "Boekpagina bij benadering.",
-    "devanagari": "गरीब"
+    "devanagari": "गरीब",
+    "ttsText": "गरीब"
   },
   {
     "id": "sound-roti",
@@ -202,7 +213,8 @@
       "needs-verification"
     ],
     "notes": "Contrasteert met de dentale t in 'tarkārī' (groente). boekpagina bij benadering.",
-    "devanagari": "रोटी"
+    "devanagari": "रोटी",
+    "ttsText": "रोटी"
   },
   {
     "id": "sound-dar",
@@ -220,7 +232,8 @@
       "needs-verification"
     ],
     "notes": "Contrasteert met de retroflexe flap ṛ in 'laṛkā'. boekpagina bij benadering.",
-    "devanagari": "डर"
+    "devanagari": "डर",
+    "ttsText": "डर"
   },
   {
     "id": "sound-larka",
@@ -238,7 +251,8 @@
       "needs-verification"
     ],
     "notes": "In de populaire SCS-spelling geschreven als 'larka'. boekpagina bij benadering.",
-    "devanagari": "लड़्का"
+    "devanagari": "लड़्का",
+    "ttsText": "लड़्का"
   },
   {
     "id": "sound-jhanda",
@@ -257,7 +271,8 @@
       "needs-verification"
     ],
     "notes": "Boekpagina bij benadering.",
-    "devanagari": "झण्डा"
+    "devanagari": "झण्डा",
+    "ttsText": "झण्डा"
   },
   {
     "id": "sound-kainci",
@@ -275,7 +290,8 @@
       "needs-verification"
     ],
     "notes": "Boekpagina bij benadering.",
-    "devanagari": "काईंछी"
+    "devanagari": "काईंछी",
+    "ttsText": "काईंछी"
   },
   {
     "id": "sound-lanka",
@@ -294,7 +310,8 @@
       "needs-verification"
     ],
     "notes": "Boekpagina bij benadering.",
-    "devanagari": "लङ्का"
+    "devanagari": "लङ्का",
+    "ttsText": "लङ्का"
   },
   {
     "id": "sound-bhasa",
@@ -312,7 +329,8 @@
       "needs-verification"
     ],
     "notes": "Populair 'bhasa/bhasha'. boekpagina bij benadering.",
-    "devanagari": "भाषा"
+    "devanagari": "भाषा",
+    "ttsText": "भाषा"
   },
   {
     "id": "sound-shanti",
@@ -330,6 +348,7 @@
       "needs-verification"
     ],
     "notes": "Populair 'shanti'. boekpagina bij benadering.",
-    "devanagari": "शान्ति"
+    "devanagari": "शान्ति",
+    "ttsText": "शान्ति"
   }
 ]

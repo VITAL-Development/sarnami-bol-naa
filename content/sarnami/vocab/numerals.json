@@ -13,7 +13,8 @@
       "book-p36",
       "needs-verification"
     ],
-    "devanagari": "सुन्ना"
+    "devanagari": "सुन्ना",
+    "ttsText": "सुन्ना"
   },
   {
     "id": "num-ek",
@@ -30,7 +31,8 @@
       "book-p36",
       "needs-verification"
     ],
-    "devanagari": "एक"
+    "devanagari": "एक",
+    "ttsText": "एक"
   },
   {
     "id": "num-dui",
@@ -46,7 +48,8 @@
       "book-p36",
       "needs-verification"
     ],
-    "devanagari": "दूइ"
+    "devanagari": "दूइ",
+    "ttsText": "दूइ"
   },
   {
     "id": "num-tin",
@@ -62,7 +65,8 @@
       "book-p36",
       "needs-verification"
     ],
-    "devanagari": "तीन"
+    "devanagari": "तीन",
+    "ttsText": "तीन"
   },
   {
     "id": "num-car",
@@ -79,7 +83,8 @@
       "book-p36",
       "needs-verification"
     ],
-    "devanagari": "चार"
+    "devanagari": "चार",
+    "ttsText": "चार"
   },
   {
     "id": "num-panc",
@@ -95,7 +100,8 @@
       "book-p36",
       "needs-verification"
     ],
-    "devanagari": "पांच"
+    "devanagari": "पांच",
+    "ttsText": "पांच"
   },
   {
     "id": "num-chau",
@@ -111,7 +117,8 @@
       "book-p36",
       "needs-verification"
     ],
-    "devanagari": "छौ"
+    "devanagari": "छौ",
+    "ttsText": "छौ"
   },
   {
     "id": "num-sat",
@@ -127,7 +134,8 @@
       "book-p36",
       "needs-verification"
     ],
-    "devanagari": "सात"
+    "devanagari": "सात",
+    "ttsText": "सात"
   },
   {
     "id": "num-ath",
@@ -143,7 +151,8 @@
       "book-p36",
       "needs-verification"
     ],
-    "devanagari": "आठ"
+    "devanagari": "आठ",
+    "ttsText": "आठ"
   },
   {
     "id": "num-nau",
@@ -159,7 +168,8 @@
       "book-p36",
       "needs-verification"
     ],
-    "devanagari": "नौ"
+    "devanagari": "नौ",
+    "ttsText": "नौ"
   },
   {
     "id": "num-das",
@@ -175,7 +185,8 @@
       "book-p36",
       "needs-verification"
     ],
-    "devanagari": "दस"
+    "devanagari": "दस",
+    "ttsText": "दस"
   },
   {
     "id": "num-sau",
@@ -192,6 +203,7 @@
       "book-p36",
       "needs-verification"
     ],
-    "devanagari": "सौ"
+    "devanagari": "सौ",
+    "ttsText": "सौ"
   }
 ]

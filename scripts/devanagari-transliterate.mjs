@@ -5,6 +5,17 @@
 // scripts/scs-transliterate.mjs was built from, but consumed here for its
 // Devanagari columns instead of its "Aangepaste SCS-spelling" column.
 //
+// Sole ownership: this repo is the single source of truth for Sarnami-to-
+// Devanagari transliteration. toDevanagari() here is what
+// scripts/generate-devanagari-table.mjs runs to populate every vocab item's
+// `devanagari` (human-facing review value) and `ttsText` (machine-facing
+// value) fields, and both are committed content. The generic backend engine
+// that serves this content applies no per-language text transformation of
+// its own -- it reads the committed `ttsText` field verbatim and hands it to
+// TTS synthesis. There is no second, hand-synced copy of this module
+// anywhere else to keep in sync; a correction here, followed by
+// `--write`/`--check`, is the entire fix.
+//
 // Why this exists: facebook/mms-tts-hns's tokenizer flattens all of this
 // repo's diacritic Sarnami to ~30 ASCII/acute-accent characters, which can't
 // represent Sarnami's real retroflex/aspirate/nasal/vowel-length

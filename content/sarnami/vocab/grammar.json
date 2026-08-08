@@ -13,7 +13,8 @@
       "verb",
       "book-p97"
     ],
-    "devanagari": "है"
+    "devanagari": "है",
+    "ttsText": "है"
   },
   {
     "id": "gram-na",
@@ -28,7 +29,8 @@
       "negation",
       "book-p16"
     ],
-    "devanagari": "ना"
+    "devanagari": "ना",
+    "ttsText": "ना"
   },
   {
     "id": "gram-kaham",
@@ -43,7 +45,8 @@
       "question-word",
       "book-p53"
     ],
-    "devanagari": "कहां"
+    "devanagari": "कहां",
+    "ttsText": "कहां"
   },
   {
     "id": "gram-se",
@@ -59,7 +62,8 @@
       "comparison",
       "book-p60"
     ],
-    "devanagari": "से"
+    "devanagari": "से",
+    "ttsText": "से"
   },
   {
     "id": "gram-aur-compare",
@@ -75,7 +79,8 @@
       "comparison",
       "book-p60"
     ],
-    "devanagari": "और"
+    "devanagari": "और",
+    "ttsText": "और"
   },
   {
     "id": "gram-jada",
@@ -91,7 +96,8 @@
       "comparison",
       "book-p60"
     ],
-    "devanagari": "जादा"
+    "devanagari": "जादा",
+    "ttsText": "जादा"
   },
   {
     "id": "gram-sabse",
@@ -107,7 +113,8 @@
       "comparison",
       "book-p60"
     ],
-    "devanagari": "सब से"
+    "devanagari": "सब से",
+    "ttsText": "सब से"
   },
   {
     "id": "gram-hai-aux",
@@ -121,7 +128,8 @@
     "tags": [
       "grammar"
     ],
-    "devanagari": "है"
+    "devanagari": "है",
+    "ttsText": "है"
   },
   {
     "id": "gram-kaise",
@@ -134,7 +142,8 @@
     "tags": [
       "grammar"
     ],
-    "devanagari": "कैसे"
+    "devanagari": "कैसे",
+    "ttsText": "कैसे"
   },
   {
     "id": "gram-ba",
@@ -148,7 +157,8 @@
     "tags": [
       "grammar"
     ],
-    "devanagari": "बा"
+    "devanagari": "बा",
+    "ttsText": "बा"
   },
   {
     "id": "gram-ba-aux",
@@ -162,7 +172,8 @@
     "tags": [
       "grammar"
     ],
-    "devanagari": "बा"
+    "devanagari": "बा",
+    "ttsText": "बा"
   },
   {
     "id": "gram-go",
@@ -176,7 +187,8 @@
     "tags": [
       "grammar"
     ],
-    "devanagari": "गो"
+    "devanagari": "गो",
+    "ttsText": "गो"
   },
   {
     "id": "gram-raha-aux",
@@ -190,7 +202,8 @@
     "tags": [
       "grammar"
     ],
-    "devanagari": "रहा"
+    "devanagari": "रहा",
+    "ttsText": "रहा"
   },
   {
     "id": "gram-bati",
@@ -207,7 +220,8 @@
       "book",
       "needs-verification"
     ],
-    "devanagari": "बाटी"
+    "devanagari": "बाटी",
+    "ttsText": "बाटी"
   },
   {
     "id": "gram-hove",
@@ -224,7 +238,8 @@
       "book",
       "needs-verification"
     ],
-    "devanagari": "होवे"
+    "devanagari": "होवे",
+    "ttsText": "होवे"
   },
   {
     "id": "gram-sab",
@@ -240,7 +255,8 @@
       "book",
       "needs-verification"
     ],
-    "devanagari": "सब"
+    "devanagari": "सब",
+    "ttsText": "सब"
   },
   {
     "id": "gram-ego",
@@ -255,6 +271,7 @@
       "grammar",
       "book-p55"
     ],
-    "devanagari": "एगो"
+    "devanagari": "एगो",
+    "ttsText": "एगो"
   }
 ]

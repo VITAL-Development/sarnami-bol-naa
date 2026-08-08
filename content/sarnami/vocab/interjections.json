@@ -12,7 +12,8 @@
       "book-p50"
     ],
     "notes": "Bevestigende uitroep.",
-    "devanagari": "अच्छा"
+    "devanagari": "अच्छा",
+    "ttsText": "अच्छा"
   },
   {
     "id": "int-he",
@@ -28,7 +29,8 @@
       "needs-verification"
     ],
     "notes": "Roep om iemand dichtbij aan te spreken of de aandacht te trekken; vergelijk de afleiding hĕdde (= he dekh! 'zie hier!').",
-    "devanagari": "हे"
+    "devanagari": "हे",
+    "ttsText": "हे"
   },
   {
     "id": "int-ho",
@@ -44,7 +46,8 @@
       "needs-verification"
     ],
     "notes": "Roep om iemand op afstand aan te spreken; vergelijk de afleiding hŏdde (= ho dekh! 'zie daar!'). Staat naast he (dichtbij).",
-    "devanagari": "हो"
+    "devanagari": "हो",
+    "ttsText": "हो"
   },
   {
     "id": "int-cup",
@@ -60,7 +63,8 @@
       "needs-verification"
     ],
     "notes": "Bevel om te zwijgen.",
-    "devanagari": "चुप"
+    "devanagari": "चुप",
+    "ttsText": "चुप"
   },
   {
     "id": "int-aya",
@@ -76,7 +80,8 @@
       "needs-verification"
     ],
     "notes": "Uitroep van pijn of schrik.",
-    "devanagari": "अया"
+    "devanagari": "अया",
+    "ttsText": "अया"
   },
   {
     "id": "int-bacao",
@@ -92,7 +97,8 @@
       "needs-verification"
     ],
     "notes": "Noodkreet.",
-    "devanagari": "बचाओ"
+    "devanagari": "बचाओ",
+    "ttsText": "बचाओ"
   },
   {
     "id": "int-bhala",
@@ -108,7 +114,8 @@
       "needs-verification"
     ],
     "notes": "Uitroep van verrassing of om de aandacht te richten. Diacritisch correcte vorm (macron ā).",
-    "devanagari": "भला"
+    "devanagari": "भला",
+    "ttsText": "भला"
   },
   {
     "id": "int-bap-re-bap",
@@ -124,7 +131,8 @@
       "needs-verification"
     ],
     "notes": "Uitroep van verbazing of ontzetting (letterlijk 'vader-toch-vader').",
-    "devanagari": "बाप-रे-बाप"
+    "devanagari": "बाप-रे-बाप",
+    "ttsText": "बाप-रे-बाप"
   },
   {
     "id": "int-sabas",
@@ -140,7 +148,8 @@
       "needs-verification"
     ],
     "notes": "Uitroep van lof of aanmoediging.",
-    "devanagari": "साबास"
+    "devanagari": "साबास",
+    "ttsText": "साबास"
   },
   {
     "id": "int-vah-vah",
@@ -156,7 +165,8 @@
       "needs-verification"
     ],
     "notes": "Uitroep van bewondering.",
-    "devanagari": "वाह-वाह"
+    "devanagari": "वाह-वाह",
+    "ttsText": "वाह-वाह"
   },
   {
     "id": "int-albat",
@@ -172,7 +182,8 @@
       "needs-verification"
     ],
     "notes": "Bevestigend partikel.",
-    "devanagari": "अल्बत"
+    "devanagari": "अल्बत",
+    "ttsText": "अल्बत"
   },
   {
     "id": "int-cor-cor",
@@ -188,7 +199,8 @@
       "needs-verification"
     ],
     "notes": "Alarmkreet bij diefstal (van cor 'dief').",
-    "devanagari": "चोर-चोर"
+    "devanagari": "चोर-चोर",
+    "ttsText": "चोर-चोर"
   },
   {
     "id": "int-hay-hay",
@@ -204,7 +216,8 @@
       "needs-verification"
     ],
     "notes": "Uitroep van verdriet of weeklacht; vergelijk hāy re ('jammer!').",
-    "devanagari": "हाय-हाय"
+    "devanagari": "हाय-हाय",
+    "ttsText": "हाय-हाय"
   },
   {
     "id": "int-oho",
@@ -220,7 +233,8 @@
       "needs-verification"
     ],
     "notes": "Uitroep van medeleven of milde verbazing.",
-    "devanagari": "ओहो"
+    "devanagari": "ओहो",
+    "ttsText": "ओहो"
   },
   {
     "id": "int-to",
@@ -235,6 +249,7 @@
       "book-p50"
     ],
     "notes": "Nadrukgevend/aansporend gesprekspartikel.",
-    "devanagari": "तो"
+    "devanagari": "तो",
+    "ttsText": "तो"
   }
 ]

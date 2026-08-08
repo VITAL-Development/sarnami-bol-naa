@@ -12,7 +12,8 @@
       "native-speaker"
     ],
     "notes": "Traditionele Hindostaanse groet, gebruikt onder gelijken — casual/alledaags, in tegenstelling tot het formelere Pranām. Bevestigd als gangbaar in het Sarnami door een moedertaalspreker.",
-    "devanagari": "राम राम"
+    "devanagari": "राम राम",
+    "ttsText": "राम राम"
   },
   {
     "id": "greet-pranam",
@@ -27,7 +28,8 @@
       "native-speaker"
     ],
     "notes": "Eerbiedige/formele groet, vooral richting ouderen of gerespecteerde personen — formeler dan Rām Rām. Bevestigd als gangbaar in het Sarnami door een moedertaalspreker.",
-    "devanagari": "प्रनाम"
+    "devanagari": "प्रनाम",
+    "ttsText": "प्रनाम"
   },
   {
     "id": "greet-kaise-hai",
@@ -41,7 +43,8 @@
       "greeting",
       "baatsiekh"
     ],
-    "devanagari": "कैसे है?"
+    "devanagari": "कैसे है?",
+    "ttsText": "कैसे है?"
   },
   {
     "id": "greet-moi-jahe",
@@ -57,7 +60,8 @@
       "book"
     ],
     "notes": "Vervangt de eerdere ongeverifieerde gok 'Ham ṭhīk hai'. Ontkennende vorm: 'Nā moi jā hai' (het gaat niet goed).",
-    "devanagari": "मोइ जा है"
+    "devanagari": "मोइ जा है",
+    "ttsText": "मोइ जा है"
   },
   {
     "id": "greet-dhanyavad",
@@ -72,7 +76,8 @@
       "baatsiekh"
     ],
     "notes": "Waarschijnlijk een ingekorte, informele uitspraak van het meer formele Hindi-achtige Dhanyavād (niet zelf in het boek geattesteerd, maar wel breed gebruikelijk).",
-    "devanagari": "धन्बाद"
+    "devanagari": "धन्बाद",
+    "ttsText": "धन्बाद"
   },
   {
     "id": "greet-ja",
@@ -86,7 +91,8 @@
       "baatsiekh",
       "book"
     ],
-    "devanagari": "हां"
+    "devanagari": "हां",
+    "ttsText": "हां"
   },
   {
     "id": "greet-nee",
@@ -100,6 +106,7 @@
       "baatsiekh",
       "book"
     ],
-    "devanagari": "ना"
+    "devanagari": "ना",
+    "ttsText": "ना"
   }
 ]

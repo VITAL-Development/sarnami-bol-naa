@@ -14,7 +14,8 @@
       "needs-verification"
     ],
     "notes": "Nederlands leenwoord. Stam (het kale woord, zonder uitgang) 'bel' + kare/hove: bel kare = opbellen, bel hove = opgebeld worden.",
-    "devanagari": "बैल करे"
+    "devanagari": "बैल करे",
+    "ttsText": "बैल करे"
   },
   {
     "id": "loan-klop",
@@ -31,7 +32,8 @@
       "needs-verification"
     ],
     "notes": "Nederlands leenwoord. Stam (het kale woord, zonder uitgang) 'klop' + kare/hove: klop kare = kloppen, klop hove = geklopt worden.",
-    "devanagari": "क्लोप करे"
+    "devanagari": "क्लोप करे",
+    "ttsText": "क्लोप करे"
   },
   {
     "id": "loan-uitleg",
@@ -48,7 +50,8 @@
       "needs-verification"
     ],
     "notes": "Nederlands leenwoord. Stam (het kale woord, zonder uitgang) 'uitleg' + kare/hove: uitleg kare = uitleggen, uitleg hove = uitgelegd worden.",
-    "devanagari": "आोतलेख करे"
+    "devanagari": "आोतलेख करे",
+    "ttsText": "आोतलेख करे"
   },
   {
     "id": "loan-beledig",
@@ -65,7 +68,8 @@
       "needs-verification"
     ],
     "notes": "Nederlands leenwoord. Stam (het kale woord, zonder uitgang) 'beledig' + kare/hove: beledig kare = beledigen, beledig hove = beledigd worden.",
-    "devanagari": "बलएडेख करे"
+    "devanagari": "बलएडेख करे",
+    "ttsText": "बलएडेख करे"
   },
   {
     "id": "loan-bekeur",
@@ -82,7 +86,8 @@
       "needs-verification"
     ],
     "notes": "Nederlands leenwoord. Stam (het kale woord, zonder uitgang) 'bekeur' + kare/hove: bekeur kare = bekeuren, bekeur hove = bekeurd worden.",
-    "devanagari": "बेकर्र करे"
+    "devanagari": "बेकर्र करे",
+    "ttsText": "बेकर्र करे"
   },
   {
     "id": "loan-wachti",
@@ -99,7 +104,8 @@
       "needs-verification"
     ],
     "notes": "Nederlands leenwoord. Stam (het kale woord, zonder uitgang) 'wachti' (van Ned. 'wachten') + kare/hove: wachti kare = wachten/opwachten, wachti hove = opgewacht worden. In het Sarnami krijgt dit woord er een -i bij.",
-    "devanagari": "वक्ती करे"
+    "devanagari": "वक्ती करे",
+    "ttsText": "वक्ती करे"
   },
   {
     "id": "loan-help",
@@ -116,7 +122,8 @@
       "needs-verification"
     ],
     "notes": "Nederlands leenwoord. Stam (het kale woord, zonder uitgang) 'help' + kare/hove: help kare = helpen, help hove = geholpen worden.",
-    "devanagari": "हेल्प करे"
+    "devanagari": "हेल्प करे",
+    "ttsText": "हेल्प करे"
   },
   {
     "id": "loan-mooi",
@@ -133,7 +140,8 @@
       "needs-verification"
     ],
     "notes": "Nederlands leenwoord. Stam (het kale woord, zonder uitgang) 'mooi' + kare/hove: mooi kare = mooi maken, mooi hove = mooi worden.",
-    "devanagari": "मोई करे"
+    "devanagari": "मोई करे",
+    "ttsText": "मोई करे"
   },
   {
     "id": "loan-luru",
@@ -150,7 +158,8 @@
       "needs-verification"
     ],
     "notes": "Nederlands leenwoord, van Ned. 'loeren'. lūrū kare = loeren, lūrū hove = beloerd worden.",
-    "devanagari": "लूरू करे"
+    "devanagari": "लूरू करे",
+    "ttsText": "लूरू करे"
   },
   {
     "id": "loan-butu",
@@ -167,7 +176,8 @@
       "needs-verification"
     ],
     "notes": "Oud leenwoord, al lang gewoon in het Sarnami. būṭū (van Ned. 'boete', via Sranantongo 'butu') + bhare (betalen/vullen) = een boete betalen.",
-    "devanagari": "बूटू भरे"
+    "devanagari": "बूटू भरे",
+    "ttsText": "बूटू भरे"
   },
   {
     "id": "loan-don",
@@ -183,7 +193,8 @@
       "book-p69"
     ],
     "notes": "Engels leenwoord, van 'done' (gedaan). don kare = afmaken, don hove = klaar zijn/raken.",
-    "devanagari": "दोन करे"
+    "devanagari": "दोन करे",
+    "ttsText": "दोन करे"
   },
   {
     "id": "loan-las",
@@ -200,7 +211,8 @@
       "needs-verification"
     ],
     "notes": "Engels leenwoord, van 'lost' (verloren). lās kare = verliezen, lās hove = verloren raken.",
-    "devanagari": "लास करे"
+    "devanagari": "लास करे",
+    "ttsText": "लास करे"
   },
   {
     "id": "loan-hambog",
@@ -217,7 +229,8 @@
       "needs-verification"
     ],
     "notes": "Engels leenwoord, van 'humbug' (hinder). hambog kare = hinderen, hambog hove = verhinderd worden. In de bron gemarkeerd met (N) — Nickerie-vorm.",
-    "devanagari": "हम्बोग करे"
+    "devanagari": "हम्बोग करे",
+    "ttsText": "हम्बोग करे"
   },
   {
     "id": "loan-pharyam",
@@ -234,7 +247,8 @@
       "needs-verification"
     ],
     "notes": "Engels leenwoord, van 'to fry' (braden). pharyam kare = braden, pharyam hove = gebraden worden. In de bron gemarkeerd met (N) — Nickerie-vorm.",
-    "devanagari": "फर्यम करे"
+    "devanagari": "फर्यम करे",
+    "ttsText": "फर्यम करे"
   },
   {
     "id": "loan-riwors",
@@ -251,7 +265,8 @@
       "needs-verification"
     ],
     "notes": "Engels leenwoord, van 'to reverse' (achteruit rijden). riwŏrs kare = achteruit rijden, riwŏrs hove = achteruit gereden worden.",
-    "devanagari": "रिवर्स करे"
+    "devanagari": "रिवर्स करे",
+    "ttsText": "रिवर्स करे"
   },
   {
     "id": "loan-boro",
@@ -268,7 +283,8 @@
       "needs-verification"
     ],
     "notes": "Sranantongo leenwoord, van 'boro' (uit Ned. boren/boor). boro kare = boren, boro hove = geboord worden.",
-    "devanagari": "बोरो करे"
+    "devanagari": "बोरो करे",
+    "ttsText": "बोरो करे"
   },
   {
     "id": "loan-triki",
@@ -285,7 +301,8 @@
       "needs-verification"
     ],
     "notes": "Sranantongo leenwoord, van 'triki' (uit Ned. strijken). trīkī kare = strijken, trīkī hove = gestreken worden.",
-    "devanagari": "त्रीकी करे"
+    "devanagari": "त्रीकी करे",
+    "ttsText": "त्रीकी करे"
   },
   {
     "id": "loan-yuru",
@@ -302,7 +319,8 @@
       "needs-verification"
     ],
     "notes": "Sranantongo leenwoord, van 'yuru' (uit Ned. huren/huur). yūrū kare = huren, yūrū hove = verhuurd worden.",
-    "devanagari": "यूरू करे"
+    "devanagari": "यूरू करे",
+    "ttsText": "यूरू करे"
   },
   {
     "id": "loan-morsu",
@@ -319,7 +337,8 @@
       "needs-verification"
     ],
     "notes": "Sranantongo leenwoord, van 'morsu' (vuil, uit Ned. morsen). morsū kare = vuil maken, morsū hove = vervuild raken.",
-    "devanagari": "मोर्सू करे"
+    "devanagari": "मोर्सू करे",
+    "ttsText": "मोर्सू करे"
   },
   {
     "id": "loan-lesiyai",
@@ -337,7 +356,8 @@
       "needs-verification"
     ],
     "notes": "Dit woord komt van het Engelse 'lazy', via het Sranantongo 'lesi'. Het is nu een gewoon Sarnami-werkwoord. Je hebt kare of hove niet meer nodig.",
-    "devanagari": "लेसियाई"
+    "devanagari": "लेसियाई",
+    "ttsText": "लेसियाई"
   },
   {
     "id": "loan-setiyave",
@@ -355,6 +375,7 @@
       "needs-verification"
     ],
     "notes": "Dit woord komt van het Engelse 'to set', via het Sranantongo 'seti'. Het is nu een gewoon Sarnami-werkwoord.",
-    "devanagari": "सेती-आवे"
+    "devanagari": "सेती-आवे",
+    "ttsText": "सेती-आवे"
   }
 ]

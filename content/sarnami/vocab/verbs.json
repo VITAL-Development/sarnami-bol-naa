@@ -13,7 +13,8 @@
       "book-p57",
       "needs-verification"
     ],
-    "devanagari": "पढ़े"
+    "devanagari": "पढ़े",
+    "ttsText": "पढ़े"
   },
   {
     "id": "verb-kare",
@@ -29,7 +30,8 @@
       "book-p57",
       "needs-verification"
     ],
-    "devanagari": "करे"
+    "devanagari": "करे",
+    "ttsText": "करे"
   },
   {
     "id": "verb-bole",
@@ -45,7 +47,8 @@
       "book-p63",
       "needs-verification"
     ],
-    "devanagari": "बोले"
+    "devanagari": "बोले",
+    "ttsText": "बोले"
   },
   {
     "id": "verb-dekhe",
@@ -61,7 +64,8 @@
       "book-p57",
       "needs-verification"
     ],
-    "devanagari": "देखे"
+    "devanagari": "देखे",
+    "ttsText": "देखे"
   },
   {
     "id": "verb-sune",
@@ -77,7 +81,8 @@
       "book-p63",
       "needs-verification"
     ],
-    "devanagari": "सुने"
+    "devanagari": "सुने",
+    "ttsText": "सुने"
   },
   {
     "id": "verb-khai",
@@ -93,7 +98,8 @@
       "book-p53",
       "needs-verification"
     ],
-    "devanagari": "खाई"
+    "devanagari": "खाई",
+    "ttsText": "खाई"
   },
   {
     "id": "verb-jai",
@@ -109,7 +115,8 @@
       "book-p53",
       "needs-verification"
     ],
-    "devanagari": "जाई"
+    "devanagari": "जाई",
+    "ttsText": "जाई"
   },
   {
     "id": "verb-ave",
@@ -125,7 +132,8 @@
       "book-p63",
       "needs-verification"
     ],
-    "devanagari": "आवे"
+    "devanagari": "आवे",
+    "ttsText": "आवे"
   },
   {
     "id": "verb-sute",
@@ -141,7 +149,8 @@
       "book-p53",
       "needs-verification"
     ],
-    "devanagari": "सूते"
+    "devanagari": "सूते",
+    "ttsText": "सूते"
   },
   {
     "id": "verb-kine",
@@ -157,7 +166,8 @@
       "book-p53",
       "needs-verification"
     ],
-    "devanagari": "कीने"
+    "devanagari": "कीने",
+    "ttsText": "कीने"
   },
   {
     "id": "verb-leve",
@@ -173,7 +183,8 @@
       "book-p53",
       "needs-verification"
     ],
-    "devanagari": "लेवे"
+    "devanagari": "लेवे",
+    "ttsText": "लेवे"
   },
   {
     "id": "verb-deve",
@@ -189,7 +200,8 @@
       "book-p53",
       "needs-verification"
     ],
-    "devanagari": "देवे"
+    "devanagari": "देवे",
+    "ttsText": "देवे"
   },
   {
     "id": "verb-dhove",
@@ -205,7 +217,8 @@
       "book-p53",
       "needs-verification"
     ],
-    "devanagari": "धोवे"
+    "devanagari": "धोवे",
+    "ttsText": "धोवे"
   },
   {
     "id": "verb-rove",
@@ -221,7 +234,8 @@
       "book-p65",
       "needs-verification"
     ],
-    "devanagari": "रोवे"
+    "devanagari": "रोवे",
+    "ttsText": "रोवे"
   },
   {
     "id": "verb-piye",
@@ -237,7 +251,8 @@
       "book-p53",
       "needs-verification"
     ],
-    "devanagari": "पीये"
+    "devanagari": "पीये",
+    "ttsText": "पीये"
   },
   {
     "id": "verb-siye",
@@ -253,7 +268,8 @@
       "book-p53",
       "needs-verification"
     ],
-    "devanagari": "सीये"
+    "devanagari": "सीये",
+    "ttsText": "सीये"
   },
   {
     "id": "verb-likhe",
@@ -269,7 +285,8 @@
       "book-p63",
       "needs-verification"
     ],
-    "devanagari": "लिखे"
+    "devanagari": "लिखे",
+    "ttsText": "लिखे"
   },
   {
     "id": "verb-cale",
@@ -285,7 +302,8 @@
       "book-p63",
       "needs-verification"
     ],
-    "devanagari": "चले"
+    "devanagari": "चले",
+    "ttsText": "चले"
   },
   {
     "id": "verb-baithe",
@@ -301,7 +319,8 @@
       "book-p65",
       "needs-verification"
     ],
-    "devanagari": "बाइ-ठे"
+    "devanagari": "बाइ-ठे",
+    "ttsText": "बाइ-ठे"
   },
   {
     "id": "verb-uthe",
@@ -317,7 +336,8 @@
       "book-p63",
       "needs-verification"
     ],
-    "devanagari": "उठे"
+    "devanagari": "उठे",
+    "ttsText": "उठे"
   },
   {
     "id": "verb-nace",
@@ -333,7 +353,8 @@
       "book-p65",
       "needs-verification"
     ],
-    "devanagari": "नाचे"
+    "devanagari": "नाचे",
+    "ttsText": "नाचे"
   },
   {
     "id": "verb-hamse",
@@ -349,7 +370,8 @@
       "book-p65",
       "needs-verification"
     ],
-    "devanagari": "हंसे"
+    "devanagari": "हंसे",
+    "ttsText": "हंसे"
   },
   {
     "id": "verb-kate",
@@ -365,7 +387,8 @@
       "book-p65",
       "needs-verification"
     ],
-    "devanagari": "काटे"
+    "devanagari": "काटे",
+    "ttsText": "काटे"
   },
   {
     "id": "verb-khele",
@@ -381,7 +404,8 @@
       "book-p63",
       "needs-verification"
     ],
-    "devanagari": "खेले"
+    "devanagari": "खेले",
+    "ttsText": "खेले"
   },
   {
     "id": "verb-mare-hit",
@@ -397,7 +421,8 @@
       "book-p65",
       "needs-verification"
     ],
-    "devanagari": "मारे"
+    "devanagari": "मारे",
+    "ttsText": "मारे"
   },
   {
     "id": "verb-mare-die",
@@ -413,7 +438,8 @@
       "book-p65",
       "needs-verification"
     ],
-    "devanagari": "मरे"
+    "devanagari": "मरे",
+    "ttsText": "मरे"
   },
   {
     "id": "verb-pahine",
@@ -429,7 +455,8 @@
       "book-p57",
       "needs-verification"
     ],
-    "devanagari": "पहिने"
+    "devanagari": "पहिने",
+    "ttsText": "पहिने"
   },
   {
     "id": "verb-samjhe",
@@ -445,7 +472,8 @@
       "book-p57",
       "needs-verification"
     ],
-    "devanagari": "सम्झे"
+    "devanagari": "सम्झे",
+    "ttsText": "सम्झे"
   },
   {
     "id": "verb-khoje",
@@ -461,7 +489,8 @@
       "book-p57",
       "needs-verification"
     ],
-    "devanagari": "खोजे"
+    "devanagari": "खोजे",
+    "ttsText": "खोजे"
   },
   {
     "id": "verb-puche",
@@ -477,7 +506,8 @@
       "book-p65",
       "needs-verification"
     ],
-    "devanagari": "पूछे"
+    "devanagari": "पूछे",
+    "ttsText": "पूछे"
   },
   {
     "id": "verb-bolna",
@@ -491,7 +521,8 @@
     "tags": [
       "verb"
     ],
-    "devanagari": "बोल-ना"
+    "devanagari": "बोल-ना",
+    "ttsText": "बोल-ना"
   },
   {
     "id": "verb-sikhe",
@@ -504,7 +535,8 @@
     "tags": [
       "verb"
     ],
-    "devanagari": "सीखे"
+    "devanagari": "सीखे",
+    "ttsText": "सीखे"
   },
   {
     "id": "verb-lave",
@@ -518,7 +550,8 @@
     "tags": [
       "verb"
     ],
-    "devanagari": "लावे"
+    "devanagari": "लावे",
+    "ttsText": "लावे"
   },
   {
     "id": "verb-dai",
@@ -532,7 +565,8 @@
     "tags": [
       "verb"
     ],
-    "devanagari": "दाई"
+    "devanagari": "दाई",
+    "ttsText": "दाई"
   },
   {
     "id": "verb-pakare",
@@ -546,7 +580,8 @@
     "tags": [
       "verb"
     ],
-    "devanagari": "पकड़े"
+    "devanagari": "पकड़े",
+    "ttsText": "पकड़े"
   },
   {
     "id": "verb-turle",
@@ -559,7 +594,8 @@
     "tags": [
       "verb"
     ],
-    "devanagari": "टुर्ले"
+    "devanagari": "टुर्ले",
+    "ttsText": "टुर्ले"
   },
   {
     "id": "verb-jante",
@@ -574,6 +610,7 @@
       "verb",
       "needs-verification"
     ],
-    "devanagari": "जान्ता"
+    "devanagari": "जान्ता",
+    "ttsText": "जान्ता"
   }
 ]
