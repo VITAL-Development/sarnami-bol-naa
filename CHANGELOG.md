@@ -19,6 +19,29 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Fixed
+
+- 30 owner-reviewed corrections to the `devanagari` field (added in 0.10.0)
+  across `content/sarnami/vocab/*.json`, found via review of the
+  `/dev/transliteration` page (issue #304). Same shape, corrected values —
+  spelling/vowel-length fixes, plus a few genuine transliterator misses on
+  loanword digraphs and hyphenated forms. Two vocab items not in the
+  owner's original 30-item list (`struct-dichtbij`, `struct-ver`) also
+  changed as a side effect: they share the `word` values `nagicce`/`dūr`
+  with `adv-nagicce`/`adv-dur`, and `RAW_WORD_OVERRIDES` is keyed by `word`,
+  not by vocab id, so a correction to one applies to every id sharing that
+  romanized word (same mechanism already used deliberately for the shared
+  `sait`/`par` corrections in this batch).
+- `scripts/devanagari-transliterate.mjs`'s `RAW_WORD_OVERRIDES` table gained
+  the same 28 entries (one shared per repeated `word`) — kept byte-identical
+  to rarelang-server's hand-synced copy of the same file
+  (`devanagari-drift-check` CI job). The rarelang-server copy must be
+  corrected and redeployed before/atomically with this change, since it's
+  what actually computes the string sent to ElevenLabs for real speech
+  synthesis (paid, permanently cached) via the realtime `/audio/tts` route —
+  this repo's copy only drives the offline review table and the
+  `devanagari` field above.
+
 ## [0.10.0] - 2026-08-07
 
 ### Added
