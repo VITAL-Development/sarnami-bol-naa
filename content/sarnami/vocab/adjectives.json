@@ -12,7 +12,8 @@
       "adjective",
       "book-p55"
     ],
-    "devanagari": "छोटा"
+    "devanagari": "छोटा",
+    "ttsText": "छोटा"
   },
   {
     "id": "adj-lal",
@@ -27,7 +28,8 @@
       "adjective",
       "book-p55"
     ],
-    "devanagari": "लाल"
+    "devanagari": "लाल",
+    "ttsText": "लाल"
   },
   {
     "id": "adj-sojha",
@@ -42,7 +44,8 @@
       "adjective",
       "book-p55"
     ],
-    "devanagari": "सोझा"
+    "devanagari": "सोझा",
+    "ttsText": "सोझा"
   },
   {
     "id": "adj-patar",
@@ -57,7 +60,8 @@
       "adjective",
       "book-p55"
     ],
-    "devanagari": "पातर"
+    "devanagari": "पातर",
+    "ttsText": "पातर"
   },
   {
     "id": "adj-mitha",
@@ -72,7 +76,8 @@
       "adjective",
       "book-p55"
     ],
-    "devanagari": "मीठा"
+    "devanagari": "मीठा",
+    "ttsText": "मीठा"
   },
   {
     "id": "adj-barka",
@@ -87,7 +92,8 @@
       "adjective",
       "book-p57"
     ],
-    "devanagari": "बर्का"
+    "devanagari": "बर्का",
+    "ttsText": "बर्का"
   },
   {
     "id": "adj-lamma",
@@ -102,7 +108,8 @@
       "adjective",
       "book-p56"
     ],
-    "devanagari": "लम्मा"
+    "devanagari": "लम्मा",
+    "ttsText": "लम्मा"
   },
   {
     "id": "adj-barhimya",
@@ -117,7 +124,8 @@
       "adjective",
       "book-p56"
     ],
-    "devanagari": "बर्हिम्या"
+    "devanagari": "बर्हिम्या",
+    "ttsText": "बर्हिम्या"
   },
   {
     "id": "adj-karikka",
@@ -132,7 +140,8 @@
       "adjective",
       "book-p57"
     ],
-    "devanagari": "करिक्का"
+    "devanagari": "करिक्का",
+    "ttsText": "करिक्का"
   },
   {
     "id": "adj-bimar",
@@ -147,7 +156,8 @@
       "adjective",
       "needs-verification"
     ],
-    "devanagari": "बीमार"
+    "devanagari": "बीमार",
+    "ttsText": "बीमार"
   },
   {
     "id": "adj-dhani",
@@ -162,6 +172,7 @@
       "adjective",
       "book-p59"
     ],
-    "devanagari": "धनी"
+    "devanagari": "धनी",
+    "ttsText": "धनी"
   }
 ]

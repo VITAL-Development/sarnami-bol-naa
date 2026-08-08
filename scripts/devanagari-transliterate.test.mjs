@@ -68,7 +68,6 @@ test("f maps to the nukta form फ़, not plain फ", () => {
 
 test("non-letter characters (space, hyphen, ?) pass through untouched", () => {
   assert.equal(toDevanagari("Rām Rām"), "राम राम");
-  assert.equal(toDevanagari("dhīre-dhīre"), "धीरे-धीरे");
   assert.equal(toDevanagari("Kaise hai?"), "कैसे है?");
 });
 
@@ -121,8 +120,8 @@ test("owner's round-4 fix: wachti kare (round-3 had a doubled-व typo)", () => 
   assert.equal(toDevanagari("wachti kare"), "वक्ती करे");
 });
 
-test("owner's direct fix: bekeur kare", () => {
-  assert.equal(toDevanagari("bekeur kare"), "बकर करे");
+test("owner's fix (round 6, issue #304): bekeur kare -- supersedes the earlier low-confidence round-3 candidate", () => {
+  assert.equal(toDevanagari("bekeur kare"), "बेकर्र करे");
 });
 
 test("owner's direct fix: beledig kare (Dutch g -> ख़)", () => {
@@ -141,4 +140,46 @@ test("loan-lesiyai: owner's round-4 fix reverts nasal marking", () => {
 
 test("loan-setiyave: owner's round-4 fix restructures to सेती-आवे", () => {
   assert.equal(toDevanagari("sĕtiyāve"), "सेती-आवे");
+});
+
+// --- round-6 RAW_WORD_OVERRIDES: owner review of /dev/transliteration
+// (30 corrections, issue #304) -------------------------------------------
+
+test("sait: word-keyed override applies to both adv-sait and struct-misschien, resolving their conflicting raw-review spellings to साईट", () => {
+  assert.equal(toDevanagari("sait"), "साईट");
+});
+
+test("par: word-keyed override applies to both post-par and struct-op", () => {
+  assert.equal(toDevanagari("par"), "पर-");
+});
+
+test("owner's round-6 fix: dhīre-dhīre gets spaced hyphens (धीरे - धीरे), overriding the mechanical hyphen-passthrough default", () => {
+  assert.equal(toDevanagari("dhīre-dhīre"), "धीरे - धीरे");
+});
+
+test("owner's round-6 fixes: remaining single-word corrections from #304", () => {
+  assert.equal(toDevanagari("girmiṭ"), "गीरमीट");
+  assert.equal(toDevanagari("dūr"), "दुउर");
+  assert.equal(toDevanagari("nagicce"), "नगीच्चे");
+  assert.equal(toDevanagari("parsīs"), "परसीस");
+  assert.equal(toDevanagari("nicce"), "नीच्चे");
+  assert.equal(toDevanagari("Hindustani"), "हिन्दुस्तानी");
+  assert.equal(toDevanagari("bel kare"), "बैल करे");
+  assert.equal(toDevanagari("bahin"), "बहीण");
+  assert.equal(toDevanagari("bajār"), "ब-जार");
+  assert.equal(toDevanagari("chaumṛī"), "छौरी");
+  assert.equal(toDevanagari("nanī"), "नानी");
+  assert.equal(toDevanagari("pīṭhī"), "पिट्ठी");
+  assert.equal(toDevanagari("rajā"), "रा-जा");
+  assert.equal(toDevanagari("Ram"), "राम");
+  assert.equal(toDevanagari("hamār"), "हमार-");
+  assert.equal(toDevanagari("kaiman"), "काईमान");
+  assert.equal(toDevanagari("siyar"), "सियार");
+  assert.equal(toDevanagari("ainā"), "आईना");
+  assert.equal(toDevanagari("kaiñcī"), "काईंछी");
+  assert.equal(toDevanagari("phul"), "फूल");
+  assert.equal(toDevanagari("baiṭhe"), "बाइ-ठे");
+  assert.equal(toDevanagari("dai"), "दाई");
+  assert.equal(toDevanagari("sikhe"), "सीखे");
+  assert.equal(toDevanagari("becain"), "बेचाइन");
 });

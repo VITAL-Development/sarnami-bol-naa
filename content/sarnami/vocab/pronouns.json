@@ -11,7 +11,8 @@
       "pronoun",
       "book-p68"
     ],
-    "devanagari": "हम"
+    "devanagari": "हम",
+    "ttsText": "हम"
   },
   {
     "id": "pron-tu",
@@ -25,7 +26,8 @@
       "pronoun",
       "book-p69"
     ],
-    "devanagari": "तू"
+    "devanagari": "तू",
+    "ttsText": "तू"
   },
   {
     "id": "pron-ap",
@@ -39,7 +41,8 @@
       "pronoun",
       "book-p69"
     ],
-    "devanagari": "आप"
+    "devanagari": "आप",
+    "ttsText": "आप"
   },
   {
     "id": "pron-u",
@@ -55,7 +58,8 @@
       "demonstrative",
       "book-p23"
     ],
-    "devanagari": "ऊ"
+    "devanagari": "ऊ",
+    "ttsText": "ऊ"
   },
   {
     "id": "pron-hamlog",
@@ -69,7 +73,8 @@
       "pronoun",
       "book-p68"
     ],
-    "devanagari": "हम लोग"
+    "devanagari": "हम लोग",
+    "ttsText": "हम लोग"
   },
   {
     "id": "pron-hamar",
@@ -85,7 +90,8 @@
       "possessive",
       "book-p68"
     ],
-    "devanagari": "हमार"
+    "devanagari": "हमार-",
+    "ttsText": "हमार-"
   },
   {
     "id": "pron-tor",
@@ -101,7 +107,8 @@
       "possessive",
       "book-p69"
     ],
-    "devanagari": "तोर"
+    "devanagari": "तोर",
+    "ttsText": "तोर"
   },
   {
     "id": "pron-tomhar",
@@ -118,7 +125,8 @@
       "book-p69",
       "needs-verification"
     ],
-    "devanagari": "तोंहार"
+    "devanagari": "तोंहार",
+    "ttsText": "तोंहार"
   },
   {
     "id": "pron-apke",
@@ -134,7 +142,8 @@
       "book-p69",
       "needs-verification"
     ],
-    "devanagari": "आप्के"
+    "devanagari": "आप्के",
+    "ttsText": "आप्के"
   },
   {
     "id": "pron-ekar",
@@ -150,7 +159,8 @@
       "possessive",
       "book-p70"
     ],
-    "devanagari": "एकर"
+    "devanagari": "एकर",
+    "ttsText": "एकर"
   },
   {
     "id": "pron-okar",
@@ -166,7 +176,8 @@
       "possessive",
       "book-p70"
     ],
-    "devanagari": "ओकर"
+    "devanagari": "ओकर",
+    "ttsText": "ओकर"
   },
   {
     "id": "pron-i",
@@ -183,7 +194,8 @@
       "book-p70",
       "needs-verification"
     ],
-    "devanagari": "ई"
+    "devanagari": "ई",
+    "ttsText": "ई"
   },
   {
     "id": "pron-eke",
@@ -200,7 +212,8 @@
       "book-p70",
       "needs-verification"
     ],
-    "devanagari": "एके"
+    "devanagari": "एके",
+    "ttsText": "एके"
   },
   {
     "id": "pron-oke",
@@ -217,7 +230,8 @@
       "book-p70",
       "needs-verification"
     ],
-    "devanagari": "ओके"
+    "devanagari": "ओके",
+    "ttsText": "ओके"
   },
   {
     "id": "pron-inhan",
@@ -234,7 +248,8 @@
       "book-p71",
       "needs-verification"
     ],
-    "devanagari": "इन्हन"
+    "devanagari": "इन्हन",
+    "ttsText": "इन्हन"
   },
   {
     "id": "pron-unhan",
@@ -251,7 +266,8 @@
       "book-p71",
       "needs-verification"
     ],
-    "devanagari": "उन्हन"
+    "devanagari": "उन्हन",
+    "ttsText": "उन्हन"
   },
   {
     "id": "pron-ke",
@@ -267,7 +283,8 @@
       "interrogative",
       "book-p75"
     ],
-    "devanagari": "के"
+    "devanagari": "के",
+    "ttsText": "के"
   },
   {
     "id": "pron-kaun",
@@ -283,7 +300,8 @@
       "interrogative",
       "book-p75"
     ],
-    "devanagari": "कौन"
+    "devanagari": "कौन",
+    "ttsText": "कौन"
   },
   {
     "id": "pron-ka",
@@ -299,7 +317,8 @@
       "interrogative",
       "book-p75"
     ],
-    "devanagari": "का"
+    "devanagari": "का",
+    "ttsText": "का"
   },
   {
     "id": "pron-kaunci",
@@ -315,7 +334,8 @@
       "interrogative",
       "book-p75"
     ],
-    "devanagari": "कौन्चि"
+    "devanagari": "कौन्चि",
+    "ttsText": "कौन्चि"
   },
   {
     "id": "pron-kekar",
@@ -330,7 +350,8 @@
       "interrogative",
       "book-p76"
     ],
-    "devanagari": "केकर"
+    "devanagari": "केकर",
+    "ttsText": "केकर"
   },
   {
     "id": "pron-jaun",
@@ -346,7 +367,8 @@
       "relative",
       "book-p72"
     ],
-    "devanagari": "जौन"
+    "devanagari": "जौन",
+    "ttsText": "जौन"
   },
   {
     "id": "pron-je",
@@ -362,7 +384,8 @@
       "relative",
       "book-p72"
     ],
-    "devanagari": "जे"
+    "devanagari": "जे",
+    "ttsText": "जे"
   },
   {
     "id": "pron-jekar",
@@ -379,6 +402,7 @@
       "book-p72",
       "needs-verification"
     ],
-    "devanagari": "जेकर"
+    "devanagari": "जेकर",
+    "ttsText": "जेकर"
   }
 ]

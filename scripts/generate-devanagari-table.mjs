@@ -17,18 +17,25 @@
 //
 // Usage:
 //   node scripts/generate-devanagari-table.mjs           # write the review table (unchanged)
-//   node scripts/generate-devanagari-table.mjs --write    # merge `devanagari` into
-//                                                          # every content/sarnami/vocab/*.json item
+//   node scripts/generate-devanagari-table.mjs --write    # merge `devanagari` AND `ttsText`
+//                                                          # into every content/sarnami/vocab/*.json
+//                                                          # item (same computed value, two fields
+//                                                          # -- see writeDevanagariField()'s comment
+//                                                          # for why they're kept separate)
 //   node scripts/generate-devanagari-table.mjs --check    # exit non-zero if any vocab
-//                                                          # item's committed `devanagari`
-//                                                          # doesn't match toDevanagari(word)
+//                                                          # item's committed `devanagari` or
+//                                                          # `ttsText` doesn't match
+//                                                          # toDevanagari(word)
 //
 // --write/--check exist for issue #300 (the /dev/transliteration review page needs a
 // committed baseline to display before PR-B spends ElevenLabs tokens). Unlike the
-// review-table output above, `devanagari` here is a real, served content field
+// review-table output above, `devanagari`/`ttsText` here are real, served content fields
 // (content/sarnami/vocab -> rarelang-server's GET /content, verbatim passthrough) --
-// --check is meant to run in CI (validate-content.yml) so the field can never silently
-// drift from what toDevanagari() actually computes.
+// --check is meant to run in CI (validate-content.yml) so neither field can ever silently
+// drift from what toDevanagari() actually computes. `ttsText` is also the field the
+// generic backend engine reads verbatim and hands to TTS synthesis (no per-language
+// transformation on the engine side) -- see devanagari-transliterate.mjs's header for
+// the sole-ownership statement this depends on.
 
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
@@ -57,6 +64,17 @@ function readVocabFiles(vocabDir = VOCAB_DIR) {
 // vocab files that already round-trip that formatting exactly (verified separately,
 // see the sibling reformat commit) -- this does not attempt to preserve any other
 // hand-authored formatting.
+// Writes both `devanagari` and `ttsText` with the same computed value. The
+// two fields are byte-identical today but mean different things: `devanagari`
+// is the human-facing value rendered on rarelang-pwa's /dev/transliteration
+// review page, while `ttsText` is the machine-facing value the generic
+// backend engine reads verbatim and hands to TTS synthesis (it applies no
+// per-language text transformation of its own -- see this repo's sole
+// ownership of Sarnami-to-Devanagari transliteration, documented in
+// devanagari-transliterate.mjs's header). Keeping them as two separate keys
+// (rather than one field serving both purposes) leaves room for them to
+// diverge later without a breaking rename, e.g. if the review page ever
+// wants annotations ttsText shouldn't carry.
 export function writeDevanagariField(vocabDir = VOCAB_DIR) {
   const errors = [];
   let written = 0;
@@ -64,7 +82,8 @@ export function writeDevanagariField(vocabDir = VOCAB_DIR) {
     const next = items.map((item) => {
       if (typeof item.word !== "string") return item;
       try {
-        return { ...item, devanagari: toDevanagari(item.word) };
+        const value = toDevanagari(item.word);
+        return { ...item, devanagari: value, ttsText: value };
       } catch (e) {
         errors.push({ id: item.id, word: item.word, file, error: e.message });
         return item;
@@ -76,8 +95,12 @@ export function writeDevanagariField(vocabDir = VOCAB_DIR) {
   return { filesWritten: written, errors };
 }
 
-// Recomputes `devanagari` for every vocab item and reports any mismatch against the
-// committed value (including items missing the field entirely). Does not write.
+// Recomputes `devanagari`/`ttsText` for every vocab item and reports any
+// mismatch against the committed value (including items missing either field
+// entirely). Does not write. This is the sole remaining drift guard for both
+// fields now that the cross-repo devanagari-drift-check CI job is gone --
+// see scripts/devanagari-transliterate.mjs's header for why that job was
+// removed.
 export function checkDevanagariField(vocabDir = VOCAB_DIR) {
   const mismatches = [];
   const errors = [];
@@ -94,7 +117,24 @@ export function checkDevanagariField(vocabDir = VOCAB_DIR) {
         continue;
       }
       if (item.devanagari !== expected) {
-        mismatches.push({ id: item.id, word: item.word, file, expected, actual: item.devanagari ?? null });
+        mismatches.push({
+          id: item.id,
+          word: item.word,
+          file,
+          field: "devanagari",
+          expected,
+          actual: item.devanagari ?? null,
+        });
+      }
+      if (item.ttsText !== expected) {
+        mismatches.push({
+          id: item.id,
+          word: item.word,
+          file,
+          field: "ttsText",
+          expected,
+          actual: item.ttsText ?? null,
+        });
       }
     }
   }
@@ -246,9 +286,9 @@ function main() {
       for (const e of errors) console.error(`  ${e.file} ${e.id} ("${e.word}"): ${e.error}`);
     }
     if (mismatches.length > 0) {
-      console.error(`${mismatches.length} vocab item(s) have a stale/missing devanagari field:`);
+      console.error(`${mismatches.length} vocab item field(s) are stale/missing:`);
       for (const m of mismatches) {
-        console.error(`  ${m.file} ${m.id} ("${m.word}"): committed=${JSON.stringify(m.actual)} expected=${JSON.stringify(m.expected)}`);
+        console.error(`  ${m.file} ${m.id} ("${m.word}") [${m.field}]: committed=${JSON.stringify(m.actual)} expected=${JSON.stringify(m.expected)}`);
       }
     }
     if (errors.length > 0 || mismatches.length > 0) {

@@ -11,7 +11,8 @@
       "noun",
       "book-p22"
     ],
-    "devanagari": "घर"
+    "devanagari": "घर",
+    "ttsText": "घर"
   },
   {
     "id": "noun-ghari",
@@ -25,7 +26,8 @@
       "noun",
       "book-p41"
     ],
-    "devanagari": "घड़ी"
+    "devanagari": "घड़ी",
+    "ttsText": "घड़ी"
   },
   {
     "id": "noun-maibap",
@@ -39,7 +41,8 @@
       "noun",
       "book-p22"
     ],
-    "devanagari": "माई-बाप"
+    "devanagari": "माई-बाप",
+    "ttsText": "माई-बाप"
   },
   {
     "id": "noun-bhai",
@@ -53,7 +56,8 @@
       "noun",
       "book-p31"
     ],
-    "devanagari": "भाई"
+    "devanagari": "भाई",
+    "ttsText": "भाई"
   },
   {
     "id": "noun-bahin",
@@ -67,7 +71,8 @@
       "noun",
       "book-p22"
     ],
-    "devanagari": "बहिन"
+    "devanagari": "बहीण",
+    "ttsText": "बहीण"
   },
   {
     "id": "noun-maiya",
@@ -81,7 +86,8 @@
       "noun",
       "book-p22"
     ],
-    "devanagari": "मैया"
+    "devanagari": "मैया",
+    "ttsText": "मैया"
   },
   {
     "id": "noun-bappa",
@@ -95,7 +101,8 @@
       "noun",
       "book-p22"
     ],
-    "devanagari": "बप्पा"
+    "devanagari": "बप्पा",
+    "ttsText": "बप्पा"
   },
   {
     "id": "noun-beti",
@@ -110,7 +117,8 @@
       "noun",
       "book-p25"
     ],
-    "devanagari": "बेटी"
+    "devanagari": "बेटी",
+    "ttsText": "बेटी"
   },
   {
     "id": "noun-citthi",
@@ -125,7 +133,8 @@
       "noun",
       "book-p22"
     ],
-    "devanagari": "चिट्ठि"
+    "devanagari": "चिट्ठि",
+    "ttsText": "चिट्ठि"
   },
   {
     "id": "noun-kutta",
@@ -141,7 +150,8 @@
       "book-p22",
       "needs-verification"
     ],
-    "devanagari": "कुत्ता"
+    "devanagari": "कुत्ता",
+    "ttsText": "कुत्ता"
   },
   {
     "id": "noun-ghora",
@@ -157,7 +167,8 @@
       "book-p24",
       "needs-verification"
     ],
-    "devanagari": "घोड़ा"
+    "devanagari": "घोड़ा",
+    "ttsText": "घोड़ा"
   },
   {
     "id": "noun-per",
@@ -172,7 +183,8 @@
       "book-p22",
       "needs-verification"
     ],
-    "devanagari": "पेड़"
+    "devanagari": "पेड़",
+    "ttsText": "पेड़"
   },
   {
     "id": "noun-am",
@@ -188,7 +200,8 @@
       "book-p28",
       "needs-verification"
     ],
-    "devanagari": "आम"
+    "devanagari": "आम",
+    "ttsText": "आम"
   },
   {
     "id": "noun-gai",
@@ -204,7 +217,8 @@
       "book-p28",
       "needs-verification"
     ],
-    "devanagari": "गाई"
+    "devanagari": "गाई",
+    "ttsText": "गाई"
   },
   {
     "id": "noun-gadaha",
@@ -220,7 +234,8 @@
       "book-p26",
       "needs-verification"
     ],
-    "devanagari": "गदहा"
+    "devanagari": "गदहा",
+    "ttsText": "गदहा"
   },
   {
     "id": "noun-gadahi",
@@ -236,7 +251,8 @@
       "book-p26",
       "needs-verification"
     ],
-    "devanagari": "गदही"
+    "devanagari": "गदही",
+    "ttsText": "गदही"
   },
   {
     "id": "noun-launda",
@@ -252,7 +268,8 @@
       "book-p26",
       "needs-verification"
     ],
-    "devanagari": "लौन्दा"
+    "devanagari": "लौन्दा",
+    "ttsText": "लौन्दा"
   },
   {
     "id": "noun-chaumri",
@@ -268,7 +285,8 @@
       "book-p26",
       "needs-verification"
     ],
-    "devanagari": "छौम्ड़ी"
+    "devanagari": "छौरी",
+    "ttsText": "छौरी"
   },
   {
     "id": "noun-nana",
@@ -284,7 +302,8 @@
       "book-p26",
       "needs-verification"
     ],
-    "devanagari": "नाना"
+    "devanagari": "नाना",
+    "ttsText": "नाना"
   },
   {
     "id": "noun-nani",
@@ -300,7 +319,8 @@
       "book-p26",
       "needs-verification"
     ],
-    "devanagari": "ननी"
+    "devanagari": "नानी",
+    "ttsText": "नानी"
   },
   {
     "id": "noun-nak",
@@ -315,7 +335,8 @@
       "book-p22",
       "needs-verification"
     ],
-    "devanagari": "नाक"
+    "devanagari": "नाक",
+    "ttsText": "नाक"
   },
   {
     "id": "noun-churi",
@@ -331,7 +352,8 @@
       "book-p28",
       "needs-verification"
     ],
-    "devanagari": "छूरी"
+    "devanagari": "छूरी",
+    "ttsText": "छूरी"
   },
   {
     "id": "noun-kam",
@@ -344,7 +366,8 @@
     "tags": [
       "noun"
     ],
-    "devanagari": "काम"
+    "devanagari": "काम",
+    "ttsText": "काम"
   },
   {
     "id": "noun-bajar",
@@ -357,7 +380,8 @@
     "tags": [
       "noun"
     ],
-    "devanagari": "बजार"
+    "devanagari": "ब-जार",
+    "ttsText": "ब-जार"
   },
   {
     "id": "noun-sauda",
@@ -370,7 +394,8 @@
     "tags": [
       "noun"
     ],
-    "devanagari": "सौदा"
+    "devanagari": "सौदा",
+    "ttsText": "सौदा"
   },
   {
     "id": "noun-phal",
@@ -383,7 +408,8 @@
     "tags": [
       "noun"
     ],
-    "devanagari": "फल"
+    "devanagari": "फल",
+    "ttsText": "फल"
   },
   {
     "id": "noun-pani",
@@ -396,7 +422,8 @@
     "tags": [
       "noun"
     ],
-    "devanagari": "पानी"
+    "devanagari": "पानी",
+    "ttsText": "पानी"
   },
   {
     "id": "noun-pithi",
@@ -409,7 +436,8 @@
     "tags": [
       "noun"
     ],
-    "devanagari": "पीठी"
+    "devanagari": "पिट्ठी",
+    "ttsText": "पिट्ठी"
   },
   {
     "id": "noun-khartin",
@@ -422,7 +450,8 @@
     "tags": [
       "noun"
     ],
-    "devanagari": "खर्तिन"
+    "devanagari": "खर्तिन",
+    "ttsText": "खर्तिन"
   },
   {
     "id": "noun-ghams",
@@ -435,7 +464,8 @@
     "tags": [
       "noun"
     ],
-    "devanagari": "घांस"
+    "devanagari": "घांस",
+    "ttsText": "घांस"
   },
   {
     "id": "noun-ram",
@@ -449,7 +479,8 @@
       "noun",
       "proper-noun"
     ],
-    "devanagari": "रम"
+    "devanagari": "राम",
+    "ttsText": "राम"
   },
   {
     "id": "noun-rustam",
@@ -463,7 +494,8 @@
       "noun",
       "proper-noun"
     ],
-    "devanagari": "रुस्तम"
+    "devanagari": "रुस्तम",
+    "ttsText": "रुस्तम"
   },
   {
     "id": "noun-raja",
@@ -477,7 +509,8 @@
     "tags": [
       "noun"
     ],
-    "devanagari": "रजा"
+    "devanagari": "रा-जा",
+    "ttsText": "रा-जा"
   },
   {
     "id": "noun-gopal",
@@ -491,7 +524,8 @@
       "noun",
       "proper-noun"
     ],
-    "devanagari": "गोपाल"
+    "devanagari": "गोपाल",
+    "ttsText": "गोपाल"
   },
   {
     "id": "noun-sita",
@@ -505,7 +539,8 @@
       "noun",
       "proper-noun"
     ],
-    "devanagari": "सिता"
+    "devanagari": "सिता",
+    "ttsText": "सिता"
   },
   {
     "id": "noun-anguthi",
@@ -518,7 +553,8 @@
     "tags": [
       "noun"
     ],
-    "devanagari": "अङ्गुट्ठी"
+    "devanagari": "अङ्गुट्ठी",
+    "ttsText": "अङ्गुट्ठी"
   },
   {
     "id": "noun-bed",
@@ -535,7 +571,8 @@
       "book",
       "needs-verification"
     ],
-    "devanagari": "बेद"
+    "devanagari": "बेद",
+    "ttsText": "बेद"
   },
   {
     "id": "noun-batiya",
@@ -551,7 +588,8 @@
       "book",
       "needs-verification"
     ],
-    "devanagari": "बतिया"
+    "devanagari": "बतिया",
+    "ttsText": "बतिया"
   },
   {
     "id": "noun-hath",
@@ -567,7 +605,8 @@
       "book",
       "needs-verification"
     ],
-    "devanagari": "हाथ"
+    "devanagari": "हाथ",
+    "ttsText": "हाथ"
   },
   {
     "id": "noun-baris",
@@ -582,7 +621,8 @@
       "noun",
       "needs-verification"
     ],
-    "devanagari": "बरिश"
+    "devanagari": "बरिश",
+    "ttsText": "बरिश"
   },
   {
     "id": "noun-mahes",
@@ -598,7 +638,8 @@
       "proper-noun",
       "book-p55"
     ],
-    "devanagari": "महेस"
+    "devanagari": "महेस",
+    "ttsText": "महेस"
   },
   {
     "id": "noun-hariya",
@@ -614,7 +655,8 @@
       "proper-noun",
       "book-p56"
     ],
-    "devanagari": "हरिया"
+    "devanagari": "हरिया",
+    "ttsText": "हरिया"
   },
   {
     "id": "noun-somth",
@@ -629,7 +671,8 @@
       "noun",
       "book-p56"
     ],
-    "devanagari": "सोम्थ"
+    "devanagari": "सोम्थ",
+    "ttsText": "सोम्थ"
   },
   {
     "id": "noun-sarnam",
@@ -645,7 +688,8 @@
       "proper-noun",
       "book-p59"
     ],
-    "devanagari": "सरनाम्"
+    "devanagari": "सरनाम्",
+    "ttsText": "सरनाम्"
   },
   {
     "id": "noun-adami",
@@ -660,7 +704,8 @@
       "noun",
       "book-p59"
     ],
-    "devanagari": "अदमी"
+    "devanagari": "अदमी",
+    "ttsText": "अदमी"
   },
   {
     "id": "noun-bakari",
@@ -675,6 +720,7 @@
       "noun",
       "book-p57"
     ],
-    "devanagari": "बकरी"
+    "devanagari": "बकरी",
+    "ttsText": "बकरी"
   }
 ]

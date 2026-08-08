@@ -14,7 +14,8 @@
       "needs-verification"
     ],
     "notes": "Afleiding met het achtervoegsel -akkaṛ (gewoontedoener), gevormd van de stam ghum- ('rondtrekken').",
-    "devanagari": "घुमक्कड़"
+    "devanagari": "घुमक्कड़",
+    "ttsText": "घुमक्कड़"
   },
   {
     "id": "wf-piyakkar",
@@ -31,7 +32,8 @@
       "needs-verification"
     ],
     "notes": "Afleiding met -akkaṛ (gewoontedoener), van piy- ('drinken').",
-    "devanagari": "पियक्कड़"
+    "devanagari": "पियक्कड़",
+    "ttsText": "पियक्कड़"
   },
   {
     "id": "wf-lohar",
@@ -48,7 +50,8 @@
       "needs-verification"
     ],
     "notes": "Beroepsnaam met het achtervoegsel -ār, van lŏhā ('ijzer').",
-    "devanagari": "लोहार"
+    "devanagari": "लोहार",
+    "ttsText": "लोहार"
   },
   {
     "id": "wf-sonar",
@@ -65,7 +68,8 @@
       "needs-verification"
     ],
     "notes": "Beroepsnaam met -ār, van sŏnā ('goud').",
-    "devanagari": "सोनार"
+    "devanagari": "सोनार",
+    "ttsText": "सोनार"
   },
   {
     "id": "wf-parhai",
@@ -82,7 +86,8 @@
       "needs-verification"
     ],
     "notes": "Abstract zelfstandig naamwoord met het achtervoegsel -āī, van paṛh- ('lezen, studeren').",
-    "devanagari": "पढ़ाई"
+    "devanagari": "पढ़ाई",
+    "ttsText": "पढ़ाई"
   },
   {
     "id": "wf-safai",
@@ -99,7 +104,8 @@
       "needs-verification"
     ],
     "notes": "Abstract zelfstandig naamwoord met -āī, van sāf ('schoon').",
-    "devanagari": "सफ़ाई"
+    "devanagari": "सफ़ाई",
+    "ttsText": "सफ़ाई"
   },
   {
     "id": "wf-topivala",
@@ -116,7 +122,8 @@
       "needs-verification"
     ],
     "notes": "Vorming met het achtervoegsel -vāl(-ā) ('degene met/van X'), van ṭopī ('hoed').",
-    "devanagari": "टोपी-वाला"
+    "devanagari": "टोपी-वाला",
+    "ttsText": "टोपी-वाला"
   },
   {
     "id": "wf-macharivala",
@@ -133,7 +140,8 @@
       "needs-verification"
     ],
     "notes": "Vorming met -vāl(-ā), van macharī ('vis').",
-    "devanagari": "मछरी-वाला"
+    "devanagari": "मछरी-वाला",
+    "ttsText": "मछरी-वाला"
   },
   {
     "id": "wf-imandar",
@@ -151,7 +159,8 @@
       "needs-verification"
     ],
     "notes": "Afleiding met het Arabisch-Perzische achtervoegsel -dār ('bezittend, houder van'), van imān ('eer, geloof').",
-    "devanagari": "इमान्दार"
+    "devanagari": "इमान्दार",
+    "ttsText": "इमान्दार"
   },
   {
     "id": "wf-dukandar",
@@ -169,7 +178,8 @@
       "needs-verification"
     ],
     "notes": "Afleiding met -dār ('houder van'), van dukān ('winkel').",
-    "devanagari": "दुकान्दार"
+    "devanagari": "दुकान्दार",
+    "ttsText": "दुकान्दार"
   },
   {
     "id": "wf-jadugar",
@@ -187,7 +197,8 @@
       "needs-verification"
     ],
     "notes": "Afleiding met het achtervoegsel -gar ('maker, doener'), van jādū ('toverkunst').",
-    "devanagari": "जादूगर"
+    "devanagari": "जादूगर",
+    "ttsText": "जादूगर"
   },
   {
     "id": "wf-karigar",
@@ -205,7 +216,8 @@
       "needs-verification"
     ],
     "notes": "Afleiding met -gar ('maker, doener'), van kār ('werk').",
-    "devanagari": "कारीगर"
+    "devanagari": "कारीगर",
+    "ttsText": "कारीगर"
   },
   {
     "id": "wf-davakhana",
@@ -223,7 +235,8 @@
       "needs-verification"
     ],
     "notes": "Samenstelling met het achtervoegsel -khānā ('huis, plaats'), van davā ('medicijn').",
-    "devanagari": "दवा-खाना"
+    "devanagari": "दवा-खाना",
+    "ttsText": "दवा-खाना"
   },
   {
     "id": "wf-chapkhana",
@@ -241,7 +254,8 @@
       "needs-verification"
     ],
     "notes": "Samenstelling met -khānā ('huis, plaats'), van chap ('druk').",
-    "devanagari": "छप्खाना"
+    "devanagari": "छप्खाना",
+    "ttsText": "छप्खाना"
   },
   {
     "id": "wf-becain",
@@ -259,7 +273,8 @@
       "needs-verification"
     ],
     "notes": "Afleiding met het Arabisch-Perzische voorvoegsel be- ('zonder, -loos'), van cain ('rust').",
-    "devanagari": "बेचैन"
+    "devanagari": "बेचाइन",
+    "ttsText": "बेचाइन"
   },
   {
     "id": "wf-nalayak",
@@ -277,6 +292,7 @@
       "needs-verification"
     ],
     "notes": "Afleiding met het ontkennende voorvoegsel nā- ('on-, niet'), van lāyak ('geschikt, bekwaam').",
-    "devanagari": "ना-लायक"
+    "devanagari": "ना-लायक",
+    "ttsText": "ना-लायक"
   }
 ]

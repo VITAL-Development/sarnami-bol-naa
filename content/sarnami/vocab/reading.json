@@ -14,7 +14,8 @@
       "needs-verification"
     ],
     "notes": "Passagewoord uit Bijlage 1 'Nātī aur nānī ke khissā' (het verhaal van de grootmoeder en de kleinzoon). Verkleinde/bepaalde vorm in de tekst: naniyā.",
-    "devanagari": "नानी"
+    "devanagari": "नानी",
+    "ttsText": "नानी"
   },
   {
     "id": "read-nati",
@@ -31,7 +32,8 @@
       "needs-verification"
     ],
     "notes": "Passagewoord uit Bijlage 1. Bepaalde vorm in de tekst: natiyā.",
-    "devanagari": "नाती"
+    "devanagari": "नाती",
+    "ttsText": "नाती"
   },
   {
     "id": "read-bakari",
@@ -48,7 +50,8 @@
       "needs-verification"
     ],
     "notes": "Passagewoord uit Bijlage 1: 'bakarī-bheṁṛā' (geiten en schapen), meervoud/bepaalde vorm bakariyan.",
-    "devanagari": "बकरी"
+    "devanagari": "बकरी",
+    "ttsText": "बकरी"
   },
   {
     "id": "read-per",
@@ -65,7 +68,8 @@
       "needs-verification"
     ],
     "notes": "Passagewoord uit Bijlage 1: de jongen klimt in een peṛ (bepaalde vorm peṛvā).",
-    "devanagari": "पेड़"
+    "devanagari": "पेड़",
+    "ttsText": "पेड़"
   },
   {
     "id": "read-bhuja",
@@ -82,7 +86,8 @@
       "needs-verification"
     ],
     "notes": "Passagewoord uit Bijlage 1: de grootmoeder geeft de kleinzoon bhūjā mee.",
-    "devanagari": "भूजा"
+    "devanagari": "भूजा",
+    "ttsText": "भूजा"
   },
   {
     "id": "read-beta",
@@ -99,7 +104,8 @@
       "needs-verification"
     ],
     "notes": "Passagewoord uit Bijlage 2 'Herāil beṭavā' (de verloren zoon); bepaalde vorm beṭavā/beṭauvā. Vergelijk noun-beṭī (dochter) uit unit-01.",
-    "devanagari": "बेटा"
+    "devanagari": "बेटा",
+    "ttsText": "बेटा"
   },
   {
     "id": "read-bap",
@@ -116,7 +122,8 @@
       "needs-verification"
     ],
     "notes": "Passagewoord uit Bijlage 2; bepaalde vorm bapavā. Aanspreekvorm 'e bāp' = 'o, vader'. Naast de eerder geleerde vorm bappā (noun-bappa).",
-    "devanagari": "बाप"
+    "devanagari": "बाप",
+    "ttsText": "बाप"
   },
   {
     "id": "read-dhan",
@@ -133,7 +140,8 @@
       "needs-verification"
     ],
     "notes": "Passagewoord uit Bijlage 2: de jongere zoon vraagt zijn deel van het dhan (dhan-daulat = rijkdom en have).",
-    "devanagari": "धन"
+    "devanagari": "धन",
+    "ttsText": "धन"
   },
   {
     "id": "read-naukar",
@@ -150,7 +158,8 @@
       "needs-verification"
     ],
     "notes": "Passagewoord uit Bijlage 2: 'naukar-cākar' (bedienden), bepaalde/meervoudsvorm naukaran.",
-    "devanagari": "नौकर"
+    "devanagari": "नौकर",
+    "ttsText": "नौकर"
   },
   {
     "id": "read-pap",
@@ -167,7 +176,8 @@
       "needs-verification"
     ],
     "notes": "Passagewoord uit Bijlage 2: 'bhārī pāp bhail' (ik heb een grote zonde begaan).",
-    "devanagari": "पाप"
+    "devanagari": "पाप",
+    "ttsText": "पाप"
   },
   {
     "id": "read-siyar",
@@ -184,7 +194,8 @@
       "needs-verification"
     ],
     "notes": "Hoofdpersoon van Bijlage 3 'Canak siyar' (de slimme vos); bepaalde vorm siyarva. Bijlage 3 is gezet in de vereenvoudigde SCS-spelling zonder diacritische tekens, dus het woord verschijnt als 'siyar' (wetenschappelijk zou dit siyār zijn). Spelling zoals in de passage aangehouden;.",
-    "devanagari": "सियर"
+    "devanagari": "सियार",
+    "ttsText": "सियार"
   },
   {
     "id": "read-kaiman",
@@ -201,7 +212,8 @@
       "needs-verification"
     ],
     "notes": "Tegenspeler in Bijlage 3; vrouwelijke vorm kaimanin, bepaalde vorm kaimaninya. Bijlage 3 gebruikt de vereenvoudigde SCS-spelling (geen diacritische tekens). Spelling zoals in de passage;.",
-    "devanagari": "कैमन"
+    "devanagari": "काईमान",
+    "ttsText": "काईमान"
   },
   {
     "id": "read-akkil",
@@ -218,7 +230,8 @@
       "needs-verification"
     ],
     "notes": "Kernbegrip van Bijlage 3: de moraal 'Akkil ke age tagat kuch na kam kar sake hai' (tegen verstand kan kracht niets uitrichten). SCS-spelling zoals in de passage;.",
-    "devanagari": "अक्किल"
+    "devanagari": "अक्किल",
+    "ttsText": "अक्किल"
   },
   {
     "id": "read-tagat",
@@ -235,7 +248,8 @@
       "needs-verification"
     ],
     "notes": "Kernbegrip van Bijlage 3, tegenover akkil (verstand): de kaaiman heeft tagat, de vos akkil. SCS-spelling zoals in de passage;.",
-    "devanagari": "तगत"
+    "devanagari": "तगत",
+    "ttsText": "तगत"
   },
   {
     "id": "read-jangal",
@@ -252,6 +266,7 @@
       "needs-verification"
     ],
     "notes": "Passagewoord uit Bijlage 3: na de ruzie gaat de vos het jangal in en de kaaiman de rivier (nadi) in. SCS-spelling zoals in de passage;.",
-    "devanagari": "जंगल"
+    "devanagari": "जंगल",
+    "ttsText": "जंगल"
   }
 ]

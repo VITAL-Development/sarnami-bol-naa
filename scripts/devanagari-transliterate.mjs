@@ -5,6 +5,17 @@
 // scripts/scs-transliterate.mjs was built from, but consumed here for its
 // Devanagari columns instead of its "Aangepaste SCS-spelling" column.
 //
+// Sole ownership: this repo is the single source of truth for Sarnami-to-
+// Devanagari transliteration. toDevanagari() here is what
+// scripts/generate-devanagari-table.mjs runs to populate every vocab item's
+// `devanagari` (human-facing review value) and `ttsText` (machine-facing
+// value) fields, and both are committed content. The generic backend engine
+// that serves this content applies no per-language text transformation of
+// its own -- it reads the committed `ttsText` field verbatim and hands it to
+// TTS synthesis. There is no second, hand-synced copy of this module
+// anywhere else to keep in sync; a correction here, followed by
+// `--write`/`--check`, is the entire fix.
+//
 // Why this exists: facebook/mms-tts-hns's tokenizer flattens all of this
 // repo's diacritic Sarnami to ~30 ASCII/acute-accent characters, which can't
 // represent Sarnami's real retroflex/aspirate/nasal/vowel-length
@@ -411,6 +422,52 @@ export const RAW_WORD_OVERRIDES = {
   // a hyphen break before आवे, replacing round 3's से...तियावे shape
   // (and reverting its nasal marking).
   sĕtiyāve: "सेती-आवे",
+
+  // Group 4 -- owner review of the /dev/transliteration page (30
+  // corrections, sarnami-bol-naa issue #304). Unlike groups 1-3, these
+  // aren't one systematic pattern -- each is an independent word-by-word
+  // owner spelling judgment call (vowel length, an extra "-" as
+  // pronunciation/syllable-break notation the owner asked to preserve
+  // as-is, a couple of outright mechanical-conversion misses). Applied
+  // verbatim, no further "cleanup" of hyphens/spacing attempted here.
+  //
+  // sait: TWO vocab ids (adv-sait, struct-misschien) share this `word` --
+  // RAW_WORD_OVERRIDES is word-keyed so they can't diverge. The owner's raw
+  // review list proposed two different spellings for the two ids; resolved
+  // to साईट (struct-misschien's value) for both, per the owner's own
+  // resolution of the conflict in issue #304.
+  sait: "साईट",
+  girmiṭ: "गीरमीट",
+  dūr: "दुउर",
+  "dhīre-dhīre": "धीरे - धीरे",
+  nagicce: "नगीच्चे",
+  parsīs: "परसीस",
+  nicce: "नीच्चे",
+  Hindustani: "हिन्दुस्तानी",
+  // Was a LOW-CONFIDENCE candidate per generate-devanagari-table.mjs's
+  // loanwordDutchOrthography note (needed a Dutch-speaker audio A/B on the
+  // eu-vowel nucleus) -- owner review (issue #304) settles it: बेकर्र करे.
+  "bekeur kare": "बेकर्र करे",
+  "bel kare": "बैल करे",
+  bahin: "बहीण",
+  bajār: "ब-जार",
+  chaumṛī: "छौरी",
+  nanī: "नानी",
+  pīṭhī: "पिट्ठी",
+  rajā: "रा-जा",
+  Ram: "राम",
+  // par: TWO vocab ids (post-par, struct-op) share this `word`.
+  par: "पर-",
+  hamār: "हमार-",
+  kaiman: "काईमान",
+  siyar: "सियार",
+  ainā: "आईना",
+  kaiñcī: "काईंछी",
+  phul: "फूल",
+  baiṭhe: "बाइ-ठे",
+  dai: "दाई",
+  sikhe: "सीखे",
+  becain: "बेचाइन",
 };
 
 /** Sarnami diacritic `word` -> Devanagari spelling, for Piper TTS input. */
