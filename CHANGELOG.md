@@ -19,6 +19,8 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+## [0.11.0] - 2026-08-08
+
 ### Added
 
 - Every `content/sarnami/vocab/*.json` item: new optional `ttsText` field,
