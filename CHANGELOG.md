@@ -19,6 +19,33 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Changed
+
+- `content/sarnami/audio/*.mp3`: regenerated all 312 entries with
+  ElevenLabs (`eleven_multilingual_v2`, "Sudhir" voice,
+  `audio.elevenLabsVoiceId` from v0.9.0's `language-settings.json`),
+  superseding the v0.8.0 Piper batch. rarelang-server#125 found Piper
+  (`hi_IN-rohan-medium`) renders word-final consonants inaudibly or very
+  faintly; rarelang-server#130 confirmed by ear that Sudhir pronounces the
+  previously-broken words correctly from mechanical Devanagari. Also fixes
+  a voice mismatch introduced by rarelang-server#131 (ElevenLabs primary
+  realtime tier): before this change, cached static mp3s were Piper while
+  realtime synthesis was ElevenLabs for the same words.
+  `scripts/generate-audio-elevenlabs.mjs` (new) called the deployed
+  server's public `GET /audio/tts` with each entry's romanized `word` (not
+  Devanagari) so the server's own vetting/matching and its now-committed
+  `ttsText` (v0.11.0) determine the exact spelling synthesized — this
+  repo never sends Devanagari itself, keeping the committed static bytes
+  identical-by-construction to what the realtime route serves for the
+  same word. Response bytes are committed verbatim (mp3_44100_128, no
+  ffmpeg re-encode); directory size grew from ~2.2 MB to ~4.9 MB. Every
+  response's `X-Tts-Cache` header was asserted to contain `ELEVENLABS`
+  (never a Piper-fallback `HIT`/`MISS`) before being accepted — see
+  #300 design decision D7. No changes to `content/sarnami/vocab/*.json`;
+  `audioUrl` values are unchanged (same 312 filenames). Ran against the
+  ttsText/Devanagari corrections already reviewed and merged in v0.10.0
+  (#302) and v0.11.0 (#305) — see #300 and #304 for that review process.
+
 ## [0.11.0] - 2026-08-08
 
 ### Added
