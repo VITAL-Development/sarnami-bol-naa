@@ -54,7 +54,7 @@ import { readVocabEntries, REPO_ROOT } from "./generate-audio-piper.mjs";
 
 const DEFAULT_DELAY_MS = 300;
 
-function parseArgs(argv) {
+export function parseArgs(argv) {
   const args = { server: null, out: null, ids: null, delayMs: DEFAULT_DELAY_MS };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === "--server") args.server = argv[++i];
@@ -70,7 +70,7 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function fetchOne(server, word) {
+export async function fetchOne(server, word) {
   const url = `${server}/audio/tts?lang=sarnami&text=${encodeURIComponent(word)}`;
   const res = await fetch(url);
   const cacheHeader = res.headers.get("x-tts-cache") || "";
@@ -136,7 +136,20 @@ async function main() {
   );
 }
 
-main().catch((err) => {
+// Extracted so a test can assert the console.error/process.exitCode contract
+// without re-running main() itself (D7: the whole point is that a failed
+// run must be loud -- a logged message plus a non-zero exit code, never a
+// silent success -- since this only runs headless in CI/CLI, not the PWA's
+// UI, there's no modal to surface this in).
+export function reportFatalError(err) {
   console.error(`\nABORTED: ${err.message}`);
   process.exitCode = 1;
-});
+}
+
+// Guard CLI execution behind this check (matches generate-audio-piper.mjs and
+// generate-scs-word-list.mjs) so this module can be `import`-ed by its test
+// file -- and, by extension, by scratch/audit tooling -- without triggering a
+// real (paid) batch run as a side effect.
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main().catch(reportFatalError);
+}
