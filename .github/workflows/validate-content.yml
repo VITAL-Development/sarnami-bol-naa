@@ -287,6 +287,39 @@ jobs:
         if: steps.changed.outputs.any == 'true'
         run: node --test scripts/generate-scs-word-list.test.mjs
 
+  validate-generate-audio-elevenlabs:
+    name: validate-generate-audio-elevenlabs (unit tests)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Same cost/time control as validate-scs-word-list above: most PRs
+      # don't touch this batch script, so most runs should skip setup-node
+      # entirely. Only the script + its test file are checked here -- no
+      # network/ElevenLabs call happens in CI (fetch is stubbed in the test),
+      # and this is unit coverage of error handling only, not the ASR/audio
+      # review pass from #300 Step 3.
+      - name: List changed files
+        id: changed
+        run: |
+          files=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- scripts/generate-audio-elevenlabs.mjs scripts/generate-audio-elevenlabs.test.mjs)
+          if [ -z "$files" ]; then
+            echo "any=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "any=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.changed.outputs.any == 'true'
+        with:
+          node-version: "22"
+
+      - name: Run unit tests
+        if: steps.changed.outputs.any == 'true'
+        run: node --test scripts/generate-audio-elevenlabs.test.mjs
+
   validate-devanagari:
     name: validate-devanagari (generated-field freshness)
     runs-on: ubuntu-latest
