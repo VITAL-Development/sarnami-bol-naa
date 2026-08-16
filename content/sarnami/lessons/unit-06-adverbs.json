@@ -23,7 +23,9 @@
           "verb-khai",
           "verb-leve",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "आज हम आम खाइ लेली है.",
+        "ttsText": "आज हम आम खाइ लेली है."
       },
       {
         "id": "ex-tp-2",
@@ -44,7 +46,9 @@
           "noun-kutta",
           "verb-dekhe",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "रोज ऊ कुत्ता देखे है.",
+        "ttsText": "रोज ऊ कुत्ता देखे है."
       },
       {
         "id": "ex-tp-4",
@@ -63,7 +67,9 @@
           "pron-ham",
           "noun-ghora",
           "verb-kine"
-        ]
+        ],
+        "devanagari": "बिहान हम घोड़ा कीनब.",
+        "ttsText": "बिहान हम घोड़ा कीनब."
       },
       {
         "id": "ex-tp-5",
@@ -82,7 +88,9 @@
           "pron-ham",
           "noun-kutta",
           "verb-dekhe"
-        ]
+        ],
+        "devanagari": "काल हम कुत्ता देख्ली.",
+        "ttsText": "काल हम कुत्ता देख्ली."
       },
       {
         "id": "ex-tp-6",
@@ -99,7 +107,9 @@
           "noun-kutta",
           "adv-baahar",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "कुत्ता बाहर है.",
+        "ttsText": "कुत्ता बाहर है."
       },
       {
         "id": "ex-tp-7",
@@ -116,7 +126,9 @@
           "noun-ghora",
           "adv-nicce",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "घोड़ा निच्वां है.",
+        "ttsText": "घोड़ा निच्वां है."
       }
     ],
     "grammarNotes": [
@@ -333,7 +345,9 @@
           "adv-dhire",
           "verb-bole",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ धीरे बोले है.",
+        "ttsText": "ऊ धीरे बोले है."
       },
       {
         "id": "ex-md-2",
@@ -352,7 +366,9 @@
           "adv-dhire-dhire",
           "verb-cale",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ धीरे - धीरे चले है.",
+        "ttsText": "ऊ धीरे - धीरे चले है."
       },
       {
         "id": "ex-md-3",
@@ -369,7 +385,9 @@
           "pron-ham",
           "adv-sacce",
           "verb-bole"
-        ]
+        ],
+        "devanagari": "हम सच्चे बोलिला.",
+        "ttsText": "हम सच्चे बोलिला."
       },
       {
         "id": "ex-md-5",
@@ -388,7 +406,9 @@
           "adv-bahut",
           "verb-bole",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ बहुत बोले है.",
+        "ttsText": "ऊ बहुत बोले है."
       },
       {
         "id": "ex-md-6",
@@ -406,7 +426,9 @@
           "adv-thora-se",
           "adv-thora-se",
           "verb-khai"
-        ]
+        ],
+        "devanagari": "हम थोरा से खाइला.",
+        "ttsText": "हम थोरा से खाइला."
       },
       {
         "id": "ex-md-8",
@@ -423,7 +445,9 @@
           "noun-kutta",
           "adv-habara",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "कुत्ता हबरा है.",
+        "ttsText": "कुत्ता हबरा है."
       },
       {
         "id": "ex-md-9",
@@ -440,7 +464,9 @@
           "noun-ghar",
           "adv-kanti",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "घर कन्ती है.",
+        "ttsText": "घर कन्ती है."
       },
       {
         "id": "ex-md-10",
@@ -459,7 +485,9 @@
           "adv-parsis",
           "verb-bole",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ परसीस बोले है.",
+        "ttsText": "ऊ परसीस बोले है."
       }
     ],
     "grammarNotes": [

@@ -11,7 +11,9 @@
         "vocabRefs": [
           "int-he",
           "verb-dekhe"
-        ]
+        ],
+        "devanagari": "हे देख!",
+        "ttsText": "हे देख!"
       },
       {
         "id": "ex-int-2",
@@ -22,7 +24,9 @@
         "vocabRefs": [
           "int-ho",
           "verb-dekhe"
-        ]
+        ],
+        "devanagari": "हो देख!",
+        "ttsText": "हो देख!"
       },
       {
         "id": "ex-int-3",
@@ -32,7 +36,9 @@
         },
         "vocabRefs": [
           "int-sabas"
-        ]
+        ],
+        "devanagari": "साबास!",
+        "ttsText": "साबास!"
       },
       {
         "id": "ex-int-6",
@@ -42,7 +48,9 @@
         },
         "vocabRefs": [
           "int-accha"
-        ]
+        ],
+        "devanagari": "अच्छा!",
+        "ttsText": "अच्छा!"
       },
       {
         "id": "ex-int-7",
@@ -52,7 +60,9 @@
         },
         "vocabRefs": [
           "int-cup"
-        ]
+        ],
+        "devanagari": "चुप!",
+        "ttsText": "चुप!"
       },
       {
         "id": "ex-int-8",
@@ -62,7 +72,9 @@
         },
         "vocabRefs": [
           "int-aya"
-        ]
+        ],
+        "devanagari": "अया!",
+        "ttsText": "अया!"
       },
       {
         "id": "ex-int-9",
@@ -72,7 +84,9 @@
         },
         "vocabRefs": [
           "int-bap-re-bap"
-        ]
+        ],
+        "devanagari": "बाप-रे-बाप!",
+        "ttsText": "बाप-रे-बाप!"
       },
       {
         "id": "ex-int-10",
@@ -82,7 +96,9 @@
         },
         "vocabRefs": [
           "int-vah-vah"
-        ]
+        ],
+        "devanagari": "वाह-वाह!",
+        "ttsText": "वाह-वाह!"
       },
       {
         "id": "ex-int-11",
@@ -92,7 +108,9 @@
         },
         "vocabRefs": [
           "int-albat"
-        ]
+        ],
+        "devanagari": "अल्बत!",
+        "ttsText": "अल्बत!"
       },
       {
         "id": "ex-int-12",
@@ -102,7 +120,9 @@
         },
         "vocabRefs": [
           "int-cor-cor"
-        ]
+        ],
+        "devanagari": "चोर-चोर!",
+        "ttsText": "चोर-चोर!"
       },
       {
         "id": "ex-int-13",
@@ -112,7 +132,9 @@
         },
         "vocabRefs": [
           "int-hay-hay"
-        ]
+        ],
+        "devanagari": "हाय-हाय!",
+        "ttsText": "हाय-हाय!"
       },
       {
         "id": "ex-int-14",
@@ -122,7 +144,9 @@
         },
         "vocabRefs": [
           "int-oho"
-        ]
+        ],
+        "devanagari": "ओहो!",
+        "ttsText": "ओहो!"
       }
     ],
     "grammarNotes": [

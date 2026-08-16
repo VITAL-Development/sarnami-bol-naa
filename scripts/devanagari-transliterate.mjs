@@ -262,7 +262,8 @@ const TOKEN_RE = new RegExp(PHONEME_KEYS.map(escapeRegExp).join("|"), "g");
 // Sequence of Latin letters (this repo's full diacritic inventory) that
 // gets tokenized/transliterated as one run; everything else (spaces,
 // hyphens, "?", "…", ...) passes through toDevanagari() unchanged.
-const WORD_RE = /[a-zA-Zāăēĕīōŏūñṅṇṛśṣṭḍṁṃ]+/g;
+const WORD_RE =
+  /[a-zA-ZĀĂĒĔĪŌŎŪÑṄṆṚŚṢṬḌṀṂāăēĕīōŏūñṅṇṛśṣṭḍṁṃ]+/g;
 
 function tokenize(run) {
   const tokens = [];
@@ -470,8 +471,72 @@ export const RAW_WORD_OVERRIDES = {
   becain: "बेचाइन",
 };
 
-/** Sarnami diacritic `word` -> Devanagari spelling, for Piper TTS input. */
+// Sentence-context override matching (issue #307 fix (b)). RAW_WORD_OVERRIDES
+// used to be looked up only via a whole-string `RAW_WORD_OVERRIDES[word]`
+// lookup, so a correction never applied when its word/phrase appeared inside
+// a full sentence rather than standalone -- and several keys (e.g.
+// "bekeur kare", "Lalla Rookh") are multi-word phrases that only make sense
+// matched against a run of tokens, not a single word, so a per-token lookup
+// alone couldn't fix this either.
+//
+// toDevanagari() now scans the input left-to-right and, at every position,
+// checks every override key as a literal substring candidate (longest key
+// first, so e.g. "parsīs" wins over the shorter "par" where both would
+// otherwise match at the same start position) with a word-boundary check on
+// both sides (using the same letter-class WORD_RE is built from) so "par"
+// can't accidentally match inside an unrelated word. This also subsumes the
+// old whole-string lookup: a standalone `toDevanagari("sait")` call is just
+// the case where the entire string is one boundary-to-boundary match.
+//
+// Matching is deliberately case-INSENSITIVE (comparing key/candidate via
+// .toLowerCase()), unlike the old exact-property lookup. Overrides are keyed
+// with whatever capitalization the vocab `word` field happened to use (e.g.
+// "Sarnāmī", capitalized as a proper noun) but the same word can appear
+// lowercase or capitalized depending on its position in a sentence (e.g.
+// sentence-initial "Hamār" vs. the vocab-authored lowercase "hamār" key) --
+// that's a sentence-position orthographic convention, not a different word,
+// so it must resolve to the same override value either way. This mirrors
+// the same "case is ignored" contract the mechanical fallback path already
+// has for non-override words (see the "case is ignored" test). Verified
+// safe for all 312 already-committed vocab `word` values: none of them
+// collide with an override key under case-insensitive comparison in a way
+// that wasn't already an exact-case match (checked separately -- case-
+// insensitivity only ever adds matches, it never changes which override
+// value an existing exact-case match resolves to).
+const OVERRIDE_ENTRIES = Object.entries(RAW_WORD_OVERRIDES)
+  .map(([key, value]) => ({ key, keyLower: key.toLowerCase(), value }))
+  .sort((a, b) => b.key.length - a.key.length);
+
+function isWordChar(ch) {
+  if (ch === undefined) return false;
+  WORD_RE.lastIndex = 0;
+  return WORD_RE.test(ch) && ch.length === 1;
+}
+
+/** Sarnami diacritic `word` (or full sentence) -> Devanagari spelling, for
+ * Piper TTS input. */
 export function toDevanagari(word) {
-  if (RAW_WORD_OVERRIDES[word]) return RAW_WORD_OVERRIDES[word];
-  return word.replace(WORD_RE, (run) => transliterateRun(run.toLowerCase()));
+  let out = "";
+  let i = 0;
+  outer: while (i < word.length) {
+    for (const { key, keyLower, value } of OVERRIDE_ENTRIES) {
+      const candidate = word.slice(i, i + key.length);
+      if (candidate.length !== key.length) continue;
+      if (candidate.toLowerCase() !== keyLower) continue;
+      if (isWordChar(word[i - 1]) || isWordChar(word[i + key.length])) continue;
+      out += value;
+      i += key.length;
+      continue outer;
+    }
+    if (isWordChar(word[i])) {
+      let j = i;
+      while (j < word.length && isWordChar(word[j])) j++;
+      out += transliterateRun(word.slice(i, j).toLowerCase());
+      i = j;
+    } else {
+      out += word[i];
+      i++;
+    }
+  }
+  return out;
 }

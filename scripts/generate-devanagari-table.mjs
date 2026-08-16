@@ -26,6 +26,10 @@
 //                                                          # item's committed `devanagari` or
 //                                                          # `ttsText` doesn't match
 //                                                          # toDevanagari(word)
+//   node scripts/generate-devanagari-table.mjs --write-sentences  # same as --write, but for every
+//                                                          # content/sarnami/lessons/*.json
+//                                                          # exampleSentences[].word (issue #307)
+//   node scripts/generate-devanagari-table.mjs --check-sentences  # same as --check, for exampleSentences
 //
 // --write/--check exist for issue #300 (the /dev/transliteration review page needs a
 // committed baseline to display before PR-B spends ElevenLabs tokens). Unlike the
@@ -135,6 +139,164 @@ export function checkDevanagariField(vocabDir = VOCAB_DIR) {
           expected,
           actual: item.ttsText ?? null,
         });
+      }
+    }
+  }
+  return { checked, mismatches, errors };
+}
+
+const LESSONS_DIR = path.join(REPO_ROOT, "content", "sarnami", "lessons");
+
+function readLessonFiles(lessonsDir = LESSONS_DIR) {
+  return readdirSync(lessonsDir)
+    .filter((f) => f.endsWith(".json"))
+    .sort()
+    .map((file) => ({
+      file,
+      fullPath: path.join(lessonsDir, file),
+      lessons: JSON.parse(readFileSync(path.join(lessonsDir, file), "utf-8")),
+    }));
+}
+
+// Unlike vocab (writeDevanagariField() above), content/sarnami/lessons/*.json
+// is NOT written via a full JSON.stringify(..., null, 2) round-trip -- these
+// files use a denser hand-authored/editor-formatted style (short arrays and
+// single-translation objects collapsed onto one line, e.g.
+// `"vocabRefs": ["greet-ram-ram", "greet-kaise-hai"]`) that JSON.stringify's
+// uniform one-key-per-line output does NOT reproduce. A parse+full-rewrite
+// here would touch every line of every lesson file (verified: reformatting
+// unit-01-basics.json alone produced a 600+ line diff) purely as
+// pretty-printer noise unrelated to this change. So this instead surgically
+// inserts/updates just the two new fields as raw text, leaving every other
+// byte of the file untouched -- see insertOrUpdateSentenceFields() below.
+function escapeJsonString(s) {
+  return s.replace(/\\/g, "\\\\").replace(/"/g, '\\"');
+}
+
+// Inserts (or, if already present -- e.g. re-running --write-sentences after
+// a `word` edit -- replaces) a "devanagari"/"ttsText" field pair into the
+// exampleSentences[] object identified by `id`, as raw text. Relies on this
+// repo's consistent 2-space-per-depth-level formatting: the target object's
+// own closing `}` is the first line after the `"id"` line that starts with
+// exactly 6 spaces then `}` (any more-nested closing brace, e.g. a
+// multi-line "translations" object, is indented 8+ spaces and so doesn't
+// match) -- see the sibling comment above for why we can't just re-serialize
+// the whole object instead.
+function insertOrUpdateSentenceFields(text, id, value) {
+  const lines = text.split("\n");
+  const idNeedle = `"id": "${id}"`;
+  const idLineIdx = lines.findIndex((l) => l.includes(idNeedle));
+  if (idLineIdx === -1) {
+    throw new Error(`insertOrUpdateSentenceFields: id "${id}" not found`);
+  }
+  let closeLineIdx = -1;
+  for (let i = idLineIdx + 1; i < lines.length; i++) {
+    if (/^ {6}\}/.test(lines[i])) {
+      closeLineIdx = i;
+      break;
+    }
+  }
+  if (closeLineIdx === -1) {
+    throw new Error(`insertOrUpdateSentenceFields: closing brace for "${id}" not found`);
+  }
+  // Drop any existing devanagari/ttsText lines for this object first, so
+  // re-running is idempotent instead of accumulating duplicate fields.
+  for (let i = closeLineIdx - 1; i > idLineIdx; i--) {
+    if (/^ {8}"(devanagari|ttsText)":/.test(lines[i])) {
+      lines.splice(i, 1);
+      closeLineIdx--;
+    }
+  }
+  const lastFieldIdx = closeLineIdx - 1;
+  if (!lines[lastFieldIdx].trimEnd().endsWith(",")) {
+    lines[lastFieldIdx] = lines[lastFieldIdx].replace(/\s+$/, "") + ",";
+  }
+  const escaped = escapeJsonString(value);
+  lines.splice(
+    closeLineIdx,
+    0,
+    `        "devanagari": "${escaped}",`,
+    `        "ttsText": "${escaped}"`,
+  );
+  return lines.join("\n");
+}
+
+// Same idea as writeDevanagariField()/checkDevanagariField() above, but for
+// `content/sarnami/lessons/*.json` `exampleSentences[].word` instead of
+// vocab `word` (issue #307 -- sentence-level ttsText was deferred out of the
+// #306 extraction epic pending the two devanagari-transliterate.mjs fixes
+// above). Mirrors the same `devanagari`/`ttsText` two-field convention, but
+// see insertOrUpdateSentenceFields()'s comment for why the write path is a
+// surgical text patch rather than a JSON.stringify round-trip.
+export function writeSentenceDevanagariField(lessonsDir = LESSONS_DIR) {
+  const errors = [];
+  let written = 0;
+  let sentences = 0;
+  for (const { file, fullPath, lessons } of readLessonFiles(lessonsDir)) {
+    let text = readFileSync(fullPath, "utf-8");
+    let fileChanged = false;
+    for (const lesson of lessons) {
+      if (!Array.isArray(lesson.exampleSentences)) continue;
+      for (const ex of lesson.exampleSentences) {
+        if (typeof ex.word !== "string") continue;
+        sentences++;
+        let value;
+        try {
+          value = toDevanagari(ex.word);
+        } catch (e) {
+          errors.push({ id: ex.id, word: ex.word, file, error: e.message });
+          continue;
+        }
+        if (ex.devanagari === value && ex.ttsText === value) continue;
+        text = insertOrUpdateSentenceFields(text, ex.id, value);
+        fileChanged = true;
+      }
+    }
+    if (fileChanged) {
+      writeFileSync(fullPath, text);
+      written++;
+    }
+  }
+  return { filesWritten: written, sentences, errors };
+}
+
+export function checkSentenceDevanagariField(lessonsDir = LESSONS_DIR) {
+  const mismatches = [];
+  const errors = [];
+  let checked = 0;
+  for (const { file, lessons } of readLessonFiles(lessonsDir)) {
+    for (const lesson of lessons) {
+      if (!Array.isArray(lesson.exampleSentences)) continue;
+      for (const ex of lesson.exampleSentences) {
+        if (typeof ex.word !== "string") continue;
+        checked++;
+        let expected;
+        try {
+          expected = toDevanagari(ex.word);
+        } catch (e) {
+          errors.push({ id: ex.id, word: ex.word, file, error: e.message });
+          continue;
+        }
+        if (ex.devanagari !== expected) {
+          mismatches.push({
+            id: ex.id,
+            word: ex.word,
+            file,
+            field: "devanagari",
+            expected,
+            actual: ex.devanagari ?? null,
+          });
+        }
+        if (ex.ttsText !== expected) {
+          mismatches.push({
+            id: ex.id,
+            word: ex.word,
+            file,
+            field: "ttsText",
+            expected,
+            actual: ex.ttsText ?? null,
+          });
+        }
       }
     }
   }
@@ -276,6 +438,38 @@ function main() {
       return;
     }
     console.log(`Wrote devanagari into ${filesWritten} vocab file(s).`);
+    return;
+  }
+
+  if (args.includes("--write-sentences")) {
+    const { filesWritten, sentences, errors } = writeSentenceDevanagariField();
+    if (errors.length > 0) {
+      console.error(`toDevanagari() failed for ${errors.length} sentence(s):`);
+      for (const e of errors) console.error(`  ${e.file} ${e.id} ("${e.word}"): ${e.error}`);
+      process.exitCode = 1;
+      return;
+    }
+    console.log(`Wrote devanagari into ${sentences} example sentence(s) across ${filesWritten} lesson file(s).`);
+    return;
+  }
+
+  if (args.includes("--check-sentences")) {
+    const { checked, mismatches, errors } = checkSentenceDevanagariField();
+    if (errors.length > 0) {
+      console.error(`toDevanagari() failed for ${errors.length} sentence(s):`);
+      for (const e of errors) console.error(`  ${e.file} ${e.id} ("${e.word}"): ${e.error}`);
+    }
+    if (mismatches.length > 0) {
+      console.error(`${mismatches.length} example sentence field(s) are stale/missing:`);
+      for (const m of mismatches) {
+        console.error(`  ${m.file} ${m.id} ("${m.word}") [${m.field}]: committed=${JSON.stringify(m.actual)} expected=${JSON.stringify(m.expected)}`);
+      }
+    }
+    if (errors.length > 0 || mismatches.length > 0) {
+      process.exitCode = 1;
+      return;
+    }
+    console.log(`devanagari field is current for all ${checked} example sentences.`);
     return;
   }
 

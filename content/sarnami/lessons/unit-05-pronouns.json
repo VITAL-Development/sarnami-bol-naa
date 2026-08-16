@@ -19,7 +19,9 @@
           "noun-ghar",
           "adv-dur",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "तोर घर दुउर है.",
+        "ttsText": "तोर घर दुउर है."
       },
       {
         "id": "ex-poss-2",
@@ -40,7 +42,9 @@
           "adv-dur",
           "gram-na",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "तोंहार घर दुउर ना है.",
+        "ttsText": "तोंहार घर दुउर ना है."
       },
       {
         "id": "ex-poss-3",
@@ -61,7 +65,9 @@
           "adv-dur",
           "gram-na",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "आप्के घर दुउर ना है.",
+        "ttsText": "आप्के घर दुउर ना है."
       },
       {
         "id": "ex-poss-4",
@@ -80,7 +86,9 @@
           "noun-ghar",
           "adv-dur",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "एकर घर दुउर है.",
+        "ttsText": "एकर घर दुउर है."
       },
       {
         "id": "ex-poss-5",
@@ -101,7 +109,9 @@
           "adv-dur",
           "gram-na",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ओकर घर दुउर ना है.",
+        "ttsText": "ओकर घर दुउर ना है."
       },
       {
         "id": "ex-poss-6",
@@ -122,7 +132,9 @@
           "noun-ghar",
           "post-mem",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ हमरे घर में है.",
+        "ttsText": "ऊ हमरे घर में है."
       }
     ],
     "grammarNotes": [
@@ -291,7 +303,9 @@
           "noun-kutta",
           "pron-hamar",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ई कुत्ता हमार- है.",
+        "ttsText": "ई कुत्ता हमार- है."
       },
       {
         "id": "ex-dem-2",
@@ -310,7 +324,9 @@
           "noun-ghora",
           "pron-okar",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ घोड़ा ओकर है.",
+        "ttsText": "ऊ घोड़ा ओकर है."
       },
       {
         "id": "ex-dem-3",
@@ -327,7 +343,9 @@
           "pron-ham",
           "pron-eke",
           "verb-dekhe"
-        ]
+        ],
+        "devanagari": "हम एके देखिला.",
+        "ttsText": "हम एके देखिला."
       },
       {
         "id": "ex-dem-4",
@@ -344,7 +362,9 @@
           "pron-ham",
           "pron-oke",
           "verb-dekhe"
-        ]
+        ],
+        "devanagari": "हम ओके देखिला.",
+        "ttsText": "हम ओके देखिला."
       },
       {
         "id": "ex-dem-5",
@@ -363,7 +383,9 @@
           "noun-ghar",
           "post-mem",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "इन्हन घर में है.",
+        "ttsText": "इन्हन घर में है."
       },
       {
         "id": "ex-dem-6",
@@ -382,7 +404,9 @@
           "noun-ghar",
           "post-mem",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "उन्हन घर में है.",
+        "ttsText": "उन्हन घर में है."
       }
     ],
     "grammarNotes": [
@@ -527,7 +551,9 @@
           "pron-ke",
           "verb-ave",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "के आइल है?",
+        "ttsText": "के आइल है?"
       },
       {
         "id": "ex-ir-2",
@@ -544,7 +570,9 @@
           "pron-kaun",
           "verb-ave",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "कौन आइल है?",
+        "ttsText": "कौन आइल है?"
       },
       {
         "id": "ex-ir-4",
@@ -561,7 +589,9 @@
           "pron-kekar",
           "noun-kutta",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "केकर कुत्ता है?",
+        "ttsText": "केकर कुत्ता है?"
       },
       {
         "id": "ex-ir-5",
@@ -585,7 +615,9 @@
           "gram-hai",
           "pron-hamar",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ई घर जौन बर्का है हमार- है.",
+        "ttsText": "ई घर जौन बर्का है हमार- है."
       }
     ],
     "grammarNotes": [

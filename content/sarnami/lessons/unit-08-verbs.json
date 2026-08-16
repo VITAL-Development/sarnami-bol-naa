@@ -10,7 +10,9 @@
         },
         "vocabRefs": [
           "verb-parhe"
-        ]
+        ],
+        "devanagari": "हम किताब पढ़िला.",
+        "ttsText": "हम किताब पढ़िला."
       },
       {
         "id": "ex-pres-2",
@@ -21,7 +23,9 @@
         "vocabRefs": [
           "verb-kare",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "तू का करे है?",
+        "ttsText": "तू का करे है?"
       },
       {
         "id": "ex-pres-3",
@@ -31,7 +35,9 @@
         },
         "vocabRefs": [
           "verb-khai"
-        ]
+        ],
+        "devanagari": "हम भात खाइला.",
+        "ttsText": "हम भात खाइला."
       },
       {
         "id": "ex-pres-4",
@@ -42,7 +48,9 @@
         "vocabRefs": [
           "verb-dekhe",
           "noun-ghora"
-        ]
+        ],
+        "devanagari": "हम घोड़ा देखिला.",
+        "ttsText": "हम घोड़ा देखिला."
       },
       {
         "id": "ex-pres-5",
@@ -54,7 +62,9 @@
           "verb-likhe",
           "noun-citthi",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ चिट्ठि लिखे है.",
+        "ttsText": "ऊ चिट्ठि लिखे है."
       }
     ],
     "grammarNotes": [
@@ -196,7 +206,9 @@
         },
         "vocabRefs": [
           "verb-kine"
-        ]
+        ],
+        "devanagari": "प्रेम आलू कीनिस है.",
+        "ttsText": "प्रेम आलू कीनिस है."
       },
       {
         "id": "ex-past-2",
@@ -206,7 +218,9 @@
         },
         "vocabRefs": [
           "verb-jai"
-        ]
+        ],
+        "devanagari": "ऊ घरे गैल.",
+        "ttsText": "ऊ घरे गैल."
       },
       {
         "id": "ex-past-3",
@@ -216,7 +230,9 @@
         },
         "vocabRefs": [
           "verb-likhe"
-        ]
+        ],
+        "devanagari": "हम चिट्ठि लिख्ली.",
+        "ttsText": "हम चिट्ठि लिख्ली."
       },
       {
         "id": "ex-past-4",
@@ -227,7 +243,9 @@
         "vocabRefs": [
           "verb-dekhe",
           "noun-ghar"
-        ]
+        ],
+        "devanagari": "तू घर देख्ले.",
+        "ttsText": "तू घर देख्ले."
       }
     ],
     "grammarNotes": [
@@ -343,7 +361,9 @@
         },
         "vocabRefs": [
           "verb-deve"
-        ]
+        ],
+        "devanagari": "हम तोके एक किताब देबे.",
+        "ttsText": "हम तोके एक किताब देबे."
       },
       {
         "id": "ex-fut-2",
@@ -353,7 +373,9 @@
         },
         "vocabRefs": [
           "verb-puche"
-        ]
+        ],
+        "devanagari": "तू हम्से पूछिये.",
+        "ttsText": "तू हम्से पूछिये."
       },
       {
         "id": "ex-fut-3",
@@ -363,7 +385,9 @@
         },
         "vocabRefs": [
           "verb-samjhe"
-        ]
+        ],
+        "devanagari": "ऊ जल्दी सम्झी.",
+        "ttsText": "ऊ जल्दी सम्झी."
       },
       {
         "id": "ex-fut-4",
@@ -374,7 +398,9 @@
         "vocabRefs": [
           "verb-dekhe",
           "noun-per"
-        ]
+        ],
+        "devanagari": "हम पेड़ देखब.",
+        "ttsText": "हम पेड़ देखब."
       },
       {
         "id": "ex-fut-5",
@@ -385,7 +411,9 @@
         "vocabRefs": [
           "verb-likhe",
           "noun-citthi"
-        ]
+        ],
+        "devanagari": "ऊ चिट्ठि लिखी.",
+        "ttsText": "ऊ चिट्ठि लिखी."
       }
     ],
     "grammarNotes": [
@@ -501,7 +529,9 @@
         },
         "vocabRefs": [
           "verb-cale"
-        ]
+        ],
+        "devanagari": "जल्दी चल!",
+        "ttsText": "जल्दी चल!"
       },
       {
         "id": "ex-imp-2",
@@ -511,7 +541,9 @@
         },
         "vocabRefs": [
           "verb-dhove"
-        ]
+        ],
+        "devanagari": "कपड़ा धोवो!",
+        "ttsText": "कपड़ा धोवो!"
       },
       {
         "id": "ex-imp-3",
@@ -522,7 +554,9 @@
         "vocabRefs": [
           "verb-ave",
           "verb-baithe"
-        ]
+        ],
+        "devanagari": "आवो और बैठो!",
+        "ttsText": "आवो और बैठो!"
       },
       {
         "id": "ex-imp-4",
@@ -533,7 +567,9 @@
         "vocabRefs": [
           "verb-dekhe",
           "noun-ghar"
-        ]
+        ],
+        "devanagari": "घर देख!",
+        "ttsText": "घर देख!"
       },
       {
         "id": "ex-imp-5",
@@ -543,7 +579,9 @@
         },
         "vocabRefs": [
           "verb-sune"
-        ]
+        ],
+        "devanagari": "सुन!",
+        "ttsText": "सुन!"
       },
       {
         "id": "ex-imp-6",
@@ -554,7 +592,9 @@
         "vocabRefs": [
           "verb-jai",
           "noun-ghar"
-        ]
+        ],
+        "devanagari": "घरे जा!",
+        "ttsText": "घरे जा!"
       }
     ],
     "grammarNotes": [
@@ -692,7 +732,9 @@
         },
         "vocabRefs": [
           "verb-khele"
-        ]
+        ],
+        "devanagari": "मैया माङ्गे है कि लड़्कवन खेले.",
+        "ttsText": "मैया माङ्गे है कि लड़्कवन खेले."
       },
       {
         "id": "ex-subj-2",
@@ -702,7 +744,9 @@
         },
         "vocabRefs": [
           "verb-nace"
-        ]
+        ],
+        "devanagari": "ऊ माङ्गे है कि हम नाची.",
+        "ttsText": "ऊ माङ्गे है कि हम नाची."
       },
       {
         "id": "ex-subj-3",
@@ -712,7 +756,9 @@
         },
         "vocabRefs": [
           "verb-pahine"
-        ]
+        ],
+        "devanagari": "हम चाहिला कि तू सुन्दर कपड़ा पहिने.",
+        "ttsText": "हम चाहिला कि तू सुन्दर कपड़ा पहिने."
       },
       {
         "id": "ex-subj-4",
@@ -723,7 +769,9 @@
         "vocabRefs": [
           "verb-dekhe",
           "noun-per"
-        ]
+        ],
+        "devanagari": "ऊ माङ्गे है कि हम पेड़ देखी.",
+        "ttsText": "ऊ माङ्गे है कि हम पेड़ देखी."
       },
       {
         "id": "ex-subj-5",
@@ -734,7 +782,9 @@
         "vocabRefs": [
           "verb-likhe",
           "noun-citthi"
-        ]
+        ],
+        "devanagari": "हम चाहिला कि तू चिट्ठि लिखे.",
+        "ttsText": "हम चाहिला कि तू चिट्ठि लिखे."
       }
     ],
     "grammarNotes": [

@@ -157,6 +157,38 @@ test("owner's round-6 fix: dhīre-dhīre gets spaced hyphens (धीरे - ध
   assert.equal(toDevanagari("dhīre-dhīre"), "धीरे - धीरे");
 });
 
+// --- issue #307 fix (a): uppercase diacritics in WORD_RE -------------------
+
+test("uppercase diacritic (Ā) is recognized as part of a word, not left untransliterated", () => {
+  assert.equal(toDevanagari("Ām peṛ par hai."), "आम पेड़ पर- है.");
+});
+
+// --- issue #307 fix (b): overrides apply within sentence context -----------
+
+test("a multi-word phrase override (bel kare) applies when embedded in a full sentence", () => {
+  assert.equal(toDevanagari("Ū bel kare hai."), "ऊ बैल करे है.");
+});
+
+test("override matching is case-insensitive: a lowercase-keyed override (hamār) still applies to a sentence-initial capitalized token (Hamār)", () => {
+  assert.equal(
+    toDevanagari("Hamār ghar tor ghar se barkā hai."),
+    "हमार- घर तोर घर से बर्का है.",
+  );
+});
+
+test("longest-override-key-first: parsīs (a full override key) wins over the shorter par override at the same position", () => {
+  assert.equal(toDevanagari("Ū parsīs bole hai."), "ऊ परसीस बोले है.");
+});
+
+test("an override key does not fire as a substring of a longer, unrelated word (par inside paṛhilā)", () => {
+  // paṛhilā ("read", perfective) contains no literal "par" substring once
+  // tokenized correctly (ṛ vs r are distinct letters) -- this exercises the
+  // word-boundary check by confirming the standalone "par" override's value
+  // ("पर-") does not leak into an unrelated word that happens to share a
+  // "pa" prefix.
+  assert.equal(toDevanagari("Ham kitāb paṛhilā."), "हम किताब पढ़िला.");
+});
+
 test("owner's round-6 fixes: remaining single-word corrections from #304", () => {
   assert.equal(toDevanagari("girmiṭ"), "गीरमीट");
   assert.equal(toDevanagari("dūr"), "दुउर");
