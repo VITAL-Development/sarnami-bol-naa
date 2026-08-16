@@ -69,5 +69,13 @@
       "icon512": "/icons/icon-512.png",
       "iconMaskable512": "/icons/icon-maskable-512.png"
     }
+  },
+  "welcome": {
+    "headline": "Spreek je eerste woorden Sarnami",
+    "headlineTranslations": { "en": "Speak your first words of Sarnami" },
+    "intro": "Sarnami is de taal van de Hindoestaanse gemeenschap in Suriname, met wortels in het Bhojpuri en Awadhi. Deze cursus leert je stap voor stap lezen, verstaan en spreken, met audio bij elk woord.",
+    "introTranslations": { "en": "Sarnami is the language of the Hindustani community in Suriname, rooted in Bhojpuri and Awadhi. This course teaches you to read, understand, and speak it step by step, with audio for every word." },
+    "teaches": "Alledaagse gesprekken en begroetingen\nUitspraak, inclusief de diakritische tekens (ā, ī, ṭ, ḍ)\nZinsbouw en basisgrammatica\nWoordenschat voor het dagelijks leven",
+    "teachesTranslations": { "en": "Everyday conversation and greetings\nPronunciation, including the diacritics (ā, ī, ṭ, ḍ)\nSentence structure and basic grammar\nEveryday vocabulary" }
   }
 }

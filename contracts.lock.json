@@ -1,8 +1,8 @@
 {
   "_comment": "Last-reviewed { version, hash } of rarelang's contract docs (rarelang/scripts/contracts-manifest.mjs). CI fails the contracts-discovery job when the upstream manifest no longer matches this file — bump it deliberately, like a dependency lockfile, once you've reviewed what changed upstream.",
   "docs/contracts/api-contract.md": {
-    "version": "2.5.0",
-    "hash": "sha256:4689bfe8c0ff1f313a16e38fe7aa2facc7441314e5d895ccf68a005b6c4b31b3"
+    "version": "2.6.1",
+    "hash": "sha256:94a611ecba76a9f85c87dfcb1ebcacaeb1753cae34bdb4e03dc4d9406c73635d"
   },
   "docs/contracts/lesson-plan-authoring-contract.md": {
     "version": "2.1.0",
@@ -11,5 +11,13 @@
   "docs/contracts/source-language-authoring-contract.md": {
     "version": "1.0.0",
     "hash": "sha256:d4a68da9bfad76eb0b3beb129c3f981b17db3a6aa62616baec3280d19563f1c2"
+  },
+  "docs/contracts/schemas/audio-generate-request.schema.json": {
+    "version": "1.0.0",
+    "hash": "sha256:1ece896346802b4401ff0c3e6b44ace88622699c5b6f90babade2ed60e51bc39"
+  },
+  "docs/contracts/schemas/user-progress-response.schema.json": {
+    "version": "1.0.0",
+    "hash": "sha256:34464d1b5dbb43558357b15c6d6fafef85f0c2bf29623f2b0b7f19788d7b2315"
   }
 }
