@@ -19,6 +19,8 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+## [0.12.0] - 2026-08-16
+
 ### Added
 
 - Every `content/sarnami/lessons/*.json` `exampleSentences[]` item: new
