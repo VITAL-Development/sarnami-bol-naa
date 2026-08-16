@@ -23,7 +23,9 @@
           "noun-ghar",
           "post-mem",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "भाई और बहीण घर में है.",
+        "ttsText": "भाई और बहीण घर में है."
       },
       {
         "id": "ex-09-2",
@@ -44,7 +46,9 @@
           "struct-maar",
           "adj-barhimya",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ छोटा बकि बर्हिम्या है.",
+        "ttsText": "ऊ छोटा बकि बर्हिम्या है."
       },
       {
         "id": "ex-09-3",
@@ -70,7 +74,9 @@
           "noun-ghar",
           "post-mem",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "का भाई का बहीण, सब घर में है.",
+        "ttsText": "का भाई का बहीण, सब घर में है."
       },
       {
         "id": "ex-09-7",
@@ -93,7 +99,9 @@
           "noun-ghar",
           "post-mem",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "भाई या बहीण घर में है.",
+        "ttsText": "भाई या बहीण घर में है."
       },
       {
         "id": "ex-09-8",
@@ -120,7 +128,9 @@
           "noun-ghar",
           "post-mem",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "भाई घर में है, या तो बहीण घर में है.",
+        "ttsText": "भाई घर में है, या तो बहीण घर में है."
       },
       {
         "id": "ex-09-9",
@@ -144,7 +154,9 @@
           "noun-ghar",
           "post-mem",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ना भाई ना बहीण घर में है.",
+        "ttsText": "ना भाई ना बहीण घर में है."
       },
       {
         "id": "ex-09-10",
@@ -165,7 +177,9 @@
           "struct-en",
           "adj-lamma",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "घोड़ा बर्का और लम्मा है.",
+        "ttsText": "घोड़ा बर्का और लम्मा है."
       },
       {
         "id": "ex-09-17",
@@ -186,7 +200,9 @@
           "struct-maar",
           "adj-barhimya",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "कुत्ता करिक्का बकि बर्हिम्या है.",
+        "ttsText": "कुत्ता करिक्का बकि बर्हिम्या है."
       }
     ],
     "grammarNotes": [
@@ -336,7 +352,9 @@
           "noun-ghar",
           "post-mem",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "हम जान्ता है कि ऊ घर में है.",
+        "ttsText": "हम जान्ता है कि ऊ घर में है."
       },
       {
         "id": "ex-09-5",
@@ -359,7 +377,9 @@
           "pron-ham",
           "gram-na",
           "verb-ave"
-        ]
+        ],
+        "devanagari": "जो बरिश होई, हम ना आब.",
+        "ttsText": "जो बरिश होई, हम ना आब."
       },
       {
         "id": "ex-09-6",
@@ -384,7 +404,9 @@
           "pron-u",
           "adj-bimar",
           "gram-raha-aux"
-        ]
+        ],
+        "devanagari": "ऊ ना आइस, काहे से ऊ बीमार रहा.",
+        "ttsText": "ऊ ना आइस, काहे से ऊ बीमार रहा."
       },
       {
         "id": "ex-09-12",
@@ -409,7 +431,9 @@
           "pron-ham",
           "gram-na",
           "verb-ave"
-        ]
+        ],
+        "devanagari": "ऊ बीमार रहा, जौने हम ना आब.",
+        "ttsText": "ऊ बीमार रहा, जौने हम ना आब."
       },
       {
         "id": "ex-09-13",
@@ -436,7 +460,9 @@
           "noun-ghar",
           "post-mem",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "चाहे ऊ बीमार रहा, हम घर में है.",
+        "ttsText": "चाहे ऊ बीमार रहा, हम घर में है."
       },
       {
         "id": "ex-09-14",
@@ -464,7 +490,9 @@
           "pron-ham",
           "gram-na",
           "verb-ave"
-        ]
+        ],
+        "devanagari": "जब तलक ऊ घर में है, हम ना आब.",
+        "ttsText": "जब तलक ऊ घर में है, हम ना आब."
       },
       {
         "id": "ex-09-15",
@@ -491,7 +519,9 @@
           "pron-ham",
           "adj-barhimya",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "जब से भाई घर में है, हम बर्हिम्या है.",
+        "ttsText": "जब से भाई घर में है, हम बर्हिम्या है."
       },
       {
         "id": "ex-09-18",
@@ -515,7 +545,9 @@
           "struct-omdat",
           "noun-baris",
           "gram-hove"
-        ]
+        ],
+        "devanagari": "हम ना आब, काहे से बरिश होई.",
+        "ttsText": "हम ना आब, काहे से बरिश होई."
       },
       {
         "id": "ex-09-19",
@@ -544,7 +576,9 @@
           "struct-maar",
           "adj-barhimya",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "हम जान्ता है कि ऊ छोटा बकि बर्हिम्या है.",
+        "ttsText": "हम जान्ता है कि ऊ छोटा बकि बर्हिम्या है."
       },
       {
         "id": "ex-09-20",
@@ -578,7 +612,9 @@
           "pron-u",
           "adj-bimar",
           "gram-raha-aux"
-        ]
+        ],
+        "devanagari": "हम जान्ता है कि ऊ ना आइस, काहे से ऊ बीमार रहा.",
+        "ttsText": "हम जान्ता है कि ऊ ना आइस, काहे से ऊ बीमार रहा."
       }
     ],
     "grammarNotes": [

@@ -7,14 +7,18 @@
         "word": "Rām Rām, kaise hai?",
         "translations": { "nl": "Hallo, hoe gaat het?" },
         "vocabRefs": ["greet-ram-ram", "greet-kaise-hai"],
-        "tokenVocabRefs": ["greet-ram-ram", "greet-ram-ram", "greet-kaise-hai", "greet-kaise-hai"]
+        "tokenVocabRefs": ["greet-ram-ram", "greet-ram-ram", "greet-kaise-hai", "greet-kaise-hai"],
+        "devanagari": "राम राम, कैसे है?",
+        "ttsText": "राम राम, कैसे है?"
       },
       {
         "id": "ex-1-2",
         "word": "Moi jā hai, dhanbād.",
         "translations": { "nl": "Het gaat goed, bedankt." },
         "vocabRefs": ["greet-moi-jahe", "greet-dhanyavad"],
-        "tokenVocabRefs": ["greet-moi-jahe", "greet-moi-jahe", "greet-moi-jahe", "greet-dhanyavad"]
+        "tokenVocabRefs": ["greet-moi-jahe", "greet-moi-jahe", "greet-moi-jahe", "greet-dhanyavad"],
+        "devanagari": "मोइ जा है, धन्बाद.",
+        "ttsText": "मोइ जा है, धन्बाद."
       }
     ],
     "grammarNotes": [],
@@ -56,14 +60,18 @@
         "word": "Ham Sarnāmi bol-nā sikhe hai.",
         "translations": { "nl": "Ik leer Sarnami spreken." },
         "vocabRefs": ["pron-ham", "about-sarnami", "verb-bolna", "verb-sikhe", "gram-hai-aux"],
-        "tokenVocabRefs": ["pron-ham", "about-sarnami", "verb-bolna", "verb-sikhe", "gram-hai-aux"]
+        "tokenVocabRefs": ["pron-ham", "about-sarnami", "verb-bolna", "verb-sikhe", "gram-hai-aux"],
+        "devanagari": "हम सर्नामि बोल-ना सीखे है.",
+        "ttsText": "हम सर्नामि बोल-ना सीखे है."
       },
       {
         "id": "ex-2-2",
         "word": "Tū kaise hai?",
         "translations": { "nl": "Hoe gaat het met jou?" },
         "vocabRefs": ["pron-tu", "gram-kaise", "gram-hai"],
-        "tokenVocabRefs": ["pron-tu", "gram-kaise", "gram-hai"]
+        "tokenVocabRefs": ["pron-tu", "gram-kaise", "gram-hai"],
+        "devanagari": "तू कैसे है?",
+        "ttsText": "तू कैसे है?"
       }
     ],
     "grammarNotes": [],
@@ -109,21 +117,27 @@
         "word": "Ī hamar ghar hai.",
         "translations": { "nl": "Dit is mijn huis." },
         "vocabRefs": ["pron-i", "pron-hamar", "noun-ghar", "gram-hai"],
-        "tokenVocabRefs": ["pron-i", "pron-hamar", "noun-ghar", "gram-hai"]
+        "tokenVocabRefs": ["pron-i", "pron-hamar", "noun-ghar", "gram-hai"],
+        "devanagari": "ई हमर घर है.",
+        "ttsText": "ई हमर घर है."
       },
       {
         "id": "ex-3-2",
         "word": "Bappā kām kare hai.",
         "translations": { "nl": "Vader werkt." },
         "vocabRefs": ["noun-bappa", "noun-kam", "verb-kare", "gram-hai-aux"],
-        "tokenVocabRefs": ["noun-bappa", "noun-kam", "verb-kare", "gram-hai-aux"]
+        "tokenVocabRefs": ["noun-bappa", "noun-kam", "verb-kare", "gram-hai-aux"],
+        "devanagari": "बप्पा काम करे है.",
+        "ttsText": "बप्पा काम करे है."
       },
       {
         "id": "ex-3-3",
         "word": "Maiyā bajār se saudā kin lāve hai.",
         "translations": { "nl": "Moeder haalt boodschappen van de markt." },
         "vocabRefs": ["noun-maiya", "noun-bajar", "post-se-locative", "noun-sauda", "verb-kine", "verb-lave", "gram-hai-aux"],
-        "tokenVocabRefs": ["noun-maiya", "noun-bajar", "post-se-locative", "noun-sauda", "verb-kine", "verb-lave", "gram-hai-aux"]
+        "tokenVocabRefs": ["noun-maiya", "noun-bajar", "post-se-locative", "noun-sauda", "verb-kine", "verb-lave", "gram-hai-aux"],
+        "devanagari": "मैया ब-जार से सौदा किन लावे है.",
+        "ttsText": "मैया ब-जार से सौदा किन लावे है."
       }
     ],
     "grammarNotes": [],
@@ -167,28 +181,36 @@
         "word": "Ham hai. Tū hai. Ī/ū hai.",
         "translations": { "nl": "Ik ben. Jij bent. Hij/zij is." },
         "vocabRefs": ["gram-hai", "pron-ham", "pron-tu", "pron-u"],
-        "tokenVocabRefs": ["pron-ham", "gram-hai", "pron-tu", "gram-hai", "pron-u", "gram-hai"]
+        "tokenVocabRefs": ["pron-ham", "gram-hai", "pron-tu", "gram-hai", "pron-u", "gram-hai"],
+        "devanagari": "हम है. तू है. ई/ऊ है.",
+        "ttsText": "हम है. तू है. ई/ऊ है."
       },
       {
         "id": "ex-4-2",
         "word": "Ham log haiṁ. Tū log hai. Āp ho.",
         "translations": { "nl": "Wij zijn. Jullie zijn. U bent." },
         "vocabRefs": ["gram-hai", "pron-hamlog", "pron-ap"],
-        "tokenVocabRefs": ["pron-hamlog", "pron-hamlog", "gram-hai", null, null, "gram-hai", "pron-ap", "gram-hai"]
+        "tokenVocabRefs": ["pron-hamlog", "pron-hamlog", "gram-hai", null, null, "gram-hai", "pron-ap", "gram-hai"],
+        "devanagari": "हम लोग हैं. तू लोग है. आप हो.",
+        "ttsText": "हम लोग हैं. तू लोग है. आप हो."
       },
       {
         "id": "ex-4-3",
         "word": "Ū kahāṁ hai?",
         "translations": { "nl": "Waar is hij/zij?" },
         "vocabRefs": ["gram-kaham", "pron-u", "gram-hai"],
-        "tokenVocabRefs": ["pron-u", "gram-kaham", "gram-hai"]
+        "tokenVocabRefs": ["pron-u", "gram-kaham", "gram-hai"],
+        "devanagari": "ऊ कहां है?",
+        "ttsText": "ऊ कहां है?"
       },
       {
         "id": "ex-4-4",
         "word": "Hamār bāp nā hai ghare.",
         "translations": { "nl": "Mijn vader is niet thuis." },
         "vocabRefs": ["pron-hamar", "noun-bappa", "gram-na", "gram-hai", "adv-ghare"],
-        "tokenVocabRefs": ["pron-hamar", "noun-bappa", "gram-na", "gram-hai", "adv-ghare"]
+        "tokenVocabRefs": ["pron-hamar", "noun-bappa", "gram-na", "gram-hai", "adv-ghare"],
+        "devanagari": "हमार- बाप ना है घरे.",
+        "ttsText": "हमार- बाप ना है घरे."
       }
     ],
     "grammarNotes": [

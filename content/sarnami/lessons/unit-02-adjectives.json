@@ -23,7 +23,9 @@
           "noun-ghar",
           "verb-kine",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "महेस एगो छोटा घर कीनिस है.",
+        "ttsText": "महेस एगो छोटा घर कीनिस है."
       },
       {
         "id": "ex-6-2",
@@ -44,7 +46,9 @@
           "noun-ghar",
           "verb-kine",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "महेस छोट्का घर्वा कीनिस है.",
+        "ttsText": "महेस छोट्का घर्वा कीनिस है."
       },
       {
         "id": "ex-6-3",
@@ -65,7 +69,9 @@
           "noun-somth",
           "verb-pahine",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "हरिया लाल सोम्थ पहिने है.",
+        "ttsText": "हरिया लाल सोम्थ पहिने है."
       },
       {
         "id": "ex-6-4",
@@ -89,7 +95,9 @@
           "noun-churi",
           "verb-kine",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "महेस एगो पातर छूरी कीनिस है.",
+        "ttsText": "महेस एगो पातर छूरी कीनिस है."
       },
       {
         "id": "ex-6-5",
@@ -111,7 +119,9 @@
           "noun-churi",
           "verb-kine",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "महेस पतर्का छुरिया कीनिस है.",
+        "ttsText": "महेस पतर्का छुरिया कीनिस है."
       },
       {
         "id": "ex-6-6",
@@ -135,7 +145,9 @@
           "noun-am",
           "verb-kine",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "महेस एगो मीठा आम कीनिस है.",
+        "ttsText": "महेस एगो मीठा आम कीनिस है."
       },
       {
         "id": "ex-6-7",
@@ -157,7 +169,9 @@
           "noun-am",
           "verb-kine",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "महेस मिठ्का अम्वा कीनिस है.",
+        "ttsText": "महेस मिठ्का अम्वा कीनिस है."
       }
     ],
     "grammarNotes": [
@@ -302,7 +316,9 @@
           "gram-ego",
           "adj-barka",
           "noun-per"
-        ]
+        ],
+        "devanagari": "एगो बर्का पेर.",
+        "ttsText": "एगो बर्का पेर."
       },
       {
         "id": "ex-7-2",
@@ -319,7 +335,9 @@
           "pron-u",
           "adj-barka",
           "noun-per"
-        ]
+        ],
+        "devanagari": "ऊ बर्कावन पेर्वन.",
+        "ttsText": "ऊ बर्कावन पेर्वन."
       },
       {
         "id": "ex-7-3",
@@ -334,7 +352,9 @@
         "tokenVocabRefs": [
           "adj-karikka",
           "noun-bakari"
-        ]
+        ],
+        "devanagari": "करिक्कनी बकरिया.",
+        "ttsText": "करिक्कनी बकरिया."
       },
       {
         "id": "ex-7-4",
@@ -350,7 +370,9 @@
         "tokenVocabRefs": [
           "adj-karikka",
           "noun-gai"
-        ]
+        ],
+        "devanagari": "करिक्की गैया.",
+        "ttsText": "करिक्की गैया."
       },
       {
         "id": "ex-7-5",
@@ -366,7 +388,9 @@
         "tokenVocabRefs": [
           "adj-chota",
           "noun-chaumri"
-        ]
+        ],
+        "devanagari": "छोट्कनी छौम्रिया.",
+        "ttsText": "छोट्कनी छौम्रिया."
       },
       {
         "id": "ex-7-6",
@@ -384,7 +408,9 @@
           "pron-u",
           "adj-barka",
           "noun-ghora"
-        ]
+        ],
+        "devanagari": "ऊ बर्कावन घोड़्वन.",
+        "ttsText": "ऊ बर्कावन घोड़्वन."
       }
     ],
     "grammarNotes": [
@@ -527,7 +553,9 @@
           "gram-se",
           "adj-barka",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "हमार- घर तोर घर से बर्का है.",
+        "ttsText": "हमार- घर तोर घर से बर्का है."
       },
       {
         "id": "ex-8-2",
@@ -553,7 +581,9 @@
           "gram-aur-compare",
           "adj-chota",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "हमार- घरी तोर घरी से और छोटा है.",
+        "ttsText": "हमार- घरी तोर घरी से और छोटा है."
       },
       {
         "id": "ex-8-3",
@@ -579,7 +609,9 @@
           "adj-dhani",
           "noun-adami",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "सरनाम् में ई सब से धनी अदमी है.",
+        "ttsText": "सरनाम् में ई सब से धनी अदमी है."
       },
       {
         "id": "ex-8-4",
@@ -606,7 +638,9 @@
           "gram-jada",
           "adj-barka",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "हमार- घर तोर घर से जादा बर्का है.",
+        "ttsText": "हमार- घर तोर घर से जादा बर्का है."
       },
       {
         "id": "ex-8-5",
@@ -631,7 +665,9 @@
           "gram-jada",
           "adj-barka",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ई घोड़ा सब से जादा बर्का है.",
+        "ttsText": "ई घोड़ा सब से जादा बर्का है."
       },
       {
         "id": "ex-8-6",
@@ -658,7 +694,9 @@
           "gram-aur-compare",
           "adj-barhimya",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "हमार- कुत्ता तोर कुत्ता से और बर्हिम्या है.",
+        "ttsText": "हमार- कुत्ता तोर कुत्ता से और बर्हिम्या है."
       }
     ],
     "grammarNotes": [

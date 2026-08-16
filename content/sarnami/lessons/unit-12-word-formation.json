@@ -19,7 +19,9 @@
           "noun-bhai",
           "wf-ghumakkar",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "हमार- भाई घुमक्कड़ है.",
+        "ttsText": "हमार- भाई घुमक्कड़ है."
       },
       {
         "id": "ex-sfx-2",
@@ -38,7 +40,9 @@
           "noun-bappa",
           "wf-lohar",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "हमार- बप्पा लोहार है.",
+        "ttsText": "हमार- बप्पा लोहार है."
       },
       {
         "id": "ex-sfx-3",
@@ -55,7 +59,9 @@
           "pron-u",
           "wf-sonar",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ सोनार है.",
+        "ttsText": "ऊ सोनार है."
       },
       {
         "id": "ex-sfx-4",
@@ -74,7 +80,9 @@
           "post-mem",
           "wf-safai",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "घर में सफ़ाई है.",
+        "ttsText": "घर में सफ़ाई है."
       },
       {
         "id": "ex-sfx-6",
@@ -91,7 +99,9 @@
           "pron-u",
           "wf-topivala",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ टोपी-वाला है.",
+        "ttsText": "ऊ टोपी-वाला है."
       }
     ],
     "grammarNotes": [
@@ -257,7 +267,9 @@
           "noun-bappa",
           "wf-imandar",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "हमार- बप्पा इमान्दार है.",
+        "ttsText": "हमार- बप्पा इमान्दार है."
       },
       {
         "id": "ex-ap-2",
@@ -274,7 +286,9 @@
           "pron-u",
           "wf-dukandar",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ दुकान्दार है.",
+        "ttsText": "ऊ दुकान्दार है."
       },
       {
         "id": "ex-ap-3",
@@ -291,7 +305,9 @@
           "pron-u",
           "wf-jadugar",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ जादूगर है.",
+        "ttsText": "ऊ जादूगर है."
       },
       {
         "id": "ex-ap-4",
@@ -311,7 +327,9 @@
           "post-ke-lage",
           "post-ke-lage",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "दवा-खाना घर के लगे है.",
+        "ttsText": "दवा-खाना घर के लगे है."
       },
       {
         "id": "ex-ap-5",
@@ -328,7 +346,9 @@
           "pron-u",
           "wf-becain",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ बेचाइन है.",
+        "ttsText": "ऊ बेचाइन है."
       },
       {
         "id": "ex-ap-6",
@@ -345,7 +365,9 @@
           "pron-u",
           "wf-nalayak",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ ना-लायक है.",
+        "ttsText": "ऊ ना-लायक है."
       }
     ],
     "grammarNotes": [

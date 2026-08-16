@@ -331,10 +331,10 @@ jobs:
       # Same cost/time control as validate-scs-word-list above: most PRs
       # don't touch vocab or the generator, so most runs should skip
       # setup-node + the recompute-and-diff check entirely.
-      - name: List changed vocab/generator files
+      - name: List changed vocab/lesson/generator files
         id: changed
         run: |
-          files=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- 'content/sarnami/vocab/*.json' scripts/generate-devanagari-table.mjs scripts/devanagari-transliterate.mjs)
+          files=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- 'content/sarnami/vocab/*.json' 'content/sarnami/lessons/*.json' scripts/generate-devanagari-table.mjs scripts/devanagari-transliterate.mjs)
           if [ -z "$files" ]; then
             echo "any=false" >> "$GITHUB_OUTPUT"
           else
@@ -358,9 +358,18 @@ jobs:
       # sole owner of Sarnami-to-Devanagari transliteration (see
       # devanagari-transliterate.mjs's header), so there is no longer a
       # second, downstream copy to drift-check against.
-      - name: Check devanagari/ttsText fields are up to date
+      - name: Check devanagari/ttsText fields are up to date (vocab)
         if: steps.changed.outputs.any == 'true'
         run: node scripts/generate-devanagari-table.mjs --check
+
+      # Same generated-field freshness guard as above, for
+      # content/sarnami/lessons/*.json's exampleSentences[].devanagari/
+      # ttsText (issue #307 -- sentence-level coverage, deferred out of the
+      # #300/#306 vocab-only work until the transliterator's word-boundary/
+      # sentence-context bugs were fixed).
+      - name: Check devanagari/ttsText fields are up to date (example sentences)
+        if: steps.changed.outputs.any == 'true'
+        run: node scripts/generate-devanagari-table.mjs --check-sentences
 
   contracts-discovery:
     name: contracts-discovery (deterministic)

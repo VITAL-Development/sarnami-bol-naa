@@ -22,7 +22,9 @@
           "pron-i",
           "noun-gadahi",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ गदहा है, ई गदही है.",
+        "ttsText": "ऊ गदहा है, ई गदही है."
       },
       {
         "id": "ex-04-gender-2",
@@ -45,7 +47,9 @@
           "noun-ghar",
           "post-mem",
           "gram-ba"
-        ]
+        ],
+        "devanagari": "नाना और नानी घर में बातें.",
+        "ttsText": "नाना और नानी घर में बातें."
       },
       {
         "id": "ex-04-gender-3",
@@ -67,7 +71,9 @@
           "pron-i",
           "noun-chaumri",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ लौन्दा है, ई छौरी है.",
+        "ttsText": "ऊ लौन्दा है, ई छौरी है."
       },
       {
         "id": "ex-04-gender-4",
@@ -89,7 +95,9 @@
           "pron-i",
           "noun-nani",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ नाना है, ई नानी है.",
+        "ttsText": "ऊ नाना है, ई नानी है."
       }
     ],
     "grammarNotes": [
@@ -220,7 +228,9 @@
           "noun-ghora",
           "verb-khai",
           "gram-ba-aux"
-        ]
+        ],
+        "devanagari": "घोड़्वा खात बा.",
+        "ttsText": "घोड़्वा खात बा."
       },
       {
         "id": "ex-04-number-2",
@@ -237,7 +247,9 @@
           "noun-ghora",
           "verb-khai",
           "gram-ba-aux"
-        ]
+        ],
+        "devanagari": "घोड़्वन खात बातें.",
+        "ttsText": "घोड़्वन खात बातें."
       },
       {
         "id": "ex-04-number-3",
@@ -256,7 +268,9 @@
           "noun-am",
           "verb-khai",
           "gram-hai-aux"
-        ]
+        ],
+        "devanagari": "राम आम खा है.",
+        "ttsText": "राम आम खा है."
       },
       {
         "id": "ex-04-number-4",
@@ -273,7 +287,9 @@
           "noun-kutta",
           "verb-khai",
           "gram-ba-aux"
-        ]
+        ],
+        "devanagari": "कुत्ता खात बा.",
+        "ttsText": "कुत्ता खात बा."
       },
       {
         "id": "ex-04-number-5",
@@ -290,7 +306,9 @@
           "noun-kutta",
           "verb-khai",
           "gram-ba-aux"
-        ]
+        ],
+        "devanagari": "कुत्तन खात बातें.",
+        "ttsText": "कुत्तन खात बातें."
       },
       {
         "id": "ex-04-number-6",
@@ -307,7 +325,9 @@
           "pron-i",
           "noun-nak",
           "gram-hai-aux"
-        ]
+        ],
+        "devanagari": "ई नकिया है.",
+        "ttsText": "ई नकिया है."
       },
       {
         "id": "ex-04-number-7",
@@ -324,7 +344,9 @@
           "pron-u",
           "noun-per",
           "gram-hai-aux"
-        ]
+        ],
+        "devanagari": "ऊ पेड़वा है.",
+        "ttsText": "ऊ पेड़वा है."
       },
       {
         "id": "ex-04-number-8",
@@ -343,7 +365,9 @@
           "noun-am",
           "verb-khai",
           "gram-hai-aux"
-        ]
+        ],
+        "devanagari": "राम अम्वन खा है.",
+        "ttsText": "राम अम्वन खा है."
       }
     ],
     "grammarNotes": [
@@ -461,7 +485,9 @@
           "noun-churi",
           "post-se",
           "verb-kate"
-        ]
+        ],
+        "devanagari": "फल्वा छूरी से काट!",
+        "ttsText": "फल्वा छूरी से काट!"
       },
       {
         "id": "ex-04-cases-2",
@@ -482,7 +508,9 @@
           "noun-pani",
           "verb-dai",
           "verb-deve"
-        ]
+        ],
+        "devanagari": "गाई के पानी दाई दे.",
+        "ttsText": "गाई के पानी दाई दे."
       },
       {
         "id": "ex-04-cases-3",
@@ -505,7 +533,9 @@
           "noun-pithi",
           "post-par",
           "verb-baithe"
-        ]
+        ],
+        "devanagari": "हम घोड़ा के पिट्ठी पर- बैठिला.",
+        "ttsText": "हम घोड़ा के पिट्ठी पर- बैठिला."
       },
       {
         "id": "ex-04-cases-4",
@@ -526,7 +556,9 @@
           "post-ke",
           "noun-citthi",
           "verb-parhe"
-        ]
+        ],
+        "devanagari": "हम बेटी के चिट्ठि पढ़िला.",
+        "ttsText": "हम बेटी के चिट्ठि पढ़िला."
       },
       {
         "id": "ex-04-cases-5",
@@ -549,7 +581,9 @@
           "noun-ghams",
           "verb-lave",
           "verb-deve"
-        ]
+        ],
+        "devanagari": "गैयन के खर्तिन घांस ला दे.",
+        "ttsText": "गैयन के खर्तिन घांस ला दे."
       },
       {
         "id": "ex-04-cases-6",
@@ -572,7 +606,9 @@
           "noun-pithi",
           "post-par",
           "verb-baithe"
-        ]
+        ],
+        "devanagari": "हम घोड़्वन के पिट्ठी पर- बैठिला.",
+        "ttsText": "हम घोड़्वन के पिट्ठी पर- बैठिला."
       },
       {
         "id": "ex-04-cases-7",
@@ -595,7 +631,9 @@
           "verb-pakare",
           "verb-leve",
           "gram-hai-aux"
-        ]
+        ],
+        "devanagari": "रुस्तम घोड़्व के पकड़ लेइस है.",
+        "ttsText": "रुस्तम घोड़्व के पकड़ लेइस है."
       },
       {
         "id": "ex-04-cases-8",
@@ -616,7 +654,9 @@
           "post-ke",
           "noun-churi",
           "verb-dekhe"
-        ]
+        ],
+        "devanagari": "हम बेटी के छूरी देखिला.",
+        "ttsText": "हम बेटी के छूरी देखिला."
       }
     ],
     "grammarNotes": [
@@ -736,7 +776,9 @@
           "noun-am",
           "verb-turle",
           "gram-ba-aux"
-        ]
+        ],
+        "devanagari": "गोपाल तीन ठे आम टुर्ले बा.",
+        "ttsText": "गोपाल तीन ठे आम टुर्ले बा."
       },
       {
         "id": "ex-04-num-2",
@@ -759,7 +801,9 @@
           "noun-anguthi",
           "verb-kine",
           "gram-hai-aux"
-        ]
+        ],
+        "devanagari": "मैया दूइ ठी अङ्गुट्ठी कीनिस है.",
+        "ttsText": "मैया दूइ ठी अङ्गुट्ठी कीनिस है."
       },
       {
         "id": "ex-04-num-3",
@@ -786,7 +830,9 @@
           "verb-mare-hit",
           "verb-deve",
           "gram-raha-aux"
-        ]
+        ],
+        "devanagari": "रजवा सात गो चोर के मर्वा देइस रहा.",
+        "ttsText": "रजवा सात गो चोर के मर्वा देइस रहा."
       },
       {
         "id": "ex-04-num-4",
@@ -807,7 +853,9 @@
           "noun-churi",
           "verb-kine",
           "gram-hai-aux"
-        ]
+        ],
+        "devanagari": "सिता एगो छुरी कीनिस है.",
+        "ttsText": "सिता एगो छुरी कीनिस है."
       },
       {
         "id": "ex-04-num-5",
@@ -830,7 +878,9 @@
           "noun-am",
           "verb-kine",
           "gram-hai-aux"
-        ]
+        ],
+        "devanagari": "मैया दस ठे आम कीनिस है.",
+        "ttsText": "मैया दस ठे आम कीनिस है."
       }
     ],
     "grammarNotes": [

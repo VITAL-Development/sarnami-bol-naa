@@ -12,7 +12,9 @@
           "loan-bel",
           "pron-u",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ बैल करे है.",
+        "ttsText": "ऊ बैल करे है."
       },
       {
         "id": "ex-dutch-2",
@@ -26,7 +28,9 @@
           "noun-ghar",
           "post-par",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "तू घर पर- क्लोप करे है.",
+        "ttsText": "तू घर पर- क्लोप करे है."
       },
       {
         "id": "ex-dutch-3",
@@ -39,7 +43,9 @@
           "pron-u",
           "noun-ghar",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ घर मोइ करे है.",
+        "ttsText": "ऊ घर मोइ करे है."
       },
       {
         "id": "ex-dutch-4",
@@ -51,7 +57,9 @@
           "loan-bekeur",
           "pron-ham",
           "noun-bhai"
-        ]
+        ],
+        "devanagari": "हम भाई बेकेउर कर्ली.",
+        "ttsText": "हम भाई बेकेउर कर्ली."
       },
       {
         "id": "ex-dutch-5",
@@ -64,7 +72,9 @@
           "pron-u",
           "noun-bahin",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ बहीण वक्ती करे है.",
+        "ttsText": "ऊ बहीण वक्ती करे है."
       },
       {
         "id": "ex-dutch-6",
@@ -76,7 +86,9 @@
           "loan-butu",
           "pron-u",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ बूटू भरे है.",
+        "ttsText": "ऊ बूटू भरे है."
       }
     ],
     "grammarNotes": [
@@ -209,7 +221,9 @@
           "loan-don",
           "pron-ham",
           "noun-citthi"
-        ]
+        ],
+        "devanagari": "हम चिट्ठि दोन करिला.",
+        "ttsText": "हम चिट्ठि दोन करिला."
       },
       {
         "id": "ex-other-2",
@@ -221,7 +235,9 @@
           "loan-las",
           "pron-u",
           "noun-ghari"
-        ]
+        ],
+        "devanagari": "ऊ घड़ी लास करिस.",
+        "ttsText": "ऊ घड़ी लास करिस."
       },
       {
         "id": "ex-other-3",
@@ -234,7 +250,9 @@
           "pron-u",
           "noun-ghar",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ घर यूरू करे है.",
+        "ttsText": "ऊ घर यूरू करे है."
       },
       {
         "id": "ex-other-4",
@@ -247,7 +265,9 @@
           "noun-launda",
           "noun-citthi",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "लौन्दा चिट्ठि मोर्सू करे है.",
+        "ttsText": "लौन्दा चिट्ठि मोर्सू करे है."
       }
     ],
     "grammarNotes": [

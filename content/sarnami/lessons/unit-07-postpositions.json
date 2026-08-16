@@ -25,7 +25,9 @@
           "noun-batiya",
           "verb-parhe",
           "gram-bati"
-        ]
+        ],
+        "devanagari": "बेद में हम ई बतिया पर्ह्ले बाटी.",
+        "ttsText": "बेद में हम ई बतिया पर्ह्ले बाटी."
       },
       {
         "id": "ex-p1-2",
@@ -45,7 +47,9 @@
           "post-ke-bhittar",
           "post-ke-bhittar",
           "gram-bati"
-        ]
+        ],
+        "devanagari": "हम घर के भित्तर बाटी.",
+        "ttsText": "हम घर के भित्तर बाटी."
       },
       {
         "id": "ex-p1-3",
@@ -65,7 +69,9 @@
           "post-ke-bahar",
           "post-ke-bahar",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "ऊ घर के बाहर है.",
+        "ttsText": "ऊ घर के बाहर है."
       },
       {
         "id": "ex-p1-4",
@@ -85,7 +91,9 @@
           "noun-per",
           "post-par",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "आम पेड़ पर- है.",
+        "ttsText": "आम पेड़ पर- है."
       },
       {
         "id": "ex-p1-6",
@@ -106,7 +114,9 @@
           "post-ke-uppar",
           "post-ke-uppar",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "पेड़ घर के उप्पर है.",
+        "ttsText": "पेड़ घर के उप्पर है."
       },
       {
         "id": "ex-p1-7",
@@ -127,7 +137,9 @@
           "post-ke-nicce",
           "post-ke-nicce",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "कुत्ता घर के नीच्चे है.",
+        "ttsText": "कुत्ता घर के नीच्चे है."
       },
       {
         "id": "ex-p1-8",
@@ -138,7 +150,9 @@
         },
         "vocabRefs": [
           "post-se"
-        ]
+        ],
+        "devanagari": "अपने बाप से ई बतिया बोल दिये.",
+        "ttsText": "अपने बाप से ई बतिया बोल दिये."
       },
       {
         "id": "ex-p1-9",
@@ -159,7 +173,9 @@
           "post-ke-bhittar",
           "post-ke-bhittar",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "आम घर के भित्तर है.",
+        "ttsText": "आम घर के भित्तर है."
       }
     ],
     "grammarNotes": [
@@ -341,7 +357,9 @@
           "pron-ham",
           "gram-na",
           "verb-jai"
-        ]
+        ],
+        "devanagari": "तोर बिना हम न जाब.",
+        "ttsText": "तोर बिना हम न जाब."
       },
       {
         "id": "ex-p2-2",
@@ -360,7 +378,9 @@
           "pron-tu",
           "post-ke-sath",
           "verb-jai"
-        ]
+        ],
+        "devanagari": "हम तोर साथ जाब.",
+        "ttsText": "हम तोर साथ जाब."
       },
       {
         "id": "ex-p2-3",
@@ -381,7 +401,9 @@
           "post-mem",
           "noun-churi",
           "gram-raha-aux"
-        ]
+        ],
+        "devanagari": "ओकरे हाथे में छूरी रहा.",
+        "ttsText": "ओकरे हाथे में छूरी रहा."
       },
       {
         "id": "ex-p2-4",
@@ -403,7 +425,9 @@
           "pron-ham",
           "gram-na",
           "verb-jai"
-        ]
+        ],
+        "devanagari": "एकर बिना हम न जाब.",
+        "ttsText": "एकर बिना हम न जाब."
       },
       {
         "id": "ex-p2-5",
@@ -425,7 +449,9 @@
           "pron-ham",
           "gram-na",
           "verb-jai"
-        ]
+        ],
+        "devanagari": "ओकर बिना हम न जाब.",
+        "ttsText": "ओकर बिना हम न जाब."
       },
       {
         "id": "ex-p2-6",
@@ -445,7 +471,9 @@
           "pron-ekar",
           "post-ke-sath",
           "verb-jai"
-        ]
+        ],
+        "devanagari": "हम एकर साथ जाब.",
+        "ttsText": "हम एकर साथ जाब."
       },
       {
         "id": "ex-p2-7",
@@ -466,7 +494,9 @@
           "post-ke-lage",
           "post-ke-lage",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "कुत्ता घर के लगे है.",
+        "ttsText": "कुत्ता घर के लगे है."
       },
       {
         "id": "ex-p2-8",
@@ -487,7 +517,9 @@
           "post-ke-age",
           "post-ke-age",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "कुत्ता घर के आगे है.",
+        "ttsText": "कुत्ता घर के आगे है."
       },
       {
         "id": "ex-p2-9",
@@ -508,7 +540,9 @@
           "post-ke-piche",
           "post-ke-piche",
           "gram-hai"
-        ]
+        ],
+        "devanagari": "कुत्ता घर के पिछे है.",
+        "ttsText": "कुत्ता घर के पिछे है."
       },
       {
         "id": "ex-p2-10",
@@ -528,7 +562,9 @@
           "pron-okar",
           "post-ke-sath",
           "verb-jai"
-        ]
+        ],
+        "devanagari": "हम ओकर साथ जाब.",
+        "ttsText": "हम ओकर साथ जाब."
       }
     ],
     "grammarNotes": [
