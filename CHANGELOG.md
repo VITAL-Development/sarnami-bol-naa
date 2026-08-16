@@ -19,6 +19,26 @@ dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Added
+
+- `settings/sarnami/language-settings.json`: `welcome` block (`headline`,
+  `headlineTranslations`, `intro`, `introTranslations`, `teaches`,
+  `teachesTranslations`) — short "what this course teaches" onboarding copy
+  for the frontend's onboarding welcome screen, distinct from the
+  `content/sarnami/units/unit-00-about-sarnami.json` language-background
+  lesson. Authored nl-bare (`defaultUiLanguage` is `"nl"`) with an `en`
+  translation on each field, per `api-contract.md` 2.6.0's optional
+  `welcome` object on `GET /settings` (#310, rarelang#17,
+  rarelang-pwa#150).
+- `contracts.lock.json`: re-pinned `docs/contracts/api-contract.md` to
+  2.6.1 (rarelang main's current version — a doc-only PATCH over the 2.6.0
+  `welcome`/`onboarding` addition, no shape change) and added the two
+  JSON Schema entries (`schemas/audio-generate-request.schema.json`,
+  `schemas/user-progress-response.schema.json`) that rarelang's
+  `contracts-manifest.mjs` started tracking as of 2.6.1 but this repo's
+  lock file had not yet recorded, which would otherwise have left the
+  `contracts-discovery` CI job red independent of this change.
+
 ### Changed
 
 - `content/sarnami/audio/*.mp3`: regenerated all 312 entries with
