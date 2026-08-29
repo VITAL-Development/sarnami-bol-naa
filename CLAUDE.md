@@ -2,18 +2,23 @@
 
 ## What this repo is
 
-This repo is **content and branding only** — Sarnami's
-knowledge base (`content/sarnami/`, `settings/sarnami/`) — not an app. The
+This repo is **content and branding**, not an app — Sarnami's
+knowledge base (`content/sarnami/`, `settings/sarnami/`) — plus the
+dependency-free `scripts/` tooling that authors/generates some of that
+content (audio, Devanagari transliteration, SCS word-list). The
 generic frontend app and backend server that consume this content live in
 separate standalone repos.
 
-**There is no `npm run dev`/`npm run build`/`npm test`/`package.json` here.**
-Don't look for `src/`, `vite.config.ts`, or a deploy pipeline — this repo
-doesn't have one, and never generates PWA icons itself — `branding.icons`
-paths returned by `GET /settings` are relative and resolve against the
-frontend app's own origin, so the generated files live in its `public/`,
-not here. `git log <removed-path>` still resolves to that path's original
-history in this repo, if you need it.
+**There is no `package.json`/`npm run dev`/`npm run build` here, and no
+frontend/backend source.** Don't look for `src/`, `vite.config.ts`, or a
+deploy pipeline — this repo doesn't have one, and never generates PWA icons
+itself — `branding.icons` paths returned by `GET /settings` are relative and
+resolve against the frontend app's own origin, so the generated files live
+in its `public/`, not here. `scripts/*.mjs` are plain Node (`node:*`
+builtins + local imports only, no `npm install` needed) run directly with
+`node scripts/<name>.mjs` or `node --test scripts/<name>.test.mjs` — see
+"Generated files" below for what they own. `git log <removed-path>` still
+resolves to that path's original history in this repo, if you need it.
 
 ## Layout
 
@@ -21,12 +26,20 @@ history in this repo, if you need it.
 content/sarnami/{vocab,units,lessons}/*.json   # authored knowledge base
 content/sarnami/grammar/grammar.json           # standalone GET /grammar reference (topic notes, distinct
                                                 # from per-lesson grammar notes in lessons/*.json)
+content/sarnami/audio/*.mp3                    # generated pronunciation audio, one per vocab entry
+                                                # (referenced by that entry's audioUrl)
 settings/sarnami/language-settings.json        # romanization/alphabet/audio + branding + defaultUiLanguage
 settings/sarnami/ui/{en,nl}/strings.json       # static UI chrome strings (nav/buttons/labels) — not content
+settings/sarnami/scs-word-list.json            # generated SCS -> canonical-diacritical lookup (see below)
+settings/sarnami/transliteration-rules.json    # romanization/SCS rule table, CI-validated for ordering/dedup
+scripts/*.mjs, scripts/*.test.mjs              # dependency-free Node tooling: audio generation, Sarnami<->
+                                                # Devanagari/SCS transliteration, generated-field regeneration
 authored_docs/byakaran/*.md                    # grammar reference content was authored from
 authored_docs/sarnamibhasa-vocab.md            # sarnamibhasa.nl second-source vocab (cross-check)
 authored_docs/lesson-plan.md                   # unit sequencing, incl. CEFR tiers (Beginner/Intermediate/Advanced)
+sentence-drafts/*.review.md                    # per-unit example-sentence drafts pending review/extraction
 docs/versioning.md                             # release/versioning policy (see below)
+docs/dictionary-growth-design.md               # proposed (not yet implemented) design, issue #282
 CHANGELOG.md                                   # content/schema changes per release
 ```
 
@@ -117,6 +130,22 @@ Don't conflate the two when adding a language-facing string — chrome text
 goes in `settings/sarnami/ui/`, authored content glosses go in the
 `*Translations` fields on the relevant `content/sarnami/` item.
 
+## Generated files
+
+Some vocab/settings content is mechanically derived, not hand-authored —
+CI fails a PR that edits the source without regenerating the derived
+output (like a stale lockfile):
+- `VocabItem.devanagari`/`ttsText` and each lesson's
+  `exampleSentences[].devanagari`/`ttsText` are derived from the item's
+  Sarnami text via `toDevanagari()` in `scripts/devanagari-transliterate.mjs`
+  — regenerate with `node scripts/generate-devanagari-table.mjs`.
+- `settings/sarnami/scs-word-list.json` is derived from every vocab
+  entry's `word` field via `scripts/generate-scs-word-list.mjs` — regenerate
+  with `node scripts/generate-scs-word-list.mjs`.
+
+Run either generator with `--check` (as CI does) to verify freshness
+without writing.
+
 ## CI content validation
 
 Every PR and manual dispatch runs `.github/workflows/validate-content.yml`,
@@ -137,6 +166,14 @@ job runs a cost-bounded Claude Code pass (only on diffs touching
 `content/`/`authored_docs`, capped turns, non-blocking) for the two
 judgment-shaped contracts that aren't schema-checkable: CEFR-tier
 correctness and the A2 Dutch-readability ceiling.
+
+The same workflow also runs several changed-files-gated jobs that skip
+entirely on PRs that don't touch their inputs: validating
+`transliteration-rules.json`'s rule-ordering/dedup contract (against the
+backend engine's own validator, since plain JSON Schema can't express
+ordering across sibling array items), checking the two generated-file
+pairs above are up to date (`--check`/`--check-sentences`), and running the
+`scripts/*.test.mjs` unit suites for the scripts that touch them.
 
 ## Branding
 
